@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Vorschau (Bauwerkzeug)</title>
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/basis.css">
+  <link rel="stylesheet" href="../assets/css/komponenten.css">
+  <link rel="stylesheet" href="../assets/css/diagramme.css">
+  <link rel="stylesheet" href="../assets/css/aufgaben.css">
+  <link rel="stylesheet" href="../assets/css/aufgaben-ordnen.css">
+  <link rel="stylesheet" href="../assets/css/aufgaben-luecke.css">
+</head>
+<body>
+  <!-- Bauwerkzeug, nicht Teil des Kurses.
+       ?diagramm=maslow            ein Diagramm (mit &beschriften=1 im Abfragemodus, &gruppe=stufen)
+       ?diagramm=alle              alle Diagramme untereinander
+       ?aufgabe=zuordnung          Musteraufgabe dieses Typs aus daten/_muster.json im echten Rahmen
+       ?aufgabe=alle               alle Musteraufgaben
+       &thema=dunkel               dunkles Thema erzwingen
+       &geprueft=1                 Aufgaben sofort mit "bin unsicher" prüfen (zeigt den Rückmeldezustand) -->
+  <main class="seite seite--schmal" id="inhalt"></main>
+  <script type="module">
+    import { h } from '../assets/js/mini.js'
+    import { renderDiagramm, DIAGRAMM_IDS, holeDiagramm, abfragbareLabels } from '../assets/js/diagramme/index.js'
+    import { zeigeAufgabe } from '../assets/js/aufgabenrahmen.js'
+    import { baueIndex } from '../assets/js/daten.js'
+
+    const p = new URLSearchParams(location.search)
+    if (p.get('thema')) document.documentElement.setAttribute('data-thema', p.get('thema'))
+    const inhalt = document.getElementById('inhalt')
+
+    if (p.get('diagramm')) {
+      const ids = p.get('diagramm') === 'alle' ? DIAGRAMM_IDS : [p.get('diagramm')]
+      for (const id of ids) {
+        const d = holeDiagramm(id)
+        inhalt.appendChild(h('h3', (d && d.titel) || id))
+        let verdeckt = null
+        if (p.get('beschriften')) {
+          verdeckt = new Map(abfragbareLabels(id, p.get('gruppe')).map((l, i) => [l.id, i + 1]))
+        }
+        inhalt.appendChild(renderDiagramm(id, { verdeckt }))
+      }
+    }
+
+    if (p.get('aufgabe')) {
+      const muster = await (await fetch('../daten/_muster.json')).json()
+      const daten = baueIndex({ kurs: { zeitbudgetMin: 600 }, module: [{ id: 'm0', zeitMin: 1, themen: muster.themen }], personen: [{ name: 'Frederick Herzberg', kurz: 'Zweifaktoren-Theorie', beitrag: 'Zweifaktoren-Theorie', folien: [47] }], glossar: [], quellen: { quellen: [] } })
+      const app = { daten, speicher: { zustand: { notizen: {} }, aendere() {} }, modell: null }
+      const aufgaben = muster.themen[0].aufgaben.filter((a) => p.get('aufgabe') === 'alle' || a.typ === p.get('aufgabe'))
+      for (const a of aufgaben) {
+        const host = h('div', { style: { marginBottom: '2rem' } })
+        inhalt.appendChild(host)
+        zeigeAufgabe(host, a, { app, zaehler: 'Vorschau', onErgebnis: (e) => console.log('Ergebnis', a.id, JSON.stringify(e)), onWeiter: () => {} })
+        if (p.get('geprueft')) {
+          const knopf = host.querySelectorAll('.aufgabe__abgabeknoepfe button')[1]
+          if (knopf) { knopf.disabled = false; knopf.click() }
+        }
+      }
+    }
+  </script>
+</body>
+</html>

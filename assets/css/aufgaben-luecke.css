@@ -1,0 +1,96 @@
+/* Lückentext (luecke.js) und Abbildung beschriften (beschriften.js).
+   Die Lücken laufen im Textfluss mit und brechen auf schmalen Schirmen mit dem Text um. Deshalb hat der
+   Absatz eine hohe Zeilenhöhe: die Trefferflächen sind 44 px hoch und sollen sich nicht berühren. */
+
+.lueckentext {
+  margin: 0;
+  font-size: var(--gr-l);
+  line-height: 2.7;
+}
+.luecke-stelle { white-space: normal; }
+
+.luecke {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.4em;
+  min-height: 2.75rem; padding: 0 var(--a-3);
+  border: 2px dashed var(--linie-stark); border-radius: var(--radius-s);
+  background: var(--flaeche-2); color: var(--tinte);
+  font: inherit; font-size: var(--gr-m); font-weight: 650; line-height: 1.2;
+  vertical-align: middle; text-align: center;
+  -webkit-tap-highlight-color: transparent;
+}
+.luecke--wahl { min-width: 7ch; cursor: pointer; }
+.luecke--wahl.ist-gefuellt {
+  border-style: solid; border-color: var(--primaer);
+  background: var(--primaer-sanft); color: var(--primaer);
+}
+.luecke--feld { cursor: text; background: var(--flaeche); border-style: solid; text-align: left; }
+.luecke--feld::placeholder { color: var(--tinte-3); }
+
+.luecke.ist-gewaehlt {
+  border-style: solid; border-color: var(--fokus);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--fokus) 28%, transparent);
+}
+.luecke.ist-richtig { border-style: solid; border-color: var(--gut); background: var(--gut-sanft); color: var(--gut); }
+.luecke.ist-falsch { border-style: solid; border-color: var(--schlecht); background: var(--schlecht-sanft); color: var(--schlecht); }
+.luecke[disabled] { opacity: 1; cursor: default; }
+
+.luecke__nummer { font-size: var(--gr-xs); font-weight: 700; color: var(--tinte-3); font-variant-numeric: tabular-nums; }
+.luecke--wahl.ist-gefuellt .luecke__nummer { color: var(--primaer); }
+.luecke.ist-richtig .luecke__nummer { color: var(--gut); }
+.luecke.ist-falsch .luecke__nummer { color: var(--schlecht); }
+.luecke__wort { white-space: nowrap; }
+
+/* Urteil und richtige Lösung stehen neben der Lücke, damit die Rückmeldung nicht nur eine Farbe ist */
+.luecke__urteil { display: inline-flex; align-items: center; vertical-align: middle; margin-left: 0.25em; }
+.luecke__urteil svg { width: 1.2em; height: 1.2em; }
+.luecke__urteil.ist-richtig { color: var(--gut); }
+.luecke__urteil.ist-falsch { color: var(--schlecht); }
+.luecke__loesung, .beschriftung__loesung { vertical-align: middle; margin-left: 0.35em; font-size: var(--gr-s); }
+.luecke__loesung svg, .beschriftung__loesung svg { width: 1em; height: 1em; flex: none; }
+
+.lueckenhinweis { margin: var(--a-4) 0 0; }
+
+/* Wortbank */
+.wortbank {
+  display: flex; flex-wrap: wrap; gap: var(--a-2);
+  margin-top: var(--a-2); padding: var(--a-3);
+  border: 1px solid var(--linie); border-radius: var(--radius-m); background: var(--flaeche-2);
+}
+.wortbank[hidden] { display: none; }
+.bankwort.ist-gewaehlt {
+  background: var(--primaer); border-color: var(--primaer); color: var(--auf-primaer);
+}
+.bankwort[disabled] { opacity: 0.4; text-decoration: line-through; }
+
+/* Abbildung beschriften */
+.beschriftungen { display: grid; gap: var(--a-2); margin-top: var(--a-2); }
+/* Raster statt Zeile, damit alle Auswahlfelder gleich breit bleiben, auch wenn die Lösung daneben steht */
+.beschriftung {
+  display: grid; grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center; gap: var(--a-2) var(--a-3);
+}
+.beschriftung__nummer {
+  flex: none; display: grid; place-items: center;
+  width: 2.25rem; height: 2.25rem; border-radius: 50%;
+  background: var(--primaer); color: var(--auf-primaer);
+  font-size: var(--gr-s); font-weight: 700; font-variant-numeric: tabular-nums; cursor: pointer;
+}
+.beschriftung__auswahl {
+  min-width: 0; min-height: 2.75rem; padding: 0.45rem 0.6rem;
+  background: var(--flaeche); color: var(--tinte);
+  border: 1px solid var(--linie-stark); border-radius: var(--radius-s);
+}
+.beschriftung__auswahl[disabled] { opacity: 1; color: var(--tinte-2); background: var(--flaeche-2); }
+.beschriftung.ist-richtig .beschriftung__nummer { background: var(--gut); }
+.beschriftung.ist-falsch .beschriftung__nummer { background: var(--schlecht); }
+.beschriftung.ist-richtig .beschriftung__auswahl { border-color: var(--gut); }
+.beschriftung.ist-falsch .beschriftung__auswahl { border-color: var(--schlecht); }
+.beschriftung__urteil { display: inline-flex; align-items: center; }
+.beschriftung__loesung { grid-column: 2 / -1; justify-self: start; margin-left: 0; }
+.beschriftung__urteil svg { width: 1.25em; height: 1.25em; }
+.beschriftung.ist-richtig .beschriftung__urteil { color: var(--gut); }
+.beschriftung.ist-falsch .beschriftung__urteil { color: var(--schlecht); }
+
+/* Fehlt die Abbildung, gibt es nur den Hinweis mit dem Knopf zum Überspringen: die Abgabeknöpfe des
+   Rahmens wären hier ohne Funktion. */
+.beschriften-nur-hinweis ~ .aufgabe__abgabe { display: none; }

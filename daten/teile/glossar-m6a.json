@@ -1,0 +1,238 @@
+{
+  "begriffe": [
+    {
+      "begriff": "Change-Management & Zukunft der Führung",
+      "text": "Überschrift des Kapitels in MAF VI. Der hier erfasste Teil trägt die Unterzeile „Richtiges und gutes Change-Management“ und behandelt Problemarten, Change-Modelle, die Change-Kurve und den Umgang mit Widerstand.",
+      "folien": [76, 77, 78, 79], "themen": ["m6-t1", "m6-t2", "m6-t3", "m6-t4", "m6-t5", "m6-t6"],
+      "beleg": "Change-Management & Zukunft der Führung", "belegQuelle": "folie-48"
+    },
+    {
+      "begriff": "einfache Probleme",
+      "text": "Erste Problemart nach Gomez/Probst: monokausale Zusammenhänge, eine Antwort, keine Optionen, Routinen, ggf. best practices.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "einfache Probleme: … monokausale Zusammenhänge", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "komplizierte Probleme",
+      "text": "Zweite Problemart nach Gomez/Probst: häufig kausale Zusammenhänge, mehrere Lösungsoptionen, Analyse, Expertenwissen. Die Folie warnt ausdrücklich: Gefahr: copy/paste!",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "komplizierte Probleme: … Gefahr: copy/paste!", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "komplexe Probleme",
+      "text": "Dritte Problemart nach Gomez/Probst: dynamische vernetzte Kausalitäten, umfassender Lösungsraum, systemische Methoden. Nicht zu verwechseln mit komplizierten Problemen, bei denen Analyse und Expertenwissen genügen.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "komplexe Probleme: … dynamische vernetzte Kausalitäten", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "chaotische Probleme",
+      "text": "Vierte Problemart nach Gomez/Probst: höchste Umweltdynamik, Stress, Engpassfaktor Zeit, autoritäres Management nötig, Notfallpläne vorhalten & üben.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "chaotische Probleme: … höchste Umweltdynamik, Stress", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "tame problems",
+      "text": "Erste Problemart nach Grint: wiederkehrende Probleme, operationaler Lösungsraum, Management/Prozesse/Ratio, mittelfristige Wirksamkeit.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "tame problems: … wiederkehrende Probleme", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "wicked problems",
+      "text": "Zweite Problemart nach Grint: komplexe, „unschöne“ Probleme, strategischer Lösungsraum, Kollaboration, Fragen stellen, langfristige Wirksamkeit.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "wicked problems: … strategischer Lösungsraum", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "critical problems",
+      "text": "Dritte Problemart nach Grint: plötzliche Krise, Schocksituation, taktischer Lösungsraum, Kommandos, Antworten geben, kurzfristige Wirksamkeit.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "critical problems: … plötzliche Krise; Schocksituation", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "technisches Problem",
+      "text": "Erste Problemart nach Heifetz: klar abgrenzbares Problem, enger, erlernbarer Lösungsraum, Expertenwissen und -können.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "technisches Problem: … klar abgrenzbares Problem", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "adaptives Problem",
+      "text": "Zweite Problemart nach Heifetz: Problem z.T. schwer eingrenzbar, Lösungsraum nicht sofort evident, Änderungen in Verhalten, Werten, Einstellungen erforderlich. Die Folie hebt den letzten Punkt rot hervor.",
+      "folien": [76, 77], "themen": ["m6-t1", "m6-t2"],
+      "beleg": "adaptives Problem: … Lösungsraum nicht sofort evident", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Problemkonsens vor Lösungskonsens",
+      "text": "Merksatz am unteren Rand der Folie 76. Erst Übereinstimmung darüber, welches Problem vorliegt und welche Aspekte steuerbar, nicht steuerbar und zu überwachen sind, danach die Lösung.",
+      "folien": [76], "themen": ["m6-t1"],
+      "beleg": "-> Problemkonsens vor Lösungskonsens!", "belegQuelle": "folie-48"
+    },
+    {
+      "begriff": "Neben-, Rück- und Folgewirkungen",
+      "text": "Zweite Zeile des Merksatzes auf Folie 76: Zur Problemklärung gehört, diese Wirkungen zu ermitteln. Die Folie erklärt die drei Begriffe nicht weiter.",
+      "folien": [76], "themen": ["m6-t1"],
+      "beleg": "..und Neben-, Rück- und Folgewirkungen ermitteln!", "belegQuelle": "folie-48"
+    },
+    {
+      "begriff": "best practices",
+      "text": "Auf Folie 77 bei den einfachen Problemen genannt: „Routinen, ggf. best practices“. Das Skript erklärt den Begriff nicht.",
+      "folien": [77], "themen": ["m6-t2"],
+      "beleg": "einfache Probleme: … Routinen, ggf. best practices", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "systemische Methoden",
+      "text": "Auf Folie 77 als Vorgehen bei komplexen Problemen genannt. Das Skript erklärt den Begriff nicht.",
+      "folien": [77], "themen": ["m6-t2"],
+      "beleg": "komplexe Probleme: … systemische Methoden", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "(Alters-)Kohorten",
+      "text": "Auf Folie 77 in der Frage „Und wie werden welche (Alters-)Kohorten angesprochen und involviert?“ genannt. Die Folie beantwortet die Frage nicht und erklärt den Begriff nicht.",
+      "folien": [77], "themen": ["m6-t2"],
+      "beleg": "Und wie werden welche (Alters-)Kohorten angesprochen und involviert?", "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "3-Schritt-Modell",
+      "text": "Change-Modell von Kurt Lewin, im Skript mit 1951 angegeben: Auftauen, Verändern, Einfrieren.",
+      "folien": [78], "themen": ["m6-t3"],
+      "beleg": "Kurt Lewins 3-Schritt-Modell (1951) Auftauen Verändern Einfrieren", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "8-Schritt-Modell",
+      "text": "Change-Modell von John Kotter, im Skript mit 1995 angegeben: Dringlichkeit erzeugen, Etablierung Führungsteam, Vision entwickeln, Vision kommunizieren, Befähigung/ Bevollmächtigung, kfr. Ziele erreichen/ Erfolge erzielen, erreichte Ziele/ Erfolge sichern, Konsolidierung/ Change kultivieren.",
+      "folien": [78], "themen": ["m6-t3"],
+      "beleg": "John Kotters 8-Schritt-Modell (1995)", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Change-Kurve",
+      "text": "Kurvendiagramm auf Folie 78 unter der Unterzeile „Traditionelles Vorgehen im akuten Change I: Change-Modelle / Change-Kurve“. Es zeigt das Leistungsniveau über der Zeit mit acht Stationen von Vorahnung/ Gerüchte bis Integration/ Manifestation.",
+      "folien": [78], "themen": ["m6-t4"],
+      "beleg": "Traditionelles Vorgehen im akuten Change I: Change-Modelle / Change-Kurve", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "100% bzw. IST",
+      "text": "Rote Beschriftung an der waagerechten blauen Bezugslinie der Change-Kurve. Sie markiert das Ausgangsniveau der Leistung, von dem aus die Kurve absackt und über das sie am Ende wieder hinaussteigt.",
+      "folien": [78], "themen": ["m6-t4"],
+      "beleg": "Leistungsniveau 100% bzw. IST", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "emotionale Akzeptanz",
+      "text": "Station der Change-Kurve und ihr tiefster Punkt, auf der Folie mit einem roten Ausrufezeichen markiert. Ein roter Doppelpfeil verbindet sie senkrecht mit der Linie 100% bzw. IST. Sie folgt auf die rationale Akzeptanz.",
+      "folien": [78], "themen": ["m6-t4"],
+      "beleg": "emotionale Akzeptanz mit einem roten Ausrufezeichen ! (tiefster Punkt der Kurve)", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Projekt-Phasen",
+      "text": "Leiste unter der Zeitachse der Change-Kurve: Entscheidung, Ankündigung, Konzeption, Umsetzung, Roll-out. Fünf gepunktete Linien verbinden sie mit der Achse.",
+      "folien": [78], "themen": ["m6-t4"],
+      "beleg": "Projekt-Phasen: Entscheidung Ankündigung Konzeption Umsetzung Roll-out", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Management-Aufgaben",
+      "text": "Vier Aufgaben am unteren Rand der Folie 78: Information/Kommunikation/Einbinden, Aufbau Fähigkeiten/Tools/Durchbruchsthemen, Coaching, Controlling/Monitoring. Sie sind als überlappende Doppelpfeile gezeichnet, lösen einander also nicht ab. Der Begriff „Durchbruchsthemen“ wird nicht erklärt.",
+      "folien": [78], "themen": ["m6-t4"],
+      "beleg": "Management-Aufgaben Information/Kommunikation/Einbinden Aufbau Fähigkeiten/Tools/Durchbruchsthemen Coaching Controlling/Monitoring", "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Commitment",
+      "text": "Erste, linke Stufe der Pfeilkette auf Folie 79, also die stärkste Zustimmung. Die Folie erläutert die Kette nicht und nennt keine Quelle.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Commitment > Involvement > Support > Apathy", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Involvement",
+      "text": "Zweite Stufe der Pfeilkette auf Folie 79, zwischen Commitment und Support. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Commitment > Involvement > Support > Apathy", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Support",
+      "text": "Dritte Stufe der Pfeilkette auf Folie 79, die letzte vor der Apathy. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Commitment > Involvement > Support > Apathy", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Apathy",
+      "text": "Vierte und mittlere Stufe der Pfeilkette auf Folie 79, zwischen Support und Passive resistance. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Support > Apathy > Passive resistance", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Passive resistance",
+      "text": "Fünfte Stufe der Pfeilkette auf Folie 79 und die erste Form von Widerstand. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Apathy > Passive resistance > Active resistance", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Active resistance",
+      "text": "Sechste Stufe der Pfeilkette auf Folie 79, zwischen Passive und Aggressive resistance. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Passive resistance > Active resistance > Aggressive resistance", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Aggressive resistance",
+      "text": "Siebte und letzte Stufe der Pfeilkette auf Folie 79, die schärfste Form von Widerstand. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Active resistance > Aggressive resistance", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Nicht-Wissen",
+      "text": "Erste Ursache von Widerstand auf Folie 79. Folgen laut Folie: Orientierungslosigkeit und Unsicherheit.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Nicht-Wissen -> Orientierungslosigkeit -> Unsicherheit", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Nicht-Können",
+      "text": "Zweite Ursache von Widerstand auf Folie 79. Folgen laut Folie: Versagensängste und soziale Scham.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Nicht-Können -> Versagensängste -> soziale Scham", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Nicht-Wollen",
+      "text": "Dritte Ursache von Widerstand auf Folie 79. Folge laut Folie: grds. Ablehnung von Neuem, Change, Innovation.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Nicht-Wollen -> grds. Ablehnung von Neuem, Change, Innovation", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Three Levels of Resistance",
+      "text": "Eingebettetes Bild unten links auf Folie 79 mit drei Stufen: Level 1: I don't get it (Information—facts, figures, ideas), Level 2: I don't like it (Emotional reaction to the change), Level 3: I don't like you (Trust and confidence). Es ist englisch, nennt keinen Urheber und wird im Folientext nicht aufgegriffen oder erklärt.",
+      "folien": [79], "themen": ["m6-t5"],
+      "beleg": "Three Levels of Resistance", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Dips",
+      "text": "Im Ziel der Folie 79 genannt: „Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation“. Die Folie setzt den Begriff in Anführungszeichen, erklärt ihn aber nicht.",
+      "folien": [79], "themen": ["m6-t6"],
+      "beleg": "Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "unerwünschte Fluktuation",
+      "text": "Zweite Größe, die das Ziel auf Folie 79 klein halten will, neben dem „Dip“. Der Begriff wird auf der Folie nicht erklärt.",
+      "folien": [79], "themen": ["m6-t6"],
+      "beleg": "Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Empowerment",
+      "text": "Auf Folie 79 als Maßnahme genannt: „Empathie, Empowerment anwenden“. Das Skript erklärt den Begriff an dieser Stelle nicht.",
+      "folien": [79], "themen": ["m6-t6"],
+      "beleg": "Empathie, Empowerment anwenden", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Perspektivenwechsel",
+      "text": "Auf Folie 79 mehrfach als Maßnahme genannt: „Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation“ und „Empathie, Perspektivenwechsel, Resilienz,“. Das Skript erklärt den Begriff nicht.",
+      "folien": [79], "themen": ["m6-t6"],
+      "beleg": "Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Resilienz",
+      "text": "Auf Folie 79 als Maßnahme genannt: „Empathie, Perspektivenwechsel, Resilienz,“. Der Punkt endet auf der Folie mit einem Komma ohne Fortsetzung; der Begriff wird nicht erklärt.",
+      "folien": [79], "themen": ["m6-t6"],
+      "beleg": "Empathie, Perspektivenwechsel, Resilienz,", "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Incentives",
+      "text": "Auf Folie 79 in einem Argument der Betroffenen genannt: „Welche neuen Incentives, Belohnungs- und Sanktionsmechanismen greifen?“ Der Begriff wird nicht erklärt.",
+      "folien": [79], "themen": ["m6-t6"],
+      "beleg": "Welche neuen Incentives, Belohnungs- und Sanktionsmechanismen greifen?", "belegQuelle": "folie-51"
+    }
+  ]
+}

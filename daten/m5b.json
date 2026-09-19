@@ -1,0 +1,707 @@
+{
+  "id": "m5",
+  "titel": "Personalauswahl, -beurteilung und -entwicklung",
+  "vorlesung": "MAF V",
+  "themen": [
+    {
+      "id": "m5-t11",
+      "titel": "Allgemeine Beurteilungsfehler I: Attribution, Stereotype, Halo, Kleber",
+      "folien": [72],
+      "gewicht": 3,
+      "lernstoff": true,
+      "lernkarten": [
+        {
+          "id": "m5-t11-k1",
+          "titel": "Attributionsfehler, insbesondere der fundamentale",
+          "folien": [72],
+          "bloecke": [
+            { "typ": "einfach", "text": "Wenn du erklärst, warum jemand sich so verhalten hat, kannst du auf zwei Ursachen zeigen: auf die Person oder auf die Situation. Das Skript sagt, dass beides zusammen das Verhalten bestimmt. Beim [[Fundamentaler Attributionsfehler|fundamentalen Attributionsfehler]] wirst du einseitig: Du schreibst das Verhalten der Veranlagung zu und siehst die Umstände nicht." },
+            { "typ": "liste", "titel": "So steht es im Skript", "punkte": [
+              "Grundsatz: Verhalten wird durch Persönlichkeitsmerkmale und Kontext bestimmt",
+              "bei Verhaltensbeurteilung werden bestimmte Eigenschaften als Ursache für das Handeln betrachtet",
+              "fundamentaler: Einfluss der Situation wird unter-, Einfluss der persönlichen Veranlagung überschätzt!",
+              "Gefahr verkehrter Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen!"
+            ] },
+            { "typ": "definition", "begriff": "Fundamentaler Attributionsfehler", "text": "Bei der Beurteilung von Verhalten wird der Einfluss der **Situation unterschätzt** und der Einfluss der **persönlichen Veranlagung überschätzt**. Folge laut Skript: die Gefahr verkehrter Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen." },
+            { "typ": "hinweis", "text": "Das Skript unterscheidet den Attributionsfehler allgemein und den *fundamentalen* Attributionsfehler. Die Überschrift lautet „Attributionsfehler, insbesondere fundamentale“ – das Fundamentale ist also der hervorgehobene Sonderfall." }
+          ]
+        },
+        {
+          "id": "m5-t11-k2",
+          "titel": "Soziale Stereotype",
+          "folien": [72],
+          "bloecke": [
+            { "typ": "einfach", "text": "Ein [[Soziale Stereotype|soziales Stereotyp]] ist eine Erwartung an eine ganze Gruppe. Der Fehler passiert, wenn du diese Erwartung ungeprüft auf die einzelne Person vor dir überträgst. Das Skript nennt das „Überwälzen“." },
+            { "typ": "definition", "begriff": "Soziale Stereotype", "text": "Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen." },
+            { "typ": "liste", "titel": "Beispiele des Skripts", "punkte": [
+              "„soziophobe“ Nerds",
+              "Haartracht, etc."
+            ] }
+          ]
+        },
+        {
+          "id": "m5-t11-k3",
+          "titel": "Halo-Effekt und Nimbus-Effekt",
+          "folien": [72],
+          "bloecke": [
+            { "typ": "einfach", "text": "Beim [[Halo-Effekt]] überstrahlt ein einzelner starker Eindruck alles andere. Das kann eine herausragende Einzelkompetenz sein, eine Eigenschaft oder ein prägnantes Ereignis. Der Gesamteindruck richtet sich dann nach diesem einen Punkt, nicht nach dem ganzen Bild." },
+            { "typ": "definition", "begriff": "Halo-Effekt", "text": "Eine herausragende Einzelkompetenz, Eigenschaft oder ein prägnantes Ereignis (critical incident) **überstrahlt alle anderen Faktoren** und beeinflusst den Gesamteindruck." },
+            { "typ": "definition", "begriff": "Nimbus-Effekt", "text": "Urteilsverzerrung durch Nimbus-Effekt: (unbewusster) Schluss von vorherrschenden **äußeren Merkmalen** auf Kompetenzen und Eigenschaften." },
+            { "typ": "text", "text": "Beispiel des Skripts: je (subjektiv) attraktiver ein Mensch, desto eher Zuschreibung von Erfolg/Intelligenz/Kompetenz." },
+            { "typ": "hinweis", "text": "Der englische Ausdruck „critical incident“ steht im Skript nur kursiv in Klammern, ohne eigene Erklärung. Auch der Nimbus-Effekt wird nicht weiter hergeleitet, sondern nur über die beschriebene Urteilsverzerrung erfasst. Beides wird hier deshalb nicht zusätzlich erklärt." },
+            { "typ": "hinweis", "text": "Abbildung auf der Folie: rechts, auf Höhe zwischen „soziale Stereotype“ und „Halo-Effekt“, steht ein kleines Bild – ein gelber lächelnder Smiley mit weißen Flügeln und Heiligenschein. Das Bild trägt keine Beschriftung; die Folie nennt unten rechts nur die Bildquelle (pixabay). Eine eigene Fachaussage macht das Bild nicht." }
+          ]
+        },
+        {
+          "id": "m5-t11-k4",
+          "titel": "Kleber-Effekt",
+          "folien": [72],
+          "bloecke": [
+            { "typ": "einfach", "text": "Beim [[Kleber-Effekt]] klebt die alte Bewertung an der neuen. Du schaust auf die letzte Beurteilung und schreibst sie im Kern fort. Der Status quo wird dadurch beibehalten und nicht mehr hinterfragt." },
+            { "typ": "definition", "begriff": "Kleber-Effekt", "text": "Die aktuelle Beurteilung/Bewertung wird von der vorangegangenen **maßgeblich beeinflusst**. Das heißt, dass der Status Quo tendenziell beibehalten und nicht hinterfragt wird." },
+            { "typ": "zitat", "text": "MA wurde längere Zeit nicht befördert – wird seinen Grund haben, oder? Einmal gut, immer gut...", "kontext": "So formuliert das Skript den Gedankengang hinter dem Kleber-Effekt." },
+            { "typ": "hinweis", "text": "Das Skript kürzt auf dieser Folie „MA“ ab und löst das Kürzel hier nicht auf." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t11-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "attributionsfehler", "karte": "m5-t11-k1", "folien": [72],
+          "frage": "Was kennzeichnet laut Skript den **fundamentalen** Attributionsfehler?",
+          "optionen": [
+            "Der Einfluss der Situation wird unterschätzt, der Einfluss der persönlichen Veranlagung überschätzt.",
+            "Der Einfluss der persönlichen Veranlagung wird unterschätzt, der Einfluss der Situation überschätzt.",
+            "Die aktuelle Beurteilung wird von der vorangegangenen maßgeblich beeinflusst.",
+            "Von äußeren Merkmalen wird auf Kompetenzen und Eigenschaften geschlossen."
+          ], "richtig": 0,
+          "erklaerung": "Das Skript stellt den Grundsatz voran, dass Verhalten durch Persönlichkeitsmerkmale und Kontext bestimmt wird. Der fundamentale Attributionsfehler kippt dieses Gleichgewicht: die Situation zählt zu wenig, die Veranlagung zu viel. Option 3 ist der Kleber-Effekt, Option 4 der Nimbus-Effekt.",
+          "beleg": "fundamentaler: Einfluss der Situation wird unter-, Einfluss der persönlichen Veranlagung überschätzt!", "belegQuelle": "folie-44",
+          "kurz": "Fundamentaler Attributionsfehler: Situation unterschätzt, persönliche Veranlagung überschätzt." },
+
+        { "id": "m5-t11-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fehler-i-uebersicht", "karte": "m5-t11-k1", "folien": [72],
+          "frage": "Ordne jedem Beurteilungsfehler von Folie 72 sein Kennzeichen zu.", "linksTitel": "Fehler", "rechtsTitel": "Kennzeichen laut Skript",
+          "paare": [
+            { "links": "Fundamentaler Attributionsfehler", "rechts": "Einfluss der Situation unterschätzt, Einfluss der Veranlagung überschätzt" },
+            { "links": "Soziale Stereotype", "rechts": "Überwälzen von Gruppeneigenschaften auf Individuen" },
+            { "links": "Halo-Effekt", "rechts": "Eine herausragende Einzelkompetenz überstrahlt alle anderen Faktoren" },
+            { "links": "Kleber-Effekt", "rechts": "Die vorangegangene Beurteilung beeinflusst die aktuelle maßgeblich" }
+          ],
+          "erklaerung": "Das sind die vier allgemeinen Fehler der ersten Folie. Achte auf die Trennlinie: Attribution betrifft die Ursachenzuschreibung, Stereotype die Gruppe, Halo eine überstrahlende Einzelheit, Kleber die Vorgeschichte.",
+          "belege": [
+            { "text": "Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen", "quelle": "folie-44" },
+            { "text": "herausragende Einzelkompetenz, Eigenschaft oder prägnantes Ereignis", "quelle": "folie-44" },
+            { "text": "aktuelle Beurteilung/Bewertung wird von vorangegangener maßgeblich beeinflusst", "quelle": "folie-44" }
+          ],
+          "kurz": "Folie 72: Attributionsfehler, soziale Stereotype, Halo-Effekt, Kleber-Effekt." },
+
+        { "id": "m5-t11-a03", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "halo-nimbus", "karte": "m5-t11-k3", "folien": [72],
+          "frage": "Halo-Effekt und Nimbus-Effekt: Was stimmt?",
+          "aussagen": [
+            { "text": "Beim Halo-Effekt überstrahlt eine herausragende Einzelkompetenz alle anderen Faktoren und beeinflusst den Gesamteindruck.", "wahr": true },
+            { "text": "Auch ein prägnantes Ereignis (critical incident) kann den Halo-Effekt auslösen.", "wahr": true },
+            { "text": "Der Nimbus-Effekt ist der Schluss von den Kompetenzen einer Person auf ihre äußeren Merkmale.", "wahr": false, "korrektur": "Umgekehrt: Der Nimbus-Effekt ist der (unbewusste) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften." },
+            { "text": "Laut Skript gilt: je (subjektiv) attraktiver ein Mensch, desto eher die Zuschreibung von Erfolg, Intelligenz und Kompetenz.", "wahr": true }
+          ],
+          "erklaerung": "Die Richtung des Schlusses ist die klassische Stolperstelle: beim Nimbus-Effekt geht es von außen nach innen, also von äußeren Merkmalen auf Kompetenzen.",
+          "beleg": "Urteilsverzerrung durch Nimbus-Effekt: (unbewusster) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften", "belegQuelle": "folie-44",
+          "kurz": "Nimbus-Effekt: von äußeren Merkmalen auf Kompetenzen schließen, nicht umgekehrt." },
+
+        { "id": "m5-t11-a04", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "fehler-i-abgrenzung", "karte": "m5-t11-k3", "folien": [72],
+          "frage": "Sortiere die Formulierungen der Folie dem passenden Fehler zu.",
+          "kategorien": ["Soziale Stereotype", "Halo-Effekt", "Kleber-Effekt"],
+          "elemente": [
+            { "text": "Überwälzen von Gruppeneigenschaften auf Individuen", "kategorie": 0 },
+            { "text": "„soziophobe“ Nerds, Haartracht", "kategorie": 0 },
+            { "text": "Ein prägnantes Ereignis überstrahlt alle anderen Faktoren", "kategorie": 1 },
+            { "text": "Je attraktiver ein Mensch, desto eher Zuschreibung von Kompetenz", "kategorie": 1 },
+            { "text": "Der Status Quo wird beibehalten und nicht hinterfragt", "kategorie": 2 },
+            { "text": "„Einmal gut, immer gut...“", "kategorie": 2 }
+          ],
+          "erklaerung": "Stereotype kommen von der Gruppe, der Halo-Effekt von einer überstrahlenden Einzelheit im Hier und Jetzt, der Kleber-Effekt aus der Vorgeschichte der Person.",
+          "belege": [
+            { "text": "„soziophobe“ Nerds, Haartracht, etc.", "quelle": "folie-44" },
+            { "text": "dass Status Quo tendenziell beibehalten und nicht hinterfragt wird", "quelle": "folie-44" }
+          ],
+          "kurz": "Gruppe = Stereotyp, überstrahlende Einzelheit = Halo, Vorgeschichte = Kleber." },
+
+        { "id": "m5-t11-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "attributionsfehler", "karte": "m5-t11-k1", "folien": [72], "bank": true,
+          "frage": "Vervollständige den Grundsatz und den Fehler, wie das Skript sie formuliert.",
+          "text": "Grundsatz: Verhalten wird durch {_Persönlichkeitsmerkmale_} und {_Kontext_} bestimmt.\nFundamentaler Attributionsfehler: Einfluss der {_Situation_} wird unterschätzt, Einfluss der {_persönlichen Veranlagung_} überschätzt.",
+          "zusatzBank": ["Status Quo", "äußere Merkmale"],
+          "erklaerung": "Der Grundsatz nennt beide Ursachen. Der Fehler ist die Schieflage zwischen ihnen.",
+          "beleg": "Grundsatz: Verhalten wird durch Persönlichkeitsmerkmale und Kontext bestimmt", "belegQuelle": "folie-44",
+          "kurz": "Verhalten = Persönlichkeitsmerkmale + Kontext. Der Fehler: Situation unter-, Veranlagung überschätzt." },
+
+        { "id": "m5-t11-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "attributionsfehler", "karte": "m5-t11-k1", "folien": [72],
+          "frage": "Erkläre den fundamentalen Attributionsfehler und sage, welche Gefahr das Skript daran festmacht.",
+          "musterloesung": "Grundsatz des Skripts ist, dass Verhalten durch Persönlichkeitsmerkmale und Kontext bestimmt wird. Bei der Verhaltensbeurteilung werden aber bestimmte Eigenschaften als Ursache für das Handeln betrachtet. Der fundamentale Attributionsfehler besteht darin, dass dabei der Einfluss der Situation unterschätzt und der Einfluss der persönlichen Veranlagung überschätzt wird. Die Gefahr laut Skript: verkehrte Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen. Man hält also für eine dauerhafte Eigenschaft, was in Wahrheit aus den Umständen kam.",
+          "checkliste": [
+            "Grundsatz genannt: Verhalten wird durch Persönlichkeitsmerkmale UND Kontext bestimmt",
+            "Bei der Verhaltensbeurteilung werden Eigenschaften als Ursache des Handelns betrachtet",
+            "Fundamental: Situation wird unterschätzt, persönliche Veranlagung überschätzt",
+            "Gefahr: verkehrte Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen"
+          ],
+          "erklaerung": "Die Klausur kann genau diese beiden Teile verlangen: die Schieflage der Zuschreibung und die Folge für das Kompetenzurteil.",
+          "beleg": "Gefahr verkehrter Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen!", "belegQuelle": "folie-44",
+          "kurz": "Situation unterschätzt, Veranlagung überschätzt – Gefahr: verkehrte Schlüsse auf grundsätzliche Kompetenzen." },
+
+        { "id": "m5-t11-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "attributionsfehler", "karte": "m5-t11-k1", "folien": [72],
+          "szenario": "Übungsfall: Ein Auszubildender kommt zum Beratungstermin in der Filiale ohne die vorbereiteten Unterlagen. An diesem Morgen war sein Zug ausgefallen und der Filialdrucker defekt. Der Filialleiter notiert im Beurteilungsbogen: „unzuverlässig, wenig gewissenhaft“.",
+          "frage": "Welcher Beobachtungsfehler von Folie 72 liegt hier nahe?",
+          "optionen": [
+            "Fundamentaler Attributionsfehler",
+            "Kleber-Effekt",
+            "Halo-Effekt",
+            "Soziale Stereotype"
+          ], "richtig": 0,
+          "erklaerung": "Der Filialleiter macht aus einem Ereignis, das stark durch die Situation bestimmt war, eine Eigenschaft der Person. Genau das beschreibt das Skript: der Einfluss der Situation wird unterschätzt, der Einfluss der persönlichen Veranlagung überschätzt, mit der Gefahr verkehrter Schlussfolgerungen über grundsätzliche Kompetenzen.",
+          "beleg": "Einfluss der Situation wird unter-, Einfluss der persönlichen Veranlagung überschätzt!", "belegQuelle": "folie-44",
+          "kurz": "Aus einem situationsbedingten Vorfall eine Charaktereigenschaft machen = fundamentaler Attributionsfehler." },
+
+        { "id": "m5-t11-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "halo-nimbus", "karte": "m5-t11-k3", "folien": [72],
+          "vorne": "Was beschreibt das Skript als **Nimbus-Effekt**?",
+          "hinten": "Eine Urteilsverzerrung: der (unbewusste) Schluss von vorherrschenden **äußeren Merkmalen** auf Kompetenzen und Eigenschaften.\nBeispiel des Skripts: je (subjektiv) attraktiver ein Mensch, desto eher Zuschreibung von Erfolg/Intelligenz/Kompetenz.",
+          "erklaerung": "Der Nimbus-Effekt steht im Skript als Unterpunkt beim Halo-Effekt.",
+          "beleg": "je (subjektiv) attraktiver ein Mensch, desto eher Zuschreibung von Erfolg/Intelligenz/Kompetenz", "belegQuelle": "folie-44",
+          "kurz": "Nimbus-Effekt: von äußeren Merkmalen auf Kompetenzen und Eigenschaften schließen." },
+
+        { "id": "m5-t11-a09", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "kleber-effekt", "karte": "m5-t11-k4", "folien": [72],
+          "frage": "Erkläre den **Kleber-Effekt** und sage, was das Skript mit dem Satz „MA wurde längere Zeit nicht befördert – wird seinen Grund haben, oder? Einmal gut, immer gut...“ meint und in welchem Zusammenhang er steht.",
+          "musterloesung": "Der Kleber-Effekt besagt: Die aktuelle Beurteilung beziehungsweise Bewertung wird von der vorangegangenen maßgeblich beeinflusst. Das heißt laut Skript, dass der Status Quo tendenziell beibehalten und nicht hinterfragt wird. Der Satz führt genau diesen Gedankengang vor, und zwar in beide Richtungen: Wer längere Zeit nicht befördert wurde, bei dem wird das schon seinen Grund haben – und wer einmal gut bewertet wurde, bleibt gut („Einmal gut, immer gut...“). Beurteilt wird damit nicht die aktuelle Beobachtung, sondern die Vorgeschichte. Im Zusammenhang steht der Satz auf Folie 72 als Beispielzeile unter dem Kleber-Effekt, dem vierten der allgemeinen Beobachtungs- und Beurteilungsfehler neben Attributionsfehler, sozialen Stereotypen und Halo-Effekt. Das Kürzel „MA“ löst das Skript auf dieser Folie nicht auf.",
+          "checkliste": [
+            "Kleber-Effekt: die aktuelle Beurteilung/Bewertung wird von der vorangegangenen maßgeblich beeinflusst",
+            "Folge laut Skript: der Status Quo wird tendenziell beibehalten und nicht hinterfragt",
+            "Der Satz zeigt den Gedankengang: die ausgebliebene Beförderung wird als Grund gegen die Person gelesen",
+            "„Einmal gut, immer gut...“: auch eine gute Vorbewertung wird einfach fortgeschrieben",
+            "Zusammenhang: Beispielzeile zum Kleber-Effekt, dem vierten allgemeinen Fehler auf Folie 72"
+          ],
+          "erklaerung": "Solche Sätze werden in der Klausur gern zum Erklären vorgelegt. Nenne immer den Fehler, seine Beschreibung laut Skript und die Folge für das Urteil – hier: die Vorgeschichte ersetzt die aktuelle Beobachtung.",
+          "belege": [
+            { "text": "MA wurde längere Zeit nicht befördert – wird seinen Grund haben, oder? Einmal gut, immer gut...", "quelle": "folie-44" },
+            { "text": "aktuelle Beurteilung/Bewertung wird von vorangegangener maßgeblich beeinflusst", "quelle": "folie-44" },
+            { "text": "dass Status Quo tendenziell beibehalten und nicht hinterfragt wird", "quelle": "folie-44" }
+          ],
+          "kurz": "Kleber-Effekt: die vorangegangene Beurteilung bestimmt die aktuelle, der Status Quo wird nicht hinterfragt („Einmal gut, immer gut...“)." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Allgemeine Beurteilungsfehler I (Folie 72):** Attributionsfehler (Situation unter-, Veranlagung überschätzt) · soziale Stereotype (Gruppeneigenschaften auf Individuen überwälzt) · Halo-Effekt (eine Einzelheit überstrahlt alles, Nimbus: von außen auf Kompetenz schließen) · Kleber-Effekt (alte Beurteilung bestimmt die neue)."
+        ],
+        "ausfuehrlich": [
+          "**Attributionsfehler, insbesondere fundamentale.** Grundsatz: Verhalten wird durch Persönlichkeitsmerkmale und Kontext bestimmt. Bei der Verhaltensbeurteilung werden bestimmte Eigenschaften als Ursache für das Handeln betrachtet. Fundamental heißt: Einfluss der Situation wird unter-, Einfluss der persönlichen Veranlagung überschätzt. Gefahr: verkehrte Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen.",
+          "**Soziale Stereotype.** Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen. Beispiele des Skripts: „soziophobe“ Nerds, Haartracht.",
+          "**Halo-Effekt.** Herausragende Einzelkompetenz, Eigenschaft oder prägnantes Ereignis (critical incident) überstrahlt alle anderen Faktoren und beeinflusst den Gesamteindruck. **Nimbus-Effekt:** (unbewusster) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften – je attraktiver, desto eher Zuschreibung von Erfolg/Intelligenz/Kompetenz.",
+          "**Kleber-Effekt.** Aktuelle Beurteilung wird von der vorangegangenen maßgeblich beeinflusst, der Status Quo wird beibehalten und nicht hinterfragt („Einmal gut, immer gut...“)."
+        ],
+        "merkhilfe": "Merkhilfe für die vier Fehler der Folie: **A-S-H-K** – Attribution, Stereotyp, Halo, Kleber."
+      }
+    },
+    {
+      "id": "m5-t12",
+      "titel": "Allgemeine Beurteilungsfehler II: Hierarchie, Benjamin, Primacy/Recency, Reihenfolge/Kontrast",
+      "folien": [73],
+      "gewicht": 3,
+      "lernstoff": true,
+      "lernkarten": [
+        {
+          "id": "m5-t12-k1",
+          "titel": "Hierarchie-Effekt und Benjamin-Effekt",
+          "folien": [73],
+          "bloecke": [
+            { "typ": "einfach", "text": "Hier verzerrt nicht das Verhalten das Urteil, sondern die **Position** der beurteilten Person. Beim [[Hierarchie-Effekt]] schneidet gut ab, wer weit oben steht. Beim [[Benjamin-Effekt]] schneidet schlecht ab, wer jung ist oder erst kurz dabei." },
+            { "typ": "liste", "titel": "So steht es im Skript", "punkte": [
+              "sozialer Status beeinflusst Beurteilungen",
+              "höhergestellte FK werden tendenziell besser beurteilt (aus Furcht vor Sanktionen) oder unbewusst (hat doch einen Grund, weshalb er/sie dort angesiedelt ist...)",
+              "Benjamin-Effekt beschreibt pauschale Unterschätzung der Fähigkeiten aufgrund Alter, Dauer der Unternehmenszugehörigkeit, etc."
+            ] },
+            { "typ": "definition", "begriff": "Hierarchie-Effekt", "text": "Der **soziale Status** beeinflusst Beurteilungen: höhergestellte FK werden tendenziell besser beurteilt – aus Furcht vor Sanktionen oder unbewusst." },
+            { "typ": "definition", "begriff": "Benjamin-Effekt", "text": "Pauschale **Unterschätzung der Fähigkeiten** aufgrund von Alter, Dauer der Unternehmenszugehörigkeit und Ähnlichem." },
+            { "typ": "hinweis", "text": "Das Skript nennt beide unter einer gemeinsamen Überschrift „Hierarchie-/Benjamin-Effekt“, beschreibt sie aber gegenläufig: Hierarchie hebt das Urteil nach oben, Benjamin drückt es nach unten. Woher der Name „Benjamin-Effekt“ stammt, erklärt das Skript nicht. Das Kürzel „FK“ wird auf dieser Folie ebenfalls nicht aufgelöst." }
+          ]
+        },
+        {
+          "id": "m5-t12-k2",
+          "titel": "Primacy-/Recency-Effekt",
+          "folien": [73],
+          "bloecke": [
+            { "typ": "einfach", "text": "Wenn du viele Beobachtungen nacheinander machst, bleiben nicht alle gleich gut hängen. Der [[Primacy-/Recency-Effekt]] sagt: vor allem die **erste** und die **letzte** haften. Wer in der Mitte liegt, verschwindet im Grau." },
+            { "typ": "definition", "begriff": "Primacy-/Recency-Effekt", "text": "In einer Reihe aufeinander folgender Beobachtungen/Informationen bleiben vor allem **erste und letzte** haften." },
+            { "typ": "text", "text": "Folge laut Skript: **Risiko für „Sandwich-Kandidaten“**, die „dazwischen“ rutschen. Sie werden tendenziell pauschal bewertet, während erster & letzter Kandidat eher aussagekräftigere/extremere Bewertungen erhalten." },
+            { "typ": "hinweis", "text": "Das Skript kürzt auf dieser Folie „v.a.“ ab und löst das Kürzel dort nicht auf – so wie auch „FK“ bei den Hierarchie-/Benjamin-Effekten. In der Definition oben ist es deshalb als „vor allem“ ausgeschrieben; in der Lückenaufgabe zu dieser Karte steht der Wortlaut des Skripts." }
+          ]
+        },
+        {
+          "id": "m5-t12-k3",
+          "titel": "Reihenfolgen- und Kontrast-Effekt",
+          "folien": [73],
+          "bloecke": [
+            { "typ": "einfach", "text": "Beide Effekte entstehen daraus, dass du Menschen nacheinander siehst und vergleichst. Beim [[Reihenfolge-Effekt]] wird der Erste zum stillen Maßstab für alle. Beim [[Kontrast-Effekt]] vergleichst du jeden mit seinem direkten Nachbarn in der Reihe." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "Reihenfolge-Effekt", "punkte": ["Die erste Beobachtung bzw. der erste Kandidat wird unbewusst als benchmark herangezogen", "Ein fester Bezugspunkt für die ganze Reihe"] },
+              { "titel": "Kontrast-Effekt", "punkte": ["Jeder Kandidat wird mit dem jeweiligen Vorgänger/Nachfolger verglichen", "Ein wandernder Bezugspunkt, er ändert sich mit jedem Nachbarn"] }
+            ] },
+            { "typ": "hinweis", "text": "Das Skript schreibt „benchmark“ klein und erklärt den Ausdruck nicht weiter." },
+            { "typ": "skriptluecke", "id": "m5-t12-l1", "text": "Die untere Hälfte von Folie 73 ist im Skript leer geblieben. Trage hier ein, was in der Vorlesung dazu gesagt wurde.", "felder": [
+              { "id": "m5-t12-l1-f1", "label": "Mitschrift zur unteren Hälfte von Folie 73" }
+            ] }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t12-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "hierarchie-benjamin", "karte": "m5-t12-k1", "folien": [73],
+          "frage": "Was beschreibt der **Benjamin-Effekt** laut Skript?",
+          "optionen": [
+            "Pauschale Unterschätzung der Fähigkeiten aufgrund von Alter und Dauer der Unternehmenszugehörigkeit",
+            "Bessere Beurteilung höhergestellter Führungskräfte aus Furcht vor Sanktionen",
+            "Die erste Beobachtung wird unbewusst als benchmark herangezogen",
+            "Jeder Kandidat wird mit seinem Vorgänger verglichen"
+          ], "richtig": 0,
+          "erklaerung": "Option 2 ist der Hierarchie-Effekt, Option 3 der Reihenfolge-Effekt, Option 4 der Kontrast-Effekt. Alle vier stehen auf derselben Folie und werden gern verwechselt.",
+          "beleg": "Benjamin-Effekt beschreibt pauschale Unterschätzung der Fähigkeiten aufgrund Alter, Dauer der Unternehmenszugehörigkeit, etc.", "belegQuelle": "folie-45",
+          "kurz": "Benjamin-Effekt: pauschale Unterschätzung wegen Alter und Dauer der Zugehörigkeit." },
+
+        { "id": "m5-t12-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "primacy-recency", "karte": "m5-t12-k2", "folien": [73],
+          "frage": "Welche Aussagen nennt Folie 73 zum **Primacy-/Recency-Effekt**?",
+          "optionen": [
+            "In einer Reihe aufeinander folgender Beobachtungen bleiben vor allem erste und letzte haften.",
+            "„Sandwich-Kandidaten“, die dazwischen rutschen, werden tendenziell pauschal bewertet.",
+            "Erster und letzter Kandidat erhalten eher aussagekräftigere oder extremere Bewertungen.",
+            "Der soziale Status der beurteilten Person verstärkt den Effekt.",
+            "Abhilfe schafft eine gerade Anzahl wählbarer Skalenwerte."
+          ], "richtig": [0, 1, 2],
+          "erklaerung": "Der soziale Status gehört zum Hierarchie-Effekt. Die gerade Anzahl von Skalenwerten ist laut Skript die Abhilfe gegen die Tendenz zur Mitte, nicht gegen Primacy/Recency.",
+          "beleg": "werden tendenziell pauschal bewertet, während erster & letzter Kandidat eher aussagekräftigere/extremere Bewertungen erhalten", "belegQuelle": "folie-45",
+          "kurz": "Primacy/Recency: erste und letzte haften, die Mitte wird pauschal bewertet." },
+
+        { "id": "m5-t12-a03", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fehler-ii-uebersicht", "karte": "m5-t12-k1", "folien": [73],
+          "frage": "Ordne jedem Effekt von Folie 73 seine Beschreibung zu.", "linksTitel": "Effekt", "rechtsTitel": "Beschreibung laut Skript",
+          "paare": [
+            { "links": "Hierarchie-Effekt", "rechts": "Sozialer Status beeinflusst Beurteilungen, Höhergestellte werden besser beurteilt" },
+            { "links": "Benjamin-Effekt", "rechts": "Pauschale Unterschätzung der Fähigkeiten aufgrund Alter und Dauer der Zugehörigkeit" },
+            { "links": "Primacy-/Recency-Effekt", "rechts": "Von einer Reihe bleiben vor allem erste und letzte haften" },
+            { "links": "Reihenfolge-Effekt", "rechts": "Der erste Kandidat wird unbewusst als benchmark herangezogen" },
+            { "links": "Kontrast-Effekt", "rechts": "Jeder Kandidat wird mit Vorgänger oder Nachfolger verglichen" }
+          ],
+          "erklaerung": "Die fünf Begriffe stehen auf einer Folie und unterscheiden sich nur in der Ursache: Status, Alter, Position in der Reihe, fester Maßstab, wandernder Maßstab.",
+          "belege": [
+            { "text": "sozialer Status beeinflusst Beurteilungen", "quelle": "folie-45" },
+            { "text": "Reihenfolge-Effekt: erste Beobachtung/erster Kandidat wird unbewusst als benchmark herangezogen", "quelle": "folie-45" },
+            { "text": "Kontrast-Effekt: jeder Kandidat wird mit jeweiligem Vorgänger/Nachfolger verglichen", "quelle": "folie-45" }
+          ],
+          "kurz": "Folie 73: Hierarchie, Benjamin, Primacy/Recency, Reihenfolge, Kontrast." },
+
+        { "id": "m5-t12-a04", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "hierarchie-benjamin", "karte": "m5-t12-k1", "folien": [73],
+          "frage": "Hierarchie- und Benjamin-Effekt: Was stimmt?",
+          "aussagen": [
+            { "text": "Höhergestellte FK werden tendenziell besser beurteilt, unter anderem aus Furcht vor Sanktionen.", "wahr": true },
+            { "text": "Der Hierarchie-Effekt kann auch unbewusst wirken, nach dem Gedanken: Es hat doch einen Grund, weshalb er oder sie dort angesiedelt ist.", "wahr": true },
+            { "text": "Der Benjamin-Effekt beschreibt die pauschale Überschätzung der Fähigkeiten jüngerer Mitarbeiter.", "wahr": false, "korrektur": "Der Benjamin-Effekt beschreibt die pauschale UNTERSCHÄTZUNG der Fähigkeiten aufgrund von Alter, Dauer der Unternehmenszugehörigkeit und Ähnlichem." },
+            { "text": "Grundlage des Hierarchie-Effekts ist laut Skript der soziale Status.", "wahr": true }
+          ],
+          "erklaerung": "Beide Effekte hängen an der Position der Person, wirken aber in entgegengesetzte Richtungen: Hierarchie nach oben, Benjamin nach unten.",
+          "beleg": "höhergestellte FK werden tendenziell besser beurteilt (aus Furcht vor Sanktionen)", "belegQuelle": "folie-45",
+          "kurz": "Hierarchie hebt das Urteil, Benjamin drückt es (Unterschätzung wegen Alter/Zugehörigkeit)." },
+
+        { "id": "m5-t12-a05", "typ": "mc", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "reihenfolge-kontrast", "karte": "m5-t12-k3", "folien": [73],
+          "frage": "Worin unterscheiden sich **Reihenfolge-Effekt** und **Kontrast-Effekt**?",
+          "optionen": [
+            "Beim Reihenfolge-Effekt dient der erste Kandidat als benchmark für alle, beim Kontrast-Effekt wird jeder mit seinem Vorgänger oder Nachfolger verglichen.",
+            "Beim Reihenfolge-Effekt wird jeder mit seinem Vorgänger verglichen, beim Kontrast-Effekt dient der letzte Kandidat als benchmark.",
+            "Der Reihenfolge-Effekt betrifft nur schriftliche Unterlagen, der Kontrast-Effekt nur Gespräche.",
+            "Der Reihenfolge-Effekt beruht auf sozialem Status, der Kontrast-Effekt auf dem Alter der Kandidaten."
+          ], "richtig": 0,
+          "erklaerung": "Der Unterschied liegt im Bezugspunkt: beim Reihenfolge-Effekt ist er fest (der Erste), beim Kontrast-Effekt wandert er mit dem jeweiligen Nachbarn. Sozialer Status und Alter gehören zum Hierarchie- und Benjamin-Effekt.",
+          "belege": [
+            { "text": "Reihenfolge-Effekt: erste Beobachtung/erster Kandidat wird unbewusst als benchmark herangezogen", "quelle": "folie-45" },
+            { "text": "Kontrast-Effekt: jeder Kandidat wird mit jeweiligem Vorgänger/Nachfolger verglichen", "quelle": "folie-45" }
+          ],
+          "kurz": "Reihenfolge = der Erste ist benchmark. Kontrast = Vergleich mit Vorgänger/Nachfolger." },
+
+        { "id": "m5-t12-a06", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "primacy-recency", "karte": "m5-t12-k2", "folien": [73], "bank": true,
+          "frage": "Vervollständige, wie das Skript den Primacy-/Recency-Effekt beschreibt.",
+          "text": "In Reihe aufeinander folgender Beobachtungen/Informationen bleiben v.a. {_erste_} und {_letzte_} haften.\nRisiko für {_Sandwich-Kandidaten_}, die „dazwischen“ rutschen.",
+          "zusatzBank": ["benchmark", "Vorgänger"],
+          "erklaerung": "Das Wortpaar erste und letzte ist der Kern. Die Sandwich-Kandidaten sind die Folge für die Mitte der Reihe.",
+          "beleg": "in Reihe aufeinander folgender Beobachtungen/Informationen bleiben v.a. erste und letzte haften!", "belegQuelle": "folie-45",
+          "kurz": "Erste und letzte haften. Die Mitte sind die Sandwich-Kandidaten." },
+
+        { "id": "m5-t12-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "primacy-recency", "karte": "m5-t12-k2", "folien": [73],
+          "frage": "Erkläre den Primacy-/Recency-Effekt und sage, welches Risiko das Skript daraus ableitet.",
+          "musterloesung": "Der Primacy-/Recency-Effekt besagt: In einer Reihe aufeinander folgender Beobachtungen oder Informationen bleiben vor allem die erste und die letzte haften. Daraus entsteht laut Skript ein Risiko für die sogenannten Sandwich-Kandidaten, die dazwischen rutschen. Sie werden tendenziell pauschal bewertet, während der erste und der letzte Kandidat eher aussagekräftigere oder extremere Bewertungen erhalten. Die Position in der Reihe wirkt damit auf das Urteil, obwohl sie nichts über die Eignung sagt.",
+          "checkliste": [
+            "Erste und letzte Beobachtung bleiben besonders haften",
+            "Es geht um eine Reihe aufeinander folgender Beobachtungen/Informationen",
+            "Risiko für „Sandwich-Kandidaten“, die dazwischen rutschen",
+            "Mitte wird pauschal bewertet, Rand erhält aussagekräftigere/extremere Bewertungen"
+          ],
+          "erklaerung": "In der Klausur zählt neben der Definition vor allem die abgeleitete Folge für die Kandidaten in der Mitte.",
+          "beleg": "Risiko für „Sandwich-Kandidaten“, die „dazwischen“ rutschen", "belegQuelle": "folie-45",
+          "kurz": "Erste und letzte haften; Sandwich-Kandidaten in der Mitte werden pauschal bewertet." },
+
+        { "id": "m5-t12-a08", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "reihenfolge-kontrast", "karte": "m5-t12-k3", "folien": [73],
+          "szenario": "Übungsfall: An einem Auswahltag für die Bankausbildung führt ihr hintereinander fünf Gespräche. Der erste Bewerber ist sehr stark. Danach wirkt Bewerberin 2 im direkten Vergleich blass, Bewerber 3 und 4 bleiben euch kaum in Erinnerung, über Bewerberin 5 diskutiert ihr am Ende ausführlich.",
+          "frage": "Welche Effekte von Folie 73 erkennst du in diesem Ablauf, und woran machst du sie fest?",
+          "musterloesung": "Erstens der Reihenfolge-Effekt: Der erste, sehr starke Bewerber wird unbewusst als benchmark herangezogen, an dem alle weiteren gemessen werden. Zweitens der Kontrast-Effekt: Bewerberin 2 wirkt blass, weil sie mit ihrem Vorgänger verglichen wird, nicht weil sie für sich genommen schwach wäre. Drittens der Primacy-/Recency-Effekt: Von der Reihe bleiben vor allem der erste und die letzte haften, deshalb wird über Bewerberin 5 ausführlich diskutiert, während Bewerber 3 und 4 als Sandwich-Kandidaten dazwischen rutschen und tendenziell pauschal bewertet werden.",
+          "checkliste": [
+            "Reihenfolge-Effekt: der erste Kandidat wird zum benchmark",
+            "Kontrast-Effekt: Vergleich mit Vorgänger oder Nachfolger verzerrt das Urteil über Bewerberin 2",
+            "Primacy-/Recency-Effekt: erster und letzter bleiben haften",
+            "Bewerber 3 und 4 sind Sandwich-Kandidaten und werden pauschal bewertet"
+          ],
+          "erklaerung": "Drei der Effekte dieser Folie greifen im selben Ablauf ineinander. Die Lösung ergibt sich allein aus den Beschreibungen von Folie 73.",
+          "belege": [
+            { "text": "erste Beobachtung/erster Kandidat wird unbewusst als benchmark herangezogen", "quelle": "folie-45" },
+            { "text": "jeder Kandidat wird mit jeweiligem Vorgänger/Nachfolger verglichen", "quelle": "folie-45" },
+            { "text": "Risiko für „Sandwich-Kandidaten“, die „dazwischen“ rutschen", "quelle": "folie-45" }
+          ],
+          "kurz": "Reihenfolge, Kontrast und Primacy/Recency wirken bei Bewerberreihen zusammen." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Allgemeine Beurteilungsfehler II (Folie 73):** Hierarchie-Effekt (Status hebt das Urteil) · Benjamin-Effekt (Unterschätzung wegen Alter/Zugehörigkeit) · Primacy/Recency (erste und letzte haften, Sandwich-Kandidaten in der Mitte) · Reihenfolge-Effekt (der Erste ist benchmark) · Kontrast-Effekt (Vergleich mit Vorgänger/Nachfolger)."
+        ],
+        "ausfuehrlich": [
+          "**Hierarchie-/Benjamin-Effekt.** Sozialer Status beeinflusst Beurteilungen. Höhergestellte FK werden tendenziell besser beurteilt, aus Furcht vor Sanktionen oder unbewusst. Der Benjamin-Effekt beschreibt die pauschale Unterschätzung der Fähigkeiten aufgrund von Alter, Dauer der Unternehmenszugehörigkeit und Ähnlichem.",
+          "**Primacy-/Recency-Effekt.** In einer Reihe aufeinander folgender Beobachtungen/Informationen bleiben vor allem erste und letzte haften. Risiko für „Sandwich-Kandidaten“, die dazwischen rutschen: pauschale Bewertung, während erster und letzter Kandidat eher aussagekräftigere/extremere Bewertungen erhalten.",
+          "**Reihenfolgen-/Kontrast-Effekt.** Reihenfolge-Effekt: die erste Beobachtung bzw. der erste Kandidat wird unbewusst als benchmark herangezogen. Kontrast-Effekt: jeder Kandidat wird mit dem jeweiligen Vorgänger/Nachfolger verglichen.",
+          "**Stolperstelle:** Reihenfolge-Effekt hat einen festen Bezugspunkt (den Ersten), der Kontrast-Effekt einen wandernden (den Nachbarn)."
+        ],
+        "merkhilfe": "Merkhilfe: Reihenfolge = **R**ekord des Ersten (fester Maßstab). Kontrast = **K**ollege nebenan (wandernder Maßstab)."
+      }
+    },
+    {
+      "id": "m5-t13",
+      "titel": "Persönlichkeitsbezogene Beurteilungsfehler: Mitte, Milde/Strenge, Sympathie, Projektion",
+      "folien": [74],
+      "gewicht": 3,
+      "lernstoff": true,
+      "lernkarten": [
+        {
+          "id": "m5-t13-k1",
+          "titel": "Tendenz zur Mitte",
+          "folien": [74],
+          "bloecke": [
+            { "typ": "einfach", "text": "Diese Folie behandelt Fehler, die in der **Person des Beurteilers** liegen, nicht in der Situation. Der erste davon: Wer unschlüssig ist, kreuzt die Mitte an. Das ist bequem, aber es macht das Urteil unbrauchbar, weil alle gleich aussehen." },
+            { "typ": "definition", "begriff": "Tendenz zur Mitte", "text": "Vielfach unbewusste **Behelfslösung bei Unschlüssigkeit** mit Votum der „goldenen Mitte“. Das heißt: Gutes wird abgewertet, Schlechtes wird aufgewertet." },
+            { "typ": "text", "text": "**Abhilfe** laut Skript: z.B. durch gerade Anzahl wählbarer Skalenwerte. Wenn es keine Mitte zum Ankreuzen gibt, muss sich der Beurteiler entscheiden." }
+          ]
+        },
+        {
+          "id": "m5-t13-k2",
+          "titel": "Tendenz zur Milde/Strenge",
+          "folien": [74],
+          "bloecke": [
+            { "typ": "einfach", "text": "Hier liegt das Urteil nicht in der Mitte, sondern dauerhaft zu weit oben oder zu weit unten. Ursache ist das Anspruchsniveau des Beurteilers. Das Besondere laut Skript: Dieses Vorgehen ist meist bewusst, und zwar auch der Umwelt." },
+            { "typ": "definition", "begriff": "Tendenz zur Milde/Strenge", "text": "Geringes oder hohes **Anspruchsniveau der Beurteiler** führt zu Ausreißern. Das Vorgehen ist den Beurteilern (und der Umwelt!) meist bewusst." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "Tendenz zur Mitte", "punkte": ["Ursache: Unschlüssigkeit", "Ergebnis: alle landen in der goldenen Mitte", "vielfach unbewusst", "Abhilfe: gerade Anzahl wählbarer Skalenwerte"] },
+              { "titel": "Tendenz zur Milde/Strenge", "punkte": ["Ursache: geringes oder hohes Anspruchsniveau", "Ergebnis: Ausreißer nach oben oder unten", "meist bewusst, auch der Umwelt", "im Skript ist hierzu keine Abhilfe genannt"] }
+            ] }
+          ]
+        },
+        {
+          "id": "m5-t13-k3",
+          "titel": "Sympathie und Antipathie",
+          "folien": [74],
+          "bloecke": [
+            { "typ": "einfach", "text": "Das Bauchgefühl entscheidet mit. Wer dir sympathisch ist, bekommt unbewusst die bessere Bewertung, und umgekehrt. Das Skript nennt dafür den Fachausdruck **verzerrte Maßstabsanwendung**." },
+            { "typ": "definition", "begriff": "Sympathie/Antipathie", "text": "Bauchgefühl beeinflusst Beurteilungen: **verzerrte Maßstabsanwendung** durch unbewusst bessere Bewertung dem Beurteiler besonders sympathischer Bewerber – und umgekehrt." },
+            { "typ": "liste", "titel": "Woher Sympathie und Antipathie laut Skript kommen", "punkte": [
+              "Sympathie aufgrund [[Nähe-Effekt]] (längere Bekanntschaft)",
+              "Sympathie aufgrund [[Attraktivitäts-Stereotyp]]",
+              "Antipathie z.B. weil eigene Schwächen des Beobachters wiedererkannt werden (similar to me)"
+            ] },
+            { "typ": "hinweis", "text": "Der englische Ausdruck „(similar to me)“ steht im Skript ohne Erklärung. Er wird hier deshalb nicht weiter ausgelegt." }
+          ]
+        },
+        {
+          "id": "m5-t13-k4",
+          "titel": "Selbstbezug und Projektion",
+          "folien": [74],
+          "bloecke": [
+            { "typ": "einfach", "text": "Der letzte Fehler dieser Folie: Du nimmst dich selbst als Maßstab. Was du besonders gut kannst, verlangst du auch von den Kandidaten. Das Skript nennt das Projektion und bewertet die Folge als negativ." },
+            { "typ": "definition", "begriff": "Selbstbezug/Projektion", "text": "Der Maßstab für Beurteilung und Beobachtung ist oft die **eigene Person** – das ist die Projektion. Besonders starke eigene Eigenschaften werden als Ansprüche auf Kandidaten projiziert." },
+            { "typ": "hinweis", "text": "Der letzte Punkt der Folie endet im Skript mit „-> negativ....“. Der Gedanke wird dort nicht zu Ende geführt; ergänzt wird er hier bewusst nicht." },
+            { "typ": "hinweis", "text": "Die Folie trägt die Unterzeile „Persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler - I“. Ein Teil II dazu kommt im Skript nicht vor; die nächste Folie behandelt bereits das Vermeiden der Fehler." },
+            { "typ": "skriptluecke", "id": "m5-t13-l1", "text": "Die untere Hälfte von Folie 74 ist im Skript leer geblieben. Trage hier ein, was in der Vorlesung dazu gesagt wurde.", "felder": [
+              { "id": "m5-t13-l1-f1", "label": "Mitschrift zur unteren Hälfte von Folie 74" }
+            ] }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t13-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "tendenz-mitte", "karte": "m5-t13-k1", "folien": [74],
+          "frage": "Welche **Abhilfe** nennt das Skript gegen die Tendenz zur Mitte?",
+          "optionen": [
+            "Eine gerade Anzahl wählbarer Skalenwerte",
+            "Eine ungerade Anzahl wählbarer Skalenwerte",
+            "Mehrere Beobachter mit unterschiedlichem Anspruchsniveau",
+            "Die Kandidaten in zufälliger Reihenfolge einladen"
+          ], "richtig": 0,
+          "erklaerung": "Bei einer geraden Anzahl von Skalenwerten gibt es keine Mitte zum Ankreuzen. Der Beurteiler muss sich für eine Richtung entscheiden.",
+          "beleg": "Abhilfe z.B. durch gerade Anzahl wählbarer Skalenwerte", "belegQuelle": "folie-46",
+          "kurz": "Abhilfe gegen die Tendenz zur Mitte: gerade Anzahl wählbarer Skalenwerte." },
+
+        { "id": "m5-t13-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fehler-persoenlich-uebersicht", "karte": "m5-t13-k1", "folien": [74],
+          "frage": "Ordne jedem persönlichkeitsbezogenen Fehler von Folie 74 sein Kennzeichen zu.", "linksTitel": "Fehler", "rechtsTitel": "Kennzeichen laut Skript",
+          "paare": [
+            { "links": "Tendenz zur Mitte", "rechts": "Behelfslösung bei Unschlüssigkeit mit Votum der goldenen Mitte" },
+            { "links": "Tendenz zur Milde/Strenge", "rechts": "Geringes oder hohes Anspruchsniveau der Beurteiler führt zu Ausreißern" },
+            { "links": "Sympathie/Antipathie", "rechts": "Bauchgefühl führt zu verzerrter Maßstabsanwendung" },
+            { "links": "Selbstbezug/Projektion", "rechts": "Maßstab ist oft die eigene Person des Beurteilers" }
+          ],
+          "erklaerung": "Alle vier Fehler liegen im Beurteiler selbst. Sie unterscheiden sich darin, was den Maßstab verschiebt: Unschlüssigkeit, Anspruchsniveau, Bauchgefühl oder die eigene Person.",
+          "belege": [
+            { "text": "vielfach unbewusste Behelfslösung bei Unschlüssigkeit mit Votum der „goldenen Mitte“", "quelle": "folie-46" },
+            { "text": "geringes/hohes Anspruchsniveau der Beurteiler führt zu Ausreißern", "quelle": "folie-46" },
+            { "text": "Maßstab für Beurteilung/Beobachtung ist oft eigene Person", "quelle": "folie-46" }
+          ],
+          "kurz": "Folie 74: Tendenz zur Mitte, Milde/Strenge, Sympathie/Antipathie, Selbstbezug/Projektion." },
+
+        { "id": "m5-t13-a03", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "mitte-vs-milde", "karte": "m5-t13-k2", "folien": [74],
+          "frage": "Sortiere die Merkmale dem passenden Fehler zu.",
+          "kategorien": ["Tendenz zur Mitte", "Tendenz zur Milde/Strenge", "Sympathie/Antipathie"],
+          "elemente": [
+            { "text": "Votum der „goldenen Mitte“ bei Unschlüssigkeit", "kategorie": 0 },
+            { "text": "Gutes wird abgewertet, Schlechtes wird aufgewertet", "kategorie": 0 },
+            { "text": "Geringes oder hohes Anspruchsniveau der Beurteiler", "kategorie": 1 },
+            { "text": "Führt zu Ausreißern und ist meist bewusst", "kategorie": 1 },
+            { "text": "Nähe-Effekt durch längere Bekanntschaft", "kategorie": 2 },
+            { "text": "Eigene Schwächen werden beim Kandidaten wiedererkannt (similar to me)", "kategorie": 2 }
+          ],
+          "erklaerung": "Die Tendenz zur Mitte drückt alles zusammen, die Tendenz zur Milde/Strenge zieht alles in eine Richtung auseinander, Sympathie/Antipathie verschiebt den Maßstab je nach Person.",
+          "belege": [
+            { "text": "Gutes wird abgewertet, Schlechtes wird aufgewertet", "quelle": "folie-46" },
+            { "text": "Sympathie aufgrund Nähe-Effekt (längere Bekanntschaft) oder Attraktivitäts-Stereotyp", "quelle": "folie-46" }
+          ],
+          "kurz": "Mitte = Unschlüssigkeit. Milde/Strenge = Anspruchsniveau. Sympathie/Antipathie = Bauchgefühl." },
+
+        { "id": "m5-t13-a04", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "mitte-vs-milde", "karte": "m5-t13-k2", "folien": [74],
+          "frage": "Tendenz zur Mitte und Tendenz zur Milde/Strenge: Was stimmt?",
+          "aussagen": [
+            { "text": "Die Tendenz zur Mitte ist vielfach eine unbewusste Behelfslösung bei Unschlüssigkeit.", "wahr": true },
+            { "text": "Bei der Tendenz zur Mitte wird Gutes abgewertet und Schlechtes aufgewertet.", "wahr": true },
+            { "text": "Die Tendenz zur Milde/Strenge bleibt den Beurteilern und ihrer Umwelt in der Regel verborgen.", "wahr": false, "korrektur": "Umgekehrt: Das Vorgehen ist den Beurteilern (und der Umwelt!) meist bewusst." },
+            { "text": "Die Tendenz zur Milde/Strenge entsteht aus einem geringen oder hohen Anspruchsniveau der Beurteiler und führt zu Ausreißern.", "wahr": true }
+          ],
+          "erklaerung": "Der Unterschied im Bewusstsein ist prüfungsrelevant: Die Tendenz zur Mitte ist vielfach unbewusst, die Tendenz zur Milde/Strenge meist bewusst.",
+          "beleg": "Vorgehen ist den Beurteilern (und der Umwelt!) meist bewusst", "belegQuelle": "folie-46",
+          "kurz": "Mitte: vielfach unbewusst. Milde/Strenge: meist bewusst, auch der Umwelt." },
+
+        { "id": "m5-t13-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "tendenz-mitte", "karte": "m5-t13-k1", "folien": [74], "bank": true,
+          "frage": "Vervollständige, wie das Skript die Tendenz zur Mitte beschreibt.",
+          "text": "Vielfach unbewusste Behelfslösung bei {_Unschlüssigkeit_} mit Votum der „goldenen Mitte“.\nDas heißt: Gutes wird {_abgewertet_}, Schlechtes wird {_aufgewertet_}.\nAbhilfe z.B. durch {_gerade_} Anzahl wählbarer Skalenwerte.",
+          "zusatzBank": ["Ausreißern", "Bauchgefühl"],
+          "erklaerung": "Die Richtung ist die Stolperstelle: Gutes runter, Schlechtes rauf. Beides wandert zur Mitte.",
+          "beleg": "d.h., Gutes wird abgewertet, Schlechtes wird aufgewertet", "belegQuelle": "folie-46",
+          "kurz": "Tendenz zur Mitte: Gutes abgewertet, Schlechtes aufgewertet; Abhilfe gerade Skalenzahl." },
+
+        { "id": "m5-t13-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "sympathie-antipathie", "karte": "m5-t13-k3", "folien": [74],
+          "frage": "Erkläre Sympathie und Antipathie als Beurteilungsfehler und nenne die Ursachen, die das Skript dafür angibt.",
+          "musterloesung": "Sympathie und Antipathie sind persönlichkeitsbezogene Beurteilungsfehler: Das Bauchgefühl beeinflusst die Beurteilung. Die Folge ist eine verzerrte Maßstabsanwendung, weil dem Beurteiler besonders sympathische Bewerber unbewusst besser bewertet werden und umgekehrt. Als Ursachen für Sympathie nennt das Skript den Nähe-Effekt durch längere Bekanntschaft und das Attraktivitäts-Stereotyp. Antipathie entsteht zum Beispiel dann, wenn der Beobachter beim Kandidaten eigene Schwächen wiedererkennt (similar to me).",
+          "checkliste": [
+            "Bauchgefühl beeinflusst die Beurteilung",
+            "Folge: verzerrte Maßstabsanwendung, sympathische Bewerber werden unbewusst besser bewertet",
+            "Sympathie durch Nähe-Effekt (längere Bekanntschaft)",
+            "Sympathie durch Attraktivitäts-Stereotyp",
+            "Antipathie, wenn eigene Schwächen wiedererkannt werden (similar to me)"
+          ],
+          "erklaerung": "Die Klausur kann die beiden Sympathie-Ursachen und die Antipathie-Ursache einzeln verlangen. Der Fachausdruck verzerrte Maßstabsanwendung gehört dazu.",
+          "beleg": "Antipathie z.B. weil eigene Schwächen des Beobachters wiedererkannt werden (similar to me)", "belegQuelle": "folie-46",
+          "kurz": "Bauchgefühl verzerrt den Maßstab: Nähe-Effekt, Attraktivitäts-Stereotyp, similar to me." },
+
+        { "id": "m5-t13-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "tendenz-mitte", "karte": "m5-t13-k1", "folien": [74],
+          "szenario": "Übungsfall: Eine Teamleiterin füllt für ihre sechs Mitarbeitenden die Jahresbeurteilung aus. Die Skala hat fünf Stufen. Bei fast allen Kriterien kreuzt sie die dritte Stufe an. Im Gespräch sagt sie, sie sei sich bei vielen Punkten einfach nicht sicher gewesen.",
+          "frage": "Welcher Fehler liegt vor, und was schlägt das Skript als Abhilfe vor?",
+          "optionen": [
+            "Tendenz zur Mitte – Abhilfe: eine gerade Anzahl wählbarer Skalenwerte",
+            "Tendenz zur Milde/Strenge – Abhilfe: eine gerade Anzahl wählbarer Skalenwerte",
+            "Tendenz zur Mitte – Abhilfe: die Kandidaten mit ihrem Vorgänger vergleichen",
+            "Sympathie/Antipathie – Abhilfe: mehrere Beobachter einsetzen"
+          ], "richtig": 0,
+          "erklaerung": "Die Unschlüssigkeit als Anlass und das Votum der goldenen Mitte sind genau die Beschreibung der Tendenz zur Mitte. Die einzige Abhilfe, die das Skript an dieser Stelle nennt, ist die gerade Anzahl wählbarer Skalenwerte.",
+          "belege": [
+            { "text": "vielfach unbewusste Behelfslösung bei Unschlüssigkeit", "quelle": "folie-46" },
+            { "text": "Abhilfe z.B. durch gerade Anzahl wählbarer Skalenwerte", "quelle": "folie-46" }
+          ],
+          "kurz": "Unschlüssigkeit plus mittlere Stufe = Tendenz zur Mitte; Abhilfe: gerade Skalenzahl." },
+
+        { "id": "m5-t13-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "selbstbezug-projektion", "karte": "m5-t13-k4", "folien": [74],
+          "vorne": "Was beschreibt das Skript unter **Selbstbezug/Projektion**?",
+          "hinten": "Der Maßstab für Beurteilung und Beobachtung ist oft die **eigene Person** – also Projektion.\nBesonders starke eigene Eigenschaften werden als Ansprüche auf Kandidaten projiziert. Das Skript bewertet diese Folge als negativ.",
+          "erklaerung": "Selbstbezug ist der vierte persönlichkeitsbezogene Fehler auf Folie 74.",
+          "beleg": "besonders starke eigene Eigenschaften werden als Ansprüche auf Kandidaten projiziert", "belegQuelle": "folie-46",
+          "kurz": "Selbstbezug/Projektion: die eigene Person wird zum Maßstab für den Kandidaten." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Persönlichkeitsbezogene Beurteilungsfehler (Folie 74):** Tendenz zur Mitte (Unschlüssigkeit, Gutes ab-, Schlechtes aufgewertet; Abhilfe: gerade Skalenzahl) · Tendenz zur Milde/Strenge (Anspruchsniveau, Ausreißer, meist bewusst) · Sympathie/Antipathie (Bauchgefühl, verzerrte Maßstabsanwendung) · Selbstbezug/Projektion (eigene Person als Maßstab)."
+        ],
+        "ausfuehrlich": [
+          "**Tendenz zur Mitte.** Vielfach unbewusste Behelfslösung bei Unschlüssigkeit mit Votum der „goldenen Mitte“. Gutes wird abgewertet, Schlechtes wird aufgewertet. Abhilfe z.B. durch gerade Anzahl wählbarer Skalenwerte.",
+          "**Tendenz zur Milde/Strenge.** Geringes oder hohes Anspruchsniveau der Beurteiler führt zu Ausreißern. Das Vorgehen ist den Beurteilern (und der Umwelt!) meist bewusst – anders als bei der Tendenz zur Mitte.",
+          "**Sympathie/Antipathie.** Bauchgefühl beeinflusst Beurteilungen: verzerrte Maßstabsanwendung durch unbewusst bessere Bewertung sympathischer Bewerber, und umgekehrt. Sympathie aufgrund Nähe-Effekt (längere Bekanntschaft) oder Attraktivitäts-Stereotyp. Antipathie z.B., weil eigene Schwächen des Beobachters wiedererkannt werden (similar to me).",
+          "**Selbstbezug/Projektion.** Maßstab für Beurteilung/Beobachtung ist oft die eigene Person. Besonders starke eigene Eigenschaften werden als Ansprüche auf Kandidaten projiziert; das Skript bewertet das als negativ."
+        ],
+        "merkhilfe": "Merkhilfe für die vier: **M-M-S-S** – Mitte, Milde/Strenge, Sympathie, Selbstbezug."
+      }
+    },
+    {
+      "id": "m5-t14",
+      "titel": "Beobachtungs- und Beurteilungsfehler vermeiden: die sechs Maßnahmen",
+      "folien": [75],
+      "gewicht": 3,
+      "lernstoff": true,
+      "lernkarten": [
+        {
+          "id": "m5-t14-k1",
+          "titel": "Die sechs Maßnahmen des Skripts",
+          "folien": [75],
+          "bloecke": [
+            { "typ": "einfach", "text": "Nach drei Folien voller Fehler kommt die Gegenseite: sechs Maßnahmen, mit denen du die Fehler klein hältst. Sie sind im Skript durchnummeriert und bauen aufeinander auf: erst wissen, dass es die Fehler gibt, dann das Beobachten selbst ordnen, dann gemeinsam auswerten und am Ende das eigene Urteil angreifen." },
+            { "typ": "liste", "geordnet": true, "titel": "Allgemeine Beobachtungs-/Beurteilungsfehler vermeiden!", "punkte": [
+              "Bewusst machen, dass Phänomene existieren (man kann nicht sehen, was man nicht kennt!)",
+              "Beobachtungen jeweils isoliert betrachten und mehrfach abfragen",
+              "Trainieren/Schulen/Wiederholen der Erkenntnisse – Beobachter sollen diverse Sichtweisen vertreten",
+              "strukturiertes Vorgehen, Notizen anfertigen, unterschiedliche Übungen mit mehreren Beobachtern",
+              "in der Auswertung gegenseitig aufpassen und auf Phänomene aufmerksam machen",
+              "Fakten suchen, die eigene Vorstellungen vom Kandidaten widerlegen"
+            ] },
+            { "typ": "hinweis", "text": "Die Unterzeile der Folie nennt nur die **allgemeinen** Beobachtungs-/Beurteilungsfehler, obwohl auf der vorigen Folie zusätzlich die persönlichkeitsbezogenen Fehler behandelt wurden. Ob die sechs Maßnahmen auch für diese gelten, sagt das Skript nicht ausdrücklich." },
+            { "typ": "skriptluecke", "id": "m5-t14-l1", "text": "Zwischen den sechs Punkten stehen im Skript große Leerräume – Platz zum Mitschreiben. Trage hier ein, was in der Vorlesung zu den einzelnen Punkten gesagt wurde.", "felder": [
+              { "id": "m5-t14-l1-f1", "label": "Notizen zu Punkt 1 (Phänomene bewusst machen)" },
+              { "id": "m5-t14-l1-f2", "label": "Notizen zu Punkt 2 (isoliert betrachten, mehrfach abfragen)" },
+              { "id": "m5-t14-l1-f3", "label": "Notizen zu Punkt 3 (trainieren, schulen, wiederholen)" },
+              { "id": "m5-t14-l1-f4", "label": "Notizen zu Punkt 4 (strukturiertes Vorgehen, Notizen, mehrere Beobachter)" },
+              { "id": "m5-t14-l1-f5", "label": "Notizen zu Punkt 5 (gegenseitig aufpassen in der Auswertung)" },
+              { "id": "m5-t14-l1-f6", "label": "Notizen zu Punkt 6 (widerlegende Fakten suchen)" }
+            ] }
+          ]
+        },
+        {
+          "id": "m5-t14-k2",
+          "titel": "„man kann nicht sehen, was man nicht kennt!“",
+          "folien": [75],
+          "bloecke": [
+            { "typ": "einfach", "text": "Dieser Satz steht in Klammern hinter der ersten Maßnahme und begründet sie. Solange du einen Fehler wie den [[Halo-Effekt]] nicht kennst, kannst du ihn bei dir selbst auch nicht bemerken. Deshalb steht das Bewusstmachen an erster Stelle, vor jedem Verfahren und jedem Formular." },
+            { "typ": "zitat", "text": "man kann nicht sehen, was man nicht kennt!", "kontext": "Begründung des Skripts für die erste Maßnahme: Bewusst machen, dass die Phänomene existieren (Folie 75)." },
+            { "typ": "text", "text": "Zwei weitere Maßnahmen greifen denselben Gedanken auf: **Trainieren/Schulen/Wiederholen der Erkenntnisse** und, in der Auswertung, **gegenseitig aufpassen und auf Phänomene aufmerksam machen**. Wissen allein reicht also nicht, es muss geübt und gegenseitig eingefordert werden." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t14-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fehler-vermeiden", "karte": "m5-t14-k1", "folien": [75],
+          "frage": "Bringe die sechs Maßnahmen in die Reihenfolge, in der das Skript sie nummeriert.",
+          "elemente": [
+            "Bewusst machen, dass Phänomene existieren",
+            "Beobachtungen jeweils isoliert betrachten und mehrfach abfragen",
+            "Trainieren/Schulen/Wiederholen der Erkenntnisse",
+            "Strukturiertes Vorgehen, Notizen anfertigen, Übungen mit mehreren Beobachtern",
+            "In der Auswertung gegenseitig aufpassen",
+            "Fakten suchen, die eigene Vorstellungen widerlegen"
+          ],
+          "erklaerung": "Die Folie nummeriert von 1.) bis 6.). Der Aufbau geht vom Wissen über das eigene Beobachten zur gemeinsamen Auswertung und endet mit dem bewussten Angriff auf das eigene Urteil.",
+          "belege": [
+            { "text": "Bewusst machen, dass Phänomene existieren (man kann nicht sehen, was man nicht kennt!)", "quelle": "folie-47" },
+            { "text": "Fakten suchen, die eigene Vorstellungen vom Kandidaten widerlegen", "quelle": "folie-47" }
+          ],
+          "kurz": "Reihenfolge: bewusst machen, isoliert beobachten, trainieren, strukturiert vorgehen, gemeinsam auswerten, widerlegende Fakten suchen." },
+
+        { "id": "m5-t14-a02", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "phaenomene-bewusst", "karte": "m5-t14-k2", "folien": [75],
+          "frage": "Mit welcher Begründung stellt das Skript das Bewusstmachen der Phänomene an die erste Stelle?",
+          "optionen": [
+            "„man kann nicht sehen, was man nicht kennt!“",
+            "„Einmal gut, immer gut...“",
+            "„hat doch einen Grund, weshalb er/sie dort angesiedelt ist...“",
+            "„Gutes wird abgewertet, Schlechtes wird aufgewertet“"
+          ], "richtig": 0,
+          "erklaerung": "Der Satz steht in Klammern direkt hinter der ersten Maßnahme. Die anderen drei Zitate stammen von den Fehlerfolien: Kleber-Effekt, Hierarchie-Effekt und Tendenz zur Mitte.",
+          "beleg": "Bewusst machen, dass Phänomene existieren (man kann nicht sehen, was man nicht kennt!)", "belegQuelle": "folie-47",
+          "kurz": "Begründung der ersten Maßnahme: man kann nicht sehen, was man nicht kennt." },
+
+        { "id": "m5-t14-a03", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "fehler-vermeiden", "karte": "m5-t14-k1", "folien": [75],
+          "frage": "Welche Maßnahmen nennt Folie 75, um Beobachtungs- und Beurteilungsfehler zu vermeiden?",
+          "optionen": [
+            "Beobachtungen jeweils isoliert betrachten und mehrfach abfragen",
+            "Strukturiertes Vorgehen, Notizen anfertigen, unterschiedliche Übungen mit mehreren Beobachtern",
+            "In der Auswertung gegenseitig aufpassen und auf Phänomene aufmerksam machen",
+            "Fakten suchen, die eigene Vorstellungen vom Kandidaten widerlegen",
+            "Eine gerade Anzahl wählbarer Skalenwerte vorgeben",
+            "Jeden Kandidaten mit seinem Vorgänger vergleichen"
+          ], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Die gerade Anzahl von Skalenwerten ist die Abhilfe gegen die Tendenz zur Mitte von Folie 74, gehört also nicht zu dieser Liste. Der Vergleich mit dem Vorgänger ist der Kontrast-Effekt von Folie 73, also selbst ein Fehler.",
+          "belege": [
+            { "text": "Beobachtungen jeweils isoliert betrachten und mehrfach abfragen", "quelle": "folie-47" },
+            { "text": "strukturiertes Vorgehen, Notizen anfertigen, unterschiedliche Übungen mit mehreren Beobachtern", "quelle": "folie-47" },
+            { "text": "in der Auswertung gegenseitig aufpassen und auf Phänomene aufmerksam machen", "quelle": "folie-47" }
+          ],
+          "kurz": "Nicht auf Folie 75: gerade Skalenzahl (Folie 74) und der Vergleich mit dem Vorgänger (Folie 73, Kontrast-Effekt)." },
+
+        { "id": "m5-t14-a04", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "fehler-vermeiden", "karte": "m5-t14-k1", "folien": [75],
+          "frage": "Die Maßnahmen von Folie 75: Was stimmt?",
+          "aussagen": [
+            { "text": "Beobachter sollen diverse Sichtweisen vertreten.", "wahr": true },
+            { "text": "Die Erkenntnisse sollen trainiert, geschult und wiederholt werden.", "wahr": true },
+            { "text": "Man soll gezielt Fakten suchen, die die eigene Vorstellung vom Kandidaten bestätigen.", "wahr": false, "korrektur": "Umgekehrt: Man soll Fakten suchen, die die eigenen Vorstellungen vom Kandidaten WIDERLEGEN." },
+            { "text": "Beobachtungen sollen jeweils isoliert betrachtet und mehrfach abgefragt werden.", "wahr": true }
+          ],
+          "erklaerung": "Punkt 6 ist die schärfste Maßnahme und wird leicht falsch erinnert: Gesucht wird das Gegenargument, nicht die Bestätigung.",
+          "beleg": "Fakten suchen, die eigene Vorstellungen vom Kandidaten widerlegen", "belegQuelle": "folie-47",
+          "kurz": "Punkt 6: widerlegende Fakten suchen, nicht bestätigende." },
+
+        { "id": "m5-t14-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "fehler-vermeiden", "karte": "m5-t14-k1", "folien": [75], "bank": true,
+          "frage": "Vervollständige zwei der sechs Maßnahmen im Wortlaut des Skripts.",
+          "text": "Beobachtungen jeweils {_isoliert_} betrachten und {_mehrfach_} abfragen.\nFakten suchen, die eigene {_Vorstellungen_} vom Kandidaten {_widerlegen_}.",
+          "zusatzBank": ["strukturiert", "gegenseitig"],
+          "erklaerung": "Isoliert heißt: jede Beobachtung für sich, nicht als Teil eines schon fertigen Gesamteindrucks. Mehrfach abfragen heißt: nicht auf eine einzige Momentaufnahme bauen.",
+          "beleg": "Beobachtungen jeweils isoliert betrachten und mehrfach abfragen", "belegQuelle": "folie-47",
+          "kurz": "Isoliert betrachten, mehrfach abfragen; widerlegende Fakten suchen." },
+
+        { "id": "m5-t14-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "phaenomene-bewusst", "karte": "m5-t14-k2", "folien": [75],
+          "frage": "Erkläre, was mit „man kann nicht sehen, was man nicht kennt!“ gemeint ist und in welchem Zusammenhang der Satz steht.",
+          "musterloesung": "Der Satz steht auf Folie 75 in Klammern hinter der ersten Maßnahme gegen Beobachtungs- und Beurteilungsfehler: Bewusst machen, dass die Phänomene existieren. Er begründet, warum das Wissen über die Fehler an erster Stelle steht. Wer den Halo-Effekt, den Kleber-Effekt oder die Tendenz zur Mitte nicht kennt, kann sie bei sich selbst auch nicht bemerken, weil sie überwiegend unbewusst wirken. Erst das Kennen macht sie überhaupt beobachtbar. Deshalb folgen im Skript die weiteren Maßnahmen erst danach: isoliert beobachten und mehrfach abfragen, trainieren, schulen und wiederholen, strukturiert vorgehen mit Notizen und mehreren Beobachtern, in der Auswertung gegenseitig aufpassen und schließlich Fakten suchen, die die eigene Vorstellung widerlegen.",
+          "checkliste": [
+            "Der Satz gehört zur ersten Maßnahme: Bewusst machen, dass Phänomene existieren",
+            "Er begründet, warum Wissen über die Fehler die Voraussetzung für alles Weitere ist",
+            "Die Fehler wirken überwiegend unbewusst, deshalb fallen sie ohne Kenntnis nicht auf",
+            "Zusammenhang: Folie 75 listet danach fünf weitere Maßnahmen zum Vermeiden der Fehler"
+          ],
+          "erklaerung": "Solche Sätze werden in der Klausur gern erklärt statt abgefragt. Nenne immer die Maßnahme, zu der er gehört, und die Funktion der Begründung.",
+          "beleg": "man kann nicht sehen, was man nicht kennt!", "belegQuelle": "folie-47",
+          "kurz": "Der Satz begründet Maßnahme 1: ohne Kenntnis der Phänomene bleiben sie unsichtbar." },
+
+        { "id": "m5-t14-a07", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "fehler-vermeiden", "karte": "m5-t14-k1", "folien": [75],
+          "szenario": "Übungsfall: Eure Filiale führt nächste Woche einen Auswahltag mit acht Bewerberinnen und Bewerbern für die Ausbildung durch. Drei Führungskräfte beobachten. Bisher läuft es so: Jede Führungskraft schreibt am Abend aus dem Gedächtnis eine Gesamtnote je Bewerber auf, danach werden die Noten gemittelt.",
+          "frage": "Welche Maßnahmen von Folie 75 schlägst du für diesen Auswahltag vor?",
+          "musterloesung": "Vor dem Auswahltag sollten sich alle drei Beobachter bewusst machen, dass die Beobachtungs- und Beurteilungsfehler existieren, denn man kann nicht sehen, was man nicht kennt. Dazu passt das Trainieren, Schulen und Wiederholen der Erkenntnisse; außerdem sollen die Beobachter diverse Sichtweisen vertreten. Statt einer Gesamtnote aus dem Gedächtnis braucht es ein strukturiertes Vorgehen: Notizen anfertigen und unterschiedliche Übungen mit mehreren Beobachtern. Die einzelnen Beobachtungen sollen jeweils isoliert betrachtet und mehrfach abgefragt werden, nicht zu einem einzigen Gesamteindruck verschmolzen. In der Auswertung sollen die drei gegenseitig aufpassen und einander auf die Phänomene aufmerksam machen. Zum Schluss sollte jeder gezielt Fakten suchen, die seine eigenen Vorstellungen vom Kandidaten widerlegen.",
+          "checkliste": [
+            "Phänomene vorab bewusst machen, trainieren, schulen, wiederholen; diverse Sichtweisen der Beobachter",
+            "Strukturiertes Vorgehen: Notizen anfertigen, unterschiedliche Übungen mit mehreren Beobachtern",
+            "Beobachtungen isoliert betrachten und mehrfach abfragen statt einer Gesamtnote aus dem Gedächtnis",
+            "In der Auswertung gegenseitig aufpassen und auf Phänomene aufmerksam machen",
+            "Fakten suchen, die die eigenen Vorstellungen vom Kandidaten widerlegen"
+          ],
+          "erklaerung": "Das Skript ordnet die sechs Maßnahmen keinem einzelnen Fehler zu, sondern stellt sie als gemeinsame Gegenmaßnahmen voran. Für den Fall genügt es deshalb, sie auf den Ablauf zu übertragen.",
+          "belege": [
+            { "text": "strukturiertes Vorgehen, Notizen anfertigen, unterschiedliche Übungen mit mehreren Beobachtern", "quelle": "folie-47" },
+            { "text": "Trainieren/Schulen/Wiederholen der Erkenntnisse – Beobachter sollen diverse Sichtweisen vertreten", "quelle": "folie-47" }
+          ],
+          "kurz": "Auswahltag: bewusst machen, strukturiert beobachten, isoliert und mehrfach, gemeinsam auswerten, sich selbst widerlegen." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Fehler vermeiden (Folie 75), sechs Punkte:** 1. Phänomene bewusst machen („man kann nicht sehen, was man nicht kennt!“) 2. isoliert betrachten und mehrfach abfragen 3. trainieren/schulen/wiederholen, diverse Sichtweisen 4. strukturiertes Vorgehen, Notizen, mehrere Beobachter 5. in der Auswertung gegenseitig aufpassen 6. Fakten suchen, die die eigene Vorstellung widerlegen."
+        ],
+        "ausfuehrlich": [
+          "**1.) Bewusst machen, dass Phänomene existieren** – Begründung des Skripts: man kann nicht sehen, was man nicht kennt!",
+          "**2.) Beobachtungen jeweils isoliert betrachten und mehrfach abfragen.**",
+          "**3.) Trainieren/Schulen/Wiederholen der Erkenntnisse** – Beobachter sollen diverse Sichtweisen vertreten.",
+          "**4.) Strukturiertes Vorgehen, Notizen anfertigen, unterschiedliche Übungen mit mehreren Beobachtern.**",
+          "**5.) In der Auswertung gegenseitig aufpassen und auf Phänomene aufmerksam machen.**",
+          "**6.) Fakten suchen, die eigene Vorstellungen vom Kandidaten widerlegen.** Stolperstelle: widerlegen, nicht bestätigen.",
+          "**Abgrenzung:** Die gerade Anzahl wählbarer Skalenwerte steht nicht hier, sondern als Abhilfe gegen die Tendenz zur Mitte auf Folie 74."
+        ],
+        "merkhilfe": "Merkhilfe für die Reihenfolge: erst **wissen** (1–3), dann **ordnen** (4), dann **gemeinsam prüfen** (5), zuletzt **sich selbst widerlegen** (6)."
+      }
+    }
+  ]
+}

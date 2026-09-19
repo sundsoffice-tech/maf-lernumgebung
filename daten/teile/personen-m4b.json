@@ -1,0 +1,14 @@
+{
+  "personen": [
+    {
+      "name": "Michael Beckmann",
+      "kurz": "Urheber der Folien",
+      "beitrag": "Steht in der Fußzeile der Folien 66, 67 und 68 als Urheber: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.",
+      "folien": [66, 67, 68],
+      "themen": ["m4-t11", "m4-t12", "m4-t13", "m4-t14"],
+      "quelle": "skript",
+      "beleg": "DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann",
+      "belegQuelle": "folie-38"
+    }
+  ]
+}

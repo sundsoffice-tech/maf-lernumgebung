@@ -1,0 +1,64 @@
+{
+  "personen": [
+    {
+      "name": "Michael Beckmann",
+      "kurz": "Dozent und Urheber der Folien",
+      "beitrag": "Steht in der Fußzeile der Folien 49 bis 53 als Urheber: DHBW, BWL-Bank, MAF II, SS 2026 © Michael Beckmann. Er ist der Dozent der Vorlesung Mitarbeiterführung. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.",
+      "folien": [49, 50, 51, 52, 53],
+      "themen": ["m2-t11", "m2-t12", "m2-t13", "m2-t14", "m2-t15"],
+      "quelle": "skript",
+      "beleg": "DHBW, BWL-Bank, MAF II, SS 2026 © Michael Beckmann",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "name": "Abraham Maslow",
+      "kurz": "Theorie mit Hinweisen auf Motivstrukturen",
+      "beitrag": "Die Zusammenfassung des Kapitels (Folie 50) nennt ihn zusammen mit Herzberg: „Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.\" Im selben Zusammenhang steht, dass neben der Linderung von Mängeln bei Hygienefaktoren Wachstumsmotive und Motivatoren zu fördern bzw. zu stärken sind. Die Folie nennt seine Theorie ausdrücklich als Hinweisgeber, nicht als wissenschaftlich gut abgestützt; diese Kennzeichnung trägt sie McClelland und Deci/Ryan ein.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "quelle": "skript",
+      "beleg": "Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "name": "Frederick Herzberg",
+      "kurz": "Theorie mit Hinweisen auf Motivstrukturen",
+      "beitrag": "Die Zusammenfassung des Kapitels (Folie 50) nennt ihn zusammen mit Maslow: „Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.\" Direkt daneben steht der Satz über Hygienefaktoren, Wachstumsmotive und Motivatoren. Auch bei ihm unterscheidet die Folie: Hinweise auf Motivstrukturen, nicht wissenschaftlich gut abgestützte Theorien.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "quelle": "skript",
+      "beleg": "Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "name": "McClelland",
+      "kurz": "wiss. gut abgestützte Theorie, insbesondere zum Verhalten von Führungskräften",
+      "beitrag": "Auf der Zusammenfassungsfolie 50: „McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.\" Das Skript nennt ihn an dieser Stelle ohne Vornamen und ohne weitere Ausführung seiner Theorie.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "quelle": "skript",
+      "beleg": "McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "name": "Deci/Ryan",
+      "kurz": "wiss. gut abgestützte Theorie, insbesondere zum Verhalten von Führungskräften",
+      "beitrag": "Auf der Zusammenfassungsfolie 50 gemeinsam mit McClelland genannt: „McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.\" Das Skript schreibt beide Namen zusammen als „Deci/Ryan\", ohne Vornamen und ohne Ausführung der Theorie.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "quelle": "skript",
+      "beleg": "McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "name": "Peter Drucker",
+      "kurz": "Zitat: Vertrauen als Bedingung für eine Führungsposition",
+      "beitrag": "Auf der Folie 51 „Führung macht den Unterschied!\" steht unten rechts sein Zitat: „No man should be in a leadership position who does not trust his best people.\" Darunter die Zeile „Peter Drucker, 1909-2005\". Das Zitat ergänzt die Liste der Führungsaktivitäten, in der Vertrauen auch als Teil von „Kommunizieren\" auftaucht. Das Skript übersetzt und kommentiert das Zitat nicht.",
+      "folien": [51],
+      "themen": ["m2-t13"],
+      "quelle": "skript",
+      "beleg": "No man should be in a leadership position who does not trust his best people.",
+      "belegQuelle": "folie-23"
+    }
+  ]
+}

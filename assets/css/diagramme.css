@@ -1,0 +1,45 @@
+/* Klassen für alle eigenen SVG-Diagramme. Diagramme verwenden NUR diese Klassen (keine festen Farben),
+   damit Hell und Dunkel stimmen. Schriftgrößen gelten für viewBox-Breite 800. */
+.diagrammhuelle svg { font-family: var(--schrift-text); }
+.d-flaeche { fill: var(--d-flaeche); stroke: var(--d-linie); stroke-width: 1.2; }
+.d-flaeche-2 { fill: var(--d-flaeche-2); stroke: var(--d-linie); stroke-width: 1.2; }
+.d-flaeche-3 { fill: var(--d-flaeche-3); stroke: var(--d-linie); stroke-width: 1.2; }
+.d-flaeche-leer { fill: var(--flaeche); stroke: var(--d-linie); stroke-width: 1.2; }
+.d-dunkel { fill: var(--d-dunkel); stroke: none; }
+.d-akzentflaeche { fill: var(--kern-sanft); stroke: var(--d-akzent); stroke-width: 1.2; }
+.d-linie { fill: none; stroke: var(--d-linie); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+.d-linie-duenn { fill: none; stroke: var(--d-linie); stroke-width: 1.2; }
+.d-linie-gestrichelt { fill: none; stroke: var(--d-linie); stroke-width: 1.2; stroke-dasharray: 5 4; }
+.d-linie-akzent { fill: none; stroke: var(--d-akzent); stroke-width: 2.5; stroke-linecap: round; }
+.d-linie-gut { fill: none; stroke: var(--d-gut); stroke-width: 2.5; stroke-linecap: round; }
+.d-linie-mittel { fill: none; stroke: var(--d-mittel); stroke-width: 2.5; stroke-linecap: round; }
+.d-kurve { fill: none; stroke: var(--d-linie); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.d-pfeilspitze { fill: var(--d-linie); stroke: none; }
+.d-pfeilspitze-akzent { fill: var(--d-akzent); stroke: none; }
+.d-punkt { fill: var(--d-text); stroke: var(--flaeche); stroke-width: 2; }
+.d-text { fill: var(--d-text); font-size: 15px; }
+.d-text-klein { fill: var(--d-text); font-size: 13px; }
+.d-text-fett { fill: var(--d-text); font-size: 15px; font-weight: 700; }
+.d-text-titel { fill: var(--d-text); font-size: 17px; font-weight: 700; }
+.d-text-invers { fill: var(--d-text-invers); font-size: 15px; font-weight: 650; }
+.d-text-akzent { fill: var(--d-akzent); font-size: 15px; font-weight: 700; }
+.d-text-leise { fill: var(--tinte-3); font-size: 13px; }
+.d-text-gut { fill: var(--d-gut); font-size: 14px; font-weight: 700; }
+.d-text-mittel { fill: var(--d-mittel); font-size: 14px; font-weight: 700; }
+
+/* Rahmen mit Wisch-Hinweis: Auf dem iPhone sind viele Abbildungen breiter als der Bildschirm */
+.diagrammfenster { position: relative; }
+.diagrammfenster.hat-ueberlauf::after {
+  content: ""; position: absolute; top: 1px; right: 1px; bottom: 1px; width: 2.5rem; pointer-events: none;
+  border-radius: 0 var(--radius-m) var(--radius-m) 0;
+  background: linear-gradient(to right, transparent, var(--flaeche) 85%);
+}
+.diagrammhinweis { margin: var(--a-2) 0 0; font-size: var(--gr-s); color: var(--tinte-3); display: flex; align-items: baseline; gap: 0.4em; }
+.diagrammhinweis[hidden] { display: none; }
+.diagrammhinweis::before { content: "↔"; font-weight: 700; color: var(--primaer); }
+
+/* Marken im Modus "beschriften" */
+.d-marke circle { fill: var(--primaer); stroke: var(--flaeche); stroke-width: 2; }
+.d-marke text { fill: var(--auf-primaer); font-size: 14px; font-weight: 700; }
+.d-marke.ist-richtig circle { fill: var(--gut); }
+.d-marke.ist-falsch circle { fill: var(--schlecht); }

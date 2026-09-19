@@ -1,0 +1,749 @@
+{
+  "id": "m3",
+  "titel": "Führung in Gruppen & Teams",
+  "vorlesung": "MAF III",
+  "themen": [
+    {
+      "id": "m3-t11",
+      "titel": "Gruppendynamik: Definition und Auftrag an die Führung",
+      "folien": [58],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t11-k1",
+          "titel": "Gruppendynamik: zwei Bedeutungen",
+          "folien": [58],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Folie beginnt mit einem Leitsatz: Arbeit in der Gruppe ist etwas anderes als Arbeit allein. Sobald Menschen zusammenarbeiten, wirken Kräfte zwischen ihnen, und diese Kräfte bewegen sich. Genau das nennt das Skript [[Gruppendynamik]]. Der Begriff hat dabei zwei Bedeutungen: das Geschehen selbst und die Wissenschaft, die dieses Geschehen erforscht." },
+            { "typ": "text", "text": "**Leitsatz der Folie:** Gruppenarbeit ≠ Individualarbeit -> Definition Gruppendynamik" },
+            { "typ": "definition", "begriff": "Gruppendynamik", "text": "Phänomen des Spiels der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen." },
+            { "typ": "liste", "titel": "Die zwei Lesarten laut Skript", "punkte": ["**Phänomen:** Spiel der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen", "**Wissenschaft:** zur Erforschung der Phänomene (sozialpsychologisch, soziologisch, tiefenpsychologisch)"] },
+            { "typ": "merksatz", "folie": 58, "text": "Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen" },
+            { "typ": "hinweis", "text": "Die Folie verlinkt zwei Videos: eines zum Asch-Experiment (deutsch) und eines zu peer pressure (englisch). Das Asch-Experiment wird nur als Videolink genannt, auf der Folie selbst nicht erklärt. Was in den Videos zu sehen ist, steht im nächsten Thema. Das Foto auf der Folie (springende Gruppe am Strand) trägt keine Beschriftung und keine Fachaussage." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t11-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "gruppendynamik-definition", "karte": "m3-t11-k1", "folien": [58],
+          "frage": "Wie beschreibt das Skript **Gruppendynamik** als Phänomen?",
+          "optionen": ["Als Spiel der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen", "Als Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung", "Als Tendenz zur Mitte, weil Ähnlichkeiten Konformitätsdruck erzeugen", "Als Tendenz von Gruppen, bei Entscheidungen höhere Risiken einzugehen als Einzelne"], "richtig": 0,
+          "erklaerung": "Das ist die Definition der Folie. Die drei anderen Antworten sind einzelne gruppendynamische Effekte, die das Skript erst auf den Folgefolien nennt: Gruppendenken, Nivellierung und Risikoschub.",
+          "beleg": "Phänomen des Spiels der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe", "belegQuelle": "folie-30",
+          "kurz": "Gruppendynamik = Spiel der Kräfte der Mitglieder in der Gruppe samt der Bewegungen, Veränderungen und Anpassungen darin." },
+        { "id": "m3-t11-a02", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "gruppendynamik-definition", "karte": "m3-t11-k1", "folien": [58], "bank": true,
+          "frage": "Ergänze die zweite Lesart von Gruppendynamik laut Skript.",
+          "text": "{_Wissenschaft_} zur Erforschung der Phänomene ({_sozialpsychologisch_}, {_soziologisch_}, {_tiefenpsychologisch_})",
+          "zusatzBank": ["Konformitätsdruck", "Kohäsion"],
+          "erklaerung": "Das Skript nennt drei Blickrichtungen dieser Wissenschaft: sozialpsychologisch, soziologisch und tiefenpsychologisch.",
+          "beleg": "Wissenschaft zur Erforschung der Phänomene (sozialpsychologisch, soziologisch, tiefenpsychologisch)", "belegQuelle": "folie-30",
+          "kurz": "Zweite Lesart: Wissenschaft zur Erforschung der Phänomene, sozialpsychologisch, soziologisch, tiefenpsychologisch." },
+        { "id": "m3-t11-a03", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "gruppendynamik-definition", "karte": "m3-t11-k1", "folien": [58],
+          "frage": "Was stimmt zur Folie „Gruppenarbeit ≠ Individualarbeit“?",
+          "aussagen": [
+            { "text": "Gruppendynamik meint im Skript sowohl das Phänomen in der Gruppe als auch die Wissenschaft, die es erforscht.", "wahr": true },
+            { "text": "Laut Folie ist Gruppenarbeit im Kern dasselbe wie Individualarbeit.", "wahr": false, "korrektur": "Die Folie stellt beides ausdrücklich gegenüber: Gruppenarbeit ≠ Individualarbeit." },
+            { "text": "Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen.", "wahr": true },
+            { "text": "Die Folie erklärt das Asch-Experiment ausführlich.", "wahr": false, "korrektur": "Das Asch-Experiment wird nur als Videolink genannt, auf der Folie nicht erklärt." }
+          ],
+          "erklaerung": "Die Folie trägt drei Aussagen: den Leitsatz der Ungleichheit, die zweifache Definition und den Auftrag an Führungskräfte. Die verlinkten Videos liefern den Inhalt zum Asch-Experiment, nicht die Folie.",
+          "beleg": "Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen", "belegQuelle": "folie-30",
+          "kurz": "Gruppenarbeit ≠ Individualarbeit; Gruppendynamik ist Phänomen und Wissenschaft; Führungskräfte müssen die Effekte kennen." },
+        { "id": "m3-t11-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "gruppendynamik-auftrag", "karte": "m3-t11-k1", "folien": [58],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen.“",
+          "musterloesung": "Der Satz schließt an den Leitsatz der Folie an: Gruppenarbeit ≠ Individualarbeit. Gruppendynamik ist das Spiel der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen; daneben bezeichnet der Begriff die Wissenschaft, die diese Phänomene sozialpsychologisch, soziologisch und tiefenpsychologisch erforscht. Wer führt, hat es also nicht mit einer Summe von Einzelnen zu tun, sondern mit Kräften zwischen ihnen. Das Skript entfaltet diese Effekte auf den Folgefolien: Gruppengeist, Gruppendenken, Nivellierung, Risikoschub und Reaktionen auf Angriffe. Es fasst deren Folge in einem eigenen Satz zusammen: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden. Kennen und Berücksichtigen heißt deshalb, diese Effekte im Alltag zu erkennen und ihnen zu begegnen, etwa durch die Hinweise der Folie zum Umgang mit Gruppen.",
+          "checkliste": ["Anschluss an den Leitsatz Gruppenarbeit ≠ Individualarbeit", "Definition der Gruppendynamik als Spiel der Kräfte und als Wissenschaft genannt", "Konkrete Effekte des Skripts benannt (Gruppengeist, Gruppendenken, Nivellierung, Risikoschub, Reaktionen auf Angriffe)", "Folge benannt: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden", "Konsequenz für die Führung: Effekte im Alltag erkennen und berücksichtigen"],
+          "erklaerung": "In der Klausur zählt der Zusammenhang: Der Satz ist die Brücke von der Definition zu den einzelnen Effekten und zu den Handlungshinweisen für Führungskräfte.",
+          "beleg": "Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen", "belegQuelle": "folie-30",
+          "kurz": "Der Merksatz verbindet die Definition mit den Effekten der Folgefolien und mit dem Handeln der Führungskraft." },
+        { "id": "m3-t11-a05", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "gruppendynamik-definition", "karte": "m3-t11-k1", "folien": [58],
+          "vorne": "Nenne die beiden Bedeutungen, die das Skript dem Begriff Gruppendynamik gibt.",
+          "hinten": "**1. Phänomen:** Spiel der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen.\n**2. Wissenschaft:** zur Erforschung dieser Phänomene, und zwar sozialpsychologisch, soziologisch und tiefenpsychologisch.",
+          "erklaerung": "Die Folie führt beide Bedeutungen als zwei Spiegelstriche unter derselben Überschrift.",
+          "beleg": "die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen", "belegQuelle": "folie-30",
+          "kurz": "Gruppendynamik ist Phänomen und Wissenschaft zugleich." },
+        { "id": "m3-t11-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "gruppendynamik-auftrag", "karte": "m3-t11-k1", "folien": [58, 59],
+          "szenario": "Übungsfall: In deiner Filiale arbeitet seit vier Wochen ein festes Team an der Umstellung der Kontoführung. Die Stimmung ist gut, alle ziehen mit, die Zwischenergebnisse stimmen. Die Filialleiterin überlegt, ob sie sich um die Vorgänge innerhalb der Gruppe überhaupt kümmern muss, solange das Ergebnis passt.",
+          "frage": "Was sagt das Skript dazu?",
+          "optionen": ["Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen, denn Gruppenarbeit ist nicht dasselbe wie Individualarbeit.", "Solange eine Gruppe erfolgreich ist, spielen gruppendynamische Effekte laut Skript keine Rolle.", "Gruppendynamik ist laut Skript nur ein Forschungsgegenstand und für den Führungsalltag nicht gemeint."], "richtig": 0,
+          "erklaerung": "Gerade der Erfolg ist kein Entwarnungssignal: Das Skript nennt die Selbstüberschätzung des Gruppengeistes „insbesondere in anfangs erfolgreichen Projekten zu beobachten“.",
+          "beleg": "insbesondere in anfangs erfolgreichen Projekten zu beobachten", "belegQuelle": "folie-31",
+          "kurz": "Auch erfolgreiche Gruppen brauchen Aufmerksamkeit: Selbstüberschätzung zeigt sich gerade in anfangs erfolgreichen Projekten." },
+        { "id": "m3-t11-a07", "typ": "mc", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "gruppendynamik-definition", "karte": "m3-t11-k1", "folien": [58],
+          "frage": "„Wissenschaft zur Erforschung der Phänomene (sozialpsychologisch, soziologisch, tiefenpsychologisch)“ – welche der beiden Lesarten von Gruppendynamik ist damit gemeint?",
+          "optionen": ["Die Wissenschaft, die die Phänomene erforscht", "Das Phänomen selbst, also das Spiel der Kräfte in der Gruppe", "Eine Abhilfe gegen Nivellierung, etwa bewusste Moderation"], "richtig": 0,
+          "erklaerung": "Die Folie trennt beides: Der erste Spiegelstrich beschreibt das Phänomen, der zweite die Wissenschaft. Bewusste Moderation nennt das Skript erst als Abhilfe gegen die Nivellierung.",
+          "beleg": "Wissenschaft zur Erforschung der Phänomene (sozialpsychologisch, soziologisch, tiefenpsychologisch)", "belegQuelle": "folie-30",
+          "kurz": "Zweiter Spiegelstrich = die Wissenschaft, erster Spiegelstrich = das Phänomen." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Gruppendynamik (Folie 58), zwei Lesarten:** Phänomen des Spiels der Kräfte der Mitglieder in einer Gruppe samt Bewegungen, Veränderungen und Anpassungen – und die Wissenschaft zur Erforschung dieser Phänomene (sozialpsychologisch, soziologisch, tiefenpsychologisch).", "**Merksatz:** Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen. **Leitsatz:** Gruppenarbeit ≠ Individualarbeit."],
+        "ausfuehrlich": ["**Folie 58, Gruppenarbeit ≠ Individualarbeit -> Definition Gruppendynamik.** Die Folie eröffnet den Abschnitt zu den gruppendynamischen Prozessen.", "**Phänomen:** Spiel der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen.", "**Wissenschaft:** zur Erforschung der Phänomene, sozialpsychologisch, soziologisch, tiefenpsychologisch.", "**Merksatz (blau hervorgehoben):** Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen.", "**Verlinkt, nicht erklärt:** ein Video zum Asch-Experiment (deutsch) und eines zu peer pressure (englisch). Inhalt siehe Thema „Konformität im Experiment“."],
+        "merkhilfe": "Zwei Brillen auf einem Begriff: die Bühne (was in der Gruppe passiert) und die Forschung, die auf diese Bühne schaut."
+      }
+    },
+    {
+      "id": "m3-t12",
+      "titel": "Konformität im Experiment: die beiden verlinkten Videos",
+      "folien": [58],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t12-k1",
+          "titel": "Das Asch-Experiment im Quarks-Video",
+          "folien": [58],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Folie verlinkt das Video, erklärt das Experiment aber nicht. Im Video sitzt eine Versuchsperson mit sechs Eingeweihten zusammen und soll sagen, welche Linie zur Vorgabe passt. Ab einem bestimmten Punkt antworten alle Eingeweihten gemeinsam falsch. Die Frage ist, ob die echte Versuchsperson dann bei ihrer eigenen Wahrnehmung bleibt." },
+            { "typ": "extern", "quelle": "asch-quarks", "titel": "Das Asch-Experiment: So manipuliert uns die Gruppe (Quarks, deutsch)", "punkte": [
+              "**Aufbau:** Die Probandin {{Constanze}} wird in einen Versuchsraum zusammen mit sechs weiteren Personen gebracht. Sie weiß nicht, dass sie die einzige echte Versuchsperson ist; alle anderen sind eingeweiht.",
+              "**Aufgabe:** Karten mit einer Referenzlinie und mehreren Vergleichslinien. Zu benennen ist die Linie, die mit der Referenz übereinstimmt.",
+              "**Ablauf:** In den ersten fünf Durchgängen geben die Eingeweihten jeweils die richtige Antwort. Ab dem fünften Durchgang geben alle Eingeweihten übereinstimmend dieselbe falsche Antwort.",
+              "**Ergebnis:** Constanze zögert sichtbar, bleibt aber bei ihrer eigenen richtigen Einschätzung. Eine zweite Testperson wirkt von Anfang an unsicherer und schließt sich der falsch antwortenden Gruppe an. Im anschließenden Interview beschreibt sie ihr Gefühl: Sie habe sich gefragt, warum die anderen das sagen, aber trotzdem mitgemacht. Im Untertiteltext klingt das so: „ich weiß, dass ich nur mache wie es [die Gruppe] macht“.",
+              "**Zahlen laut Video:** 37 Prozent der Versuchspersonen knicken ein; rund 76 Prozent, also fast drei Viertel, geben in mindestens einem der Durchgänge die falsche Antwort.",
+              "**Deutung:** Das Experiment zeigt zwei widerstreitende Bedürfnisse: präzise wahrnehmen und das auch äußern – und zugleich zur Gruppe gehören. Eine geschlossen auftretende Gruppe kann das eigene Verhalten verändern."
+            ] },
+            { "typ": "person", "name": "Mechthild Schäfer", "beitrag": "Psychologin an der LMU München. Sie leitet das Experiment im verlinkten Quarks-Video und ordnet es ein: Sie äußert Zweifel am Begriff Gruppendruck und bevorzugt den Begriff Anpassung, weil der Mensch ein soziales Wesen sei, das den sozialen anderen brauche.", "folie": 58 },
+            { "typ": "zitat", "text": "ich bin nicht sicher ob der begriff gruppendruck so gut ist ich finde schon dieses sich anpassen eigentlich besser", "person": "Mechthild Schäfer", "kontext": "Automatische deutsche Untertitel des Quarks-Videos, Minute 2 bis 3. Kleinschreibung und fehlende Satzzeichen stammen aus dem Untertiteltext." },
+            { "typ": "text", "text": "**Evolutionäre Einordnung im Video:** Die Forschung sage, dass es für Menschen im Laufe der Evolution von Vorteil gewesen sein muss, einer Gruppe auch widerspruchslos zu folgen – Überleben durch Mitmachen." },
+            { "typ": "hinweis", "text": "Diese Quelle ist nur teilweise zugänglich: Grundlage sind die automatischen deutschen Untertitel, es gab keine eigene Bild- oder Tonprüfung. Sprechernamen und die genauen Prozentzahlen sind nicht gegengeprüft. Der Name der zweiten Testperson ist im Transkript unklar und wird deshalb hier nicht genannt." }
+          ]
+        },
+        {
+          "id": "m3-t12-k2",
+          "titel": "Brain Games: der Warteraum",
+          "folien": [58],
+          "bloecke": [
+            { "typ": "einfach", "text": "Das zweite verlinkte Video zeigt dasselbe Muster ohne Linien und ohne Labor. In einem Warteraum stehen alle Anwesenden bei einem Signalton auf. Die einzige ahnungslose Person macht nach kurzer Zeit mit, ohne den Grund zu kennen – und gibt das Verhalten später selbst weiter." },
+            { "typ": "extern", "quelle": "konformitaet-braingames", "titel": "Brain Games – Conformity Waiting Room (englisch, peer pressure)", "punkte": [
+              "**Aufbau:** Versteckte-Kamera-Experiment zu sozialer Konformität in einem Warteraum, der wie ein Warteraum für einen Augenarzttermin gestaltet ist. Alle übrigen Personen im Raum sind Mitwirkende der Produktion.",
+              "**Muster:** Ein Ton ist das Signal für alle Anwesenden, aufzustehen. Nach etwa drei Signaltönen steht auch die Testperson auf, ohne den Grund zu kennen.",
+              "**Verstärkung:** Als die Gruppe den Raum verlassen hat, folgt die Testperson dem Verhalten weiter, obwohl niemand mehr sie beobachtet.",
+              "**Weitergabe:** Sie bringt das Verhalten einem neuen, nichtsahnenden Probanden bei. Mit weiteren eintreffenden, ahnungslosen Personen wird die anfänglich zufällige Regel zur sozialen Norm für den gesamten Warteraum.",
+              "**Erklärung:** {{Jonah Berger}} nennt das soziales Lernen: Schon früh im Leben belohne das Gehirn Menschen dafür, das Verhalten der eigenen Gruppe nachzuahmen.",
+              "**Schluss:** Konformität sei ein zentraler Mechanismus der Sozialisation, könne aber auch schlechte Gewohnheiten oder wiederholte Fehler perpetuieren. Selbst eine zunächst widerständige Person schloss sich am Ende der Gruppe an.",
+              "**Reichweite laut Sendung:** Die Sendung betont, dass ähnliche unbewusste Kräfte nicht nur das Handeln, sondern auch das Denken beeinflussen."
+            ] },
+            { "typ": "person", "name": "Jonah Berger", "beitrag": "University of Pennsylvania. Er erklärt im Video, warum die Testperson das Verhalten der Gruppe übernimmt: als Teil des sozialen Lernens, weil das Gehirn Menschen dafür belohnt, dem Verhalten der eigenen Gruppe zu folgen.", "folie": 58 },
+            { "typ": "zitat", "text": "Als ich sah, dass alle aufstanden, hatte ich das Gefühl, ich müsse mich anschließen, sonst wäre ich ausgeschlossen. Als ich mich entschied mitzumachen, fühlte ich mich viel wohler.", "kontext": "Befragte Testperson im Video, Minute 4 bis 5, deutsche Wiedergabe des englischen Untertiteltextes." },
+            { "typ": "hinweis", "text": "Auch diese Quelle ist nur teilweise zugänglich: Es liegt nur der englische Untertiteltext vor, keine eigene Bild- oder Tonprüfung. Die genaue Zahl der Testpersonen und einzelne Szenen sind nur so genau wiedergegeben, wie es der Text hergibt." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t12-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "asch-experiment", "karte": "m3-t12-k1", "folien": [58],
+          "frage": "Wer leitet das Experiment im verlinkten Quarks-Video?",
+          "optionen": ["Mechthild Schäfer, Psychologin an der LMU München", "Jonah Berger, University of Pennsylvania", "Constanze, die Probandin", "Ringelmann"], "richtig": 0,
+          "erklaerung": "Jonah Berger erklärt das zweite Video (Brain Games), Constanze ist die Probandin im Quarks-Video, Ringelmann steht im Skript für einen ganz anderen Effekt.",
+          "beleg": "Geleitet wird das Experiment von Professorin Mechthild Schäfer, Psychologin an der LMU München", "belegQuelle": "extern-gruppendruck",
+          "kurz": "Quarks-Video: Prof. Mechthild Schäfer, LMU München, leitet das Asch-Experiment." },
+        { "id": "m3-t12-a02", "typ": "sortieren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "asch-experiment", "karte": "m3-t12-k1", "folien": [58],
+          "frage": "Bringe den Ablauf des Experiments im Quarks-Video in die richtige Reihenfolge.",
+          "elemente": ["Constanze kommt mit sechs weiteren Personen in den Versuchsraum, ohne zu wissen, dass alle anderen eingeweiht sind", "Gezeigt werden Karten mit einer Referenzlinie und mehreren Vergleichslinien", "In den ersten fünf Durchgängen antworten alle richtig", "Ab dem fünften Durchgang geben alle Eingeweihten übereinstimmend dieselbe falsche Antwort", "Constanze zögert sichtbar und bleibt bei ihrer eigenen richtigen Einschätzung"],
+          "erklaerung": "Erst wird die Gruppe aufgebaut, dann die Aufgabe erklärt, dann folgt eine ehrliche Phase, und erst danach setzt der gemeinsame falsche Antwortdruck ein.",
+          "beleg": "In den ersten fünf Durchgängen geben die Eingeweihten jeweils die richtige Antwort", "belegQuelle": "extern-gruppendruck",
+          "kurz": "Aufbau, Aufgabe, fünf ehrliche Durchgänge, dann geschlossen falsche Antworten der Gruppe." },
+        { "id": "m3-t12-a03", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "gruppendruck-personen", "karte": "m3-t12-k1", "folien": [58],
+          "frage": "Ordne jede Person ihrem Beitrag zu.", "linksTitel": "Person", "rechtsTitel": "Beitrag laut Quelle",
+          "paare": [
+            { "links": "Mechthild Schäfer", "rechts": "leitet das Experiment im Quarks-Video und spricht lieber von Anpassung als von Gruppendruck" },
+            { "links": "Jonah Berger", "rechts": "erklärt das Nachahmen der Gruppe als soziales Lernen" },
+            { "links": "Constanze", "rechts": "Probandin, die trotz der falsch antwortenden Gruppe bei ihrer Einschätzung bleibt" },
+            { "links": "Asch", "rechts": "Name des Experiments, auf das die Folie mit einem deutschen Video verweist" }
+          ],
+          "erklaerung": "Die Folie nennt nur den Namen des Experiments. Die Personen dahinter stammen aus den beiden verlinkten Videos.",
+          "beleg": "Die Probandin Constanze wird in einen Versuchsraum zusammen mit sechs weiteren Personen gebracht", "belegQuelle": "extern-gruppendruck",
+          "kurz": "Schäfer leitet das Quarks-Experiment, Berger erklärt Brain Games, Constanze ist Probandin, Asch gibt dem Experiment den Namen." },
+        { "id": "m3-t12-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "konformitaet-befunde", "karte": "m3-t12-k1", "folien": [58],
+          "frage": "Welche Angaben aus den beiden Videos stimmen?",
+          "aussagen": [
+            { "text": "Laut Video knicken 37 Prozent der Versuchspersonen ein.", "wahr": true },
+            { "text": "Rund 76 Prozent geben in mindestens einem der Durchgänge die falsche Antwort.", "wahr": true },
+            { "text": "Prof. Schäfer hält den Begriff Gruppendruck für treffender als den Begriff Anpassung.", "wahr": false, "korrektur": "Sie äußert Zweifel am Begriff Gruppendruck und findet das Wort Anpassung besser." },
+            { "text": "Im Brain-Games-Video hört die Testperson mit dem Aufstehen auf, sobald die Gruppe den Raum verlassen hat.", "wahr": false, "korrektur": "Sie folgt dem Verhalten weiter, obwohl niemand mehr sie beobachtet." }
+          ],
+          "erklaerung": "Die beiden Zahlen gehören zusammen: 37 Prozent ist die Rate im einzelnen Durchgang, 76 Prozent ist der Anteil derer, die mindestens einmal einknicken.",
+          "beleg": "rund 76 Prozent („fast drei Viertel“) geben in mindestens einem der Durchgänge die falsche Antwort", "belegQuelle": "extern-gruppendruck",
+          "kurz": "37 Prozent knicken im Durchgang ein, rund 76 Prozent mindestens einmal; Schäfer bevorzugt den Begriff Anpassung." },
+        { "id": "m3-t12-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "konformitaet-befunde", "karte": "m3-t12-k2", "folien": [58],
+          "frage": "Erkläre, was die beiden im Skript verlinkten Videos über das Verhalten in Gruppen zeigen und in welchem Zusammenhang sie auf der Folie stehen.",
+          "musterloesung": "Beide Videos zeigen Konformität, also das Anpassen an die Gruppe gegen die eigene Wahrnehmung. Im Quarks-Video zum Asch-Experiment antwortet eine geschlossene Gruppe von Eingeweihten ab dem fünften Durchgang übereinstimmend falsch; 37 Prozent der Versuchspersonen knicken ein, rund 76 Prozent mindestens einmal. Prof. Mechthild Schäfer erklärt das mit zwei widerstreitenden Bedürfnissen: präzise wahrnehmen und das auch äußern – und zugleich zur Gruppe gehören; sie spricht lieber von Anpassung als von Gruppendruck. Im Brain-Games-Video übernimmt eine ahnungslose Testperson eine zufällige Regel des Warteraums, behält sie auch ohne Beobachter bei und gibt sie an Neue weiter, bis daraus eine soziale Norm wird; Jonah Berger nennt das soziales Lernen. Auf der Folie stehen beide Videos direkt neben der Definition der Gruppendynamik und stützen deren Merksatz: Führungskräfte müssen gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen.",
+          "checkliste": ["Asch-Experiment: geschlossene Gruppe antwortet ab dem fünften Durchgang falsch", "Zahlen genannt: 37 Prozent einzelne Durchgänge, rund 76 Prozent mindestens einmal", "Zwei widerstreitende Bedürfnisse: präzise wahrnehmen und äußern gegenüber zur Gruppe gehören", "Brain Games: zufällige Regel wird durch Nachahmung zur sozialen Norm, soziales Lernen", "Bezug zur Folie: Beleg für den Merksatz zu gruppendynamischen Effekten"],
+          "erklaerung": "Die Folie bringt die Videos ohne eigene Erklärung. In der Klausur zählt, dass du den Befund benennen und mit der Definition der Gruppendynamik verbinden kannst.",
+          "beleg": "einerseits präzise wahrzunehmen und dies auch zu äußern, andererseits zur Gruppe zu gehören", "belegQuelle": "extern-gruppendruck",
+          "kurz": "Beide Videos zeigen Anpassung an die Gruppe gegen die eigene Wahrnehmung und stützen den Merksatz der Folie." },
+        { "id": "m3-t12-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "konformitaet-befunde", "karte": "m3-t12-k2", "folien": [58],
+          "szenario": "Übungsfall: In eurem Seminarraum steht der Beamerwagen seit Wochen in derselben Ecke. Niemand weiß, warum, aber alle schieben ihn nach der Vorlesung wieder dorthin. Neue Kursteilnehmer machen es nach dem zweiten Mal mit und erklären es später selbst den Nächsten.",
+          "frage": "Welcher Befund aus den verlinkten Videos passt dazu?",
+          "optionen": ["Eine anfangs zufällige Regel wird durch Nachahmung zur sozialen Norm für alle, die neu dazukommen.", "Die Gruppe geht bei Entscheidungen höhere Risiken ein als jeder Einzelne.", "Eine bislang glaubwürdige Minderheit zieht das gesamte Team in die verkehrte Richtung."], "richtig": 0,
+          "erklaerung": "Genau das zeigt das Brain-Games-Video: erst Nachahmen, dann Beibehalten ohne Beobachter, dann Weitergabe an Neue. Risikoschub und Minoritätseffekt sind andere Effekte des Skripts.",
+          "beleg": "Mit weiteren eintreffenden, ahnungslosen Personen wird die anfänglich zufällige Regel zur sozialen Norm", "belegQuelle": "extern-gruppendruck",
+          "kurz": "Nachgeahmtes Verhalten wird weitergegeben und zur sozialen Norm des ganzen Raums." },
+        { "id": "m3-t12-a07", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "konformitaet-befunde", "karte": "m3-t12-k2", "folien": [58],
+          "vorne": "Wie erklärt Jonah Berger im Video, dass Menschen das Verhalten ihrer Gruppe übernehmen?",
+          "hinten": "Als **soziales Lernen (social learning):** Schon früh im Leben belohne das Gehirn Menschen dafür, das Verhalten der eigenen Gruppe nachzuahmen.",
+          "erklaerung": "Das ist die Erklärung des zweiten Videos für dasselbe Muster, das im Asch-Experiment sichtbar wird.",
+          "beleg": "Schon früh im Leben belohne das Gehirn Menschen dafür, das Verhalten der eigenen Gruppe nachzuahmen", "belegQuelle": "extern-gruppendruck",
+          "kurz": "Soziales Lernen: Das Gehirn belohnt das Nachahmen der eigenen Gruppe." },
+        { "id": "m3-t12-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "asch-experiment", "karte": "m3-t12-k1", "folien": [58],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „ich bin nicht sicher ob der begriff gruppendruck so gut ist ich finde schon dieses sich anpassen eigentlich besser“ (Mechthild Schäfer im Quarks-Video)",
+          "musterloesung": "Der Satz stammt von Prof. Mechthild Schäfer, Psychologin an der LMU München, die das Experiment im verlinkten Quarks-Video leitet. Sie stellt den Begriff Gruppendruck infrage und hält das Wort Anpassung für besser. Ihre Begründung: Der Mensch sei ein soziales Wesen, das den sozialen anderen brauche. Bestimmte Bedürfnisse und Informationskanäle seien darauf ausgerichtet, das Verhalten anderer wahrzunehmen, ernst zu nehmen und notfalls sogar gegen die eigenen individuellen Interessen abzugleichen. Anpassung folgt in dieser Lesart aus der sozialen Natur des Menschen und nicht aus einer Kraft, die die Gruppe von außen ausübt. Dazu passt ihre evolutionäre Einordnung: Es müsse für Menschen von Vorteil gewesen sein, einer Gruppe auch widerspruchslos zu folgen – Überleben durch Mitmachen. Im Experiment selbst zeigt sich derselbe Gedanke als zwei widerstreitende Bedürfnisse: einerseits präzise wahrzunehmen und dies auch zu äußern, andererseits zur Gruppe zu gehören. Der Zusammenhang zur Folie: Das Skript verlinkt dieses Video auf Folie 58, erklärt das Experiment aber selbst nicht. Der Wortlaut steht in Kleinschreibung, weil er aus automatischen Untertiteln stammt.",
+          "checkliste": ["Sprecherin und Rolle benannt: Mechthild Schäfer leitet das Experiment im Quarks-Video", "Kern: Zweifel am Begriff Gruppendruck, Vorzug für den Begriff Anpassung", "Begründung: Der Mensch ist ein soziales Wesen, das den sozialen anderen braucht", "Evolutionäre Einordnung: einer Gruppe widerspruchslos folgen war von Vorteil, Überleben durch Mitmachen", "Zusammenhang: zwei widerstreitende Bedürfnisse im Experiment, Folie 58 verlinkt das Video nur"],
+          "erklaerung": "Für die Klausur zählt der Unterschied zwischen den beiden Wörtern: Gruppendruck legt eine Kraft von außen nahe, Anpassung eine Eigenschaft des sozialen Wesens Mensch. Genau damit begründet Schäfer ihre Wortwahl.",
+          "belege": [
+            { "text": "ich bin nicht sicher ob der begriff gruppendruck so gut ist ich finde schon dieses sich anpassen eigentlich besser", "quelle": "extern-gruppendruck" },
+            { "text": "da dieser eher aus der Überlegung folge, dass der Mensch ein soziales Wesen sei, das den sozialen anderen brauche", "quelle": "extern-gruppendruck" }
+          ],
+          "kurz": "Schäfer zieht den Begriff Anpassung dem Begriff Gruppendruck vor: Der Mensch sei ein soziales Wesen, das den sozialen anderen brauche." },
+        { "id": "m3-t12-a09", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "konformitaet-befunde", "karte": "m3-t12-k2", "folien": [58],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Als ich sah, dass alle aufstanden, hatte ich das Gefühl, ich müsse mich anschließen, sonst wäre ich ausgeschlossen. Als ich mich entschied mitzumachen, fühlte ich mich viel wohler.“",
+          "musterloesung": "Der Satz stammt von einer befragten Testperson im Brain-Games-Video, auf das Folie 58 als peer pressure verweist. Im Warteraum ist ein Signalton das Zeichen für alle Anwesenden, aufzustehen. Die Testperson kennt den Grund nicht und steht nach etwa drei Tönen trotzdem mit auf. Das Zitat nennt den Grund aus ihrer eigenen Sicht: Nicht mitzumachen hätte bedeutet, ausgeschlossen zu sein, und sobald sie sich anschloss, fühlte sie sich wohler. Damit beschreibt sie dasselbe Bedürfnis, das Mechthild Schäfer im Quarks-Video als Gegenstück zum präzisen Wahrnehmen nennt: zur Gruppe zu gehören. Jonah Berger erklärt dieses Verhalten als soziales Lernen, weil das Gehirn Menschen dafür belohnt, dem Verhalten der eigenen Gruppe zu folgen. Die Sendung betont am Ende, dass ähnliche unbewusste Kräfte nicht nur das Handeln, sondern auch das Denken beeinflussen. Auf der Folie steht das Video ohne eigene Erklärung neben der Definition der Gruppendynamik und stützt deren Merksatz, dass Führungskräfte gruppendynamische Effekte kennen und berücksichtigen müssen.",
+          "checkliste": ["Einordnung: befragte Testperson im Brain-Games-Video zu peer pressure", "Kern: Nicht mitzumachen hätte Ausschluss bedeutet, das Anschließen fühlte sich wohler an", "Bezug zum Ablauf: Signalton im Warteraum, Aufstehen ohne Kenntnis des Grundes", "Verbindung zu Jonah Berger: soziales Lernen, das Gehirn belohnt das Nachahmen der eigenen Gruppe", "Reichweite laut Sendung: die unbewussten Kräfte beeinflussen nicht nur das Handeln, sondern auch das Denken"],
+          "erklaerung": "Das Zitat liefert die Innenansicht zu dem, was die versteckte Kamera zeigt: Das Bedürfnis dazuzugehören wiegt schwerer als die Frage nach dem Grund. Die Sendung zieht daraus die weitere Folgerung, dass solche Kräfte auch das Denken erreichen.",
+          "belege": [
+            { "text": "Als ich sah, dass alle aufstanden, hatte ich das Gefühl, ich müsse mich anschließen, sonst wäre ich ausgeschlossen.", "quelle": "extern-gruppendruck" },
+            { "text": "Die Sendung betont, dass ähnliche unbewusste Kräfte nicht nur das Handeln, sondern auch das Denken beeinflussen.", "quelle": "extern-gruppendruck" }
+          ],
+          "kurz": "Testperson im Brain-Games-Video: Nicht mitmachen hieße ausgeschlossen sein, mit dem Anschließen kam das Wohlgefühl." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Asch-Experiment (Quarks-Video zu Folie 58):** Geschlossene Gruppe antwortet ab dem fünften Durchgang falsch. 37 Prozent knicken ein, rund 76 Prozent mindestens einmal. Zwei widerstreitende Bedürfnisse: präzise wahrnehmen und äußern gegenüber zur Gruppe gehören.", "**Brain Games (peer pressure):** Zufällige Warteraum-Regel wird nachgeahmt, ohne Beobachter beibehalten und an Neue weitergegeben – soziales Lernen (Jonah Berger)."],
+        "ausfuehrlich": ["**Quarks, Asch-Experiment.** Probandin Constanze, sechs Eingeweihte, Karten mit Referenz- und Vergleichslinien. Fünf ehrliche Durchgänge, danach geschlossen falsche Antworten. Constanze bleibt bei ihrer Einschätzung, eine zweite Testperson passt sich an und sagt im Interview: „ich weiß, dass ich nur mache wie es [die Gruppe] macht“.", "**Prof. Mechthild Schäfer (LMU München)** leitet das Experiment und zweifelt am Begriff Gruppendruck; sie bevorzugt Anpassung, weil der Mensch ein soziales Wesen sei. Evolutionär sei widerspruchsloses Mitmachen von Vorteil gewesen.", "**Zahlen:** 37 Prozent knicken im einzelnen Durchgang ein, rund 76 Prozent geben mindestens einmal die falsche Antwort.", "**Brain Games, Warteraum.** Signalton, alle stehen auf. Nach etwa drei Tönen macht die Testperson mit, hält daran auch allein fest und lehrt es Neuen. Aus der zufälligen Regel wird eine soziale Norm.", "**Jonah Berger (University of Pennsylvania):** soziales Lernen; das Gehirn belohnt das Nachahmen der eigenen Gruppe. Konformität ist Mechanismus der Sozialisation, kann aber schlechte Gewohnheiten und wiederholte Fehler fortschreiben. Die Sendung betont, dass ähnliche unbewusste Kräfte nicht nur das Handeln, sondern auch das Denken beeinflussen.", "**Transparenz:** Beide Quellen nur teilweise zugänglich, Grundlage sind automatische Untertitel ohne Bild- und Tonprüfung."],
+        "merkhilfe": "Zwei Räume, ein Muster: Im Labor sind es falsche Linien, im Wartezimmer ein Signalton. Beide Male gewinnt das Dazugehören."
+      }
+    },
+    {
+      "id": "m3-t13",
+      "titel": "Gruppengeist und Gruppendenken",
+      "folien": [59],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t13-k1",
+          "titel": "Gruppengeist (group mind)",
+          "folien": [59],
+          "bloecke": [
+            { "typ": "einfach", "text": "Eine Gruppe, die gut zusammenhält, entwickelt ein starkes Wir-Gefühl. Das Skript zeigt die Schattenseite davon und nennt sie [[Gruppengeist]]. Die Gruppe überschätzt sich selbst, vor allem gegenüber anderen Gruppen – im eigenen Haus wie außerhalb. Gerade Projekte, die anfangs gut laufen, sind dafür anfällig." },
+            { "typ": "merksatz", "folie": 59, "text": "Gruppengeist (group mind) als Kehrseite der erwünschten Kohäsion" },
+            { "typ": "liste", "titel": "Was das Skript dazu nennt", "punkte": ["Tendenz der Selbstüberschätzung insbesondere gegenüber anderen Gruppen (intern & extern!)", "insbesondere in anfangs erfolgreichen Projekten zu beobachten", "Risiko der Ausblendung von Gefahren durch Konkurrenten (siehe Fintechs und Großbanken)"] },
+            { "typ": "text", "text": "**Beispiel des Skripts:** Fintechs und Großbanken. Die Gefahr, die von neuen Konkurrenten ausgeht, wird ausgeblendet." }
+          ]
+        },
+        {
+          "id": "m3-t13-k2",
+          "titel": "Gruppendenken",
+          "folien": [59],
+          "bloecke": [
+            { "typ": "einfach", "text": "Beim [[Gruppendenken]] passt jemand die eigene Meinung an das an, was die Gruppe voraussichtlich denkt. Die Gruppe will einig sein, und dieses Einigsein wird wichtiger als die Frage, ob es bessere Möglichkeiten gäbe. Nach außen macht die Gruppe dann dicht: Gegenargumente und Signale aus der Umwelt dringen nicht mehr durch." },
+            { "typ": "merksatz", "folie": 59, "text": "Gruppendenken: Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung" },
+            { "typ": "liste", "titel": "Was das Skript dazu nennt", "punkte": ["Streben nach Einmütigkeit korrumpiert Fähigkeit der Bewertung von realistischen Alternativen", "in Unternehmen wie in Politik zu beobachten", "irrationale Abschottung von Umwelt/gegenteiligen Meinungen (geschlossenes System)"] }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t13-a01", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "gruppengeist", "karte": "m3-t13-k1", "folien": [59], "bank": true,
+          "frage": "Vervollständige den Merksatz des Skripts.",
+          "text": "Gruppengeist (group mind) als {_Kehrseite_} der erwünschten {_Kohäsion_}",
+          "zusatzBank": ["Nivellierung", "Einmütigkeit"],
+          "erklaerung": "Kohäsion, also der Zusammenhalt, ist erwünscht. Der Gruppengeist ist deren Kehrseite, nicht ihr Gegenteil.",
+          "beleg": "Gruppengeist (group mind) als Kehrseite der erwünschten Kohäsion", "belegQuelle": "folie-31",
+          "kurz": "Gruppengeist = Kehrseite der erwünschten Kohäsion." },
+        { "id": "m3-t13-a02", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "gruppendenken", "karte": "m3-t13-k2", "folien": [59],
+          "frage": "Wie beschreibt das Skript **Gruppendenken**?",
+          "optionen": ["Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung", "Tendenz der Selbstüberschätzung insbesondere gegenüber anderen Gruppen", "Tendenz zur Mitte, weil Ähnlichkeiten Konformitätsdruck erzeugen", "Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne"], "richtig": 0,
+          "erklaerung": "Die drei falschen Antworten sind die Nachbarbegriffe des Skripts: Gruppengeist, Nivellierung und Risikoschub.",
+          "beleg": "Gruppendenken: Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung", "belegQuelle": "folie-31",
+          "kurz": "Gruppendenken = Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung." },
+        { "id": "m3-t13-a03", "typ": "mehrfach", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "gruppengeist", "karte": "m3-t13-k1", "folien": [59],
+          "frage": "Welche Punkte nennt das Skript beim **Gruppengeist**?",
+          "optionen": ["Tendenz der Selbstüberschätzung insbesondere gegenüber anderen Gruppen", "insbesondere in anfangs erfolgreichen Projekten zu beobachten", "Risiko der Ausblendung von Gefahren durch Konkurrenten", "Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung", "Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten", "irrationale Abschottung von Umwelt und gegenteiligen Meinungen"], "richtig": [0, 1, 2],
+          "erklaerung": "Die Anpassung an die erwartete Gruppenmeinung und die Abschottung gehören zum Gruppendenken, der Konformitätsdruck durch Ähnlichkeit zur Nivellierung.",
+          "beleg": "Risiko der Ausblendung von Gefahren durch Konkurrenten (siehe Fintechs und Großbanken)", "belegQuelle": "folie-31",
+          "kurz": "Gruppengeist: Selbstüberschätzung, anfangs erfolgreiche Projekte, Ausblenden der Konkurrenzgefahr." },
+        { "id": "m3-t13-a04", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "gruppengeist-vs-gruppendenken", "karte": "m3-t13-k2", "folien": [59],
+          "frage": "Gruppengeist oder Gruppendenken? Sortiere die Aussagen des Skripts ein.",
+          "kategorien": ["Gruppengeist", "Gruppendenken"],
+          "elemente": [
+            { "text": "Tendenz der Selbstüberschätzung gegenüber anderen Gruppen", "kategorie": 0 },
+            { "text": "Streben nach Einmütigkeit korrumpiert die Bewertung realistischer Alternativen", "kategorie": 1 },
+            { "text": "insbesondere in anfangs erfolgreichen Projekten zu beobachten", "kategorie": 0 },
+            { "text": "irrationale Abschottung von Umwelt und gegenteiligen Meinungen (geschlossenes System)", "kategorie": 1 },
+            { "text": "Risiko der Ausblendung von Gefahren durch Konkurrenten", "kategorie": 0 },
+            { "text": "in Unternehmen wie in Politik zu beobachten", "kategorie": 1 }
+          ],
+          "erklaerung": "Der Gruppengeist richtet den Blick nach außen und überschätzt die eigene Gruppe. Das Gruppendenken richtet den Blick nach innen und opfert die Alternativen der Einmütigkeit.",
+          "beleg": "Streben nach Einmütigkeit korrumpiert Fähigkeit der Bewertung von realistischen Alternativen", "belegQuelle": "folie-31",
+          "kurz": "Gruppengeist = Selbstüberschätzung nach außen. Gruppendenken = Einmütigkeit nach innen." },
+        { "id": "m3-t13-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "gruppengeist", "karte": "m3-t13-k1", "folien": [59],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Gruppengeist (group mind) als Kehrseite der erwünschten Kohäsion“",
+          "musterloesung": "Zusammenhalt in einer Gruppe ist erwünscht. Der Satz sagt, dass derselbe Zusammenhalt eine Kehrseite hat: den Gruppengeist. Er zeigt sich als Tendenz der Selbstüberschätzung, insbesondere gegenüber anderen Gruppen, und zwar intern wie extern. Das Skript beobachtet ihn insbesondere in anfangs erfolgreichen Projekten. Die Gefahr liegt im Ausblenden von Gefahren durch Konkurrenten; als Beispiel nennt das Skript Fintechs und Großbanken. Der Satz steht im Abschnitt Kennzeichen und Merkmale von Gruppendynamiken und ist das erste von drei Kennzeichen, neben Gruppendenken und Nivellierung.",
+          "checkliste": ["Kohäsion ist erwünscht, der Gruppengeist ist deren Kehrseite", "Selbstüberschätzung insbesondere gegenüber anderen Gruppen, intern und extern", "Tritt insbesondere in anfangs erfolgreichen Projekten auf", "Risiko: Ausblendung von Gefahren durch Konkurrenten, Beispiel Fintechs und Großbanken", "Einordnung als eines der Kennzeichen von Gruppendynamiken"],
+          "erklaerung": "Die Klausur kann nach dem Zusammenhang zwischen Kohäsion und Gruppengeist fragen. Wichtig ist das Wort Kehrseite: Es ist dieselbe Sache von zwei Seiten, nicht ihr Gegenteil.",
+          "beleg": "Gruppengeist (group mind) als Kehrseite der erwünschten Kohäsion", "belegQuelle": "folie-31",
+          "kurz": "Der erwünschte Zusammenhalt kippt in Selbstüberschätzung, besonders in anfangs erfolgreichen Projekten." },
+        { "id": "m3-t13-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "gruppendenken", "karte": "m3-t13-k2", "folien": [59],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Gruppendenken: Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung“",
+          "musterloesung": "Beim Gruppendenken richtet sich das einzelne Mitglied nicht nach der eigenen Einschätzung, sondern nach der Meinung, die es von der Gruppe erwartet. Das Skript nennt als Folge: Das Streben nach Einmütigkeit korrumpiert die Fähigkeit der Bewertung von realistischen Alternativen. Es sei in Unternehmen wie in Politik zu beobachten und führe zur irrationalen Abschottung von Umwelt und gegenteiligen Meinungen, also zu einem geschlossenen System. Der Begriff steht auf derselben Folie wie Gruppengeist und Nivellierung und gehört zu den Kennzeichen von Gruppendynamiken; als Ursachen nennt das Skript Beeinflussung, Vergleich und Differenzierung.",
+          "checkliste": ["Anpassung an die erwartete Gruppenmeinung, nicht an die eigene Einschätzung", "Streben nach Einmütigkeit korrumpiert die Bewertung realistischer Alternativen", "In Unternehmen wie in Politik zu beobachten", "Irrationale Abschottung von Umwelt und gegenteiligen Meinungen, geschlossenes System"],
+          "erklaerung": "Der entscheidende Teil ist das Wort erwartet: Angepasst wird an eine vermutete Gruppenmeinung, nicht an eine ausgesprochene.",
+          "beleg": "irrationale Abschottung von Umwelt/gegenteiligen Meinungen (geschlossenes System)", "belegQuelle": "folie-31",
+          "kurz": "Gruppendenken: Einmütigkeit zuerst, Alternativen werden nicht mehr ernsthaft bewertet." },
+        { "id": "m3-t13-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "gruppengeist", "karte": "m3-t13-k1", "folien": [59],
+          "szenario": "Übungsfall: Ein Projektteam eurer Bank hat die ersten beiden Meilensteine früher erreicht als geplant. In der Runde heißt es, die neuen Anbieter aus der Fintech-Ecke seien kein ernsthaftes Thema, so etwas könne nur ein Haus mit eurer Erfahrung stemmen. Über die Zahlen dieser Wettbewerber spricht in der Runde niemand; das Thema kommt gar nicht erst auf.",
+          "frage": "Welches Kennzeichen von Gruppendynamiken beschreibt das Skript hier?",
+          "optionen": ["Gruppengeist: Selbstüberschätzung gegenüber anderen Gruppen und das Risiko, Gefahren durch Konkurrenten auszublenden", "Gruppendenken: Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung, bis die Gruppe gegenteilige Meinungen irrational abschottet", "Nivellierung: Die Gruppe bewegt sich zur Mitte, weil Ähnlichkeit Konformitätsdruck erzeugt", "Risikoschub: Die Gruppe entscheidet sich für ein höheres Risiko, als jeder Einzelne es täte"], "richtig": 0,
+          "erklaerung": "Das Skript nennt genau dieses Beispiel: Ausblendung von Gefahren durch Konkurrenten, siehe Fintechs und Großbanken, und zwar insbesondere in anfangs erfolgreichen Projekten. Die Selbstüberschätzung richtet sich dabei gegenüber anderen Gruppen. Zum Gruppendenken gehörte eine abweichende Meinung, die vorgebracht und dann abgeschottet wird; hier kommt das Thema von vornherein nicht auf.",
+          "beleg": "Risiko der Ausblendung von Gefahren durch Konkurrenten (siehe Fintechs und Großbanken)", "belegQuelle": "folie-31",
+          "kurz": "Erfolg plus Selbstüberschätzung plus ausgeblendete Konkurrenz = Gruppengeist." },
+        { "id": "m3-t13-a08", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "gruppengeist-vs-gruppendenken", "karte": "m3-t13-k1", "folien": [59],
+          "frage": "Welche Aussagen geben das Skript richtig wieder?",
+          "aussagen": [
+            { "text": "Der Gruppengeist tritt laut Skript vor allem in Projekten auf, die von Anfang an schlecht laufen.", "wahr": false, "korrektur": "Das Skript nennt ihn insbesondere in anfangs erfolgreichen Projekten." },
+            { "text": "Die Selbstüberschätzung richtet sich laut Skript gegen interne wie gegen externe Gruppen.", "wahr": true },
+            { "text": "Gruppengeist ist laut Skript das Gegenteil von Kohäsion.", "wahr": false, "korrektur": "Er ist die Kehrseite der erwünschten Kohäsion, also ihre Schattenseite, nicht ihr Gegenteil." },
+            { "text": "Beim Gruppendenken korrumpiert das Streben nach Einmütigkeit die Fähigkeit, realistische Alternativen zu bewerten.", "wahr": true }
+          ],
+          "erklaerung": "Die beiden typischen Verwechslungen sind der Zeitpunkt (anfangs erfolgreich, nicht erfolglos) und das Verhältnis zur Kohäsion (Kehrseite, nicht Gegenteil).",
+          "beleg": "Tendenz der Selbstüberschätzung insbesondere gegenüber anderen Gruppen (intern & extern!)", "belegQuelle": "folie-31",
+          "kurz": "Gruppengeist: anfangs erfolgreiche Projekte, intern und extern, Kehrseite der Kohäsion." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Gruppengeist (group mind), Folie 59:** Kehrseite der erwünschten Kohäsion. Selbstüberschätzung gegenüber anderen Gruppen (intern & extern), besonders in anfangs erfolgreichen Projekten, Risiko: Gefahren durch Konkurrenten werden ausgeblendet (Fintechs und Großbanken).", "**Gruppendenken:** Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung. Streben nach Einmütigkeit korrumpiert die Bewertung realistischer Alternativen; irrationale Abschottung, geschlossenes System."],
+        "ausfuehrlich": ["**Folie 59, Kennzeichen/Merkmale von Gruppendynamiken – I.** Drei blau hervorgehobene Kennzeichen: Gruppengeist, Gruppendenken, Nivellierung.", "**Gruppengeist (group mind)** ist die Kehrseite der erwünschten Kohäsion: Tendenz der Selbstüberschätzung insbesondere gegenüber anderen Gruppen, intern und extern.", "Zu beobachten insbesondere in anfangs erfolgreichen Projekten. Risiko: Ausblendung von Gefahren durch Konkurrenten, Beispiel Fintechs und Großbanken.", "**Gruppendenken** ist die Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung.", "Folgen: Das Streben nach Einmütigkeit korrumpiert die Fähigkeit der Bewertung von realistischen Alternativen; in Unternehmen wie in Politik zu beobachten; irrationale Abschottung von Umwelt und gegenteiligen Meinungen (geschlossenes System)."],
+        "merkhilfe": "Gruppengeist schaut nach außen und findet sich großartig. Gruppendenken schaut nach innen und will vor allem einig sein."
+      }
+    },
+    {
+      "id": "m3-t14",
+      "titel": "Nivellierung, ihre Ursachen und die Abhilfen",
+      "folien": [59],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t14-k1",
+          "titel": "Nivellierung: Tendenz zur Mitte",
+          "folien": [59],
+          "bloecke": [
+            { "typ": "einfach", "text": "[[Nivellierung]] heißt: Die Gruppe zieht alles zur Mitte. Weil sich die Mitglieder ähnlich sind, entsteht Druck auf alle, die anders denken oder handeln. Harmonie fühlt sich sicher an und hält die Gruppe zusammen – und genau deshalb melden sich kluge Gegenstimmen oft erst, wenn die Entscheidung längst gefallen ist." },
+            { "typ": "merksatz", "folie": 59, "text": "Nivellierung: Tendenz zur Mitte" },
+            { "typ": "liste", "titel": "Was das Skript dazu nennt", "punkte": ["Ähnlichkeiten erzeugen [[Konformitätsdruck]] gegenüber abweichendem Verhalten/Meinungsbild", "Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert Kohäsion", "intelligente „Abweichler“ melden sich oft zu spät, wenn Gruppe längst Urteil gefällt hat"] }
+          ]
+        },
+        {
+          "id": "m3-t14-k2",
+          "titel": "Ursachen: Beeinflussung, Vergleich, Differenzierung",
+          "folien": [59],
+          "bloecke": [
+            { "typ": "einfach", "text": "Am Ende der Folie steht, woher diese Kennzeichen häufig kommen. Das Skript nennt drei Mechanismen: [[Beeinflussung]], [[Vergleich]] und [[Differenzierung]]. Sie unterscheiden sich darin, was im Kopf des Mitglieds passiert: die Meinung wirklich ändern, Druck vermeiden oder sich anpassen und die eigene Kehrtwende trotzdem kleinreden." },
+            { "typ": "tabelle", "kopf": ["Mechanismus", "Was laut Skript geschieht"], "zeilen": [
+              ["**Beeinflussung**", "im Verlauf ändern Mitglieder ihre Meinung und „ziehen andere mit“"],
+              ["**Vergleich**", "Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen"],
+              ["**Differenzierung**", "Mitglieder passen sich an, differenzieren aber den Sinneswandel"]
+            ], "hinweis": "Das Skript nennt diese drei als häufige Ursachen der genannten Kennzeichen von Gruppendynamiken." }
+          ]
+        },
+        {
+          "id": "m3-t14-k3",
+          "titel": "Abhilfe gegen die Tendenz zur Mitte",
+          "folien": [59],
+          "bloecke": [
+            { "typ": "einfach", "text": "Direkt hinter der Nivellierung steht im Skript eine Liste, was dagegen hilft. Die Stoßrichtung: Unterschiede in die Gruppe holen, das Urteilen im Gespräch aufschieben und erst einmal viele Beiträge sammeln." },
+            { "typ": "liste", "titel": "Abhilfe laut Skript", "punkte": ["bewusste Moderation", "heterogene Zusammensetzung von Teams", "keine Wertungen bei Diskussion", "Quantität vor Qualität", "[[Brainwriting]] und/oder [[Metaplan-Technik]]"] },
+            { "typ": "hinweis", "text": "Brainwriting und Metaplan-Technik werden im Skript nur genannt, nicht erklärt. Deshalb steht hier keine Beschreibung der beiden Verfahren." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t14-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "nivellierung", "karte": "m3-t14-k1", "folien": [59],
+          "frage": "Was meint das Skript mit **Nivellierung**?",
+          "optionen": ["Die Tendenz zur Mitte: Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten und Meinungsbild", "Die Selbstüberschätzung der Gruppe gegenüber anderen Gruppen", "Die Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung", "Die höhere Risikobereitschaft von Gruppen gegenüber Einzelnen"], "richtig": 0,
+          "erklaerung": "Nivellierung ist das dritte Kennzeichen der Folie. Die anderen Antworten sind Gruppengeist, Gruppendenken und Risikoschub.",
+          "belege": [
+            { "text": "Nivellierung: Tendenz zur Mitte", "quelle": "folie-31" },
+            { "text": "Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten/Meinungsbild", "quelle": "folie-31" }
+          ],
+          "kurz": "Nivellierung = Tendenz zur Mitte; Ähnlichkeit erzeugt Konformitätsdruck gegen Abweichung." },
+        { "id": "m3-t14-a02", "typ": "zuordnung", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "nivellierung-ursachen", "karte": "m3-t14-k2", "folien": [59],
+          "frage": "Ordne jedem Mechanismus zu, was laut Skript dabei geschieht.", "linksTitel": "Mechanismus", "rechtsTitel": "Was geschieht",
+          "paare": [
+            { "links": "Beeinflussung", "rechts": "im Verlauf ändern Mitglieder ihre Meinung und ziehen andere mit" },
+            { "links": "Vergleich", "rechts": "Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen" },
+            { "links": "Differenzierung", "rechts": "Mitglieder passen sich an, differenzieren aber den Sinneswandel" }
+          ],
+          "erklaerung": "Bei der Beeinflussung ändert sich die Meinung wirklich und wirkt auf andere weiter. Beim Vergleich bleibt die Einsicht, aber der soziale Druck wird gescheut. Bei der Differenzierung folgt die Anpassung nach außen, während der eigene Sinneswandel relativiert wird.",
+          "beleg": "Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen", "belegQuelle": "folie-31",
+          "kurz": "Ursachen laut Skript: Beeinflussung, Vergleich, Differenzierung." },
+        { "id": "m3-t14-a03", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "nivellierung-abhilfe", "karte": "m3-t14-k3", "folien": [59],
+          "frage": "Welche Abhilfen nennt das Skript direkt bei der **Nivellierung** (Folie 59)?",
+          "optionen": ["bewusste Moderation", "heterogene Zusammensetzung von Teams", "keine Wertungen bei Diskussion", "Quantität vor Qualität", "Zuweisung individueller Verantwortung", "Statusunterschiede geschickt zur Leistungserzielung nutzen"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Die beiden letzten Punkte stehen im Skript ebenfalls, aber erst auf Folie 61 unter den Hinweisen zum Umgang mit Gruppen. Zur Abhilfeliste der Nivellierung gehören außerdem Brainwriting und/oder Metaplan-Technik.",
+          "beleg": "Abhilfe durch bewusste Moderation, heterogene Zusammensetzung von Teams, keine Wertungen bei Diskussion, Quantität vor Qualität", "belegQuelle": "folie-31",
+          "kurz": "Abhilfe: bewusste Moderation, heterogene Teams, keine Wertungen, Quantität vor Qualität, Brainwriting und/oder Metaplan-Technik." },
+        { "id": "m3-t14-a04", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "nivellierung", "karte": "m3-t14-k1", "folien": [59], "bank": true,
+          "frage": "Ergänze den Satz des Skripts zur Harmonie in Gruppen.",
+          "text": "Harmonie-Sucht erzeugt gefühlte {_Sicherheit_} und stabilisiert {_Kohäsion_}",
+          "zusatzBank": ["Einmütigkeit", "Selbstüberschätzung"],
+          "erklaerung": "Der Satz erklärt, warum die Tendenz zur Mitte für die Gruppe angenehm ist: Harmonie fühlt sich sicher an und hält die Gruppe zusammen.",
+          "beleg": "Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert Kohäsion", "belegQuelle": "folie-31",
+          "kurz": "Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert Kohäsion." },
+        { "id": "m3-t14-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "nivellierung", "karte": "m3-t14-k1", "folien": [59],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Nivellierung: Tendenz zur Mitte“",
+          "musterloesung": "Nivellierung bedeutet, dass sich Verhalten und Meinungen in einer Gruppe zur Mitte hin angleichen. Das Skript begründet das so: Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten und Meinungsbild. Die Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert die Kohäsion; der Zusammenhalt wird also durch die Angleichung gestützt. Der Preis steht im nächsten Punkt: Intelligente Abweichler melden sich oft zu spät, wenn die Gruppe längst ihr Urteil gefällt hat. Deshalb nennt das Skript unmittelbar danach die Abhilfe: bewusste Moderation, heterogene Zusammensetzung von Teams, keine Wertungen bei Diskussion, Quantität vor Qualität, Brainwriting und/oder Metaplan-Technik. Nivellierung ist das dritte Kennzeichen von Gruppendynamiken neben Gruppengeist und Gruppendenken.",
+          "checkliste": ["Angleichung zur Mitte durch Ähnlichkeit und Konformitätsdruck", "Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert die Kohäsion", "Abweichler melden sich oft zu spät, wenn das Urteil schon gefallen ist", "Abhilfen des Skripts genannt (Moderation, heterogene Teams, keine Wertungen, Quantität vor Qualität, Brainwriting/Metaplan)", "Einordnung als drittes Kennzeichen neben Gruppengeist und Gruppendenken"],
+          "erklaerung": "In der Klausur zählt die Kette: Ähnlichkeit erzeugt Druck, Druck erzeugt Harmonie, Harmonie verzögert den Widerspruch – und erst die Abhilfen brechen das auf.",
+          "beleg": "intelligente „Abweichler“ melden sich oft zu spät, wenn Gruppe längst Urteil gefällt hat", "belegQuelle": "folie-31",
+          "kurz": "Tendenz zur Mitte durch Konformitätsdruck; Widerspruch kommt zu spät; Abhilfe durch Moderation und heterogene Teams." },
+        { "id": "m3-t14-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "nivellierung-abhilfe", "karte": "m3-t14-k3", "folien": [59],
+          "szenario": "Übungsfall: In der wöchentlichen Teamrunde eurer Filiale werden Vorschläge sofort kommentiert und bewertet. Am Ende sind alle einer Meinung. Zwei Tage später sagt dir ein erfahrener Kollege, er habe von Anfang an Bedenken gehabt, sie aber nicht mehr vorgebracht, als klar war, wohin die Runde lief.",
+          "frage": "Welche Abhilfen des Skripts setzen genau hier an?",
+          "optionen": ["Bewusste Moderation, keine Wertungen bei Diskussion und Quantität vor Qualität, dazu heterogene Zusammensetzung von Teams", "Verteilung der Risiken auf mehrere Schultern und Rolleneinfluss der Starken", "Pauschale Kritik an der Gruppe, damit sich jeder angesprochen fühlt"], "richtig": 0,
+          "erklaerung": "Der Fall zeigt die Nivellierung: Intelligente Abweichler melden sich zu spät, wenn die Gruppe längst ihr Urteil gefällt hat. Die zweite Antwort nennt Gründe des Risikoschubs, die dritte widerspricht dem Skript, das pauschale Angriffe als Auslöser persönlicher Betroffenheit beschreibt.",
+          "beleg": "intelligente „Abweichler“ melden sich oft zu spät, wenn Gruppe längst Urteil gefällt hat", "belegQuelle": "folie-31",
+          "kurz": "Gegen zu späten Widerspruch: moderieren, nicht werten, erst sammeln, Teams heterogen besetzen." },
+        { "id": "m3-t14-a07", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "nivellierung-abhilfe", "karte": "m3-t14-k3", "folien": [59],
+          "frage": "Was stimmt zu den Abhilfen und ihren Begriffen?",
+          "aussagen": [
+            { "text": "Das Skript empfiehlt in der Diskussion zuerst Quantität vor Qualität.", "wahr": true },
+            { "text": "Brainwriting und Metaplan-Technik werden im Skript ausführlich erklärt.", "wahr": false, "korrektur": "Beide werden im Skript nur genannt, nicht erklärt." },
+            { "text": "Das Skript empfiehlt, Teams möglichst gleichartig zusammenzusetzen, damit die Kohäsion steigt.", "wahr": false, "korrektur": "Das Skript empfiehlt die heterogene Zusammensetzung von Teams." },
+            { "text": "Wertungen sollen in der Diskussion zunächst unterbleiben.", "wahr": true }
+          ],
+          "erklaerung": "Die Abhilfen zielen alle in dieselbe Richtung: Unterschiede zulassen und das Urteil aufschieben. Was das Skript nur nennt, wird hier bewusst nicht erklärt.",
+          "beleg": "„Brainwriting“ und „Metaplan-Technik“ werden nur genannt, nicht erklärt.", "belegQuelle": "folie-31",
+          "kurz": "Heterogene Teams, keine Wertungen, Quantität vor Qualität. Brainwriting und Metaplan-Technik sind nur genannt." },
+        { "id": "m3-t14-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "nivellierung", "karte": "m3-t14-k1", "folien": [59],
+          "vorne": "Was sagt das Skript über die klugen Abweichler in einer Gruppe?",
+          "hinten": "Intelligente **Abweichler** melden sich oft **zu spät**, wenn die Gruppe längst ihr Urteil gefällt hat. Vorher wirkt der Konformitätsdruck, den Ähnlichkeiten gegenüber abweichendem Verhalten und Meinungsbild erzeugen.",
+          "erklaerung": "Der Punkt erklärt, warum eine Gruppe einig wirken kann, obwohl es Gegenargumente gibt.",
+          "beleg": "Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten/Meinungsbild", "belegQuelle": "folie-31",
+          "kurz": "Kluge Abweichler melden sich oft zu spät." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Nivellierung (Folie 59):** Tendenz zur Mitte. Ähnlichkeiten erzeugen Konformitätsdruck gegen Abweichung; Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert Kohäsion; intelligente Abweichler melden sich oft zu spät.", "**Abhilfe:** bewusste Moderation, heterogene Teams, keine Wertungen bei Diskussion, Quantität vor Qualität, Brainwriting und/oder Metaplan-Technik. **Ursachen der Kennzeichen:** Beeinflussung, Vergleich, Differenzierung."],
+        "ausfuehrlich": ["**Nivellierung: Tendenz zur Mitte.** Drittes Kennzeichen der Folie 59 neben Gruppengeist und Gruppendenken.", "Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten/Meinungsbild. Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert Kohäsion. Intelligente Abweichler melden sich oft zu spät, wenn die Gruppe längst ihr Urteil gefällt hat.", "**Abhilfe laut Skript:** bewusste Moderation, heterogene Zusammensetzung von Teams, keine Wertungen bei Diskussion, Quantität vor Qualität, Brainwriting und/oder Metaplan-Technik (letztere beide nur genannt, nicht erklärt).", "**Ursachen sind häufig drei Mechanismen: Beeinflussung** – im Verlauf ändern Mitglieder ihre Meinung und ziehen andere mit.", "**Vergleich** – Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen. **Differenzierung** – Mitglieder passen sich an, differenzieren aber den Sinneswandel."],
+        "merkhilfe": "Drei Wege in die Mitte: Ich denke wirklich um (Beeinflussung), ich schweige lieber (Vergleich), ich mache mit und rede es mir schön (Differenzierung)."
+      }
+    },
+    {
+      "id": "m3-t15",
+      "titel": "Risikoschub und Reaktionen auf Angriffe",
+      "folien": [60],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t15-k1",
+          "titel": "Risikoschub (risky shift)",
+          "folien": [60],
+          "bloecke": [
+            { "typ": "einfach", "text": "Eine Gruppe entscheidet sich für ein höheres Risiko, als die Einzelnen es allein täten. Das Skript nennt das [[Risikoschub]]. Die Gründe liegen zum Teil im Druck der Gruppe und zum Teil darin, dass sich das Risiko auf viele Schultern verteilt: Wenn alle mitentscheiden, trägt niemand die Folgen allein." },
+            { "typ": "definition", "begriff": "Risikoschub (risky shift)", "text": "Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne; Gruppen sind i.a. risikofreudiger." },
+            { "typ": "liste", "titel": "Gründe laut Skript", "punkte": ["Konformitätsdruck", "Hochschaukeln", "Selbstüberschätzung der Gruppe", "Verteilung der Risiken auf mehrere Schultern (Sozialisierung)", "Rolleneinfluss der Starken („Wir schaffen das!“)"] }
+          ]
+        },
+        {
+          "id": "m3-t15-k2",
+          "titel": "Reaktionen auf Angriffe",
+          "folien": [60],
+          "bloecke": [
+            { "typ": "einfach", "text": "Kritik an einer Gruppe kommt bei jedem Einzelnen an. Das Skript sagt: Pauschale Angriffe von außen oder vom Chef werden als persönliche Angriffe auf jedes Mitglied aufgefasst. Wie stark das wirkt, hängt davon ab, wie sehr sich jemand mit der Gruppe identifiziert. Und die Reaktion kommt auch dann, wenn die Kritik sachlich berechtigt ist." },
+            { "typ": "liste", "titel": "Was das Skript dazu nennt", "punkte": ["pauschale Angriffe von außen, vom Chef werden als persönliche Angriffe auf jeden Einzelnen aufgefasst", "Abhängig von Grad der Identifikation", "Reaktion erfolgt auch, wenn Kritik berechtigt ist"] },
+            { "typ": "text", "text": "**Frage und Querverweis des Skripts:** Kritik besser unter 4 Augen? -> siehe Feedback" },
+            { "typ": "hinweis", "text": "Das Skript stellt die Frage nach dem Vier-Augen-Gespräch und beantwortet sie an dieser Stelle nicht; der Querverweis „siehe Feedback“ nennt keine Folien- oder Vorlesungsnummer." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t15-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "risikoschub", "karte": "m3-t15-k1", "folien": [60],
+          "frage": "Was besagt der **Risikoschub (risky shift)**?",
+          "optionen": ["Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne", "Gruppen entscheiden vorsichtiger als Einzelne, weil mehr Meinungen abgewogen werden", "Gruppen gleichen ihre Meinungen zur Mitte hin an", "Gruppen schotten sich irrational von der Umwelt ab"], "richtig": 0,
+          "erklaerung": "Das Skript schreibt ausdrücklich: Gruppen sind i.a. risikofreudiger. Die dritte Antwort beschreibt die Nivellierung, die vierte das Gruppendenken.",
+          "beleg": "Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne; Gruppen sind i.a. risikofreudiger", "belegQuelle": "folie-32",
+          "kurz": "Risikoschub: Gruppen gehen höhere Risiken ein als Einzelne, sie sind i.a. risikofreudiger." },
+        { "id": "m3-t15-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "risikoschub-gruende", "karte": "m3-t15-k1", "folien": [60],
+          "frage": "Welche Gründe nennt das Skript für den **Risikoschub**?",
+          "optionen": ["Konformitätsdruck", "Hochschaukeln", "Selbstüberschätzung der Gruppe", "Verteilung der Risiken auf mehrere Schultern (Sozialisierung)", "Rolleneinfluss der Starken (Wir schaffen das!)", "Tendenz zur Mitte", "irrationale Abschottung von der Umwelt"], "richtig": [0, 1, 2, 3, 4],
+          "erklaerung": "Die Tendenz zur Mitte gehört zur Nivellierung, die irrationale Abschottung zum Gruppendenken. Beide stehen auf der Folie davor.",
+          "beleg": "Gründe: Konformitätsdruck, Hochschaukeln, Selbstüberschätzung der Gruppe, Verteilung der Risiken auf mehrere Schultern (Sozialisierung)", "belegQuelle": "folie-32",
+          "kurz": "Gründe: Konformitätsdruck, Hochschaukeln, Selbstüberschätzung, Verteilung der Risiken (Sozialisierung), Rolleneinfluss der Starken." },
+        { "id": "m3-t15-a03", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "reaktionen-angriffe", "karte": "m3-t15-k2", "folien": [60],
+          "frage": "Was sagt das Skript über Reaktionen auf Angriffe?",
+          "aussagen": [
+            { "text": "Pauschale Angriffe von außen oder vom Chef werden als persönliche Angriffe auf jeden Einzelnen aufgefasst.", "wahr": true },
+            { "text": "Wie stark reagiert wird, hängt vom Grad der Identifikation ab.", "wahr": true },
+            { "text": "Ist die Kritik sachlich berechtigt, bleibt die Reaktion aus.", "wahr": false, "korrektur": "Die Reaktion erfolgt auch, wenn die Kritik berechtigt ist." },
+            { "text": "Das Skript beantwortet an dieser Stelle abschließend, ob Kritik besser unter vier Augen geäußert wird.", "wahr": false, "korrektur": "Das Skript stellt diese Frage nur und verweist auf das Kapitel Feedback." }
+          ],
+          "erklaerung": "Der Kern ist die Unabhängigkeit von der Berechtigung: Auch richtige Kritik löst die Reaktion aus. Wie stark, entscheidet der Grad der Identifikation.",
+          "beleg": "Reaktion erfolgt auch, wenn Kritik berechtigt ist", "belegQuelle": "folie-32",
+          "kurz": "Pauschale Kritik trifft jeden persönlich, abhängig vom Grad der Identifikation, auch wenn sie berechtigt ist." },
+        { "id": "m3-t15-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "risikoschub", "karte": "m3-t15-k1", "folien": [60],
+          "frage": "Erkläre den Risikoschub (risky shift): Was besagt er, womit begründet ihn das Skript, und welche Folge hat er?",
+          "musterloesung": "Der Risikoschub besagt, dass Gruppen bei Entscheidungen höhere Risiken eingehen als Einzelne; Gruppen sind laut Skript i.a. risikofreudiger. Das Skript nennt fünf Gründe: Konformitätsdruck, Hochschaukeln, Selbstüberschätzung der Gruppe, Verteilung der Risiken auf mehrere Schultern, also Sozialisierung des Risikos, und den Rolleneinfluss der Starken nach dem Muster „Wir schaffen das!“. Der Risikoschub steht auf derselben Folie wie die Reaktionen auf Angriffe und das Erfahrungswissen. Das Skript zieht daraus ein gemeinsames Fazit: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden.",
+          "checkliste": ["Aussage: Gruppen gehen höhere Risiken ein als Einzelne, sie sind i.a. risikofreudiger", "Konformitätsdruck und Hochschaukeln genannt", "Selbstüberschätzung der Gruppe genannt", "Verteilung der Risiken auf mehrere Schultern (Sozialisierung) genannt", "Rolleneinfluss der Starken („Wir schaffen das!“) genannt", "Folge: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden"],
+          "erklaerung": "Für die Klausur lohnt es sich, die fünf Gründe wirklich zu können: Sie sind die häufigste Nachfrage zu diesem Punkt.",
+          "belege": [
+            { "text": "Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne", "quelle": "folie-32" },
+            { "text": "Rolleneinfluss der Starken („Wir schaffen das!“)", "quelle": "folie-32" }
+          ],
+          "kurz": "Risikoschub: höhere Risiken als bei Einzelnen, aus Druck, Hochschaukeln, Selbstüberschätzung, geteiltem Risiko und starken Rollen." },
+        { "id": "m3-t15-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "risikoschub", "karte": "m3-t15-k1", "folien": [60], "bank": true,
+          "frage": "Vervollständige den Satz des Skripts zum Risikoschub.",
+          "text": "Gruppen gehen bei Entscheidungen {_höhere_} Risiken ein als Einzelne; Gruppen sind i.a. {_risikofreudiger_}",
+          "zusatzBank": ["geringere", "vorsichtiger"],
+          "erklaerung": "Das Skript schreibt i.a. abgekürzt und meint damit die Regel, nicht jeden Einzelfall.",
+          "beleg": "Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne; Gruppen sind i.a. risikofreudiger", "belegQuelle": "folie-32",
+          "kurz": "Höhere Risiken als Einzelne, i.a. risikofreudiger." },
+        { "id": "m3-t15-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "risikoschub-gruende", "karte": "m3-t15-k1", "folien": [60],
+          "szenario": "Übungsfall: Ein Kreditausschuss diskutiert ein Engagement, das jedes Mitglied allein abgelehnt hätte. Im Gespräch steigert sich die Stimmung, ein erfahrener Kollege sagt mehrfach, das bekomme man hin. Am Ende steht die Zusage, und ein Mitglied denkt: Wenn es schiefgeht, haben wir alle zusammen entschieden.",
+          "frage": "Welche Gründe des Skripts erklären diesen Verlauf am besten?",
+          "optionen": ["Hochschaukeln, Rolleneinfluss der Starken und Verteilung der Risiken auf mehrere Schultern", "Irrationale Abschottung von der Umwelt und geschlossenes System", "Harmonie-Sucht, die gefühlte Sicherheit erzeugt und die Kohäsion stabilisiert"], "richtig": 0,
+          "erklaerung": "Alle drei genannten Gründe stehen im Skript unter dem Risikoschub. Die zweite Antwort gehört zum Gruppendenken, die dritte zur Nivellierung.",
+          "beleg": "Verteilung der Risiken auf mehrere Schultern (Sozialisierung)", "belegQuelle": "folie-32",
+          "kurz": "Hochschaukeln, starke Rollen und geteiltes Risiko treiben die Gruppe über die eigene Risikogrenze." },
+        { "id": "m3-t15-a07", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "folie60-abgrenzung", "karte": "m3-t15-k2", "folien": [60],
+          "frage": "Risikoschub oder Reaktionen auf Angriffe? Sortiere die Aussagen der Folie ein.",
+          "kategorien": ["Risikoschub", "Reaktionen auf Angriffe"],
+          "elemente": [
+            { "text": "Verteilung der Risiken auf mehrere Schultern (Sozialisierung)", "kategorie": 0 },
+            { "text": "Pauschale Angriffe vom Chef werden als persönliche Angriffe auf jeden Einzelnen aufgefasst", "kategorie": 1 },
+            { "text": "Rolleneinfluss der Starken: Wir schaffen das!", "kategorie": 0 },
+            { "text": "Die Stärke der Reaktion hängt vom Grad der Identifikation ab", "kategorie": 1 },
+            { "text": "Hochschaukeln und Selbstüberschätzung der Gruppe", "kategorie": 0 },
+            { "text": "Die Reaktion erfolgt auch dann, wenn die Kritik berechtigt ist", "kategorie": 1 }
+          ],
+          "erklaerung": "Beide Punkte stehen auf Folie 60, betreffen aber Verschiedenes: Der Risikoschub beschreibt das Entscheiden der Gruppe, die Reaktionen auf Angriffe das Verhalten bei Kritik von außen.",
+          "beleg": "pauschale Angriffe von außen, vom Chef werden als persönliche Angriffe auf jeden Einzelnen aufgefasst", "belegQuelle": "folie-32",
+          "kurz": "Risikoschub = Entscheiden mit mehr Risiko. Reaktionen auf Angriffe = Kritik trifft jeden persönlich." },
+        { "id": "m3-t15-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "reaktionen-angriffe", "karte": "m3-t15-k2", "folien": [60],
+          "vorne": "Welche Frage stellt das Skript bei den Reaktionen auf Angriffe, und wohin verweist es?",
+          "hinten": "Es fragt: **Kritik besser unter 4 Augen?** und verweist mit **-> siehe Feedback** auf ein anderes Kapitel der Vorlesung. Eine Antwort gibt die Folie an dieser Stelle nicht.",
+          "erklaerung": "Wichtig ist, die Frage als Frage zu behalten und nichts dazuzuerfinden.",
+          "beleg": "Reaktion erfolgt auch, wenn Kritik berechtigt ist -> Kritik besser unter 4 Augen? -> siehe Feedback", "belegQuelle": "folie-32",
+          "kurz": "Offene Frage des Skripts: Kritik besser unter 4 Augen? Verweis auf das Kapitel Feedback." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Risikoschub (risky shift), Folie 60:** Gruppen gehen höhere Risiken ein als Einzelne, sie sind i.a. risikofreudiger. Gründe: Konformitätsdruck, Hochschaukeln, Selbstüberschätzung der Gruppe, Verteilung der Risiken auf mehrere Schultern (Sozialisierung), Rolleneinfluss der Starken („Wir schaffen das!“).", "**Reaktionen auf Angriffe:** Pauschale Angriffe von außen oder vom Chef werden als persönliche Angriffe auf jeden Einzelnen aufgefasst, abhängig vom Grad der Identifikation – auch wenn die Kritik berechtigt ist."],
+        "ausfuehrlich": ["**Folie 60, Kennzeichen/Merkmale von Gruppendynamiken – II.**", "**Risikoschub (risky shift):** Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne; Gruppen sind i.a. risikofreudiger.", "**Fünf Gründe:** Konformitätsdruck, Hochschaukeln, Selbstüberschätzung der Gruppe, Verteilung der Risiken auf mehrere Schultern (Sozialisierung), Rolleneinfluss der Starken („Wir schaffen das!“).", "**Reaktionen auf Angriffe:** pauschale Angriffe von außen oder vom Chef werden als persönliche Angriffe auf jeden Einzelnen aufgefasst; abhängig vom Grad der Identifikation; die Reaktion erfolgt auch bei berechtigter Kritik.", "**Offene Frage des Skripts:** Kritik besser unter 4 Augen? Querverweis auf das Kapitel Feedback, ohne Folien- oder Vorlesungsnummer."],
+        "merkhilfe": "Geteiltes Risiko fühlt sich wie halbes Risiko an – deshalb traut sich die Gruppe mehr zu als jeder Einzelne."
+      }
+    },
+    {
+      "id": "m3-t16",
+      "titel": "Erfahrungswissen: Ringelmann-Effekt, Wiederholungen, Minoritätseffekt",
+      "folien": [60],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t16-k1",
+          "titel": "Drei Sätze unter der Überschrift Erfahrungswissen",
+          "folien": [60],
+          "bloecke": [
+            { "typ": "einfach", "text": "Am Ende der Folie steht ein Block, den das Skript **Erfahrungswissen** nennt. Drei kurze Sätze, jeder mit einem eigenen Namen. Alle drei beschreiben, wie wenige Einzelne eine ganze Gruppe in eine Richtung ziehen: durch Ansteckung, durch Lautstärke und Wiederholung oder durch Glaubwürdigkeit." },
+            { "typ": "person", "name": "Ringelmann", "beitrag": "Steht im Skript für den Ringelmann-Effekt: ein fauler Apfel steckt andere an. Genannt unter dem Erfahrungswissen auf Folie 60.", "folie": 60 },
+            { "typ": "merksatz", "folie": 60, "text": "Ringelmann-Effekt: ein fauler Apfel steckt andere an" },
+            { "typ": "merksatz", "folie": 60, "text": "Wiederholungen wirken oft mehr als wahre Aussagen: wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht" },
+            { "typ": "merksatz", "folie": 60, "text": "Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen" },
+            { "typ": "hinweis", "text": "Das Skript erklärt den [[Ringelmann-Effekt]] nur mit diesem Bild vom faulen Apfel. Eine weitergehende Definition oder eine Studie dazu steht nicht im Skript und wird hier deshalb nicht ergänzt." }
+          ]
+        },
+        {
+          "id": "m3-t16-k2",
+          "titel": "Das Risiko in einem Satz",
+          "folien": [60],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Folie endet mit einem einzigen hervorgehobenen Satz. Er zieht die Folgerung aus allem, was davor steht: aus Risikoschub, Reaktionen auf Angriffe und dem Erfahrungswissen. Gemeint ist nicht das Ergebnis einer einzelnen Entscheidung, sondern die Qualität des Diskutierens und Entscheidens selbst." },
+            { "typ": "merksatz", "folie": 60, "text": "-> RISIKO: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden!" }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t16-a01", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "erfahrungswissen", "karte": "m3-t16-k1", "folien": [60],
+          "frage": "Ordne jedem Begriff des Erfahrungswissens den Satz des Skripts zu.", "linksTitel": "Begriff", "rechtsTitel": "Aussage laut Skript",
+          "paare": [
+            { "links": "Ringelmann-Effekt", "rechts": "ein fauler Apfel steckt andere an" },
+            { "links": "Wiederholungen", "rechts": "wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht" },
+            { "links": "Minoritätseffekt", "rechts": "bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen" }
+          ],
+          "erklaerung": "Die drei Sätze stehen im Skript unmittelbar untereinander unter der Überschrift Erfahrungswissen.",
+          "beleg": "Ringelmann-Effekt: ein fauler Apfel steckt andere an", "belegQuelle": "folie-32",
+          "kurz": "Ringelmann: fauler Apfel. Wiederholungen: laut und oft. Minoritätseffekt: glaubwürdige Minderheit zieht das Team." },
+        { "id": "m3-t16-a02", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "minoritaetseffekt", "karte": "m3-t16-k1", "folien": [60],
+          "frage": "Was besagt der **Minoritätseffekt** laut Skript?",
+          "optionen": ["Bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen", "Eine Minderheit passt sich am Ende immer der Mehrheit an", "Wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht", "Ein fauler Apfel steckt andere an"], "richtig": 0,
+          "erklaerung": "Entscheidend ist das Wort glaubwürdig: Es wirkt, weil die Minderheit bisher Vertrauen genoss. Die beiden letzten Antworten sind die anderen zwei Sätze des Erfahrungswissens.",
+          "beleg": "Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen", "belegQuelle": "folie-32",
+          "kurz": "Minoritätseffekt: bislang glaubwürdige Minderheiten ziehen ganze Teams in die verkehrte Richtung." },
+        { "id": "m3-t16-a03", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "erfahrungswissen", "karte": "m3-t16-k1", "folien": [60],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Ringelmann-Effekt: ein fauler Apfel steckt andere an“",
+          "musterloesung": "Der Satz steht auf Folie 60 unter der Überschrift Erfahrungswissen, zusammen mit zwei weiteren Sätzen: Wiederholungen wirken oft mehr als wahre Aussagen, und der Minoritätseffekt, nach dem bislang glaubwürdige Minderheiten gesamte Teams in verkehrte Richtung ziehen können. Gemeint ist die Ansteckung innerhalb der Gruppe: Das Verhalten eines Einzelnen bleibt nicht bei ihm, sondern überträgt sich auf andere. Alle drei Sätze stützen die Folgerung am Ende der Folie: Die Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden. Mehr sagt das Skript zum Ringelmann-Effekt nicht; eine weitergehende Definition gehört nicht dazu.",
+          "checkliste": ["Wortlaut wiedergegeben: ein fauler Apfel steckt andere an", "Einordnung unter Erfahrungswissen auf Folie 60", "Kern: Verhalten eines Einzelnen überträgt sich auf die Gruppe", "Verbindung zur Folgerung: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden", "Ehrlich bleiben: mehr steht im Skript nicht"],
+          "erklaerung": "Die Klausur kann nach dem Begriff fragen. Der sichere Weg ist der Wortlaut des Skripts plus die Einordnung, nicht eine Definition von außen.",
+          "beleg": "Ringelmann-Effekt: ein fauler Apfel steckt andere an", "belegQuelle": "folie-32",
+          "kurz": "Ringelmann-Effekt im Skript: ein fauler Apfel steckt andere an – Ansteckung in der Gruppe, mehr steht dort nicht." },
+        { "id": "m3-t16-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "folie60-risiko", "karte": "m3-t16-k2", "folien": [60],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „RISIKO: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden!“",
+          "musterloesung": "Der Satz schließt Folie 60 ab und fasst alles zusammen, was davor steht. Vorher hat das Skript den Risikoschub beschrieben, also dass Gruppen höhere Risiken eingehen als Einzelne, dazu die Reaktionen auf Angriffe und das Erfahrungswissen mit Ringelmann-Effekt, Wirkung von Wiederholungen und Minoritätseffekt. Der Risikosatz sagt: Diese Effekte treffen nicht nur die Stimmung, sondern die Qualität des Diskutierens und Entscheidens selbst. Damit begründet das Skript, warum Führungskräfte gruppendynamische Effekte kennen und im Führungsalltag berücksichtigen müssen, und leitet zu den Hinweisen zum Umgang mit Gruppen auf der nächsten Folie über.",
+          "checkliste": ["Der Satz ist das Fazit der Folie 60", "Bezug auf Risikoschub und Reaktionen auf Angriffe", "Bezug auf das Erfahrungswissen: Ringelmann, Wiederholungen, Minoritätseffekt", "Betroffen ist die Qualität von Diskussionen und Entscheidungen", "Überleitung zu den Hinweisen zum Umgang mit Gruppen"],
+          "erklaerung": "Der Satz ist die Klammer der Folie. Wer ihn erklärt, muss die Effekte davor benennen können.",
+          "beleg": "RISIKO: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden!", "belegQuelle": "folie-32",
+          "kurz": "Fazit der Folie 60: Die gruppendynamischen Effekte verschlechtern die Qualität von Diskussionen und Entscheidungen." },
+        { "id": "m3-t16-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "erfahrungswissen", "karte": "m3-t16-k1", "folien": [60],
+          "frage": "Welche Zuordnung gibt das Skript richtig wieder?",
+          "aussagen": [
+            { "text": "Wiederholungen wirken laut Skript oft mehr als wahre Aussagen.", "wahr": true },
+            { "text": "Der Minoritätseffekt beschreibt, dass sich Minderheiten der Mehrheit anpassen.", "wahr": false, "korrektur": "Er beschreibt das Gegenteil: Bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen." },
+            { "text": "Das Skript erklärt den Ringelmann-Effekt mit dem Bild vom faulen Apfel, der andere ansteckt.", "wahr": true },
+            { "text": "Das Erfahrungswissen steht im Skript unter der Überschrift Risikoschub.", "wahr": false, "korrektur": "Es steht als eigener Block unter der Überschrift Erfahrungswissen, hinter Risikoschub und Reaktionen auf Angriffe." }
+          ],
+          "erklaerung": "Die häufigste Verwechslung ist der Minoritätseffekt: Nicht die Minderheit passt sich an, sondern sie zieht das Team.",
+          "beleg": "Wiederholungen wirken oft mehr als wahre Aussagen: wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht", "belegQuelle": "folie-32",
+          "kurz": "Minoritätseffekt zieht das Team, er beschreibt keine Anpassung der Minderheit." },
+        { "id": "m3-t16-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "minoritaetseffekt", "karte": "m3-t16-k1", "folien": [60],
+          "szenario": "Übungsfall: In eurer Projektgruppe an der DHBW haben zwei Kommilitonen bisher jede Einschätzung richtig getroffen. Diesmal halten sie eine Vorgehensweise für richtig, die die Zahlen nicht hergeben. Nach einer halben Stunde folgt die ganze Gruppe ihnen.",
+          "frage": "Welcher Satz des Erfahrungswissens beschreibt das?",
+          "optionen": ["Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen", "Ringelmann-Effekt: ein fauler Apfel steckt andere an", "Wiederholungen wirken oft mehr als wahre Aussagen"], "richtig": 0,
+          "erklaerung": "Die beiden Kommilitonen sind eine Minderheit, die bislang glaubwürdig war. Genau darauf zielt der Minoritätseffekt. Von Lautstärke oder Wiederholung ist im Fall keine Rede.",
+          "beleg": "Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen", "belegQuelle": "folie-32",
+          "kurz": "Glaubwürdige Minderheit plus falsche Richtung = Minoritätseffekt." },
+        { "id": "m3-t16-a07", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "erfahrungswissen", "karte": "m3-t16-k1", "folien": [60],
+          "vorne": "Was sagt das Skript über die Wirkung von Wiederholungen?",
+          "hinten": "**Wiederholungen wirken oft mehr als wahre Aussagen:** wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht.",
+          "erklaerung": "Der Satz steht als zweiter Punkt im Erfahrungswissen der Folie 60.",
+          "beleg": "Wiederholungen wirken oft mehr als wahre Aussagen", "belegQuelle": "folie-32",
+          "kurz": "Laut und oft schlägt häufig wahr." },
+        { "id": "m3-t16-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "wiederholungen", "karte": "m3-t16-k1", "folien": [60],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Wiederholungen wirken oft mehr als wahre Aussagen: wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht“",
+          "musterloesung": "Der Satz steht auf Folie 60 unter der Überschrift Erfahrungswissen, als zweiter von drei Sätzen zwischen dem Ringelmann-Effekt und dem Minoritätseffekt. Gemeint ist, dass sich in einer Gruppe nicht unbedingt durchsetzt, was zutrifft, sondern was zuerst, am lautesten und am häufigsten gesagt wird. Nicht der Wahrheitsgehalt entscheidet, sondern wer früh dran ist, laut ist und es oft wiederholt. Das passt zu den Kennzeichen der Folien davor: Der Konformitätsdruck der Nivellierung und das Hochschaukeln beim Risikoschub wirken in dieselbe Richtung. Alle drei Sätze des Erfahrungswissens stützen die Folgerung am Ende der Folie: Die Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden. Auf Folie 61 steht die passende Gegenmaßnahme: Aufschaukeln, Polemik und Hurra-Routinen erkennen und benennen. Mehr sagt das Skript zu diesem Satz nicht.",
+          "checkliste": ["Wortlaut wiedergegeben: wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht", "Kern: Nicht der Wahrheitsgehalt setzt sich durch, sondern Lautstärke, früher Zeitpunkt und Wiederholung", "Einordnung unter Erfahrungswissen auf Folie 60, zwischen Ringelmann-Effekt und Minoritätseffekt", "Verbindung zur Folgerung: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden", "Gegenmaßnahme der Folie 61 genannt: Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen"],
+          "erklaerung": "Sicher ist der Wortlaut plus die Einordnung. Der Satz ist kein eigenes Modell, sondern Erfahrungswissen, das mitbegründet, warum die Qualität von Diskussionen leidet.",
+          "belege": [
+            { "text": "Wiederholungen wirken oft mehr als wahre Aussagen: wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht", "quelle": "folie-32" },
+            { "text": "Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen", "quelle": "folie-33" }
+          ],
+          "kurz": "Wiederholungen wirken oft mehr als wahre Aussagen: Lautstärke und Häufigkeit schlagen den Wahrheitsgehalt." },
+        { "id": "m3-t16-a09", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "minoritaetseffekt", "karte": "m3-t16-k1", "folien": [60],
+          "frage": "Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht: „Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen“",
+          "musterloesung": "Der Satz ist der dritte im Erfahrungswissen der Folie 60, nach dem Ringelmann-Effekt und der Wirkung von Wiederholungen. Gemeint ist: Eine kleine Gruppe innerhalb des Teams, die bisher Vertrauen genoss, kann das ganze Team in die verkehrte Richtung ziehen. Entscheidend ist das Wort bislang glaubwürdig – die Wirkung entsteht aus dem angesammelten Vertrauen, nicht aus der Zahl der Köpfe. Der Satz beschreibt also nicht, dass sich eine Minderheit der Mehrheit anpasst, sondern die umgekehrte Richtung. Zusammen mit den beiden anderen Sätzen zeigt er, wie wenige Einzelne eine ganze Gruppe bewegen: durch Ansteckung (Ringelmann-Effekt), durch Lautstärke und Wiederholung oder durch Glaubwürdigkeit. Alle drei stützen die Folgerung am Ende der Folie: Die Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden.",
+          "checkliste": ["Wortlaut wiedergegeben: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen", "Kern: Die Wirkung kommt aus dem bisherigen Vertrauen, nicht aus der Zahl", "Abgrenzung: keine Anpassung der Minderheit an die Mehrheit, sondern die umgekehrte Richtung", "Einordnung unter Erfahrungswissen auf Folie 60, dritter von drei Sätzen", "Verbindung zur Folgerung: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden"],
+          "erklaerung": "Die häufigste Verwechslung ist die Richtung. Wer den Satz erklärt, sagt deshalb ausdrücklich, dass die Minderheit zieht und nicht gezogen wird.",
+          "belege": [
+            { "text": "Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen", "quelle": "folie-32" },
+            { "text": "RISIKO: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden!", "quelle": "folie-32" }
+          ],
+          "kurz": "Minoritätseffekt: Eine bislang glaubwürdige Minderheit zieht das ganze Team in die verkehrte Richtung." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Erfahrungswissen (Folie 60):** Ringelmann-Effekt – ein fauler Apfel steckt andere an. Wiederholungen wirken oft mehr als wahre Aussagen (wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht). Minoritätseffekt – bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen.", "**Fazit der Folie:** RISIKO – Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden."],
+        "ausfuehrlich": ["**Erfahrungswissen** ist im Skript ein eigener Block am Ende der Folie 60, fett und kursiv gesetzt, mit drei hervorgehobenen Begriffen.", "**Ringelmann-Effekt:** ein fauler Apfel steckt andere an. Mehr sagt das Skript dazu nicht; eine weitergehende Definition gehört nicht zum Stoff.", "**Wiederholungen:** wirken oft mehr als wahre Aussagen. Wer zuerst am lautesten brüllt und oft wiederholt, bekommt häufig Recht.", "**Minoritätseffekt:** bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen. Wichtig: Nicht die Minderheit passt sich an, sie zieht das Team.", "**Abschluss der Folie:** -> RISIKO: Qualität von Diskussionen und Entscheidungen kann nachteilig beeinflusst werden! Das ist die Folgerung aus Risikoschub, Reaktionen auf Angriffe und Erfahrungswissen."],
+        "merkhilfe": "Drei Wege, wie wenige viele ziehen: ein fauler Apfel (Ansteckung), ein lautes Wiederholen (Beharrlichkeit), eine glaubwürdige Minderheit (Vertrauen)."
+      }
+    },
+    {
+      "id": "m3-t17",
+      "titel": "Umgang mit Gruppen: Was hilft und was Führungskräfte tun sollten",
+      "folien": [61],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t17-k1",
+          "titel": "WAS hilft?",
+          "folien": [61],
+          "bloecke": [
+            { "typ": "einfach", "text": "Nach den Effekten kommt die Folie zum Handeln. Der erste Teil sammelt, was allgemein hilft: nicht am einzelnen Moment kleben, Verantwortung zuordnen, den Zusammenhang mitdenken und das Aufschaukeln beim Namen nennen. Der letzte Punkt ist eine Warnung an die eigene Sicherheit: Motive von Menschen sind in Gruppen schwer zu erkennen." },
+            { "typ": "liste", "titel": "WAS hilft? (Wortlaut des Skripts)", "punkte": ["Denken in Prozessen und Reduktion der Fixierung auf Augenblicke", "Zuweisung individueller Verantwortung", "stets den Kontext im Auge behalten und Verallgemeinerungen widerstehen", "Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen", "Komplexität und Umwelt-Dynamiken anerkennen und isolierte Betrachtungen vermeiden", "Akzeptanz: Motive von Menschen lassen sich (auch und erst recht) in Gruppen schwer identifizieren"] }
+          ]
+        },
+        {
+          "id": "m3-t17-k2",
+          "titel": "DAHER sollten Führungskräfte",
+          "folien": [61],
+          "bloecke": [
+            { "typ": "einfach", "text": "Der zweite Teil richtet sich direkt an die Führungskraft. Sechs Punkte, die an die Kennzeichen der Folien davor anschließen: verbindliche Normen gegen das Ausfransen, passende Rollen, ein bewusster Umgang mit Status, Unterschiedlichkeit im Team, nüchterne Gegengewichte gegen Dynamiken und die eigene Rolle als Verkäufer nach innen und außen." },
+            { "typ": "liste", "titel": "DAHER sollten Führungskräfte (Wortlaut des Skripts)", "punkte": ["verbindliche Normen der Kooperation vereinbaren und konsequent nachhaltig einfordern", "Rollen adäquat besetzen, so dass sie optimal aufeinander abgestimmt sind", "Statusunterschiede geschickt zur Leistungserzielung der Gruppe nutzen", "Diversity in Denken, Kultur und Erfahrung pflegen -> siehe [[Modern Portfolio Theory]]", "Pragmatiker und nüchterne Realisten als Gegengewicht zu Dynamiken sein", "Rolle als leidenschaftliche Verkäufer nach innen und zu den Kunden leben"] },
+            { "typ": "hinweis", "text": "Modern Portfolio Theory wird im Skript nur als Querverweis genannt, ohne Quellen- oder Folienangabe und ohne Erklärung. Deshalb steht hier nichts darüber." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t17-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "umgang-was-hilft", "karte": "m3-t17-k1", "folien": [61],
+          "frage": "Welche Punkte stehen im Skript unter **WAS hilft?**",
+          "optionen": ["Denken in Prozessen und Reduktion der Fixierung auf Augenblicke", "Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen", "stets den Kontext im Auge behalten und Verallgemeinerungen widerstehen", "Zuweisung individueller Verantwortung", "Rollen adäquat besetzen, so dass sie optimal aufeinander abgestimmt sind", "Statusunterschiede geschickt zur Leistungserzielung der Gruppe nutzen"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Die beiden letzten Punkte stehen ebenfalls auf Folie 61, aber im zweiten Teil unter DAHER sollten Führungskräfte. Zur ersten Liste gehören außerdem die Anerkennung von Komplexität und Umwelt-Dynamiken sowie die Akzeptanz, dass Motive in Gruppen schwer zu identifizieren sind.",
+          "beleg": "Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen", "belegQuelle": "folie-33",
+          "kurz": "WAS hilft: Prozessdenken, individuelle Verantwortung, Kontext, Aufschaukeln benennen, Komplexität anerkennen, Motive als schwer erkennbar akzeptieren." },
+        { "id": "m3-t17-a02", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "umgang-abgrenzung", "karte": "m3-t17-k2", "folien": [61],
+          "frage": "Zu welchem Teil der Folie 61 gehört die Aussage?",
+          "kategorien": ["WAS hilft?", "DAHER sollten Führungskräfte"],
+          "elemente": [
+            { "text": "Komplexität und Umwelt-Dynamiken anerkennen und isolierte Betrachtungen vermeiden", "kategorie": 0 },
+            { "text": "verbindliche Normen der Kooperation vereinbaren und konsequent nachhaltig einfordern", "kategorie": 1 },
+            { "text": "Akzeptanz: Motive von Menschen lassen sich in Gruppen schwer identifizieren", "kategorie": 0 },
+            { "text": "Diversity in Denken, Kultur und Erfahrung pflegen", "kategorie": 1 },
+            { "text": "Denken in Prozessen und Reduktion der Fixierung auf Augenblicke", "kategorie": 0 },
+            { "text": "Rolle als leidenschaftliche Verkäufer nach innen und zu den Kunden leben", "kategorie": 1 }
+          ],
+          "erklaerung": "Der erste Teil beschreibt eine Haltung im Umgang mit Gruppen allgemein, der zweite konkrete Aufgaben der Führungskraft.",
+          "beleg": "stets den Kontext im Auge behalten und Verallgemeinerungen widerstehen", "belegQuelle": "folie-33",
+          "kurz": "Erste Liste = Haltung (WAS hilft), zweite Liste = Aufgaben der Führungskraft (DAHER)." },
+        { "id": "m3-t17-a03", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "umgang-was-hilft", "karte": "m3-t17-k1", "folien": [61], "bank": true,
+          "frage": "Ergänze den ersten Punkt der Liste WAS hilft?",
+          "text": "Denken in {_Prozessen_} und Reduktion der Fixierung auf {_Augenblicke_}",
+          "zusatzBank": ["Rollen", "Normen"],
+          "erklaerung": "Der Punkt richtet den Blick auf den Verlauf statt auf die Momentaufnahme: Eine Gruppe wird über die Zeit verstanden, nicht aus einer einzelnen Sitzung.",
+          "beleg": "Denken in Prozessen und Reduktion der Fixierung auf Augenblicke", "belegQuelle": "folie-33",
+          "kurz": "Denken in Prozessen, weniger Fixierung auf Augenblicke." },
+        { "id": "m3-t17-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "umgang-fuehrungskraefte", "karte": "m3-t17-k2", "folien": [61],
+          "frage": "Nenne und erläutere die Hinweise, die das Skript Führungskräften für den Umgang mit Gruppen und ihren Dynamiken gibt.",
+          "musterloesung": "Die Folie trennt zwei Teile. Unter WAS hilft? stehen sechs Punkte: Denken in Prozessen und Reduktion der Fixierung auf Augenblicke; Zuweisung individueller Verantwortung; stets den Kontext im Auge behalten und Verallgemeinerungen widerstehen; Aufschaukeln, Polemik und Hurra-Routinen erkennen und benennen; Komplexität und Umwelt-Dynamiken anerkennen und isolierte Betrachtungen vermeiden; und die Akzeptanz, dass sich Motive von Menschen auch und erst recht in Gruppen schwer identifizieren lassen. Unter DAHER sollten Führungskräfte folgen sechs Aufgaben: verbindliche Normen der Kooperation vereinbaren und konsequent nachhaltig einfordern; Rollen adäquat besetzen, so dass sie optimal aufeinander abgestimmt sind; Statusunterschiede geschickt zur Leistungserzielung der Gruppe nutzen; Diversity in Denken, Kultur und Erfahrung pflegen, mit Querverweis auf die Modern Portfolio Theory; Pragmatiker und nüchterne Realisten als Gegengewicht zu Dynamiken sein; und die Rolle als leidenschaftliche Verkäufer nach innen und zu den Kunden leben. Die Liste ist die Antwort auf die Folien davor: Gruppengeist, Gruppendenken, Nivellierung, Risikoschub und das Erfahrungswissen, deren Risiko darin besteht, dass die Qualität von Diskussionen und Entscheidungen nachteilig beeinflusst werden kann.",
+          "checkliste": ["Beide Teile der Folie unterschieden: WAS hilft? und DAHER sollten Führungskräfte", "Aus dem ersten Teil mindestens vier Punkte im Wortlaut wiedergegeben", "Aus dem zweiten Teil mindestens vier Punkte im Wortlaut wiedergegeben", "Zuweisung individueller Verantwortung und Aufschaukeln benennen genannt", "Bezug zu den gruppendynamischen Effekten der Folien davor hergestellt"],
+          "erklaerung": "Diese Folie eignet sich gut für eine offene Klausurfrage, weil sie zwölf klar benannte Punkte liefert. Die Gliederung in zwei Teile gehört zur Antwort.",
+          "belege": [
+            { "text": "verbindliche Normen der Kooperation vereinbaren und konsequent nachhaltig einfordern", "quelle": "folie-33" },
+            { "text": "Akzeptanz: Motive von Menschen lassen sich (auch und erst recht) in Gruppen schwer identifizieren", "quelle": "folie-33" }
+          ],
+          "kurz": "Folie 61: sechs Punkte WAS hilft, sechs Punkte DAHER sollten Führungskräfte." },
+        { "id": "m3-t17-a05", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "umgang-fuehrungskraefte", "karte": "m3-t17-k2", "folien": [61],
+          "frage": "Welche Aussagen geben die Hinweise des Skripts richtig wieder?",
+          "aussagen": [
+            { "text": "Rollen sollen adäquat besetzt werden, so dass sie optimal aufeinander abgestimmt sind.", "wahr": true },
+            { "text": "Statusunterschiede sollen laut Skript eingeebnet werden.", "wahr": false, "korrektur": "Das Skript sagt, Statusunterschiede geschickt zur Leistungserzielung der Gruppe zu nutzen." },
+            { "text": "Führungskräfte sollen Pragmatiker und nüchterne Realisten als Gegengewicht zu Dynamiken sein.", "wahr": true },
+            { "text": "Motive von Menschen lassen sich laut Skript gerade in Gruppen besonders leicht erkennen.", "wahr": false, "korrektur": "Das Skript verlangt die Akzeptanz, dass sich Motive auch und erst recht in Gruppen schwer identifizieren lassen." }
+          ],
+          "erklaerung": "Zwei typische Verwechslungen: Status wird genutzt, nicht eingeebnet, und Motive sind in Gruppen schwerer zu erkennen, nicht leichter.",
+          "beleg": "Rollen adäquat besetzen, so dass sie optimal aufeinander abgestimmt sind", "belegQuelle": "folie-33",
+          "kurz": "Status nutzen statt einebnen; Motive in Gruppen schwer identifizierbar." },
+        { "id": "m3-t17-a06", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "umgang-fuehrungskraefte", "karte": "m3-t17-k2", "folien": [61],
+          "szenario": "Übungsfall: Ein Projekt in deiner Filiale ist geplatzt. In der Nachbesprechung schaukelt sich die Runde auf: Schuld sei der Vertrieb, so sei das dort immer. Niemand benennt, wer welche Aufgabe hatte. Zwei Mitarbeitende, die anderer Meinung sind, sagen nichts.",
+          "frage": "Welche Hinweise der Folie 61 greifst du auf, und was tust du damit konkret?",
+          "musterloesung": "Zuerst das Aufschaukeln, die Polemik und die Hurra-Routinen erkennen und benennen, also die Runde auf ihr eigenes Muster hinweisen. Dann Verallgemeinerungen widerstehen und stets den Kontext im Auge behalten: Die Aussage über den Vertrieb ist eine Verallgemeinerung, zu betrachten ist der konkrete Fall. Dazu Denken in Prozessen statt Fixierung auf den Augenblick der geplatzten Entscheidung und Anerkennung von Komplexität und Umwelt-Dynamiken statt isolierter Betrachtung. Anschließend Zuweisung individueller Verantwortung, damit klar wird, wer welche Aufgabe hatte. Als Führungskraft weiter: verbindliche Normen der Kooperation vereinbaren und konsequent nachhaltig einfordern, Rollen adäquat besetzen und Diversity in Denken, Kultur und Erfahrung pflegen, damit abweichende Stimmen wieder vorkommen. Schließlich als Pragmatiker und nüchterner Realist ein Gegengewicht zu den Dynamiken bilden. Zu akzeptieren bleibt, dass sich Motive von Menschen auch und erst recht in Gruppen schwer identifizieren lassen.",
+          "checkliste": ["Aufschaukeln, Polemik und Hurra-Routinen erkennen und benennen", "Verallgemeinerungen widerstehen und den Kontext im Auge behalten", "Zuweisung individueller Verantwortung", "Verbindliche Normen der Kooperation vereinbaren und einfordern", "Als Pragmatiker und nüchterner Realist Gegengewicht zu Dynamiken sein"],
+          "erklaerung": "Der Fall verlangt die Auswahl passender Punkte, nicht die ganze Liste. Wichtig ist, dass jeder genannte Punkt im Wortlaut des Skripts steht.",
+          "beleg": "Pragmatiker und nüchterne Realisten als Gegengewicht zu Dynamiken sein", "belegQuelle": "folie-33",
+          "kurz": "Aufschaukeln benennen, Verallgemeinerung stoppen, Verantwortung zuweisen, Normen einfordern, nüchternes Gegengewicht sein." },
+        { "id": "m3-t17-a07", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "umgang-was-hilft", "karte": "m3-t17-k1", "folien": [61],
+          "vorne": "Nenne die sechs Punkte, die das Skript unter WAS hilft? aufzählt.",
+          "hinten": "- Denken in Prozessen und Reduktion der Fixierung auf Augenblicke\n- Zuweisung individueller Verantwortung\n- stets den Kontext im Auge behalten und Verallgemeinerungen widerstehen\n- Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen\n- Komplexität und Umwelt-Dynamiken anerkennen und isolierte Betrachtungen vermeiden\n- Akzeptanz: Motive von Menschen lassen sich (auch und erst recht) in Gruppen schwer identifizieren",
+          "erklaerung": "Sechs Punkte, die du für eine offene Frage möglichst im Wortlaut parat haben solltest.",
+          "beleg": "Komplexität und Umwelt-Dynamiken anerkennen und isolierte Betrachtungen vermeiden", "belegQuelle": "folie-33",
+          "kurz": "Sechs Punkte unter WAS hilft, vom Prozessdenken bis zur Akzeptanz schwer erkennbarer Motive." },
+        { "id": "m3-t17-a08", "typ": "mc", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "umgang-fuehrungskraefte", "karte": "m3-t17-k2", "folien": [61],
+          "frage": "Das Skript schreibt: „Diversity in Denken, Kultur und Erfahrung pflegen“ – worauf verweist es an dieser Stelle?",
+          "optionen": ["auf die Modern Portfolio Theory", "auf das Kapitel Feedback", "auf die Metaplan-Technik", "auf den Ringelmann-Effekt"], "richtig": 0,
+          "erklaerung": "Der Querverweis steht ohne Quellen- oder Folienangabe, und die Modern Portfolio Theory wird im Skript nur genannt, nicht erklärt. Der Verweis auf das Feedback steht auf Folie 60 bei den Reaktionen auf Angriffe.",
+          "beleg": "Diversity in Denken, Kultur und Erfahrung pflegen -> siehe Modern Portfolio Theory", "belegQuelle": "folie-33",
+          "kurz": "Diversity pflegen, mit Querverweis auf die Modern Portfolio Theory (im Skript nur genannt)." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**WAS hilft? (Folie 61):** Denken in Prozessen statt Fixierung auf Augenblicke; Zuweisung individueller Verantwortung; Kontext behalten und Verallgemeinerungen widerstehen; Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen; Komplexität und Umwelt-Dynamiken anerkennen; Akzeptanz, dass Motive in Gruppen schwer zu identifizieren sind.", "**DAHER sollten Führungskräfte:** verbindliche Normen der Kooperation vereinbaren und einfordern; Rollen adäquat besetzen; Statusunterschiede zur Leistungserzielung nutzen; Diversity pflegen (-> Modern Portfolio Theory); Pragmatiker und nüchterne Realisten als Gegengewicht sein; Rolle als leidenschaftliche Verkäufer nach innen und zu den Kunden leben."],
+        "ausfuehrlich": ["**Folie 61, Hinweise zum Umgang mit Gruppen und ihren Dynamiken.** Zwei unterstrichene Zwischenüberschriften, je sechs Punkte.", "**WAS hilft?** Denken in Prozessen und Reduktion der Fixierung auf Augenblicke. Zuweisung individueller Verantwortung. Stets den Kontext im Auge behalten und Verallgemeinerungen widerstehen.", "Aufschaukeln/Polemik/Hurra-Routinen erkennen und benennen. Komplexität und Umwelt-Dynamiken anerkennen und isolierte Betrachtungen vermeiden. Akzeptanz: Motive von Menschen lassen sich (auch und erst recht) in Gruppen schwer identifizieren.", "**DAHER sollten Führungskräfte:** verbindliche Normen der Kooperation vereinbaren und konsequent nachhaltig einfordern. Rollen adäquat besetzen, so dass sie optimal aufeinander abgestimmt sind. Statusunterschiede geschickt zur Leistungserzielung der Gruppe nutzen.", "Diversity in Denken, Kultur und Erfahrung pflegen -> siehe Modern Portfolio Theory (im Skript nur genannt, nicht erklärt). Pragmatiker und nüchterne Realisten als Gegengewicht zu Dynamiken sein. Rolle als leidenschaftliche Verkäufer nach innen und zu den Kunden leben."],
+        "merkhilfe": "Erst die Brille (wie man hinschaut: Prozess, Kontext, Komplexität), dann der Werkzeugkasten (was man tut: Normen, Rollen, Status, Diversity)."
+      }
+    }
+  ]
+}

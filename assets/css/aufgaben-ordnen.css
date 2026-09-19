@@ -1,0 +1,207 @@
+/* Die drei Aufgabentypen, die etwas in Ordnung bringen: Zuordnen, Reihenfolge, Einsortieren.
+   Alle drei kommen ohne Ziehen aus. Jede Trefferfläche ist mindestens 2.75rem (44 px) hoch, damit sie
+   auf dem Handy mit dem Daumen zu treffen ist. Zustände zeigen nie nur Farbe, sondern immer auch
+   Nummer, Symbol oder Text. */
+
+/* ---------- Gemeinsam ---------- */
+
+/* Stand der Bearbeitung ("3 von 6 einsortiert"), wird per aria-live vorgelesen */
+.ordnen__stand {
+  margin: 0;
+  font-size: var(--gr-s);
+  font-weight: 650;
+  color: var(--tinte-2);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Zeile mit der Lösung nach dem Prüfen */
+.ordnen__loesung {
+  display: flex;
+  align-items: baseline;
+  gap: 0.4em;
+  margin: 0;
+  font-size: var(--gr-s);
+  line-height: 1.45;
+  color: var(--tinte-2);
+}
+.ordnen__loesung svg { width: 1.05em; height: 1.05em; flex: none; transform: translateY(0.12em); }
+.ordnen__loesung--gut { color: var(--gut); }
+.ordnen__loesung--schlecht { color: var(--schlecht); }
+.ordnen__loesung b { font-weight: 700; color: var(--tinte); }
+
+/* Runde Marke für Paarnummer und Platznummer */
+.ordnen__marke {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: var(--radius-voll);
+  border: 1px dashed var(--linie-stark);
+  background: transparent;
+  color: var(--tinte-3);
+  font-size: var(--gr-xs);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+
+/* ---------- Zuordnen ---------- */
+
+.zuordnung { display: grid; gap: var(--a-4); }
+/* Schmal: erst die linke Spalte, darunter die rechte als Wortbank. Erst ab 44rem zwei Spalten. */
+@media (min-width: 44rem) {
+  .zuordnung { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: start; gap: var(--a-5); }
+}
+
+.zuordnung__titel {
+  margin: 0 0 var(--a-2);
+  font-size: var(--gr-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tinte-3);
+}
+
+.zuordnung__liste { list-style: none; margin: 0; padding: 0; display: flex; gap: var(--a-2); }
+.zuordnung__liste--links { flex-direction: column; }
+.zuordnung__liste--bank { flex-wrap: wrap; }
+.zuordnung__liste > li { margin: 0; min-width: 0; }
+.zuordnung__liste--links > li { display: grid; gap: var(--a-1); }
+@media (min-width: 44rem) {
+  .zuordnung__liste--bank { flex-direction: column; flex-wrap: nowrap; }
+  .zuordnung__liste--bank > li { width: 100%; }
+}
+
+.zuordnung__eintrag {
+  --paar-farbe: var(--primaer);
+  --paar-sanft: var(--primaer-sanft);
+  display: flex;
+  align-items: center;
+  gap: var(--a-2);
+  width: 100%;
+  min-height: 2.75rem;
+  padding: var(--a-2) var(--a-3);
+  text-align: left;
+  background: var(--flaeche);
+  color: var(--tinte);
+  border: 1px solid var(--linie-stark);
+  border-radius: var(--radius-m);
+  box-shadow: var(--schatten-1);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.zuordnung__liste--bank .zuordnung__eintrag { width: auto; }
+@media (min-width: 44rem) { .zuordnung__liste--bank .zuordnung__eintrag { width: 100%; } }
+.zuordnung__eintrag:hover { background: var(--flaeche-2); }
+.zuordnung__eintrag[disabled] { cursor: default; box-shadow: none; }
+.zuordnung__text { min-width: 0; line-height: 1.35; }
+
+/* Ausgewählt: wartet auf den Partner auf der anderen Seite */
+.zuordnung__eintrag.ist-gewaehlt {
+  border-color: var(--primaer);
+  background: var(--primaer-sanft);
+  box-shadow: inset 0 0 0 1px var(--primaer);
+}
+.zuordnung__eintrag.ist-gewaehlt .ordnen__marke { border-style: solid; border-color: var(--primaer); color: var(--primaer); }
+
+/* Paar: gleiche Nummer und gleiche Farbe links wie rechts. Drei Farbtöne, dazu drei Rahmenarten,
+   damit auch sieben Paare unterscheidbar bleiben. Grün und Rot bleiben der Bewertung vorbehalten. */
+.zuordnung__eintrag[data-paar] { border-color: var(--paar-farbe); background: var(--paar-sanft); }
+.zuordnung__eintrag[data-paar] .ordnen__marke {
+  border-style: solid; border-color: var(--paar-farbe);
+  background: var(--paar-farbe); color: var(--auf-primaer);
+}
+.zuordnung__eintrag[data-paar="2"], .zuordnung__eintrag[data-paar="5"],
+.zuordnung__paar[data-paar="2"], .zuordnung__paar[data-paar="5"] { --paar-farbe: var(--kern); --paar-sanft: var(--kern-sanft); }
+.zuordnung__eintrag[data-paar="3"], .zuordnung__eintrag[data-paar="6"],
+.zuordnung__paar[data-paar="3"], .zuordnung__paar[data-paar="6"] { --paar-farbe: var(--extern); --paar-sanft: var(--extern-sanft); }
+.zuordnung__eintrag[data-paar="4"], .zuordnung__eintrag[data-paar="5"], .zuordnung__eintrag[data-paar="6"] { border-style: dashed; }
+.zuordnung__eintrag[data-paar="7"] { border-style: dotted; }
+
+.zuordnung__eintrag.ist-richtig { border: 1px solid var(--gut); background: var(--gut-sanft); }
+.zuordnung__eintrag.ist-falsch { border: 1px solid var(--schlecht); background: var(--schlecht-sanft); }
+/* Richtig, aber nicht gewählt: nur umrandet, damit es nicht wie ein Treffer aussieht */
+.zuordnung__eintrag.ist-verpasst { border: 1px dashed var(--gut); background: transparent; color: var(--tinte-2); }
+.zuordnung__eintrag.ist-verpasst .ordnen__marke { border-style: dashed; border-color: var(--gut); background: transparent; color: var(--gut); }
+/* Nur gefüllt, wenn wirklich eine Paarnummer darin steht; sonst bleibt der leere Kreis leer */
+.zuordnung__eintrag.ist-richtig[data-paar] .ordnen__marke { border-style: solid; border-color: var(--gut); background: var(--gut); color: var(--auf-primaer); }
+.zuordnung__eintrag.ist-falsch[data-paar] .ordnen__marke { border-style: solid; border-color: var(--schlecht); background: var(--schlecht); color: var(--auf-primaer); }
+.zuordnung__eintrag.ist-falsch:not([data-paar]) .ordnen__marke { border-color: var(--schlecht); color: var(--schlecht); }
+
+/* Die Paare noch einmal als Satz, damit die Zuordnung nicht nur an Farbe und Nummer hängt */
+.zuordnung__ergebnis { display: grid; gap: var(--a-2); margin-top: var(--a-4); }
+.zuordnung__paare { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-1); }
+.zuordnung__paar {
+  --paar-farbe: var(--primaer);
+  display: flex; align-items: baseline; gap: var(--a-2); margin: 0;
+  font-size: var(--gr-s); line-height: 1.45;
+}
+.zuordnung__paar .ordnen__marke {
+  border-style: solid; border-color: var(--paar-farbe);
+  background: var(--paar-farbe); color: var(--auf-primaer);
+  width: 1.4rem; height: 1.4rem; transform: translateY(0.15em);
+}
+
+/* ---------- Reihenfolge ---------- */
+
+.sortierliste { list-style: none; margin: 0 0 var(--a-3); padding: 0; display: grid; gap: var(--a-2); }
+.sortierzeile {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--a-2) var(--a-3);
+  min-height: 3.5rem;
+  padding: var(--a-2) var(--a-2) var(--a-2) var(--a-3);
+  background: var(--flaeche);
+  border: 1px solid var(--linie-stark);
+  border-radius: var(--radius-m);
+  box-shadow: var(--schatten-1);
+}
+.sortierzeile .ordnen__marke { border-style: solid; border-color: var(--linie-stark); background: var(--flaeche-2); color: var(--tinte-2); }
+.sortierzeile__text { min-width: 0; line-height: 1.35; }
+.sortierzeile__knoepfe { display: flex; gap: var(--a-1); }
+.sortierzeile__knopf { min-width: 2.75rem; padding: 0 var(--a-2); }
+.sortierzeile__loesung { grid-column: 1 / -1; }
+/* Zuletzt bewegte Zeile kurz kenntlich machen, damit der Sprung nachvollziehbar bleibt */
+.sortierzeile.ist-bewegt { border-color: var(--primaer); box-shadow: inset 0 0 0 1px var(--primaer); }
+.sortierzeile.ist-richtig { border-color: var(--gut); background: var(--gut-sanft); }
+.sortierzeile.ist-falsch { border-color: var(--schlecht); background: var(--schlecht-sanft); }
+.sortierzeile.ist-richtig .ordnen__marke { border-color: var(--gut); background: var(--gut); color: var(--auf-primaer); }
+.sortierzeile.ist-falsch .ordnen__marke { border-color: var(--schlecht); background: var(--schlecht); color: var(--auf-primaer); }
+
+.sortieren__hinweis { margin: 0 0 var(--a-3); }
+.sortieren__knoepfe { display: flex; flex-wrap: wrap; gap: var(--a-2); align-items: center; }
+.sortieren__knoepfe:not(:empty) { margin-bottom: var(--a-3); }
+
+/* ---------- Einsortieren ---------- */
+
+.kategorienliste { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-3); }
+.kategorienkarte {
+  display: grid;
+  gap: var(--a-2);
+  padding: var(--a-3);
+  background: var(--flaeche-2);
+  border: 1px solid var(--linie);
+  border-left: 4px solid var(--linie-stark);
+  border-radius: var(--radius-m);
+}
+.kategorienkarte__kopf { display: flex; align-items: baseline; gap: var(--a-2); }
+.kategorienkarte .ordnen__marke { border-style: solid; border-color: var(--linie-stark); background: var(--flaeche); color: var(--tinte-2); transform: translateY(0.1em); }
+.kategorienkarte__text { min-width: 0; line-height: 1.4; }
+.kategorienkarte__wahl { display: flex; flex-wrap: wrap; gap: var(--a-2); }
+.kategorienkarte__wahl .knopf { flex: 1 1 8rem; font-size: var(--gr-s); padding: 0 var(--a-3); }
+.kategorienkarte__wahl .knopf.ist-gewaehlt,
+.kategorienkarte__wahl .knopf[aria-pressed="true"] {
+  border-color: var(--primaer); background: var(--primaer-sanft); color: var(--primaer);
+  box-shadow: inset 0 0 0 1px var(--primaer);
+}
+.kategorienkarte.ist-eingeordnet { border-left-color: var(--primaer); }
+.kategorienkarte.ist-richtig { border-left-color: var(--gut); }
+.kategorienkarte.ist-falsch { border-left-color: var(--schlecht); }
+.kategorienkarte__wahl .knopf.ist-richtig { border-color: var(--gut); background: var(--gut-sanft); color: var(--gut); box-shadow: none; }
+.kategorienkarte__wahl .knopf.ist-falsch { border-color: var(--schlecht); background: var(--schlecht-sanft); color: var(--schlecht); box-shadow: none; }
+/* Richtig, aber nicht gewählt: nur umrandet, damit es nicht wie ein Treffer aussieht */
+.kategorienkarte__wahl .knopf.ist-verpasst { border-style: dashed; border-color: var(--gut); background: transparent; color: var(--gut); box-shadow: none; }
+.kategorienkarte__wahl .knopf[disabled] { opacity: 1; }
+.kategorienkarte__wahl .knopf[disabled]:not(.ist-richtig):not(.ist-falsch):not(.ist-verpasst) { opacity: 0.45; }

@@ -1,0 +1,82 @@
+/* Training und Generalprobe. Beide Ansichten teilen sich den Sitzungskopf und die Auswertungsbausteine,
+   damit sich eine Übungsrunde und die Probe gleich anfühlen. Alles andere kommt aus komponenten.css. */
+
+/* Abstand zwischen den Abschnitten einer Trainings- oder Probenseite */
+.trainingsseite > * + * { margin-top: var(--a-6); }
+.trainingsseite h2 { margin-bottom: 0; }
+.trainingsseite section > * + * { margin-top: var(--a-3); }
+
+.bereichswahl { max-width: 22rem; }
+
+/* Die drei Wege ins Training */
+.wege { display: grid; gap: var(--a-4); }
+.weg { display: flex; flex-direction: column; gap: var(--a-3); }
+.weg--empfohlen { border-color: var(--primaer); box-shadow: var(--schatten-2); }
+.weg__kopf { gap: var(--a-2) var(--a-3); flex-wrap: nowrap; align-items: flex-start; }
+.weg__titel { margin: 0; flex: 1 1 auto; }
+.weg__kopf .marke-chip { margin-top: 0.3rem; }
+.weg__text { margin: 0; color: var(--tinte-2); }
+.weg__hinweis { margin: 0; }
+
+/* Rundenlänge wählen */
+.mengenwahl { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a-2) var(--a-3); margin-top: auto; }
+.mengenwahl__label { flex: none; }
+.mengenwahl__knoepfe { display: flex; flex-wrap: wrap; gap: var(--a-2); }
+.mengenwahl__knoepfe .knopf { min-width: 3.75rem; font-variant-numeric: tabular-nums; }
+
+/* Kopf einer laufenden Sitzung: bleibt beim Scrollen stehen, damit Fortschritt und Abbrechen erreichbar sind.
+   Die negativen Ränder ziehen ihn über die Seitenpolsterung hinaus bis an den Rand der Spalte. */
+.sitzungskopf {
+  position: sticky; top: var(--kopf-hoehe); z-index: 30;
+  display: flex; flex-direction: column; gap: var(--a-2);
+  margin: calc(-1 * var(--a-5)) calc(-1 * var(--a-4)) var(--a-5);
+  padding: var(--a-3) var(--a-4);
+  background: var(--papier); border-bottom: 1px solid var(--linie);
+}
+.sitzungskopf__titel { margin: 0; font-size: var(--gr-l); }
+.sitzungskopf__werkzeuge { flex: none; gap: var(--a-2); }
+.sitzungskopf__unten { gap: var(--a-1) var(--a-3); flex-wrap: nowrap; }
+.sitzungskopf__zahl {
+  flex: none; font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.06em;
+  text-transform: uppercase; color: var(--tinte-2);
+}
+.sitzungskopf__ort { text-align: right; min-width: 0; }
+
+.uhr {
+  display: inline-flex; align-items: center; gap: 0.35em;
+  padding: 0.2rem 0.65rem; border: 1px solid var(--linie); border-radius: var(--radius-voll);
+  background: var(--flaeche); color: var(--tinte-2); font-size: var(--gr-s); font-weight: 650;
+}
+.uhr svg { width: 1.1em; height: 1.1em; }
+
+/* Bilanz einer Trainingsrunde */
+.bilanzzahlen { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--a-3); }
+.bilanzkachel { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: var(--a-1); text-align: center; }
+.bilanzkachel__zahl { font-family: var(--schrift-titel); font-size: var(--gr-2xl); font-weight: 700; line-height: 1.1; }
+.bilanzkachel__text {
+  font-size: var(--gr-xs); font-weight: 650; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--tinte-3); line-height: 1.3;
+}
+
+.abschlussknoepfe { gap: var(--a-3); }
+
+/* Generalprobe */
+.probe__regeln { margin: 0; padding-left: 1.2rem; }
+.probe__regeln li { margin-bottom: var(--a-2); }
+.probe__regeln li:last-child { margin-bottom: 0; }
+.probe__ergebnis { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a-4) var(--a-5); }
+.probe__ergebnistext { flex: 1 1 13rem; }
+.probe__ergebnistext p { margin-bottom: var(--a-2); }
+.probe__ergebnistext p:last-child { margin-bottom: 0; }
+
+.probe__module { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-4); }
+.probe__modulkopf { gap: var(--a-1) var(--a-3); flex-wrap: nowrap; margin-bottom: var(--a-2); }
+.probe__modultitel { font-weight: 650; min-width: 0; }
+
+@media (max-width: 26rem) {
+  .bilanzzahlen { gap: var(--a-2); }
+  .bilanzkachel { padding: var(--a-3) var(--a-2); }
+  .bilanzkachel__text { font-size: 0.68rem; letter-spacing: 0; }
+  .sitzungskopf__unten { flex-wrap: wrap; }
+  .sitzungskopf__ort { text-align: left; }
+}

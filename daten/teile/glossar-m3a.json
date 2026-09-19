@@ -1,0 +1,180 @@
+{
+  "begriffe": [
+    {
+      "begriff": "WIR-Gefühl",
+      "text": "Erstes der drei Bündel von Faktoren, die laut Skript zur Gruppenbildung beitragen. Auf der Folie geschrieben als „WIR“-Gefühl. Es entsteht durch häufige persönliche Kontakte (stofflich effektiv und via elektr. Medien), gemeinsame Erlebnisse sowie wahrgenommene Ähnlichkeit, Sympathien.",
+      "folien": [54],
+      "themen": ["m3-t1"],
+      "beleg": "häufige persönliche Kontakte … gemeinsame Erlebnisse … wahrgenommene Ähnlichkeit, Sympathien",
+      "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "organisatorischer Rahmen",
+      "text": "Zweites Bündel der Faktoren, die zur Gruppenbildung beitragen: räumliche Nähe der Mitglieder, Förderung direkter Kommunikation und Formalisierung der Kommunikation, Inhaltliche Strukturierung.",
+      "folien": [54],
+      "themen": ["m3-t1"],
+      "beleg": "räumliche Nähe der Mitglieder … Förderung direkter Kommunikation und Formalisierung der Kommunikation",
+      "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "Führung/Ziel",
+      "text": "Drittes Bündel der Faktoren, die zur Gruppenbildung beitragen: Kohärenz/Konsistenz, starke Vorbilder in der Gruppe, Vernetzungsfähigkeit mit anderen Gruppen.",
+      "folien": [54],
+      "themen": ["m3-t1"],
+      "beleg": "Führung/Ziel … Kohärenz/Konsistenz … starke Vorbilder in der Gruppe",
+      "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "5 Phasen der Psychologie von Gruppen",
+      "text": "Modell der Entwicklung von Gruppen, im Skript {{Tuckman}} zugeschrieben: Forming, Storming, Norming, Performing, Re-Forming. Zusatz der Folie: kein linearer Prozess, unterliegt Sprüngen und Zyklen.",
+      "folien": [55],
+      "themen": ["m3-t2"],
+      "beleg": "5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Forming",
+      "text": "Erste Phase der Gruppenentwicklung: Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung.",
+      "folien": [55],
+      "themen": ["m3-t2"],
+      "beleg": "Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Storming",
+      "text": "Zweite Phase der Gruppenentwicklung: Reibungen, Rollenzuweisungen, Einüben des Funktionierens. „Rollen“ ist auf der Folie unterstrichen.",
+      "folien": [55],
+      "themen": ["m3-t2"],
+      "beleg": "Reibungen, … Einüben des Funktionierens",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Norming",
+      "text": "Dritte Phase der Gruppenentwicklung: Normen/Spielregeln geklärt und akzeptiert, WIR wird Routine. „Normen/Spielregeln“ ist auf der Folie unterstrichen.",
+      "folien": [55],
+      "themen": ["m3-t2"],
+      "beleg": "geklärt und akzeptiert, WIR wird Routine",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Performing",
+      "text": "Vierte Phase der Gruppenentwicklung: Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt.",
+      "folien": [55],
+      "themen": ["m3-t2"],
+      "beleg": "Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Re-Forming",
+      "text": "Fünfte Phase der Gruppenentwicklung: Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung.",
+      "folien": [55],
+      "themen": ["m3-t2"],
+      "beleg": "Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Kritische Erfolgsfaktoren für Gruppen",
+      "text": "Überschrift der Folie 56. Als Punkt 2.) nennt das Skript dort Strukturen und Normen. Einen Punkt 1.) zeigt diese Folie nicht.",
+      "folien": [56],
+      "themen": ["m3-t3"],
+      "beleg": "Kritische Erfolgsfaktoren für Gruppen: … 2.) Strukturen und Normen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "sozialer Druck",
+      "text": "Wirkung, die eine Gruppe über Strukturen und Normen auf ihre Mitglieder ausübt, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen).",
+      "folien": [56],
+      "themen": ["m3-t3"],
+      "beleg": "sozialer Druck über … auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Strukturen",
+      "text": "Erster Kanal des sozialen Drucks in Gruppen: Rollenmodelle/Funktionen, Macht/Status-Strukturen, Emotionale Beziehungen, innerbetriebliches soziales Netzwerk. Zugleich einer der vier Faktoren (S) der Verhaltensänderung, dort als Strukturen/Prozesse.",
+      "folien": [56],
+      "themen": ["m3-t3"],
+      "beleg": "Rollenmodelle/Funktionen … Macht/Status-Strukturen … innerbetriebliches soziales Netzwerk",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Normen",
+      "text": "Zweiter Kanal des sozialen Drucks in Gruppen: Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, alle gruppentypischen „Ähnlichkeiten“, Kann-/Soll-/Muss-Normen. Zugleich einer der vier Faktoren (D) der Verhaltensänderung.",
+      "folien": [56],
+      "themen": ["m3-t3"],
+      "beleg": "Meinungen/Denkmodelle … Kleidung/Sprache/Auftritt … Kann-/Soll-/Muss-Normen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Kann-/Soll-/Muss-Normen",
+      "text": "Punkt der Spalte Normen auf Folie 56. Das Skript nennt die drei Abstufungen, erläutert sie an dieser Stelle aber nicht.",
+      "folien": [56],
+      "themen": ["m3-t3"],
+      "beleg": "alle gruppentypischen „Ähnlichkeiten“ … Kann-/Soll-/Muss-Normen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Prozessgewinne",
+      "text": "Ziel von Gruppenarbeit laut Skript. Erwünschte Phänomene sind „social facilitation“, „social compensation“ und „Synergie“.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen!",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Prozessverluste",
+      "text": "Kehrseite der Gruppenarbeit: „soziales Bummeln (loafing)“, „Trittbrettfahrer (free rider)“ und „Sucker-Effekt“. Das Skript nennt Gruppen dafür anfällig.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "ABER: Gruppen sind anfällig für Prozessverluste:",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "social facilitation",
+      "text": "Prozessgewinn, im Skript als „social facilitation“ geschrieben: Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams).",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "„social facilitation“: Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams)",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "social compensation",
+      "text": "Prozessgewinn, im Skript als „social compensation“ geschrieben: Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "„social compensation“: Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Synergie",
+      "text": "Prozessgewinn: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "„Synergie“: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "soziales Bummeln (loafing)",
+      "text": "Prozessverlust: kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "„soziales Bummeln (loafing)“: kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Trittbrettfahrer (free rider)",
+      "text": "Prozessverlust: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "„Trittbrettfahrer (free rider)“: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Sucker-Effekt",
+      "text": "Prozessverlust: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive.",
+      "folien": [57],
+      "themen": ["m3-t4"],
+      "beleg": "„Sucker-Effekt“: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive",
+      "belegQuelle": "folie-29"
+    }
+  ]
+}

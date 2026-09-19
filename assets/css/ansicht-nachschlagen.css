@@ -1,0 +1,100 @@
+/* Die drei Nachschlage-Ansichten: Personenregister (#/personen), Glossar (#/glossar) und
+   Quellen und Transparenz (#/quellen). Sie teilen sich Suchleiste, Trefferzahl und Themenmarken,
+   damit sich das Nachschlagen überall gleich anfühlt. */
+
+/* ---------- Gemeinsames: Filterleiste, Trefferzahl, Marken zu einem Thema ---------- */
+
+.registerfilter {
+  display: grid; gap: var(--a-3);
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  align-items: end; margin-bottom: var(--a-3);
+}
+.registerfilter--eins { grid-template-columns: minmax(0, 24rem); }
+.registerfilter__breit { grid-column: 1 / -1; }
+@media (min-width: 44rem) { .registerfilter__breit { grid-column: span 2; } }
+
+.registerfilter__zahl { margin-bottom: var(--a-4); }
+
+/* Marke, die zu einem Thema führt: darf umbrechen, weil Thementitel lang sind, und ist so hoch wie der
+   kleine Knopf, damit sie sich auf dem Handy treffen lässt. */
+.marke-chip--thema {
+  white-space: normal; text-align: left; color: var(--primaer);
+  background: var(--flaeche-2); border-color: var(--linie);
+  min-height: 2.25rem; padding: 0.3rem 0.7rem;
+}
+a.marke-chip--thema:hover { background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer); }
+.register__marken { gap: var(--a-1) var(--a-2); }
+
+/* ---------- Personenregister ---------- */
+
+.register { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-4); }
+@media (min-width: 48rem) { .register { grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); } }
+
+.register__eintrag { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--a-3); align-content: start; overflow-wrap: anywhere; }
+.person-eintrag__kopf { display: flex; align-items: center; gap: var(--a-3); }
+.person-eintrag__namen { min-width: 0; }
+.person-eintrag__name { font-size: var(--gr-l); margin: 0; }
+.person-eintrag__kurz { margin: 0; font-size: var(--gr-s); font-weight: 650; color: var(--tinte-2); }
+.person-eintrag__beitrag > :last-child { margin-bottom: 0; }
+
+/* Schnelltraining: Anriss über dem Register, Kopfzeile im Training selbst */
+.persontraining__anriss {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: var(--a-3); margin-bottom: var(--a-4);
+}
+.persontraining__anrisstext { flex: 1 1 16rem; }
+.persontraining__anrisstext .karte__titel { margin-bottom: var(--a-1); }
+.persontraining__anrisstext p { margin-bottom: 0; }
+.persontraining__kopf { align-items: flex-start; margin-bottom: var(--a-4); }
+.persontraining__titel { margin-bottom: var(--a-1); }
+.persontraining__kopf p { margin-bottom: 0; }
+
+/* ---------- Glossar ---------- */
+
+.glossar__buchstaben {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(2.25rem, 1fr));
+  gap: var(--a-1); margin-bottom: var(--a-4);
+}
+.glossar__buchstaben-knopf {
+  min-height: 2.75rem; padding: 0 var(--a-1);
+  border: 1px solid var(--linie); border-radius: var(--radius-s);
+  background: var(--flaeche); color: var(--primaer);
+  font-weight: 650; font-variant-numeric: tabular-nums; cursor: pointer;
+}
+.glossar__buchstaben-knopf:hover { background: var(--primaer-sanft); }
+.glossar__buchstaben-knopf[disabled] { color: var(--tinte-3); background: var(--flaeche-2); opacity: 0.6; cursor: default; }
+
+.glossar__gruppe { margin-bottom: var(--a-6); scroll-margin-top: calc(var(--kopf-hoehe) + var(--a-3)); }
+.glossar__buchstabe {
+  font-size: var(--gr-2xl); color: var(--primaer);
+  border-bottom: 2px solid var(--linie); padding-bottom: var(--a-1); margin-bottom: var(--a-4);
+}
+.glossar__eintrag + .glossar__eintrag { margin-top: var(--a-4); padding-top: var(--a-4); border-top: 1px solid var(--linie); }
+.glossar__begriff { margin-bottom: var(--a-2); }
+.glossar__text > :last-child { margin-bottom: var(--a-2); }
+
+/* ---------- Quellen und Transparenz ---------- */
+
+.quellen__grundsatz { margin-bottom: var(--a-6); }
+.quellen__abschnitt { margin-bottom: var(--a-7); }
+.quellen__abschnitt > p { max-width: var(--breite-text); }
+
+.abdeckung__zahlen { margin-bottom: var(--a-3); }
+.quellen__tabelle { max-height: 30rem; overflow: auto; }
+.abdeckung thead th { position: sticky; top: 0; z-index: 1; }
+.abdeckung th[scope="row"] { width: 5rem; font-variant-numeric: tabular-nums; }
+.abdeckung__themen { gap: var(--a-1); }
+.abdeckung__fehlt { color: var(--schlecht); font-weight: 650; gap: var(--a-1); }
+.abdeckung__fehlt svg { width: 1em; height: 1em; flex: none; }
+.abdeckung__zeile--fehlt th, .abdeckung__zeile--fehlt td { background: var(--schlecht-sanft); }
+
+.quellenliste { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-3); }
+.quelle .marke-chip svg { width: 1em; height: 1em; flex: none; }
+.quelle__titel { font-size: var(--gr-l); margin-bottom: var(--a-2); }
+.quelle__hinweis { margin: var(--a-3) 0 0; font-size: var(--gr-s); color: var(--tinte-2); }
+.quelle__url { margin: var(--a-2) 0 0; font-size: var(--gr-s); overflow-wrap: anywhere; }
+
+.skriptluecke-karte { border: 1px solid var(--linie); border-radius: var(--radius-m); background: var(--flaeche); padding: var(--a-4); }
+.skriptluecke-karte__kopf { align-items: baseline; margin-bottom: var(--a-3); }
+.skriptluecke-karte__thema { margin: 0; font-size: var(--gr-l); }
+.skriptluecke-karte__weg { margin: var(--a-3) 0 0; }

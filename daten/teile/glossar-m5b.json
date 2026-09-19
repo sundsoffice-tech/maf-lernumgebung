@@ -1,0 +1,172 @@
+{
+  "begriffe": [
+    {
+      "begriff": "Attributionsfehler",
+      "text": "Fehler bei der Ursachenzuschreibung: Bei der Verhaltensbeurteilung werden bestimmte Eigenschaften als Ursache für das Handeln betrachtet. Grundsatz des Skripts ist dagegen, dass Verhalten durch Persönlichkeitsmerkmale und Kontext bestimmt wird.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "bei Verhaltensbeurteilung werden bestimmte Eigenschaften als Ursache für das Handeln betrachtet",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Fundamentaler Attributionsfehler",
+      "text": "Der Einfluss der Situation wird unterschätzt, der Einfluss der persönlichen Veranlagung überschätzt. Gefahr laut Skript: verkehrte Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "fundamentaler: Einfluss der Situation wird unter-, Einfluss der persönlichen Veranlagung überschätzt!",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Soziale Stereotype",
+      "text": "Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen. Beispiele des Skripts: „soziophobe“ Nerds, Haartracht.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Halo-Effekt",
+      "text": "Eine herausragende Einzelkompetenz, Eigenschaft oder ein prägnantes Ereignis (critical incident) überstrahlt alle anderen Faktoren und beeinflusst den Gesamteindruck.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "überstrahlt alle anderen Faktoren und beeinflusst Gesamteindruck",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Critical Incident",
+      "text": "Ein prägnantes Ereignis, das den Halo-Effekt auslösen kann. Das Skript nennt den Ausdruck nur in Klammern und erklärt ihn nicht weiter.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "herausragende Einzelkompetenz, Eigenschaft oder prägnantes Ereignis",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Nimbus-Effekt",
+      "text": "Urteilsverzerrung: der (unbewusste) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften. Beispiel des Skripts: je (subjektiv) attraktiver ein Mensch, desto eher Zuschreibung von Erfolg/Intelligenz/Kompetenz.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "Urteilsverzerrung durch Nimbus-Effekt: (unbewusster) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Kleber-Effekt",
+      "text": "Die aktuelle Beurteilung/Bewertung wird von der vorangegangenen maßgeblich beeinflusst. Der Status Quo wird tendenziell beibehalten und nicht hinterfragt.",
+      "folien": [72],
+      "themen": ["m5-t11"],
+      "beleg": "aktuelle Beurteilung/Bewertung wird von vorangegangener maßgeblich beeinflusst",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Hierarchie-Effekt",
+      "text": "Der soziale Status beeinflusst Beurteilungen: höhergestellte FK werden tendenziell besser beurteilt, aus Furcht vor Sanktionen oder unbewusst.",
+      "folien": [73],
+      "themen": ["m5-t12"],
+      "beleg": "sozialer Status beeinflusst Beurteilungen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Benjamin-Effekt",
+      "text": "Pauschale Unterschätzung der Fähigkeiten aufgrund von Alter, Dauer der Unternehmenszugehörigkeit und Ähnlichem. Woher der Name stammt, erklärt das Skript nicht.",
+      "folien": [73],
+      "themen": ["m5-t12"],
+      "beleg": "Benjamin-Effekt beschreibt pauschale Unterschätzung der Fähigkeiten aufgrund Alter, Dauer der Unternehmenszugehörigkeit, etc.",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Primacy-/Recency-Effekt",
+      "text": "In einer Reihe aufeinander folgender Beobachtungen/Informationen bleiben vor allem die erste und die letzte haften.",
+      "folien": [73],
+      "themen": ["m5-t12"],
+      "beleg": "in Reihe aufeinander folgender Beobachtungen/Informationen bleiben v.a. erste und letzte haften!",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Sandwich-Kandidaten",
+      "text": "Kandidaten, die in einer Reihe „dazwischen“ rutschen. Sie werden tendenziell pauschal bewertet, während erster und letzter Kandidat eher aussagekräftigere oder extremere Bewertungen erhalten.",
+      "folien": [73],
+      "themen": ["m5-t12"],
+      "beleg": "Risiko für „Sandwich-Kandidaten“, die „dazwischen“ rutschen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Reihenfolge-Effekt",
+      "text": "Die erste Beobachtung bzw. der erste Kandidat wird unbewusst als benchmark herangezogen. Den Ausdruck benchmark erklärt das Skript nicht.",
+      "folien": [73],
+      "themen": ["m5-t12"],
+      "beleg": "Reihenfolge-Effekt: erste Beobachtung/erster Kandidat wird unbewusst als benchmark herangezogen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Kontrast-Effekt",
+      "text": "Jeder Kandidat wird mit dem jeweiligen Vorgänger/Nachfolger verglichen. Der Bezugspunkt wandert also mit, anders als beim Reihenfolge-Effekt.",
+      "folien": [73],
+      "themen": ["m5-t12"],
+      "beleg": "Kontrast-Effekt: jeder Kandidat wird mit jeweiligem Vorgänger/Nachfolger verglichen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Tendenz zur Mitte",
+      "text": "Vielfach unbewusste Behelfslösung bei Unschlüssigkeit mit Votum der „goldenen Mitte“: Gutes wird abgewertet, Schlechtes wird aufgewertet. Abhilfe z.B. durch gerade Anzahl wählbarer Skalenwerte.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "vielfach unbewusste Behelfslösung bei Unschlüssigkeit mit Votum der „goldenen Mitte“",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Tendenz zur Milde/Strenge",
+      "text": "Geringes oder hohes Anspruchsniveau der Beurteiler führt zu Ausreißern. Das Vorgehen ist den Beurteilern (und der Umwelt!) meist bewusst.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "geringes/hohes Anspruchsniveau der Beurteiler führt zu Ausreißern",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Sympathie/Antipathie",
+      "text": "Das Bauchgefühl beeinflusst Beurteilungen und führt zu verzerrter Maßstabsanwendung: dem Beurteiler besonders sympathische Bewerber werden unbewusst besser bewertet, und umgekehrt.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "Bauchgefühl beeinflusst Beurteilungen: verzerrte Maßstabsanwendung",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Verzerrte Maßstabsanwendung",
+      "text": "Die Folge von Sympathie und Antipathie laut Skript: Der Maßstab wird je nach Person unterschiedlich angelegt, statt für alle gleich.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "verzerrte Maßstabsanwendung, durch unbewusst bessere Bewertung dem Beurteiler besonders sympathische Bewerber",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Nähe-Effekt",
+      "text": "Eine Ursache von Sympathie laut Skript: längere Bekanntschaft.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "Sympathie aufgrund Nähe-Effekt (längere Bekanntschaft)",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Attraktivitäts-Stereotyp",
+      "text": "Die zweite Ursache von Sympathie, die das Skript nennt. Weiter erläutert wird der Begriff an dieser Stelle nicht.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "Sympathie aufgrund Nähe-Effekt (längere Bekanntschaft) oder Attraktivitäts-Stereotyp",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Similar to me",
+      "text": "Ausdruck des Skripts für die Ursache von Antipathie: eigene Schwächen des Beobachters werden beim Kandidaten wiedererkannt. Der englische Ausdruck steht ohne Erklärung im Skript.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "Antipathie z.B. weil eigene Schwächen des Beobachters wiedererkannt werden (similar to me)",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Selbstbezug/Projektion",
+      "text": "Der Maßstab für Beurteilung/Beobachtung ist oft die eigene Person. Besonders starke eigene Eigenschaften werden als Ansprüche auf Kandidaten projiziert.",
+      "folien": [74],
+      "themen": ["m5-t13"],
+      "beleg": "Maßstab für Beurteilung/Beobachtung ist oft eigene Person",
+      "belegQuelle": "folie-46"
+    }
+  ]
+}

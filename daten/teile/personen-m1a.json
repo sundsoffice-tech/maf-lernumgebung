@@ -1,0 +1,134 @@
+{
+  "personen": [
+    {
+      "name": "John Locke",
+      "kurz": "Optimistisches Menschenbild, 17. Jh.",
+      "beitrag": "Steht in der Entwicklungsgeschichte der Menschenbilder für das optimistische Bild: Der Mensch ist vernünftig, kooperativ, unterstützend.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...vernünftig, kooperativ, unterstützend (John Locke, 17.Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Erich Fromm",
+      "kurz": "Optimistisches Menschenbild, 20. Jh.",
+      "beitrag": "Steht für das optimistische Menschenbild: Der Mensch ist soziokulturell beeinflusst.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...soziokulturell beeinflusst (Erich Fromm, 20. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Elton Mayo",
+      "kurz": "Optimistisches Menschenbild, 20. Jh.",
+      "beitrag": "Steht für das optimistische Menschenbild: Der Mensch ist grds. sozial mit entspr. Gruppen-Verhalten.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...grds. sozial mit entspr. Gruppen-Verhalten (Elton Mayo, 20.Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Abraham Maslow",
+      "kurz": "Optimistisches Menschenbild, 20. Jh.",
+      "beitrag": "Steht in der Entwicklungsgeschichte der Menschenbilder für das optimistische Bild: Der Mensch ist hierarchisch bedürfnisorientiert.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...hierarchisch bedürfnisorientiert (Abraham Maslow, 20. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Nicolo Machiavelli",
+      "kurz": "Pessimistisches Menschenbild, 15. Jh.",
+      "beitrag": "Steht für das pessimistische Menschenbild: Der Mensch ist undankbar, heuchlerisch, ängstlich. Schreibweise wie im Skript.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...undankbar, heuchlerisch, ängstlich (Nicolo Machiavelli, 15. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Adam Smith",
+      "kurz": "Pessimistisches Menschenbild, 18. Jh.",
+      "beitrag": "Steht für das pessimistische Menschenbild: Der Mensch ist selbstsüchtig, egoistisch.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...selbstsüchtig, egoistisch (Adam Smith, 18. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Charles Darwin",
+      "kurz": "Pessimistisches Menschenbild, 19. Jh.",
+      "beitrag": "Steht für das pessimistische Menschenbild: Der Mensch ist kampfbetont, durchsetzungswillig.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...kampfbetont, durchsetzungswillig (Charles Darwin, 19. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Sigmund Freud",
+      "kurz": "Pessimistisches Menschenbild, 19. Jh.",
+      "beitrag": "Steht für das pessimistische Menschenbild: Der Mensch ist primitiv wild, böse.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...primitiv wild, böse (Sigmund Freud, 19. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Frederic Taylor",
+      "kurz": "Pessimistisches Menschenbild, 19. Jh.",
+      "beitrag": "Steht für das pessimistische Menschenbild: Der Mensch ist faul, egoistisch, träge, maschinengleich. Schreibweise wie im Skript.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "...faul, egoistisch, träge, maschinengleich (Frederic Taylor, 19. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Douglas McGregor",
+      "kurz": "Theory X/Y",
+      "beitrag": "Das Skript schreibt ihm Theory X/Y zu: Nach Theory X ist der Mensch unwillig und angeboren arbeitsscheu, muss gezwungen und mit Strafe bedroht werden, hat wenig Ehrgeiz und braucht Kontrolle. Nach Theory Y ist er intrinsisch motiviert, braucht Arbeit als Basis für Zufriedenheit, strebt Selbstverwirklichung an und identifiziert sich mit der Unternehmung.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "quelle": "skript",
+      "beleg": "Theory X/Y nach Douglas McGregor – Der Mensch...",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "name": "Gomez",
+      "kurz": "Organisationsformen und Entwicklungstypen",
+      "beitrag": "Gemeinsam mit Zimmermann Urheber des Schaubilds „Organisationsformen und Entwicklungstypen“: Unternehmenswert über Zeit mit den vier Typen Pionier-, Wachstums-, Reife- und Wende-Unternehmen und zehn Organisationsformen. Die Folie nennt keine weitere Quellenangabe.",
+      "folien": [34],
+      "themen": ["m1-t5"],
+      "quelle": "skript",
+      "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
+      "belegQuelle": "folie-06"
+    },
+    {
+      "name": "Zimmermann",
+      "kurz": "Organisationsformen und Entwicklungstypen",
+      "beitrag": "Gemeinsam mit Gomez Urheber des Schaubilds „Organisationsformen und Entwicklungstypen“ auf Folie 34. Die Folie nennt keinen Vornamen und keine weitere Quellenangabe.",
+      "folien": [34],
+      "themen": ["m1-t5"],
+      "quelle": "skript",
+      "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
+      "belegQuelle": "folie-06"
+    },
+    {
+      "name": "Albert Einstein",
+      "kurz": "Bildzitat auf Folie 34",
+      "beitrag": "Urheber des Bildzitats auf dem Foto links unten: „LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD“. Das Foto steht neben dem Schaubild der Entwicklungstypen. Eine inhaltliche Verbindung zwischen Zitat und Schaubild stellt die Folie nicht her.",
+      "folien": [34],
+      "themen": ["m1-t5"],
+      "quelle": "skript",
+      "beleg": "LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD",
+      "belegQuelle": "folie-06"
+    }
+  ]
+}

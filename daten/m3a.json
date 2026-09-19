@@ -1,0 +1,544 @@
+{
+  "id": "m3",
+  "titel": "Führung in Gruppen & Teams",
+  "vorlesung": "MAF III",
+  "themen": [
+    {
+      "id": "m3-t1",
+      "titel": "Faktoren, die zur Gruppenbildung beitragen",
+      "folien": [54],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t1-k1",
+          "titel": "Drei Bündel von Faktoren",
+          "folien": [54],
+          "bloecke": [
+            { "typ": "einfach", "text": "Eine Gruppe entsteht nicht von allein. Das Skript nennt unter der Überschrift **Individuum – Gruppe – Team** drei Bündel von Faktoren, die zur Gruppenbildung beitragen. Erstens das [[WIR-Gefühl]], also das, was die Menschen innerlich verbindet. Zweitens der [[organisatorischer Rahmen|organisatorische Rahmen]], also das, was das Unternehmen an Raum, Kommunikation und Struktur vorgibt. Drittens [[Führung/Ziel]], also das, was die Führung beisteuert." },
+            { "typ": "liste", "titel": "„WIR“-Gefühl", "punkte": ["häufige persönliche Kontakte (stofflich effektiv und via elektr. Medien)", "gemeinsame Erlebnisse", "wahrgenommene Ähnlichkeit, Sympathien"] },
+            { "typ": "liste", "titel": "organisatorischer Rahmen", "punkte": ["räumliche Nähe der Mitglieder", "Förderung direkter Kommunikation und Formalisierung der Kommunikation", "Inhaltliche Strukturierung"] },
+            { "typ": "liste", "titel": "Führung/Ziel", "punkte": ["Kohärenz/Konsistenz", "starke Vorbilder in der Gruppe", "Vernetzungsfähigkeit mit anderen Gruppen"] },
+            { "typ": "hinweis", "text": "Auf der Folie steht wörtlich „stofflich effektiv und via elektr. Medien“. Was „stofflich effektiv“ genau heißen soll, erklärt das Skript nicht. Lerne die Formulierung so, wie sie dort steht." }
+          ]
+        },
+        {
+          "id": "m3-t1-k2",
+          "titel": "Die drei Bündel auseinanderhalten",
+          "folien": [54],
+          "bloecke": [
+            { "typ": "einfach", "text": "In der Klausur ist die häufigste Falle, einen Punkt dem falschen Bündel zuzuordnen. Eine Eselsbrücke über die Frage „Wer sorgt dafür?“ hilft: Das „WIR“-Gefühl entsteht zwischen den Mitgliedern. Der organisatorische Rahmen wird von der Organisation gesetzt. Kohärenz, Vorbilder und Vernetzung stehen unter Führung/Ziel." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "„WIR“-Gefühl", "punkte": ["häufige persönliche Kontakte (stofflich effektiv und via elektr. Medien)", "gemeinsame Erlebnisse", "wahrgenommene Ähnlichkeit, Sympathien"] },
+              { "titel": "organisatorischer Rahmen", "punkte": ["räumliche Nähe der Mitglieder", "Förderung direkter Kommunikation und Formalisierung der Kommunikation", "Inhaltliche Strukturierung"] },
+              { "titel": "Führung/Ziel", "punkte": ["Kohärenz/Konsistenz", "starke Vorbilder in der Gruppe", "Vernetzungsfähigkeit mit anderen Gruppen"] }
+            ] },
+            { "typ": "hinweis", "text": "Die Folie trägt rechts unten ein Foto (mehrere Hände, die über einem Tisch die Fäuste zusammenführen) ohne Beschriftung. Das Skript deutet das Bild nicht; es steht kein weiterer Lernstoff darin." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t1-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "gruppenbildung-wir", "karte": "m3-t1-k1", "folien": [54],
+          "frage": "Welche Punkte nennt das Skript unter dem **„WIR“-Gefühl**?",
+          "optionen": ["häufige persönliche Kontakte", "gemeinsame Erlebnisse", "räumliche Nähe der Mitglieder", "wahrgenommene Ähnlichkeit, Sympathien", "Kohärenz/Konsistenz"],
+          "richtig": [0, 1, 3],
+          "erklaerung": "Das „WIR“-Gefühl speist sich laut Folie aus häufigen persönlichen Kontakten, gemeinsamen Erlebnissen und wahrgenommener Ähnlichkeit bzw. Sympathien. Räumliche Nähe gehört zum organisatorischen Rahmen, Kohärenz/Konsistenz zu Führung/Ziel.",
+          "beleg": "häufige persönliche Kontakte … gemeinsame Erlebnisse … wahrgenommene Ähnlichkeit, Sympathien", "belegQuelle": "folie-26",
+          "kurz": "„WIR“-Gefühl: häufige persönliche Kontakte, gemeinsame Erlebnisse, wahrgenommene Ähnlichkeit und Sympathien." },
+        { "id": "m3-t1-a02", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "gruppenbildung-buendel", "karte": "m3-t1-k2", "folien": [54],
+          "frage": "Sortiere jeden Punkt in das Bündel ein, unter dem ihn das Skript aufführt.",
+          "kategorien": ["„WIR“-Gefühl", "organisatorischer Rahmen", "Führung/Ziel"],
+          "elemente": [
+            { "text": "gemeinsame Erlebnisse", "kategorie": 0 },
+            { "text": "räumliche Nähe der Mitglieder", "kategorie": 1 },
+            { "text": "Kohärenz/Konsistenz", "kategorie": 2 },
+            { "text": "wahrgenommene Ähnlichkeit, Sympathien", "kategorie": 0 },
+            { "text": "Inhaltliche Strukturierung", "kategorie": 1 },
+            { "text": "starke Vorbilder in der Gruppe", "kategorie": 2 },
+            { "text": "häufige persönliche Kontakte", "kategorie": 0 },
+            { "text": "Förderung direkter Kommunikation und Formalisierung der Kommunikation", "kategorie": 1 },
+            { "text": "Vernetzungsfähigkeit mit anderen Gruppen", "kategorie": 2 }
+          ],
+          "erklaerung": "Die Folie gliedert die Faktoren in genau diese drei Bündel. Jeder der neun Punkte steht dort unter einer der drei fetten Überschriften.",
+          "beleg": "„WIR“-Gefühl … organisatorischer Rahmen … Führung/Ziel", "belegQuelle": "folie-26",
+          "kurz": "Drei Bündel: „WIR“-Gefühl, organisatorischer Rahmen, Führung/Ziel – je drei Punkte." },
+        { "id": "m3-t1-a03", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "gruppenbildung-fuehrung", "karte": "m3-t1-k1", "folien": [54],
+          "frage": "Welchen Punkt ordnet das Skript dem Bündel **Führung/Ziel** zu?",
+          "optionen": ["Vernetzungsfähigkeit mit anderen Gruppen", "Inhaltliche Strukturierung", "gemeinsame Erlebnisse", "räumliche Nähe der Mitglieder"],
+          "richtig": 0,
+          "erklaerung": "Unter Führung/Ziel stehen drei Punkte: Kohärenz/Konsistenz, starke Vorbilder in der Gruppe und Vernetzungsfähigkeit mit anderen Gruppen. Die drei anderen Antworten gehören zum organisatorischen Rahmen bzw. zum „WIR“-Gefühl.",
+          "beleg": "Vernetzungsfähigkeit mit anderen Gruppen", "belegQuelle": "folie-26",
+          "kurz": "Führung/Ziel: Kohärenz/Konsistenz, starke Vorbilder, Vernetzungsfähigkeit mit anderen Gruppen." },
+        { "id": "m3-t1-a04", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "gruppenbildung-wir", "karte": "m3-t1-k1", "folien": [54], "bank": true,
+          "frage": "Vervollständige die drei Punkte, die das Skript unter dem „WIR“-Gefühl nennt.",
+          "text": "häufige persönliche {_Kontakte_} (stofflich effektiv und via elektr. Medien), gemeinsame {_Erlebnisse_}, wahrgenommene {_Ähnlichkeit_}, Sympathien",
+          "zusatzBank": ["Normen", "Strukturen", "Vorbilder"],
+          "erklaerung": "Das sind wörtlich die drei Punkte der Folie. Sie beschreiben, woraus das „WIR“-Gefühl entsteht.",
+          "beleg": "häufige persönliche Kontakte … gemeinsame Erlebnisse … wahrgenommene Ähnlichkeit, Sympathien", "belegQuelle": "folie-26",
+          "kurz": "Kontakte, Erlebnisse, Ähnlichkeit/Sympathien – daraus entsteht das „WIR“-Gefühl." },
+        { "id": "m3-t1-a05", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "gruppenbildung-buendel", "karte": "m3-t1-k1", "folien": [54],
+          "vorne": "Welche drei Bündel von Faktoren tragen laut Skript zur Gruppenbildung bei?",
+          "hinten": "**„WIR“-Gefühl**, **organisatorischer Rahmen**, **Führung/Ziel**.",
+          "erklaerung": "Die Folie gliedert die Faktoren, die zur Gruppenbildung beitragen, in genau diese drei fett gesetzten Überschriften.",
+          "beleg": "Faktoren, die zur Gruppenbildung beitragen", "belegQuelle": "folie-26",
+          "kurz": "Gruppenbildung: „WIR“-Gefühl, organisatorischer Rahmen, Führung/Ziel." },
+        { "id": "m3-t1-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "gruppenbildung-buendel", "karte": "m3-t1-k1", "folien": [54],
+          "frage": "Nenne die drei Bündel von Faktoren, die laut Skript zur Gruppenbildung beitragen, und erläutere zu jedem Bündel die dort aufgeführten Punkte.",
+          "musterloesung": "Das Skript nennt drei Bündel. Erstens das „WIR“-Gefühl: Es entsteht durch häufige persönliche Kontakte (stofflich effektiv und via elektr. Medien), durch gemeinsame Erlebnisse und durch wahrgenommene Ähnlichkeit sowie Sympathien. Zweitens der organisatorische Rahmen: räumliche Nähe der Mitglieder, Förderung direkter Kommunikation und Formalisierung der Kommunikation sowie inhaltliche Strukturierung. Drittens Führung/Ziel: Kohärenz/Konsistenz, starke Vorbilder in der Gruppe und Vernetzungsfähigkeit mit anderen Gruppen.",
+          "checkliste": ["Alle drei Bündel benannt: „WIR“-Gefühl, organisatorischer Rahmen, Führung/Ziel", "„WIR“-Gefühl mit Kontakten, gemeinsamen Erlebnissen und wahrgenommener Ähnlichkeit/Sympathien belegt", "Organisatorischer Rahmen mit räumlicher Nähe, Kommunikationsförderung/-formalisierung und inhaltlicher Strukturierung belegt", "Führung/Ziel mit Kohärenz/Konsistenz, starken Vorbildern und Vernetzungsfähigkeit belegt", "Kein Punkt dem falschen Bündel zugeordnet"],
+          "erklaerung": "Die Klausur kann die Gliederung und die Zuordnung der neun Punkte verlangen. Wichtig ist, alle drei Bündel zu nennen und je Bündel die drei Punkte der Folie richtig zuzuordnen.",
+          "beleg": "räumliche Nähe der Mitglieder … Förderung direkter Kommunikation und Formalisierung der Kommunikation", "belegQuelle": "folie-26",
+          "kurz": "Drei Bündel mit je drei Punkten – die Zuordnung der Punkte ist der Prüfungsstoff." },
+        { "id": "m3-t1-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "gruppenbildung-rahmen", "karte": "m3-t1-k2", "folien": [54],
+          "szenario": "Übungsfall: In deiner Filiale arbeitet ein neu gebildetes Beratungsteam auf zwei Etagen verteilt. Man schreibt sich fast nur E-Mails, feste Besprechungen gibt es nicht, und wer wann worüber informiert, ist nirgends geregelt.",
+          "frage": "Welches der drei Bündel der Gruppenbildungsfaktoren ist hier vor allem nicht erfüllt?",
+          "optionen": ["der organisatorische Rahmen", "das „WIR“-Gefühl über gemeinsame Erlebnisse", "Führung/Ziel über starke Vorbilder in der Gruppe"],
+          "richtig": 0,
+          "erklaerung": "Räumliche Nähe der Mitglieder, Förderung direkter Kommunikation und Formalisierung der Kommunikation sowie inhaltliche Strukturierung sind laut Skript genau die Punkte des organisatorischen Rahmens. Alle drei fehlen im Fall.",
+          "beleg": "räumliche Nähe der Mitglieder … Inhaltliche Strukturierung", "belegQuelle": "folie-26",
+          "kurz": "Verteilte Räume, keine direkte Kommunikation, keine Struktur: der organisatorische Rahmen fehlt." },
+        { "id": "m3-t1-a08", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "gruppenbildung-buendel", "karte": "m3-t1-k2", "folien": [54],
+          "frage": "Welche Zuordnungen stimmen mit dem Skript überein?",
+          "aussagen": [
+            { "text": "Kohärenz/Konsistenz ordnet das Skript dem organisatorischen Rahmen zu.", "wahr": false, "korrektur": "Kohärenz/Konsistenz steht im Skript unter Führung/Ziel, nicht unter dem organisatorischen Rahmen." },
+            { "text": "Starke Vorbilder in der Gruppe stehen unter Führung/Ziel.", "wahr": true },
+            { "text": "Wahrgenommene Ähnlichkeit und Sympathien tragen laut Skript zum „WIR“-Gefühl bei.", "wahr": true },
+            { "text": "Die Formalisierung der Kommunikation ordnet das Skript dem „WIR“-Gefühl zu.", "wahr": false, "korrektur": "Förderung direkter Kommunikation und Formalisierung der Kommunikation stehen unter organisatorischer Rahmen." }
+          ],
+          "erklaerung": "Die beiden falschen Aussagen vertauschen Punkte zwischen den Bündeln. Genau diese Verwechslung ist in der Klausur die häufigste.",
+          "beleg": "Führung/Ziel … Kohärenz/Konsistenz … starke Vorbilder in der Gruppe", "belegQuelle": "folie-26",
+          "kurz": "Kohärenz/Konsistenz und starke Vorbilder = Führung/Ziel. Kommunikationsformalisierung = organisatorischer Rahmen." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Gruppenbildung (Folie 54), drei Bündel:** „WIR“-Gefühl (häufige persönliche Kontakte, gemeinsame Erlebnisse, wahrgenommene Ähnlichkeit/Sympathien) – organisatorischer Rahmen (räumliche Nähe, Förderung direkter Kommunikation und Formalisierung, inhaltliche Strukturierung) – Führung/Ziel (Kohärenz/Konsistenz, starke Vorbilder, Vernetzungsfähigkeit mit anderen Gruppen)."],
+        "ausfuehrlich": [
+          "**Thema der Folie 54:** Individuum – Gruppe – Team, Faktoren, die zur Gruppenbildung beitragen.",
+          "**„WIR“-Gefühl:** häufige persönliche Kontakte (stofflich effektiv und via elektr. Medien), gemeinsame Erlebnisse, wahrgenommene Ähnlichkeit, Sympathien.",
+          "**organisatorischer Rahmen:** räumliche Nähe der Mitglieder, Förderung direkter Kommunikation und Formalisierung der Kommunikation, Inhaltliche Strukturierung.",
+          "**Führung/Ziel:** Kohärenz/Konsistenz, starke Vorbilder in der Gruppe, Vernetzungsfähigkeit mit anderen Gruppen.",
+          "**Stolperstelle:** Kohärenz/Konsistenz gehört zu Führung/Ziel, nicht zum organisatorischen Rahmen. Räumliche Nähe gehört zum organisatorischen Rahmen, nicht zum „WIR“-Gefühl.",
+          "**Wortlaut beachten:** „stofflich effektiv“ steht so auf der Folie und wird nicht erklärt."
+        ],
+        "merkhilfe": "Drei Fragen in dieser Reihenfolge: Was verbindet uns (WIR)? Wie sind wir organisiert (Rahmen)? Wohin führt uns wer (Führung/Ziel)?"
+      }
+    },
+    {
+      "id": "m3-t2",
+      "titel": "Modell der Entwicklung von Gruppen: Tuckmans fünf Phasen",
+      "folien": [55],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t2-k1",
+          "titel": "Die fünf Phasen der Psychologie von Gruppen",
+          "folien": [55],
+          "bloecke": [
+            { "typ": "einfach", "text": "Gruppen durchlaufen nach diesem Modell immer wieder dieselben Stationen. Erst lernt man sich kennen, dann reibt man sich, dann einigt man sich auf Regeln, dann arbeitet man wirklich, am Ende zieht man Bilanz. Das Skript nennt das die **5 Phasen der Psychologie von Gruppen** und schreibt sie {{Tuckman}} zu. Lerne die Reihenfolge und die Stichworte zu jeder Phase." },
+            { "typ": "person", "name": "Tuckman", "beitrag": "Steht im Skript für das Phasenmodell: „5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)“. Einen Vornamen oder eine Jahreszahl nennt die Folie nicht.", "folie": 55 },
+            { "typ": "tabelle", "kopf": ["Phase", "Beschreibung laut Skript"], "zeilen": [
+              ["**F O R M I N G**", "Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung"],
+              ["**S T O R M I N G**", "Reibungen, *Rollen*zuweisungen, Einüben des Funktionierens"],
+              ["**N O R M I N G**", "*Normen/Spielregeln* geklärt und akzeptiert, WIR wird Routine"],
+              ["**P E R F O R M I N G**", "Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt"],
+              ["**R E - F O R M I N G**", "Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung"]
+            ], "hinweis": "Im Skript sind in der Beschreibung „Rollen“ (in Rollenzuweisungen) und „Normen/Spielregeln“ unterstrichen. Die Phasennamen stehen in gesperrter Schrift." },
+            { "typ": "diagramm", "ref": "tuckman", "unterschrift": "Fünf Kästen untereinander, von Pfeilen nach unten verbunden: Forming, Storming, Norming, Performing, Re-Forming. Rechts daneben jeweils die Beschreibung der Phase." }
+          ]
+        },
+        {
+          "id": "m3-t2-k2",
+          "titel": "Kein linearer Prozess",
+          "folien": [55],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Abbildung zeigt nur Pfeile nach unten, ohne Rücklauf. Genau davor warnt die Fußnote der Folie: Die fünf Phasen sind **kein** starrer Ablauf. Eine Gruppe kann Phasen überspringen und in frühere zurückfallen. Wer in der Klausur nur die Reihenfolge nennt, lässt diesen Zusatz weg." },
+            { "typ": "text", "text": "**kein linearer Prozess, unterliegt Sprüngen und Zyklen!**" },
+            { "typ": "hinweis", "text": "Der Zusatz steht auf der Folie als Fußnote unten links. Das Sternchen hinter der Überschrift „5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)*“ wird erst durch diese Fußnote aufgelöst." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t2-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "tuckman-phasen", "karte": "m3-t2-k1", "folien": [55],
+          "frage": "Bringe die fünf Phasen der Psychologie von Gruppen in die Reihenfolge des Skripts.",
+          "elemente": ["Forming", "Storming", "Norming", "Performing", "Re-Forming"],
+          "erklaerung": "Die Folie listet die Phasen von oben nach unten in genau dieser Reihenfolge, verbunden durch Pfeile nach unten.",
+          "beleg": "5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)", "belegQuelle": "folie-27",
+          "kurz": "Reihenfolge: Forming, Storming, Norming, Performing, Re-Forming." },
+        { "id": "m3-t2-a02", "typ": "zuordnung", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "tuckman-phasen", "karte": "m3-t2-k1", "folien": [55],
+          "frage": "Ordne jeder Phase die Beschreibung des Skripts zu.", "linksTitel": "Phase", "rechtsTitel": "Beschreibung laut Skript",
+          "paare": [
+            { "links": "Forming", "rechts": "Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung" },
+            { "links": "Storming", "rechts": "Reibungen, Rollenzuweisungen, Einüben des Funktionierens" },
+            { "links": "Norming", "rechts": "Normen/Spielregeln geklärt und akzeptiert, WIR wird Routine" },
+            { "links": "Performing", "rechts": "Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt" },
+            { "links": "Re-Forming", "rechts": "Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung" }
+          ],
+          "erklaerung": "Das ist die Tabelle der Folie, Zeile für Zeile. Achte besonders auf die Nachbarschaft von Storming (Reibungen, Rollen) und Norming (Normen/Spielregeln akzeptiert).",
+          "beleg": "Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt", "belegQuelle": "folie-27",
+          "kurz": "Forming = Kennenlernen, Storming = Reibungen/Rollen, Norming = Normen akzeptiert, Performing = Arbeit/Optimum, Re-Forming = Bilanz/Auflösung." },
+        { "id": "m3-t2-a03", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "tuckman-person", "karte": "m3-t2-k1", "folien": [55],
+          "frage": "Wem schreibt das Skript das Modell der fünf Phasen der Psychologie von Gruppen zu?",
+          "optionen": ["Tuckman", "Kurt Lewin", "Abraham Maslow", "Frederick Herzberg"],
+          "richtig": 0,
+          "erklaerung": "Die Überschrift der Folie lautet „5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)“. Die drei anderen Personen kommen im Skript vor, aber an anderer Stelle und mit anderen Beiträgen.",
+          "beleg": "5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)", "belegQuelle": "folie-27",
+          "kurz": "Das Phasenmodell der Gruppenentwicklung gehört im Skript zu Tuckman." },
+        { "id": "m3-t2-a04", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "tuckman-phasen", "karte": "m3-t2-k1", "folien": [55],
+          "frage": "Beschrifte das Ablaufschema der Gruppenentwicklung von oben nach unten.",
+          "diagramm": "tuckman", "gruppe": "phasen",
+          "erklaerung": "Die Folie zeigt fünf Kästen untereinander, verbunden durch Pfeile nach unten: Forming, Storming, Norming, Performing, Re-Forming.",
+          "beleg": "Modell der Entwicklung von Gruppen", "belegQuelle": "folie-27",
+          "kurz": "Fünf Kästen von oben nach unten: Forming, Storming, Norming, Performing, Re-Forming." },
+        { "id": "m3-t2-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "tuckman-verlauf", "karte": "m3-t2-k2", "folien": [55],
+          "frage": "Was stimmt mit dem Skript überein?",
+          "aussagen": [
+            { "text": "Das Phasenmodell ist laut Skript kein linearer Prozess.", "wahr": true },
+            { "text": "In der Phase Storming sind Normen und Spielregeln bereits geklärt und akzeptiert.", "wahr": false, "korrektur": "Das gilt laut Skript für Norming. Storming steht für Reibungen, Rollenzuweisungen und das Einüben des Funktionierens." },
+            { "text": "Re-Forming steht für Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung.", "wahr": true },
+            { "text": "Schon in der Phase Forming wird laut Skript das Optimum angestrebt.", "wahr": false, "korrektur": "Das Optimum wird laut Skript in Performing angestrebt. Forming meint Kennenlernen, Prüfen u.a. des Verhaltens und Beziehungsklärung." }
+          ],
+          "erklaerung": "Die beiden falschen Aussagen verschieben eine Beschreibung in die falsche Phase. Der Zusatz „kein linearer Prozess“ steht als Fußnote auf der Folie.",
+          "beleg": "kein linearer Prozess, unterliegt Sprüngen und Zyklen!", "belegQuelle": "folie-27",
+          "kurz": "Norming = Normen akzeptiert, Performing = Optimum. Das Modell verläuft nicht linear." },
+        { "id": "m3-t2-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "tuckman-verlauf", "karte": "m3-t2-k2", "folien": [55],
+          "frage": "Das Skript setzt hinter das Phasenmodell die Fußnote „kein linearer Prozess, unterliegt Sprüngen und Zyklen!“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz gehört zur Überschrift „5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)“ und schränkt die Abbildung ein. Die Abbildung zeigt fünf Kästen mit Pfeilen nur nach unten, also scheinbar einen festen Ablauf von Forming bis Re-Forming. Die Fußnote sagt: So läuft es nicht zwingend ab. Der Prozess unterliegt Sprüngen und Zyklen, eine Gruppe kann also Phasen überspringen oder in frühere zurückkehren. Für die Führung heißt das: Aus der Reihenfolge allein lässt sich nicht ableiten, wo eine Gruppe steht; man muss die Beschreibungen der Phasen prüfen.",
+          "checkliste": ["Bezug zum Phasenmodell nach Tuckman hergestellt", "Abbildung zeigt nur Pfeile nach unten, also scheinbar linear", "Sprünge: Phasen können übersprungen werden", "Zyklen: eine Gruppe kann in frühere Phasen zurückfallen", "Folgerung: Reihenfolge ist ein Muster, kein fester Ablauf"],
+          "erklaerung": "In der Klausur reicht das Aufzählen der fünf Phasen nicht. Der Zusatz der Fußnote gehört zur vollständigen Darstellung des Modells.",
+          "beleg": "kein linearer Prozess, unterliegt Sprüngen und Zyklen!", "belegQuelle": "folie-27",
+          "kurz": "Das Phasenmodell ist kein linearer Prozess: es unterliegt Sprüngen und Zyklen." },
+        { "id": "m3-t2-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "tuckman-phasen", "karte": "m3-t2-k1", "folien": [55],
+          "frage": "Stelle das Modell der Entwicklung von Gruppen nach Tuckman dar: Nenne die fünf Phasen in der richtigen Reihenfolge und beschreibe jede Phase.",
+          "musterloesung": "Das Modell heißt im Skript „5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)“. Forming: Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung. Storming: Reibungen, Rollenzuweisungen, Einüben des Funktionierens. Norming: Normen/Spielregeln geklärt und akzeptiert, das WIR wird Routine. Performing: Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt. Re-Forming: Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung. Dazu gehört der Zusatz der Folie: kein linearer Prozess, unterliegt Sprüngen und Zyklen.",
+          "checkliste": ["Zuordnung zu Tuckman genannt", "Alle fünf Phasen in richtiger Reihenfolge", "Forming und Storming inhaltlich getrennt (Kennenlernen gegen Reibungen/Rollen)", "Norming und Performing inhaltlich getrennt (Regeln akzeptiert gegen Leistung/Optimum)", "Re-Forming als Neubewertung, Repositionierung, Abschluss/Auflösung", "Zusatz: kein linearer Prozess, Sprünge und Zyklen"],
+          "erklaerung": "Das ist die vollständige Wiedergabe der Folie. Die Beschreibungen der Phasen sind der eigentliche Prüfungsstoff, nicht nur die fünf Namen.",
+          "beleg": "Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung", "belegQuelle": "folie-27",
+          "kurz": "Fünf Phasen mit je einer Beschreibung, dazu der Zusatz: kein linearer Prozess." },
+        { "id": "m3-t2-a08", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "tuckman-phasen", "karte": "m3-t2-k1", "folien": [55],
+          "szenario": "Übungsfall: Ein neu zusammengestelltes Team im Firmenkundengeschäft streitet seit zwei Wochen darüber, wer die Kundenbesuche übernimmt und wer die Unterlagen vorbereitet. Die Stimmung ist gereizt, die eigentliche Arbeit bleibt liegen.",
+          "frage": "In welcher Phase steht das Team nach Tuckmans Phasenmodell, woran erkennst du das, und was wäre die nächste Phase?",
+          "musterloesung": "Das Team steht in der Phase Storming. Das Skript beschreibt sie mit Reibungen, Rollenzuweisungen und dem Einüben des Funktionierens: genau darum geht der Streit, nämlich wer welche Rolle übernimmt. Forming scheidet aus, weil die Gruppe über das Kennenlernen und die Beziehungsklärung hinaus ist. Performing scheidet aus, weil noch keine Arbeit geleistet wird. Die nächste Phase wäre Norming: Normen und Spielregeln sind geklärt und akzeptiert, das WIR wird Routine. Zu ergänzen ist, dass der Ablauf laut Skript kein linearer Prozess ist und Sprüngen und Zyklen unterliegt.",
+          "checkliste": ["Phase Storming benannt", "Begründung über Reibungen und Rollenzuweisungen", "Abgrenzung gegen Forming und/oder Performing", "Norming als nächste Phase mit geklärten und akzeptierten Normen/Spielregeln", "Hinweis, dass der Ablauf nicht linear ist"],
+          "erklaerung": "Die Lösung ergibt sich allein aus den Beschreibungen der Folie: Rollenzuweisungen und Reibungen sind das Kennzeichen von Storming.",
+          "beleg": "Reibungen, … Einüben des Funktionierens", "belegQuelle": "folie-27",
+          "kurz": "Streit um Rollen, keine Arbeit: Storming. Danach folgt Norming." },
+        { "id": "m3-t2-a09", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "tuckman-phasen", "karte": "m3-t2-k1", "folien": [55],
+          "vorne": "Was beschreibt das Skript für die Phase **NORMING**?",
+          "hinten": "**Normen/Spielregeln** sind geklärt und akzeptiert, das **WIR** wird Routine.",
+          "erklaerung": "Norming ist die Phase, in der die Gruppe sich auf Regeln geeinigt hat und das Miteinander zur Gewohnheit wird.",
+          "beleg": "geklärt und akzeptiert, WIR wird Routine", "belegQuelle": "folie-27",
+          "kurz": "Norming: Normen/Spielregeln geklärt und akzeptiert, WIR wird Routine." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Tuckmans Phasenmodell (Folie 55):** Forming (Kennenlernen, Beziehungsklärung) – Storming (Reibungen, Rollenzuweisungen) – Norming (Normen/Spielregeln akzeptiert, WIR wird Routine) – Performing (Arbeit, Potential, Optimum) – Re-Forming (Neubewertung, Repositionierung, Abschluss/Auflösung). **Kein linearer Prozess, Sprünge und Zyklen!**"],
+        "ausfuehrlich": [
+          "**Überschrift im Skript:** „5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)“.",
+          "**Forming:** Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung.",
+          "**Storming:** Reibungen, Rollenzuweisungen, Einüben des Funktionierens.",
+          "**Norming:** Normen/Spielregeln geklärt und akzeptiert, WIR wird Routine.",
+          "**Performing:** Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt.",
+          "**Re-Forming:** Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung.",
+          "**Pflichtzusatz:** kein linearer Prozess, unterliegt Sprüngen und Zyklen. Die Abbildung zeigt nur Pfeile nach unten, das täuscht.",
+          "**Stolperstelle:** Rollen gehören zu Storming, Normen/Spielregeln zu Norming."
+        ],
+        "merkhilfe": "Form – Storm – Norm – Perform – Re-Form: erst Form finden, dann Sturm, dann Norm, dann Leistung, dann noch einmal von vorn."
+      }
+    },
+    {
+      "id": "m3-t3",
+      "titel": "Kritische Erfolgsfaktoren: Strukturen und Normen",
+      "folien": [56],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t3-k1",
+          "titel": "Sozialer Druck über Strukturen und Normen",
+          "folien": [56],
+          "bloecke": [
+            { "typ": "einfach", "text": "Eine Gruppe wirkt auf das Verhalten ihrer Mitglieder ein. Das Skript nennt diese Wirkung [[sozialer Druck]]. Er läuft über zwei Kanäle: über [[Strukturen]], also wer welche Rolle, welche Macht und welche Beziehungen hat, und über [[Normen]], also was in der Gruppe als richtig gilt. Ziel ist laut Folie, erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen)." },
+            { "typ": "merksatz", "folie": 56, "text": "sozialer Druck über... **Strukturen** und **Normen** ...auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen)" },
+            { "typ": "hinweis", "text": "Dieser Satz steht auf der Folie in zwei Teilen: Er beginnt oben mittig mit „sozialer Druck über...“, dann verzweigen zwei Pfeile auf die Spalten „Strukturen“ und „Normen“, und unter den Spalten geht er weiter mit „...auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen)“." },
+            { "typ": "tabelle", "kopf": ["Strukturen", "Normen"], "zeilen": [
+              ["Rollenmodelle/Funktionen", "Meinungen/Denkmodelle"],
+              ["Macht/Status-Strukturen", "Kleidung/Sprache/Auftritt"],
+              ["Emotionale Beziehungen", "alle gruppentypischen „Ähnlichkeiten“"],
+              ["innerbetriebliches soziales Netzwerk", "Kann-/Soll-/Muss-Normen"]
+            ], "hinweis": "Beide Spaltenüberschriften stehen auf der Folie blau, fett und unterstrichen." },
+            { "typ": "hinweis", "text": "Die Folie ist mit „2.) Strukturen und Normen“ nummeriert. Einen Punkt 1.) der kritischen Erfolgsfaktoren für Gruppen zeigt sie nicht. Er steht nicht auf dieser Folie." }
+          ]
+        },
+        {
+          "id": "m3-t3-k2",
+          "titel": "ZUR ERINNERUNG: die vier Faktoren der Verhaltensänderung",
+          "folien": [56],
+          "bloecke": [
+            { "typ": "einfach", "text": "Unten auf der Folie steht ein farbig hinterlegter Kasten, der einen früheren Gedanken wieder aufgreift. Er nennt vier Stellschrauben, über die sich Verhalten langfristig ändern lässt. Zwei davon, Strukturen/Prozesse und Normen, sind genau die beiden Spalten dieser Folie. Damit verbindet der Kasten den sozialen Druck in Gruppen mit dem allgemeinen Modell der Verhaltensänderung." },
+            { "typ": "merksatz", "folie": 56, "text": "ZUR ERINNERUNG: Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!" },
+            { "typ": "hinweis", "text": "Die Buchstaben in Klammern stehen so auf der Folie: Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W). Sie passen nicht zu den Anfangsbuchstaben der Wörter, und das Skript erklärt sie an dieser Stelle nicht. Lerne sie so, wie sie dastehen." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t3-a01", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "strukturen-normen", "karte": "m3-t3-k1", "folien": [56],
+          "frage": "Sozialer Druck läuft über zwei Kanäle. Sortiere jeden Punkt in die Spalte ein, in der ihn das Skript aufführt.",
+          "kategorien": ["Strukturen", "Normen"],
+          "elemente": [
+            { "text": "Rollenmodelle/Funktionen", "kategorie": 0 },
+            { "text": "Meinungen/Denkmodelle", "kategorie": 1 },
+            { "text": "Macht/Status-Strukturen", "kategorie": 0 },
+            { "text": "Kleidung/Sprache/Auftritt", "kategorie": 1 },
+            { "text": "Emotionale Beziehungen", "kategorie": 0 },
+            { "text": "alle gruppentypischen „Ähnlichkeiten“", "kategorie": 1 },
+            { "text": "innerbetriebliches soziales Netzwerk", "kategorie": 0 },
+            { "text": "Kann-/Soll-/Muss-Normen", "kategorie": 1 }
+          ],
+          "erklaerung": "Die linke Spalte der Folie steht unter „Strukturen“, die rechte unter „Normen“. Strukturen betreffen Rollen, Macht, Beziehungen und Netzwerke. Normen betreffen das, was in der Gruppe als richtig gilt: Meinungen, Auftreten, Ähnlichkeiten, Regeln.",
+          "beleg": "Rollenmodelle/Funktionen … Macht/Status-Strukturen … Meinungen/Denkmodelle … Kleidung/Sprache/Auftritt", "belegQuelle": "folie-28",
+          "kurz": "Strukturen: Rollen, Macht/Status, emotionale Beziehungen, innerbetriebliches Netzwerk. Normen: Meinungen, Kleidung/Sprache/Auftritt, Ähnlichkeiten, Kann-/Soll-/Muss-Normen." },
+        { "id": "m3-t3-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "strukturen-normen", "karte": "m3-t3-k1", "folien": [56],
+          "frage": "Welche Punkte führt das Skript unter **Normen** auf?",
+          "optionen": ["Meinungen/Denkmodelle", "Macht/Status-Strukturen", "Kleidung/Sprache/Auftritt", "Emotionale Beziehungen", "Kann-/Soll-/Muss-Normen"],
+          "richtig": [0, 2, 4],
+          "erklaerung": "Macht/Status-Strukturen und Emotionale Beziehungen stehen in der Spalte Strukturen. Die rechte Spalte Normen nennt Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, alle gruppentypischen „Ähnlichkeiten“ und Kann-/Soll-/Muss-Normen.",
+          "beleg": "Meinungen/Denkmodelle … Kleidung/Sprache/Auftritt … Kann-/Soll-/Muss-Normen", "belegQuelle": "folie-28",
+          "kurz": "Normen: Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, gruppentypische Ähnlichkeiten, Kann-/Soll-/Muss-Normen." },
+        { "id": "m3-t3-a03", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "vier-faktoren", "karte": "m3-t3-k2", "folien": [56], "bank": true,
+          "frage": "Vervollständige den Erinnerungskasten der Folie.",
+          "text": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – {_Strukturen/Prozesse_} (S), {_Normen_} (D), {_Qualifikation_} (K), {_Motivation_} (W) – im jeweiligen Kontext begünstigt!",
+          "zusatzBank": ["Rollenmodelle", "Sympathien", "Emotionale Beziehungen"],
+          "erklaerung": "Das ist der Wortlaut des Kastens. Die vier Faktoren und ihre Buchstaben sind gut abfragbar, weil sie kurz und einprägsam sind.",
+          "beleg": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren", "belegQuelle": "folie-28",
+          "kurz": "Vier Faktoren: Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W)." },
+        { "id": "m3-t3-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "sozialer-druck", "karte": "m3-t3-k1", "folien": [56],
+          "frage": "Auf der Folie steht der Satz „sozialer Druck über ... Strukturen ... Normen ... auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen)“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht unter der Überschrift „Kritische Erfolgsfaktoren für Gruppen: 2.) Strukturen und Normen“. Gemeint ist, dass eine Gruppe das Verhalten ihrer Mitglieder über sozialen Druck beeinflusst. Dieser Druck wirkt über zwei Kanäle. Über Strukturen: Rollenmodelle/Funktionen, Macht/Status-Strukturen, emotionale Beziehungen und das innerbetriebliche soziale Netzwerk. Und über Normen: Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, alle gruppentypischen „Ähnlichkeiten“ sowie Kann-/Soll-/Muss-Normen. Der Zweck steht am Satzende: erwünschtes Verhalten beeinflussen, konkret Normeneinhaltung, Rollen und Funktionen. Damit ist sozialer Druck laut Skript ein kritischer Erfolgsfaktor für Gruppen, also etwas, das Führung kennen und gestalten muss.",
+          "checkliste": ["Sozialer Druck als Steuerungsmechanismus der Gruppe benannt", "Zwei Kanäle genannt: Strukturen und Normen", "Je Kanal mindestens zwei Beispiele der Folie", "Zweck genannt: erwünschtes Verhalten beeinflussen (Normeneinhaltung, Rollen, Funktionen)", "Einordnung als kritischer Erfolgsfaktor für Gruppen"],
+          "erklaerung": "Der Satz ist die Kernaussage der Folie und in der Klausur gut als Erklärungsfrage geeignet. Wichtig sind beide Kanäle und der Zweck am Satzende.",
+          "beleg": "auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen)", "belegQuelle": "folie-28",
+          "kurz": "Sozialer Druck wirkt über Strukturen und Normen auf die Mitglieder, um erwünschtes Verhalten zu beeinflussen." },
+        { "id": "m3-t3-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "vier-faktoren", "karte": "m3-t3-k2", "folien": [56],
+          "frage": "Im Erinnerungskasten der Folie steht: „Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Kasten greift ein früheres Modell wieder auf und verbindet es mit dieser Folie. Gemeint ist: Wer Verhalten langfristig ändern will, setzt nicht am einzelnen Menschen an, sondern an vier Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K) und Motivation (W). Entscheidend ist der Zusatz „im jeweiligen Kontext“: Die Wirkung hängt von der Situation ab. Der Zusammenhang zur Folie ist direkt: Sozialer Druck wirkt über Strukturen und Normen, also über die ersten beiden dieser vier Faktoren. Was auf der Folie als Gruppenmechanismus beschrieben wird, ist damit zugleich ein Hebel für Verhaltensänderung.",
+          "checkliste": ["Alle vier Faktoren mit ihren Buchstaben genannt", "Langfristigkeit der Wirkung genannt", "Bezug „im jeweiligen Kontext“ genannt", "Verbindung zur Folie: Strukturen und Normen sind zwei der vier Faktoren"],
+          "erklaerung": "Der Kasten ist ein Querverweis im Skript. Er zeigt, dass die Gruppenfolie Teil eines größeren Modells der Verhaltensbeeinflussung ist.",
+          "beleg": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren", "belegQuelle": "folie-28",
+          "kurz": "Vier Faktoren der Verhaltensänderung: S, D, K, W – im jeweiligen Kontext." },
+        { "id": "m3-t3-a06", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "strukturen-normen", "karte": "m3-t3-k1", "folien": [56],
+          "frage": "Welche Aussagen geben die Folie richtig wieder?",
+          "aussagen": [
+            { "text": "Das innerbetriebliche soziale Netzwerk ordnet das Skript den Strukturen zu.", "wahr": true },
+            { "text": "Alle gruppentypischen „Ähnlichkeiten“ stehen im Skript unter Strukturen.", "wahr": false, "korrektur": "Alle gruppentypischen „Ähnlichkeiten“ stehen unter Normen, nicht unter Strukturen." },
+            { "text": "Kann-/Soll-/Muss-Normen sind laut Folie ein Punkt der Spalte Normen.", "wahr": true },
+            { "text": "Sozialer Druck soll laut Folie vor allem die Qualifikation der Mitglieder erhöhen.", "wahr": false, "korrektur": "Sozialer Druck soll laut Folie erwünschtes Verhalten beeinflussen: Normeneinhaltung, Rollen, Funktionen. Qualifikation (K) ist einer der vier Faktoren im Erinnerungskasten, nicht der Zweck des sozialen Drucks." }
+          ],
+          "erklaerung": "Die beiden falschen Aussagen vertauschen eine Spalte bzw. mischen den Zweck des sozialen Drucks mit den vier Faktoren des Erinnerungskastens.",
+          "beleg": "innerbetriebliches soziales Netzwerk … alle gruppentypischen „Ähnlichkeiten“", "belegQuelle": "folie-28",
+          "kurz": "Netzwerk = Struktur, Ähnlichkeiten = Norm. Zweck des Drucks: Normeneinhaltung, Rollen, Funktionen." },
+        { "id": "m3-t3-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "sozialer-druck", "karte": "m3-t3-k1", "folien": [56],
+          "szenario": "Übungsfall: In einer Filiale tragen alle Beraterinnen und Berater ohne schriftliche Vorgabe Anzug oder Kostüm, sprechen Kundinnen und Kunden in derselben Formel an und vertreten in Teamsitzungen sehr ähnliche Meinungen. Eine neue Kollegin passt sich nach wenigen Wochen an.",
+          "frage": "Über welchen der beiden Kanäle des sozialen Drucks wirkt die Gruppe hier laut Skript vor allem?",
+          "optionen": ["über Normen (Kleidung/Sprache/Auftritt, Meinungen/Denkmodelle)", "über Strukturen (Macht/Status-Strukturen, Rollenmodelle/Funktionen)", "über Qualifikation (K) aus dem Erinnerungskasten"],
+          "richtig": 0,
+          "erklaerung": "Kleidung, Sprache, Auftritt und Meinungen/Denkmodelle sind laut Folie Punkte der Spalte Normen. Es geht nicht um Rollen oder Macht, also nicht um Strukturen.",
+          "beleg": "sozialer Druck über … auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen", "belegQuelle": "folie-28",
+          "kurz": "Kleidung, Sprache, Auftritt und Meinungen sind Normen, nicht Strukturen." },
+        { "id": "m3-t3-a08", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "vier-faktoren", "karte": "m3-t3-k2", "folien": [56],
+          "frage": "Welche vier Faktoren begünstigen laut dem Erinnerungskasten der Folie langfristig Verhaltensänderungen?",
+          "optionen": [
+            "Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W)",
+            "Strukturen/Prozesse, Normen, Rollen, Sympathien",
+            "Kohärenz/Konsistenz, starke Vorbilder, Vernetzungsfähigkeit, Qualifikation",
+            "Meinungen/Denkmodelle, Kleidung, Sprache, Auftritt"
+          ],
+          "richtig": 0,
+          "erklaerung": "Der Kasten nennt genau diese vier Faktoren mit den Buchstaben S, D, K und W und setzt sie in den jeweiligen Kontext. Die anderen Antworten mischen Punkte der Normenspalte oder der Folie zur Gruppenbildung hinein.",
+          "beleg": "Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) … im jeweiligen Kontext begünstigt!", "belegQuelle": "folie-28",
+          "kurz": "Vier Faktoren: Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W)." },
+        { "id": "m3-t3-a09", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "sozialer-druck", "karte": "m3-t3-k1", "folien": [56],
+          "vorne": "Welcher kritische Erfolgsfaktor für Gruppen steht auf Folie 56, und über welche zwei Kanäle wirkt er?",
+          "hinten": "**2.) Strukturen und Normen**. Über sie übt die Gruppe **sozialen Druck** auf ihre Mitglieder aus, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen).",
+          "erklaerung": "Die Folie nummeriert diesen Erfolgsfaktor mit 2.) und zeigt die beiden Spalten Strukturen und Normen.",
+          "beleg": "Kritische Erfolgsfaktoren für Gruppen: … 2.) Strukturen und Normen", "belegQuelle": "folie-28",
+          "kurz": "Kritischer Erfolgsfaktor 2.): Strukturen und Normen, wirksam über sozialen Druck." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Kritische Erfolgsfaktoren, 2.) Strukturen und Normen (Folie 56):** sozialer Druck über **Strukturen** (Rollenmodelle/Funktionen, Macht/Status-Strukturen, emotionale Beziehungen, innerbetriebliches soziales Netzwerk) und **Normen** (Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, gruppentypische „Ähnlichkeiten“, Kann-/Soll-/Muss-Normen) auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen)."],
+        "ausfuehrlich": [
+          "**Satz der Folie (beginnt oben, endet unter den Spalten):** sozialer Druck über ... Strukturen ... Normen ... auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen).",
+          "**Strukturen:** Rollenmodelle/Funktionen, Macht/Status-Strukturen, Emotionale Beziehungen, innerbetriebliches soziales Netzwerk.",
+          "**Normen:** Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, alle gruppentypischen „Ähnlichkeiten“, Kann-/Soll-/Muss-Normen.",
+          "**ZUR ERINNERUNG (Kasten):** Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!",
+          "**Merke:** Die ersten beiden der vier Faktoren sind genau die beiden Spalten dieser Folie.",
+          "**Offen im Skript:** Der Punkt 1.) der kritischen Erfolgsfaktoren steht nicht auf dieser Folie. Die Buchstaben (S), (D), (K), (W) werden hier nicht erklärt."
+        ],
+        "merkhilfe": "Strukturen = wer steht wo. Normen = was gilt hier. Beides drückt, ohne dass jemand etwas sagen muss."
+      }
+    },
+    {
+      "id": "m3-t4",
+      "titel": "Gruppenarbeit ≠ Individualarbeit: Prozessgewinne und Prozessverluste",
+      "folien": [57],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m3-t4-k1",
+          "titel": "Prozessgewinne: erwünschte Phänomene",
+          "folien": [57],
+          "bloecke": [
+            { "typ": "einfach", "text": "Warum lässt man Menschen überhaupt in Gruppen arbeiten und nicht jeden für sich? Das Skript gibt eine klare Antwort: wegen der [[Prozessgewinne]]. Gemeint ist der Mehrwert, der erst durch das Zusammenarbeiten entsteht. Die Folie nennt dazu drei erwünschte Phänomene." },
+            { "typ": "merksatz", "folie": 57, "text": "Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen!" },
+            { "typ": "definition", "begriff": "„social facilitation“", "text": "Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams)" },
+            { "typ": "definition", "begriff": "„social compensation“", "text": "Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen" },
+            { "typ": "definition", "begriff": "„Synergie“", "text": "gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei" },
+            { "typ": "hinweis", "text": "Die Folie leitet die drei Begriffe mit „erwünschte Phänomene z.B.:“ ein. Das „z.B.“ heißt: Die Aufzählung ist ein Beispiel, keine abgeschlossene Liste. Weitere Prozessgewinne nennt das Skript hier nicht." },
+            { "typ": "hinweis", "text": "Die Abkürzung „MA“ benutzt das Skript an dieser Stelle, ohne sie zu erklären. Die drei Gewinn-Begriffe stehen auf der Folie in blauer Fettschrift." }
+          ]
+        },
+        {
+          "id": "m3-t4-k2",
+          "titel": "Prozessverluste: wofür Gruppen anfällig sind",
+          "folien": [57],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Kehrseite: In einer Gruppe kann der Einsatz des Einzelnen auch sinken. Das Skript nennt drei [[Prozessverluste]]. Sie klingen ähnlich, unterscheiden sich aber im Auslöser. Beim Bummeln schwindet der Einsatz aller. Der Trittbrettfahrer drückt sich bewusst auf Kosten der anderen. Beim Sucker-Effekt zieht jemand seinen Einsatz zurück, weil er nicht der Einzige sein will, der sich anstrengt." },
+            { "typ": "text", "text": "**ABER: Gruppen sind anfällig für Prozessverluste:**" },
+            { "typ": "definition", "begriff": "„soziales Bummeln (loafing)“", "text": "kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet" },
+            { "typ": "definition", "begriff": "„Trittbrettfahrer (free rider)“", "text": "Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen" },
+            { "typ": "definition", "begriff": "„Sucker-Effekt“", "text": "Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive" },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "soziales Bummeln (loafing)", "punkte": ["kein Mitglied setzt sich vehement für Gruppenziele ein", "der Einsatz schwindet", "betrifft die ganze Gruppe"] },
+              { "titel": "Trittbrettfahrer (free rider)", "punkte": ["Einzelne drücken sich vor Einsatz zur Zielerreichung", "auf Kosten der anderen", "betrifft Einzelne"] },
+              { "titel": "Sucker-Effekt", "punkte": ["Einzelne wollen nicht allein Einsatz zeigen", "reduzieren diesen sukzessive", "betrifft Einzelne"] }
+            ] },
+            { "typ": "hinweis", "text": "Die Zuordnung „ganze Gruppe“ bzw. „Einzelne“ in der Vergleichsspalte folgt dem Wortlaut der Folie („kein Mitglied“ gegenüber „Einzelne“). Weitere Unterscheidungsmerkmale nennt das Skript nicht. Die drei Verlust-Begriffe stehen auf der Folie in roter Schrift." }
+          ]
+        },
+        {
+          "id": "m3-t4-k3",
+          "titel": "Was Führung daraus macht",
+          "folien": [57],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Folie bleibt nicht bei der Beschreibung stehen, sondern zieht zwei Folgerungen. Die erste richtet sich gegen die Prozessverluste: Wenn Leistung sichtbar und persönlich zurechenbar ist, lohnt sich Drücken nicht mehr. Die zweite ist grundsätzlicher: Kooperation ist nichts, was von allein da ist." },
+            { "typ": "merksatz", "folie": 57, "text": "-> Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren" },
+            { "typ": "merksatz", "folie": 57, "text": "Führungskräfte müssen Kooperation in Gruppen erlernen und erhalten" }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m3-t4-a01", "typ": "zuordnung", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "gewinne-verluste-begriffe", "karte": "m3-t4-k1", "folien": [57],
+          "frage": "Ordne jedem Begriff der Folie seine Beschreibung zu.", "linksTitel": "Begriff", "rechtsTitel": "Beschreibung laut Skript",
+          "paare": [
+            { "links": "„social facilitation“", "rechts": "Vorbild-Wirkung von aktiven MA motiviert gesamtes Team" },
+            { "links": "„social compensation“", "rechts": "Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen" },
+            { "links": "„Synergie“", "rechts": "gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei" },
+            { "links": "„soziales Bummeln (loafing)“", "rechts": "kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet" },
+            { "links": "„Trittbrettfahrer (free rider)“", "rechts": "Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen" },
+            { "links": "„Sucker-Effekt“", "rechts": "Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive" }
+          ],
+          "erklaerung": "Die ersten drei sind erwünschte Phänomene, also Prozessgewinne. Die letzten drei sind Prozessverluste. Die Beschreibungen stehen wörtlich auf der Folie.",
+          "beleg": "„Synergie“: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei", "belegQuelle": "folie-29",
+          "kurz": "Sechs Begriffe: facilitation, compensation, Synergie (Gewinne); loafing, free rider, Sucker-Effekt (Verluste)." },
+        { "id": "m3-t4-a02", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "gewinne-verluste-abgrenzung", "karte": "m3-t4-k2", "folien": [57],
+          "frage": "Prozessgewinn oder Prozessverlust? Sortiere die sechs Phänomene ein.",
+          "kategorien": ["Prozessgewinn", "Prozessverlust"],
+          "elemente": [
+            { "text": "„social facilitation“", "kategorie": 0 },
+            { "text": "„soziales Bummeln (loafing)“", "kategorie": 1 },
+            { "text": "„social compensation“", "kategorie": 0 },
+            { "text": "„Trittbrettfahrer (free rider)“", "kategorie": 1 },
+            { "text": "„Synergie“", "kategorie": 0 },
+            { "text": "„Sucker-Effekt“", "kategorie": 1 }
+          ],
+          "erklaerung": "Die Folie teilt genau so ein: drei erwünschte Phänomene oben, dann der Bruch „ABER: Gruppen sind anfällig für Prozessverluste:“ und darunter die drei Verluste.",
+          "beleg": "Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen! … ABER: Gruppen sind anfällig für Prozessverluste:", "belegQuelle": "folie-29",
+          "kurz": "Gewinne: facilitation, compensation, Synergie. Verluste: loafing, free rider, Sucker-Effekt." },
+        { "id": "m3-t4-a03", "typ": "mc", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "gewinne-verluste-abgrenzung", "karte": "m3-t4-k2", "folien": [57],
+          "frage": "Welche Beschreibung gehört laut Skript zum **Trittbrettfahrer (free rider)**?",
+          "optionen": [
+            "Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen",
+            "kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet",
+            "Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive",
+            "Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen"
+          ],
+          "richtig": 0,
+          "erklaerung": "Die zweite Option beschreibt soziales Bummeln (loafing), die dritte den Sucker-Effekt, die vierte social compensation, also einen Prozessgewinn. Kennzeichen des Trittbrettfahrers ist „auf Kosten der anderen“.",
+          "beleg": "„Trittbrettfahrer (free rider)“: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen", "belegQuelle": "folie-29",
+          "kurz": "Trittbrettfahrer: drückt sich vor Einsatz zur Zielerreichung auf Kosten der anderen." },
+        { "id": "m3-t4-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "gewinne-verluste-abgrenzung", "karte": "m3-t4-k2", "folien": [57],
+          "frage": "Welche Aussagen geben die Folie richtig wieder?",
+          "aussagen": [
+            { "text": "Beim sozialen Bummeln (loafing) setzt sich kein Mitglied vehement für die Gruppenziele ein, der Einsatz schwindet.", "wahr": true },
+            { "text": "Der Sucker-Effekt beschreibt, dass Schwächen Einzelner durch andere Gruppenmitglieder ausgeglichen werden.", "wahr": false, "korrektur": "Das ist „social compensation“, also ein Prozessgewinn. Der Sucker-Effekt meint: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive." },
+            { "text": "„social facilitation“ ist laut Skript ein erwünschtes Phänomen.", "wahr": true },
+            { "text": "Synergie zählt das Skript zu den Prozessverlusten.", "wahr": false, "korrektur": "Synergie steht auf der Folie bei den erwünschten Phänomenen, also bei den Prozessgewinnen: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei." }
+          ],
+          "erklaerung": "Die typische Verwechslung ist die zwischen social compensation (jemand gleicht aus) und Sucker-Effekt (jemand zieht sich zurück, weil er nicht allein schuften will).",
+          "beleg": "„soziales Bummeln (loafing)“: kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet", "belegQuelle": "folie-29",
+          "kurz": "compensation = Ausgleich durch andere (Gewinn). Sucker-Effekt = Rückzug, um nicht allein zu schuften (Verlust)." },
+        { "id": "m3-t4-a05", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "gegenmassnahmen", "karte": "m3-t4-k3", "folien": [57],
+          "frage": "Welche Maßnahmen zieht die Folie als Folgerung aus den Prozessverlusten?",
+          "optionen": ["Einzelleistungen sichtbar machen", "Ziele individuell vereinbaren", "herausfordernde Aufgaben vereinbaren", "Gruppenergebnisse anonym bewerten", "auf Zielvereinbarungen verzichten"],
+          "richtig": [0, 1, 2],
+          "erklaerung": "Die Folie schließt den Abschnitt zu den Prozessverlusten mit genau diesen drei Maßnahmen ab. Die beiden anderen Antworten sind ihr Gegenteil.",
+          "beleg": "Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren", "belegQuelle": "folie-29",
+          "kurz": "Gegen Prozessverluste: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren." },
+        { "id": "m3-t4-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "prozessgewinne", "karte": "m3-t4-k1", "folien": [57],
+          "frage": "Auf der Folie steht: „Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen!“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht unter der Überschrift „Gruppenarbeit ≠ Individualarbeit -> Prozessgewinne vs. Prozessverluste“. Gemeint ist: Gruppenarbeit rechtfertigt sich nicht dadurch, dass mehrere Leute dasselbe tun, sondern durch den Mehrwert, der erst im Zusammenwirken entsteht. Das Skript nennt drei erwünschte Phänomene: „social facilitation“, also die Vorbild-Wirkung von aktiven MA, die das gesamte Team motiviert (siehe Sport-Teams); „social compensation“, also den Ausgleich von Schwächen Einzelner durch andere Gruppenmitglieder; und „Synergie“, weil gemeinsames Handeln und Erleben zusätzliche Kräfte freisetzen. Der Zusammenhang ist der Gegensatz zum zweiten Teil der Folie: Dieselbe Gruppe ist zugleich anfällig für Prozessverluste. Der Satz ist deshalb ein Anspruch an die Führung, nicht eine Beschreibung des Normalfalls.",
+          "checkliste": ["Gegensatz Gruppenarbeit gegen Individualarbeit benannt", "Prozessgewinn als Mehrwert des Zusammenwirkens erklärt", "Alle drei erwünschten Phänomene genannt und beschrieben", "Gegenstück Prozessverluste als Zusammenhang genannt"],
+          "erklaerung": "Der Satz ist die Leitaussage der Folie. In der Klausur gehören die drei erwünschten Phänomene mit ihren Beschreibungen dazu.",
+          "beleg": "Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen!", "belegQuelle": "folie-29",
+          "kurz": "Gruppenarbeit zielt auf Prozessgewinne: facilitation, compensation, Synergie." },
+        { "id": "m3-t4-a07", "typ": "erklaeren", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "gewinne-verluste-abgrenzung", "karte": "m3-t4-k2", "folien": [57],
+          "frage": "Grenze die drei Prozessverluste des Skripts voneinander ab: soziales Bummeln (loafing), Trittbrettfahrer (free rider) und Sucker-Effekt.",
+          "musterloesung": "Alle drei sind Prozessverluste, für die Gruppen laut Skript anfällig sind. Beim „sozialen Bummeln (loafing)“ setzt sich kein Mitglied vehement für die Gruppenziele ein, der Einsatz schwindet: Es ist ein Zustand der ganzen Gruppe. Beim „Trittbrettfahrer (free rider)“ drücken sich Einzelne vor dem Einsatz zur Zielerreichung, und zwar auf Kosten der anderen: Hier profitiert jemand vom Einsatz der übrigen. Beim „Sucker-Effekt“ wollen Einzelne nicht allein Einsatz zeigen und reduzieren diesen sukzessive: Hier ist der Rückzug die Reaktion darauf, nicht der Dumme sein zu wollen. Als Folgerung nennt die Folie: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren.",
+          "checkliste": ["Alle drei Begriffe mit der Beschreibung des Skripts benannt", "loafing: kein Mitglied setzt sich vehement ein, Einsatz schwindet", "free rider: Einzelne drücken sich auf Kosten der anderen", "Sucker-Effekt: Rückzug, weil man nicht allein Einsatz zeigen will, sukzessive Reduktion", "Gegenmaßnahmen der Folie genannt"],
+          "erklaerung": "Die drei Begriffe werden in Klausuren gern vertauscht. Das Unterscheidungsmerkmal steht jeweils im Nebensatz der Folie.",
+          "beleg": "„Sucker-Effekt“: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive", "belegQuelle": "folie-29",
+          "kurz": "loafing = Einsatz schwindet bei allen; free rider = drückt sich auf Kosten anderer; Sucker = zieht zurück, um nicht allein zu schuften." },
+        { "id": "m3-t4-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "gegenmassnahmen", "karte": "m3-t4-k3", "folien": [57],
+          "frage": "Die Folie schließt mit „Führungskräfte müssen Kooperation in Gruppen erlernen und erhalten“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht am Ende der Folie zu Prozessgewinnen und Prozessverlusten und zieht daraus die Konsequenz für die Führung. Gemeint ist: Kooperation in einer Gruppe stellt sich nicht von selbst ein und bleibt auch nicht von selbst bestehen. Sie ist zweierlei, nämlich etwas, das Führungskräfte erst erlernen müssen, und etwas, das danach aktiv erhalten werden muss. Der Zusammenhang ist die vorangehende Folgerung der Folie: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren. Das sind die konkreten Handgriffe, mit denen Prozessverluste begrenzt und Prozessgewinne wahrscheinlicher werden.",
+          "checkliste": ["Kooperation entsteht und bleibt nicht von allein", "Zwei Teile: erlernen und erhalten", "Bezug zu Prozessgewinnen und Prozessverlusten", "Verbindung zu den drei Maßnahmen der Folie"],
+          "erklaerung": "Der Satz ist die Führungskonsequenz der Folie und gehört inhaltlich mit den drei Maßnahmen zusammen.",
+          "beleg": "Führungskräfte müssen Kooperation in Gruppen erlernen und erhalten", "belegQuelle": "folie-29",
+          "kurz": "Kooperation muss von Führungskräften erlernt und erhalten werden." },
+        { "id": "m3-t4-a09", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "gewinne-verluste-abgrenzung", "karte": "m3-t4-k2", "folien": [57],
+          "szenario": "Übungsfall: In einer Projektgruppe zur Einführung eines neuen Beratungsprozesses liefern zwei von fünf Mitgliedern seit Wochen alle Unterlagen. Ein drittes Mitglied erscheint zwar zu den Terminen, übernimmt aber nie eine Aufgabe und nennt am Ende das Ergebnis trotzdem „unser Projekt“. Die beiden Fleißigen ziehen daraufhin ihren Einsatz Schritt für Schritt zurück. Bewertet wird nur das Gruppenergebnis.",
+          "frage": "Benenne die Prozessverluste, die hier auftreten, begründe sie mit dem Skript und nenne die Maßnahmen, die die Folie vorschlägt.",
+          "musterloesung": "Beim dritten Mitglied liegt der Trittbrettfahrer (free rider) vor: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen. Bei den beiden Fleißigen tritt der Sucker-Effekt auf: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive. Setzt sich das fort, droht soziales Bummeln (loafing), weil sich am Ende kein Mitglied mehr vehement für die Gruppenziele einsetzt und der Einsatz schwindet. Begünstigt wird das dadurch, dass nur das Gruppenergebnis bewertet wird. Die Folie nennt als Folgerung: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren. Grundsätzlich gilt: Führungskräfte müssen Kooperation in Gruppen erlernen und erhalten.",
+          "checkliste": ["Trittbrettfahrer beim untätigen Mitglied erkannt und mit dem Skript begründet", "Sucker-Effekt bei den zurückziehenden Mitgliedern erkannt und begründet", "Soziales Bummeln als drohende Folge genannt", "Alle drei Maßnahmen der Folie genannt", "Bezug zur fehlenden Sichtbarkeit von Einzelleistungen"],
+          "erklaerung": "Der Fall zeigt die Kettenwirkung, die das Skript beschreibt: Drücken einzelner Mitglieder löst den Rückzug der übrigen aus. Die Maßnahmen setzen genau dort an, indem sie Leistung sichtbar und persönlich zurechenbar machen.",
+          "beleg": "„social compensation“: Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen", "belegQuelle": "folie-29",
+          "kurz": "Free rider plus Sucker-Effekt, Gefahr von loafing. Gegenmittel: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben." },
+        { "id": "m3-t4-a10", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "prozessgewinne", "karte": "m3-t4-k1", "folien": [57], "bank": true,
+          "frage": "Vervollständige die drei erwünschten Phänomene der Folie.",
+          "text": "{_social facilitation_}: Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams)\n{_social compensation_}: Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen\n{_Synergie_}: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei",
+          "zusatzBank": ["soziales Bummeln (loafing)", "Trittbrettfahrer (free rider)", "Sucker-Effekt"],
+          "erklaerung": "Die drei Begriffe stehen auf der Folie in blauer Fettschrift, jeweils mit der Beschreibung dahinter. Die Wortbank enthält zusätzlich die drei Prozessverluste, die hier nicht hingehören.",
+          "beleg": "„social facilitation“: Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams)", "belegQuelle": "folie-29",
+          "kurz": "Prozessgewinne: social facilitation, social compensation, Synergie." },
+        { "id": "m3-t4-a11", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "gegenmassnahmen", "karte": "m3-t4-k3", "folien": [57],
+          "frage": "Die Folie zieht aus den Prozessverlusten die Folgerung „-> Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht auf der Folie unmittelbar hinter der Aufzählung der Prozessverluste und zieht daraus die Folgerung. Er nennt drei Maßnahmen. Erstens Einzelleistungen sichtbar machen: Der Beitrag des Einzelnen soll erkennbar bleiben und nicht im Gruppenergebnis verschwinden. Das setzt genau dort an, wo das Skript die Verluste beschreibt, nämlich beim Trittbrettfahrer (free rider), der sich vor Einsatz zur Zielerreichung auf Kosten der anderen drückt, und beim Sucker-Effekt, bei dem Einzelne nicht allein Einsatz zeigen wollen. Zweitens Ziele individuell vereinbaren: nicht nur ein Ziel für die Gruppe, sondern ein eigenes Ziel je Mitglied. Drittens herausfordernde Aufgaben vereinbaren. Der Zusammenhang ist der Aufbau der Folie: Ziel von Gruppenarbeit ist die Erzielung von Prozessgewinnen, ABER Gruppen sind anfällig für Prozessverluste, und gegen diese Verluste richten sich die drei Maßnahmen. Danach schließt die Folie mit dem Satz, dass Führungskräfte Kooperation in Gruppen erlernen und erhalten müssen.",
+          "checkliste": ["Alle drei Maßnahmen genannt: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren", "Als Folgerung aus den Prozessverlusten eingeordnet", "Sichtbarkeit der Einzelleistung an Trittbrettfahrer und/oder Sucker-Effekt begründet", "Individuelle Zielvereinbarung vom reinen Gruppenziel abgegrenzt", "Einordnung in den Aufbau der Folie: Prozessgewinne, ABER Prozessverluste, daraus die Maßnahmen"],
+          "erklaerung": "Die drei Maßnahmen sind die Antwort der Folie auf die Prozessverluste. In der Klausur gehört dazu, sie nicht nur aufzuzählen, sondern an den beschriebenen Verlusten zu begründen.",
+          "beleg": "Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren", "belegQuelle": "folie-29",
+          "kurz": "Die Folgerung der Folie gegen Prozessverluste: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Gruppenarbeit ≠ Individualarbeit (Folie 57):** Ziel ist die Erzielung von **Prozessgewinnen** – social facilitation (Vorbild aktiver MA motiviert das Team), social compensation (Schwächen werden ausgeglichen), Synergie (zusätzliche Kräfte). **ABER Prozessverluste:** soziales Bummeln (loafing), Trittbrettfahrer (free rider), Sucker-Effekt. Gegenmittel: Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren."],
+        "ausfuehrlich": [
+          "**Leitsatz:** Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen!",
+          "**Erwünschte Phänomene:** „social facilitation“ = Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams). „social compensation“ = Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen. „Synergie“ = gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei.",
+          "**ABER: Gruppen sind anfällig für Prozessverluste:** „soziales Bummeln (loafing)“ = kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet. „Trittbrettfahrer (free rider)“ = Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen. „Sucker-Effekt“ = Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive.",
+          "**Folgerung der Folie:** Einzelleistungen sichtbar machen, Ziele individuell vereinbaren, herausfordernde Aufgaben vereinbaren.",
+          "**Führungssatz:** Führungskräfte müssen Kooperation in Gruppen erlernen und erhalten.",
+          "**Stolperstelle:** „social compensation“ (Gewinn, andere gleichen aus) nicht mit dem „Sucker-Effekt“ (Verlust, Rückzug aus Ärger) verwechseln."
+        ],
+        "merkhilfe": "Drei mit „social“ und Synergie ziehen nach oben, drei mit Drücken, Bummeln und Ärger nach unten."
+      }
+    }
+  ]
+}

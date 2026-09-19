@@ -1,0 +1,196 @@
+{
+  "begriffe": [
+    {
+      "begriff": "Ergebnisverantwortung",
+      "text": "Die Hauptaufgabe von Führung laut Skript: **ERGEBNIS**verantwortung übernehmen. Gemessen wird sie am KPI Leistung & Exzellenz, und zwar stets im Kontext.",
+      "folien": [30],
+      "themen": ["m1-t1"],
+      "beleg": "Was ist die Hauptaufgabe von Führung?…ERGEBNISverantwortung übernehmen",
+      "belegQuelle": "folie-02"
+    },
+    {
+      "begriff": "Kontext",
+      "text": "Führung ist laut Skript nie allgemein, sondern **stets im Kontext** zu sehen. Als Beispiele nennt Folie 30 Reife, Größe und Wettbewerbsposition; die Aufzählung ist offen. Folie 34 wiederholt das als „stets im Kontext argumentieren, Verallgemeinerungen vermeiden“.",
+      "folien": [30, 34],
+      "themen": ["m1-t1", "m1-t5"],
+      "beleg": "stets im Kontext (Reife, Größe, Wettbew.pos.,..)",
+      "belegQuelle": "folie-02"
+    },
+    {
+      "begriff": "Menschenbild",
+      "text": "Die Grundannahme darüber, wie der Mensch ist. Das Skript zeigt eine Entwicklungsgeschichte der Menschenbilder mit optimistischen und pessimistischen Vertretern und nennt vier in der BWL verwandte Menschenbilder.",
+      "folien": [31, 32],
+      "themen": ["m1-t2", "m1-t3"],
+      "beleg": "Entwicklungsgeschichte Menschenbild – Der Mensch ist...",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Optimistische Menschenbilder",
+      "text": "Spalte der Folie 31 mit vier Einträgen: vernünftig, kooperativ, unterstützend (John Locke) · soziokulturell beeinflusst (Erich Fromm) · grds. sozial mit entspr. Gruppen-Verhalten (Elton Mayo) · hierarchisch bedürfnisorientiert (Abraham Maslow).",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "beleg": "Optimistische Menschenbilder | Pessimistische Menschenbilder",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Pessimistische Menschenbilder",
+      "text": "Spalte der Folie 31 mit fünf Einträgen: undankbar, heuchlerisch, ängstlich (Nicolo Machiavelli) · selbstsüchtig, egoistisch (Adam Smith) · kampfbetont, durchsetzungswillig (Charles Darwin) · primitiv wild, böse (Sigmund Freud) · faul, egoistisch, träge, maschinengleich (Frederic Taylor).",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "beleg": "...undankbar, heuchlerisch, ängstlich (Nicolo Machiavelli, 15. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Theory X",
+      "text": "Menschenbild nach Douglas McGregor. Der Mensch verhält sich unwillig und angeboren arbeitsscheu, muss zur Arbeit gezwungen und mit Strafe bedroht werden, besitzt wenig Ehrgeiz und sucht Sicherheit, braucht Vorgaben, Anleitung und Kontrolle von Vorgesetzten.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "beleg": "...verhält sich unwillig und angeboren arbeitsscheu",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Theory Y",
+      "text": "Menschenbild nach Douglas McGregor. Der Mensch ist intrinsisch motiviert und engagiert, benötigt Arbeit als Basis für Zufriedenheit, strebt Selbstverwirklichung an und identifiziert sich mit der Unternehmung.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "beleg": "...ist intrinsisch motiviert und engagiert",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Theory Z",
+      "text": "Laut Skript vereinbart der Mensch nach Theory Z die Theorien X und Y in sich. Mehr steht dort nicht: Das Skript nennt weder einen Urheber noch eine weitere Erklärung.",
+      "folien": [31],
+      "themen": ["m1-t2"],
+      "beleg": "Der Mensch...nach Theory Z...vereinbart Theory X und Y in sich...",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "rational man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder, auch homo oeconomicus: über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer.",
+      "folien": [32],
+      "themen": ["m1-t3"],
+      "beleg": "...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "homo oeconomicus",
+      "text": "Im Skript nur als Zweitname des **rational man** genannt und nicht weiter erklärt.",
+      "folien": [32],
+      "themen": ["m1-t3"],
+      "beleg": "„rational man“ (auch: homo oeconomicus)",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "social man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder: Soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten.",
+      "folien": [32],
+      "themen": ["m1-t3"],
+      "beleg": "...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "self-actualizing man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder: strebt nach Selbstverwirklichung.",
+      "folien": [32],
+      "themen": ["m1-t3"],
+      "beleg": "„self-actualizing man“ | ...strebt nach Selbstverwirklichung",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "complex man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder: flexibel, anpassungs- und wandlungsfähig.",
+      "folien": [32],
+      "themen": ["m1-t3"],
+      "beleg": "„complex man“ | ...flexibel, anpassungs- und wandlungsfähig",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "Determinanten des Wertewandels",
+      "text": "Die sechs Treiber des Wertewandels laut Folie 33: Strukturbrüche, techn. Umbrüche, Diversifizierung, Org.strukturen, Sinnsuche, Work/Life-Balance. Unverändert bleiben dagegen Leistung & Exzellenz.",
+      "folien": [33],
+      "themen": ["m1-t4"],
+      "beleg": "Determinanten des Wertewandels:",
+      "belegQuelle": "folie-05"
+    },
+    {
+      "begriff": "Wertekosmos",
+      "text": "Begriff aus dem Schlusssatz der Folie 33: „wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos“. Was dieser Kosmos genau umfasst, erklärt das Skript nicht.",
+      "folien": [33],
+      "themen": ["m1-t4"],
+      "beleg": "wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos",
+      "belegQuelle": "folie-05"
+    },
+    {
+      "begriff": "Entwicklungstypen",
+      "text": "Die vier Unternehmenstypen des Schaubilds nach Gomez/Zimmermann, von links nach rechts: Pionier-Unternehmen, Wachstums-Unternehmen, Reife-Unternehmen, Wende-Unternehmen.",
+      "folien": [34],
+      "themen": ["m1-t5"],
+      "beleg": "„Pionier-Unternehmen“, „Wachstums-Unternehmen“, „Reife-Unternehmen“, „Wende-Unternehmen“",
+      "belegQuelle": "folie-06"
+    },
+    {
+      "begriff": "Organisationsformen",
+      "text": "Die zehn Formen unter den Entwicklungstypen (Folie 34), von links nach rechts: Einfache Linien-, Stab-Linien-, Funktionale, Projekt-, Matrix-, Divisionale, Tensor-, Holding-, Allianz- und Cluster-Organisation. Tensor-, Allianz- und Cluster-Organisation werden nur genannt, nicht erklärt.",
+      "folien": [34],
+      "themen": ["m1-t5"],
+      "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
+      "belegQuelle": "folie-06"
+    },
+    {
+      "begriff": "Evolution",
+      "text": "Begriff aus der Legende des Phasenschaubilds (Folie 35): die **Wachstumsphase**. Dargestellt durch den schrägen Pfeil nach rechts oben.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Evolution: Wachstumsphase",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Revolution",
+      "text": "Begriff aus der Legende des Phasenschaubilds (Folie 35): die **Phase der Krise**. Dargestellt durch ein rotes Zickzack-Symbol an der Phasengrenze.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Revolution: Phase der Krise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Führungskrise",
+      "text": "Erste Krise im Phasenschaubild (Folie 35), am Ende von Phase 1 „Wachstum durch ‚Kreativität'“.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Autonomiekrise",
+      "text": "Zweite Krise im Phasenschaubild (Folie 35), am Ende von Phase 2 „Wachstum durch ‚Direktion'“.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Kontrollkrise",
+      "text": "Dritte Krise im Phasenschaubild (Folie 35), am Übergang von Phase 3 „Wachstum durch ‚Delegation, Selbstorganisation“ zu Phase 4.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Bürokratiekrise",
+      "text": "Vierte Krise im Phasenschaubild (Folie 35), in Phase 4 „Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'“.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Wachstumskrise, Visionskrise",
+      "text": "Die beiden Krisen, die im Phasenschaubild (Folie 35) bei Phase 5 unter „Ausgereiftes Wachstum“ stehen. Das Skript erklärt sie nicht weiter.",
+      "folien": [35],
+      "themen": ["m1-t6"],
+      "beleg": "Ausgereiftes Wachstum…Wachstumskrise, Visionskrise",
+      "belegQuelle": "folie-07"
+    }
+  ]
+}

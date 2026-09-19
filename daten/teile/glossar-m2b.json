@@ -1,0 +1,236 @@
+{
+  "begriffe": [
+    {
+      "begriff": "Determinanten unseres Verhaltens",
+      "text": "Titel und Schaubild der Folie 49: vier Felder um den Mittelbegriff Verhalten. Die vier Determinanten sind Können, Dürfen, Wollen und Sollen. Können und Wollen stehen auf der akteursbezogenen Seite, Dürfen und Sollen auf der kontextbezogenen.",
+      "folien": [49],
+      "themen": ["m2-t11"],
+      "beleg": "Schaubild (vier Felder um den Mittelbegriff Verhalten)",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Können",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für die **persönliche Qualifikation** und liegt auf der akteursbezogenen Seite.",
+      "folien": [49],
+      "themen": ["m2-t11"],
+      "beleg": "Können -> persönliche Qualifikation",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Dürfen",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für die **sozialen Normen** und liegt auf der kontextbezogenen Seite. Nicht mit Sollen verwechseln: Das steht für formale Mechanismen.",
+      "folien": [49],
+      "themen": ["m2-t11"],
+      "beleg": "Dürfen -> soziale Normen",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Wollen",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für **individuelle Motivation/Werte** und liegt auf der akteursbezogenen Seite. In der Zusammenfassung auf Folie 50 wird Wollen mit Motivation gleichgesetzt.",
+      "folien": [49, 50],
+      "themen": ["m2-t11", "m2-t12"],
+      "beleg": "Wollen -> individuelle Motivation/Werte",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Sollen",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für **formale Mechanismen** und liegt auf der kontextbezogenen Seite.",
+      "folien": [49],
+      "themen": ["m2-t11"],
+      "beleg": "Sollen -> formale Mechanismen",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "akteursbezogen",
+      "text": "Seitliche Beschriftung links am Schaubild der Folie 49, auf Höhe der Kästchen Können und Wollen. Diese beiden Determinanten liegen also beim handelnden Menschen selbst.",
+      "folien": [49],
+      "themen": ["m2-t11"],
+      "beleg": "Seitliche Beschriftungen: akteursbezogen (links), kontextbezogen (rechts)",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "kontextbezogen",
+      "text": "Seitliche Beschriftung rechts am Schaubild der Folie 49, auf Höhe der Kästchen Dürfen und Sollen. Diese beiden Determinanten liegen also im Umfeld, nicht in der Person.",
+      "folien": [49],
+      "themen": ["m2-t11"],
+      "beleg": "Seitliche Beschriftungen: akteursbezogen (links), kontextbezogen (rechts)",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Motive",
+      "text": "Bestimmen laut Zusammenfassung (Folie 50) das **langfristige** Verhalten und wirken auf die tendenziell kurzfristige Motivation.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Motive bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) Motivation.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Motivation",
+      "text": "Die **zum Handeln bewegende Kraft**. Sie erfordert Willen, die Volition, und ist tendenziell kurzfristig. Kurzfristig aktivieren lässt sie sich mittels adäquater Anreize.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Volition",
+      "text": "Der **Wille**, den Motivation erfordert: „Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.\" Mehr sagt das Skript zu diesem Begriff nicht; die Folie nennt ihn ausdrücklich als einen der Begriffe, die sie nicht erklärt.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Anreize",
+      "text": "Mittel, mit dem Motivation **kurzfristig** aktiviert werden kann. Bedingung laut Folie 50: Adäquate Anreize müssen mit den identifizierten Bedürfnissen der MA korrespondieren.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Motivstrukturen",
+      "text": "Das, worauf die Theorien von Maslow und Herzberg laut Folie 50 Hinweise geben. Führungskräfte sollen sie kennen, um passende Anreize und Motivatoren wählen zu können.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräume",
+      "text": "Der rot hervorgehobene Schlusssatz der Zusammenfassung (Folie 50) fasst alle genannten Motivatoren in diesem Begriff zusammen: „also Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen\".",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "MA",
+      "text": "Abkürzung, die das Skript auf Folie 50 benutzt, dort aber **nicht auflöst** (ebenso FK und wiss.). Sie steht in den Sätzen über die Bedürfnisse der MA und die MA-Zufriedenheit.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Abkürzungen werden benutzt, aber auf dieser Folie nicht aufgelöst: MA",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "FK",
+      "text": "Abkürzung, die das Skript auf Folie 50 benutzt, dort aber **nicht auflöst**. Sie steht im Satz: McClelland und Deci/Ryan liefern wiss. gut abgestützte Theorien, insbesondere zu Verhalten von FK.",
+      "folien": [50],
+      "themen": ["m2-t12"],
+      "beleg": "Abkürzungen werden benutzt, aber auf dieser Folie nicht aufgelöst: MA, FK",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Silodenken",
+      "text": "Auf Folie 51 als Teil des Kommunizierens genannt: „kein Silodenken\". **Im Skript nur genannt, nicht erklärt** – also in der Klausur nicht aus eigenem Wissen ausschmücken.",
+      "folien": [51],
+      "themen": ["m2-t13"],
+      "beleg": "Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)",
+      "belegQuelle": "folie-23"
+    },
+    {
+      "begriff": "Führungsleitbild",
+      "text": "Letzte der acht Führungsaktivitäten auf Folie 51: „modernes Führungsleitbild vorgeben und einhalten (s. MAF I)\". **Auf dieser Folie nur genannt, nicht erklärt**; der Klammerzusatz verweist auf die Vorlesung MAF I.",
+      "folien": [51],
+      "themen": ["m2-t13"],
+      "beleg": "modernes Führungsleitbild vorgeben und einhalten (s. MAF I)",
+      "belegQuelle": "folie-23"
+    },
+    {
+      "begriff": "Führungskompetenz",
+      "text": "Sechste der acht Führungsaktivitäten auf Folie 51: aktuelle Anforderungen an Führungskompetenz erfüllen und Antworten auf Entwicklungen geben können. Welche Anforderungen das sind, führt diese Folie nicht aus.",
+      "folien": [51],
+      "themen": ["m2-t13"],
+      "beleg": "aktuelle Anforderungen an Führungskompetenz erfüllen, Antworten auf Entwicklungen geben können",
+      "belegQuelle": "folie-23"
+    },
+    {
+      "begriff": "Feedback",
+      "text": "Inhaltlich laut Folie 52: das **konstruktive Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln**. Ziel: Schwachstellen aufzeigen/beseitigen, Effektivität/Effizienz steigern, Kooperation verbessern, also Veränderung bewirken. Es hat zwei Komponenten: Feedback geben und Feedback nehmen.",
+      "folien": [52],
+      "themen": ["m2-t14"],
+      "beleg": "Inhalt: konstruktives Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Feedbackgeber",
+      "text": "Die Seite, die Rückmeldung gibt. Die Folie 52 nennt neun Regeln, darunter: ungestört unter 4 Augen, sachlich und klar formulieren und nie auf die Person bezogen, erlebtes Verhalten spiegeln, in Ich-Botschaften sprechen, ausgewogen bleiben, nicht werten und selbst ebenfalls Feedback annehmen.",
+      "folien": [52],
+      "themen": ["m2-t14"],
+      "beleg": "formuliert nur sachlich und klar, nie auf die Person bezogen",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Feedbacknehmer",
+      "text": "Die Seite, die Rückmeldung bekommt. Die Folie 52 nennt sechs Regeln: genau zuhören und aussprechen lassen, nur Nachfragen stellen, sich nicht entschuldigen oder rechtfertigen, sich bedanken, das Gespräch gegebenenfalls stoppen und selbst innerlich über die Berechtigung des Gehörten entscheiden.",
+      "folien": [52],
+      "themen": ["m2-t14"],
+      "beleg": "hört genau zu und lässt aussprechen, unterbricht nicht",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Ich-Botschaften",
+      "text": "Regel für den Feedbackgeber auf Folie 52: Er spricht in Ich-Botschaften und **vermeidet Du/Sie-Botschaften**. Das Skript erläutert die beiden Formen nicht weiter.",
+      "folien": [52],
+      "themen": ["m2-t14"],
+      "beleg": "spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Bürokratische Hierarchien",
+      "text": "Organisationsform mit vier Merkmalen laut Folie 53: Sie begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche, verfügen über abgegrenzte Ablaufstrukturen, Entscheidungswege und Kommunikationspfade, bündeln Wissen und Machtmonopole und setzen extrinsische Anreizsysteme ein. Sie können Verhalten **in dynamischen Märkten** ungünstig beeinflussen.",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "extrinsische Anreizsysteme",
+      "text": "Eines der vier Merkmale bürokratischer Hierarchien auf Folie 53: Sie setzen extrinsische Anreizsysteme ein. Was genau darunter fällt, führt diese Folie nicht aus.",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "setzen extrinsische Anreizsysteme ein",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "blinde Flecken",
+      "text": "Erste Begründung der „Denn:\"-Liste auf Folie 53: Nähe und Kundengröße führt teilweise zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation. Die Organisation übersieht also, was außerhalb ihres gewohnten Blickfelds liegt.",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Erkenntnisbarrieren",
+      "text": "Auf Folie 53 gleichbedeutend neben „blinde Flecken\" der Organisation gestellt, ausgelöst durch Nähe und Kundengröße. Weiter erklärt das Skript den Begriff nicht.",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Wachstumsparadigma",
+      "text": "Zweite Begründung der „Denn:\"-Liste auf Folie 53: Das Wachstumsparadigma behindert die Sicht auf (noch) „kleine\" Wachstumschancen (weak signals). **Im Skript nur genannt, nicht erklärt.**",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "Wachstumsparadigma behindert Sicht auf (noch) „kleine\" Wachstumschancen (weak signals)",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "weak signals",
+      "text": "Auf Folie 53 als Klammerzusatz zu den (noch) „kleinen\" Wachstumschancen genannt, die das Wachstumsparadigma verdeckt. **Im Skript nur genannt, nicht erklärt.**",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "Wachstumsparadigma behindert Sicht auf (noch) „kleine\" Wachstumschancen (weak signals)",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Incentivierung",
+      "text": "Auf Folie 53 in der „Denn:\"-Liste: Planung/Steuerung inkl. Incentivierung erfolgt streng hierarchisch. **Im Skript nur genannt, nicht erklärt.**",
+      "folien": [53],
+      "themen": ["m2-t15"],
+      "beleg": "Planung/Steuerung inkl. Incentivierung erfolgt streng hierarchisch",
+      "belegQuelle": "folie-25"
+    }
+  ]
+}

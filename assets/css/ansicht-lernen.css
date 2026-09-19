@@ -1,0 +1,128 @@
+/* Ansichten "Modul" und "Thema": der Weg durch den Stoff.
+   Hier stehen nur Anordnung und Abstände. Knöpfe, Karten, Marken, Balken, Ampel, Listen und Reiter kommen
+   unverändert aus komponenten.css; Farben, Abstände und Radien ausschließlich über die Tokens. */
+
+/* ---------- Modul: Kopfzahlen ---------- */
+
+.modulstand {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: var(--a-4) var(--a-5);
+}
+.modulstand .ring { flex: none; }
+.modulstand__zahlen { flex: 1 1 15rem; min-width: 0; display: flex; flex-direction: column; gap: var(--a-3); }
+.modulstand__knopf { flex: none; }
+
+.kennzahlen { display: grid; grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr)); gap: var(--a-3) var(--a-4); }
+.kennzahl__titel {
+  font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--tinte-3);
+}
+.kennzahl__wert { font-family: var(--schrift-titel); font-size: var(--gr-l); line-height: 1.25; }
+.kennzahl__zusatz { font-size: var(--gr-s); color: var(--tinte-3); line-height: 1.35; }
+
+/* ---------- Modul: Themenliste ---------- */
+
+.themenliste__titel { margin-top: var(--a-6); }
+.themenliste__hinweis { margin-bottom: var(--a-3); }
+
+/* Ein Eintrag belegt drei Zeilen: Titel mit Marken, darunter die Zahlen, darunter der Balken über die
+   volle Breite. Die Ampel steht rechts neben dem Titel, damit sie schmal wie breit an derselben Stelle liegt. */
+.themenliste .eintrag { align-items: start; padding-top: var(--a-4); padding-bottom: var(--a-4); }
+.eintrag__haupt { min-width: 0; }
+.eintrag__marken { margin-top: var(--a-2); gap: var(--a-1) var(--a-2); }
+.themenliste .eintrag__neben { grid-column: 1; }
+.eintrag__balken { grid-column: 1 / -1; margin-top: var(--a-1); }
+.eintrag__pfeil { width: 1.25rem; height: 1.25rem; flex: none; color: var(--tinte-3); }
+
+@media (max-width: 30rem) {
+  .eintrag__pfeil { display: none; }
+}
+
+/* ---------- Thema: Kopf und Fortschritt ---------- */
+
+.themakopf__marken { margin-top: var(--a-3); gap: var(--a-1) var(--a-2); }
+
+.fortschritt { display: flex; flex-direction: column; gap: var(--a-2); margin-bottom: var(--a-5); }
+.fortschritt__schritte { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--a-2) var(--a-5); }
+.fortschritt__schritt {
+  display: flex; align-items: center; gap: var(--a-2); margin: 0;
+  font-size: var(--gr-s); font-weight: 650; color: var(--tinte-3);
+}
+.fortschritt__nummer {
+  flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%;
+  display: grid; place-items: center;
+  border: 1px solid var(--linie-stark); background: var(--flaeche);
+  font-size: var(--gr-xs); font-variant-numeric: tabular-nums;
+}
+.fortschritt__nummer svg { width: 0.9rem; height: 0.9rem; stroke-width: 2.6; }
+.fortschritt__schritt.ist-aktiv { color: var(--primaer); }
+.fortschritt__schritt.ist-aktiv .fortschritt__nummer { background: var(--primaer); border-color: var(--primaer); color: var(--auf-primaer); }
+.fortschritt__schritt.ist-erledigt { color: var(--gut); }
+.fortschritt__schritt.ist-erledigt .fortschritt__nummer { border-color: var(--gut); color: var(--gut); }
+.fortschritt__text { margin: 0; }
+
+/* Bühne: hier lösen Verstehen, Anwenden und Abschluss einander ab. Die Mindesthöhe hält die Seite ruhig,
+   wenn auf eine lange Lernkarte eine kurze Aufgabe folgt. */
+.themabuehne { min-height: 18rem; }
+
+/* ---------- Thema, Abschnitt 1: Verstehen ---------- */
+
+.kartenlauf { display: flex; flex-direction: column; gap: var(--a-4); }
+.kartenlauf__titel { margin: 0; }
+
+.kartenreiter__knopf { display: inline-flex; align-items: center; gap: 0.4em; padding: 0 var(--a-3); max-width: 13rem; }
+.kartenreiter__knopf > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.kartenreiter__knopf svg { width: 1rem; height: 1rem; flex: none; color: var(--gut); stroke-width: 2.4; }
+
+.lauf__navi { gap: var(--a-3); }
+@media (max-width: 34rem) {
+  /* Schmal teilen sich beide Knöpfe die Zeile; der Weg nach vorn bekommt den größeren Teil. */
+  .lauf__navi .knopf { flex: 1 1 0; min-width: 0; }
+  .lauf__navi .knopf--primaer { flex: 2 1 0; }
+}
+
+/* ---------- Thema, Abschnitt 2: Anwenden ---------- */
+
+.aufgabenlauf { display: flex; flex-direction: column; gap: var(--a-4); }
+.lauf__nachschlagen { justify-content: center; }
+
+/* ---------- Thema: Abschluss ---------- */
+
+.abschluss__ergebnis h2 { margin-bottom: var(--a-4); }
+.ergebniszahlen { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--a-2); }
+.ergebniszahl {
+  border: 1px solid var(--linie); border-radius: var(--radius-m);
+  background: var(--flaeche-2); padding: var(--a-3) var(--a-2); text-align: center;
+}
+.ergebniszahl__wert { font-family: var(--schrift-titel); font-size: var(--gr-2xl); line-height: 1.1; }
+.ergebniszahl__text {
+  display: flex; align-items: center; justify-content: center; gap: 0.3em;
+  margin-top: var(--a-1); font-size: var(--gr-s); color: var(--tinte-2);
+}
+.ergebniszahl__text svg { width: 1em; height: 1em; flex: none; stroke-width: 2.4; }
+.ergebniszahl--gut .ergebniszahl__wert, .ergebniszahl--gut .ergebniszahl__text { color: var(--gut); }
+.ergebniszahl--mittel .ergebniszahl__wert, .ergebniszahl--mittel .ergebniszahl__text { color: var(--mittel); }
+.ergebniszahl--schlecht .ergebniszahl__wert, .ergebniszahl--schlecht .ergebniszahl__text { color: var(--schlecht); }
+
+.abschluss__ergebnis .ergebniszahlen + p { margin-top: var(--a-2); }
+.abschluss__stand { margin-top: var(--a-4); gap: var(--a-1) var(--a-3); }
+.abschluss__stand + .balken { margin-top: var(--a-2); }
+
+.abschluss__stolper h3 { margin-bottom: var(--a-1); }
+.abschluss__stolper > p { margin-bottom: var(--a-3); }
+.stolperliste { list-style: none; margin: 0; padding: 0; }
+.stolperliste > li { margin: 0; padding: var(--a-3) 0; }
+.stolperliste > li + li { border-top: 1px solid var(--linie); }
+.stolperstelle__marken { gap: var(--a-1) var(--a-2); }
+.stolperstelle__kurz { margin: var(--a-2) 0 0; line-height: 1.5; }
+
+.abschluss__ueben { gap: var(--a-3); }
+.abschluss__weiter { display: flex; flex-direction: column; gap: var(--a-3); }
+.abschluss__weiter > .knopf--gross { width: 100%; padding: var(--a-3) var(--a-5); text-align: center; }
+.abschluss__weiter > p { margin: 0; }
+.abschluss__zurueck { gap: var(--a-3); }
+
+@media (max-width: 34rem) {
+  .modulstand__knopf { width: 100%; }
+  .abschluss__ueben .knopf, .abschluss__zurueck .knopf { flex: 1 1 100%; }
+}

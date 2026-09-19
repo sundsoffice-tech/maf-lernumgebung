@@ -1,0 +1,24 @@
+{
+  "personen": [
+    {
+      "name": "Lorenz",
+      "kurz": "Nachhaltigkeit der Nachricht",
+      "beitrag": "Das Skript verweist bei der vierten Ursache für Kommunikationsstörungen, „Nachhaltigkeit der Nachricht nicht abgeprüft“, auf Lorenz: erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention. Mehr sagt das Skript zu dieser Quelle nicht.",
+      "folien": [65],
+      "themen": ["m4-t4"],
+      "quelle": "skript",
+      "beleg": "s. Lorenz; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "name": "Michael Beckmann",
+      "kurz": "Urheber der Folien",
+      "beitrag": "Steht in der Fußzeile der Folien 62, 63, 64 und 65 als Urheber: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.",
+      "folien": [62, 63, 64, 65],
+      "themen": ["m4-t1", "m4-t2", "m4-t3", "m4-t4"],
+      "quelle": "skript",
+      "beleg": "DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann",
+      "belegQuelle": "folie-34"
+    }
+  ]
+}

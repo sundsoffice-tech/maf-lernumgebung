@@ -1,0 +1,92 @@
+/* Ansichten Start (#/), Lernplan (#/plan), Mehr (#/mehr) und Einstellungen (#/einstellungen).
+   Nur Tokens, keine eigenen Farben und Maße. Schmal zuerst; die zweite Spalte kommt aus
+   .raster--haupt (basis.css) erst ab 64rem dazu. */
+
+/* Start: der eine nächste Schritt */
+.cockpit__schritt { margin-bottom: var(--a-4); }
+.cockpit__schrittknopf {
+  min-height: 3.5rem;
+  padding: var(--a-3) var(--a-4);
+  text-align: center;
+}
+.cockpit__schrittknopf span { text-wrap: balance; }
+.cockpit__warum { margin: var(--a-3) 0 0; }
+
+.cockpit__raster { margin-top: var(--a-4); }
+
+/* Start: Zeitbudget, Klausurtermin */
+.cockpit__zeit { display: flex; align-items: center; gap: var(--a-4); flex-wrap: wrap; }
+/* Etwas größerer Ring: "von 10 Std" braucht innen Platz */
+.cockpit__zeit .ring { width: 8rem; height: 8rem; }
+.cockpit__zeit .ring__innen { width: 6.2rem; height: 6.2rem; }
+.cockpit__zeittext { flex: 1 1 10rem; min-width: 0; max-width: 34rem; }
+.cockpit__resttext { margin: 0; color: var(--tinte-2); }
+.cockpit__klausurfeld { max-width: 22rem; }
+.cockpit__klausur { margin: 0; font-size: var(--gr-l); font-weight: 650; }
+.cockpit__klausurfeld p { margin: 0; }
+
+.cockpit__grosszahl {
+  font-family: var(--schrift-titel); font-size: var(--gr-2xl); font-weight: 700; line-height: 1.1;
+}
+
+/* Start: Modulkarten */
+.cockpit__modul { display: flex; flex-direction: column; gap: var(--a-2); }
+.cockpit__modul .karte__titel { margin: 0; font-size: var(--gr-l); }
+.cockpit__modul p { margin: 0; }
+
+/* Start: Einführung beim allerersten Besuch */
+.cockpit__einfuehrung { list-style: none; margin: 0; padding: 0; counter-reset: schritt; }
+.cockpit__einfuehrung li {
+  position: relative; counter-increment: schritt;
+  padding-left: 2.75rem; margin-bottom: var(--a-4);
+}
+.cockpit__einfuehrung li:last-child { margin-bottom: 0; }
+.cockpit__einfuehrung li::before {
+  content: counter(schritt);
+  position: absolute; left: 0; top: 0.1em;
+  width: 1.9rem; height: 1.9rem; border-radius: 50%;
+  background: var(--primaer-sanft); color: var(--primaer);
+  display: grid; place-items: center;
+  font-size: var(--gr-s); font-weight: 700; font-variant-numeric: tabular-nums;
+}
+.cockpit__einfuehrung strong { display: block; }
+.cockpit__einfuehrung span { color: var(--tinte-2); }
+
+/* Lernplan: zwei Lerntage, je Modul ein aufklappbarer Block */
+.plan__tag { margin-top: var(--a-6); }
+.plan__tagkopf h2 { margin-bottom: var(--a-1); }
+.plan__tagkopf p { margin: 0; }
+.plan__modul > summary { flex-wrap: wrap; align-items: flex-start; }
+.plan__modulkopf { display: flex; flex-direction: column; gap: var(--a-1); flex: 1 1 13rem; min-width: 0; }
+.plan__modultitel { font-family: var(--schrift-titel); font-size: var(--gr-l); }
+.plan__modulneben { gap: var(--a-1) var(--a-2); }
+.plan__modulzeit { white-space: nowrap; font-weight: 500; }
+.plan__themazeile { gap: var(--a-1) var(--a-2); }
+.plan__modul .aufklapp__inhalt > p:last-child { margin-bottom: 0; }
+
+/* Mehr: Verteilerkarten */
+.mehr__karte { display: flex; gap: var(--a-4); align-items: flex-start; }
+.mehr__symbol {
+  flex: none; width: 2.75rem; height: 2.75rem; border-radius: 50%;
+  background: var(--primaer-sanft); color: var(--primaer);
+  display: grid; place-items: center;
+}
+.mehr__symbol svg { width: 1.4rem; height: 1.4rem; }
+.mehr__karte .karte__titel { margin-bottom: var(--a-1); font-size: var(--gr-xl); }
+.mehr__text { margin: 0; }
+.mehr__fuss { margin-top: var(--a-5); }
+
+/* Einstellungen */
+.einst__wahl { display: flex; flex-wrap: wrap; gap: var(--a-2); }
+.einst__wahl .knopf[aria-pressed="true"],
+.einst__wahl .knopf[aria-pressed="true"]:hover {
+  background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer);
+}
+.einst__datei { padding: 0.5rem 0.65rem; }
+.einst__datei::file-selector-button {
+  font: inherit; margin-right: var(--a-3);
+  min-height: 2rem; padding: 0 var(--a-3);
+  border: 1px solid var(--linie-stark); border-radius: var(--radius-s);
+  background: var(--flaeche-2); color: var(--tinte); cursor: pointer;
+}
+.einst__meldung:empty { display: none; }

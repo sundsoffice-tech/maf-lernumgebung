@@ -1,0 +1,3290 @@
+{
+  "begriffe": [
+    {
+      "begriff": "(Alters-)Kohorten",
+      "text": "Auf Folie 77 in der Frage „Und wie werden welche (Alters-)Kohorten angesprochen und involviert?“ genannt. Die Folie beantwortet die Frage nicht und erklärt den Begriff nicht.",
+      "folien": [
+        77
+      ],
+      "themen": [
+        "m6-t2"
+      ],
+      "beleg": "Und wie werden welche (Alters-)Kohorten angesprochen und involviert?",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "100% bzw. IST",
+      "text": "Rote Beschriftung an der waagerechten blauen Bezugslinie der Change-Kurve. Sie markiert das Ausgangsniveau der Leistung, von dem aus die Kurve absackt und über das sie am Ende wieder hinaussteigt.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t4"
+      ],
+      "beleg": "Leistungsniveau 100% bzw. IST",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "2-Schritt-Technik",
+      "text": "Mittel beim Erfragen angewandten Verhaltens: 1.) Einstiegsfrage platzieren 2.) vertiefendes Hinterfragen unter 1.) erhaltener Informationen.",
+      "folien": [
+        69
+      ],
+      "themen": [
+        "m5-t1"
+      ],
+      "beleg": "1.) Einstiegsfrage platzieren 2.) vertiefendes Hinterfragen unter 1.) erhaltener Informationen",
+      "belegQuelle": "folie-41"
+    },
+    {
+      "begriff": "3-Schritt-Modell",
+      "text": "Change-Modell von Kurt Lewin, im Skript mit 1951 angegeben: Auftauen, Verändern, Einfrieren.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t3"
+      ],
+      "beleg": "Kurt Lewins 3-Schritt-Modell (1951) Auftauen Verändern Einfrieren",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "5 Phasen der Psychologie von Gruppen",
+      "text": "Modell der Entwicklung von Gruppen, im Skript {{Tuckman}} zugeschrieben: Forming, Storming, Norming, Performing, Re-Forming. Zusatz der Folie: kein linearer Prozess, unterliegt Sprüngen und Zyklen.",
+      "folien": [
+        55
+      ],
+      "themen": [
+        "m3-t2"
+      ],
+      "beleg": "5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "8-Schritt-Modell",
+      "text": "Change-Modell von John Kotter, im Skript mit 1995 angegeben: Dringlichkeit erzeugen, Etablierung Führungsteam, Vision entwickeln, Vision kommunizieren, Befähigung/ Bevollmächtigung, kfr. Ziele erreichen/ Erfolge erzielen, erreichte Ziele/ Erfolge sichern, Konsolidierung/ Change kultivieren.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t3"
+      ],
+      "beleg": "John Kotters 8-Schritt-Modell (1995)",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Abgleich Fremdbild/Vorgesetzter",
+      "text": "Dritte Phase des Leitfadens: Der Vorgesetzte gibt Feedback, bestätigt und begründet gemeinsame Einschätzungen, lobt, spricht Schwächen sachlich an; die Ursachen für differierende Sichtweisen werden gemeinsam besprochen und geklärt.",
+      "folien": [
+        70
+      ],
+      "themen": [
+        "m5-t2"
+      ],
+      "beleg": "Vorgesetzter gibt Feedback und bestätigt/begründet gemeinsame Einschätzungen",
+      "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "Active resistance",
+      "text": "Sechste Stufe der Pfeilkette auf Folie 79, zwischen Passive und Aggressive resistance. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Passive resistance > Active resistance > Aggressive resistance",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "adaptives Problem",
+      "text": "Zweite Problemart nach Heifetz: Problem z.T. schwer eingrenzbar, Lösungsraum nicht sofort evident, Änderungen in Verhalten, Werten, Einstellungen erforderlich. Die Folie hebt den letzten Punkt rot hervor.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "adaptives Problem: … Lösungsraum nicht sofort evident",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Aggressive resistance",
+      "text": "Siebte und letzte Stufe der Pfeilkette auf Folie 79, die schärfste Form von Widerstand. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Active resistance > Aggressive resistance",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "akteursbezogen",
+      "text": "Seitliche Beschriftung links am Schaubild der Folie 49, auf Höhe der Kästchen Können und Wollen. Diese beiden Determinanten liegen also beim handelnden Menschen selbst.",
+      "folien": [
+        49
+      ],
+      "themen": [
+        "m2-t11"
+      ],
+      "beleg": "Seitliche Beschriftungen: akteursbezogen (links), kontextbezogen (rechts)",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "algorithmische Aufgaben",
+      "text": "Bei Dan Pink einfache, regelbasierte Aufgaben. Für sie funktionieren Wenn-dann-Belohnungen (Zuckerbrot und Peitsche) gut.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t4"
+      ],
+      "beleg": "Für einfache, regelbasierte („algorithmische“) Aufgaben funktionieren „Wenn-dann“-Belohnungen (Zuckerbrot und Peitsche) gut.",
+      "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Ambiguitätstoleranz",
+      "text": "Eines der vier Persönlichkeitskonstrukte, die das Skript mit Ausprägung, Richtung und Stärke nennt. Erklärt wird es auf der Folie nicht.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Ausprägungen/Richtung/Stärke von Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "angewandtes Verhalten",
+      "text": "Der Weg des Skripts im Auswahlgespräch: angewandtes Verhalten erfragen, vertiefen und beurteilen. Gefragt wird nach Verhalten, das die Person in ihrer beruflichen Praxis bereits gezeigt hat.",
+      "folien": [
+        69
+      ],
+      "themen": [
+        "m5-t1"
+      ],
+      "beleg": "angewandtes Verhalten erfragen, vertiefen und beurteilen",
+      "belegQuelle": "folie-41"
+    },
+    {
+      "begriff": "Anreize",
+      "text": "Mittel, mit dem Motivation **kurzfristig** aktiviert werden kann. Bedingung laut Folie 50: Adäquate Anreize müssen mit den identifizierten Bedürfnissen der MA korrespondieren.",
+      "folien": [
+        50
+      ],
+      "themen": [
+        "m2-t12"
+      ],
+      "beleg": "Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Apathy",
+      "text": "Vierte und mittlere Stufe der Pfeilkette auf Folie 79, zwischen Support und Passive resistance. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Support > Apathy > Passive resistance",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Arbeitszufriedenheit",
+      "text": "Bei Herzberg ein zweidimensionales Konzept: unzufrieden / nicht unzufrieden auf der Seite der Hygienefaktoren, zufrieden / nicht zufrieden auf der Seite der Motivatoren.",
+      "folien": [
+        47
+      ],
+      "themen": [
+        "m2-t6"
+      ],
+      "beleg": "Arbeitszufriedenheit  als zweidimensionales Konzept",
+      "belegQuelle": "folie-19"
+    },
+    {
+      "begriff": "Assimilation",
+      "text": "Richtung innerhalb der Assimilations-Kontrast-Theorie: nahe Einstellungen verdecken Differenzen.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "nahe Einstellungen (Assimilation) verdecken Differenzen",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Assimilations-Kontrast-Theorie",
+      "text": "Theoretische Grundlage: Menschen benutzen bei der Beurteilung Anderer eigene Einstellungen als Anker. Folge laut Skript: FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Menschen benutzen bei Beurteilung Anderer eigene Einstellungen als Anker",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Attraktivitäts-Stereotyp",
+      "text": "Die zweite Ursache von Sympathie, die das Skript nennt. Weiter erläutert wird der Begriff an dieser Stelle nicht.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "Sympathie aufgrund Nähe-Effekt (längere Bekanntschaft) oder Attraktivitäts-Stereotyp",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Attributionsfehler",
+      "text": "Fehler bei der Ursachenzuschreibung: Bei der Verhaltensbeurteilung werden bestimmte Eigenschaften als Ursache für das Handeln betrachtet. Grundsatz des Skripts ist dagegen, dass Verhalten durch Persönlichkeitsmerkmale und Kontext bestimmt wird.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "bei Verhaltensbeurteilung werden bestimmte Eigenschaften als Ursache für das Handeln betrachtet",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Aufgabenorientierung",
+      "text": "Eine der beiden Dimensionen, die sich durch die Übersicht Führungsstile ziehen. In den Ohio-Studien heißt sie Initiating Structure, in den Michigan-Studien „production centered\". Laut Zusammenfassung dient sie der Erhöhung der MA-Leistung.",
+      "folien": [
+        39,
+        42
+      ],
+      "themen": [
+        "m1-t14",
+        "m1-t17"
+      ],
+      "beleg": "Aufgabenorientierung zur Erhöhung der MA-Leistung",
+      "belegQuelle": "folie-14"
+    },
+    {
+      "begriff": "Autonomie",
+      "text": "Bei Dan Pink der erste von drei Antrieben: der Drang, unser Leben eigenständig zu lenken. In der RSA-Quelle als Wunsch nach Selbstbestimmung bezeichnet.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t4"
+      ],
+      "beleg": "Autonomie: der Drang, unser Leben eigenständig zu lenken.",
+      "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Autonomiekrise",
+      "text": "Zweite Krise im Phasenschaubild (Folie 35), am Ende von Phase 2 „Wachstum durch ‚Direktion'“.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "autoritär",
+      "text": "Einer der drei grundlegenden Führungsstile. Verhalten: strikte Anweisungen und Kontrolle, Leiter entscheidet allein, wenig Kommunikation zwischen Gruppenmitgliedern. Werte: Ordnung und Disziplin, Unterordnung und Anpassung. Leistung kurzfristig hoch, langfristig droht Abfall.",
+      "folien": [
+        40,
+        41
+      ],
+      "themen": [
+        "m1-t15",
+        "m1-t16"
+      ],
+      "beleg": "strikte Anweisungen und Kontrolle",
+      "belegQuelle": "folie-13"
+    },
+    {
+      "begriff": "Bedürfnispyramide",
+      "text": "Maslows Modell auf Folie 46: fünf Stufen von den Physiologischen Bedürfnissen über Sicherheits-, Soziale und Individualbedürfnisse bis zur Selbstverwirklichung. Beobachtetes Verhalten wird auf bestimmte Bedürfnisse zurückgeführt.",
+      "folien": [
+        46
+      ],
+      "themen": [
+        "m2-t5"
+      ],
+      "beleg": "Maslow's Bedürfnispyramide",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "Beeinflussung",
+      "text": "Erster der drei Mechanismen, die das Skript als häufige Ursachen der gruppendynamischen Kennzeichen nennt: Im Verlauf ändern Mitglieder ihre Meinung und ziehen andere mit.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t14"
+      ],
+      "beleg": "im Verlauf ändern Mitglieder ihre Meinung und „ziehen andere mit“",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Behaviorismus",
+      "text": "Stichwort, unter dem sich die Betrachtung dem Verhalten der Führungskraft zuwendet. Die Folie verbindet es mit dem Satz: Verhalten, also auch Führung, ist erlernbar! Weiter erklärt wird der Begriff im Skript nicht.",
+      "folien": [
+        40
+      ],
+      "themen": [
+        "m1-t15"
+      ],
+      "beleg": "dem Verhalten von FK zugewandt (Behaviorismus): Verhalten, also auch Führung, ist erlernbar!",
+      "belegQuelle": "folie-12"
+    },
+    {
+      "begriff": "Belohnungsaufschub",
+      "text": "Eines der vier Persönlichkeitskonstrukte, die das Skript mit Ausprägung, Richtung und Stärke nennt. Erklärt wird es auf der Folie nicht.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Ausprägungen/Richtung/Stärke von Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Benjamin-Effekt",
+      "text": "Pauschale Unterschätzung der Fähigkeiten aufgrund von Alter, Dauer der Unternehmenszugehörigkeit und Ähnlichem. Woher der Name stammt, erklärt das Skript nicht.",
+      "folien": [
+        73
+      ],
+      "themen": [
+        "m5-t12"
+      ],
+      "beleg": "Benjamin-Effekt beschreibt pauschale Unterschätzung der Fähigkeiten aufgrund Alter, Dauer der Unternehmenszugehörigkeit, etc.",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Beobachtungs-/Beurteilungsfehler",
+      "text": "Das Skript unterscheidet grundsätzlich 2 Typen: allgemeine vs. persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "allgemeine vs. persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "best practices",
+      "text": "Auf Folie 77 bei den einfachen Problemen genannt: „Routinen, ggf. best practices“. Das Skript erklärt den Begriff nicht.",
+      "folien": [
+        77
+      ],
+      "themen": [
+        "m6-t2"
+      ],
+      "beleg": "einfache Probleme: … Routinen, ggf. best practices",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Bestimmung",
+      "text": "In der offiziellen deutschen TED-Übersetzung von Dan Pinks Vortrag das Wort für purpose: die Sehnsucht zu tun, was wir im Dienste von etwas Größerem als wir selbst tun. Die RSA-Quelle nennt denselben Faktor Sinn.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t4"
+      ],
+      "beleg": "Bestimmung: die Sehnsucht zu tun, was wir im Dienste von etwas Größerem als wir selbst tun.",
+      "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Beurteilungsbogen",
+      "text": "Dokument, in dem am Ende des Gesprächs die Ergebnisse zusammengefasst werden (Phase Abschluss).",
+      "folien": [
+        70
+      ],
+      "themen": [
+        "m5-t2"
+      ],
+      "beleg": "Ergebnisse in Beurteilungsbogen zusammenfassen",
+      "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "blinde Flecken",
+      "text": "Erste Begründung der „Denn:\"-Liste auf Folie 53: Nähe und Kundengröße führt teilweise zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation. Die Organisation übersieht also, was außerhalb ihres gewohnten Blickfelds liegt.",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Brainwriting",
+      "text": "Im Skript nur genannt, nicht erklärt. Es steht in der Abhilfeliste gegen die Nivellierung, zusammen mit der Metaplan-Technik. Eine Beschreibung des Verfahrens gehört nicht zum Skript.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t14"
+      ],
+      "beleg": "Brainwriting und/oder Metaplan-Technik",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "break-down",
+      "text": "Auf Folie 68 in der Phase Leistungsziele: break-down der Unternehmensziele auf Bereichs-/Abteilungsebene erklären. Die Folie erklärt den Ausdruck nicht; in der Phase Vereinbarung verwendet sie das deutsche Wort: Maßnahmen herunterbrechen.",
+      "folien": [
+        68
+      ],
+      "themen": [
+        "m4-t13"
+      ],
+      "beleg": "break-down der Unternehmensziele auf Bereichs-/Abteilungsebene erklären",
+      "belegQuelle": "folie-40"
+    },
+    {
+      "begriff": "Bringschuld",
+      "text": "Im Skript ohne Definition, nur als Zuordnung hinter einem Punkt der Aufzählung: Erklärung zu Neben-, Rück- und Folgewirkungen der Ereignisse, Beschlüsse und Änderungen für die Organisation und Einordnung in einen Gesamtzusammenhang.",
+      "folien": [
+        62
+      ],
+      "themen": [
+        "m4-t1"
+      ],
+      "beleg": "Einordnung in einen Gesamtzusammenhang (Bringschuld)",
+      "belegQuelle": "folie-34"
+    },
+    {
+      "begriff": "Bürokratiekrise",
+      "text": "Vierte Krise im Phasenschaubild (Folie 35), in Phase 4 „Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'“.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Bürokratische Hierarchien",
+      "text": "Organisationsform mit vier Merkmalen laut Folie 53: Sie begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche, verfügen über abgegrenzte Ablaufstrukturen, Entscheidungswege und Kommunikationspfade, bündeln Wissen und Machtmonopole und setzen extrinsische Anreizsysteme ein. Sie können Verhalten **in dynamischen Märkten** ungünstig beeinflussen.",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Change-Kurve",
+      "text": "Kurvendiagramm auf Folie 78 unter der Unterzeile „Traditionelles Vorgehen im akuten Change I: Change-Modelle / Change-Kurve“. Es zeigt das Leistungsniveau über der Zeit mit acht Stationen von Vorahnung/ Gerüchte bis Integration/ Manifestation.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t4"
+      ],
+      "beleg": "Traditionelles Vorgehen im akuten Change I: Change-Modelle / Change-Kurve",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Change-Management & Zukunft der Führung",
+      "text": "Überschrift des Kapitels in MAF VI. Der hier erfasste Teil trägt die Unterzeile „Richtiges und gutes Change-Management“ und behandelt Problemarten, Change-Modelle, die Change-Kurve und den Umgang mit Widerstand.",
+      "folien": [
+        76,
+        77,
+        78,
+        79
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2",
+        "m6-t3",
+        "m6-t4",
+        "m6-t5",
+        "m6-t6"
+      ],
+      "beleg": "Change-Management & Zukunft der Führung",
+      "belegQuelle": "folie-48"
+    },
+    {
+      "begriff": "chaotische Probleme",
+      "text": "Vierte Problemart nach Gomez/Probst: höchste Umweltdynamik, Stress, Engpassfaktor Zeit, autoritäres Management nötig, Notfallpläne vorhalten & üben.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "chaotische Probleme: … höchste Umweltdynamik, Stress",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Codierung",
+      "text": "Das Skript nennt als Sender-/Empfängerfehler die falsche „Codierung“ zwischen unterschiedlichen Spezialisten. Das Wort steht auf der Folie in Anführungszeichen und wird nicht weiter erklärt.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "falsche „Codierung“ zwischen unterschiedlichen Spezialisten",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Commitment",
+      "text": "Erste, linke Stufe der Pfeilkette auf Folie 79, also die stärkste Zustimmung. Die Folie erläutert die Kette nicht und nennt keine Quelle.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Commitment > Involvement > Support > Apathy",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "complex man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder: flexibel, anpassungs- und wandlungsfähig.",
+      "folien": [
+        32
+      ],
+      "themen": [
+        "m1-t3"
+      ],
+      "beleg": "„complex man“ | ...flexibel, anpassungs- und wandlungsfähig",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "Consideration",
+      "text": "Begriff der Ohio-Studien (Fleishman/Hemphill) für die Mitarbeiterorientierung. Die Folie setzt die Übersetzung selbst in Klammern dahinter.",
+      "folien": [
+        39
+      ],
+      "themen": [
+        "m1-t14"
+      ],
+      "beleg": "Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung)",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Critical Incident",
+      "text": "Ein prägnantes Ereignis, das den Halo-Effekt auslösen kann. Das Skript nennt den Ausdruck nur in Klammern und erklärt ihn nicht weiter.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "herausragende Einzelkompetenz, Eigenschaft oder prägnantes Ereignis",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "critical problems",
+      "text": "Dritte Problemart nach Grint: plötzliche Krise, Schocksituation, taktischer Lösungsraum, Kommandos, Antworten geben, kurzfristige Wirksamkeit.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "critical problems: … plötzliche Krise; Schocksituation",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Defizitmotive",
+      "text": "Bei Maslow die Klammer über die vier unteren Stufen der Pyramide (Individualbedürfnisse, Soziale Bedürfnisse, Sicherheitsbedürfnisse, Physiologische Bedürfnisse). Ihre Befriedigung führt noch nicht zum vollständigen Wohlergehen.",
+      "folien": [
+        46,
+        48
+      ],
+      "themen": [
+        "m2-t5",
+        "m2-t7"
+      ],
+      "beleg": "Befriedigung von Defizitmotiven führt noch nicht zum vollständigen Wohlergehen",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "demokratisch",
+      "text": "Einer der drei grundlegenden Führungsstile. Verhalten: gemeinsame Beratung und Entscheidungen, Verantwortung und Kompetenz der Gruppe wird gestärkt. Leistung: hoch und beständig, die Gruppe kann zeitweilig auch ohne Leitung arbeiten, Vorstufe zu Selbstorganisation.",
+      "folien": [
+        40,
+        41
+      ],
+      "themen": [
+        "m1-t15",
+        "m1-t16"
+      ],
+      "beleg": "gemeinsame Beratung und Entscheidungen",
+      "belegQuelle": "folie-13"
+    },
+    {
+      "begriff": "Demotivatoren",
+      "text": "Auf Folie 48 genannt, aber nicht erklärt: Bei bereits motivierten Mitarbeitern soll der Abbau frustrierender Demotivatoren im Fokus stehen, statt extrinsische Motivationsprogramme aufzulegen (siehe Sprenger).",
+      "folien": [
+        48
+      ],
+      "themen": [
+        "m2-t7"
+      ],
+      "beleg": "auf Abbau (frustrierender) Demotivatoren fokussieren",
+      "belegQuelle": "folie-20"
+    },
+    {
+      "begriff": "Determinanten des Wertewandels",
+      "text": "Die sechs Treiber des Wertewandels laut Folie 33: Strukturbrüche, techn. Umbrüche, Diversifizierung, Org.strukturen, Sinnsuche, Work/Life-Balance. Unverändert bleiben dagegen Leistung & Exzellenz.",
+      "folien": [
+        33
+      ],
+      "themen": [
+        "m1-t4"
+      ],
+      "beleg": "Determinanten des Wertewandels:",
+      "belegQuelle": "folie-05"
+    },
+    {
+      "begriff": "Determinanten unseres Verhaltens",
+      "text": "Titel und Schaubild der Folie 49: vier Felder um den Mittelbegriff Verhalten. Die vier Determinanten sind Können, Dürfen, Wollen und Sollen. Können und Wollen stehen auf der akteursbezogenen Seite, Dürfen und Sollen auf der kontextbezogenen.",
+      "folien": [
+        49
+      ],
+      "themen": [
+        "m2-t11"
+      ],
+      "beleg": "Schaubild (vier Felder um den Mittelbegriff Verhalten)",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Differenzierung",
+      "text": "Dritter der drei Mechanismen: Mitglieder passen sich an, differenzieren aber den Sinneswandel.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t14"
+      ],
+      "beleg": "Mitglieder passen sich an, differenzieren aber den Sinneswandel",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Dips",
+      "text": "Im Ziel der Folie 79 genannt: „Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation“. Die Folie setzt den Begriff in Anführungszeichen, erklärt ihn aber nicht.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t6"
+      ],
+      "beleg": "Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "direkte Führung",
+      "text": "Eine der zwei Führungsdimensionen: personal-interaktiv, in einer strukturierten Arbeitssituation. Beeinflussung durch Kommunikation, also direkt, interaktiv, situativ und ggf. individualisiert, zur Umsetzung indirekter Führung.",
+      "folien": [
+        37,
+        38
+      ],
+      "themen": [
+        "m1-t12",
+        "m1-t13"
+      ],
+      "beleg": "direkte Führung -> personal-interaktiv -> in einer strukturierten Arbeitssituation",
+      "belegQuelle": "folie-10"
+    },
+    {
+      "begriff": "Dissonanzreduktion",
+      "text": "Einer der beiden Auswege bei kognitiver Dissonanz: Widersprüche aushalten oder Herstellung Gleichgewicht durch Dissonanzreduktion.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Widersprüche aushalten oder Herstellung Gleichgewicht durch Dissonanzreduktion",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Diversity-Aspekte",
+      "text": "Siebter und letzter Punkt der Zusammenfassung auf Folie 67: Diversity-Aspekte bei Kommunikation/Information beachten! Die Folie erklärt nicht, was damit gemeint ist.",
+      "folien": [
+        67
+      ],
+      "themen": [
+        "m4-t12"
+      ],
+      "beleg": "Diversity-Aspekte bei Kommunikation/Information beachten!",
+      "belegQuelle": "folie-39"
+    },
+    {
+      "begriff": "Double bind",
+      "text": "Dritte der vier Ursachen für Kommunikationsstörungen. Das Skript umschreibt sie mit einem Satz: Widerspruch zwischen Inhalt und Form der Übermittlung, dadurch Urteil nach dem WIE statt nach dem WAS der Nachricht. Eine Definition gibt das Skript nicht, auch nicht dort, wo der Begriff ein zweites Mal auftaucht.\n\nVierter der vier Ansatzpunkte auf Folie 66: **Vermeidung ‚Double bind‘**. Was ein Double bind ist, erklärt diese Folie nicht. Sie nennt nur die Gegenmaßnahme: synchrone verbale und non-verbale Kommunikation.",
+      "folien": [
+        65,
+        66
+      ],
+      "themen": [
+        "m4-t4",
+        "m4-t11"
+      ],
+      "beleg": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Dürfen",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für die **sozialen Normen** und liegt auf der kontextbezogenen Seite. Nicht mit Sollen verwechseln: Das steht für formale Mechanismen.",
+      "folien": [
+        49
+      ],
+      "themen": [
+        "m2-t11"
+      ],
+      "beleg": "Dürfen -> soziale Normen",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "einfache Probleme",
+      "text": "Erste Problemart nach Gomez/Probst: monokausale Zusammenhänge, eine Antwort, keine Optionen, Routinen, ggf. best practices.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "einfache Probleme: … monokausale Zusammenhänge",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Eisenhower-Matrix",
+      "text": "Auf Folie 66 unter Reduktion Kommunikationsmangel/Informationsmangel genannt: Zeitmanagement gemäß Eisenhower-Matrix (s. Vorlesung III) konsequent anwenden. Die Folie erklärt die Matrix nicht, sondern verweist auf Vorlesung III.",
+      "folien": [
+        66
+      ],
+      "themen": [
+        "m4-t11"
+      ],
+      "beleg": "Zeitmanagement gemäß Eisenhower-Matrix (s. Vorlesung III) konsequent anwenden",
+      "belegQuelle": "folie-38"
+    },
+    {
+      "begriff": "emotionale Akzeptanz",
+      "text": "Station der Change-Kurve und ihr tiefster Punkt, auf der Folie mit einem roten Ausrufezeichen markiert. Ein roter Doppelpfeil verbindet sie senkrecht mit der Linie 100% bzw. IST. Sie folgt auf die rationale Akzeptanz.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t4"
+      ],
+      "beleg": "emotionale Akzeptanz mit einem roten Ausrufezeichen ! (tiefster Punkt der Kurve)",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Empfängerfehler",
+      "text": "Dritter der vier Ansatzpunkte auf Folie 66: **Umgehung Empfängerfehler**. Die Folie nennt dazu genau eine Zeile: Aufmerksamkeit, keine Ablenkung, Blick-Kontakt, Nachfragen, keine Wertungen vornehmen.",
+      "folien": [
+        66
+      ],
+      "themen": [
+        "m4-t11"
+      ],
+      "beleg": "Aufmerksamkeit, keine Ablenkung, Blick-Kontakt, Nachfragen, keine Wertungen vornehmen",
+      "belegQuelle": "folie-38"
+    },
+    {
+      "begriff": "Empowerment",
+      "text": "Auf Folie 79 als Maßnahme genannt: „Empathie, Empowerment anwenden“. Das Skript erklärt den Begriff an dieser Stelle nicht.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t6"
+      ],
+      "beleg": "Empathie, Empowerment anwenden",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräume",
+      "text": "Der rot hervorgehobene Schlusssatz der Zusammenfassung (Folie 50) fasst alle genannten Motivatoren in diesem Begriff zusammen: „also Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen\".",
+      "folien": [
+        50
+      ],
+      "themen": [
+        "m2-t12"
+      ],
+      "beleg": "Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Entscheidungspartizipation",
+      "text": "Führungs-Dimension in der Übersicht Führungsstile, und zwar bei Tannenbaum/Schmidt und bei Wunderer. Wunderer setzt „Teilhabe\" in Klammern dahinter und stellt ihr die wechselseitige Kooperation (Teilnahme) zur Seite. Was das Skript unter Entscheidungspartizipation genau versteht, erklärt es nicht.",
+      "folien": [
+        39
+      ],
+      "themen": [
+        "m1-t14"
+      ],
+      "beleg": "Tannenbaum/Schmidt — Dimension Entscheidungspartizipation, Stile autoritär, patriarchalisch",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Entwicklungstypen",
+      "text": "Die vier Unternehmenstypen des Schaubilds nach Gomez/Zimmermann, von links nach rechts: Pionier-Unternehmen, Wachstums-Unternehmen, Reife-Unternehmen, Wende-Unternehmen.",
+      "folien": [
+        34
+      ],
+      "themen": [
+        "m1-t5"
+      ],
+      "beleg": "„Pionier-Unternehmen“, „Wachstums-Unternehmen“, „Reife-Unternehmen“, „Wende-Unternehmen“",
+      "belegQuelle": "folie-06"
+    },
+    {
+      "begriff": "Ergebnisverantwortung",
+      "text": "Die Hauptaufgabe von Führung laut Skript: **ERGEBNIS**verantwortung übernehmen. Gemessen wird sie am KPI Leistung & Exzellenz, und zwar stets im Kontext.",
+      "folien": [
+        30
+      ],
+      "themen": [
+        "m1-t1"
+      ],
+      "beleg": "Was ist die Hauptaufgabe von Führung?…ERGEBNISverantwortung übernehmen",
+      "belegQuelle": "folie-02"
+    },
+    {
+      "begriff": "Erkenntnisbarrieren",
+      "text": "Auf Folie 53 gleichbedeutend neben „blinde Flecken\" der Organisation gestellt, ausgelöst durch Nähe und Kundengröße. Weiter erklärt das Skript den Begriff nicht.",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Erosion intrinsischer Motivation",
+      "text": "Die auf Folie 44 hervorgehobene Gefahr, dass falsche extrinsische Anreize vorhandene intrinsische Motivation aushöhlen und entwerten.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t2"
+      ],
+      "beleg": "Gefahr der Erosion/Entwertung intrinsischer Motivation durch falsche extrinsische Anreize",
+      "belegQuelle": "folie-16"
+    },
+    {
+      "begriff": "ETHOS",
+      "text": "Einer der drei Begriffe, die auf Folie 36 in der Ellipse zu Aristoteles' „modes of persuasion\" stehen. Das Skript nennt ihn, erklärt ihn aber nicht.",
+      "folien": [
+        36
+      ],
+      "themen": [
+        "m1-t11"
+      ],
+      "beleg": "drei untereinander stehenden Begriffen: „ETHOS\" (grün), „PATHOS\" (rot), „LOGOS\" (dunkelblau)",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "begriff": "Evolution",
+      "text": "Begriff aus der Legende des Phasenschaubilds (Folie 35): die **Wachstumsphase**. Dargestellt durch den schrägen Pfeil nach rechts oben.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Evolution: Wachstumsphase",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "extrinsische Anreizsysteme",
+      "text": "Eines der vier Merkmale bürokratischer Hierarchien auf Folie 53: Sie setzen extrinsische Anreizsysteme ein. Was genau darunter fällt, führt diese Folie nicht aus.",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "setzen extrinsische Anreizsysteme ein",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "extrinsische Motivation",
+      "text": "Zielt auf einen Zustand, auf den aufgrund zu erwartender äußerer Gründe oder Anreize oder wegen der Konsequenzen einer Handlung hin gehandelt wird. Beispiele der Folie: Geld, Sicherheit, materielle Incentives.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t2"
+      ],
+      "beleg": "oder Konsequenzen einer Handlung hin gehandelt wird (Geld, Sicherheit, materielle Incentives,...)",
+      "belegQuelle": "folie-16"
+    },
+    {
+      "begriff": "Feedback",
+      "text": "Inhaltlich laut Folie 52: das **konstruktive Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln**. Ziel: Schwachstellen aufzeigen/beseitigen, Effektivität/Effizienz steigern, Kooperation verbessern, also Veränderung bewirken. Es hat zwei Komponenten: Feedback geben und Feedback nehmen.",
+      "folien": [
+        52
+      ],
+      "themen": [
+        "m2-t14"
+      ],
+      "beleg": "Inhalt: konstruktives Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Feedbackgeber",
+      "text": "Die Seite, die Rückmeldung gibt. Die Folie 52 nennt neun Regeln, darunter: ungestört unter 4 Augen, sachlich und klar formulieren und nie auf die Person bezogen, erlebtes Verhalten spiegeln, in Ich-Botschaften sprechen, ausgewogen bleiben, nicht werten und selbst ebenfalls Feedback annehmen.",
+      "folien": [
+        52
+      ],
+      "themen": [
+        "m2-t14"
+      ],
+      "beleg": "formuliert nur sachlich und klar, nie auf die Person bezogen",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Feedbacknehmer",
+      "text": "Die Seite, die Rückmeldung bekommt. Die Folie 52 nennt sechs Regeln: genau zuhören und aussprechen lassen, nur Nachfragen stellen, sich nicht entschuldigen oder rechtfertigen, sich bedanken, das Gespräch gegebenenfalls stoppen und selbst innerlich über die Berechtigung des Gehörten entscheiden.",
+      "folien": [
+        52
+      ],
+      "themen": [
+        "m2-t14"
+      ],
+      "beleg": "hört genau zu und lässt aussprechen, unterbricht nicht",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "Finger Pointing",
+      "text": "Eines der sechs Warnsignale für gestörte Kommunikation auf Folie 65. Der Begriff wird nur genannt, nicht erklärt.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "FK",
+      "text": "Abkürzung, die das Skript auf Folie 50 benutzt, dort aber **nicht auflöst**. Sie steht im Satz: McClelland und Deci/Ryan liefern wiss. gut abgestützte Theorien, insbesondere zu Verhalten von FK.\n\nKürzel, das im Skript verwendet, aber nicht ausgeschrieben wird. Im Folientext steht es auf Folie 71: „FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams“. Für die Folien 70 und 71 ist ausdrücklich vermerkt, dass es dort nicht erklärt wird. Deshalb steht hier keine Auflösung: Was das Kürzel bedeutet, ist nicht belegt.",
+      "folien": [
+        50,
+        70,
+        71
+      ],
+      "themen": [
+        "m2-t12",
+        "m5-t2",
+        "m5-t3"
+      ],
+      "beleg": "Abkürzungen werden benutzt, aber auf dieser Folie nicht aufgelöst: MA, FK",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Fokus der Kommunikation",
+      "text": "Die fünf Felder, auf die sich die Kommunikation der Führungskraft laut Folie 64 richtet: Informieren, Anerkennen/Loben, Kritisieren, Entscheiden, Diskutieren, und zwar zur Konfliktvorbeugung, -vermeidung und -lösung.",
+      "folien": [
+        64
+      ],
+      "themen": [
+        "m4-t3"
+      ],
+      "beleg": "Fokus der Kommunikation auf",
+      "belegQuelle": "folie-36"
+    },
+    {
+      "begriff": "Forming",
+      "text": "Erste Phase der Gruppenentwicklung: Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung.",
+      "folien": [
+        55
+      ],
+      "themen": [
+        "m3-t2"
+      ],
+      "beleg": "Kennenlernen, Prüfen u.a. des Verhaltens, Beziehungsklärung",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Fremdsteuerung",
+      "text": "Einer der vier Einwände von Folie 45 gegen Belohnungen: Sie erzeugen bei den Belohnten den Eindruck, von außen gesteuert zu werden.",
+      "folien": [
+        45
+      ],
+      "themen": [
+        "m2-t3"
+      ],
+      "beleg": "Belohnungen erzeugen Eindruck der „Fremdsteuerung“",
+      "belegQuelle": "folie-17"
+    },
+    {
+      "begriff": "Frustrationstoleranz",
+      "text": "Eines der vier Persönlichkeitskonstrukte, die das Skript mit Ausprägung, Richtung und Stärke nennt. Erklärt wird es auf der Folie nicht.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Ausprägungen/Richtung/Stärke von Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Führung in komplexen Umwelten",
+      "text": "Schlussblock der Zusammenfassung: berücksichtigt mehrere Dimensionen, ist Teil ganzheitlichen Managements, sucht individuelle Vorgehen, keine Standard-Lösungen.",
+      "folien": [
+        42
+      ],
+      "themen": [
+        "m1-t17"
+      ],
+      "beleg": "Führung in komplexen Umwelten: berücksichtigt mehrere Dimensionen",
+      "belegQuelle": "folie-14"
+    },
+    {
+      "begriff": "Führung/Ziel",
+      "text": "Drittes Bündel der Faktoren, die zur Gruppenbildung beitragen: Kohärenz/Konsistenz, starke Vorbilder in der Gruppe, Vernetzungsfähigkeit mit anderen Gruppen.",
+      "folien": [
+        54
+      ],
+      "themen": [
+        "m3-t1"
+      ],
+      "beleg": "Führung/Ziel … Kohärenz/Konsistenz … starke Vorbilder in der Gruppe",
+      "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "Führungs-Dimensionen",
+      "text": "Spalte der Übersicht Führungsstile: Nach welchen Merkmalen eine Typologie die Stile ordnet, zum Beispiel Aufgaben- und Mitarbeiterorientierung, Entscheidungspartizipation oder MA-Reifegrad. Folie 38 schreibt denselben Gedanken als „Führungsdimensionen\" und meint damit die indirekte und die direkte Führung.",
+      "folien": [
+        38,
+        39
+      ],
+      "themen": [
+        "m1-t13",
+        "m1-t14"
+      ],
+      "beleg": "Kopfzeile („Typologie nach\", „Führungs-Dimensionen\", „Führungsstile\")",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Führungs-Ziel",
+      "text": "Laut Folie 38: Steigerung der ökonomischen und sozialen Effizienz, das heißt Steigerung der (Unternehmens-)Leistung und der MA-Zufriedenheit. Das Ziel gilt für beide Führungsdimensionen.",
+      "folien": [
+        38
+      ],
+      "themen": [
+        "m1-t13"
+      ],
+      "beleg": "Führungs-Ziel: Steigerung der ökonomischen und sozialen Effizienz, d.h., Steigerung (Unternehmens-)Leistung und MA-Zufriedenheit",
+      "belegQuelle": "folie-10"
+    },
+    {
+      "begriff": "Führungskompetenz",
+      "text": "Sechste der acht Führungsaktivitäten auf Folie 51: aktuelle Anforderungen an Führungskompetenz erfüllen und Antworten auf Entwicklungen geben können. Welche Anforderungen das sind, führt diese Folie nicht aus.",
+      "folien": [
+        51
+      ],
+      "themen": [
+        "m2-t13"
+      ],
+      "beleg": "aktuelle Anforderungen an Führungskompetenz erfüllen, Antworten auf Entwicklungen geben können",
+      "belegQuelle": "folie-23"
+    },
+    {
+      "begriff": "Führungskrise",
+      "text": "Erste Krise im Phasenschaubild (Folie 35), am Ende von Phase 1 „Wachstum durch ‚Kreativität'“.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Führungsleitbild",
+      "text": "Letzte der acht Führungsaktivitäten auf Folie 51: „modernes Führungsleitbild vorgeben und einhalten (s. MAF I)\". **Auf dieser Folie nur genannt, nicht erklärt**; der Klammerzusatz verweist auf die Vorlesung MAF I.",
+      "folien": [
+        51
+      ],
+      "themen": [
+        "m2-t13"
+      ],
+      "beleg": "modernes Führungsleitbild vorgeben und einhalten (s. MAF I)",
+      "belegQuelle": "folie-23"
+    },
+    {
+      "begriff": "Führungsstil",
+      "text": "Definition laut Skript (Wunderer, 2009): innerhalb von Bandbreiten und Führungskontexten konsistentes, typisiertes und wiederkehrendes Führungsverhalten.",
+      "folien": [
+        40
+      ],
+      "themen": [
+        "m1-t15"
+      ],
+      "beleg": "Def. Führungsstil: innerhalb von Bandbreiten und Führungskontexten konsistentes, typisiertes und wiederkehrendes Führungsverhalten",
+      "belegQuelle": "folie-12"
+    },
+    {
+      "begriff": "Fundamentaler Attributionsfehler",
+      "text": "Der Einfluss der Situation wird unterschätzt, der Einfluss der persönlichen Veranlagung überschätzt. Gefahr laut Skript: verkehrte Schlussfolgerungen hinsichtlich grundsätzlicher Kompetenzen.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "fundamentaler: Einfluss der Situation wird unter-, Einfluss der persönlichen Veranlagung überschätzt!",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "funktionale Gebundenheit",
+      "text": "Im TED-Vortrag von Dan Pink der Denkfehler, den das Kerzen-Problem aufdeckt: Die Schachtel wird nur als Behälter für die Heftzwecken gesehen, sie kann aber auch Standfläche für die Kerze sein.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t4"
+      ],
+      "beleg": "Der Schlüssel liegt darin, die so genannte funktionale Gebundenheit zu überwinden.",
+      "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Gating-Theorie",
+      "text": "Theoretische Grundlage: Menschliche Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst. Bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen. Folge: selektive Wahrnehmung/Aufmerksamkeit.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "menschliche Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Gruppendenken",
+      "text": "Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung. Das Streben nach Einmütigkeit korrumpiert die Fähigkeit der Bewertung von realistischen Alternativen; in Unternehmen wie in Politik zu beobachten; es kommt zur irrationalen Abschottung von Umwelt und gegenteiligen Meinungen (geschlossenes System).",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t13"
+      ],
+      "beleg": "Gruppendenken: Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Gruppendynamik",
+      "text": "Zweierlei laut Skript: erstens das **Phänomen** des Spiels der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe und die sich darin vollziehenden Bewegungen, Veränderungen und Anpassungen; zweitens die **Wissenschaft** zur Erforschung dieser Phänomene, und zwar sozialpsychologisch, soziologisch und tiefenpsychologisch.",
+      "folien": [
+        58
+      ],
+      "themen": [
+        "m3-t11"
+      ],
+      "beleg": "Phänomen des Spiels der vorhandenen Kräfte der einzelnen Mitglieder innerhalb einer Gruppe",
+      "belegQuelle": "folie-30"
+    },
+    {
+      "begriff": "Gruppengeist",
+      "text": "Im Skript auch **group mind**: die Kehrseite der erwünschten Kohäsion. Tendenz der Selbstüberschätzung insbesondere gegenüber anderen Gruppen, intern wie extern. Insbesondere in anfangs erfolgreichen Projekten zu beobachten; Risiko ist die Ausblendung von Gefahren durch Konkurrenten (Beispiel des Skripts: Fintechs und Großbanken).",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t13"
+      ],
+      "beleg": "Gruppengeist (group mind) als Kehrseite der erwünschten Kohäsion",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Halo-Effekt",
+      "text": "Eine herausragende Einzelkompetenz, Eigenschaft oder ein prägnantes Ereignis (critical incident) überstrahlt alle anderen Faktoren und beeinflusst den Gesamteindruck.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "überstrahlt alle anderen Faktoren und beeinflusst Gesamteindruck",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Hierarchie-Effekt",
+      "text": "Der soziale Status beeinflusst Beurteilungen: höhergestellte FK werden tendenziell besser beurteilt, aus Furcht vor Sanktionen oder unbewusst.",
+      "folien": [
+        73
+      ],
+      "themen": [
+        "m5-t12"
+      ],
+      "beleg": "sozialer Status beeinflusst Beurteilungen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Holschuld",
+      "text": "Im Skript ohne Definition, nur als Zuordnung hinter einem Punkt der Aufzählung: eigenständige Information der Belegschaft über relevante Ereignisse, Beschlüsse und Änderungen.",
+      "folien": [
+        62
+      ],
+      "themen": [
+        "m4-t1"
+      ],
+      "beleg": "eigenständige Information der Belegschaft über relevante Ereignisse/Beschlüsse/Änderungen (Holschuld)",
+      "belegQuelle": "folie-34"
+    },
+    {
+      "begriff": "homo oeconomicus",
+      "text": "Im Skript nur als Zweitname des **rational man** genannt und nicht weiter erklärt.\n\nAuf Folie 45 neben Theory X als Kurzformel für ein einseitiges Menschenbild genannt. Das Skript erklärt den Begriff nicht.",
+      "folien": [
+        32,
+        45
+      ],
+      "themen": [
+        "m1-t3",
+        "m2-t3"
+      ],
+      "beleg": "„rational man“ (auch: homo oeconomicus)",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "Hygienefaktoren",
+      "text": "Thematisieren die Rahmenbedingungen des Arbeitsprozesses: Image, Arbeitsplatzausstattung, Arbeitsbedingungen, Arbeitsklima, Arbeitsplatzsicherheit, Struktur. Skala: unzufrieden / nicht unzufrieden.",
+      "folien": [
+        47,
+        48
+      ],
+      "themen": [
+        "m2-t6",
+        "m2-t7"
+      ],
+      "beleg": "„Hygienefaktoren“ thematisieren Rahmenbedingungen des Arbeitsprozesses",
+      "belegQuelle": "folie-19"
+    },
+    {
+      "begriff": "Ich-Botschaften",
+      "text": "Regel für den Feedbackgeber auf Folie 52: Er spricht in Ich-Botschaften und **vermeidet Du/Sie-Botschaften**. Das Skript erläutert die beiden Formen nicht weiter.",
+      "folien": [
+        52
+      ],
+      "themen": [
+        "m2-t14"
+      ],
+      "beleg": "spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften",
+      "belegQuelle": "folie-24"
+    },
+    {
+      "begriff": "idealistische Bedürfnisse",
+      "text": "Innere Klammer auf Folie 46 über die oberste Stufe, die Selbstverwirklichung.",
+      "folien": [
+        46
+      ],
+      "themen": [
+        "m2-t5"
+      ],
+      "beleg": "idealistische Bedürfnisse (oberer Bereich, nur Stufe Selbstverwirklichung)",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "Incentives",
+      "text": "Auf Folie 79 in einem Argument der Betroffenen genannt: „Welche neuen Incentives, Belohnungs- und Sanktionsmechanismen greifen?“ Der Begriff wird nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t6"
+      ],
+      "beleg": "Welche neuen Incentives, Belohnungs- und Sanktionsmechanismen greifen?",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Incentivierung",
+      "text": "Auf Folie 53 in der „Denn:\"-Liste: Planung/Steuerung inkl. Incentivierung erfolgt streng hierarchisch. **Im Skript nur genannt, nicht erklärt.**",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "Planung/Steuerung inkl. Incentivierung erfolgt streng hierarchisch",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "indirekte Führung",
+      "text": "Eine der zwei Führungsdimensionen: strukturell-systemisch, mit einer strukturierten Arbeitssituation. Beeinflussung durch Kontext, das heißt Gestaltung von Umwelt und Rahmenbedingungen in der Organisation: Handlungsspielräume einräumen und Aktivitäten ermöglichen, durch kohärente Kultur, Strategie, Organisation und qualitative Personalstruktur.",
+      "folien": [
+        38
+      ],
+      "themen": [
+        "m1-t13"
+      ],
+      "beleg": "indirekte Führung -> strukturell-systemisch -> mit einer strukturierten Arbeitssituation",
+      "belegQuelle": "folie-10"
+    },
+    {
+      "begriff": "Inhaltstheorien",
+      "text": "Sammelname des Skripts (Folien 46 bis 48) für die bedürfnisorientierten Motivationstheorien von Maslow und Herzberg. Der Begriff steht auf Folie 46 in Anführungszeichen und wird dort nicht definiert.",
+      "folien": [
+        46,
+        47,
+        48
+      ],
+      "themen": [
+        "m2-t5",
+        "m2-t6",
+        "m2-t7"
+      ],
+      "beleg": "Bedürfnisorientierte „Inhaltstheorien“ der Motivation:",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "Initiating Structure",
+      "text": "Begriff der Ohio-Studien (Fleishman/Hemphill) für die Aufgabenorientierung. Die Folie setzt die Übersetzung selbst in Klammern dahinter.",
+      "folien": [
+        39
+      ],
+      "themen": [
+        "m1-t14"
+      ],
+      "beleg": "Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung)",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Interne (MA)-Kommunikation",
+      "text": "Die Kommunikation im Sinne der MAF: intensive Informationen über relevante Unternehmensereignisse, -beschlüsse und -änderungen (z.B. zu Strategien, Abläufen und Prozessen) sowie über Unternehmensumwelt- und -umfeldereignisse und -änderungen. Das Skript stellt sie in den Kontext von Kultur- und Organisationsgestaltung.",
+      "folien": [
+        62,
+        63
+      ],
+      "themen": [
+        "m4-t1",
+        "m4-t2"
+      ],
+      "beleg": "Interne (MA)-Kommunikation im Kontext von Kultur- und Organisationsgestaltung",
+      "belegQuelle": "folie-34"
+    },
+    {
+      "begriff": "intrinsische Motivation",
+      "text": "Beschreibt einen Zustand, bei dem aufgrund eines inneren Grundes oder Anreizes gehandelt wird. Laut Folie 45 ist sie stets vorzuziehen.",
+      "folien": [
+        44,
+        45
+      ],
+      "themen": [
+        "m2-t2",
+        "m2-t3"
+      ],
+      "beleg": "intrinsische Motivation ... beschreibt Zustand, bei dem aufgrund eines ... gehandelt wird",
+      "belegQuelle": "folie-16"
+    },
+    {
+      "begriff": "Involvement",
+      "text": "Zweite Stufe der Pfeilkette auf Folie 79, zwischen Commitment und Support. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Commitment > Involvement > Support > Apathy",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Johari-Fenster",
+      "text": "Auf Folie 66 unter Vermeidung Senderfehler genannt: Feedback geben (s. Vorlesungen II & III) und Johari-Fenster beachten (s. Vorlesung III). Die Folie erklärt das Modell nicht, sondern verweist auf Vorlesung III.",
+      "folien": [
+        66
+      ],
+      "themen": [
+        "m4-t11"
+      ],
+      "beleg": "Feedback geben (s. Vorlesungen II & III) und Johari-Fenster beachten (s. Vorlesung III)",
+      "belegQuelle": "folie-38"
+    },
+    {
+      "begriff": "Kann-/Soll-/Muss-Normen",
+      "text": "Punkt der Spalte Normen auf Folie 56. Das Skript nennt die drei Abstufungen, erläutert sie an dieser Stelle aber nicht.",
+      "folien": [
+        56
+      ],
+      "themen": [
+        "m3-t3"
+      ],
+      "beleg": "alle gruppentypischen „Ähnlichkeiten“ … Kann-/Soll-/Muss-Normen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Killerargumente",
+      "text": "Im Skript als Sender-/Empfängerfehler aufgezählt, zusammen mit Urteilen, Monologen und mangelnder Zielgruppenorientierung. Der Begriff wird nur genannt, nicht erklärt.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Urteilen, Monologe, Killerargumente, mangelnde Zielgruppenorientierung",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Killerphrasen",
+      "text": "Auf Folie 66 unter Vermeidung Senderfehler genannt: „keine Killerphrasen“. Die Folie erklärt den Begriff nicht. Diese Lernumgebung erklärt ihn deshalb ebenfalls nicht.",
+      "folien": [
+        66
+      ],
+      "themen": [
+        "m4-t11"
+      ],
+      "beleg": "ICH statt MAN, klare Meinungen, keine Killerphrasen",
+      "belegQuelle": "folie-38"
+    },
+    {
+      "begriff": "Kleber-Effekt",
+      "text": "Die aktuelle Beurteilung/Bewertung wird von der vorangegangenen maßgeblich beeinflusst. Der Status Quo wird tendenziell beibehalten und nicht hinterfragt.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "aktuelle Beurteilung/Bewertung wird von vorangegangener maßgeblich beeinflusst",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Kognitive Dissonanz",
+      "text": "Theoretische Grundlage: Menschen streben grds. Widerspruchsfreiheit in Meinungen, Werten, Einstellungen an. Konflikte und Widersprüche entstehen aufgrund eigenen Verhaltens oder des Verhaltens Anderer.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Menschen streben grds. Widerspruchsfreiheit in Meinungen, Werten, Einstellungen an",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Kohäsion",
+      "text": "Das Skript benutzt den Begriff, ohne ihn zu definieren. Er kommt auf Folie 59 zweimal vor: Der Gruppengeist ist die **Kehrseite der erwünschten Kohäsion**, und die Harmonie-Sucht **erzeugt gefühlte Sicherheit und stabilisiert Kohäsion**. Beide Stellen behandeln die Kohäsion als etwas, das in der Gruppe erwünscht ist und durch die Angleichung an die Mitte gestützt wird. Eine eigene Definition steht nicht im Skript und wird hier nicht ergänzt.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t13",
+        "m3-t14"
+      ],
+      "beleg": "Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert Kohäsion",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Kommunikation = Führungsinstrument",
+      "text": "Schlussfolgerung des Skripts auf Folie 63: Offene und häufige Kommunikation beugt schlechter Stimmung vor und trägt zu Identifikation und Zufriedenheit bei. Folie 64 nennt Kommunikation entsprechend ein zentrales Führungsinstrument, das zum Erhalt der Motivation beiträgt.",
+      "folien": [
+        63,
+        64
+      ],
+      "themen": [
+        "m4-t2",
+        "m4-t3"
+      ],
+      "beleg": "trägt zu Identifikation und Zufriedenheit bei (Kommunikation = Führungsinstrument)",
+      "belegQuelle": "folie-35"
+    },
+    {
+      "begriff": "Kommunikationsmangel/Informationsmangel",
+      "text": "Erste der vier Ursachen für Kommunikationsstörungen: zu wenige Möglichkeiten für Kommunikation wahrgenommen; Tabuisierung, Wegschweigen, „unter den Teppich kehren“; unter Zeitdruck schnelle Entscheidungen treffen.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Kommunikationsmangel/Informationsmangel … zu wenige Möglichkeiten für Kommunikation wahrgenommen",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Kommunikationsstörungen",
+      "text": "Sammelbegriff der Folie 65. Das Skript führt sie auf vier Ursachen zurück: Kommunikationsmangel/Informationsmangel, Sender-/Empfängerfehler, Double bind und eine nicht abgeprüfte Nachhaltigkeit der Nachricht.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Kommunikationsstörungen aufgrund von",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "komplexe Probleme",
+      "text": "Dritte Problemart nach Gomez/Probst: dynamische vernetzte Kausalitäten, umfassender Lösungsraum, systemische Methoden. Nicht zu verwechseln mit komplizierten Problemen, bei denen Analyse und Expertenwissen genügen.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "komplexe Probleme: … dynamische vernetzte Kausalitäten",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "komplizierte Probleme",
+      "text": "Zweite Problemart nach Gomez/Probst: häufig kausale Zusammenhänge, mehrere Lösungsoptionen, Analyse, Expertenwissen. Die Folie warnt ausdrücklich: Gefahr: copy/paste!",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "komplizierte Probleme: … Gefahr: copy/paste!",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Konformität",
+      "text": "Begriff aus den beiden Videos, die Folie 58 verlinkt: das Anpassen des eigenen Verhaltens an die Gruppe, auch gegen die eigene Wahrnehmung. Laut dem Video Brain Games ist Konformität ein zentraler Mechanismus der Sozialisation, kann aber auch schlechte Gewohnheiten oder wiederholte Fehler perpetuieren.",
+      "folien": [
+        58
+      ],
+      "themen": [
+        "m3-t12"
+      ],
+      "beleg": "Konformität sei ein zentraler Mechanismus der Sozialisation",
+      "belegQuelle": "extern-gruppendruck"
+    },
+    {
+      "begriff": "Konformitätsdruck",
+      "text": "Druck auf abweichendes Verhalten und abweichendes Meinungsbild, der laut Skript durch Ähnlichkeiten in der Gruppe entsteht. Er gehört zur Nivellierung und wird auf Folie 60 außerdem als einer der Gründe für den Risikoschub genannt.",
+      "folien": [
+        59,
+        60
+      ],
+      "themen": [
+        "m3-t14",
+        "m3-t15"
+      ],
+      "beleg": "Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten/Meinungsbild",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Können",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für die **persönliche Qualifikation** und liegt auf der akteursbezogenen Seite.",
+      "folien": [
+        49
+      ],
+      "themen": [
+        "m2-t11"
+      ],
+      "beleg": "Können -> persönliche Qualifikation",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Kontext",
+      "text": "Führung ist laut Skript nie allgemein, sondern **stets im Kontext** zu sehen. Als Beispiele nennt Folie 30 Reife, Größe und Wettbewerbsposition; die Aufzählung ist offen. Folie 34 wiederholt das als „stets im Kontext argumentieren, Verallgemeinerungen vermeiden“.",
+      "folien": [
+        30,
+        34
+      ],
+      "themen": [
+        "m1-t1",
+        "m1-t5"
+      ],
+      "beleg": "stets im Kontext (Reife, Größe, Wettbew.pos.,..)",
+      "belegQuelle": "folie-02"
+    },
+    {
+      "begriff": "kontextbezogen",
+      "text": "Seitliche Beschriftung rechts am Schaubild der Folie 49, auf Höhe der Kästchen Dürfen und Sollen. Diese beiden Determinanten liegen also im Umfeld, nicht in der Person.",
+      "folien": [
+        49
+      ],
+      "themen": [
+        "m2-t11"
+      ],
+      "beleg": "Seitliche Beschriftungen: akteursbezogen (links), kontextbezogen (rechts)",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Kontrast",
+      "text": "Richtung innerhalb der Assimilations-Kontrast-Theorie: ferne Einstellungen verdecken Gemeinsamkeiten.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "ferne Einstellungen (Kontrast) verdecken Gemeinsamkeiten",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Kontrast-Effekt",
+      "text": "Jeder Kandidat wird mit dem jeweiligen Vorgänger/Nachfolger verglichen. Der Bezugspunkt wandert also mit, anders als beim Reihenfolge-Effekt.",
+      "folien": [
+        73
+      ],
+      "themen": [
+        "m5-t12"
+      ],
+      "beleg": "Kontrast-Effekt: jeder Kandidat wird mit jeweiligem Vorgänger/Nachfolger verglichen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Kontrollkrise",
+      "text": "Dritte Krise im Phasenschaubild (Folie 35), am Übergang von Phase 3 „Wachstum durch ‚Delegation, Selbstorganisation“ zu Phase 4.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Kritische Erfolgsfaktoren für Gruppen",
+      "text": "Überschrift der Folie 56. Als Punkt 2.) nennt das Skript dort Strukturen und Normen. Einen Punkt 1.) zeigt diese Folie nicht.",
+      "folien": [
+        56
+      ],
+      "themen": [
+        "m3-t3"
+      ],
+      "beleg": "Kritische Erfolgsfaktoren für Gruppen: … 2.) Strukturen und Normen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Kritischer Erfolgsfaktor: rascher Informationsfluss",
+      "text": "Schlusssatz der Folie 62, in Großbuchstaben hervorgehoben. Er steht hinter der Beobachtung, dass elektronische und web-basierte Systeme den Informationsaustausch beschleunigen und die Einwirkmöglichkeiten der FK reduzieren.",
+      "folien": [
+        62
+      ],
+      "themen": [
+        "m4-t1"
+      ],
+      "beleg": "KRITISCHER ERFOLGSFAKTOR: RASCHER INFORMATIONSFLUSS",
+      "belegQuelle": "folie-34"
+    },
+    {
+      "begriff": "Kunden-/Partner-Führung",
+      "text": "Eine der fünf Führungsbeziehungen direkter Führung. Die Folie gibt ihr dieselbe englische Klammer wie der lateralen Führung: „leading sideways\".",
+      "folien": [
+        37
+      ],
+      "themen": [
+        "m1-t12"
+      ],
+      "beleg": "Kunden-/Partner-Führung („leading sideways\") MA-Führung („leading downwards\")",
+      "belegQuelle": "folie-09"
+    },
+    {
+      "begriff": "laissez-faire",
+      "text": "Einer der drei grundlegenden Führungsstile. Verhalten: Verzicht auf Leitung, Passivität, Unverbindlichkeit in Bezug auf Ziele und deren Durchsetzung, Nachgiebigkeit. Folgen: Ratlosigkeit, Regression und Verwahrlosung, Cliquenbildung und Zerfall, Wunsch nach autoritärer Leitung.",
+      "folien": [
+        39,
+        41
+      ],
+      "themen": [
+        "m1-t14",
+        "m1-t16"
+      ],
+      "beleg": "Verzicht auf Leitung: Passivität",
+      "belegQuelle": "folie-13"
+    },
+    {
+      "begriff": "laterale Führung",
+      "text": "Eine der fünf Führungsbeziehungen direkter Führung, englisch „leading sideways\". Dieselbe englische Klammer trägt auf der Folie auch die Kunden-/Partner-Führung.",
+      "folien": [
+        37
+      ],
+      "themen": [
+        "m1-t12"
+      ],
+      "beleg": "laterale Führung („leading sideways\") Selbst-Führung („leading yourself\")",
+      "belegQuelle": "folie-09"
+    },
+    {
+      "begriff": "Leistungsmotivation",
+      "text": "Bei Herzberg das, was vorhandene Hygienefaktoren gerade nicht erzeugen. Echte Motivation zur Leistung entsteht nur durch zufriedenheitsstiftende Motivatoren.",
+      "folien": [
+        47
+      ],
+      "themen": [
+        "m2-t6"
+      ],
+      "beleg": "vorhandene Hygienefaktoren führen aber nicht zu erforderlicher Leistungsmotivation",
+      "belegQuelle": "folie-19"
+    },
+    {
+      "begriff": "Leitplanken",
+      "text": "Auf Folie 48 genannt, aber nicht erklärt: Einer der Motivatoren aus Metastudien ist das Einräumen von Handlungsspielräumen statt engen Leitplanken.",
+      "folien": [
+        48
+      ],
+      "themen": [
+        "m2-t7"
+      ],
+      "beleg": "Einräumen von Handlungsspielräumen statt engen Leitplanken",
+      "belegQuelle": "folie-20"
+    },
+    {
+      "begriff": "LOGOS",
+      "text": "Einer der drei Begriffe, die auf Folie 36 in der Ellipse zu Aristoteles' „modes of persuasion\" stehen. Das Skript nennt ihn, erklärt ihn aber nicht.",
+      "folien": [
+        36
+      ],
+      "themen": [
+        "m1-t11"
+      ],
+      "beleg": "drei untereinander stehenden Begriffen: „ETHOS\" (grün), „PATHOS\" (rot), „LOGOS\" (dunkelblau)",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "begriff": "MA",
+      "text": "Abkürzung, die das Skript auf Folie 50 benutzt, dort aber **nicht auflöst** (ebenso FK und wiss.). Sie steht in den Sätzen über die Bedürfnisse der MA und die MA-Zufriedenheit.\n\nKürzel, das der Leitfaden auf Folie 70 durchgehend verwendet, etwa in der Phase „Selbsteinschätzung MA“. Das Skript schreibt es an keiner Stelle aus und erklärt es nicht. Deshalb steht hier keine Auflösung: Was das Kürzel bedeutet, ist nicht belegt.",
+      "folien": [
+        50,
+        70
+      ],
+      "themen": [
+        "m2-t12",
+        "m5-t2"
+      ],
+      "beleg": "Abkürzungen werden benutzt, aber auf dieser Folie nicht aufgelöst: MA",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "MA-Führung",
+      "text": "Eine der fünf Führungsbeziehungen direkter Führung, englisch „leading downwards\", also Führung nach unten zu den Mitarbeitenden. Die Abkürzung MA löst die Folie nicht auf.",
+      "folien": [
+        37
+      ],
+      "themen": [
+        "m1-t12"
+      ],
+      "beleg": "MA-Führung („leading downwards\")",
+      "belegQuelle": "folie-09"
+    },
+    {
+      "begriff": "MA-Reifegrad",
+      "text": "Dritte Führungs-Dimension bei Hersey/Blanchard, neben Aufgaben- und Mitarbeiterorientierung. Das Skript nennt den Begriff nur; was mit Reifegrad gemeint ist, erklärt es nicht.",
+      "folien": [
+        39
+      ],
+      "themen": [
+        "m1-t14"
+      ],
+      "beleg": "Hersey/Blanchard — Dimensionen Aufgabenorientierung, Mitarbeiterorientierung, MA-Reifegrad",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "MAG, ZVG, ZEG",
+      "text": "Im Skript als standardisierte Formate der internen Kommunikation genannt, neben Meetings, Briefings, mailings und MA-Zeitschriften. Wofür die drei Abkürzungen stehen, wird im Material nirgends aufgelöst. Wir ergänzen hier nichts.",
+      "folien": [
+        62
+      ],
+      "themen": [
+        "m4-t1"
+      ],
+      "beleg": "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften",
+      "belegQuelle": "folie-34"
+    },
+    {
+      "begriff": "Management-Aufgaben",
+      "text": "Vier Aufgaben am unteren Rand der Folie 78: Information/Kommunikation/Einbinden, Aufbau Fähigkeiten/Tools/Durchbruchsthemen, Coaching, Controlling/Monitoring. Sie sind als überlappende Doppelpfeile gezeichnet, lösen einander also nicht ab. Der Begriff „Durchbruchsthemen“ wird nicht erklärt.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t4"
+      ],
+      "beleg": "Management-Aufgaben Information/Kommunikation/Einbinden Aufbau Fähigkeiten/Tools/Durchbruchsthemen Coaching Controlling/Monitoring",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Menschenbild",
+      "text": "Die Grundannahme darüber, wie der Mensch ist. Das Skript zeigt eine Entwicklungsgeschichte der Menschenbilder mit optimistischen und pessimistischen Vertretern und nennt vier in der BWL verwandte Menschenbilder.",
+      "folien": [
+        31,
+        32
+      ],
+      "themen": [
+        "m1-t2",
+        "m1-t3"
+      ],
+      "beleg": "Entwicklungsgeschichte Menschenbild – Der Mensch ist...",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Metaplan-Technik",
+      "text": "Im Skript nur genannt, nicht erklärt. Steht wie das Brainwriting in der Abhilfeliste gegen die Nivellierung. Eine Beschreibung des Verfahrens gehört nicht zum Skript.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t14"
+      ],
+      "beleg": "„Brainwriting“ und „Metaplan-Technik“ werden nur genannt, nicht erklärt.",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Metastudien",
+      "text": "Auf Folie 48 als Herkunft der sieben häufig ermittelten Motivatoren genannt. Die Folie nennt keine konkrete Studie, kein Jahr und keine Quelle.",
+      "folien": [
+        48
+      ],
+      "themen": [
+        "m2-t7"
+      ],
+      "beleg": "In Metastudien häufig ermittelte Motivatoren:",
+      "belegQuelle": "folie-20"
+    },
+    {
+      "begriff": "Micromanagement",
+      "text": "Kommt auf Folie 67 nur im Zitat der Zitatkarte vor: „Leaders; If you are micromanaging your team you are toxic to your business.“ Quellenangabe auf der Karte: Leadership First. Das Skript erklärt den Begriff nicht und stellt keinen Bezug zum Folientext her.",
+      "folien": [
+        67
+      ],
+      "themen": [
+        "m4-t12"
+      ],
+      "beleg": "If you are micromanaging your team you are toxic to your business.",
+      "belegQuelle": "folie-39"
+    },
+    {
+      "begriff": "Minoritätseffekt",
+      "text": "Dritter Satz im Erfahrungswissen der Folie 60: Bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen. Nicht zu verwechseln mit einer Anpassung der Minderheit an die Mehrheit.",
+      "folien": [
+        60
+      ],
+      "themen": [
+        "m3-t16"
+      ],
+      "beleg": "Minoritätseffekt: bislang glaubwürdige Minderheiten können gesamte Teams in verkehrte Richtung ziehen",
+      "belegQuelle": "folie-32"
+    },
+    {
+      "begriff": "Mitarbeiterorientierung",
+      "text": "Die zweite Dimension, die sich durch die Übersicht Führungsstile zieht. In den Ohio-Studien heißt sie Consideration, in den Michigan-Studien „employee centered\". Laut Zusammenfassung dient sie der Erhöhung der MA-Zufriedenheit.",
+      "folien": [
+        39,
+        42
+      ],
+      "themen": [
+        "m1-t14",
+        "m1-t17"
+      ],
+      "beleg": "Mitarbeiterorientierung zur Erhöhung der MA-Zufriedenheit",
+      "belegQuelle": "folie-14"
+    },
+    {
+      "begriff": "Mitwirkungsorientierung",
+      "text": "Dritte Orientierung, die die Zusammenfassung als zentral bezeichnet: Sie erhöht die MA-Identifikation. Das Skript nennt sie dort erstmals und erläutert sie nicht weiter.",
+      "folien": [
+        42
+      ],
+      "themen": [
+        "m1-t17"
+      ],
+      "beleg": "Mitarbeiterorientierung zur Erhöhung der MA-Zufriedenheit - Mitwirkungsorientierung erhöht MA-Identifikation",
+      "belegQuelle": "folie-14"
+    },
+    {
+      "begriff": "Modern Portfolio Theory",
+      "text": "Im Skript nur als Querverweis genannt, ohne Quellen- oder Folienangabe und ohne Erklärung. Er steht auf Folie 61 hinter dem Hinweis, Diversity in Denken, Kultur und Erfahrung zu pflegen.",
+      "folien": [
+        61
+      ],
+      "themen": [
+        "m3-t17"
+      ],
+      "beleg": "Diversity in Denken, Kultur und Erfahrung pflegen -> siehe Modern Portfolio Theory",
+      "belegQuelle": "folie-33"
+    },
+    {
+      "begriff": "modes of persuasion",
+      "text": "Bezeichnung des Skripts für Aristoteles' Antwort auf die Frage, wie man andere überzeugt, mir zu folgen. Die Folie setzt sie mit „-> Rhetorik!\" gleich und nennt dazu ETHOS, PATHOS und LOGOS.",
+      "folien": [
+        36
+      ],
+      "themen": [
+        "m1-t11"
+      ],
+      "beleg": "Aristoteles' „modes of persuasion\" -> Andere überzeugen mir zu folgen durch",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "begriff": "Motivation",
+      "text": "Laut Folie 43 das Wünschen und Wollen. Sie hat wesentlichen Einfluss auf die Richtung, die Dauer und die Intensität unseres Verhaltens (Fußnote: Thomae, 1965). Umwelt und Selbst prägen sie.\n\nDie **zum Handeln bewegende Kraft**. Sie erfordert Willen, die Volition, und ist tendenziell kurzfristig. Kurzfristig aktivieren lässt sie sich mittels adäquater Anreize.",
+      "folien": [
+        43,
+        50
+      ],
+      "themen": [
+        "m2-t1",
+        "m2-t12"
+      ],
+      "beleg": "Motivation (das Wünschen und Wollen)",
+      "belegQuelle": "folie-15"
+    },
+    {
+      "begriff": "Motivatoren",
+      "text": "Repräsentieren intrinsische Faktoren wie interessante Aufgaben, Eigenverantwortung, Anerkennung, selbständiges Arbeiten, Aufstiegsmöglichkeiten. Skala: zufrieden / nicht zufrieden. Nur sie erzeugen echte Motivation zur Leistung.",
+      "folien": [
+        47,
+        48
+      ],
+      "themen": [
+        "m2-t6",
+        "m2-t7"
+      ],
+      "beleg": "„Motivatoren“ repräsentieren intrinsische Faktoren",
+      "belegQuelle": "folie-19"
+    },
+    {
+      "begriff": "Motive",
+      "text": "Bestimmen laut Zusammenfassung (Folie 50) das **langfristige** Verhalten und wirken auf die tendenziell kurzfristige Motivation.",
+      "folien": [
+        50
+      ],
+      "themen": [
+        "m2-t12"
+      ],
+      "beleg": "Motive bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) Motivation.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Motivstrukturen",
+      "text": "Das, worauf die Theorien von Maslow und Herzberg laut Folie 50 Hinweise geben. Führungskräfte sollen sie kennen, um passende Anreize und Motivatoren wählen zu können.",
+      "folien": [
+        50
+      ],
+      "themen": [
+        "m2-t12"
+      ],
+      "beleg": "Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Nachhaltigkeit der Nachricht",
+      "text": "Vierte der vier Ursachen für Kommunikationsstörungen: Die Nachhaltigkeit der Nachricht wurde nicht abgeprüft. Das Skript verweist dazu auf Lorenz: erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Nachhaltigkeit der Nachricht nicht abgeprüft",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Nähe-Effekt",
+      "text": "Eine Ursache von Sympathie laut Skript: längere Bekanntschaft.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "Sympathie aufgrund Nähe-Effekt (längere Bekanntschaft)",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Neben-, Rück- und Folgewirkungen",
+      "text": "Zweite Zeile des Merksatzes auf Folie 76: Zur Problemklärung gehört, diese Wirkungen zu ermitteln. Die Folie erklärt die drei Begriffe nicht weiter.",
+      "folien": [
+        76
+      ],
+      "themen": [
+        "m6-t1"
+      ],
+      "beleg": "..und Neben-, Rück- und Folgewirkungen ermitteln!",
+      "belegQuelle": "folie-48"
+    },
+    {
+      "begriff": "Nicht-Können",
+      "text": "Zweite Ursache von Widerstand auf Folie 79. Folgen laut Folie: Versagensängste und soziale Scham.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Nicht-Können -> Versagensängste -> soziale Scham",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Nicht-Wissen",
+      "text": "Erste Ursache von Widerstand auf Folie 79. Folgen laut Folie: Orientierungslosigkeit und Unsicherheit.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Nicht-Wissen -> Orientierungslosigkeit -> Unsicherheit",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Nicht-Wollen",
+      "text": "Dritte Ursache von Widerstand auf Folie 79. Folge laut Folie: grds. Ablehnung von Neuem, Change, Innovation.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Nicht-Wollen -> grds. Ablehnung von Neuem, Change, Innovation",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Nimbus-Effekt",
+      "text": "Urteilsverzerrung: der (unbewusste) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften. Beispiel des Skripts: je (subjektiv) attraktiver ein Mensch, desto eher Zuschreibung von Erfolg/Intelligenz/Kompetenz.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "Urteilsverzerrung durch Nimbus-Effekt: (unbewusster) Schluss von vorherrschenden äußeren Merkmalen auf Kompetenzen und Eigenschaften",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "Nivellierung",
+      "text": "Tendenz zur Mitte. Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten und Meinungsbild; die Harmonie-Sucht erzeugt gefühlte Sicherheit und stabilisiert die Kohäsion; intelligente Abweichler melden sich oft zu spät, wenn die Gruppe längst ihr Urteil gefällt hat.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t14"
+      ],
+      "beleg": "Nivellierung: Tendenz zur Mitte",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Normen",
+      "text": "Zweiter Kanal des sozialen Drucks in Gruppen: Meinungen/Denkmodelle, Kleidung/Sprache/Auftritt, alle gruppentypischen „Ähnlichkeiten“, Kann-/Soll-/Muss-Normen. Zugleich einer der vier Faktoren (D) der Verhaltensänderung.",
+      "folien": [
+        56
+      ],
+      "themen": [
+        "m3-t3"
+      ],
+      "beleg": "Meinungen/Denkmodelle … Kleidung/Sprache/Auftritt … Kann-/Soll-/Muss-Normen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Norming",
+      "text": "Dritte Phase der Gruppenentwicklung: Normen/Spielregeln geklärt und akzeptiert, WIR wird Routine. „Normen/Spielregeln“ ist auf der Folie unterstrichen.",
+      "folien": [
+        55
+      ],
+      "themen": [
+        "m3-t2"
+      ],
+      "beleg": "geklärt und akzeptiert, WIR wird Routine",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "ökonomische Bedürfnisse",
+      "text": "Innere Klammer auf Folie 46 über die Sicherheitsbedürfnisse und die Physiologischen Bedürfnisse. In existenzbedrohender Lage treten sie wieder in den Vordergrund.",
+      "folien": [
+        46
+      ],
+      "themen": [
+        "m2-t5"
+      ],
+      "beleg": "ökonomische Bedürfnisse (unterer Bereich, Stufen Sicherheitsbedürfnisse und Physiologische Bedürfnisse)",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "ökonomische und soziale Effizienz",
+      "text": "Das Begriffspaar des Führungs-Ziels. Die Folie löst es selbst auf: ökonomisch steht für die Steigerung der (Unternehmens-)Leistung, sozial für die Steigerung der MA-Zufriedenheit.",
+      "folien": [
+        38
+      ],
+      "themen": [
+        "m1-t13"
+      ],
+      "beleg": "Steigerung der ökonomischen und sozialen Effizienz",
+      "belegQuelle": "folie-10"
+    },
+    {
+      "begriff": "Optimistische Menschenbilder",
+      "text": "Spalte der Folie 31 mit vier Einträgen: vernünftig, kooperativ, unterstützend (John Locke) · soziokulturell beeinflusst (Erich Fromm) · grds. sozial mit entspr. Gruppen-Verhalten (Elton Mayo) · hierarchisch bedürfnisorientiert (Abraham Maslow).",
+      "folien": [
+        31
+      ],
+      "themen": [
+        "m1-t2"
+      ],
+      "beleg": "Optimistische Menschenbilder | Pessimistische Menschenbilder",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Organisationsformen",
+      "text": "Die zehn Formen unter den Entwicklungstypen (Folie 34), von links nach rechts: Einfache Linien-, Stab-Linien-, Funktionale, Projekt-, Matrix-, Divisionale, Tensor-, Holding-, Allianz- und Cluster-Organisation. Tensor-, Allianz- und Cluster-Organisation werden nur genannt, nicht erklärt.",
+      "folien": [
+        34
+      ],
+      "themen": [
+        "m1-t5"
+      ],
+      "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
+      "belegQuelle": "folie-06"
+    },
+    {
+      "begriff": "organisatorischer Rahmen",
+      "text": "Zweites Bündel der Faktoren, die zur Gruppenbildung beitragen: räumliche Nähe der Mitglieder, Förderung direkter Kommunikation und Formalisierung der Kommunikation, Inhaltliche Strukturierung.",
+      "folien": [
+        54
+      ],
+      "themen": [
+        "m3-t1"
+      ],
+      "beleg": "räumliche Nähe der Mitglieder … Förderung direkter Kommunikation und Formalisierung der Kommunikation",
+      "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "Passive resistance",
+      "text": "Fünfte Stufe der Pfeilkette auf Folie 79 und die erste Form von Widerstand. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Apathy > Passive resistance > Active resistance",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "PATHOS",
+      "text": "Einer der drei Begriffe, die auf Folie 36 in der Ellipse zu Aristoteles' „modes of persuasion\" stehen. Das Skript nennt ihn, erklärt ihn aber nicht.",
+      "folien": [
+        36
+      ],
+      "themen": [
+        "m1-t11"
+      ],
+      "beleg": "drei untereinander stehenden Begriffen: „ETHOS\" (grün), „PATHOS\" (rot), „LOGOS\" (dunkelblau)",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "begriff": "PE-Maßnahmen",
+      "text": "Kürzel auf Folie 71: inadäquate PE-Maßnahmen erhöhen Demotivation. Auf dieser Folie wird das Kürzel nicht ausgeschrieben.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "verkehrte Stellenbesetzungen, inadäquate PE-Maßnahmen erhöhen Demotivation",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Performing",
+      "text": "Vierte Phase der Gruppenentwicklung: Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt.",
+      "folien": [
+        55
+      ],
+      "themen": [
+        "m3-t2"
+      ],
+      "beleg": "Arbeit wird geleistet, Potential entfaltet, Optimum angestrebt",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Personalentwicklungsmaßnahmen",
+      "text": "Ergebnis der Phase Entwicklungsperspektiven: Nach der Identifikation von Weiterbildungs- bzw. Veränderungsbedarf werden Personalentwicklungsmaßnahmen vereinbart.",
+      "folien": [
+        70
+      ],
+      "themen": [
+        "m5-t2"
+      ],
+      "beleg": "Vereinbarung von Personalentwicklungsmaßnahmen",
+      "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "Persönlichkeitskonstrukte",
+      "text": "Theoretische Grundlage: bestimmtes Verhalten erklärende psychische Prozesse, empirisch belegt, doch nur als Teil von Beobachtungen zu sehen.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "bestimmtes Verhalten erklärende psychische Prozesse empirisch belegt, doch nur als Teil von Beobachtungen zu sehen",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Perspektivenwechsel",
+      "text": "Auf Folie 79 mehrfach als Maßnahme genannt: „Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation“ und „Empathie, Perspektivenwechsel, Resilienz,“. Das Skript erklärt den Begriff nicht.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t6"
+      ],
+      "beleg": "Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Pessimistische Menschenbilder",
+      "text": "Spalte der Folie 31 mit fünf Einträgen: undankbar, heuchlerisch, ängstlich (Nicolo Machiavelli) · selbstsüchtig, egoistisch (Adam Smith) · kampfbetont, durchsetzungswillig (Charles Darwin) · primitiv wild, böse (Sigmund Freud) · faul, egoistisch, träge, maschinengleich (Frederic Taylor).",
+      "folien": [
+        31
+      ],
+      "themen": [
+        "m1-t2"
+      ],
+      "beleg": "...undankbar, heuchlerisch, ängstlich (Nicolo Machiavelli, 15. Jh.)",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Primacy-/Recency-Effekt",
+      "text": "In einer Reihe aufeinander folgender Beobachtungen/Informationen bleiben vor allem die erste und die letzte haften.",
+      "folien": [
+        73
+      ],
+      "themen": [
+        "m5-t12"
+      ],
+      "beleg": "in Reihe aufeinander folgender Beobachtungen/Informationen bleiben v.a. erste und letzte haften!",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Problemkonsens vor Lösungskonsens",
+      "text": "Merksatz am unteren Rand der Folie 76. Erst Übereinstimmung darüber, welches Problem vorliegt und welche Aspekte steuerbar, nicht steuerbar und zu überwachen sind, danach die Lösung.",
+      "folien": [
+        76
+      ],
+      "themen": [
+        "m6-t1"
+      ],
+      "beleg": "-> Problemkonsens vor Lösungskonsens!",
+      "belegQuelle": "folie-48"
+    },
+    {
+      "begriff": "Projekt-Phasen",
+      "text": "Leiste unter der Zeitachse der Change-Kurve: Entscheidung, Ankündigung, Konzeption, Umsetzung, Roll-out. Fünf gepunktete Linien verbinden sie mit der Achse.",
+      "folien": [
+        78
+      ],
+      "themen": [
+        "m6-t4"
+      ],
+      "beleg": "Projekt-Phasen: Entscheidung Ankündigung Konzeption Umsetzung Roll-out",
+      "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Prozessgewinne",
+      "text": "Ziel von Gruppenarbeit laut Skript. Erwünschte Phänomene sind „social facilitation“, „social compensation“ und „Synergie“.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "Ziel von Gruppenarbeit ist Erzielung von Prozessgewinnen!",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Prozessverluste",
+      "text": "Kehrseite der Gruppenarbeit: „soziales Bummeln (loafing)“, „Trittbrettfahrer (free rider)“ und „Sucker-Effekt“. Das Skript nennt Gruppen dafür anfällig.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "ABER: Gruppen sind anfällig für Prozessverluste:",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "rational man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder, auch homo oeconomicus: über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer.",
+      "folien": [
+        32
+      ],
+      "themen": [
+        "m1-t3"
+      ],
+      "beleg": "...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "Re-Forming",
+      "text": "Fünfte Phase der Gruppenentwicklung: Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung.",
+      "folien": [
+        55
+      ],
+      "themen": [
+        "m3-t2"
+      ],
+      "beleg": "Neubewertung/Bilanzierung, Repositionierung, Abschluss/Auflösung",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Regel-Kommunikation",
+      "text": "Laut Skript bei der MAF erforderlich: Kommunikation erhält Motivation, FK und MA benötigen jedoch gegenseitige und rechtzeitige Information. Regelmäßige und häufige Kommunikation beugt Informationsdefiziten und Missverständnissen vor und verhilft zu besser informierten Entscheidungen.",
+      "folien": [
+        63
+      ],
+      "themen": [
+        "m4-t2"
+      ],
+      "beleg": "Regel-Kommunikation bei der MAF erforderlich",
+      "belegQuelle": "folie-35"
+    },
+    {
+      "begriff": "Reihenfolge-Effekt",
+      "text": "Die erste Beobachtung bzw. der erste Kandidat wird unbewusst als benchmark herangezogen. Den Ausdruck benchmark erklärt das Skript nicht.",
+      "folien": [
+        73
+      ],
+      "themen": [
+        "m5-t12"
+      ],
+      "beleg": "Reihenfolge-Effekt: erste Beobachtung/erster Kandidat wird unbewusst als benchmark herangezogen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Repression/Sensitization",
+      "text": "Viertes der genannten Persönlichkeitskonstrukte. Das Skript nennt es nur; eine Erklärung steht dort nicht.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Ausprägungen/Richtung/Stärke von Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Resilienz",
+      "text": "Auf Folie 79 als Maßnahme genannt: „Empathie, Perspektivenwechsel, Resilienz,“. Der Punkt endet auf der Folie mit einem Komma ohne Fortsetzung; der Begriff wird nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t6"
+      ],
+      "beleg": "Empathie, Perspektivenwechsel, Resilienz,",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Revolution",
+      "text": "Begriff aus der Legende des Phasenschaubilds (Folie 35): die **Phase der Krise**. Dargestellt durch ein rotes Zickzack-Symbol an der Phasengrenze.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Revolution: Phase der Krise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Rhetorik",
+      "text": "Das Mittel, mit dem laut Folie 36 andere überzeugt werden, mir zu folgen. Die Folie nennt es als Ausruf hinter Aristoteles' „modes of persuasion\" und erläutert es nicht weiter.",
+      "folien": [
+        36
+      ],
+      "themen": [
+        "m1-t11"
+      ],
+      "beleg": "Andere überzeugen mir zu folgen durch.... -> Rhetorik!",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "begriff": "Ringelmann-Effekt",
+      "text": "Erster Satz im Erfahrungswissen der Folie 60: ein fauler Apfel steckt andere an. Das Skript gibt keine weitere Definition; alles darüber hinaus gehört nicht zum Stoff.",
+      "folien": [
+        60
+      ],
+      "themen": [
+        "m3-t16"
+      ],
+      "beleg": "Ringelmann-Effekt: ein fauler Apfel steckt andere an",
+      "belegQuelle": "folie-32"
+    },
+    {
+      "begriff": "Risikoschub",
+      "text": "Im Skript auch **risky shift**: Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne, Gruppen sind i.a. risikofreudiger. Gründe laut Skript: Konformitätsdruck, Hochschaukeln, Selbstüberschätzung der Gruppe, Verteilung der Risiken auf mehrere Schultern (Sozialisierung), Rolleneinfluss der Starken („Wir schaffen das!“).",
+      "folien": [
+        60
+      ],
+      "themen": [
+        "m3-t15"
+      ],
+      "beleg": "Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne; Gruppen sind i.a. risikofreudiger",
+      "belegQuelle": "folie-32"
+    },
+    {
+      "begriff": "Sandwich-Kandidaten",
+      "text": "Kandidaten, die in einer Reihe „dazwischen“ rutschen. Sie werden tendenziell pauschal bewertet, während erster und letzter Kandidat eher aussagekräftigere oder extremere Bewertungen erhalten.",
+      "folien": [
+        73
+      ],
+      "themen": [
+        "m5-t12"
+      ],
+      "beleg": "Risiko für „Sandwich-Kandidaten“, die „dazwischen“ rutschen",
+      "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Selbst-Führung",
+      "text": "Eine der fünf Führungsbeziehungen direkter Führung, englisch „leading yourself\". Sie steht im Schaubild in der Mitte; dazu der Satz „im Zentrum stehen SIE, die FK!\".",
+      "folien": [
+        37
+      ],
+      "themen": [
+        "m1-t12"
+      ],
+      "beleg": "Selbst-Führung („leading yourself\") Kunden-/Partner-Führung („leading sideways\")",
+      "belegQuelle": "folie-09"
+    },
+    {
+      "begriff": "Selbstbezug/Projektion",
+      "text": "Der Maßstab für Beurteilung/Beobachtung ist oft die eigene Person. Besonders starke eigene Eigenschaften werden als Ansprüche auf Kandidaten projiziert.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "Maßstab für Beurteilung/Beobachtung ist oft eigene Person",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Selbsteinschätzung MA",
+      "text": "Zweite Phase des Leitfadens: Der MA stellt die Einschätzung seiner Leistungen selbst vor und liefert Begründungen für positive und negative Einschätzungen; der Vorgesetzte fragt nur bei Unklarheiten nach.",
+      "folien": [
+        70
+      ],
+      "themen": [
+        "m5-t2"
+      ],
+      "beleg": "MA liefert Begründungen für positive und negative Einschätzungen",
+      "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "selektive Wahrnehmung",
+      "text": "Im Skript auf der Empfängerseite der Sender-/Empfängerfehler aufgezählt, zusammen mit unkonzentriertem Zuhören, Ablenkung und falschem Kanal oder Zeitpunkt. Der Begriff wird nur genannt, nicht erklärt.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal/Zeitpunkt",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "selektive Wahrnehmung/Aufmerksamkeit",
+      "text": "Folge der Gating-Theorie: Bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "d.h., bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "self-actualizing man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder: strebt nach Selbstverwirklichung.",
+      "folien": [
+        32
+      ],
+      "themen": [
+        "m1-t3"
+      ],
+      "beleg": "„self-actualizing man“ | ...strebt nach Selbstverwirklichung",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "Sender-/Empfängerfehler",
+      "text": "Zweite der vier Ursachen für Kommunikationsstörungen: falsche „Codierung“ zwischen unterschiedlichen Spezialisten, unklare oder missverständliche Ausdrucksweise, Urteilen, Monologe, Killerargumente, mangelnde Zielgruppenorientierung sowie selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal oder Zeitpunkt. Dazu der Zusatz des Skripts: wichtig ist, was beim Empfänger ankommt.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Sender-/Empfängerfehler … falsche „Codierung“ zwischen unterschiedlichen Spezialisten",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Senderfehler",
+      "text": "Zweiter der vier Ansatzpunkte auf Folie 66: **Vermeidung Senderfehler**. Die Folie nennt dagegen: eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal; Kommunikation an Zielgruppe(n) anpassen; ICH statt MAN, klare Meinungen, keine Killerphrasen, Sach- statt Beziehungsebene, dennoch auch Empfindungen äußern, say what you mean, kein finger pointing, keine Urteile und Verhöre; Feedback geben (s. Vorlesungen II & III) und Johari-Fenster beachten (s. Vorlesung III).",
+      "folien": [
+        66
+      ],
+      "themen": [
+        "m4-t11"
+      ],
+      "beleg": "eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal",
+      "belegQuelle": "folie-38"
+    },
+    {
+      "begriff": "Silodenken",
+      "text": "Auf Folie 51 als Teil des Kommunizierens genannt: „kein Silodenken\". **Im Skript nur genannt, nicht erklärt** – also in der Klausur nicht aus eigenem Wissen ausschmücken.",
+      "folien": [
+        51
+      ],
+      "themen": [
+        "m2-t13"
+      ],
+      "beleg": "Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)",
+      "belegQuelle": "folie-23"
+    },
+    {
+      "begriff": "Similar to me",
+      "text": "Ausdruck des Skripts für die Ursache von Antipathie: eigene Schwächen des Beobachters werden beim Kandidaten wiedererkannt. Der englische Ausdruck steht ohne Erklärung im Skript.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "Antipathie z.B. weil eigene Schwächen des Beobachters wiedererkannt werden (similar to me)",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "SMART",
+      "text": "Die fünf Buchstaben in der rechten Spalte des Kriterienkastens auf Folie 68: **S**: Spezifisch, **M**: Messbar, **A**: Aktiv beeinflussbar, **R**: Relevant, **T**: Terminiert. Links daneben stehen fünf Kriterien für herausfordernde und spezifische Ziele. Die Folie sagt nicht, ob die linke Zeile inhaltlich zum rechts stehenden Buchstaben gehört.",
+      "folien": [
+        68
+      ],
+      "themen": [
+        "m4-t14"
+      ],
+      "beleg": "die fünf Kriterien links und die SMART-Buchstaben rechts nur nebeneinander in einer Zeile",
+      "belegQuelle": "folie-40"
+    },
+    {
+      "begriff": "smarte Anreizgestaltung",
+      "text": "Auf Folie 44 als Herausforderung genannt: die Kombination intrinsischer und extrinsischer Motive. Was „smart“ hier genau heißt, erläutert die Folie nicht.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t2"
+      ],
+      "beleg": "Kombination intrinsischer & extrinsischer Motive durch smarte Anreizgestaltung",
+      "belegQuelle": "folie-16"
+    },
+    {
+      "begriff": "social compensation",
+      "text": "Prozessgewinn, im Skript als „social compensation“ geschrieben: Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "„social compensation“: Schwächen Einzelner werden durch andere Gruppenmitglieder ausgeglichen",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "social facilitation",
+      "text": "Prozessgewinn, im Skript als „social facilitation“ geschrieben: Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams).",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "„social facilitation“: Vorbild-Wirkung von aktiven MA motiviert gesamtes Team (siehe Sport-Teams)",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "social man",
+      "text": "Eines der vier in der BWL verwandten Menschenbilder: Soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten.",
+      "folien": [
+        32
+      ],
+      "themen": [
+        "m1-t3"
+      ],
+      "beleg": "...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten",
+      "belegQuelle": "folie-04"
+    },
+    {
+      "begriff": "Sollen",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für **formale Mechanismen** und liegt auf der kontextbezogenen Seite.",
+      "folien": [
+        49
+      ],
+      "themen": [
+        "m2-t11"
+      ],
+      "beleg": "Sollen -> formale Mechanismen",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "soziale Bedürfnisse (Klammer)",
+      "text": "Innere Klammer auf Folie 46 über die Individualbedürfnisse und die Sozialen Bedürfnisse. Nicht zu verwechseln mit der einzelnen Pyramidenstufe Soziale Bedürfnisse.",
+      "folien": [
+        46
+      ],
+      "themen": [
+        "m2-t5"
+      ],
+      "beleg": "soziale Bedürfnisse (mittlerer Bereich, Stufen Individualbedürfnisse und Soziale Bedürfnisse)",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "Soziale Stereotype",
+      "text": "Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen. Beispiele des Skripts: „soziophobe“ Nerds, Haartracht.",
+      "folien": [
+        72
+      ],
+      "themen": [
+        "m5-t11"
+      ],
+      "beleg": "Überwälzen von sozialen Gruppen zugeschriebenen Verhaltensweisen/Eigenschaften auf Individuen",
+      "belegQuelle": "folie-44"
+    },
+    {
+      "begriff": "sozialer Druck",
+      "text": "Wirkung, die eine Gruppe über Strukturen und Normen auf ihre Mitglieder ausübt, um erwünschtes Verhalten zu beeinflussen (Normeneinhaltung, Rollen, Funktionen).",
+      "folien": [
+        56
+      ],
+      "themen": [
+        "m3-t3"
+      ],
+      "beleg": "sozialer Druck über … auf Gruppenmitglieder, um erwünschtes Verhalten zu beeinflussen",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "soziales Bummeln (loafing)",
+      "text": "Prozessverlust: kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "„soziales Bummeln (loafing)“: kein Mitglied setzt sich vehement für Gruppenziele ein, der Einsatz schwindet",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Soziales Lernen (social learning)",
+      "text": "Erklärung von Jonah Berger im Video Brain Games für das Übernehmen des Gruppenverhaltens: Schon früh im Leben belohne das Gehirn Menschen dafür, das Verhalten der eigenen Gruppe nachzuahmen. Der Begriff stammt aus der verlinkten Quelle, nicht aus der Folie selbst.",
+      "folien": [
+        58
+      ],
+      "themen": [
+        "m3-t12"
+      ],
+      "beleg": "Dieses verinnerlichte Verhalten sei Teil des „social learning“",
+      "belegQuelle": "extern-gruppendruck"
+    },
+    {
+      "begriff": "STAR-Technik",
+      "text": "Zweites Mittel neben der 2-Schritt-Technik: Situation - Task - Action - Result. Das Skript nennt die vier Schritte, erklärt sie aber nicht.",
+      "folien": [
+        69
+      ],
+      "themen": [
+        "m5-t1"
+      ],
+      "beleg": "STAR-Technik: Situation - Task - Action - Result",
+      "belegQuelle": "folie-41"
+    },
+    {
+      "begriff": "Stimmungsbarometer",
+      "text": "Auf Folie 63 nur genannt, nicht erklärt: Offene und häufige Kommunikation beugt tendenziell schlechter Stimmung vor (Stimmungsbarometer!). Eine Erklärung des Begriffs gibt das Skript nicht.",
+      "folien": [
+        63
+      ],
+      "themen": [
+        "m4-t2"
+      ],
+      "beleg": "offene und häufige Kommunikation beugt tendenziell schlechter Stimmung vor (Stimmungsbarometer!)",
+      "belegQuelle": "folie-35"
+    },
+    {
+      "begriff": "Storming",
+      "text": "Zweite Phase der Gruppenentwicklung: Reibungen, Rollenzuweisungen, Einüben des Funktionierens. „Rollen“ ist auf der Folie unterstrichen.",
+      "folien": [
+        55
+      ],
+      "themen": [
+        "m3-t2"
+      ],
+      "beleg": "Reibungen, … Einüben des Funktionierens",
+      "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Struktur",
+      "text": "Operationalisierung der Strategie. Das Skript nennt als Voraussetzung, dass die Struktur die MA bei der Zielerreichung unterstützt und ausdrücklich nicht behindert.",
+      "folien": [
+        63
+      ],
+      "themen": [
+        "m4-t2"
+      ],
+      "beleg": "Struktur (= Operationalisierung der Strategie)",
+      "belegQuelle": "folie-35"
+    },
+    {
+      "begriff": "Strukturen",
+      "text": "Erster Kanal des sozialen Drucks in Gruppen: Rollenmodelle/Funktionen, Macht/Status-Strukturen, Emotionale Beziehungen, innerbetriebliches soziales Netzwerk. Zugleich einer der vier Faktoren (S) der Verhaltensänderung, dort als Strukturen/Prozesse.",
+      "folien": [
+        56
+      ],
+      "themen": [
+        "m3-t3"
+      ],
+      "beleg": "Rollenmodelle/Funktionen … Macht/Status-Strukturen … innerbetriebliches soziales Netzwerk",
+      "belegQuelle": "folie-28"
+    },
+    {
+      "begriff": "Sucker-Effekt",
+      "text": "Prozessverlust: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "„Sucker-Effekt“: Einzelne wollen nicht allein Einsatz zeigen und reduzieren diesen sukzessive",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Support",
+      "text": "Dritte Stufe der Pfeilkette auf Folie 79, die letzte vor der Apathy. Auf der Folie nur genannt, nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Commitment > Involvement > Support > Apathy",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Sympathie/Antipathie",
+      "text": "Das Bauchgefühl beeinflusst Beurteilungen und führt zu verzerrter Maßstabsanwendung: dem Beurteiler besonders sympathische Bewerber werden unbewusst besser bewertet, und umgekehrt.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "Bauchgefühl beeinflusst Beurteilungen: verzerrte Maßstabsanwendung",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Synergie",
+      "text": "Prozessgewinn: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "„Synergie“: gemeinsames Handeln und Erleben setzen zusätzliche Kräfte frei",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "systemische Methoden",
+      "text": "Auf Folie 77 als Vorgehen bei komplexen Problemen genannt. Das Skript erklärt den Begriff nicht.",
+      "folien": [
+        77
+      ],
+      "themen": [
+        "m6-t2"
+      ],
+      "beleg": "komplexe Probleme: … systemische Methoden",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Szenario-Fragen",
+      "text": "Untaugliche Standardfrage in der Form „Stellen Sie sich vor...“. Sie fragt nach einer gedachten Lage statt nach tatsächlich gezeigtem Verhalten.",
+      "folien": [
+        69
+      ],
+      "themen": [
+        "m5-t1"
+      ],
+      "beleg": "Szenario-Fragen: „Stellen Sie sich vor...“",
+      "belegQuelle": "folie-41"
+    },
+    {
+      "begriff": "tame problems",
+      "text": "Erste Problemart nach Grint: wiederkehrende Probleme, operationaler Lösungsraum, Management/Prozesse/Ratio, mittelfristige Wirksamkeit.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "tame problems: … wiederkehrende Probleme",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "technisches Problem",
+      "text": "Erste Problemart nach Heifetz: klar abgrenzbares Problem, enger, erlernbarer Lösungsraum, Expertenwissen und -können.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "technisches Problem: … klar abgrenzbares Problem",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Tendenz zur Milde/Strenge",
+      "text": "Geringes oder hohes Anspruchsniveau der Beurteiler führt zu Ausreißern. Das Vorgehen ist den Beurteilern (und der Umwelt!) meist bewusst.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "geringes/hohes Anspruchsniveau der Beurteiler führt zu Ausreißern",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Tendenz zur Mitte",
+      "text": "Vielfach unbewusste Behelfslösung bei Unschlüssigkeit mit Votum der „goldenen Mitte“: Gutes wird abgewertet, Schlechtes wird aufgewertet. Abhilfe z.B. durch gerade Anzahl wählbarer Skalenwerte.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "vielfach unbewusste Behelfslösung bei Unschlüssigkeit mit Votum der „goldenen Mitte“",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Theory X",
+      "text": "Menschenbild nach Douglas McGregor. Der Mensch verhält sich unwillig und angeboren arbeitsscheu, muss zur Arbeit gezwungen und mit Strafe bedroht werden, besitzt wenig Ehrgeiz und sucht Sicherheit, braucht Vorgaben, Anleitung und Kontrolle von Vorgesetzten.\n\nAuf Folie 45 nur als Kurzformel für ein einseitiges Menschenbild genannt, auf dem extrinsische Motivierungsversuche beruhen. Das Skript erklärt den Begriff an dieser Stelle nicht.",
+      "folien": [
+        31,
+        45
+      ],
+      "themen": [
+        "m1-t2",
+        "m2-t3"
+      ],
+      "beleg": "...verhält sich unwillig und angeboren arbeitsscheu",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Theory Y",
+      "text": "Menschenbild nach Douglas McGregor. Der Mensch ist intrinsisch motiviert und engagiert, benötigt Arbeit als Basis für Zufriedenheit, strebt Selbstverwirklichung an und identifiziert sich mit der Unternehmung.",
+      "folien": [
+        31
+      ],
+      "themen": [
+        "m1-t2"
+      ],
+      "beleg": "...ist intrinsisch motiviert und engagiert",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Theory Z",
+      "text": "Laut Skript vereinbart der Mensch nach Theory Z die Theorien X und Y in sich. Mehr steht dort nicht: Das Skript nennt weder einen Urheber noch eine weitere Erklärung.",
+      "folien": [
+        31
+      ],
+      "themen": [
+        "m1-t2"
+      ],
+      "beleg": "Der Mensch...nach Theory Z...vereinbart Theory X und Y in sich...",
+      "belegQuelle": "folie-03"
+    },
+    {
+      "begriff": "Three Levels of Resistance",
+      "text": "Eingebettetes Bild unten links auf Folie 79 mit drei Stufen: Level 1: I don't get it (Information—facts, figures, ideas), Level 2: I don't like it (Emotional reaction to the change), Level 3: I don't like you (Trust and confidence). Es ist englisch, nennt keinen Urheber und wird im Folientext nicht aufgegriffen oder erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t5"
+      ],
+      "beleg": "Three Levels of Resistance",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "transaktional",
+      "text": "Führungsstil bei Bass, zugeordnet der Dimension ziel-/ergebnisorientiert. Das Skript nennt den Stil in der Übersicht, ohne ihn dort zu erläutern.",
+      "folien": [
+        39
+      ],
+      "themen": [
+        "m1-t14"
+      ],
+      "beleg": "Bass — Dimensionen ziel-/ergebnisorientiert und werte-/zielverändernd, Stile transaktional, transformational",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "transformational",
+      "text": "Führungsstil bei Bass, zugeordnet der Dimension werte-/zielverändernd. Das Skript nennt den Stil in der Übersicht, ohne ihn dort zu erläutern.",
+      "folien": [
+        39
+      ],
+      "themen": [
+        "m1-t14"
+      ],
+      "beleg": "Bass — Dimensionen ziel-/ergebnisorientiert und werte-/zielverändernd, Stile transaktional, transformational",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Trittbrettfahrer (free rider)",
+      "text": "Prozessverlust: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen.",
+      "folien": [
+        57
+      ],
+      "themen": [
+        "m3-t4"
+      ],
+      "beleg": "„Trittbrettfahrer (free rider)“: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen",
+      "belegQuelle": "folie-29"
+    },
+    {
+      "begriff": "Überlegenheit",
+      "text": "In der offiziellen deutschen TED-Übersetzung von Dan Pinks Vortrag das Wort für mastery: der Wunsch, besser und besser bei etwas Bedeutungsvollem zu werden. Die RSA-Quelle nennt denselben Faktor Meisterschaft.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t4"
+      ],
+      "beleg": "Überlegenheit: der Wunsch, besser und besser bei etwas Bedeutungsvollem zu werden.",
+      "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "unerwünschte Fluktuation",
+      "text": "Zweite Größe, die das Ziel auf Folie 79 klein halten will, neben dem „Dip“. Der Begriff wird auf der Folie nicht erklärt.",
+      "folien": [
+        79
+      ],
+      "themen": [
+        "m6-t6"
+      ],
+      "beleg": "Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation",
+      "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "untaugliche (Standard-)Fragen",
+      "text": "Fragen, die das Skript im Auswahlgespräch vermeiden will, weil Gesprächspartner darauf z.T. auswendig Gelerntes vorhalten. Beispiele des Skripts: „Nennen Sie mir ihre Stärken und Schwächen!“ und Szenario-Fragen.",
+      "folien": [
+        69
+      ],
+      "themen": [
+        "m5-t1"
+      ],
+      "beleg": "untaugliche (Standard-)Fragen vermeiden, z.B.:",
+      "belegQuelle": "folie-41"
+    },
+    {
+      "begriff": "Vergleich",
+      "text": "Zweiter der drei Mechanismen: Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen.",
+      "folien": [
+        59
+      ],
+      "themen": [
+        "m3-t14"
+      ],
+      "beleg": "Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen",
+      "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Verzerrte Maßstabsanwendung",
+      "text": "Die Folge von Sympathie und Antipathie laut Skript: Der Maßstab wird je nach Person unterschiedlich angelegt, statt für alle gleich.",
+      "folien": [
+        74
+      ],
+      "themen": [
+        "m5-t13"
+      ],
+      "beleg": "verzerrte Maßstabsanwendung, durch unbewusst bessere Bewertung dem Beurteiler besonders sympathische Bewerber",
+      "belegQuelle": "folie-46"
+    },
+    {
+      "begriff": "Volition",
+      "text": "Der **Wille**, den Motivation erfordert: „Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.\" Mehr sagt das Skript zu diesem Begriff nicht; die Folie nennt ihn ausdrücklich als einen der Begriffe, die sie nicht erklärt.",
+      "folien": [
+        50
+      ],
+      "themen": [
+        "m2-t12"
+      ],
+      "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
+      "belegQuelle": "folie-22"
+    },
+    {
+      "begriff": "Vorgesetzten-Führung",
+      "text": "Eine der fünf Führungsbeziehungen direkter, personal-interaktiver (Menschen)Führung. Englisch laut Folie: „leading upwards\", also Führung nach oben zum eigenen Vorgesetzten.",
+      "folien": [
+        37
+      ],
+      "themen": [
+        "m1-t12"
+      ],
+      "beleg": "Vorgesetzten-Führung („leading upwards\") laterale Führung („leading sideways\")",
+      "belegQuelle": "folie-09"
+    },
+    {
+      "begriff": "Wachstumskrise, Visionskrise",
+      "text": "Die beiden Krisen, die im Phasenschaubild (Folie 35) bei Phase 5 unter „Ausgereiftes Wachstum“ stehen. Das Skript erklärt sie nicht weiter.",
+      "folien": [
+        35
+      ],
+      "themen": [
+        "m1-t6"
+      ],
+      "beleg": "Ausgereiftes Wachstum…Wachstumskrise, Visionskrise",
+      "belegQuelle": "folie-07"
+    },
+    {
+      "begriff": "Wachstumsmotive",
+      "text": "Bei Maslow die Klammer über die oberste Stufe der Pyramide, die Selbstverwirklichung. Ihre Befriedigung ist für vollständiges Wohlergehen notwendig.",
+      "folien": [
+        46,
+        48
+      ],
+      "themen": [
+        "m2-t5",
+        "m2-t7"
+      ],
+      "beleg": "Wachstumsmotive für den oberen Bereich (nur Stufe Selbstverwirklichung)",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "Wachstumsparadigma",
+      "text": "Zweite Begründung der „Denn:\"-Liste auf Folie 53: Das Wachstumsparadigma behindert die Sicht auf (noch) „kleine\" Wachstumschancen (weak signals). **Im Skript nur genannt, nicht erklärt.**",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "Wachstumsparadigma behindert Sicht auf (noch) „kleine\" Wachstumschancen (weak signals)",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "wahrgenommene Gerechtigkeit",
+      "text": "Laut Folie 44 der Maßstab, an dem Vergütung wirkt: Sie wird in der Regel nicht in absoluter Höhe betrachtet, sondern daran gemessen, ob sie als gerecht empfunden wird. Begründung der Folie: Menschen vergleichen sich.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t2"
+      ],
+      "beleg": "es geht um wahrgenommene Gerechtigkeit (Menschen vergleichen sich!)",
+      "belegQuelle": "folie-16"
+    },
+    {
+      "begriff": "Wahrnehmungsverzerrungen",
+      "text": "Das, was beim Einschätzen von Menschen verringert werden soll. Ziel der Folie: Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen.",
+      "folien": [
+        71
+      ],
+      "themen": [
+        "m5-t3"
+      ],
+      "beleg": "Ziel: Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen",
+      "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Warnsignale für gestörte Kommunikation",
+      "text": "Laut Folie 65: Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung. Die Führungskraft soll darauf mit aufmerksamem Zuhören, geschickten Nachfragen, Ausredenlassen und Schweigen reagieren.",
+      "folien": [
+        65
+      ],
+      "themen": [
+        "m4-t4"
+      ],
+      "beleg": "Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung",
+      "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "weak signals",
+      "text": "Auf Folie 53 als Klammerzusatz zu den (noch) „kleinen\" Wachstumschancen genannt, die das Wachstumsparadigma verdeckt. **Im Skript nur genannt, nicht erklärt.**",
+      "folien": [
+        53
+      ],
+      "themen": [
+        "m2-t15"
+      ],
+      "beleg": "Wachstumsparadigma behindert Sicht auf (noch) „kleine\" Wachstumschancen (weak signals)",
+      "belegQuelle": "folie-25"
+    },
+    {
+      "begriff": "Wenn-dann-Belohnungen",
+      "text": "Bei Dan Pink Belohnungen nach dem Muster: Wenn du dies tust, dann bekommst du jenes. Sie wirken gut bei Aufgaben mit einfachem Regelwerk und klarem Ziel, weil sie das Blickfeld verengen, und schaden bei Aufgaben, die konzeptionelles, kreatives Denken erfordern.",
+      "folien": [
+        44
+      ],
+      "themen": [
+        "m2-t4"
+      ],
+      "beleg": "Wenn-dann-Belohnungen funktionieren gut bei Aufgaben mit einfachem Regelwerk und klarem Ziel",
+      "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Wertekosmos",
+      "text": "Begriff aus dem Schlusssatz der Folie 33: „wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos“. Was dieser Kosmos genau umfasst, erklärt das Skript nicht.",
+      "folien": [
+        33
+      ],
+      "themen": [
+        "m1-t4"
+      ],
+      "beleg": "wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos",
+      "belegQuelle": "folie-05"
+    },
+    {
+      "begriff": "Wertewandel",
+      "text": "Auf Folie 43 genannt, aber nicht erläutert: Wertewandel und geänderte Arbeitswelt erfordern Anpassung bei äußerer Motivation. Was das Skript darunter versteht, steht dort nicht.",
+      "folien": [
+        43
+      ],
+      "themen": [
+        "m2-t1"
+      ],
+      "beleg": "Wertewandel und geänderte Arbeitswelt erfordern Anpassung bei äußerer Motivation",
+      "belegQuelle": "folie-15"
+    },
+    {
+      "begriff": "wicked problems",
+      "text": "Zweite Problemart nach Grint: komplexe, „unschöne“ Probleme, strategischer Lösungsraum, Kollaboration, Fragen stellen, langfristige Wirksamkeit.",
+      "folien": [
+        76,
+        77
+      ],
+      "themen": [
+        "m6-t1",
+        "m6-t2"
+      ],
+      "beleg": "wicked problems: … strategischer Lösungsraum",
+      "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Wiederaufwertung niedrigerer Bedürfnisse",
+      "text": "Regel auf Folie 46: Wird eine Kategorie nicht befriedigt, gewinnen die niedrigeren Bedürfnisse wieder an Gewicht. Beispiel der Folie: diffuse Ängste und Hamsterkäufe während CoViD19.",
+      "folien": [
+        46
+      ],
+      "themen": [
+        "m2-t5"
+      ],
+      "beleg": "Wiederaufwertung niedrigerer Bedürfnisse",
+      "belegQuelle": "folie-18"
+    },
+    {
+      "begriff": "WIR-Gefühl",
+      "text": "Erstes der drei Bündel von Faktoren, die laut Skript zur Gruppenbildung beitragen. Auf der Folie geschrieben als „WIR“-Gefühl. Es entsteht durch häufige persönliche Kontakte (stofflich effektiv und via elektr. Medien), gemeinsame Erlebnisse sowie wahrgenommene Ähnlichkeit, Sympathien.",
+      "folien": [
+        54
+      ],
+      "themen": [
+        "m3-t1"
+      ],
+      "beleg": "häufige persönliche Kontakte … gemeinsame Erlebnisse … wahrgenommene Ähnlichkeit, Sympathien",
+      "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "Wollen",
+      "text": "Eine der vier Determinanten des Verhaltens. Steht im Schaubild der Folie 49 für **individuelle Motivation/Werte** und liegt auf der akteursbezogenen Seite. In der Zusammenfassung auf Folie 50 wird Wollen mit Motivation gleichgesetzt.",
+      "folien": [
+        49,
+        50
+      ],
+      "themen": [
+        "m2-t11",
+        "m2-t12"
+      ],
+      "beleg": "Wollen -> individuelle Motivation/Werte",
+      "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "ZEG",
+      "text": "Kürzel in der Überschrift „Beurteilung/ZEG richtig führen“. Auf der Folie wird es weder ausgeschrieben noch erklärt.",
+      "folien": [
+        70
+      ],
+      "themen": [
+        "m5-t2"
+      ],
+      "beleg": "Beurteilung/ZEG richtig führen",
+      "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "zentrale Führungsaufgaben",
+      "text": "Fünf Gruppen von Aufgaben der direkten Führung: Wahrnehmen, Analysieren, Reflektieren / Informieren, Kommunizieren, Konsultieren / Motivieren, Identifizieren / Entscheiden, Koordinieren, Kooperieren, Delegieren / Entwickeln, Evaluieren, Gratifizieren.",
+      "folien": [
+        38
+      ],
+      "themen": [
+        "m1-t13"
+      ],
+      "beleg": "zentrale Führungsaufgaben: - Wahrnehmen, Analysieren, Reflektieren - Informieren, Kommunizieren, Konsultieren",
+      "belegQuelle": "folie-10"
+    },
+    {
+      "begriff": "Zielvereinbarungsgespräch",
+      "text": "Gegenstand der Folie 68 (Lernstoff): **Zielvereinbarungsgespräche richtig führen**, mit einem groben Leitfaden zur Gesprächsgestaltung in sieben Phasen: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss.",
+      "folien": [
+        68
+      ],
+      "themen": [
+        "m4-t13",
+        "m4-t14"
+      ],
+      "beleg": "Zielvereinbarungsgespräche richtig führen",
+      "belegQuelle": "folie-40"
+    },
+    {
+      "begriff": "Zweifaktoren-Theorie",
+      "text": "Herzbergs Modell auf Folie 47: Arbeitszufriedenheit als zweidimensionales Konzept mit zwei getrennten Skalen, auf denen Hygienefaktoren und Motivatoren wirken.",
+      "folien": [
+        47
+      ],
+      "themen": [
+        "m2-t6"
+      ],
+      "beleg": "Herzberg's Zweifaktoren-Theorie",
+      "belegQuelle": "folie-19"
+    }
+  ]
+}

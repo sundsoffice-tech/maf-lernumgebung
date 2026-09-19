@@ -1,0 +1,186 @@
+/* Aufgabenrahmen, gemeinsame Optionsstile, Checkliste und Karteikarte.
+   Grundsatz aus dem Vertrag (5.1): Ein Zustand wird nie allein über die Farbe gezeigt. Das Symbol kommt aus dem
+   Renderer, die Rahmenart (durchgezogen, dick, gestrichelt) aus diesen Regeln. */
+
+/* ---------- Rahmen um jede Aufgabe ---------- */
+
+.aufgabe { display: flex; flex-direction: column; gap: var(--a-4); }
+/* Abgabe- und Rückmeldeteil sind zeitweise leer. Ausgeblendet erzeugen sie keine Lücke im Abstand. */
+.aufgabe > :empty { display: none; }
+/* Die Renderer blenden Zwischenschritte über das Attribut hidden aus. Ohne diese Regel gewinnt das display
+   der Klasse (.knopf, .aufgabe__abgabeknoepfe) gegen die Vorgabe des Browsers und der Knopf bleibt stehen. */
+.aufgabe [hidden] { display: none; }
+
+.aufgabe__kopf { row-gap: var(--a-2); }
+.aufgabe__kopf .zahl { font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; }
+.aufgabe__kopf .marke-chip--folie { margin-left: auto; }
+
+.aufgabe__frage { display: flex; flex-direction: column; gap: var(--a-3); }
+/* Eine Karteikarte bringt keine Frage mit, nur eine Vorderseite. */
+.aufgabe__fragetext:empty { display: none; }
+.aufgabe__frage:not(:has(> *:not(:empty))) { display: none; }
+
+/* Der Übungsfall wird als eigener Kasten abgesetzt, damit Situation und Frage nicht ineinanderlaufen. */
+.aufgabe__szenario {
+  padding: var(--a-3) var(--a-4);
+  border: 1px solid var(--linie); border-left: 4px solid var(--linie-stark);
+  border-radius: var(--radius-m); background: var(--flaeche-2); color: var(--tinte-2);
+}
+.aufgabe__szenario > :last-child { margin-bottom: 0; }
+
+.aufgabe__fragetext { font-size: var(--gr-l); font-weight: 600; line-height: 1.5; }
+.aufgabe__fragetext > :last-child { margin-bottom: 0; }
+@media (min-width: 40rem) { .aufgabe__fragetext { font-size: var(--gr-xl); line-height: 1.4; } }
+
+.aufgabe__antwort > * + * { margin-top: var(--a-3); }
+.aufgabe__antwort > p, .aufgabe__antwort > .stapel > p { margin-bottom: 0; }
+.aufgabe__antwort textarea { min-height: 8rem; line-height: 1.6; }
+.aufgabe__antwort textarea[readonly] { background: var(--flaeche-2); color: var(--tinte-2); }
+
+.aufgabe__abgabe { display: flex; flex-direction: column; gap: var(--a-2); }
+.aufgabe__abgabehinweis { margin: 0; }
+/* Die Knöpfe teilen sich die Zeile. Lange Beschriftungen brechen um und füllen dann die Zeile,
+   statt links angeschlagen stehen zu bleiben. */
+.aufgabe__abgabeknoepfe { display: flex; flex-wrap: wrap; gap: var(--a-3); }
+.aufgabe__abgabeknoepfe .knopf { flex: 1 1 auto; }
+/* Schmal: untereinander und über die volle Breite, damit die Trefferfläche groß bleibt. */
+@media (max-width: 34rem) {
+  .aufgabe__abgabeknoepfe { flex-direction: column; align-items: stretch; }
+  .aufgabe__abgabeknoepfe .knopf { width: 100%; }
+}
+
+.aufgabe__rueckmeldung { display: flex; flex-direction: column; gap: var(--a-3); }
+.aufgabe__rueckmeldung .hinweiskasten > p { margin-bottom: 0; }
+.rueckmeldung__titel {
+  display: flex; align-items: center; gap: var(--a-2); margin-bottom: var(--a-1);
+  font-family: var(--schrift-titel); font-size: var(--gr-l);
+}
+.rueckmeldung__titel svg { width: 1.4em; height: 1.4em; flex: none; stroke-width: 2.3; }
+.hinweiskasten--gut .rueckmeldung__titel { color: var(--gut); }
+.hinweiskasten--mittel .rueckmeldung__titel { color: var(--mittel); }
+.hinweiskasten--schlecht .rueckmeldung__titel { color: var(--schlecht); }
+
+.rueckmeldung__erklaerung { margin-top: var(--a-3); padding-top: var(--a-3); border-top: 1px solid var(--linie); }
+.rueckmeldung__erklaerung > :last-child { margin-bottom: 0; }
+
+/* Der wörtliche Beleg aus dem Skript, als Zitat erkennbar. */
+.rueckmeldung__beleg { margin: var(--a-3) 0 0; }
+.rueckmeldung__beleg figcaption {
+  margin-bottom: var(--a-2);
+  font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinte-3);
+}
+.rueckmeldung__beleg blockquote {
+  margin: 0; padding-left: var(--a-3); border-left: 3px solid var(--linie-stark);
+  font-family: var(--schrift-titel); font-style: italic; line-height: 1.5;
+}
+.rueckmeldung__beleg blockquote + blockquote { margin-top: var(--a-2); }
+
+.rueckmeldung__knoepfe { justify-content: flex-end; }
+@media (max-width: 34rem) { .rueckmeldung__knoepfe .knopf { width: 100%; } }
+
+/* ---------- Optionen: Einfachauswahl, Mehrfachauswahl, Aussagen ---------- */
+
+.optionen { display: flex; flex-direction: column; gap: var(--a-2); }
+.optionen__hinweis { margin: 0 0 var(--a-2); }
+
+.option {
+  display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--a-2) var(--a-3);
+  min-height: 3rem; padding: var(--a-3) var(--a-4);
+  border: 1px solid var(--linie); border-radius: var(--radius-m);
+  background: var(--flaeche); color: var(--tinte);
+  cursor: pointer; transition: background 0.15s, border-color 0.15s;
+  -webkit-tap-highlight-color: transparent;
+}
+label.option:hover { background: var(--flaeche-2); border-color: var(--linie-stark); }
+.option:has(input:disabled) { cursor: default; }
+.option:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.option__text { flex: 1 1 10rem; line-height: 1.5; }
+
+/* Marke: Kreis bei Einfachauswahl, Kästchen bei Mehrfachauswahl. */
+.option__marke {
+  flex: none; width: 1.4rem; height: 1.4rem; margin-top: 0.1rem;
+  display: grid; place-items: center;
+  border: 2px solid var(--linie-stark); border-radius: 50%; background: var(--flaeche);
+}
+.optionen--mehrfach .option__marke { border-radius: var(--radius-s); }
+.option.ist-gewaehlt .option__marke { border-color: var(--primaer); background: var(--primaer); }
+.option.ist-gewaehlt .option__marke::after { content: ""; }
+.optionen:not(.optionen--mehrfach) .option.ist-gewaehlt .option__marke::after {
+  width: 0.55rem; height: 0.55rem; border-radius: 50%; background: var(--auf-primaer);
+}
+.optionen--mehrfach .option.ist-gewaehlt .option__marke::after {
+  width: 0.34rem; height: 0.68rem; margin-top: -0.14rem;
+  border: solid var(--auf-primaer); border-width: 0 0.16rem 0.16rem 0; transform: rotate(45deg);
+}
+
+.option.ist-gewaehlt { border-color: var(--primaer); background: var(--primaer-sanft); }
+
+/* Nach dem Prüfen. Farbe plus Rahmenart: richtig doppelt gerahmt, verpasst gestrichelt. */
+.option.ist-richtig { border-color: var(--gut); background: var(--gut-sanft); box-shadow: inset 0 0 0 1px var(--gut); }
+.option.ist-richtig .option__marke { border-color: var(--gut); background: var(--gut); }
+.option.ist-falsch { border-color: var(--schlecht); background: var(--schlecht-sanft); box-shadow: inset 0 0 0 1px var(--schlecht); }
+.option.ist-falsch .option__marke { border-color: var(--schlecht); background: var(--schlecht); }
+.option.ist-verpasst { border-color: var(--gut); border-style: dashed; background: var(--flaeche); }
+.option.ist-verpasst .option__marke { border-color: var(--gut); border-style: dashed; background: var(--flaeche); }
+.option.ist-verpasst .option__marke::after { display: none; }
+
+.option__urteil { flex: none; display: inline-flex; align-items: center; margin-top: 0.05rem; }
+.option__urteil svg { width: 1.5rem; height: 1.5rem; stroke-width: 2.4; }
+.option.ist-richtig .option__urteil, .option.ist-verpasst .option__urteil { color: var(--gut); }
+.option.ist-falsch .option__urteil { color: var(--schlecht); }
+
+/* ---------- Aussagen mit zwei Schaltern (wahr oder falsch) ---------- */
+
+.option--aussage { align-items: center; cursor: default; }
+.option--aussage .option__text { flex: 1 1 13rem; }
+.option__schalter { flex: none; display: flex; gap: var(--a-2); }
+.option__schalter .knopf { padding: 0 var(--a-3); }
+.option__schalter .knopf::before {
+  content: ""; flex: none; width: 0.85rem; height: 0.85rem;
+  border: 2px solid currentColor; border-radius: 50%; opacity: 0.45;
+}
+.option__schalter .knopf.ist-gewaehlt {
+  background: var(--primaer); border-color: var(--primaer); color: var(--auf-primaer);
+}
+.option__schalter .knopf.ist-gewaehlt::before { background: currentColor; opacity: 1; }
+.option__schalter .knopf[disabled] { opacity: 0.5; }
+.option__schalter .knopf.ist-gewaehlt[disabled] { opacity: 1; }
+
+.option__korrektur {
+  flex: 1 0 100%; margin: 0; padding-top: var(--a-2); border-top: 1px solid var(--linie-stark);
+  font-size: var(--gr-s); line-height: 1.5; color: var(--tinte-2);
+}
+.option__korrektur strong { display: block; color: var(--tinte); }
+
+@media (max-width: 34rem) {
+  .option__schalter { flex: 1 0 100%; }
+  .option__schalter .knopf { flex: 1 1 0; min-width: 0; padding: 0 var(--a-2); }
+}
+
+/* ---------- Checkliste der Selbstbewertung (erklaeren, fall offen) ---------- */
+
+.checkliste {
+  margin: 0; padding: var(--a-2) var(--a-4) var(--a-3);
+  border: 1px solid var(--linie); border-radius: var(--radius-m); background: var(--flaeche);
+}
+.checkliste legend { padding: 0 var(--a-2); font-size: var(--gr-s); font-weight: 650; color: var(--tinte-2); }
+.checkpunkt {
+  display: flex; align-items: flex-start; gap: var(--a-3);
+  min-height: 2.75rem; padding: var(--a-2); line-height: 1.5;
+  border-left: 3px solid transparent; border-radius: var(--radius-s); cursor: pointer;
+}
+.checkpunkt:hover { background: var(--flaeche-2); }
+.checkpunkt:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
+.checkpunkt input { flex: none; width: 1.3rem; height: 1.3rem; margin: 0.2rem 0 0; accent-color: var(--primaer); }
+.checkpunkt.ist-richtig { background: var(--gut-sanft); border-left-color: var(--gut); }
+.checkpunkt.ist-verpasst { background: var(--flaeche-2); border-left-color: var(--mittel); border-left-style: dashed; color: var(--tinte-2); }
+
+/* ---------- Karteikarte ---------- */
+
+.aufgabe__karteikarte {
+  display: flex; flex-direction: column; justify-content: center;
+  min-height: 6.5rem; padding: var(--a-4);
+  font-size: var(--gr-l); line-height: 1.6;
+}
+.aufgabe__karteikarte p { margin-bottom: var(--a-2); }
+.aufgabe__karteikarte > :last-child { margin-bottom: 0; }

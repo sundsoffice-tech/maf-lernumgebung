@@ -1,0 +1,1034 @@
+{
+  "id": "m6",
+  "titel": "Change-Management & Zukunft der Führung",
+  "vorlesung": "MAF VI",
+  "themen": [
+    {
+      "id": "m6-t1",
+      "titel": "Welches Problem liegt vor? Der Trichter",
+      "folien": [76],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t1-k1",
+          "titel": "Erst das Problem, dann die Lösung",
+          "folien": [76],
+          "bloecke": [
+            { "typ": "einfach", "text": "Bevor du im Change eine Lösung suchst, klärst du, welche Art von Problem überhaupt vorliegt. Die Folie zeigt das als Trichter: Das Problem läuft durch vier Filterscheiben und wird dabei immer enger eingegrenzt. Drei Einteilungen stehen im Trichter und helfen beim Einordnen: {{Gomez/Probst}}, {{Grint}} und {{Heifetz}}. Am Ende steht nicht die Lösung, sondern eine Frage." },
+            { "typ": "liste", "titel": "Die drei Einteilungen im Trichter (Folie 76 nennt nur die Begriffe)", "punkte": [
+              "**Gomez/Probst:** [[einfache Probleme]], [[komplizierte Probleme]], [[komplexe Probleme]], [[chaotische Probleme]]",
+              "**Grint:** [[tame problems]], [[wicked problems]], [[critical problems]]",
+              "**Heifetz:** [[technisches Problem]] vs. [[adaptives Problem]]"
+            ] },
+            { "typ": "text", "text": "Rechts neben der Trichterspitze stehen zwei Fragen:\n- **Welches Problem liegt vor?**\n- **...und welche Aspekte sind ==steuerbar==, ==nicht steuerbar== und ==zu überwachen== ?**" },
+            { "typ": "merksatz", "folie": 76, "text": "-> Problemkonsens vor Lösungskonsens!" },
+            { "typ": "merksatz", "folie": 76, "text": "..und Neben-, Rück- und Folgewirkungen ermitteln!" },
+            { "typ": "person", "name": "Gomez/Probst", "beitrag": "Steht auf den Folien 76 und 77 für die Einteilung in einfache, komplizierte, komplexe und chaotische Probleme.", "folie": 76 },
+            { "typ": "person", "name": "Grint", "beitrag": "Steht auf den Folien 76 und 77 für die Einteilung in tame problems, wicked problems und critical problems.", "folie": 76 },
+            { "typ": "person", "name": "Heifetz", "beitrag": "Steht auf den Folien 76 und 77 für die Unterscheidung von technischem und adaptivem Problem.", "folie": 76 },
+            { "typ": "diagramm", "ref": "problemtypen", "unterschrift": "Der Trichter auf Folie 76: Das Problem läuft durch vier Filterscheiben, drei Einteilungen helfen beim Einordnen, am Ende steht die Frage nach der Problemart." },
+            { "typ": "hinweis", "text": "Folie 76 nennt die drei Einteilungen nur mit ihren Begriffen und erklärt sie dort nicht. Die Merkmale folgen auf Folie 77. Was „steuerbar“, „nicht steuerbar“ und „zu überwachen“ genau bedeuten, sagt das Skript nicht." },
+            { "typ": "merkhilfe", "text": "Trichter heißt: erst breit fragen, dann eng werden. Die Reihenfolge steckt im Merksatz selbst: Problem zuerst, Lösung danach." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m6-t1-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "problemtrichter-einteilungen", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Wer steht im Trichter auf Folie 76 für die Einteilung in **tame problems**, **wicked problems** und **critical problems**?",
+          "optionen": ["Grint", "Gomez/Probst", "Heifetz", "Kurt Lewin"], "richtig": 0,
+          "erklaerung": "Der mittlere Block im Trichter trägt die Überschrift Grint. Gomez/Probst steht links für einfache, komplizierte, komplexe und chaotische Probleme, Heifetz rechts für technisches vs. adaptives Problem.",
+          "beleg": "Grint tame problems wicked problems critical problems", "belegQuelle": "folie-48",
+          "kurz": "Grint: tame problems, wicked problems, critical problems." },
+
+        { "id": "m6-t1-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "problemtrichter-einteilungen", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Ordne jeder Einteilung im Trichter ihre Begriffe zu.", "linksTitel": "Einteilung", "rechtsTitel": "Begriffe laut Folie 76",
+          "paare": [
+            { "links": "Gomez/Probst", "rechts": "einfache, komplizierte, komplexe, chaotische Probleme" },
+            { "links": "Grint", "rechts": "tame problems, wicked problems, critical problems" },
+            { "links": "Heifetz", "rechts": "technisches vs. adaptives Problem" }
+          ],
+          "erklaerung": "Gomez/Probst hat vier Stufen, Grint drei problems, Heifetz zwei Pole. Wer die Zahl kennt, verwechselt die drei Einteilungen seltener.",
+          "beleg": "Heifetz technisches vs. adaptives Problem", "belegQuelle": "folie-48",
+          "kurz": "Gomez/Probst vier Arten, Grint drei problems, Heifetz technisch vs. adaptiv." },
+
+        { "id": "m6-t1-a03", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "problemtrichter-einteilungen", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Welche vier Problemarten nennt die Folie unter **Gomez/Probst**?",
+          "optionen": ["einfache Probleme", "komplizierte Probleme", "komplexe Probleme", "chaotische Probleme", "wicked problems", "adaptives Problem"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "wicked problems gehören zu Grint, das adaptive Problem zu Heifetz.",
+          "beleg": "einfache Probleme komplizierte Probleme komplexe Probleme chaotische Probleme", "belegQuelle": "folie-48",
+          "kurz": "Gomez/Probst: einfache, komplizierte, komplexe, chaotische Probleme." },
+
+        { "id": "m6-t1-a04", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "problemtrichter-einteilungen", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Unter welcher Einteilung steht der Begriff im Trichter?",
+          "kategorien": ["Gomez/Probst", "Grint", "Heifetz"],
+          "elemente": [
+            { "text": "einfache Probleme", "kategorie": 0 },
+            { "text": "chaotische Probleme", "kategorie": 0 },
+            { "text": "tame problems", "kategorie": 1 },
+            { "text": "critical problems", "kategorie": 1 },
+            { "text": "technisches vs. adaptives Problem", "kategorie": 2 }
+          ],
+          "erklaerung": "Die deutschen Bezeichnungen gehören zu Gomez/Probst, die englischen problems zu Grint, das Begriffspaar technisch/adaptiv zu Heifetz.",
+          "beleg": "Gomez/Probst einfache Probleme komplizierte Probleme", "belegQuelle": "folie-48",
+          "kurz": "Deutsch = Gomez/Probst, problems = Grint, technisch/adaptiv = Heifetz." },
+
+        { "id": "m6-t1-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "problemkonsens", "karte": "m6-t1-k1", "folien": [76], "bank": true,
+          "frage": "Vervollständige den roten Kasten am unteren Rand der Folie 76.",
+          "text": "-> {_Problemkonsens_} vor {_Lösungskonsens_}!\n..und {_Neben-, Rück- und Folgewirkungen_} ermitteln!",
+          "zusatzBank": ["Notfallpläne", "Lösungsraum"],
+          "erklaerung": "Beide Zeilen stehen zusammen in einem hell-orange hinterlegten Kasten und bilden die Kernaussage der Folie.",
+          "beleg": "-> Problemkonsens vor Lösungskonsens!", "belegQuelle": "folie-48",
+          "kurz": "Problemkonsens vor Lösungskonsens, dazu Neben-, Rück- und Folgewirkungen ermitteln." },
+
+        { "id": "m6-t1-a06", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "problemkonsens", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Was sagt Folie 76 wirklich?",
+          "aussagen": [
+            { "text": "Die Folie verlangt den Problemkonsens vor dem Lösungskonsens.", "wahr": true },
+            { "text": "Die Einteilung in tame, wicked und critical problems stammt laut Folie von Heifetz.", "wahr": false, "korrektur": "Sie stammt von Grint. Heifetz steht auf der Folie für technisches vs. adaptives Problem." },
+            { "text": "Die Folie fragt auch danach, welche Aspekte steuerbar, nicht steuerbar und zu überwachen sind.", "wahr": true },
+            { "text": "Neben-, Rück- und Folgewirkungen spielen laut Folie keine Rolle.", "wahr": false, "korrektur": "Die Folie fordert ausdrücklich: ..und Neben-, Rück- und Folgewirkungen ermitteln!" }
+          ],
+          "erklaerung": "Die beiden Fragen am Trichterende und der rote Kasten gehören zusammen: erst die Problemart und die steuerbaren Aspekte klären, dann die Wirkungen ermitteln, dann über Lösungen reden.",
+          "beleg": "und welche Aspekte sind steuerbar, nicht steuerbar und zu überwachen ?", "belegQuelle": "folie-48",
+          "kurz": "Grint = tame/wicked/critical. Steuerbarkeit und Folgewirkungen gehören zur Problemklärung." },
+
+        { "id": "m6-t1-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "problemkonsens", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Erkläre, was mit „Problemkonsens vor Lösungskonsens!“ gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht im roten Kasten am unteren Rand der Folie 76, also am Ende des Trichters. Davor hat die Folie gefragt: Welches Problem liegt vor? Für die Antwort bietet sie drei Einteilungen an: Gomez/Probst mit einfachen, komplizierten, komplexen und chaotischen Problemen, Grint mit tame, wicked und critical problems und Heifetz mit technischem vs. adaptivem Problem. Konsens heißt Übereinstimmung. Der Satz verlangt also: Zuerst muss Übereinstimmung darüber bestehen, welches Problem vorliegt und welche Aspekte steuerbar, nicht steuerbar und zu überwachen sind. Erst danach wird über die Lösung gesprochen. Die Folie ergänzt in derselben Zeile: ..und Neben-, Rück- und Folgewirkungen ermitteln!",
+          "checkliste": [
+            "Der Satz steht am Ende des Trichters, nach der Frage: Welches Problem liegt vor?",
+            "Erst Übereinstimmung über das Problem, dann über die Lösung",
+            "Drei Einteilungen helfen beim Einordnen: Gomez/Probst, Grint, Heifetz",
+            "Dazu gehört die Frage nach steuerbaren, nicht steuerbaren und zu überwachenden Aspekten",
+            "Ergänzung der Folie: Neben-, Rück- und Folgewirkungen ermitteln"
+          ],
+          "erklaerung": "Das ist die Kernaussage der Folie und eine typische Klausurfrage: Der Satz wird nicht nur wiedererkannt, sondern in den Trichter eingeordnet.",
+          "beleg": "-> Problemkonsens vor Lösungskonsens!", "belegQuelle": "folie-48",
+          "kurz": "Erst Einigkeit über das Problem, dann über die Lösung." },
+
+        { "id": "m6-t1-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "folgewirkungen", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Erkläre, was mit „..und Neben-, Rück- und Folgewirkungen ermitteln!“ gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht auf Folie 76 in demselben roten Kasten wie „-> Problemkonsens vor Lösungskonsens!“, also am Ende des Trichters. Er erweitert die Problemklärung um einen zweiten Schritt: Zur Klärung gehört nach der Folie nicht nur, welche Art von Problem vorliegt (Gomez/Probst, Grint, Heifetz) und welche Aspekte steuerbar, nicht steuerbar und zu überwachen sind, sondern auch, welche Neben-, Rück- und Folgewirkungen die Sache hat. Beides steht vor der Lösung. Die Folie fordert das Ermitteln dieser Wirkungen, erklärt die drei Begriffe selbst aber nicht weiter.",
+          "checkliste": [
+            "Der Satz steht zusammen mit „Problemkonsens vor Lösungskonsens!“ am Ende des Trichters",
+            "Er gehört zur Problemklärung, nicht zur Lösungssuche",
+            "Neben der Problemart und der Steuerbarkeit sind auch die Wirkungen zu ermitteln",
+            "Die Folie erläutert die drei Wirkungsarten nicht weiter"
+          ],
+          "erklaerung": "Wichtig ist der Zusammenhang: Der Satz ergänzt den Problemkonsens und steht vor jeder Lösung. Über den Inhalt der drei Wirkungsarten sagt das Skript nichts.",
+          "beleg": "..und Neben-, Rück- und Folgewirkungen ermitteln!", "belegQuelle": "folie-48",
+          "kurz": "Zur Problemklärung gehören auch Neben-, Rück- und Folgewirkungen." },
+
+        { "id": "m6-t1-a09", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "problemtrichter-einteilungen", "karte": "m6-t1-k1", "folien": [76],
+          "frage": "Beschrifte die Übersicht der Problemarten.", "diagramm": "problemtypen", "gruppe": "typen",
+          "erklaerung": "Die Begriffe stehen im Trichter unter den drei Überschriften Gomez/Probst, Grint und Heifetz.",
+          "beleg": "Gomez/Probst einfache Probleme komplizierte Probleme komplexe Probleme", "belegQuelle": "folie-48",
+          "kurz": "Vier deutsche Arten, drei problems, ein Begriffspaar." },
+
+        { "id": "m6-t1-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "problemtrichter-fragen", "karte": "m6-t1-k1", "folien": [76],
+          "vorne": "Welche zwei Fragen stehen rechts neben der Trichterspitze auf Folie 76?",
+          "hinten": "**Welches Problem liegt vor?**\n**...und welche Aspekte sind steuerbar, nicht steuerbar und zu überwachen ?**",
+          "erklaerung": "Beide Fragen stehen in dunkelblauen Kästen am Ende des Trichters, bevor der rote Merksatz folgt.",
+          "beleg": "Welches Problem liegt vor?", "belegQuelle": "folie-48",
+          "kurz": "Trichterende: Welches Problem liegt vor, und was ist steuerbar, nicht steuerbar, zu überwachen?" }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Problemtrichter (Folie 76):** Erst die Problemart klären, dann die Lösung. Drei Einteilungen: Gomez/Probst (einfach, kompliziert, komplex, chaotisch), Grint (tame, wicked, critical), Heifetz (technisch vs. adaptiv).",
+          "**Merksatz:** Problemkonsens vor Lösungskonsens! Und: Neben-, Rück- und Folgewirkungen ermitteln!"
+        ],
+        "ausfuehrlich": [
+          "**Trichter der Problemarten (Folie 76).** Ein Trichter mit vier Filterscheiben engt das Problem ein. Im Trichter stehen drei Einteilungen nebeneinander.",
+          "**Gomez/Probst:** einfache, komplizierte, komplexe, chaotische Probleme. **Grint:** tame problems, wicked problems, critical problems. **Heifetz:** technisches vs. adaptives Problem. Auf Folie 76 nur genannt, erklärt werden sie auf Folie 77.",
+          "**Zwei Fragen am Trichterende:** Welches Problem liegt vor? Und welche Aspekte sind steuerbar, nicht steuerbar und zu überwachen?",
+          "**Roter Kasten:** -> Problemkonsens vor Lösungskonsens! ..und Neben-, Rück- und Folgewirkungen ermitteln!",
+          "**Typische Verwechslung:** englische problems = Grint, nicht Heifetz. Heifetz hat nur zwei Begriffe."
+        ],
+        "merkhilfe": "Drei Namen, drei Zahlen: Gomez/Probst vier Arten, Grint drei problems, Heifetz zwei Pole."
+      }
+    },
+
+    {
+      "id": "m6-t2",
+      "titel": "Die drei Problemeinteilungen im Detail",
+      "folien": [77],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t2-k1",
+          "titel": "Gomez/Probst: vier Problemarten",
+          "folien": [77],
+          "bloecke": [
+            { "typ": "einfach", "text": "{{Gomez/Probst}} unterscheidet vier Problemarten. Für jede nennt die Folie, wie die Zusammenhänge aussehen, wie groß der Lösungsraum ist und womit man arbeitet. Lies die vier Kästen als Reihe: von monokausalen Zusammenhängen bis zur höchsten Umweltdynamik." },
+            { "typ": "liste", "titel": "einfache Probleme:", "punkte": ["monokausale Zusammenhänge", "eine Antwort, keine Optionen", "Routinen, ggf. best practices"] },
+            { "typ": "liste", "titel": "komplizierte Probleme:", "punkte": ["häufig kausale Zusammenhänge", "mehrere Lösungsoptionen", "Analyse, Expertenwissen", "**Gefahr: copy/paste!**"] },
+            { "typ": "liste", "titel": "komplexe Probleme:", "punkte": ["dynamische vernetzte Kausalitäten", "umfassender Lösungsraum", "systemische Methoden"] },
+            { "typ": "liste", "titel": "chaotische Probleme:", "punkte": ["höchste Umweltdynamik, Stress", "Engpassfaktor: Zeit", "autoritäres Management nötig", "Notfallpläne vorhalten & üben"] },
+            { "typ": "hinweis", "text": "Die Begriffe „monokausal“, „best practices“ und „systemische Methoden“ nennt die Folie, erklärt sie aber nicht." }
+          ]
+        },
+        {
+          "id": "m6-t2-k2",
+          "titel": "Grint: tame, wicked, critical problems",
+          "folien": [77],
+          "bloecke": [
+            { "typ": "einfach", "text": "{{Grint}} sortiert Probleme danach, auf welcher Ebene die Lösung liegt und wie lange sie wirkt. Drei Kästen, drei Lösungsräume: operational, strategisch, taktisch. Achte auf die Wirksamkeit: mittelfristig, langfristig, kurzfristig." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "tame problems:", "punkte": ["wiederkehrende Probleme", "operationaler Lösungsraum", "Management/Prozesse/Ratio", "mittelfristige Wirksamkeit"] },
+              { "titel": "wicked problems:", "punkte": ["komplexe, „unschöne“ Probleme", "strategischer Lösungsraum", "Kollaboration, Fragen stellen", "langfristige Wirksamkeit"] },
+              { "titel": "critical problems:", "punkte": ["plötzliche Krise; Schocksituation", "taktischer Lösungsraum", "Kommandos, Antworten geben", "kurzfristige Wirksamkeit"] }
+            ] },
+            { "typ": "hinweis", "text": "In der Grint-Spalte fehlt ein viertes Kästchen, während Gomez/Probst vier Kategorien hat. Die Spalten der Folie sind unterschiedlich lang." }
+          ]
+        },
+        {
+          "id": "m6-t2-k3",
+          "titel": "Heifetz: technisches und adaptives Problem",
+          "folien": [77],
+          "bloecke": [
+            { "typ": "einfach", "text": "{{Heifetz}} stellt zwei Problemarten gegenüber. Beim technischen Problem weißt du, was zu tun ist, und brauchst Können. Beim adaptiven Problem ist schon unklar, worum es genau geht, und Menschen müssen ihr Verhalten ändern. Die Folie rahmt diese Spalte rot ein und markiert den entscheidenden Punkt in Rot." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "technisches Problem:", "punkte": ["klar abgrenzbares Problem", "enger, erlernbarer Lösungsraum", "Expertenwissen und -können"] },
+              { "titel": "adaptives Problem:", "punkte": ["Problem z.T. schwer eingrenzbar", "Lösungsraum nicht sofort evident", "**Änderungen in Verhalten, Werten, Einstellungen erforderlich**"] }
+            ] },
+            { "typ": "merksatz", "folie": 77, "text": "Änderungen in Verhalten, Werten, Einstellungen erforderlich" },
+            { "typ": "text", "text": "Rechts neben den Kästen stehen zwei Fragen:\n- **Wie wird das Problem angegangen?**\n- **Und wie werden welche (Alters-)Kohorten angesprochen und involviert?**" },
+            { "typ": "merksatz", "folie": 77, "text": "make no mistake, nahezu alle Veränderungen erfordern Verhaltensanpassungen!" },
+            { "typ": "hinweis", "text": "Die Frage nach den (Alters-)Kohorten wird auf der Folie gestellt, aber nicht beantwortet; der Begriff „(Alters-)Kohorten“ wird nicht erklärt. Auch der rote Rahmen um die Heifetz-Spalte trägt keine Beschriftung." },
+            { "typ": "skriptluecke", "id": "m6-t2-kohorten", "text": "Die Folie lässt die Kohorten-Frage offen. Trag hier ein, was in der Vorlesung dazu gesagt wurde.", "felder": [
+              { "id": "kohorten-antwort", "label": "Wie werden welche (Alters-)Kohorten angesprochen und involviert? (aus der Vorlesung)" }
+            ] }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m6-t2-a01", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "gomez-probst", "karte": "m6-t2-k1", "folien": [77],
+          "frage": "Zu welcher Problemart nach Gomez/Probst nennt die Folie dieses Merkmal?",
+          "kategorien": ["einfache Probleme", "komplizierte Probleme", "komplexe Probleme", "chaotische Probleme"],
+          "elemente": [
+            { "text": "monokausale Zusammenhänge", "kategorie": 0 },
+            { "text": "Routinen, ggf. best practices", "kategorie": 0 },
+            { "text": "mehrere Lösungsoptionen", "kategorie": 1 },
+            { "text": "Analyse, Expertenwissen", "kategorie": 1 },
+            { "text": "dynamische vernetzte Kausalitäten", "kategorie": 2 },
+            { "text": "systemische Methoden", "kategorie": 2 },
+            { "text": "Engpassfaktor: Zeit", "kategorie": 3 },
+            { "text": "autoritäres Management nötig", "kategorie": 3 }
+          ],
+          "erklaerung": "Die Reihe wird von links nach rechts dichter: eine Ursache, mehrere Ursachen, vernetzte Ursachen, keine Zeit mehr. Analyse und Expertenwissen stehen bei den komplizierten, systemische Methoden bei den komplexen Problemen.",
+          "beleg": "komplexe Probleme: … dynamische vernetzte Kausalitäten", "belegQuelle": "folie-49",
+          "kurz": "einfach = monokausal, kompliziert = Analyse/Experten, komplex = systemisch, chaotisch = Zeit/autoritär." },
+
+        { "id": "m6-t2-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "gomez-probst", "karte": "m6-t2-k1", "folien": [77],
+          "frage": "Welche Punkte nennt die Folie bei **komplizierten Problemen**?",
+          "optionen": ["häufig kausale Zusammenhänge", "mehrere Lösungsoptionen", "Analyse, Expertenwissen", "Gefahr: copy/paste!", "monokausale Zusammenhänge", "systemische Methoden"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Monokausale Zusammenhänge gehören zu den einfachen, systemische Methoden zu den komplexen Problemen. Die Warnung vor copy/paste steht nur bei den komplizierten Problemen.",
+          "beleg": "komplizierte Probleme: … Gefahr: copy/paste!", "belegQuelle": "folie-49",
+          "kurz": "Kompliziert: häufig kausal, mehrere Optionen, Analyse und Expertenwissen, Gefahr copy/paste." },
+
+        { "id": "m6-t2-a03", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "grint", "karte": "m6-t2-k2", "folien": [77],
+          "frage": "Ordne die Problemarten nach Grint ihrem Lösungsraum und ihrer Wirksamkeit zu.", "linksTitel": "Problemart", "rechtsTitel": "Lösungsraum und Wirksamkeit",
+          "paare": [
+            { "links": "tame problems", "rechts": "operationaler Lösungsraum, mittelfristige Wirksamkeit" },
+            { "links": "wicked problems", "rechts": "strategischer Lösungsraum, langfristige Wirksamkeit" },
+            { "links": "critical problems", "rechts": "taktischer Lösungsraum, kurzfristige Wirksamkeit" }
+          ],
+          "erklaerung": "Die Kästen der Grint-Spalte nennen zu jeder Problemart einen Lösungsraum und eine Wirksamkeit. Je akuter das Problem, desto kürzer die Wirksamkeit.",
+          "beleg": "tame problems: … operationaler Lösungsraum … mittelfristige Wirksamkeit", "belegQuelle": "folie-49",
+          "kurz": "tame = operational/mittelfristig, wicked = strategisch/langfristig, critical = taktisch/kurzfristig." },
+
+        { "id": "m6-t2-a04", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "grint", "karte": "m6-t2-k2", "folien": [77],
+          "frage": "Welche Problemart nach Grint beschreibt die Folie mit „plötzliche Krise; Schocksituation“?",
+          "optionen": ["critical problems", "wicked problems", "tame problems", "adaptives Problem"], "richtig": 0,
+          "erklaerung": "Zur plötzlichen Krise gehören laut Folie der taktische Lösungsraum, Kommandos und Antworten geben sowie eine kurzfristige Wirksamkeit.",
+          "beleg": "critical problems: … plötzliche Krise; Schocksituation", "belegQuelle": "folie-49",
+          "kurz": "critical problems = plötzliche Krise, Schocksituation, taktisch, kurzfristig." },
+
+        { "id": "m6-t2-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "problemarten-abgrenzung", "karte": "m6-t2-k1", "folien": [77],
+          "frage": "Typische Verwechslungen: Was steht wirklich auf Folie 77?",
+          "aussagen": [
+            { "text": "Bei komplizierten Problemen warnt die Folie ausdrücklich vor copy/paste.", "wahr": true },
+            { "text": "Komplexe Probleme geht man laut Folie mit Analyse und Expertenwissen an.", "wahr": false, "korrektur": "Analyse und Expertenwissen nennt die Folie bei den komplizierten Problemen. Bei komplexen Problemen nennt sie systemische Methoden." },
+            { "text": "Bei chaotischen Problemen hält die Folie autoritäres Management für nötig.", "wahr": true },
+            { "text": "wicked problems haben laut Folie einen operationalen Lösungsraum.", "wahr": false, "korrektur": "wicked problems haben einen strategischen Lösungsraum. Operational ist der Lösungsraum bei tame problems." },
+            { "text": "Für chaotische Probleme empfiehlt die Folie, Notfallpläne vorzuhalten und zu üben.", "wahr": true }
+          ],
+          "erklaerung": "Kompliziert und komplex klingen ähnlich, meinen aber Verschiedenes: kompliziert = kausal und analysierbar, komplex = dynamisch vernetzt und nur systemisch zu fassen.",
+          "beleg": "komplexe Probleme: … systemische Methoden", "belegQuelle": "folie-49",
+          "kurz": "Kompliziert: Analyse/Experten. Komplex: systemische Methoden. wicked: strategisch." },
+
+        { "id": "m6-t2-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "heifetz", "karte": "m6-t2-k3", "folien": [77],
+          "frage": "Erkläre den Unterschied zwischen einem technischen und einem adaptiven Problem nach Heifetz.",
+          "musterloesung": "Heifetz unterscheidet auf Folie 77 zwei Problemarten. Ein technisches Problem ist klar abgrenzbar, sein Lösungsraum ist eng und erlernbar, und es wird mit Expertenwissen und -können gelöst. Ein adaptives Problem ist zum Teil schwer eingrenzbar, sein Lösungsraum ist nicht sofort evident, und es sind Änderungen in Verhalten, Werten und Einstellungen erforderlich. Diesen letzten Punkt hebt die Folie rot hervor. Daran schließt sie die Frage an, wie das Problem angegangen wird und wie welche (Alters-)Kohorten angesprochen und involviert werden, und sie endet mit: make no mistake, nahezu alle Veränderungen erfordern Verhaltensanpassungen!",
+          "checkliste": [
+            "Technisches Problem: klar abgrenzbar",
+            "Technisches Problem: enger, erlernbarer Lösungsraum, Expertenwissen und -können",
+            "Adaptives Problem: z.T. schwer eingrenzbar, Lösungsraum nicht sofort evident",
+            "Adaptives Problem: Änderungen in Verhalten, Werten, Einstellungen erforderlich",
+            "Folgerung der Folie: nahezu alle Veränderungen erfordern Verhaltensanpassungen"
+          ],
+          "erklaerung": "Die Heifetz-Spalte ist auf der Folie rot umrahmt. Der Unterschied liegt nicht im Schwierigkeitsgrad, sondern darin, ob Expertenwissen reicht oder ob Menschen ihr Verhalten ändern müssen.",
+          "beleg": "adaptives Problem: … Lösungsraum nicht sofort evident", "belegQuelle": "folie-49",
+          "kurz": "Technisch: abgrenzbar, erlernbar, Expertenwissen. Adaptiv: unscharf, verlangt Verhaltensänderung." },
+
+        { "id": "m6-t2-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "verhaltensanpassung", "karte": "m6-t2-k3", "folien": [77],
+          "frage": "Erkläre, was mit „make no mistake, nahezu alle Veränderungen erfordern Verhaltensanpassungen!“ gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht als roter Balken am unteren Rand der Folie 77, unter allen drei Problemeinteilungen. Der Zusammenhang ist die Unterscheidung von Heifetz: Beim technischen Problem reichen ein enger, erlernbarer Lösungsraum und Expertenwissen. Beim adaptiven Problem sind dagegen Änderungen in Verhalten, Werten und Einstellungen erforderlich. Der Satz verallgemeinert das: Nahezu jede Veränderung ist nicht allein fachlich zu lösen, sondern verlangt, dass Menschen ihr Verhalten anpassen. Deshalb fragt die Folie direkt davor, wie das Problem angegangen wird und wie welche (Alters-)Kohorten angesprochen und involviert werden.",
+          "checkliste": [
+            "Der Satz steht unter allen drei Einteilungen auf Folie 77",
+            "Bezug zu Heifetz: technisches Problem = Expertenwissen, adaptives Problem = Verhalten, Werte, Einstellungen",
+            "Verallgemeinerung: fast jede Veränderung verlangt Verhaltensanpassung",
+            "Anschluss an die Fragen nach dem Vorgehen und den (Alters-)Kohorten"
+          ],
+          "erklaerung": "Dieser Satz verbindet die Problemeinteilung mit dem Rest des Kapitels: Wer Change plant, plant Verhaltensänderung, nicht nur Technik.",
+          "beleg": "make no mistake, nahezu alle Veränderungen erfordern Verhaltensanpassungen!", "belegQuelle": "folie-49",
+          "kurz": "Fast jede Veränderung verlangt Verhaltensanpassung, nicht nur Fachwissen." },
+
+        { "id": "m6-t2-a08", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "heifetz", "karte": "m6-t2-k3", "folien": [77],
+          "szenario": "Übungsfall: Deine Filiale führt ein neues Beratungskonzept ein. Die neue Software ist in zwei Schulungstagen erlernt. Schwer tut sich das Team damit, Kundengespräche ganz anders zu beginnen als in den letzten zehn Jahren; mehrere Kolleginnen halten das neue Vorgehen für grundsätzlich falsch.",
+          "frage": "Wie ordnest du die beiden Teile nach Heifetz ein?",
+          "optionen": [
+            "Die Software ist ein technisches Problem (klar abgrenzbar, enger erlernbarer Lösungsraum). Das veränderte Gesprächsverhalten ist ein adaptives Problem, denn es erfordert Änderungen in Verhalten, Werten und Einstellungen.",
+            "Beides sind technische Probleme, weil es für beides Schulungen gibt.",
+            "Die Software ist ein adaptives Problem, das Gesprächsverhalten ein technisches, weil Gespräche erlernbar sind."
+          ], "richtig": 0,
+          "erklaerung": "Die Folie macht den Unterschied am Lösungsraum fest: eng und erlernbar mit Expertenwissen gegen nicht sofort evident mit Änderungen in Verhalten, Werten und Einstellungen. Genau das trennt hier Software und Gesprächsführung.",
+          "beleg": "Änderungen in Verhalten, Werten, Einstellungen erforderlich", "belegQuelle": "folie-49",
+          "kurz": "Erlernbares Können = technisch, Verhalten und Werte = adaptiv." },
+
+        { "id": "m6-t2-a09", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "heifetz", "karte": "m6-t2-k3", "folien": [77], "bank": true,
+          "frage": "Vervollständige die Merkmale des adaptiven Problems.",
+          "text": "- Problem z.T. schwer {_eingrenzbar_}\n- Lösungsraum nicht sofort {_evident_}\n- Änderungen in {_Verhalten, Werten, Einstellungen_} erforderlich",
+          "zusatzBank": ["abgrenzbar", "erlernbar", "Expertenwissen und -können"],
+          "erklaerung": "Die drei Spiegelstriche des Kastens „adaptives Problem“ stehen genau in dieser Reihenfolge auf der Folie.",
+          "beleg": "Problem z.T. schwer eingrenzbar", "belegQuelle": "folie-49",
+          "kurz": "Adaptiv: schwer eingrenzbar, Lösungsraum nicht evident, Verhalten/Werte/Einstellungen ändern." },
+
+        { "id": "m6-t2-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "kohorten", "karte": "m6-t2-k3", "folien": [77],
+          "vorne": "Welche zwei Fragen stellt Folie 77 neben der Problemeinordnung?",
+          "hinten": "**Wie wird das Problem angegangen?**\n**Und wie werden welche (Alters-)Kohorten angesprochen und involviert?**\n\nDie Folie beantwortet die zweite Frage nicht und erklärt den Begriff (Alters-)Kohorten nicht.",
+          "erklaerung": "Die erste Frage steht in einem dunkelblauen, die zweite in einem orange/gelb gefüllten Kasten rechts auf der Folie.",
+          "beleg": "Und wie werden welche (Alters-)Kohorten angesprochen und involviert?", "belegQuelle": "folie-49",
+          "kurz": "Folie 77 fragt nach Vorgehen und (Alters-)Kohorten, beantwortet Letzteres nicht." },
+
+        { "id": "m6-t2-a11", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "heifetz", "karte": "m6-t2-k3", "folien": [77],
+          "frage": "Erkläre, was mit „Änderungen in Verhalten, Werten, Einstellungen erforderlich“ gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz ist der dritte Spiegelstrich im Kasten „adaptives Problem“ der Heifetz-Spalte auf Folie 77. Die Folie setzt ihn in Rot und umrahmt die ganze Heifetz-Spalte rot; es ist also der Punkt, auf den es ihr ankommt. Der Zusammenhang ist die Gegenüberstellung der beiden Problemarten: Beim technischen Problem ist das Problem klar abgrenzbar, der Lösungsraum eng und erlernbar, und es reichen Expertenwissen und -können. Beim adaptiven Problem ist das Problem z.T. schwer eingrenzbar und der Lösungsraum nicht sofort evident; hier genügt Können nicht, sondern es sind Änderungen in Verhalten, Werten, Einstellungen erforderlich. Genau das verallgemeinert die Folie unten im roten Balken: make no mistake, nahezu alle Veränderungen erfordern Verhaltensanpassungen! Wie diese Änderungen zu erreichen sind, sagt Folie 77 nicht.",
+          "checkliste": [
+            "Der Satz ist der dritte Spiegelstrich beim adaptiven Problem (Heifetz, Folie 77)",
+            "Er ist rot gesetzt, die Heifetz-Spalte ist rot umrahmt",
+            "Gegensatz: beim technischen Problem reichen Expertenwissen und -können",
+            "Beim adaptiven Problem genügt Können nicht: Verhalten, Werte und Einstellungen müssen sich ändern",
+            "Die Folie verallgemeinert das im roten Balken: nahezu alle Veränderungen erfordern Verhaltensanpassungen",
+            "Wie die Änderungen zu erreichen sind, sagt die Folie nicht"
+          ],
+          "erklaerung": "Dieser eine Spiegelstrich trägt die Aussage der ganzen Heifetz-Spalte, deshalb steht er in Rot. Wer ihn nennt, muss den Gegensatz zum technischen Problem mitnennen.",
+          "beleg": "adaptives Problem: … Änderungen in Verhalten, Werten, Einstellungen erforderlich", "belegQuelle": "folie-49",
+          "kurz": "Beim adaptiven Problem reicht Können nicht: Verhalten, Werte und Einstellungen müssen sich ändern." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Gomez/Probst:** einfach (monokausal, eine Antwort, Routinen) - kompliziert (kausal, mehrere Optionen, Analyse/Experten, Gefahr copy/paste) - komplex (dynamisch vernetzt, umfassender Lösungsraum, systemische Methoden) - chaotisch (höchste Dynamik, Zeit, autoritär, Notfallpläne).",
+          "**Grint:** tame = operational/mittelfristig, wicked = strategisch/langfristig, critical = taktisch/kurzfristig. **Heifetz:** technisch (abgrenzbar, erlernbar, Expertenwissen) vs. adaptiv (unscharf, Verhalten/Werte/Einstellungen)."
+        ],
+        "ausfuehrlich": [
+          "**Gomez/Probst (Folie 77).** einfache Probleme: monokausale Zusammenhänge, eine Antwort, keine Optionen, Routinen, ggf. best practices. komplizierte Probleme: häufig kausale Zusammenhänge, mehrere Lösungsoptionen, Analyse, Expertenwissen, Gefahr: copy/paste! komplexe Probleme: dynamische vernetzte Kausalitäten, umfassender Lösungsraum, systemische Methoden. chaotische Probleme: höchste Umweltdynamik, Stress, Engpassfaktor Zeit, autoritäres Management nötig, Notfallpläne vorhalten & üben.",
+          "**Grint (Folie 77).** tame problems: wiederkehrend, operationaler Lösungsraum, Management/Prozesse/Ratio, mittelfristige Wirksamkeit. wicked problems: komplexe, „unschöne“ Probleme, strategischer Lösungsraum, Kollaboration, Fragen stellen, langfristige Wirksamkeit. critical problems: plötzliche Krise, Schocksituation, taktischer Lösungsraum, Kommandos, Antworten geben, kurzfristige Wirksamkeit.",
+          "**Heifetz (Folie 77, rot umrahmt).** technisches Problem: klar abgrenzbar, enger erlernbarer Lösungsraum, Expertenwissen und -können. adaptives Problem: z.T. schwer eingrenzbar, Lösungsraum nicht sofort evident, Änderungen in Verhalten, Werten, Einstellungen erforderlich.",
+          "**Zwei Fragen:** Wie wird das Problem angegangen? Und wie werden welche (Alters-)Kohorten angesprochen und involviert? Die zweite bleibt offen.",
+          "**Merksatz:** make no mistake, nahezu alle Veränderungen erfordern Verhaltensanpassungen!"
+        ],
+        "merkhilfe": "Grint nach Zeit sortieren: critical kurz, tame mittel, wicked lang. Der Lösungsraum passt dazu: taktisch, operational, strategisch."
+      }
+    },
+
+    {
+      "id": "m6-t3",
+      "titel": "Change-Modelle: Lewin und Kotter",
+      "folien": [78],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t3-k1",
+          "titel": "Kurt Lewins 3-Schritt-Modell (1951)",
+          "folien": [78],
+          "bloecke": [
+            { "typ": "einfach", "text": "{{Kurt Lewin}} beschreibt Veränderung in drei Schritten. Erst wird der bestehende Zustand beweglich gemacht, dann wird verändert, dann wird der neue Zustand wieder festgemacht. Auf der Folie steht das als waagerechter Balken über die ganze Breite: Auftauen links, Verändern in der Mitte, Einfrieren rechts." },
+            { "typ": "liste", "titel": "Kurt Lewins 3-Schritt-Modell (1951)", "geordnet": true, "punkte": ["Auftauen", "Verändern", "Einfrieren"] },
+            { "typ": "person", "name": "Kurt Lewin", "beitrag": "Steht auf Folie 78 für das 3-Schritt-Modell (1951) mit den Schritten Auftauen, Verändern, Einfrieren.", "folie": 78 }
+          ]
+        },
+        {
+          "id": "m6-t3-k2",
+          "titel": "John Kotters 8-Schritt-Modell (1995)",
+          "folien": [78],
+          "bloecke": [
+            { "typ": "einfach", "text": "{{John Kotter}} zerlegt dieselbe Bewegung feiner: acht Schritte statt drei. Sie beginnen damit, Dringlichkeit zu erzeugen, und enden damit, den Change zu konsolidieren und zu kultivieren. Auch dieses Modell steht auf der Folie als Balken über dem Kurvendiagramm." },
+            { "typ": "liste", "titel": "John Kotters 8-Schritt-Modell (1995)", "geordnet": true, "punkte": [
+              "Dringlichkeit erzeugen",
+              "Etablierung Führungsteam",
+              "Vision entwickeln",
+              "Vision kommunizieren",
+              "Befähigung/ Bevollmächtigung",
+              "kfr. Ziele erreichen/ Erfolge erzielen",
+              "erreichte Ziele/ Erfolge sichern",
+              "Konsolidierung/ Change kultivieren"
+            ] },
+            { "typ": "person", "name": "John Kotter", "beitrag": "Steht auf Folie 78 für das 8-Schritt-Modell (1995) mit den acht genannten Schritten von Dringlichkeit erzeugen bis Konsolidierung/ Change kultivieren.", "folie": 78 },
+            { "typ": "hinweis", "text": "Die Abkürzung „kfr.“ schreibt die Folie nicht aus. Die acht Schritte sind auf der Folie ungleich breit dargestellt; „Befähigung/ Bevollmächtigung“ steht über einem deutlich breiteren Abschnitt als die übrigen." }
+          ]
+        },
+        {
+          "id": "m6-t3-k3",
+          "titel": "Was das Skript zu den Modellen sagt",
+          "folien": [78],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Folie zeigt die Modelle nicht ohne Kommentar. Sie sagt, woran Veränderung für die Betroffenen greifbar wird, und sie macht einen klaren Vorbehalt gegen die Modelle selbst. Beides ist prüfungsrelevant." },
+            { "typ": "merksatz", "folie": 78, "text": "STRUKTUREN/PROZESSE ->\nChanges greif-/erlebbar machen!" },
+            { "typ": "text", "text": "**ABER: nicht evidenzbasiert, nicht empirisch belegt!**" },
+            { "typ": "hinweis", "text": "Dieser Vorbehalt steht auf der Folie ohne Angabe, worauf genau er sich bezieht: auf die Change-Kurve, auf Lewin, auf Kotter oder auf alle drei." },
+            { "typ": "skriptluecke", "id": "m6-t3-vorbehalt", "text": "Die Folie sagt nicht, worauf sich „ABER: nicht evidenzbasiert, nicht empirisch belegt!“ bezieht. Trag hier ein, was in der Vorlesung dazu gesagt wurde.", "felder": [
+              { "id": "vorbehalt-bezug", "label": "Worauf bezieht sich der Vorbehalt? (aus der Vorlesung)" }
+            ] }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m6-t3-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "lewin-3-schritt", "karte": "m6-t3-k1", "folien": [78],
+          "frage": "Bringe die Schritte von Kurt Lewins Modell in die richtige Reihenfolge.",
+          "elemente": ["Auftauen", "Verändern", "Einfrieren"],
+          "erklaerung": "Der Balken auf der Folie läuft von links nach rechts: Auftauen linksbündig, Verändern mittig, Einfrieren rechts.",
+          "beleg": "Kurt Lewins 3-Schritt-Modell (1951) Auftauen Verändern Einfrieren", "belegQuelle": "folie-50",
+          "kurz": "Lewin 1951: Auftauen, Verändern, Einfrieren." },
+
+        { "id": "m6-t3-a02", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "kotter-8-schritt", "karte": "m6-t3-k2", "folien": [78],
+          "frage": "Bringe die acht Schritte von John Kotter in die Reihenfolge der Folie.",
+          "elemente": [
+            "Dringlichkeit erzeugen",
+            "Etablierung Führungsteam",
+            "Vision entwickeln",
+            "Vision kommunizieren",
+            "Befähigung/ Bevollmächtigung",
+            "kfr. Ziele erreichen/ Erfolge erzielen",
+            "erreichte Ziele/ Erfolge sichern",
+            "Konsolidierung/ Change kultivieren"
+          ],
+          "erklaerung": "Merke dir die Blöcke: erst Dringlichkeit und Team, dann Vision entwickeln und kommunizieren, dann befähigen, dann kurzfristige Erfolge erreichen und sichern, zuletzt konsolidieren und kultivieren.",
+          "beleg": "Dringlichkeit erzeugen Etablierung Führungsteam Vision entwickeln Vision kommunizieren", "belegQuelle": "folie-50",
+          "kurz": "Kotter 1995: Dringlichkeit, Führungsteam, Vision entwickeln, Vision kommunizieren, Befähigung, kfr. Ziele, Ziele sichern, Konsolidierung." },
+
+        { "id": "m6-t3-a03", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "change-modelle-personen", "karte": "m6-t3-k1", "folien": [76, 77, 78],
+          "frage": "Ordne jedem Modell die Person zu, der es das Skript zuschreibt.", "linksTitel": "Modell laut Skript", "rechtsTitel": "Person",
+          "paare": [
+            { "links": "3-Schritt-Modell (1951)", "rechts": "Kurt Lewin" },
+            { "links": "8-Schritt-Modell (1995)", "rechts": "John Kotter" },
+            { "links": "technisches vs. adaptives Problem", "rechts": "Heifetz" },
+            { "links": "tame, wicked, critical problems", "rechts": "Grint" }
+          ],
+          "erklaerung": "Lewin und Kotter stehen auf Folie 78 für die Change-Modelle, Heifetz und Grint auf den Folien 76 und 77 für die Problemeinteilungen.",
+          "beleg": "John Kotters 8-Schritt-Modell (1995)", "belegQuelle": "folie-50",
+          "kurz": "Lewin: 3 Schritte 1951. Kotter: 8 Schritte 1995." },
+
+        { "id": "m6-t3-a04", "typ": "mehrfach", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "kotter-8-schritt", "karte": "m6-t3-k2", "folien": [78],
+          "frage": "Welche dieser Schritte gehören zu **Kotters 8-Schritt-Modell**?",
+          "optionen": ["Dringlichkeit erzeugen", "Vision kommunizieren", "Befähigung/ Bevollmächtigung", "Konsolidierung/ Change kultivieren", "Auftauen", "Einfrieren"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Auftauen und Einfrieren gehören zu Lewins 3-Schritt-Modell, nicht zu Kotter.",
+          "beleg": "Befähigung/ Bevollmächtigung kfr. Ziele erreichen/ Erfolge erzielen", "belegQuelle": "folie-50",
+          "kurz": "Auftauen und Einfrieren sind Lewin, nicht Kotter." },
+
+        { "id": "m6-t3-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "change-modelle", "karte": "m6-t3-k3", "folien": [78],
+          "frage": "Erkläre die beiden Change-Modelle auf Folie 78 und nenne den Vorbehalt, den das Skript dazu macht.",
+          "musterloesung": "Folie 78 zeigt zwei traditionelle Change-Modelle als waagerechte Balken über dem Kurvendiagramm. Kurt Lewins 3-Schritt-Modell von 1951 hat die Schritte Auftauen, Verändern und Einfrieren. John Kotters 8-Schritt-Modell von 1995 hat acht Schritte: Dringlichkeit erzeugen, Etablierung Führungsteam, Vision entwickeln, Vision kommunizieren, Befähigung/ Bevollmächtigung, kfr. Ziele erreichen/ Erfolge erzielen, erreichte Ziele/ Erfolge sichern und Konsolidierung/ Change kultivieren. Dazu schreibt die Folie in einem gelben Kasten: STRUKTUREN/PROZESSE -> Changes greif-/erlebbar machen! Der Vorbehalt steht in einem orange hinterlegten Kasten darunter: ABER: nicht evidenzbasiert, nicht empirisch belegt! Worauf genau sich dieser Satz bezieht, sagt die Folie nicht.",
+          "checkliste": [
+            "Lewin (1951): Auftauen, Verändern, Einfrieren",
+            "Kotter (1995): acht Schritte, beginnend mit Dringlichkeit erzeugen",
+            "Beide stehen als Balken über der Change-Kurve",
+            "Hinweis der Folie: über Strukturen und Prozesse den Change greif- und erlebbar machen",
+            "Vorbehalt: nicht evidenzbasiert, nicht empirisch belegt"
+          ],
+          "erklaerung": "Wer die Modelle nennt, ohne den Vorbehalt zu nennen, gibt nur die halbe Folie wieder. Der Vorbehalt ist ausdrücklich Teil der Aussage.",
+          "beleg": "ABER: nicht evidenzbasiert, nicht empirisch belegt!", "belegQuelle": "folie-50",
+          "kurz": "Lewin 3 Schritte, Kotter 8 Schritte, beide laut Folie nicht evidenzbasiert und nicht empirisch belegt." },
+
+        { "id": "m6-t3-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "strukturen-prozesse", "karte": "m6-t3-k3", "folien": [78],
+          "frage": "Erkläre, was mit „STRUKTUREN/PROZESSE -> Changes greif-/erlebbar machen!“ gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht in einem gelben Kasten rechts im Kurvendiagramm der Folie 78, also mitten im Verlauf der Veränderung. Der Zusammenhang: Über der Kurve laufen die Schritte von Lewin und Kotter, unter ihr die Projekt-Phasen Entscheidung, Ankündigung, Konzeption, Umsetzung und Roll-out sowie die Management-Aufgaben. Der Pfeil verbindet beides: Über Strukturen und Prozesse soll der Change greif- und erlebbar gemacht werden. Direkt darunter setzt die Folie den Vorbehalt: ABER: nicht evidenzbasiert, nicht empirisch belegt!",
+          "checkliste": [
+            "Der Satz steht im Kurvendiagramm der Folie 78, zwischen Modellen, Projekt-Phasen und Management-Aufgaben",
+            "Strukturen und Prozesse sind das Mittel",
+            "Ziel: den Change greif- und erlebbar machen",
+            "Direkt daneben steht der Vorbehalt: nicht evidenzbasiert, nicht empirisch belegt"
+          ],
+          "erklaerung": "Die Aussage steht nicht für sich: Sie sagt, woran Betroffene die Veränderung bemerken, und sie steht unmittelbar neben dem Vorbehalt gegen die Modelle.",
+          "beleg": "STRUKTUREN/PROZESSE -> Changes greif-/erlebbar machen!", "belegQuelle": "folie-50",
+          "kurz": "Über Strukturen und Prozesse wird der Change greif- und erlebbar." },
+
+        { "id": "m6-t3-a07", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "change-modelle", "karte": "m6-t3-k1", "folien": [78],
+          "frage": "Was steht wirklich auf Folie 78?",
+          "aussagen": [
+            { "text": "Auftauen, Verändern und Einfrieren sind die drei Schritte von Kurt Lewin.", "wahr": true },
+            { "text": "Das 8-Schritt-Modell stammt laut Folie von Kurt Lewin aus dem Jahr 1951.", "wahr": false, "korrektur": "Das 8-Schritt-Modell stammt von John Kotter und ist mit 1995 angegeben. Von Lewin ist das 3-Schritt-Modell von 1951." },
+            { "text": "Die Folie bezeichnet die gezeigten Modelle als evidenzbasiert und empirisch belegt.", "wahr": false, "korrektur": "Die Folie schreibt ausdrücklich: ABER: nicht evidenzbasiert, nicht empirisch belegt!" },
+            { "text": "Der erste Schritt bei Kotter heißt Dringlichkeit erzeugen.", "wahr": true }
+          ],
+          "erklaerung": "Merke Zahl und Jahr zusammen: Lewin drei Schritte 1951, Kotter acht Schritte 1995. Und der Vorbehalt gehört dazu.",
+          "beleg": "Kurt Lewins 3-Schritt-Modell (1951)", "belegQuelle": "folie-50",
+          "kurz": "Lewin 3/1951, Kotter 8/1995, beide laut Folie nicht empirisch belegt." },
+
+        { "id": "m6-t3-a08", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "lewin-3-schritt", "karte": "m6-t3-k1", "folien": [78],
+          "frage": "Beschrifte die drei Schritte von Lewin über der Change-Kurve.", "diagramm": "change-kurve", "gruppe": "lewin",
+          "erklaerung": "Von links nach rechts: Auftauen, Verändern, Einfrieren.",
+          "beleg": "Kurt Lewins 3-Schritt-Modell (1951) Auftauen Verändern Einfrieren", "belegQuelle": "folie-50",
+          "kurz": "Lewin-Balken: Auftauen, Verändern, Einfrieren." },
+
+        { "id": "m6-t3-a09", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "kotter-8-schritt", "karte": "m6-t3-k2", "folien": [78],
+          "frage": "Beschrifte die acht Schritte von Kotter über der Change-Kurve.", "diagramm": "change-kurve", "gruppe": "kotter",
+          "erklaerung": "Die Reihenfolge der Folie endet mit erreichte Ziele/ Erfolge sichern und Konsolidierung/ Change kultivieren.",
+          "beleg": "erreichte Ziele/ Erfolge sichern Konsolidierung/ Change kultivieren", "belegQuelle": "folie-50",
+          "kurz": "Kotter-Balken: acht Schritte von Dringlichkeit bis Konsolidierung." },
+
+        { "id": "m6-t3-a10", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "change-modelle", "karte": "m6-t3-k1", "folien": [78], "bank": true,
+          "frage": "Vervollständige die beiden Modellnamen und Lewins Schritte.",
+          "text": "Kurt Lewins 3-Schritt-Modell ({_1951_}): {_Auftauen_}, {_Verändern_}, {_Einfrieren_}\nJohn Kotters 8-Schritt-Modell ({_1995_})",
+          "zusatzBank": ["Dringlichkeit erzeugen", "Konsolidierung"],
+          "erklaerung": "Die Jahreszahlen stehen in der Folie direkt hinter den Modellnamen.",
+          "beleg": "Kurt Lewins 3-Schritt-Modell (1951) Auftauen Verändern Einfrieren", "belegQuelle": "folie-50",
+          "kurz": "Lewin 1951: Auftauen, Verändern, Einfrieren. Kotter 1995: acht Schritte." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Lewin, 3-Schritt-Modell (1951):** Auftauen - Verändern - Einfrieren. **Kotter, 8-Schritt-Modell (1995):** Dringlichkeit erzeugen, Etablierung Führungsteam, Vision entwickeln, Vision kommunizieren, Befähigung/ Bevollmächtigung, kfr. Ziele erreichen/ Erfolge erzielen, erreichte Ziele/ Erfolge sichern, Konsolidierung/ Change kultivieren.",
+          "**Merksatz:** STRUKTUREN/PROZESSE -> Changes greif-/erlebbar machen! **Vorbehalt:** ABER: nicht evidenzbasiert, nicht empirisch belegt!"
+        ],
+        "ausfuehrlich": [
+          "**Zwei traditionelle Change-Modelle (Folie 78).** Beide liegen als waagerechte Balken über dem Kurvendiagramm.",
+          "**Kurt Lewin, 3-Schritt-Modell (1951):** Auftauen, Verändern, Einfrieren.",
+          "**John Kotter, 8-Schritt-Modell (1995):** 1. Dringlichkeit erzeugen, 2. Etablierung Führungsteam, 3. Vision entwickeln, 4. Vision kommunizieren, 5. Befähigung/ Bevollmächtigung, 6. kfr. Ziele erreichen/ Erfolge erzielen, 7. erreichte Ziele/ Erfolge sichern, 8. Konsolidierung/ Change kultivieren.",
+          "**Gelber Kasten:** STRUKTUREN/PROZESSE -> Changes greif-/erlebbar machen!",
+          "**Oranger Kasten:** ABER: nicht evidenzbasiert, nicht empirisch belegt! Die Folie sagt nicht, worauf sich das bezieht."
+        ],
+        "merkhilfe": "Die Zahlen sind das Gerüst: Lewin 3 und 1951, Kotter 8 und 1995. Bei Kotter je zwei Schritte pro Phase: anfangen, Vision, befähigen und ernten, sichern."
+      }
+    },
+
+    {
+      "id": "m6-t4",
+      "titel": "Change-Kurve, Projekt-Phasen und Management-Aufgaben",
+      "folien": [78],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t4-k1",
+          "titel": "Die Change-Kurve",
+          "folien": [78],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Kurve zeigt, wie sich das Leistungsniveau während einer Veränderung verändert. Waagerecht läuft die Zeit, senkrecht das Leistungsniveau. Eine blaue Linie markiert das Ausgangsniveau ==100% bzw. IST==. Die Kurve sackt erst ab und steigt danach wieder an. Am tiefsten Punkt steht die emotionale Akzeptanz." },
+            { "typ": "liste", "titel": "Stationen der Change-Kurve, von links nach rechts", "geordnet": true, "punkte": [
+              "Vorahnung/ Gerüchte",
+              "Irritation/ Schock",
+              "Verneinung/ Abwehr",
+              "rationale Akzeptanz",
+              "emotionale Akzeptanz",
+              "Anpassung, Lernen",
+              "Erkenntnis, Aha-Effekt!",
+              "Integration/ Manifestation"
+            ] },
+            { "typ": "text", "text": "**Vorahnung/ Gerüchte** ist der erste Hochpunkt, noch auf Höhe der 100%-Linie. **Irritation/ Schock** ist der erste Tiefpunkt, **Verneinung/ Abwehr** der zweite Hochpunkt. Der tiefste Punkt der ganzen Kurve ist die **emotionale Akzeptanz**; ein dicker roter Doppelpfeil verbindet ihn senkrecht mit der Linie ==100% bzw. IST==. Rechts, bei **Integration/ Manifestation**, flacht die Kurve oberhalb der 100%-Linie ab." },
+            { "typ": "diagramm", "ref": "change-kurve", "unterschrift": "Change-Kurve der Folie 78: Leistungsniveau über der Zeit, mit den acht Stationen, der 100%-Linie und den Projekt-Phasen darunter." },
+            { "typ": "hinweis", "text": "Im ansteigenden Ast der Kurve sitzt ein roter Stern ohne Beschriftung. Seine Bedeutung wird auf der Folie nicht erklärt." },
+            { "typ": "skriptluecke", "id": "m6-t4-stern", "text": "Der rote Stern im Anstieg der Kurve trägt keine Beschriftung. Trag hier ein, was in der Vorlesung dazu gesagt wurde.", "felder": [
+              { "id": "stern-bedeutung", "label": "Bedeutung des roten Sterns (aus der Vorlesung)" }
+            ] }
+          ]
+        },
+        {
+          "id": "m6-t4-k2",
+          "titel": "Projekt-Phasen und Management-Aufgaben",
+          "folien": [78],
+          "bloecke": [
+            { "typ": "einfach", "text": "Unter der Kurve laufen zwei weitere Leisten mit. Die eine zeigt, in welcher Phase das Projekt gerade steckt. Die andere zeigt, was das Management über die ganze Zeit hinweg zu tun hat. Die Aufgaben lösen einander nicht ab, sondern überlappen sich." },
+            { "typ": "liste", "titel": "Projekt-Phasen:", "geordnet": true, "punkte": ["Entscheidung", "Ankündigung", "Konzeption", "Umsetzung", "Roll-out"] },
+            { "typ": "liste", "titel": "Management-Aufgaben", "punkte": ["Information/Kommunikation/Einbinden", "Aufbau Fähigkeiten/Tools/Durchbruchsthemen", "Coaching", "Controlling/Monitoring"] },
+            { "typ": "hinweis", "text": "Die vier Management-Aufgaben sind als waagerechte Doppelpfeile gezeichnet, die sich zeitlich überlappen; Anfang und Ende sind nur grafisch angedeutet und nicht beschriftet." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m6-t4-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "change-kurve-stationen", "karte": "m6-t4-k1", "folien": [78],
+          "frage": "Bringe die Stationen der Change-Kurve in die Reihenfolge der Folie.",
+          "elemente": ["Vorahnung/ Gerüchte", "Irritation/ Schock", "Verneinung/ Abwehr", "rationale Akzeptanz", "emotionale Akzeptanz", "Anpassung, Lernen", "Erkenntnis, Aha-Effekt!", "Integration/ Manifestation"],
+          "erklaerung": "Die Beschriftungen stehen entlang der Kurve in Leserichtung von links nach rechts. Achte darauf: rationale Akzeptanz kommt vor der emotionalen Akzeptanz.",
+          "beleg": "Vorahnung/ Gerüchte Irritation/ Schock Verneinung/ Abwehr rationale Akzeptanz", "belegQuelle": "folie-50",
+          "kurz": "Gerüchte, Schock, Abwehr, rationale, emotionale Akzeptanz, Anpassung, Erkenntnis, Integration." },
+
+        { "id": "m6-t4-a02", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "change-kurve-tiefpunkt", "karte": "m6-t4-k1", "folien": [78],
+          "frage": "Welche Station markiert den **tiefsten Punkt** der Change-Kurve?",
+          "optionen": ["emotionale Akzeptanz", "Irritation/ Schock", "rationale Akzeptanz", "Verneinung/ Abwehr"], "richtig": 0,
+          "erklaerung": "Irritation/ Schock ist nur der erste Tiefpunkt. Der tiefste Punkt der ganzen Kurve ist die emotionale Akzeptanz; die Folie setzt dort ein rotes Ausrufezeichen und einen roten Doppelpfeil zur 100%-Linie.",
+          "beleg": "emotionale Akzeptanz mit einem roten Ausrufezeichen ! (tiefster Punkt der Kurve)", "belegQuelle": "folie-50",
+          "kurz": "Tiefster Punkt der Change-Kurve: emotionale Akzeptanz." },
+
+        { "id": "m6-t4-a03", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "projekt-phasen", "karte": "m6-t4-k2", "folien": [78],
+          "frage": "Bringe die Projekt-Phasen unter der Kurve in die richtige Reihenfolge.",
+          "elemente": ["Entscheidung", "Ankündigung", "Konzeption", "Umsetzung", "Roll-out"],
+          "erklaerung": "Fünf gepunktete Linien gehen von der Zeitachse nach unten zu diesen Phasen, von links nach rechts.",
+          "beleg": "Projekt-Phasen: Entscheidung Ankündigung Konzeption Umsetzung Roll-out", "belegQuelle": "folie-50",
+          "kurz": "Projekt-Phasen: Entscheidung, Ankündigung, Konzeption, Umsetzung, Roll-out." },
+
+        { "id": "m6-t4-a04", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "management-aufgaben", "karte": "m6-t4-k2", "folien": [78],
+          "frage": "Welche **Management-Aufgaben** nennt Folie 78?",
+          "optionen": ["Information/Kommunikation/Einbinden", "Aufbau Fähigkeiten/Tools/Durchbruchsthemen", "Coaching", "Controlling/Monitoring", "Notfallpläne vorhalten & üben", "Dringlichkeit erzeugen"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Notfallpläne gehören zu den chaotischen Problemen (Folie 77), Dringlichkeit erzeugen ist Kotters erster Schritt.",
+          "beleg": "Management-Aufgaben Information/Kommunikation/Einbinden Aufbau Fähigkeiten/Tools/Durchbruchsthemen Coaching Controlling/Monitoring", "belegQuelle": "folie-50",
+          "kurz": "Management-Aufgaben: Information/Kommunikation/Einbinden, Fähigkeiten/Tools, Coaching, Controlling/Monitoring." },
+
+        { "id": "m6-t4-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "change-kurve-stationen", "karte": "m6-t4-k1", "folien": [78],
+          "frage": "Erkläre die Change-Kurve: Was zeigen die Achsen, welche Stationen durchläuft sie, und was bedeutet der tiefste Punkt?",
+          "musterloesung": "Die waagerechte Achse zeigt die Zeit, die senkrechte das Leistungsniveau. Eine blaue Bezugslinie markiert das Ausgangsniveau 100% bzw. IST. Die Kurve läuft über acht Stationen: Vorahnung/ Gerüchte auf Höhe der 100%-Linie, Irritation/ Schock als erster Tiefpunkt, Verneinung/ Abwehr als zweiter Hochpunkt, rationale Akzeptanz im absteigenden Ast, emotionale Akzeptanz als tiefster Punkt, danach Anpassung, Lernen, Erkenntnis, Aha-Effekt! und schließlich Integration/ Manifestation oberhalb der 100%-Linie. Der tiefste Punkt ist mit einem roten Ausrufezeichen markiert; ein roter Doppelpfeil verbindet ihn senkrecht mit der 100%-Linie und zeigt damit den Abstand zum Ausgangsniveau. Unter der Achse laufen die Projekt-Phasen Entscheidung, Ankündigung, Konzeption, Umsetzung und Roll-out, darunter die Management-Aufgaben.",
+          "checkliste": [
+            "Achsen: Zeit waagerecht, Leistungsniveau senkrecht",
+            "Bezugslinie 100% bzw. IST",
+            "Acht Stationen in der richtigen Reihenfolge",
+            "Tiefster Punkt: emotionale Akzeptanz, roter Doppelpfeil zur 100%-Linie",
+            "Ende oberhalb der 100%-Linie bei Integration/ Manifestation",
+            "Darunter: Projekt-Phasen und Management-Aufgaben"
+          ],
+          "erklaerung": "Die Kurve ist die zentrale Abbildung des Kapitels. Prüfungsrelevant sind Achsen, Reihenfolge der Stationen und der tiefste Punkt.",
+          "beleg": "Leistungsniveau 100% bzw. IST", "belegQuelle": "folie-50",
+          "kurz": "Zeit gegen Leistungsniveau, acht Stationen, tiefster Punkt emotionale Akzeptanz, Ende über 100%." },
+
+        { "id": "m6-t4-a06", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "change-kurve-stationen", "karte": "m6-t4-k1", "folien": [78], "bank": true,
+          "frage": "Wie geht es nach dem tiefsten Punkt weiter? Setze die drei letzten Stationen ein.",
+          "text": "… emotionale Akzeptanz -> {_Anpassung, Lernen_} -> {_Erkenntnis, Aha-Effekt!_} -> {_Integration/ Manifestation_}",
+          "zusatzBank": ["Verneinung/ Abwehr", "rationale Akzeptanz"],
+          "erklaerung": "Nach dem tiefsten Punkt steigt die Kurve wieder an und endet oberhalb der 100%-Linie.",
+          "beleg": "Anpassung, Lernen Erkenntnis, Aha-Effekt! Integration/ Manifestation", "belegQuelle": "folie-50",
+          "kurz": "Nach der emotionalen Akzeptanz: Anpassung/Lernen, Erkenntnis, Integration/Manifestation." },
+
+        { "id": "m6-t4-a07", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "change-kurve-stationen", "karte": "m6-t4-k1", "folien": [78],
+          "frage": "Was zeigt die Change-Kurve wirklich?",
+          "aussagen": [
+            { "text": "Der tiefste Punkt der Kurve ist die emotionale Akzeptanz.", "wahr": true },
+            { "text": "Die Kurve beginnt mit Irritation/ Schock.", "wahr": false, "korrektur": "Sie beginnt mit Vorahnung/ Gerüchte auf Höhe der 100%-Linie. Irritation/ Schock ist erst der erste Tiefpunkt." },
+            { "text": "Die rationale Akzeptanz kommt vor der emotionalen Akzeptanz.", "wahr": true },
+            { "text": "Die letzte Projekt-Phase unter der Kurve heißt Umsetzung.", "wahr": false, "korrektur": "Die letzte Phase heißt Roll-out. Umsetzung ist die vierte von fünf." }
+          ],
+          "erklaerung": "Die häufigste Verwechslung ist die Reihenfolge von rationaler und emotionaler Akzeptanz: Der Kopf ist vor dem Bauch einverstanden.",
+          "beleg": "Vorahnung/ Gerüchte (erster Hochpunkt, auf Höhe der 100%-Linie)", "belegQuelle": "folie-50",
+          "kurz": "Start: Vorahnung/Gerüchte. Erst rationale, dann emotionale Akzeptanz. Letzte Phase: Roll-out." },
+
+        { "id": "m6-t4-a08", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "change-kurve-tiefpunkt", "karte": "m6-t4-k1", "folien": [78],
+          "szenario": "Übungsfall: In deiner Bank wird die Zusammenlegung zweier Abteilungen angekündigt. Drei Wochen später sagt eine Kollegin: „Dass die Zahlen dafür sprechen, sehe ich ein. Aber anfreunden kann ich mich damit überhaupt nicht.“ Die Leistung im Team ist gerade auf dem Tiefpunkt.",
+          "frage": "Wo steht das Team auf der Change-Kurve?",
+          "optionen": [
+            "Zwischen rationaler und emotionaler Akzeptanz: Die Sache ist rational akzeptiert, emotional noch nicht. Die emotionale Akzeptanz ist der tiefste Punkt der Kurve.",
+            "Bei Vorahnung/ Gerüchte, denn die Veränderung wurde gerade erst angekündigt.",
+            "Bei Integration/ Manifestation, denn die Zahlen werden ja akzeptiert."
+          ], "richtig": 0,
+          "erklaerung": "Die Aussage trennt genau das, was die Kurve trennt: rationale Akzeptanz zuerst, emotionale Akzeptanz danach, und diese liegt am tiefsten Punkt.",
+          "beleg": "rationale Akzeptanz … emotionale Akzeptanz", "belegQuelle": "folie-50",
+          "kurz": "Rational einverstanden, emotional noch nicht: das ist der Tiefpunkt der Kurve." },
+
+        { "id": "m6-t4-a09", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "change-kurve-stationen", "karte": "m6-t4-k1", "folien": [78],
+          "frage": "Beschrifte die Stationen der Change-Kurve.", "diagramm": "change-kurve", "gruppe": "stationen",
+          "erklaerung": "Die Stationen stehen entlang der Kurve in Leserichtung; der tiefste Punkt ist die emotionale Akzeptanz.",
+          "beleg": "Verneinung/ Abwehr rationale Akzeptanz", "belegQuelle": "folie-50",
+          "kurz": "Acht Stationen von Vorahnung/Gerüchte bis Integration/Manifestation." },
+
+        { "id": "m6-t4-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "management-aufgaben", "karte": "m6-t4-k2", "folien": [78],
+          "vorne": "Welche vier Management-Aufgaben nennt Folie 78, und was fällt an ihrer Darstellung auf?",
+          "hinten": "**Information/Kommunikation/Einbinden**, **Aufbau Fähigkeiten/Tools/Durchbruchsthemen**, **Coaching**, **Controlling/Monitoring**.\n\nSie sind als vier waagerechte Doppelpfeile gezeichnet, die sich zeitlich überlappen. Sie lösen einander also nicht ab.",
+          "erklaerung": "Die Pfeile liegen versetzt übereinander, von links oben nach rechts unten, ohne Beschriftung der Zeitachse.",
+          "beleg": "Aufbau Fähigkeiten/Tools/Durchbruchsthemen Coaching Controlling/Monitoring", "belegQuelle": "folie-50",
+          "kurz": "Vier Management-Aufgaben, zeitlich überlappend." },
+
+        { "id": "m6-t4-a11", "typ": "mc", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "change-kurve-tiefpunkt", "karte": "m6-t4-k1", "folien": [78],
+          "frage": "**rationale Akzeptanz** und **emotionale Akzeptanz** werden leicht verwechselt. Wodurch unterscheidet Folie 78 die beiden?",
+          "optionen": [
+            "Die rationale Akzeptanz liegt im absteigenden Ast. Die emotionale Akzeptanz ist der tiefste Punkt der Kurve: nur sie trägt ein rotes Ausrufezeichen und den roten Doppelpfeil zur 100%-Linie.",
+            "Die emotionale Akzeptanz liegt im absteigenden Ast, die rationale Akzeptanz ist der tiefste Punkt der Kurve.",
+            "Beide liegen auf Höhe der Linie 100% bzw. IST und unterscheiden sich nur im Namen.",
+            "Die rationale Akzeptanz kommt erst nach Anpassung, Lernen, die emotionale Akzeptanz schon vor Verneinung/ Abwehr."
+          ], "richtig": 0,
+          "erklaerung": "Die Folie sagt zu beiden Stationen nur, wo sie auf der Kurve liegen: rationale Akzeptanz im absteigenden Ast, emotionale Akzeptanz als tiefster Punkt, dort mit rotem Ausrufezeichen und dem roten Doppelpfeil zur 100%-Linie. Was die beiden Begriffe inhaltlich bedeuten, erklärt sie nicht.",
+          "beleg": "rationale Akzeptanz (im absteigenden Ast) … emotionale Akzeptanz mit einem roten Ausrufezeichen ! (tiefster Punkt der Kurve)", "belegQuelle": "folie-50",
+          "kurz": "Erst rationale Akzeptanz im Abstieg, dann emotionale Akzeptanz am tiefsten Punkt." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Change-Kurve (Folie 78):** Leistungsniveau über Zeit, Bezugslinie 100% bzw. IST. Stationen: Vorahnung/Gerüchte, Irritation/Schock, Verneinung/Abwehr, rationale Akzeptanz, **emotionale Akzeptanz (tiefster Punkt)**, Anpassung/Lernen, Erkenntnis/Aha-Effekt, Integration/Manifestation.",
+          "**Projekt-Phasen:** Entscheidung, Ankündigung, Konzeption, Umsetzung, Roll-out. **Management-Aufgaben:** Information/Kommunikation/Einbinden, Aufbau Fähigkeiten/Tools/Durchbruchsthemen, Coaching, Controlling/Monitoring."
+        ],
+        "ausfuehrlich": [
+          "**Achsen und Bezugslinie.** Waagerecht die Zeit, senkrecht das Leistungsniveau. Eine blaue Linie markiert 100% bzw. IST und läuft quer durch das Diagramm.",
+          "**Acht Stationen.** Vorahnung/ Gerüchte (erster Hochpunkt auf 100%), Irritation/ Schock (erster Tiefpunkt), Verneinung/ Abwehr (zweiter Hochpunkt), rationale Akzeptanz (absteigender Ast), emotionale Akzeptanz (tiefster Punkt, rotes Ausrufezeichen), Anpassung, Lernen, Erkenntnis, Aha-Effekt!, Integration/ Manifestation (oberhalb der 100%-Linie).",
+          "**Roter Doppelpfeil** verbindet die 100%-Linie senkrecht mit dem tiefsten Punkt bei der emotionalen Akzeptanz. Im Anstieg sitzt ein roter Stern ohne Beschriftung.",
+          "**Projekt-Phasen unter der Achse:** Entscheidung, Ankündigung, Konzeption, Umsetzung, Roll-out.",
+          "**Management-Aufgaben (überlappende Doppelpfeile):** Information/Kommunikation/Einbinden, Aufbau Fähigkeiten/Tools/Durchbruchsthemen, Coaching, Controlling/Monitoring."
+        ],
+        "merkhilfe": "Erst der Kopf, dann der Bauch: rationale Akzeptanz vor emotionaler Akzeptanz. Und der Bauch liegt am tiefsten."
+      }
+    },
+
+    {
+      "id": "m6-t5",
+      "titel": "Widerstand: Spektrum und Ursachen",
+      "folien": [79],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t5-k1",
+          "titel": "Vom Commitment zum aggressiven Widerstand",
+          "folien": [79],
+          "bloecke": [
+            { "typ": "einfach", "text": "Widerstand ist kein Schalter mit an und aus. Die Folie zeigt oben eine Kette aus sieben Pfeilen, die von voller Zustimmung bis zum aggressiven Widerstand reicht. In der Mitte steht die Gleichgültigkeit: Apathy. Alles rechts davon ist Widerstand, und er wird nach rechts hin schärfer." },
+            { "typ": "liste", "titel": "Das Spektrum auf Folie 79, von links nach rechts", "geordnet": true, "punkte": ["Commitment", "Involvement", "Support", "Apathy", "Passive resistance", "Active resistance", "Aggressive resistance"] },
+            { "typ": "diagramm", "ref": "widerstand", "unterschrift": "Folie 79: oben das Spektrum von Commitment bis Aggressive resistance, darunter die drei Ursachen von Widerstand." },
+            { "typ": "hinweis", "text": "Die Pfeilkette wird auf der Folie nicht erläutert; eine Quelle steht nicht dabei." }
+          ]
+        },
+        {
+          "id": "m6-t5-k2",
+          "titel": "Drei Ursachen: Nicht-Wissen, Nicht-Können, Nicht-Wollen",
+          "folien": [79],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die Folie führt Widerstand auf drei Ursachen zurück. Entweder fehlt das Wissen, oder es fehlt das Können, oder der Wille fehlt. Zu jeder Ursache nennt sie, was daraus folgt. Das ist die Zuordnung, die du sicher können musst." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "Nicht-Wissen", "punkte": ["-> Orientierungslosigkeit", "-> Unsicherheit"] },
+              { "titel": "Nicht-Können", "punkte": ["-> Versagensängste", "-> soziale Scham"] },
+              { "titel": "Nicht-Wollen", "punkte": ["-> grds. Ablehnung von Neuem, Change, Innovation"] }
+            ] },
+            { "typ": "liste", "titel": "Three Levels of Resistance (eingebettetes Bild auf der Folie)", "geordnet": true, "punkte": [
+              "**Level 1: I don't get it** - Information—facts, figures, ideas",
+              "**Level 2: I don't like it** - Emotional reaction to the change",
+              "**Level 3: I don't like you** - Trust and confidence"
+            ] },
+            { "typ": "hinweis", "text": "Das Bild „Three Levels of Resistance“ ist ein Screenshot in geringer Auflösung, es ist englisch und wird im Folientext nicht aufgegriffen oder erklärt. Einen Urheber nennt es nicht." },
+            { "typ": "hinweis", "text": "Die Folie stellt Ursachen, Argumente der Betroffenen und Maßnahmen in drei Spalten nebeneinander. Welche einzelne Aufzählung zu welcher Ursache gehört, legt sie nicht fest. Ordne deshalb nicht zu, was die Folie nicht zuordnet." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m6-t5-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "widerstand-spektrum", "karte": "m6-t5-k1", "folien": [79],
+          "frage": "Bringe das Spektrum der Folie 79 in die richtige Reihenfolge, von voller Zustimmung bis zum schärfsten Widerstand.",
+          "elemente": ["Commitment", "Involvement", "Support", "Apathy", "Passive resistance", "Active resistance", "Aggressive resistance"],
+          "erklaerung": "Sieben ineinandergreifende Pfeilformen, von links nach rechts gelesen. Apathy liegt in der Mitte, zwischen Zustimmung und Widerstand.",
+          "beleg": "Commitment > Involvement > Support > Apathy > Passive resistance > Active resistance > Aggressive resistance", "belegQuelle": "folie-51",
+          "kurz": "Commitment, Involvement, Support, Apathy, Passive, Active, Aggressive resistance." },
+
+        { "id": "m6-t5-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "widerstand-ursachen", "karte": "m6-t5-k2", "folien": [79],
+          "frage": "Ordne jeder Ursache von Widerstand zu, was die Folie als Folge nennt.", "linksTitel": "Ursache", "rechtsTitel": "Folge laut Folie 79",
+          "paare": [
+            { "links": "Nicht-Wissen", "rechts": "Orientierungslosigkeit, Unsicherheit" },
+            { "links": "Nicht-Können", "rechts": "Versagensängste, soziale Scham" },
+            { "links": "Nicht-Wollen", "rechts": "grds. Ablehnung von Neuem, Change, Innovation" }
+          ],
+          "erklaerung": "Die drei Pfeilformen der linken Spalte tragen genau diese Folgen: Wissen fehlt, also Orientierung und Sicherheit fehlen. Können fehlt, also Angst und Scham. Wille fehlt, also grundsätzliche Ablehnung.",
+          "beleg": "Nicht-Können -> Versagensängste -> soziale Scham", "belegQuelle": "folie-51",
+          "kurz": "Nicht-Wissen: Orientierungslosigkeit, Unsicherheit. Nicht-Können: Versagensängste, soziale Scham. Nicht-Wollen: Ablehnung von Neuem." },
+
+        { "id": "m6-t5-a03", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-ursachen", "karte": "m6-t5-k2", "folien": [79],
+          "frage": "Welche Ursache nennt die Folie für diese Folge?",
+          "kategorien": ["Nicht-Wissen", "Nicht-Können", "Nicht-Wollen"],
+          "elemente": [
+            { "text": "Orientierungslosigkeit", "kategorie": 0 },
+            { "text": "Unsicherheit", "kategorie": 0 },
+            { "text": "Versagensängste", "kategorie": 1 },
+            { "text": "soziale Scham", "kategorie": 1 },
+            { "text": "grds. Ablehnung von Neuem, Change, Innovation", "kategorie": 2 }
+          ],
+          "erklaerung": "Unsicherheit und Orientierungslosigkeit sind Folgen von fehlendem Wissen, nicht von fehlendem Können. Angst und Scham gehören zum Nicht-Können.",
+          "beleg": "Nicht-Wissen -> Orientierungslosigkeit -> Unsicherheit", "belegQuelle": "folie-51",
+          "kurz": "Wissen fehlt: Orientierung/Sicherheit. Können fehlt: Angst/Scham. Wollen fehlt: Ablehnung." },
+
+        { "id": "m6-t5-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-ursachen", "karte": "m6-t5-k2", "folien": [79],
+          "frage": "Erkläre, welche Ursachen von Widerstand Folie 79 nennt und welche Folgen sie jeweils haben.",
+          "musterloesung": "Folie 79 nennt drei Ursachen. Erstens Nicht-Wissen: Daraus folgen Orientierungslosigkeit und Unsicherheit. Zweitens Nicht-Können: Daraus folgen Versagensängste und soziale Scham. Drittens Nicht-Wollen: Daraus folgt die grundsätzliche Ablehnung von Neuem, Change und Innovation. Die drei Ursachen stehen als Pfeilformen untereinander in der linken Spalte. Rechts daneben führt die Folie Argumente der Betroffenen und Maßnahmen auf, ordnet die einzelnen Zeilen aber nicht einer bestimmten Ursache zu.",
+          "checkliste": [
+            "Nicht-Wissen: Orientierungslosigkeit, Unsicherheit",
+            "Nicht-Können: Versagensängste, soziale Scham",
+            "Nicht-Wollen: grds. Ablehnung von Neuem, Change, Innovation",
+            "Die Folie ordnet Argumente und Maßnahmen nicht eindeutig einzelnen Ursachen zu"
+          ],
+          "erklaerung": "Die drei Ursachen und ihre Folgen sind die einzige feste Zuordnung auf dieser Folie. Genau sie lässt sich abfragen.",
+          "beleg": "Nicht-Wollen -> grds. Ablehnung von Neuem, Change, Innovation", "belegQuelle": "folie-51",
+          "kurz": "Drei Ursachen: Nicht-Wissen, Nicht-Können, Nicht-Wollen, mit je eigenen Folgen." },
+
+        { "id": "m6-t5-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-spektrum", "karte": "m6-t5-k1", "folien": [79],
+          "frage": "Spektrum und Ursachen: Was steht wirklich auf Folie 79?",
+          "aussagen": [
+            { "text": "Apathy steht im Spektrum zwischen Support und Passive resistance.", "wahr": true },
+            { "text": "Versagensängste und soziale Scham nennt die Folie als Folgen von Nicht-Wissen.", "wahr": false, "korrektur": "Sie sind Folgen von Nicht-Können. Aus Nicht-Wissen folgen Orientierungslosigkeit und Unsicherheit." },
+            { "text": "Die Folie ordnet jedes einzelne Argument der Betroffenen eindeutig einer der drei Ursachen zu.", "wahr": false, "korrektur": "Die Folie stellt Ursachen, Argumente und Maßnahmen nebeneinander; welche Zeile zu welcher Ursache gehört, legt sie nicht fest." },
+            { "text": "Das Spektrum endet rechts mit Aggressive resistance.", "wahr": true }
+          ],
+          "erklaerung": "Die Kette ist eine Reihe, keine Einteilung in Gruppen. Und die Ursachen-Spalte ist die einzige Stelle der Folie mit einer festen Zuordnung.",
+          "beleg": "Commitment > Involvement > Support > Apathy > Passive resistance", "belegQuelle": "folie-51",
+          "kurz": "Apathy liegt in der Mitte. Angst und Scham gehören zum Nicht-Können." },
+
+        { "id": "m6-t5-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "widerstand-ursachen", "karte": "m6-t5-k2", "folien": [79],
+          "szenario": "Übungsfall: Bei der Umstellung auf ein neues System sagt ein langjähriger Kollege unter vier Augen: „Ich habe Angst, dass ich das nicht packe. Und wenn ich vor dem ganzen Team scheitere, ist mir das furchtbar peinlich.“",
+          "frage": "Welche der drei Ursachen von Widerstand beschreibt die Folie damit?",
+          "optionen": [
+            "Nicht-Können: Die Folie nennt dazu Versagensängste und soziale Scham.",
+            "Nicht-Wissen: Die Folie nennt dazu Orientierungslosigkeit und Unsicherheit.",
+            "Nicht-Wollen: Die Folie nennt dazu die grundsätzliche Ablehnung von Neuem, Change und Innovation."
+          ], "richtig": 0,
+          "erklaerung": "Die Angst zu versagen und die Scham vor dem Team sind genau die beiden Folgen, die die Folie unter Nicht-Können nennt.",
+          "beleg": "Nicht-Können -> Versagensängste -> soziale Scham", "belegQuelle": "folie-51",
+          "kurz": "Versagensangst und Scham vor anderen: Ursache Nicht-Können." },
+
+        { "id": "m6-t5-a07", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "three-levels", "karte": "m6-t5-k2", "folien": [79],
+          "vorne": "Welche drei Levels nennt das eingebettete Bild „Three Levels of Resistance“ auf Folie 79?",
+          "hinten": "**Level 1: I don't get it** - Information—facts, figures, ideas\n**Level 2: I don't like it** - Emotional reaction to the change\n**Level 3: I don't like you** - Trust and confidence\n\nDas Bild ist englisch, wird im Folientext nicht aufgegriffen und nennt keinen Urheber.",
+          "erklaerung": "Drei abgerundete Kästen, treppenartig nach rechts versetzt und durch Pfeile verbunden.",
+          "beleg": "Level 2: … Emotional reaction to the change … Level 3: … Trust and confidence", "belegQuelle": "folie-51",
+          "kurz": "Three Levels of Resistance: I don't get it, I don't like it, I don't like you." },
+
+        { "id": "m6-t5-a08", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "widerstand-spektrum", "karte": "m6-t5-k1", "folien": [79],
+          "frage": "Beschrifte das Spektrum von Zustimmung bis Widerstand.", "diagramm": "widerstand", "gruppe": "spektrum",
+          "erklaerung": "Sieben Stufen, von Commitment links bis Aggressive resistance rechts.",
+          "beleg": "Support > Apathy > Passive resistance > Active resistance > Aggressive resistance", "belegQuelle": "folie-51",
+          "kurz": "Sieben Stufen von Commitment bis Aggressive resistance." },
+
+        { "id": "m6-t5-a09", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "widerstand-ursachen", "karte": "m6-t5-k2", "folien": [79],
+          "frage": "Beschrifte die drei Ursachen von Widerstand.", "diagramm": "widerstand", "gruppe": "ursachen",
+          "erklaerung": "Gefragt sind die drei Ursachen: Nicht-Wissen, Nicht-Können, Nicht-Wollen. Die Folgen, die die Folie darunter nennt, bleiben im Diagramm daneben stehen.",
+          "beleg": "Nicht-Wissen -> Orientierungslosigkeit -> Unsicherheit", "belegQuelle": "folie-51",
+          "kurz": "Drei Ursachen: Nicht-Wissen, Nicht-Können, Nicht-Wollen." },
+
+        { "id": "m6-t5-a10", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-spektrum", "karte": "m6-t5-k1", "folien": [79], "bank": true,
+          "frage": "Vervollständige das Spektrum der Folie 79.",
+          "text": "Commitment > {_Involvement_} > Support > {_Apathy_} > {_Passive resistance_} > Active resistance > {_Aggressive resistance_}",
+          "zusatzBank": ["Empowerment", "Resilienz"],
+          "erklaerung": "Apathy ist die Mitte: noch kein Widerstand, aber auch keine Unterstützung mehr.",
+          "beleg": "Commitment > Involvement > Support > Apathy > Passive resistance > Active resistance > Aggressive resistance", "belegQuelle": "folie-51",
+          "kurz": "Sieben Stufen, Apathy in der Mitte." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Spektrum (Folie 79):** Commitment > Involvement > Support > Apathy > Passive resistance > Active resistance > Aggressive resistance.",
+          "**Drei Ursachen:** Nicht-Wissen (Orientierungslosigkeit, Unsicherheit), Nicht-Können (Versagensängste, soziale Scham), Nicht-Wollen (grds. Ablehnung von Neuem, Change, Innovation)."
+        ],
+        "ausfuehrlich": [
+          "**Spektrum.** Sieben ineinandergreifende Pfeile: Commitment, Involvement, Support, Apathy, Passive resistance, Active resistance, Aggressive resistance. Die Folie erläutert die Kette nicht und nennt keine Quelle.",
+          "**Ursachen und Folgen.** Nicht-Wissen -> Orientierungslosigkeit, Unsicherheit. Nicht-Können -> Versagensängste, soziale Scham. Nicht-Wollen -> grds. Ablehnung von Neuem, Change, Innovation.",
+          "**Eingebettetes Bild „Three Levels of Resistance“.** Level 1: I don't get it (Information—facts, figures, ideas). Level 2: I don't like it (Emotional reaction to the change). Level 3: I don't like you (Trust and confidence). Englisch, im Folientext nicht aufgegriffen, ohne Urheberangabe.",
+          "**Wichtig für die Klausur:** Die Folie ordnet die Argumente der Betroffenen und die Maßnahmen NICHT eindeutig einer der drei Ursachen zu. Nur Ursache und Folge gehören fest zusammen."
+        ],
+        "merkhilfe": "Drei Nicht: Wissen, Können, Wollen. Kopf, Hand, Herz - und in dieser Reihenfolge stehen sie auf der Folie."
+      }
+    },
+
+    {
+      "id": "m6-t6",
+      "titel": "Widerstand: Argumente, Maßnahmen und die drei Grundsätze",
+      "folien": [79],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t6-k1",
+          "titel": "Argumente der Betroffenen",
+          "folien": [79],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die mittlere Spalte der Folie lässt die Betroffenen selbst sprechen. Neun Sätze, wie sie im Alltag fallen. Die ersten sechs kreisen um fehlende Information und fehlendes Können, die letzten drei um den fehlenden Willen. Eine feste Zuordnung zu den drei Ursachen nimmt die Folie aber nicht vor." },
+            { "typ": "liste", "titel": "Argumente der Betroffenen", "punkte": [
+              "Habe keine Hintergründe über Ziele/Nutzen!",
+              "Was heisst das für mich persönlich? Neuer Chef? Neue Aufgaben? Neues Team?",
+              "Welche neuen Incentives, Belohnungs- und Sanktionsmechanismen greifen?",
+              "Neue Anforderungen größer als meine skills!",
+              "Mir fehlen jegliche Qualifikationen: fachlich, methodisch, individuell!",
+              "Das schaffe ich nie!"
+            ] },
+            { "typ": "liste", "titel": "Argumente der Betroffenen, nach der Leerzeile auf der Folie", "punkte": [
+              "Bin stolz wie gut alles bei mir läuft!",
+              "Neues kollidiert mit meinen Werten.",
+              "Bin gegen Veränderungen, will geordnete Verhältnisse und Kontinuität!"
+            ] },
+            { "typ": "hinweis", "text": "Die Folie schreibt „heisst“ ohne ß und kürzt „grundsätzlich“ mit „grds.“ ab. Beides ist hier wörtlich übernommen." }
+          ]
+        },
+        {
+          "id": "m6-t6-k2",
+          "titel": "Maßnahmen",
+          "folien": [79],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die rechte Spalte sagt, was das Management tut. Zuerst geht es um Kommunikation und Information, dann um Qualifizierung und Befähigung, zuletzt um Haltung: zuhören, Gründe verstehen, Altes und Neues würdigen." },
+            { "typ": "liste", "titel": "Maßnahmen", "punkte": [
+              "breitflächige, zügige Kommunikation",
+              "Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation",
+              "detaillierte Information, sobald verfügbar, konkret und adressatenspezifisch",
+              "Abgleich mit Jahres-Zielgesprächen führen",
+              "ggf. gemeinsam Qualifizierungen und Coachings identifizieren und umsetzen",
+              "Empathie, Empowerment anwenden"
+            ] },
+            { "typ": "liste", "titel": "Maßnahmen, nach der Leerzeile auf der Folie", "punkte": [
+              "Empathie, Perspektivenwechsel, Resilienz,",
+              "Dringlichkeit aufzeigen, Alt/Neu honorieren",
+              "geduldig zuhören und Gründe erkennen -> gibt es bessere Ideen?"
+            ] },
+            { "typ": "hinweis", "text": "Der Punkt „Empathie, Perspektivenwechsel, Resilienz,“ endet auf der Folie mit einem Komma ohne Fortsetzung." }
+          ]
+        },
+        {
+          "id": "m6-t6-k3",
+          "titel": "Die drei Grundsätze und das Ziel",
+          "folien": [79],
+          "bloecke": [
+            { "typ": "einfach", "text": "Unten rechts steht der Kern der Folie in vier roten Zeilen. Drei Grundsätze und ein Ziel. Wer diese vier Zeilen kann, hat die Haltung der Folie zum Widerstand verstanden." },
+            { "typ": "merksatz", "folie": 79, "text": "1.) Widerstand im Change ist normal und zu erwarten\n2.) Management beeinflusst Widerstand durch Art des Change-Managements\n3.) Den Wert von Widerstand erkennen und nutzen" },
+            { "typ": "merksatz", "folie": 79, "text": "Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation" },
+            { "typ": "hinweis", "text": "Den Begriff „Dips“ setzt die Folie in Anführungszeichen, erklärt ihn dort aber nicht." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m6-t6-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-argumente", "karte": "m6-t6-k1", "folien": [79],
+          "frage": "Welche Sätze nennt Folie 79 als **Argumente der Betroffenen**?",
+          "optionen": [
+            "Habe keine Hintergründe über Ziele/Nutzen!",
+            "Neue Anforderungen größer als meine skills!",
+            "Neues kollidiert mit meinen Werten.",
+            "Bin stolz wie gut alles bei mir läuft!",
+            "Notfallpläne vorhalten & üben",
+            "Dringlichkeit erzeugen"
+          ], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Notfallpläne gehören zu den chaotischen Problemen (Folie 77), Dringlichkeit erzeugen ist Kotters erster Schritt (Folie 78).",
+          "beleg": "Neue Anforderungen größer als meine skills!", "belegQuelle": "folie-51",
+          "kurz": "Argumente reichen von fehlenden Hintergründen über fehlende Qualifikation bis zu Stolz und Werten." },
+
+        { "id": "m6-t6-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-massnahmen", "karte": "m6-t6-k2", "folien": [79],
+          "frage": "Welche **Maßnahmen** nennt Folie 79?",
+          "optionen": [
+            "breitflächige, zügige Kommunikation",
+            "detaillierte Information, sobald verfügbar, konkret und adressatenspezifisch",
+            "Abgleich mit Jahres-Zielgesprächen führen",
+            "Dringlichkeit aufzeigen, Alt/Neu honorieren",
+            "autoritäres Management nötig",
+            "Kommandos, Antworten geben"
+          ], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Autoritäres Management gehört zu den chaotischen Problemen, Kommandos und Antworten geben zu den critical problems (beide Folie 77).",
+          "beleg": "Abgleich mit Jahres-Zielgesprächen führen", "belegQuelle": "folie-51",
+          "kurz": "Maßnahmen: Kommunikation, Information, Zielgespräche, Qualifizierung, Empathie, Empowerment, zuhören." },
+
+        { "id": "m6-t6-a03", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-wert", "karte": "m6-t6-k2", "folien": [79],
+          "frage": "Welche Maßnahme der Folie fragt ausdrücklich nach besseren Ideen der Betroffenen?",
+          "optionen": [
+            "geduldig zuhören und Gründe erkennen -> gibt es bessere Ideen?",
+            "breitflächige, zügige Kommunikation",
+            "Abgleich mit Jahres-Zielgesprächen führen",
+            "Empathie, Empowerment anwenden"
+          ], "richtig": 0,
+          "erklaerung": "Diese Maßnahme passt zum dritten Grundsatz: Den Wert von Widerstand erkennen und nutzen.",
+          "beleg": "geduldig zuhören und Gründe erkennen -> gibt es bessere Ideen?", "belegQuelle": "folie-51",
+          "kurz": "Zuhören, Gründe erkennen, nach besseren Ideen fragen." },
+
+        { "id": "m6-t6-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "widerstand-grundsaetze", "karte": "m6-t6-k3", "folien": [79],
+          "frage": "Erkläre, was mit den drei Grundsätzen zum Widerstand gemeint ist und in welchem Zusammenhang sie stehen.",
+          "musterloesung": "Die drei Sätze stehen in einem rot umrandeten Kasten unten rechts auf Folie 79, der Folie zum Umgang mit Widerstand. 1.) Widerstand im Change ist normal und zu erwarten: Davor zeigt die Folie ein Spektrum von Commitment bis Aggressive resistance und drei Ursachen, Nicht-Wissen, Nicht-Können und Nicht-Wollen, samt den Argumenten der Betroffenen. Widerstand ist damit der Regelfall, nicht die Ausnahme. 2.) Management beeinflusst Widerstand durch Art des Change-Managements: Dafür steht die Spalte Maßnahmen, etwa breitflächige, zügige Kommunikation, Empathie, Perspektivenwechsel und Achtsamkeit, detaillierte und adressatenspezifische Information, gemeinsame Qualifizierungen und Coachings sowie Empowerment. 3.) Den Wert von Widerstand erkennen und nutzen: Dazu passt die Maßnahme geduldig zuhören und Gründe erkennen mit der Frage, ob es bessere Ideen gibt. Als Ziel nennt die Folie die Minimierung des Dips und unerwünschter Fluktuation.",
+          "checkliste": [
+            "Widerstand ist normal und zu erwarten",
+            "Die Art des Change-Managements beeinflusst den Widerstand",
+            "Widerstand hat einen Wert, den man erkennen und nutzen soll",
+            "Bezug auf Ursachen, Argumente und Maßnahmen derselben Folie",
+            "Ziel: Minimierung des Dips und unerwünschter Fluktuation"
+          ],
+          "erklaerung": "Die drei Grundsätze sind die Kernaussage der Folie. Eine Klausurantwort nennt sie und belegt sie mit den Maßnahmen derselben Folie.",
+          "beleg": "1.) Widerstand im Change ist normal und zu erwarten", "belegQuelle": "folie-51",
+          "kurz": "Widerstand ist normal, vom Management beeinflussbar und hat einen nutzbaren Wert." },
+
+        { "id": "m6-t6-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "widerstand-ziel", "karte": "m6-t6-k3", "folien": [79],
+          "frage": "Erkläre, was das Ziel „Minimierung des Dips und unerwünschter Fluktuation“ meint und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz ist die vierte und letzte Zeile im rot umrandeten Kasten unten rechts auf Folie 79, direkt unter den drei Grundsätzen zum Widerstand. Er sagt, worauf der Umgang mit Widerstand hinauslaufen soll: Der Dip und die unerwünschte Fluktuation sollen möglichst klein bleiben. Der Zusammenhang ist die ganze Folie: Widerstand ist normal, er hat die Ursachen Nicht-Wissen, Nicht-Können und Nicht-Wollen, und das Management beeinflusst ihn durch die Art des Change-Managements, also durch die genannten Maßnahmen. Genau diese Maßnahmen dienen dem Ziel. Den Begriff Dips setzt die Folie in Anführungszeichen, erklärt ihn dort aber nicht.",
+          "checkliste": [
+            "Der Satz steht als vierte Zeile unter den drei Grundsätzen",
+            "Zwei Größen sollen klein bleiben: der Dip und die unerwünschte Fluktuation",
+            "Mittel dazu sind die Maßnahmen der Folie, also die Art des Change-Managements",
+            "Den Begriff Dips erklärt die Folie nicht"
+          ],
+          "erklaerung": "Hier ist Ehrlichkeit gefragt: Das Ziel steht wörtlich auf der Folie, der Begriff Dips wird dort nicht erklärt. Das gehört zur Antwort dazu.",
+          "beleg": "Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation", "belegQuelle": "folie-51",
+          "kurz": "Ziel des Change-Managements: Dip und unerwünschte Fluktuation klein halten." },
+
+        { "id": "m6-t6-a06", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "widerstand-grundsaetze", "karte": "m6-t6-k3", "folien": [79],
+          "frage": "Die Haltung der Folie zum Widerstand: Was stimmt?",
+          "aussagen": [
+            { "text": "Widerstand im Change ist laut Folie normal und zu erwarten.", "wahr": true },
+            { "text": "Laut Folie hat das Management keinen Einfluss auf den Widerstand.", "wahr": false, "korrektur": "Die Folie sagt: Management beeinflusst Widerstand durch Art des Change-Managements." },
+            { "text": "Widerstand hat laut Folie einen Wert, den man erkennen und nutzen soll.", "wahr": true },
+            { "text": "Zu den Maßnahmen gehört der Abgleich mit Jahres-Zielgesprächen.", "wahr": true },
+            { "text": "Das Ziel der Folie ist die Maximierung der Fluktuation.", "wahr": false, "korrektur": "Das Ziel ist die Minimierung des Dips und unerwünschter Fluktuation." }
+          ],
+          "erklaerung": "Die Folie behandelt Widerstand nicht als Störung, die man wegdrückt, sondern als erwartbares Phänomen mit einem nutzbaren Kern.",
+          "beleg": "2.) Management beeinflusst Widerstand durch Art des Change-Managements", "belegQuelle": "folie-51",
+          "kurz": "Normal, beeinflussbar, wertvoll. Ziel: Dip und Fluktuation minimieren." },
+
+        { "id": "m6-t6-a07", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "widerstand-grundsaetze", "karte": "m6-t6-k3", "folien": [79], "bank": true,
+          "frage": "Vervollständige den roten Kasten unten rechts auf Folie 79.",
+          "text": "1.) Widerstand im Change ist {_normal und zu erwarten_}\n2.) {_Management_} beeinflusst Widerstand durch Art des Change-Managements\n3.) Den {_Wert_} von Widerstand erkennen und nutzen\nZiel: Minimierung des „Dips“ und unerwünschter {_Fluktuation_}",
+          "zusatzBank": ["Resilienz", "Empowerment"],
+          "erklaerung": "Vier Zeilen: drei Grundsätze und das Ziel.",
+          "beleg": "3.) Den Wert von Widerstand erkennen und nutzen", "belegQuelle": "folie-51",
+          "kurz": "Normal und zu erwarten, Management beeinflusst, Wert erkennen und nutzen, Dip und Fluktuation minimieren." },
+
+        { "id": "m6-t6-a08", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "widerstand-massnahmen", "karte": "m6-t6-k2", "folien": [79],
+          "szenario": "Übungsfall: Deine Abteilung soll ein neues Beratungskonzept übernehmen. In der ersten Woche kursieren Gerüchte, zwei Kolleginnen sagen offen, sie machten das nicht mit, ein Kollege fürchtet, den neuen Anforderungen nicht gewachsen zu sein.",
+          "frage": "Wie gehst du nach Folie 79 mit diesem Widerstand um? Nenne die Grundsätze und passende Maßnahmen.",
+          "musterloesung": "Zuerst die Haltung: Widerstand im Change ist normal und zu erwarten, das Management beeinflusst ihn durch die Art des Change-Managements, und der Wert des Widerstands soll erkannt und genutzt werden. Ziel ist die Minimierung des Dips und unerwünschter Fluktuation. Konkret nennt die Folie als Maßnahmen: breitflächige, zügige Kommunikation; Empathie, Perspektivenwechsel und Achtsamkeit bestimmen die Kommunikation; detaillierte Information, sobald verfügbar, konkret und adressatenspezifisch; Abgleich mit Jahres-Zielgesprächen führen; ggf. gemeinsam Qualifizierungen und Coachings identifizieren und umsetzen; Empathie und Empowerment anwenden; Dringlichkeit aufzeigen und Alt/Neu honorieren; geduldig zuhören und Gründe erkennen mit der Frage, ob es bessere Ideen gibt. Die Folie ordnet die einzelnen Maßnahmen keiner bestimmten Ursache zu.",
+          "checkliste": [
+            "Widerstand als normal und erwartbar behandeln, nicht als Störung",
+            "Kommunikation: breitflächig und zügig, mit Empathie, Perspektivenwechsel, Achtsamkeit",
+            "Information: detailliert, sobald verfügbar, konkret und adressatenspezifisch",
+            "Befähigung: Qualifizierungen und Coachings gemeinsam identifizieren, Empowerment",
+            "Zuhören, Gründe erkennen, nach besseren Ideen fragen; Alt und Neu honorieren"
+          ],
+          "erklaerung": "Alle genannten Maßnahmen stehen wörtlich auf der Folie. Wichtig ist, sie nicht einzelnen Ursachen zuzuordnen: Das tut die Folie selbst nicht.",
+          "beleg": "Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation", "belegQuelle": "folie-51",
+          "kurz": "Kommunizieren, informieren, befähigen, zuhören. Grundsätze zuerst nennen." },
+
+        { "id": "m6-t6-a09", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "widerstand-grundsaetze", "karte": "m6-t6-k3", "folien": [79],
+          "vorne": "Welche drei Grundsätze und welches Ziel nennt der rote Kasten auf Folie 79?",
+          "hinten": "1.) Widerstand im Change ist normal und zu erwarten\n2.) Management beeinflusst Widerstand durch Art des Change-Managements\n3.) Den Wert von Widerstand erkennen und nutzen\n\n**Ziel:** Minimierung des „Dips“ und unerwünschter Fluktuation",
+          "erklaerung": "Vier rote Zeilen in einem hellgrün hinterlegten Kasten mit rotbraunem Rand.",
+          "beleg": "1.) Widerstand im Change ist normal und zu erwarten", "belegQuelle": "folie-51",
+          "kurz": "Drei Grundsätze plus Ziel: Dip und unerwünschte Fluktuation minimieren." },
+
+        { "id": "m6-t6-a10", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "argumente-gegen-massnahmen", "karte": "m6-t6-k2", "folien": [79],
+          "frage": "Folie 79 stellt die **Argumente der Betroffenen** und die **Maßnahmen** nebeneinander. In welche Spalte gehört die Zeile?",
+          "kategorien": ["Argument der Betroffenen", "Maßnahme"],
+          "elemente": [
+            { "text": "Habe keine Hintergründe über Ziele/Nutzen!", "kategorie": 0 },
+            { "text": "Neue Anforderungen größer als meine skills!", "kategorie": 0 },
+            { "text": "Bin stolz wie gut alles bei mir läuft!", "kategorie": 0 },
+            { "text": "Neues kollidiert mit meinen Werten.", "kategorie": 0 },
+            { "text": "breitflächige, zügige Kommunikation", "kategorie": 1 },
+            { "text": "Abgleich mit Jahres-Zielgesprächen führen", "kategorie": 1 },
+            { "text": "Dringlichkeit aufzeigen, Alt/Neu honorieren", "kategorie": 1 },
+            { "text": "geduldig zuhören und Gründe erkennen -> gibt es bessere Ideen?", "kategorie": 1 }
+          ],
+          "erklaerung": "Die Argumente stehen in der mittleren Spalte und sprechen in der Ich-Form. Die Maßnahmen stehen rechts und sagen, was das Management tut. Achte auf „Dringlichkeit aufzeigen, Alt/Neu honorieren“: Das ist eine Maßnahme der Folie 79, nicht Kotters Schritt „Dringlichkeit erzeugen“ von Folie 78.",
+          "beleg": "Habe keine Hintergründe über Ziele/Nutzen! … Dringlichkeit aufzeigen, Alt/Neu honorieren", "belegQuelle": "folie-51",
+          "kurz": "Argumente sprechen in der Ich-Form, Maßnahmen sagen, was das Management tut." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Maßnahmen (Folie 79):** breitflächige, zügige Kommunikation; Empathie, Perspektivenwechsel, Achtsamkeit; detaillierte, adressatenspezifische Information; Abgleich mit Jahres-Zielgesprächen; Qualifizierungen und Coachings; Empathie und Empowerment; Dringlichkeit aufzeigen, Alt/Neu honorieren; geduldig zuhören und Gründe erkennen.",
+          "**Drei Grundsätze:** 1.) Widerstand ist normal und zu erwarten. 2.) Management beeinflusst Widerstand durch Art des Change-Managements. 3.) Den Wert von Widerstand erkennen und nutzen. **Ziel:** Minimierung des „Dips“ und unerwünschter Fluktuation."
+        ],
+        "ausfuehrlich": [
+          "**Argumente der Betroffenen.** Habe keine Hintergründe über Ziele/Nutzen! Was heisst das für mich persönlich? Neuer Chef? Neue Aufgaben? Neues Team? Welche neuen Incentives, Belohnungs- und Sanktionsmechanismen greifen? Neue Anforderungen größer als meine skills! Mir fehlen jegliche Qualifikationen: fachlich, methodisch, individuell! Das schaffe ich nie! - danach, nach einer Leerzeile: Bin stolz wie gut alles bei mir läuft! Neues kollidiert mit meinen Werten. Bin gegen Veränderungen, will geordnete Verhältnisse und Kontinuität!",
+          "**Maßnahmen.** breitflächige, zügige Kommunikation. Empathie, Perspektivenwechsel, Achtsamkeit bestimmen die Kommunikation. detaillierte Information, sobald verfügbar, konkret und adressatenspezifisch. Abgleich mit Jahres-Zielgesprächen führen. ggf. gemeinsam Qualifizierungen und Coachings identifizieren und umsetzen. Empathie, Empowerment anwenden. - nach der Leerzeile: Empathie, Perspektivenwechsel, Resilienz, / Dringlichkeit aufzeigen, Alt/Neu honorieren / geduldig zuhören und Gründe erkennen -> gibt es bessere Ideen?",
+          "**Roter Kasten.** 1.) Widerstand im Change ist normal und zu erwarten. 2.) Management beeinflusst Widerstand durch Art des Change-Managements. 3.) Den Wert von Widerstand erkennen und nutzen. Ziel: Minimierung des „Dips“ und unerwünschter Fluktuation.",
+          "**Nicht zuordnen, was die Folie nicht zuordnet:** Welche Argumente und welche Maßnahmen zu welcher Ursache gehören, legt die Folie nicht fest. Den Begriff „Dips“ erklärt sie nicht."
+        ],
+        "merkhilfe": "Die drei Grundsätze als Steigerung lesen: erwarten, beeinflussen, nutzen."
+      }
+    }
+  ]
+}

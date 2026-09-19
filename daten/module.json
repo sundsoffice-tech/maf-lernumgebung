@@ -1,0 +1,17 @@
+{
+  "kurs": {
+    "titel": "Mitarbeiterführung (MAF)",
+    "untertitel": "Repetitorium Vorlesungen I–VI",
+    "rahmen": "DHBW Mannheim, BWL-Bank, 6. Semester, SS 2026, Michael Beckmann",
+    "zeitbudgetMin": 600,
+    "probeMin": 40
+  },
+  "module": [
+    { "id": "m1", "dateien": ["m1a.json", "m1b.json"], "titel": "Grundlagen der Führung", "vorlesung": "MAF I", "folien": [30, 42], "zeitMin": 100, "kurz": "Hauptaufgabe von Führung, Menschenbilder, Wertewandel, Entwicklungsphasen von Unternehmen, Führungsbeziehungen und Führungsstile." },
+    { "id": "m2", "dateien": ["m2a.json", "m2b.json"], "titel": "Motivation und Engagement", "vorlesung": "MAF II", "folien": [43, 53], "zeitMin": 100, "kurz": "Quellen der Motivation, intrinsisch und extrinsisch, Dan Pink, Maslow, Herzberg, Determinanten des Verhaltens, Feedback, Bürokratie." },
+    { "id": "m3", "dateien": ["m3a.json", "m3b.json"], "titel": "Führung in Gruppen & Teams", "vorlesung": "MAF III", "folien": [54, 61], "zeitMin": 75, "kurz": "Gruppenbildung, Tuckmans Phasen, Strukturen und Normen, Prozessgewinne und -verluste, Gruppendynamik und ihr Umgang." },
+    { "id": "m4", "dateien": ["m4a.json", "m4b.json"], "titel": "Kommunikation & Moderation in der Führung", "vorlesung": "MAF IV", "folien": [62, 68], "zeitMin": 70, "kurz": "Interne Kommunikation, Bring- und Holschuld, Loben, Kommunikationsstörungen und ihre Behebung, Zielvereinbarungsgespräch, SMART." },
+    { "id": "m5", "dateien": ["m5a.json", "m5b.json"], "titel": "Personalauswahl, -beurteilung und -entwicklung", "vorlesung": "MAF V", "folien": [69, 75], "zeitMin": 90, "kurz": "Richtig fragen, STAR-Technik, Beurteilungsgespräch, Theorien hinter Fehleinschätzungen, Beobachtungs- und Beurteilungsfehler. Im Skript als Lernstoff markiert." },
+    { "id": "m6", "dateien": ["m6a.json"], "titel": "Change-Management & Zukunft der Führung", "vorlesung": "MAF VI", "folien": [76, 84], "zeitMin": 105, "kurz": "Problemtypen, Lewin und Kotter, Change-Kurve, Widerstand, Kongruenzmodell, Fallen und Risiken, Fix the system, not the people!, Day 1 Mindset." }
+  ]
+}

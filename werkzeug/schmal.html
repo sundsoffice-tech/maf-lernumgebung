@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <title>Schmale Vorschau (Bauwerkzeug)</title>
+  <style>
+    /* Headless-Chrome unter Windows kann kein Fenster schmaler als rund 500 px. Deshalb ein Rahmen mit fester
+       Handybreite: ?u=<relative oder absolute URL>&b=390&h=844 */
+    html, body { margin: 0; background: #777; }
+    iframe { display: block; border: 0; background: #fff; }
+  </style>
+</head>
+<body>
+  <script>
+    const p = new URLSearchParams(location.search)
+    const f = document.createElement('iframe')
+    f.width = p.get('b') || '390'
+    f.height = p.get('h') || '844'
+    f.src = p.get('u') || '../index.html'
+    document.body.appendChild(f)
+  </script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+/* Lernzettel (#/lernzettel): Bildschirm und Druck.
+   Der Bildschirm zeigt eine Werkzeugleiste über einem Dokument, das schon aussieht wie das spätere Blatt.
+   Der Druckteil weiter unten macht daraus A4 hoch: helle Farben, Rahmen statt Flächen, kurze Blöcke
+   zweispaltig, Themen bleiben auf einer Seite. Nur Tokens, keine eigenen Farben und Maße. */
+
+/* ---------- Werkzeugleiste (steht nie auf dem Papier) ---------- */
+.lz-werkzeuge {
+  border: 1px solid var(--linie); border-radius: var(--radius-m);
+  background: var(--flaeche); padding: var(--a-3) var(--a-4);
+  margin-bottom: var(--a-5);
+}
+.lz-werkzeuge__zeile { display: flex; flex-wrap: wrap; gap: var(--a-3); align-items: center; }
+.lz-modi { display: flex; flex-wrap: wrap; gap: var(--a-2); }
+.lz-modi .knopf[aria-pressed="true"],
+.lz-modi .knopf[aria-pressed="true"]:hover {
+  background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer);
+}
+.lz-werkzeuge__satz { margin: var(--a-3) 0 0; }
+.lz-werkzeuge__pdf { margin: var(--a-3) 0 0; }
+.lz-werkzeuge__pdf a { display: inline-flex; align-items: center; gap: var(--a-2); min-height: 2.75rem; }
+.lz-werkzeuge__pdf svg { width: 1.15em; height: 1.15em; flex: none; }
+.lz-anleitung { margin-top: var(--a-3); }
+.lz-anleitung h4 { margin-bottom: var(--a-1); }
+.lz-anleitung p { margin: 0; color: var(--tinte-2); }
+
+/* ---------- Das Dokument ---------- */
+.lz-dokument { max-width: var(--breite-text); }
+.lz-kopf { margin-bottom: var(--a-5); padding-bottom: var(--a-3); border-bottom: 2px solid var(--linie-stark); }
+.lz-kopf h1 { margin-bottom: var(--a-2); }
+.lz-kopf__zeilen {
+  display: flex; flex-wrap: wrap; gap: var(--a-1) var(--a-2);
+  margin: var(--a-2) 0 0; color: var(--tinte-2); font-size: var(--gr-s);
+}
+/* Trenner hängt am vorangehenden Wort, damit beim Umbruch kein Punkt allein in die neue Zeile rutscht */
+.lz-kopf__zeilen span:not(:last-child)::after { content: " ·"; color: var(--tinte-3); }
+.lz-kopf__legende { margin: var(--a-2) 0 0; color: var(--tinte-2); font-size: var(--gr-s); }
+
+.lz-abschnitt { margin-bottom: var(--a-6); }
+.lz-abschnitt h2 { font-size: var(--gr-xl); margin-bottom: var(--a-3); }
+
+/* Darauf zuerst schauen */
+.lz-zuerst__satz { margin: 0 0 var(--a-3); }
+.lz-zuerst__liste { margin: 0; padding-left: 1.4rem; }
+.lz-zuerst__liste li { margin-bottom: var(--a-2); }
+.lz-zuerst__titel { display: block; font-weight: 650; text-decoration: none; color: var(--tinte); }
+.lz-zuerst__titel:hover { color: var(--primaer); }
+.lz-zuerst__neben { display: block; font-size: var(--gr-s); color: var(--tinte-3); }
+
+/* Modul und Thema */
+.lz-modul { margin-bottom: var(--a-6); }
+.lz-modul__titel {
+  font-size: var(--gr-xl); margin-bottom: var(--a-3);
+  padding-bottom: var(--a-1); border-bottom: 1px solid var(--linie);
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--a-1) var(--a-3);
+}
+.lz-modul__vorlesung {
+  font-family: var(--schrift-text); font-size: var(--gr-xs); font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinte-3);
+}
+
+.lz-thema { margin-bottom: var(--a-5); }
+.lz-thema__kopf {
+  display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+  gap: var(--a-1) var(--a-3); margin-bottom: var(--a-2);
+}
+.lz-thema__titel { font-size: var(--gr-l); margin: 0; flex: 1 1 12rem; min-width: 0; }
+.lz-thema__rand { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a-1) var(--a-2); }
+.lz-folie { font-size: var(--gr-xs); color: var(--tinte-3); white-space: nowrap; }
+
+.lz-zeile { margin-bottom: var(--a-2); }
+.lz-zeile > :last-child { margin-bottom: 0; }
+.lz-zeile ul { margin-bottom: 0; }
+
+.lz-marke {
+  display: inline; margin-right: 0.4em;
+  font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--gut);
+}
+.lz-merkhilfe {
+  margin: var(--a-2) 0 0; padding-left: var(--a-3);
+  border-left: 3px solid var(--gut); color: var(--tinte-2); font-size: var(--gr-s);
+}
+
+/* Deine Stolperstellen */
+.lz-stolper { margin-top: var(--a-3); padding-left: var(--a-3); border-left: 3px solid var(--linie-stark); }
+.lz-stolper__titel { font-size: var(--gr-s); margin-bottom: var(--a-2); color: var(--tinte-2); }
+.lz-stolper__liste { list-style: none; margin: 0; padding: 0; }
+.lz-stolper__eintrag { margin-bottom: var(--a-2); font-size: var(--gr-s); line-height: 1.5; }
+.lz-stolper__eintrag:last-child { margin-bottom: 0; }
+.lz-stolper__marke {
+  display: inline-block; margin-right: 0.45em;
+  font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
+  color: var(--tinte-3);
+}
+.lz-stolper__eintrag.ist-irrtum .lz-stolper__marke { color: var(--schlecht); }
+.lz-stolper__eintrag.ist-irrtum .lz-stolper__text { font-weight: 650; }
+
+/* Aus deiner Mitschrift */
+.lz-mitschrift { margin-top: var(--a-3); padding-left: var(--a-3); border-left: 3px solid var(--mittel); }
+.lz-mitschrift__titel { font-size: var(--gr-s); margin-bottom: var(--a-2); color: var(--mittel); }
+.lz-mitschrift__liste { margin: 0; font-size: var(--gr-s); }
+.lz-mitschrift__liste dt { font-weight: 650; color: var(--tinte-2); }
+.lz-mitschrift__liste dd { margin: 0 0 var(--a-2); }
+.lz-mitschrift__liste dd:last-child { margin-bottom: 0; }
+
+/* Personen auf einen Blick */
+.lz-personen__liste { list-style: none; margin: 0; padding: 0; font-size: var(--gr-s); }
+.lz-personen__liste li { break-inside: avoid; margin-bottom: var(--a-2); }
+.lz-personen__kurz { color: var(--tinte-2); }
+@media (min-width: 30rem) {
+  .lz-personen__liste { column-count: 2; column-gap: var(--a-5); }
+}
+
+.lz-fuss { margin-top: var(--a-6); padding-top: var(--a-3); border-top: 1px solid var(--linie); }
+
+/* ---------- Druck: A4 hoch ---------- */
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+  /* Chrome setzt Seitenzahlen über seine eigene Fußzeile, nicht über diese Randfelder. Sie stören dort nicht. */
+  @bottom-right { content: counter(page); font-family: sans-serif; font-size: 8pt; color: #6b7484; }
+}
+
+@media print {
+  /* Der Druck ist immer hell, auch wenn die App dunkel läuft: helle Tokenwerte erzwingen. */
+  :root, :root[data-thema="dunkel"], :root:not([data-thema="hell"]) {
+    color-scheme: light;
+    --papier: #ffffff;
+    --flaeche: #ffffff;
+    --flaeche-2: #ffffff;
+    --flaeche-3: #eeeae1;
+    --linie: #c9c3b4;
+    --linie-stark: #8e8878;
+    --tinte: #000000;
+    --tinte-2: #333b46;
+    --tinte-3: #5b6472;
+    --primaer: #1f3a5f;
+    --primaer-hover: #1f3a5f;
+    --primaer-sanft: #ffffff;
+    --kern: #7a1f2b;
+    --kern-sanft: #f6e9ea;
+    --gut: #1e5236;
+    --gut-sanft: #ffffff;
+    --mittel: #6f4800;
+    --mittel-sanft: #ffffff;
+    --schlecht: #8f1f16;
+    --schlecht-sanft: #ffffff;
+    --extern: #3f356a;
+    --schatten-1: none;
+    --schatten-2: none;
+  }
+
+  html, body { background: #ffffff; }
+  body {
+    padding-bottom: 0;
+    font-size: 9.7pt; line-height: 1.38;
+    color: var(--tinte);
+  }
+
+  /* Rahmenwerk der App und alles, was nur zum Bedienen da ist */
+  .kopf, .hauptnav, .fussnav, .sprunglink, .kurzmeldung,
+  .schublade, .schublade-hintergrund,
+  .lz-werkzeuge, .lz-nur-bildschirm { display: none !important; }
+
+  .seite, .seite--schmal { max-width: none; margin: 0; padding: 0; }
+  .lz-dokument { max-width: none; }
+
+  a { color: inherit; text-decoration: none; }
+
+  /* Kernaussagen des Skripts bleiben erkennbar: der einzige Fall, für den Flächen gedruckt werden. */
+  .lz-dokument mark {
+    background: var(--kern-sanft); color: var(--kern);
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+
+  /* Marken werden im Druck zu Rahmen, nicht zu Flächen */
+  .marke-chip, .marke-chip--lernstoff {
+    background: transparent; color: var(--tinte-2);
+    border: 0.5pt solid var(--linie-stark);
+    font-size: 7pt; padding: 0 0.4em;
+  }
+
+  .lz-kopf { margin-bottom: 6mm; padding-bottom: 2mm; border-bottom: 1pt solid var(--tinte-3); }
+  .lz-kopf h1 { font-size: 16pt; margin-bottom: 1mm; }
+  .lz-kopf__zeilen, .lz-kopf__legende { font-size: 8.5pt; margin-top: 1mm; }
+
+  .lz-abschnitt { margin-bottom: 6mm; }
+  .lz-abschnitt h2, .lz-modul__titel { font-size: 12.5pt; margin-bottom: 2mm; break-after: avoid; }
+  .lz-modul { margin-bottom: 6mm; }
+  .lz-modul__titel { padding-bottom: 1mm; border-bottom: 0.75pt solid var(--tinte-3); }
+
+  .lz-zuerst__liste li { margin-bottom: 1.2mm; break-inside: avoid; }
+  .lz-zuerst__neben { font-size: 8.2pt; }
+
+  /* Kurze Blöcke stehen zweispaltig, ausführliche über die volle Breite.
+     Raster statt Spalten (column-count): ein Spaltenkasten zieht sich im Druck über die ganze
+     restliche Seite und lässt sie halb leer; gemessen am 20.09.2026 an der vollen Probe. */
+  .lz-kompaktgruppe { display: grid; grid-template-columns: 1fr 1fr; gap: 0 7mm; align-items: start; }
+  /* Steht ein kurzes Thema allein zwischen zwei ausführlichen, bekommt es die volle Breite statt einer
+     leeren zweiten Spalte. Ohne :has bleibt das Raster, was nur etwas Platz kostet. */
+  .lz-kompaktgruppe:has(> .lz-thema:only-child) { display: block; }
+  .lz-kompaktgruppe .lz-thema { margin-bottom: 3.5mm; }
+
+  .lz-thema { break-inside: avoid; margin-bottom: 4.5mm; }
+  .lz-thema__titel { font-size: 10.5pt; }
+  .lz-folie { font-size: 7.5pt; }
+  .lz-zeile { margin-bottom: 1.2mm; }
+  .lz-zeile ul { padding-left: 1rem; }
+  .lz-zeile li { margin-bottom: 0.4mm; }
+
+  .lz-merkhilfe, .lz-stolper, .lz-mitschrift { font-size: 8.8pt; break-inside: avoid; }
+  .lz-merkhilfe { border-left-width: 1.5pt; padding-left: 2mm; margin-top: 1.2mm; }
+  .lz-stolper, .lz-mitschrift { border-left-width: 1.5pt; padding-left: 2mm; margin-top: 1.8mm; }
+  .lz-stolper__titel, .lz-mitschrift__titel { font-size: 8.2pt; margin-bottom: 0.8mm; }
+  .lz-stolper__eintrag { margin-bottom: 0.8mm; font-size: 8.8pt; }
+
+  .lz-personen__liste { column-count: 2; column-gap: 7mm; font-size: 8.8pt; }
+  .lz-personen__liste li { margin-bottom: 1mm; }
+
+  .lz-fuss { margin-top: 5mm; padding-top: 1.5mm; border-top: 0.5pt solid var(--linie-stark); font-size: 8pt; }
+}

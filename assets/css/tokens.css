@@ -1,0 +1,162 @@
+/* Design-Tokens. Neutral-akademisch: warmes Papier, Tinte, ein ruhiges Blau.
+   Bordeaux markiert Kernaussagen des Skripts (dort rot hervorgehoben). Rot bleibt dem Fehler vorbehalten. */
+:root {
+  color-scheme: light;
+
+  --papier: #f8f6f1;
+  --flaeche: #ffffff;
+  --flaeche-2: #f1eee7;
+  --flaeche-3: #e8e4da;
+  --linie: #d9d4c7;
+  --linie-stark: #b9b2a1;
+
+  --tinte: #1b2430;
+  --tinte-2: #465060;
+  --tinte-3: #6b7484;
+
+  --primaer: #1f3a5f;
+  --primaer-hover: #172c49;
+  --primaer-sanft: #e4ebf4;
+  --auf-primaer: #ffffff;
+
+  --kern: #7a1f2b;
+  --kern-sanft: #f6e9ea;
+
+  --gut: #23613f;
+  --gut-sanft: #e3f1e8;
+  --mittel: #8a5a00;
+  --mittel-sanft: #fbf0d6;
+  --schlecht: #a8261b;
+  --schlecht-sanft: #fbe7e4;
+  --extern: #4a3f7a;
+  --extern-sanft: #ece9f6;
+
+  --fokus: #2f6fcf;
+  --schatten-1: 0 1px 2px rgba(27, 36, 48, 0.06), 0 1px 1px rgba(27, 36, 48, 0.04);
+  --schatten-2: 0 6px 20px rgba(27, 36, 48, 0.10), 0 2px 6px rgba(27, 36, 48, 0.06);
+
+  /* Diagrammfarben */
+  --d-flaeche: #e4ebf4;
+  --d-flaeche-2: #cfdbea;
+  --d-flaeche-3: #b5c7de;
+  --d-linie: #1f3a5f;
+  --d-text: #1b2430;
+  --d-text-invers: #ffffff;
+  --d-dunkel: #1f3a5f;
+  --d-akzent: #7a1f2b;
+  --d-gut: #23613f;
+  --d-mittel: #8a5a00;
+
+  --schrift-text: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --schrift-titel: "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua", "Noto Serif", Georgia, serif;
+  --schrift-mono: ui-monospace, "Cascadia Mono", Consolas, Menlo, monospace;
+
+  --gr-xs: 0.78rem;
+  --gr-s: 0.875rem;
+  --gr-m: 1rem;
+  --gr-l: 1.125rem;
+  --gr-xl: 1.35rem;
+  --gr-2xl: 1.7rem;
+  --gr-3xl: 2.15rem;
+
+  --a-1: 0.25rem;
+  --a-2: 0.5rem;
+  --a-3: 0.75rem;
+  --a-4: 1rem;
+  --a-5: 1.5rem;
+  --a-6: 2rem;
+  --a-7: 3rem;
+
+  --radius-s: 6px;
+  --radius-m: 10px;
+  --radius-l: 16px;
+  --radius-voll: 999px;
+
+  --breite-text: 46rem;
+  --breite-seite: 72rem;
+  --kopf-hoehe: 3.5rem;
+  --fuss-hoehe: 3.75rem;
+}
+
+/* Dunkel: automatisch nach System, ausser der Nutzer hat Hell erzwungen */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-thema="hell"]) {
+    color-scheme: dark;
+    --papier: #11151b;
+    --flaeche: #191f28;
+    --flaeche-2: #212936;
+    --flaeche-3: #2a3342;
+    --linie: #303a4a;
+    --linie-stark: #4a566a;
+    --tinte: #ece9e2;
+    --tinte-2: #b9c0cc;
+    --tinte-3: #8b94a3;
+    --primaer: #9cbde8;
+    --primaer-hover: #b6cff0;
+    --primaer-sanft: #1f2c40;
+    --auf-primaer: #0f1722;
+    --kern: #eaa3ad;
+    --kern-sanft: #33202a;
+    --gut: #86cfa6;
+    --gut-sanft: #17301f;
+    --mittel: #e8bd6a;
+    --mittel-sanft: #33290f;
+    --schlecht: #f09a90;
+    --schlecht-sanft: #3a1c19;
+    --extern: #b9adf0;
+    --extern-sanft: #262040;
+    --fokus: #8ab4ff;
+    --schatten-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+    --schatten-2: 0 8px 24px rgba(0, 0, 0, 0.5);
+    --d-flaeche: #223046;
+    --d-flaeche-2: #2c3e5a;
+    --d-flaeche-3: #3a5176;
+    --d-linie: #9cbde8;
+    --d-text: #ece9e2;
+    --d-text-invers: #0f1722;
+    --d-dunkel: #9cbde8;
+    --d-akzent: #eaa3ad;
+    --d-gut: #86cfa6;
+    --d-mittel: #e8bd6a;
+  }
+}
+
+:root[data-thema="dunkel"] {
+  color-scheme: dark;
+  --papier: #11151b;
+  --flaeche: #191f28;
+  --flaeche-2: #212936;
+  --flaeche-3: #2a3342;
+  --linie: #303a4a;
+  --linie-stark: #4a566a;
+  --tinte: #ece9e2;
+  --tinte-2: #b9c0cc;
+  --tinte-3: #8b94a3;
+  --primaer: #9cbde8;
+  --primaer-hover: #b6cff0;
+  --primaer-sanft: #1f2c40;
+  --auf-primaer: #0f1722;
+  --kern: #eaa3ad;
+  --kern-sanft: #33202a;
+  --gut: #86cfa6;
+  --gut-sanft: #17301f;
+  --mittel: #e8bd6a;
+  --mittel-sanft: #33290f;
+  --schlecht: #f09a90;
+  --schlecht-sanft: #3a1c19;
+  --extern: #b9adf0;
+  --extern-sanft: #262040;
+  --fokus: #8ab4ff;
+  --schatten-1: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --schatten-2: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --d-flaeche: #223046;
+  --d-flaeche-2: #2c3e5a;
+  --d-flaeche-3: #3a5176;
+  --d-linie: #9cbde8;
+  --d-text: #ece9e2;
+  --d-text-invers: #0f1722;
+  --d-dunkel: #9cbde8;
+  --d-akzent: #eaa3ad;
+  --d-gut: #86cfa6;
+  --d-mittel: #e8bd6a;
+}

@@ -1,0 +1,194 @@
+{
+  "personen": [
+    {
+      "name": "Aristoteles",
+      "kurz": "„modes of persuasion\"",
+      "beitrag": "Steht im Skript für die „modes of persuasion\": andere überzeugen, mir zu folgen, durch ETHOS, PATHOS, LOGOS. Die Folie setzt das mit „-> Rhetorik!\" gleich. Was die drei Begriffe bedeuten, erklärt das Skript nicht.",
+      "folien": [36],
+      "themen": ["m1-t11"],
+      "quelle": "skript",
+      "beleg": "Aristoteles — steht für die „modes of persuasion\": Andere überzeugen, mir zu folgen, durch ETHOS, PATHOS, LOGOS",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "name": "Michael Beckmann",
+      "kurz": "Dozent und Urheber des Skripts",
+      "beitrag": "Urheber des Skripts laut Fußzeile jeder Folie: „DHBW, BWL-Bank, MAF I, SS 2026 © Michael Beckmann\".",
+      "folien": [36, 37, 38, 40, 41, 42],
+      "themen": ["m1-t11", "m1-t12", "m1-t13", "m1-t15", "m1-t16", "m1-t17"],
+      "quelle": "skript",
+      "beleg": "Michael Beckmann — Urheber laut Fußzeile „DHBW, BWL-Bank, MAF I, SS 2026 © Michael Beckmann\"",
+      "belegQuelle": "folie-08"
+    },
+    {
+      "name": "Kurt Lewin",
+      "kurz": "Untersuchung autoritär gegen demokratisch, 1938-40",
+      "beitrag": "Untersuchungen zu Auswirkungen autoritärer und demokratischer Führung auf Kinder, 1938-40 unter Laborbedingungen an Iowa University Elementary School. Ergebnis: Überlegenheit und Präferenz demokratisch geführter Gruppe. In der Übersicht Führungsstile steht „Lewin et al.\" für die Stile autoritär, demokratisch, laissez-faire; die Merkmalsübersicht der Folie 41 beruht auf „Lewin's Erkenntnissen\" (Lewin, Lippit, White, 1939).",
+      "folien": [39, 40, 41],
+      "themen": ["m1-t14", "m1-t15", "m1-t16"],
+      "beleg": "Kurt Lewin — steht für die „Untersuchungen zu Auswirkungen autoritärer und demokratischer Führung auf Kinder\", 1938-40 unter Laborbedingungen an Iowa University Elementary School",
+      "belegQuelle": "folie-12",
+      "quelle": "skript"
+    },
+    {
+      "name": "Lippit",
+      "kurz": "Mitautor Lewin, Lippit, White, 1939",
+      "beitrag": "Mitautor der Quelle „Lewin, Lippit, White, 1939\", auf deren Erkenntnissen die Merkmale der drei grundlegenden Führungsstile beruhen.",
+      "folien": [41],
+      "themen": ["m1-t16"],
+      "quelle": "skript",
+      "beleg": "Lippit — Mitautor der Quelle … Lewin, Lippit, White, 1939",
+      "belegQuelle": "folie-13"
+    },
+    {
+      "name": "White",
+      "kurz": "Mitautor Lewin, Lippit, White, 1939",
+      "beitrag": "Mitautor der Quelle „Lewin, Lippit, White, 1939\", auf deren Erkenntnissen die Merkmale der drei grundlegenden Führungsstile beruhen.",
+      "folien": [41],
+      "themen": ["m1-t16"],
+      "quelle": "skript",
+      "beleg": "White — Mitautor der Quelle … Lewin, Lippit, White, 1939",
+      "belegQuelle": "folie-13"
+    },
+    {
+      "name": "Felfe",
+      "kurz": "Quelle der Merkmalsübersicht, 2009",
+      "beitrag": "Quelle der Übersicht „Merkmale 3 grundlegender Führungsstile\" (Verhalten, Leitlinien, Werte, Leistung für autoritär, laissez-faire, demokratisch): Felfe, 2009.",
+      "folien": [41],
+      "themen": ["m1-t16"],
+      "quelle": "skript",
+      "beleg": "Felfe — Quelle der Merkmalsübersicht: „* Felfe, 2009\"",
+      "belegQuelle": "folie-13"
+    },
+    {
+      "name": "Wunderer",
+      "kurz": "Definition Führungsstil und eigene Typologie",
+      "beitrag": "Quelle der Definition Führungsstil (Wunderer, 2009) und Quelle der Übersicht Führungsstile (nach Wunderer, 2009, S. 208). Zugleich eigene Typologie: Dimensionen Entscheidungspartizipation (Teilhabe) und wechselseitige Kooperation (Teilnahme), Stile autoritär, patriarchalisch, konsultativ, kooperativ, delegativ, teil-autonom.",
+      "folien": [39, 40],
+      "themen": ["m1-t14", "m1-t15"],
+      "quelle": "skript",
+      "beleg": "Wunderer — Quelle der Definition Führungsstil: „* Wunderer, 2009\"",
+      "belegQuelle": "folie-12"
+    },
+    {
+      "name": "Likertz",
+      "kurz": "Michigan-Studien",
+      "beitrag": "Steht mit Katz und Kahn für die Michigan-Studien: Dimension Aufgabenorientierung vs. Mitarbeiterorientierung, Stile aufgabenorientiert („production centered\") und mitarbeiterorientiert („employee centered\"). Die Folie schreibt „Likertz\".",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Likertz/Katz/Kahn — Michigan-Studien, Dimension Aufgabenorientierung vs. Mitarbeiterorientierung",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Katz",
+      "kurz": "Michigan-Studien",
+      "beitrag": "Steht mit Likertz und Kahn für die Michigan-Studien: Dimension Aufgabenorientierung vs. Mitarbeiterorientierung, Stile aufgabenorientiert („production centered\") und mitarbeiterorientiert („employee centered\").",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Likertz/Katz/Kahn — Michigan-Studien, Dimension Aufgabenorientierung vs. Mitarbeiterorientierung",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Kahn",
+      "kurz": "Michigan-Studien",
+      "beitrag": "Steht mit Likertz und Katz für die Michigan-Studien: Dimension Aufgabenorientierung vs. Mitarbeiterorientierung, Stile aufgabenorientiert („production centered\") und mitarbeiterorientiert („employee centered\").",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Likertz/Katz/Kahn — Michigan-Studien, Dimension Aufgabenorientierung vs. Mitarbeiterorientierung",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Tannenbaum",
+      "kurz": "Typologie nach Entscheidungspartizipation",
+      "beitrag": "Steht mit Schmidt für die Typologie nach der Dimension Entscheidungspartizipation, mit den Stilen autoritär, patriarchalisch, informierend, beratend, kooperativ, delegativ, autonom.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Tannenbaum/Schmidt — Dimension Entscheidungspartizipation, Stile autoritär, patriarchalisch, informierend, beratend, kooperativ, delegativ, autonom",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Schmidt",
+      "kurz": "Typologie nach Entscheidungspartizipation",
+      "beitrag": "Steht mit Tannenbaum für die Typologie nach der Dimension Entscheidungspartizipation, mit den Stilen autoritär, patriarchalisch, informierend, beratend, kooperativ, delegativ, autonom.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Tannenbaum/Schmidt — Dimension Entscheidungspartizipation, Stile autoritär, patriarchalisch, informierend, beratend, kooperativ, delegativ, autonom",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Fleishman",
+      "kurz": "Ohio-Studien",
+      "beitrag": "Steht mit Hemphill für die Ohio-Studien: Dimensionen Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung), Stile aufgabenorientiert und mitarbeiterorientiert.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Fleishman/Hemphill — Ohio-Studien, Dimensionen Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung)",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Hemphill",
+      "kurz": "Ohio-Studien",
+      "beitrag": "Steht mit Fleishman für die Ohio-Studien: Dimensionen Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung), Stile aufgabenorientiert und mitarbeiterorientiert.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Fleishman/Hemphill — Ohio-Studien, Dimensionen Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung)",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Blake",
+      "kurz": "Gitter mit Zahlenpaaren",
+      "beitrag": "Steht mit Mouton für die Typologie aus Aufgabenorientierung und Mitarbeiterorientierung mit fünf benannten Positionen: „laissez-faire pflegen\" (1,1), „über Leichen gehen\" (9,1), ausgeglichene Kombinationen suchen\" (5,5), „exzellente Führung\" (9,9), „geselliges Beisammensein\" (1,9). Die Zahlenpaare erklärt das Skript nicht.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Blake/Mouton — Dimensionen Aufgabenorientierung und Mitarbeiterorientierung, Stile mit Zahlenpaaren (1,1), (9,1), (5,5), (9,9), (1,9)",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Mouton",
+      "kurz": "Gitter mit Zahlenpaaren",
+      "beitrag": "Steht mit Blake für die Typologie aus Aufgabenorientierung und Mitarbeiterorientierung mit fünf benannten Positionen und den Zahlenpaaren (1,1), (9,1), (5,5), (9,9), (1,9).",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Blake/Mouton — Dimensionen Aufgabenorientierung und Mitarbeiterorientierung, Stile mit Zahlenpaaren (1,1), (9,1), (5,5), (9,9), (1,9)",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Hersey",
+      "kurz": "Reifegrad-Typologie",
+      "beitrag": "Steht mit Blanchard für die Typologie aus Aufgabenorientierung, Mitarbeiterorientierung und MA-Reifegrad, mit den Stilen unterweisen („telling\"), delegieren („delegating\"), verkaufen („selling\"), partizipieren („participating\"). Der MA-Reifegrad wird im Skript nur genannt.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Hersey/Blanchard — Dimensionen Aufgabenorientierung, Mitarbeiterorientierung, MA-Reifegrad",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Blanchard",
+      "kurz": "Reifegrad-Typologie",
+      "beitrag": "Steht mit Hersey für die Typologie aus Aufgabenorientierung, Mitarbeiterorientierung und MA-Reifegrad, mit den Stilen unterweisen („telling\"), delegieren („delegating\"), verkaufen („selling\"), partizipieren („participating\").",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Hersey/Blanchard — Dimensionen Aufgabenorientierung, Mitarbeiterorientierung, MA-Reifegrad",
+      "belegQuelle": "folie-11"
+    },
+    {
+      "name": "Bass",
+      "kurz": "transaktional und transformational",
+      "beitrag": "Steht für die Dimensionen ziel-/ergebnisorientiert und werte-/zielverändernd und die Führungsstile transaktional und transformational.",
+      "folien": [39],
+      "themen": ["m1-t14"],
+      "quelle": "skript",
+      "beleg": "Bass — Dimensionen ziel-/ergebnisorientiert und werte-/zielverändernd, Stile transaktional, transformational",
+      "belegQuelle": "folie-11"
+    }
+  ]
+}

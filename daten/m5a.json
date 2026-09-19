@@ -1,0 +1,525 @@
+{
+  "id": "m5",
+  "titel": "Personalauswahl, -beurteilung und -entwicklung",
+  "vorlesung": "MAF V",
+  "themen": [
+    {
+      "id": "m5-t1",
+      "titel": "Richtig Fragen im Auswahlgespräch",
+      "folien": [69],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m5-t1-k1",
+          "titel": "Ziel, untaugliche Fragen und der Weg",
+          "folien": [69],
+          "bloecke": [
+            { "typ": "einfach", "text": "Im Auswahlgespräch willst du zwei Dinge herausfinden: Was kann die Person, und was will sie? Standardfragen bringen dich dahin nicht, denn darauf antworten viele Gesprächspartner mit auswendig Gelerntem. Das Skript dreht die Richtung um: Du fragst nach Verhalten, das die Person wirklich schon gezeigt hat." },
+            { "typ": "merksatz", "folie": 69, "text": "Ziel: Können & Wollen ermitteln" },
+            { "typ": "liste", "titel": "untaugliche (Standard-)Fragen vermeiden, z.B.:", "punkte": ["„Nennen Sie mir ihre Stärken und Schwächen!“", "Szenario-Fragen: „Stellen Sie sich vor...“"] },
+            { "typ": "text", "text": "Grund laut Skript: Gesprächspartner halten z.T. auswendig Gelerntes vor." },
+            { "typ": "merksatz", "folie": 69, "text": "Weg: angewandtes Verhalten erfragen, vertiefen und beurteilen" },
+            { "typ": "hinweis", "text": "Die Folie zeigt rechts oben ein Foto: zwei Personen im Gespräch an einem Café-Tisch. Das Bild trägt keine Beschriftung und keine eigene Fachaussage." }
+          ]
+        },
+        {
+          "id": "m5-t1-k2",
+          "titel": "Die Beispielfragen des Skripts",
+          "folien": [69],
+          "bloecke": [
+            { "typ": "einfach", "text": "Das Skript zeigt eine ganze Fragekette als Beispiel. Sie folgt einem Muster: erst eine echte Situation holen, dann nach dem eigenen Verhalten fragen, dann nach dem Warum, dann nach der Außensicht, zuletzt nach der Lehre daraus." },
+            { "typ": "liste", "titel": "Beispiele (wörtlich)", "geordnet": true, "punkte": [
+              "„In Ihrer beruflichen Praxis haben Sie verschiedene ...Situationen bereits erlebt. Welche Konflikte treten dort typischerweise auf?“",
+              "„Wie haben Sie sich in diesen von Ihnen geschilderten Situationen verhalten?“",
+              "„Warum?“",
+              "„Wie haben andere Sie und Ihre Emotionen in diesen Situationen erlebt?“ „Wie würden Andere Ihr geschildertes Verhalten beschreiben?“",
+              "„Was, glauben Sie, könnten Sie für vergleichbare zukünftige Situationen noch lernen?“"
+            ] },
+            { "typ": "skriptluecke", "id": "m5-t1-l1", "text": "Die erste Beispielfrage lässt eine Stelle offen: „In Ihrer beruflichen Praxis haben Sie verschiedene ...Situationen bereits erlebt.“ Welche Art von Situationen dort einzusetzen ist, steht nicht auf der Folie. Trage ein, was in der Vorlesung genannt wurde.", "felder": [ { "id": "f1", "label": "Welche Situationen wurden genannt?" } ] }
+          ]
+        },
+        {
+          "id": "m5-t1-k3",
+          "titel": "Mittel: 2-Schritt-Technik und STAR-Technik",
+          "folien": [69],
+          "bloecke": [
+            { "typ": "einfach", "text": "Für den Weg nennt das Skript zwei Mittel. Die [[2-Schritt-Technik]] sagt dir, wie du fragst: erst eine Einstiegsfrage, dann vertiefend nachhaken. Die [[STAR-Technik]] nennt vier Stichworte. Mehr sagt das Skript dazu nicht." },
+            { "typ": "definition", "begriff": "2-Schritt-Technik", "text": "1.) Einstiegsfrage platzieren 2.) vertiefendes Hinterfragen unter 1.) erhaltener Informationen" },
+            { "typ": "merksatz", "folie": 69, "text": "STAR-Technik: Situation - Task - Action - Result" },
+            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: Die vier Schritte der STAR-Technik werden auf der Folie nicht erläutert. Alles, was darüber hinaus zu STAR gesagt werden könnte, steht nicht im Skript." },
+            { "typ": "hinweis", "text": "Am Folienende steht ohne weitere Erläuterung: „...und Erfahrungen?...it depends!“ Das Skript erklärt diesen Zusatz nicht." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t1-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "richtig-fragen-ziel", "karte": "m5-t1-k1", "folien": [69],
+          "frage": "Was ist laut Skript das **Ziel** des richtigen Fragens im Auswahlgespräch?",
+          "optionen": ["Können & Wollen ermitteln", "Stärken und Schwächen der Person abfragen", "Die Reaktion auf Szenario-Fragen beurteilen", "Auswendig Gelerntes abrufen lassen"], "richtig": 0,
+          "erklaerung": "Das Skript setzt als Ziel, Können und Wollen zu ermitteln. Stärken-Schwächen-Fragen und Szenario-Fragen nennt es ausdrücklich als untauglich, weil Gesprächspartner dort auswendig Gelerntes vortragen.",
+          "beleg": "Ziel: Können & Wollen ermitteln", "belegQuelle": "folie-41",
+          "kurz": "Ziel des richtigen Fragens: Können & Wollen ermitteln." },
+        { "id": "m5-t1-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "untaugliche-fragen", "karte": "m5-t1-k1", "folien": [69],
+          "frage": "Welche Fragen nennt das Skript als **untauglich**?",
+          "optionen": ["„Nennen Sie mir ihre Stärken und Schwächen!“", "Szenario-Fragen: „Stellen Sie sich vor...“", "„Wie haben Sie sich in diesen von Ihnen geschilderten Situationen verhalten?“", "„Warum?“", "„Was, glauben Sie, könnten Sie für vergleichbare zukünftige Situationen noch lernen?“"], "richtig": [0, 1],
+          "erklaerung": "Das Skript führt genau diese beiden als untaugliche (Standard-)Fragen an. Die drei anderen stehen auf derselben Folie als Beispiele für den richtigen Weg, also für das Erfragen angewandten Verhaltens.",
+          "belege": [
+            { "text": "untaugliche (Standard-)Fragen vermeiden, z.B.:", "quelle": "folie-41" },
+            { "text": "Szenario-Fragen: „Stellen Sie sich vor...“", "quelle": "folie-41" }
+          ],
+          "kurz": "Untauglich: Stärken-Schwächen-Frage und Szenario-Fragen." },
+        { "id": "m5-t1-a03", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "untaugliche-fragen", "karte": "m5-t1-k1", "folien": [69],
+          "frage": "Richtig Fragen: Was stimmt?",
+          "aussagen": [
+            { "text": "Standardfragen sind untauglich, weil Gesprächspartner z.T. auswendig Gelerntes vorhalten.", "wahr": true },
+            { "text": "Der Weg des Skripts lautet: angewandtes Verhalten erfragen, vertiefen und beurteilen.", "wahr": true },
+            { "text": "Szenario-Fragen („Stellen Sie sich vor...“) empfiehlt das Skript als guten Einstieg.", "wahr": false, "korrektur": "Szenario-Fragen nennt das Skript ausdrücklich als Beispiel für untaugliche (Standard-)Fragen." },
+            { "text": "Als Mittel nennt das Skript die 2-Schritt-Technik und die STAR-Technik.", "wahr": true }
+          ],
+          "erklaerung": "Ziel, Weg und Mittel stehen auf der Folie untereinander: Ziel ist Können und Wollen, der Weg das Erfragen angewandten Verhaltens, die Mittel sind 2-Schritt-Technik und STAR-Technik.",
+          "beleg": "Gesprächspartner halten z.T. auswendig Gelerntes vor", "belegQuelle": "folie-41",
+          "kurz": "Standard- und Szenario-Fragen erzeugen auswendig Gelerntes; der Weg ist angewandtes Verhalten." },
+        { "id": "m5-t1-a04", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "zwei-schritt-technik", "karte": "m5-t1-k3", "folien": [69], "bank": true,
+          "frage": "Vervollständige die 2-Schritt-Technik.",
+          "text": "**2-Schritt-Technik:** 1.) {_Einstiegsfrage_} platzieren 2.) vertiefendes {_Hinterfragen_} unter 1.) erhaltener Informationen",
+          "zusatzBank": ["Szenario-Frage", "Beurteilen"],
+          "erklaerung": "Erst wird eine Einstiegsfrage platziert, dann werden die daraus erhaltenen Informationen vertiefend hinterfragt. Genau dieses Nachhaken unterscheidet das Vorgehen von einer einzelnen Standardfrage.",
+          "beleg": "1.) Einstiegsfrage platzieren 2.) vertiefendes Hinterfragen unter 1.) erhaltener Informationen", "belegQuelle": "folie-41",
+          "kurz": "2-Schritt-Technik: Einstiegsfrage platzieren, dann vertiefendes Hinterfragen." },
+        { "id": "m5-t1-a05", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "star-technik", "karte": "m5-t1-k3", "folien": [69],
+          "vorne": "Wofür stehen die vier Buchstaben der **STAR-Technik**?",
+          "hinten": "**S**ituation - **T**ask - **A**ction - **R**esult\n\nHinweis: Das Skript nennt diese vier Schritte, erklärt sie aber nicht weiter.",
+          "erklaerung": "Die STAR-Technik steht auf der Folie unter „Mittel“, neben der 2-Schritt-Technik. Die vier Wörter sind gefordert, eine Erläuterung gibt das Skript nicht.",
+          "beleg": "STAR-Technik: Situation - Task - Action - Result", "belegQuelle": "folie-41",
+          "kurz": "STAR: Situation, Task, Action, Result. Im Skript nur genannt, nicht erklärt." },
+        { "id": "m5-t1-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "richtig-fragen-ziel", "karte": "m5-t1-k1", "folien": [69],
+          "frage": "„Ziel: Können & Wollen ermitteln“ — erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht als Kernaussage über dem Abschnitt „Richtig Fragen“ im Kapitel Personalauswahl, -beurteilung und -entwicklung. Er legt fest, was ein Auswahlgespräch herausfinden soll: das Können und das Wollen des Gesprächspartners. Daraus zieht das Skript zwei Folgerungen. Erstens sind untaugliche (Standard-)Fragen zu vermeiden, etwa „Nennen Sie mir ihre Stärken und Schwächen!“ oder Szenario-Fragen („Stellen Sie sich vor...“), weil Gesprächspartner dort z.T. auswendig Gelerntes vorhalten. Zweitens lautet der Weg: angewandtes Verhalten erfragen, vertiefen und beurteilen. Als Mittel dafür nennt das Skript die 2-Schritt-Technik und die STAR-Technik.",
+          "checkliste": ["Ziel benannt: Können und Wollen ermitteln", "Zusammenhang: Auswahlgespräch, Kapitel Personalauswahl", "Untaugliche (Standard-)Fragen und ihr Problem (auswendig Gelerntes) genannt", "Weg genannt: angewandtes Verhalten erfragen, vertiefen und beurteilen", "Mittel genannt: 2-Schritt-Technik und STAR-Technik"],
+          "erklaerung": "Die Klausur kann verlangen, den Satz einzuordnen. Wichtig ist die Kette Ziel, Weg, Mittel, denn genau so ist die Folie aufgebaut.",
+          "beleg": "Ziel: Können & Wollen ermitteln", "belegQuelle": "folie-41",
+          "kurz": "Ziel (Können & Wollen) - Weg (angewandtes Verhalten) - Mittel (2-Schritt, STAR)." },
+        { "id": "m5-t1-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "angewandtes-verhalten", "karte": "m5-t1-k2", "folien": [69],
+          "frage": "„angewandtes Verhalten erfragen, vertiefen und beurteilen“ — erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz nennt den Weg zum Ziel „Können & Wollen ermitteln“. Statt Standardfragen zu stellen, auf die auswendig Gelerntes kommt, wird nach Verhalten gefragt, das der Gesprächspartner in seiner beruflichen Praxis tatsächlich gezeigt hat. Das Skript zeigt dafür eine Fragekette: zuerst nach typischen Konflikten in erlebten Situationen, dann „Wie haben Sie sich in diesen von Ihnen geschilderten Situationen verhalten?“, dann „Warum?“, dann nach der Außensicht („Wie würden Andere Ihr geschildertes Verhalten beschreiben?“) und zuletzt danach, was die Person für vergleichbare zukünftige Situationen noch lernen könnte. Vertiefen geschieht über die 2-Schritt-Technik: Einstiegsfrage platzieren, dann die erhaltenen Informationen vertiefend hinterfragen.",
+          "checkliste": ["Einordnung als Weg zum Ziel Können und Wollen", "Abgrenzung zu Standard- und Szenario-Fragen", "Gefragt wird nach real gezeigtem, angewandtem Verhalten", "Mindestens zwei Beispielfragen des Skripts genannt", "Vertiefen über die 2-Schritt-Technik erklärt"],
+          "erklaerung": "Der Satz ist auf der Folie hervorgehoben und damit klausurverdächtig. Er verlangt Weg und Beispiele, nicht nur das Schlagwort.",
+          "beleg": "angewandtes Verhalten erfragen, vertiefen und beurteilen", "belegQuelle": "folie-41",
+          "kurz": "Angewandtes Verhalten erfragen heißt: nach real gezeigtem Verhalten fragen und nachhaken." },
+        { "id": "m5-t1-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "star-technik", "karte": "m5-t1-k3", "folien": [69],
+          "frage": "„STAR-Technik: Situation - Task - Action - Result“ — erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Die STAR-Technik steht im Skript unter „Mittel“, direkt neben der 2-Schritt-Technik. Beide Mittel dienen dem Weg „angewandtes Verhalten erfragen, vertiefen und beurteilen“ und damit dem Ziel, Können und Wollen zu ermitteln. STAR steht für Situation, Task, Action, Result. Wichtig für eine ehrliche Antwort: Das Skript nennt diese vier Schritte nur, es erklärt sie nicht. Was darüber hinaus zur STAR-Technik gehören könnte, ist nicht Teil des Skripts.",
+          "checkliste": ["Einordnung: Mittel im Abschnitt Richtig Fragen", "Bezug zum Weg: angewandtes Verhalten erfragen, vertiefen und beurteilen", "Die vier Wörter korrekt und in der Reihenfolge: Situation, Task, Action, Result", "Benannt, dass das Skript die vier Schritte nicht erläutert"],
+          "erklaerung": "Der Merksatz ist hervorgehoben, seine Auflösung aber nicht gegeben. Wer hier mehr behauptet, als das Skript sagt, erfindet.",
+          "beleg": "STAR-Technik: Situation - Task - Action - Result", "belegQuelle": "folie-41",
+          "kurz": "STAR ist ein Mittel neben der 2-Schritt-Technik; die vier Schritte werden im Skript nicht erklärt." },
+        { "id": "m5-t1-a09", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "untaugliche-fragen", "karte": "m5-t1-k2", "folien": [69],
+          "frage": "Untauglich oder skriptkonform? Sortiere die Fragen ein.",
+          "kategorien": ["untaugliche (Standard-)Frage", "angewandtes Verhalten erfragen"],
+          "elemente": [
+            { "text": "„Nennen Sie mir ihre Stärken und Schwächen!“", "kategorie": 0 },
+            { "text": "„Stellen Sie sich vor...“", "kategorie": 0 },
+            { "text": "„Welche Konflikte treten dort typischerweise auf?“", "kategorie": 1 },
+            { "text": "„Wie haben Sie sich in diesen von Ihnen geschilderten Situationen verhalten?“", "kategorie": 1 },
+            { "text": "„Wie würden Andere Ihr geschildertes Verhalten beschreiben?“", "kategorie": 1 },
+            { "text": "„Was, glauben Sie, könnten Sie für vergleichbare zukünftige Situationen noch lernen?“", "kategorie": 1 }
+          ],
+          "erklaerung": "Untauglich sind die beiden Standardformate, auf die auswendig Gelerntes kommt. Alle anderen Fragen des Skripts knüpfen an real erlebte Situationen und das dort gezeigte Verhalten an.",
+          "belege": [
+            { "text": "untaugliche (Standard-)Fragen vermeiden, z.B.:", "quelle": "folie-41" },
+            { "text": "„Wie haben Sie sich in diesen von Ihnen geschilderten Situationen verhalten?“", "quelle": "folie-41" }
+          ],
+          "kurz": "Standard- und Szenario-Fragen sind untauglich; Fragen nach erlebten Situationen und gezeigtem Verhalten nicht." },
+        { "id": "m5-t1-a10", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "zwei-schritt-technik", "karte": "m5-t1-k3", "folien": [69],
+          "szenario": "Übungsfall: Du führst für deine Bank ein Auswahlgespräch für eine Stelle in der Kundenberatung. Auf deine Frage nach Stärken und Schwächen antwortet die Bewerberin flüssig und wie auswendig gelernt. Über ihr tatsächliches Verhalten erfährst du nichts.",
+          "frage": "Wie gehst du nach dem Skript weiter vor?",
+          "optionen": [
+            "Eine Einstiegsfrage nach real erlebten Situationen stellen und die erhaltenen Informationen anschließend vertiefend hinterfragen.",
+            "Eine Szenario-Frage anschließen: „Stellen Sie sich vor...“, damit die Bewerberin frei erzählen kann.",
+            "Die Selbsteinschätzung der Bewerberin übernehmen und das Gespräch beenden."
+          ], "richtig": 0,
+          "erklaerung": "Das Skript nennt Standard- und Szenario-Fragen untauglich, gerade weil dort auswendig Gelerntes vorgetragen wird. Der Weg ist, angewandtes Verhalten zu erfragen, zu vertiefen und zu beurteilen. Das Mittel dazu ist die 2-Schritt-Technik.",
+          "beleg": "1.) Einstiegsfrage platzieren 2.) vertiefendes Hinterfragen unter 1.) erhaltener Informationen", "belegQuelle": "folie-41",
+          "kurz": "Bei auswendig Gelerntem: Einstiegsfrage nach erlebten Situationen, dann vertiefend hinterfragen." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Richtig Fragen (Folie 69):** Ziel = Können & Wollen ermitteln. Untauglich: Stärken-Schwächen-Frage, Szenario-Fragen (auswendig Gelerntes). Weg = angewandtes Verhalten erfragen, vertiefen, beurteilen. Mittel = 2-Schritt-Technik + STAR-Technik (Situation - Task - Action - Result)."
+        ],
+        "ausfuehrlich": [
+          "**Ziel (hervorgehoben):** Können & Wollen ermitteln.",
+          "**Untaugliche (Standard-)Fragen vermeiden:** „Nennen Sie mir ihre Stärken und Schwächen!“ und Szenario-Fragen („Stellen Sie sich vor...“). Grund: Gesprächspartner halten z.T. auswendig Gelerntes vor.",
+          "**Weg (hervorgehoben):** angewandtes Verhalten erfragen, vertiefen und beurteilen.",
+          "**Beispielfragen:** nach typischen Konflikten in erlebten Situationen; „Wie haben Sie sich in diesen von Ihnen geschilderten Situationen verhalten?“; „Warum?“; nach der Außensicht („Wie würden Andere Ihr geschildertes Verhalten beschreiben?“); was die Person für vergleichbare zukünftige Situationen noch lernen könnte.",
+          "**Mittel 1, 2-Schritt-Technik:** 1.) Einstiegsfrage platzieren 2.) vertiefendes Hinterfragen unter 1.) erhaltener Informationen.",
+          "**Mittel 2, STAR-Technik (hervorgehoben):** Situation - Task - Action - Result. Das Skript nennt die vier Schritte, erklärt sie nicht.",
+          "**Ohne Erläuterung am Folienende:** „...und Erfahrungen?...it depends!“"
+        ],
+        "merkhilfe": "Zwei Techniken, zwei Zahlen: 2-Schritt-Technik = 2 Schritte, STAR = 4 Buchstaben."
+      }
+    },
+    {
+      "id": "m5-t2",
+      "titel": "Beurteilung/ZEG richtig führen",
+      "folien": [70],
+      "gewicht": 3,
+      "lernstoff": true,
+      "lernkarten": [
+        {
+          "id": "m5-t2-k1",
+          "titel": "Der Leitfaden und seine sechs Phasen",
+          "folien": [70],
+          "bloecke": [
+            { "typ": "einfach", "text": "Ein Beurteilungsgespräch läuft nicht frei, sondern nach einem Ablauf. Das Skript gibt dafür einen groben Leitfaden mit sechs Phasen vor, gedacht vor allem für Gespräche in Hierarchien. Die Reihenfolge ist der Kern: Der Mitarbeiter schätzt sich zuerst selbst ein, erst danach kommt die Sicht des Vorgesetzten." },
+            { "typ": "text", "text": "**Beurteilung/ZEG richtig führen** -> grober Leitfaden zur Gesprächsgestaltung v.a. in Hierarchien" },
+            { "typ": "liste", "titel": "Die sechs Phasen in dieser Reihenfolge", "geordnet": true, "punkte": ["Eröffnung", "Selbsteinschätzung MA", "Abgleich Fremdbild/Vorgesetzter", "Festlegung finale Beurteilung", "Entwicklungsperspektiven", "Abschluss"] },
+            { "typ": "person", "name": "Felfe, J.", "folie": 70, "beitrag": "Quelle des Leitfadens zur Gesprächsgestaltung. Fußnote der Folie: nach Felfe, J.: Mitarbeiterführung. 2009, Göttingen, Hogrefe" },
+            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: „ZEG“ steht in der Überschrift, wird auf dieser Folie aber nicht ausgeschrieben. Auch die Kürzel „MA“ und „FK“ werden hier nicht erklärt." },
+            { "typ": "hinweis", "text": "Wo in den erklärenden Texten dieser Lernumgebung „Mitarbeiter“ oder „Führungskraft“ steht, ist das eine Lesehilfe und keine Angabe des Skripts. Die Folie schreibt „MA“ und „FK“ nirgends aus. In der Klausur gilt der Wortlaut der Folie." },
+            { "typ": "hinweis", "text": "Schreibweisen der Folie, die hier absichtlich stehen bleiben: „ggf. erste Vorschläge(Ideen für Linderung Schwächen werden festgehalten“ (die Klammer wird nicht geschlossen) und „gegenseitiges feedback“ (klein geschrieben)." }
+          ]
+        },
+        {
+          "id": "m5-t2-k2",
+          "titel": "Phasen 1 bis 3: Eröffnung, Selbsteinschätzung, Abgleich",
+          "folien": [70],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die erste Hälfte des Gesprächs klärt die Lage. Zuerst wird der Rahmen gesetzt, dann redet der Mitarbeiter über sich, erst danach legt der Vorgesetzte sein Bild daneben. So entsteht der Abgleich von Selbstbild und Fremdbild." },
+            { "typ": "tabelle", "kopf": ["Phase", "Inhalt laut Skript"], "zeilen": [
+              ["**Eröffnung:**", "- Begrüßung, entspannte Atmosphäre schaffen\n- Gesprächsziele und Gesprächsablauf vereinbaren\n- ggf. Fragen und Themen aus der gemeinsamen Vorbereitung thematisieren"],
+              ["**Selbsteinschätzung MA:**", "- MA stellt Selbsteinschätzung seiner Leistungen vor\n- MA liefert Begründungen für positive und negative Einschätzungen\n- Vorgesetzter fragt bei Unklarheiten nach"],
+              ["**Abgleich Fremdbild/Vorgesetzter:**", "- Vorgesetzter gibt Feedback und bestätigt/begründet gemeinsame Einschätzungen\n- Vorgesetzter lobt und spricht Anerkennung aus\n- Schwächen werden sachlich angesprochen und begründet\n- ggf. erste Vorschläge(Ideen für Linderung Schwächen werden festgehalten\n- Ursachen für differierende Sichtweisen werden gemeinsam besprochen/geklärt"]
+            ] }
+          ]
+        },
+        {
+          "id": "m5-t2-k3",
+          "titel": "Phasen 4 bis 6: finale Beurteilung, Entwicklung, Abschluss",
+          "folien": [70],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die zweite Hälfte entscheidet und schaut nach vorn. Erst wird die Beurteilung festgezurrt, notfalls korrigiert. Dann geht es um die Zukunft des Mitarbeiters, zuletzt um einen sauberen Abschluss mit Feedback in beide Richtungen." },
+            { "typ": "tabelle", "kopf": ["Phase", "Inhalt laut Skript"], "zeilen": [
+              ["**Festlegung finale Beurteilung:**", "- in begründeten Fällen (vorher getroffene) Beurteilung korrigieren\n- MA von abweichender Beurteilung überzeugen\n- ggf. qualitative Ergänzungen vornehmen\n- Zustimmung MA oder ggf. Stellungnahme"],
+              ["**Entwicklungsperspektiven:**", "- MA stellt Ziel, Vorstellungen, Wünsche dar\n- Abgleich mit Sicht der Führungskraft\n- Identifikation von Weiterbildungs- bzw. Veränderungsbedarf\n- Vereinbarung von [[Personalentwicklungsmaßnahmen]]"],
+              ["**Abschluss:**", "- Ergebnisse in Beurteilungsbogen zusammenfassen\n- gegenseitiges feedback zu Gesprächsverlauf\n- positiver Abschluss"]
+            ] }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t2-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "zeg-phasen", "karte": "m5-t2-k1", "folien": [70],
+          "frage": "Bringe die sechs Phasen des Leitfadens in die richtige Reihenfolge.",
+          "elemente": ["Eröffnung", "Selbsteinschätzung MA", "Abgleich Fremdbild/Vorgesetzter", "Festlegung finale Beurteilung", "Entwicklungsperspektiven", "Abschluss"],
+          "erklaerung": "Der Leitfaden beginnt mit der Eröffnung und lässt den Mitarbeiter zuerst sich selbst einschätzen. Erst danach folgen Abgleich, finale Beurteilung, der Blick nach vorn und der Abschluss.",
+          "belege": [
+            { "text": "grober Leitfaden zur Gesprächsgestaltung v.a. in Hierarchien", "quelle": "folie-42" },
+            { "text": "MA stellt Selbsteinschätzung seiner Leistungen vor", "quelle": "folie-42" }
+          ],
+          "kurz": "Reihenfolge: Eröffnung, Selbsteinschätzung MA, Abgleich Fremdbild, finale Beurteilung, Entwicklungsperspektiven, Abschluss." },
+        { "id": "m5-t2-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "zeg-phasen", "karte": "m5-t2-k2", "folien": [70],
+          "frage": "Ordne jeder Phase den Inhalt zu, den das Skript ihr zuweist.", "linksTitel": "Phase", "rechtsTitel": "Inhalt laut Skript",
+          "paare": [
+            { "links": "Eröffnung", "rechts": "Gesprächsziele und Gesprächsablauf vereinbaren" },
+            { "links": "Selbsteinschätzung MA", "rechts": "MA stellt Selbsteinschätzung seiner Leistungen vor" },
+            { "links": "Abgleich Fremdbild/Vorgesetzter", "rechts": "Vorgesetzter lobt und spricht Anerkennung aus" },
+            { "links": "Festlegung finale Beurteilung", "rechts": "MA von abweichender Beurteilung überzeugen" },
+            { "links": "Entwicklungsperspektiven", "rechts": "Vereinbarung von Personalentwicklungsmaßnahmen" },
+            { "links": "Abschluss", "rechts": "Ergebnisse in Beurteilungsbogen zusammenfassen" }
+          ],
+          "erklaerung": "Jede Zeile der Folientabelle gehört genau zu einer Phase. Häufigste Verwechslung: Lob und Anerkennung stehen beim Abgleich, nicht im Abschluss.",
+          "belege": [
+            { "text": "Vorgesetzter lobt und spricht Anerkennung aus", "quelle": "folie-42" },
+            { "text": "Ergebnisse in Beurteilungsbogen zusammenfassen", "quelle": "folie-42" }
+          ],
+          "kurz": "Lob und Anerkennung: Abgleich. Beurteilungsbogen: Abschluss. Personalentwicklungsmaßnahmen: Entwicklungsperspektiven." },
+        { "id": "m5-t2-a03", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "zeg-selbsteinschaetzung", "karte": "m5-t2-k2", "folien": [70],
+          "frage": "In welcher Phase stellt der Mitarbeiter seine Leistungen selbst dar und begründet positive wie negative Einschätzungen?",
+          "optionen": ["Selbsteinschätzung MA", "Eröffnung", "Abgleich Fremdbild/Vorgesetzter", "Entwicklungsperspektiven"], "richtig": 0,
+          "erklaerung": "Die zweite Phase heißt Selbsteinschätzung MA. Dort stellt der Mitarbeiter vor, liefert Begründungen, und der Vorgesetzte fragt nur bei Unklarheiten nach.",
+          "beleg": "MA liefert Begründungen für positive und negative Einschätzungen", "belegQuelle": "folie-42",
+          "kurz": "Selbsteinschätzung MA: MA stellt vor und begründet, Vorgesetzter fragt nur nach." },
+        { "id": "m5-t2-a04", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "zeg-abgleich", "karte": "m5-t2-k2", "folien": [70],
+          "frage": "Was gehört laut Leitfaden zur Phase **Abgleich Fremdbild/Vorgesetzter**?",
+          "optionen": [
+            "Vorgesetzter gibt Feedback und bestätigt/begründet gemeinsame Einschätzungen",
+            "Vorgesetzter lobt und spricht Anerkennung aus",
+            "Schwächen werden sachlich angesprochen und begründet",
+            "Ergebnisse in Beurteilungsbogen zusammenfassen",
+            "MA stellt Ziel, Vorstellungen, Wünsche dar",
+            "Ursachen für differierende Sichtweisen werden gemeinsam besprochen/geklärt"
+          ], "richtig": [0, 1, 2, 5],
+          "erklaerung": "Der Abgleich ist die Phase, in der der Vorgesetzte sein Bild danebenlegt: Feedback, Lob, sachlich begründete Schwächen und die gemeinsame Klärung abweichender Sichtweisen. Beurteilungsbogen gehört zum Abschluss, Ziele und Wünsche zu den Entwicklungsperspektiven.",
+          "beleg": "Ursachen für differierende Sichtweisen werden gemeinsam besprochen/geklärt", "belegQuelle": "folie-42",
+          "kurz": "Abgleich: Feedback, Lob/Anerkennung, Schwächen sachlich, Ursachen abweichender Sichtweisen klären." },
+        { "id": "m5-t2-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "zeg-phasen", "karte": "m5-t2-k3", "folien": [70],
+          "frage": "Reihenfolge und Inhalte des Leitfadens: Was stimmt?",
+          "aussagen": [
+            { "text": "Zuerst stellt der Mitarbeiter seine Selbsteinschätzung vor, danach folgt der Abgleich mit dem Fremdbild des Vorgesetzten.", "wahr": true },
+            { "text": "Die finale Beurteilung wird noch vor der Selbsteinschätzung des Mitarbeiters festgelegt.", "wahr": false, "korrektur": "Die Phase „Festlegung finale Beurteilung“ kommt erst nach Selbsteinschätzung MA und Abgleich Fremdbild/Vorgesetzter." },
+            { "text": "In begründeten Fällen darf eine vorher getroffene Beurteilung korrigiert werden.", "wahr": true },
+            { "text": "Weiterbildungs- bzw. Veränderungsbedarf wird in der Phase Entwicklungsperspektiven identifiziert.", "wahr": true },
+            { "text": "Der Leitfaden endet mit der Festlegung der finalen Beurteilung.", "wahr": false, "korrektur": "Er endet mit dem Abschluss: Ergebnisse in Beurteilungsbogen zusammenfassen, gegenseitiges feedback zu Gesprächsverlauf, positiver Abschluss." }
+          ],
+          "erklaerung": "Die Reihenfolge trägt die halbe Punktzahl: Selbstbild vor Fremdbild, Entscheidung nach dem Abgleich, Blick nach vorn vor dem Abschluss.",
+          "beleg": "in begründeten Fällen (vorher getroffene) Beurteilung korrigieren", "belegQuelle": "folie-42",
+          "kurz": "Selbstbild vor Fremdbild, finale Beurteilung danach, Abschluss ganz am Ende." },
+        { "id": "m5-t2-a06", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "zeg-abschluss", "karte": "m5-t2-k3", "folien": [70], "bank": true,
+          "frage": "Vervollständige die Phase Abschluss.",
+          "text": "**Abschluss:** Ergebnisse in {_Beurteilungsbogen_} zusammenfassen, gegenseitiges {_feedback_} zu Gesprächsverlauf, {_positiver_} Abschluss",
+          "zusatzBank": ["Selbsteinschätzung", "Stellungnahme"],
+          "erklaerung": "Der Abschluss hält das Ergebnis fest und holt Feedback in beide Richtungen. Das Skript schreibt „feedback“ an dieser Stelle klein.",
+          "beleg": "gegenseitiges feedback zu Gesprächsverlauf", "belegQuelle": "folie-42",
+          "kurz": "Abschluss: Beurteilungsbogen, gegenseitiges feedback zum Gesprächsverlauf, positiver Abschluss." },
+        { "id": "m5-t2-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "zeg-leitfaden", "karte": "m5-t2-k1", "folien": [70],
+          "frage": "Beschreibe den groben Leitfaden zur Gesprächsgestaltung nach {{Felfe, J.}} mit seinen sechs Phasen und nenne je Phase die wesentlichen Inhalte.",
+          "musterloesung": "Der Leitfaden gilt für Beurteilungs-/ZEG-Gespräche, vor allem in Hierarchien, und stammt nach Felfe, J.: Mitarbeiterführung, 2009, Göttingen, Hogrefe. Erstens Eröffnung: Begrüßung, entspannte Atmosphäre schaffen, Gesprächsziele und Gesprächsablauf vereinbaren, ggf. Fragen und Themen aus der gemeinsamen Vorbereitung thematisieren. Zweitens Selbsteinschätzung MA: Der Mitarbeiter stellt seine Leistungen selbst vor, liefert Begründungen für positive und negative Einschätzungen, der Vorgesetzte fragt bei Unklarheiten nach. Drittens Abgleich Fremdbild/Vorgesetzter: Feedback geben, gemeinsame Einschätzungen bestätigen und begründen, loben und Anerkennung aussprechen, Schwächen sachlich ansprechen und begründen, erste Vorschläge zur Linderung festhalten, Ursachen für differierende Sichtweisen gemeinsam klären. Viertens Festlegung finale Beurteilung: in begründeten Fällen die vorher getroffene Beurteilung korrigieren, den Mitarbeiter von einer abweichenden Beurteilung überzeugen, ggf. qualitative Ergänzungen vornehmen, Zustimmung des Mitarbeiters oder ggf. Stellungnahme. Fünftens Entwicklungsperspektiven: Der Mitarbeiter stellt Ziel, Vorstellungen und Wünsche dar, Abgleich mit der Sicht der Führungskraft, Identifikation von Weiterbildungs- bzw. Veränderungsbedarf, Vereinbarung von Personalentwicklungsmaßnahmen. Sechstens Abschluss: Ergebnisse in den Beurteilungsbogen zusammenfassen, gegenseitiges Feedback zum Gesprächsverlauf, positiver Abschluss.",
+          "checkliste": [
+            "Alle sechs Phasen in der richtigen Reihenfolge genannt",
+            "Eröffnung: Atmosphäre, Gesprächsziele und Ablauf vereinbaren",
+            "Selbsteinschätzung MA vor dem Abgleich mit dem Fremdbild des Vorgesetzten",
+            "Festlegung finale Beurteilung: ggf. korrigieren, überzeugen, Zustimmung oder Stellungnahme",
+            "Entwicklungsperspektiven: Weiterbildungs-/Veränderungsbedarf, Personalentwicklungsmaßnahmen",
+            "Abschluss: Beurteilungsbogen, gegenseitiges feedback, positiver Abschluss"
+          ],
+          "erklaerung": "Diese Folie trägt den Lernstoff-Aufkleber. Eine Klausurfrage kann den ganzen Ablauf verlangen, deshalb zählen Reihenfolge und Inhalte je Phase.",
+          "belege": [
+            { "text": "grober Leitfaden zur Gesprächsgestaltung v.a. in Hierarchien", "quelle": "folie-42" },
+            { "text": "nach Felfe, J.: Mitarbeiterführung. 2009, Göttingen, Hogrefe", "quelle": "folie-42" }
+          ],
+          "kurz": "Sechs Phasen: Eröffnung, Selbsteinschätzung MA, Abgleich Fremdbild, finale Beurteilung, Entwicklungsperspektiven, Abschluss." },
+        { "id": "m5-t2-a08", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "zeg-finale-beurteilung", "karte": "m5-t2-k3", "folien": [70],
+          "szenario": "Übungsfall: Du führst als Filialleiterin das Beurteilungsgespräch mit einem Kundenberater. Er widerspricht deiner Einschätzung zu seiner Beratungsqualität und begründet das nachvollziehbar mit Zahlen aus seinem Bereich.",
+          "frage": "Was sieht der Leitfaden für die Phase „Festlegung finale Beurteilung“ in dieser Lage vor?",
+          "optionen": [
+            "In begründeten Fällen die vorher getroffene Beurteilung korrigieren, sonst den Mitarbeiter von der abweichenden Beurteilung überzeugen; am Ende steht seine Zustimmung oder ggf. eine Stellungnahme.",
+            "Das Gespräch abbrechen und die Beurteilung unverändert in den Beurteilungsbogen übernehmen.",
+            "Die Beurteilung offen lassen und erst in der Phase Entwicklungsperspektiven entscheiden."
+          ], "richtig": 0,
+          "erklaerung": "Der Leitfaden lässt eine Korrektur ausdrücklich zu, wenn der Fall begründet ist. Bleibt es bei der Abweichung, muss der Vorgesetzte überzeugen; am Ende steht Zustimmung oder Stellungnahme des Mitarbeiters.",
+          "belege": [
+            { "text": "in begründeten Fällen (vorher getroffene) Beurteilung korrigieren", "quelle": "folie-42" },
+            { "text": "Zustimmung MA oder ggf. Stellungnahme", "quelle": "folie-42" }
+          ],
+          "kurz": "Begründeter Widerspruch: Beurteilung korrigieren oder überzeugen, dann Zustimmung bzw. Stellungnahme." },
+        { "id": "m5-t2-a09", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "zeg-phasen", "karte": "m5-t2-k3", "folien": [70],
+          "frage": "Zu welcher Phase gehört der Inhalt?",
+          "kategorien": ["Selbsteinschätzung MA", "Abgleich Fremdbild/Vorgesetzter", "Entwicklungsperspektiven"],
+          "elemente": [
+            { "text": "MA liefert Begründungen für positive und negative Einschätzungen", "kategorie": 0 },
+            { "text": "Vorgesetzter fragt bei Unklarheiten nach", "kategorie": 0 },
+            { "text": "Schwächen werden sachlich angesprochen und begründet", "kategorie": 1 },
+            { "text": "Ursachen für differierende Sichtweisen werden gemeinsam besprochen/geklärt", "kategorie": 1 },
+            { "text": "Identifikation von Weiterbildungs- bzw. Veränderungsbedarf", "kategorie": 2 },
+            { "text": "Abgleich mit Sicht der Führungskraft", "kategorie": 2 }
+          ],
+          "erklaerung": "Aufpassen bei „Abgleich mit Sicht der Führungskraft“: Das steht bei den Entwicklungsperspektiven und meint den Abgleich der Ziele und Wünsche, nicht den Fremdbild-Abgleich der Leistungsbeurteilung.",
+          "belege": [
+            { "text": "Vorgesetzter fragt bei Unklarheiten nach", "quelle": "folie-42" },
+            { "text": "Identifikation von Weiterbildungs- bzw. Veränderungsbedarf", "quelle": "folie-42" }
+          ],
+          "kurz": "Nachfragen: Selbsteinschätzung. Schwächen sachlich: Abgleich. Weiterbildungsbedarf: Entwicklungsperspektiven." },
+        { "id": "m5-t2-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "zeg-entwicklung", "karte": "m5-t2-k3", "folien": [70],
+          "vorne": "Welche vier Inhalte nennt der Leitfaden für die Phase **Entwicklungsperspektiven**?",
+          "hinten": "- MA stellt Ziel, Vorstellungen, Wünsche dar\n- Abgleich mit Sicht der Führungskraft\n- Identifikation von Weiterbildungs- bzw. Veränderungsbedarf\n- Vereinbarung von Personalentwicklungsmaßnahmen",
+          "erklaerung": "Diese Phase blickt nach vorn: erst die Sicht des Mitarbeiters, dann der Abgleich, dann der Bedarf, zuletzt die Vereinbarung konkreter Maßnahmen.",
+          "beleg": "MA stellt Ziel, Vorstellungen, Wünsche dar", "belegQuelle": "folie-42",
+          "kurz": "Entwicklungsperspektiven: Ziele des MA, Abgleich mit FK, Bedarf, Vereinbarung von PE-Maßnahmen." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Beurteilung/ZEG (Folie 70, Lernstoff, nach Felfe):** sechs Phasen — Eröffnung, Selbsteinschätzung MA, Abgleich Fremdbild/Vorgesetzter, Festlegung finale Beurteilung, Entwicklungsperspektiven, Abschluss. Merkregel des Ablaufs: Selbstbild vor Fremdbild, Entscheidung nach dem Abgleich."
+        ],
+        "ausfuehrlich": [
+          "**Rahmen:** grober Leitfaden zur Gesprächsgestaltung v.a. in Hierarchien, nach Felfe, J.: Mitarbeiterführung. 2009, Göttingen, Hogrefe.",
+          "**1. Eröffnung:** Begrüßung, entspannte Atmosphäre schaffen; Gesprächsziele und Gesprächsablauf vereinbaren; ggf. Fragen und Themen aus der gemeinsamen Vorbereitung thematisieren.",
+          "**2. Selbsteinschätzung MA:** MA stellt Selbsteinschätzung seiner Leistungen vor; MA liefert Begründungen für positive und negative Einschätzungen; Vorgesetzter fragt bei Unklarheiten nach.",
+          "**3. Abgleich Fremdbild/Vorgesetzter:** Feedback, bestätigt/begründet gemeinsame Einschätzungen; lobt und spricht Anerkennung aus; Schwächen sachlich angesprochen und begründet; ggf. erste Vorschläge(Ideen für Linderung Schwächen werden festgehalten; Ursachen für differierende Sichtweisen gemeinsam besprochen/geklärt.",
+          "**4. Festlegung finale Beurteilung:** in begründeten Fällen (vorher getroffene) Beurteilung korrigieren; MA von abweichender Beurteilung überzeugen; ggf. qualitative Ergänzungen; Zustimmung MA oder ggf. Stellungnahme.",
+          "**5. Entwicklungsperspektiven:** MA stellt Ziel, Vorstellungen, Wünsche dar; Abgleich mit Sicht der Führungskraft; Identifikation von Weiterbildungs- bzw. Veränderungsbedarf; Vereinbarung von Personalentwicklungsmaßnahmen.",
+          "**6. Abschluss:** Ergebnisse in Beurteilungsbogen zusammenfassen; gegenseitiges feedback zu Gesprächsverlauf; positiver Abschluss.",
+          "**Nicht erklärt im Skript:** „ZEG“, „MA“, „FK“."
+        ],
+        "merkhilfe": "Der Ablauf folgt der Blickrichtung: erst Rahmen, dann sein Bild, dann dein Bild, dann die Entscheidung, dann nach vorn, dann Schluss."
+      }
+    },
+    {
+      "id": "m5-t3",
+      "titel": "Menschen einschätzen: Fehlerquellen und ihre theoretischen Grundlagen",
+      "folien": [71],
+      "gewicht": 3,
+      "lernstoff": true,
+      "lernkarten": [
+        {
+          "id": "m5-t3-k1",
+          "titel": "Warum Einschätzen fehleranfällig ist",
+          "folien": [71],
+          "bloecke": [
+            { "typ": "einfach", "text": "Beurteilen heißt wahrnehmen, und Wahrnehmung verzerrt. Das Skript nennt deshalb ein Ziel: Wahrnehmungsverzerrungen und Fehlinterpretationen verringern. Was auf dem Spiel steht, sagt es gleich dazu: falsch besetzte Stellen und unpassende Maßnahmen machen Leute demotiviert." },
+            { "typ": "merksatz", "folie": 71, "text": "Fehleinschätzungen vermeiden!" },
+            { "typ": "text", "text": "Ziel der Folie: **Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen**." },
+            { "typ": "text", "text": "verkehrte Stellenbesetzungen, inadäquate PE-Maßnahmen erhöhen Demotivation" },
+            { "typ": "liste", "titel": "grundsätzlich 2 Typen von Fehlern", "punkte": ["allgemeine Beobachtungs-/Beurteilungsfehler", "persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler"] },
+            { "typ": "liste", "titel": "theoretische Grundlagen z.B.:", "punkte": ["[[Gating-Theorie]]", "[[Kognitive Dissonanz]]", "[[Assimilations-Kontrast-Theorie]]", "[[Persönlichkeitskonstrukte]]"] },
+            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: Die Kürzel „PE-Maßnahmen“, „FK“ und „tw.“ werden auf dieser Folie nicht ausgeschrieben. Wo in erklärenden Texten dieser Lernumgebung „Führungskräfte“ oder „teilweise“ steht, ist das eine Lesehilfe und keine Angabe des Skripts." }
+          ]
+        },
+        {
+          "id": "m5-t3-k2",
+          "titel": "Gating-Theorie und Kognitive Dissonanz",
+          "folien": [71],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die ersten beiden Theorien erklären, warum du nicht neutral hinschaust. Die Gating-Theorie sagt: Deine Erwartung entscheidet mit, welche Informationen überhaupt durchkommen. Die Kognitive Dissonanz sagt: Widersprüche sind unangenehm, also wird das Bild wieder glattgezogen." },
+            { "typ": "definition", "begriff": "Gating-Theorie", "text": "menschliche Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst\nd.h., bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen\n-> selektive Wahrnehmung/Aufmerksamkeit" },
+            { "typ": "definition", "begriff": "Kognitive Dissonanz", "text": "Menschen streben grds. Widerspruchsfreiheit in Meinungen, Werten, Einstellungen an\nd.h., Konflikte/Widersprüche entstehen aufgrund eigenen Verhaltens oder Verhaltens Anderer\n-> Widersprüche aushalten oder Herstellung Gleichgewicht durch Dissonanzreduktion" }
+          ]
+        },
+        {
+          "id": "m5-t3-k3",
+          "titel": "Assimilations-Kontrast-Theorie und Persönlichkeitskonstrukte",
+          "folien": [71],
+          "bloecke": [
+            { "typ": "einfach", "text": "Die dritte Theorie erklärt, woran du andere misst: an dir selbst. Wer dir nahe steht, wirkt gleicher als er ist, wer dir fern steht, fremder als er ist. Die vierte Position ist keine Theorie der Verzerrung, sondern eine Warnung: Persönlichkeitskonstrukte erklären Verhalten nur zum Teil." },
+            { "typ": "definition", "begriff": "Assimilations-Kontrast-Theorie", "text": "Menschen benutzen bei Beurteilung Anderer eigene Einstellungen als Anker\nd.h., nahe Einstellungen (Assimilation) verdecken Differenzen, ferne Einstellungen (Kontrast) verdecken Gemeinsamkeiten\n-> FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams" },
+            { "typ": "definition", "begriff": "Persönlichkeitskonstrukte", "text": "bestimmtes Verhalten erklärende psychische Prozesse empirisch belegt, doch nur als Teil von Beobachtungen zu sehen" },
+            { "typ": "liste", "titel": "Ausprägungen/Richtung/Stärke von", "punkte": ["Frustrationstoleranz", "Ambiguitätstoleranz", "Belohnungsaufschub", "Repression/Sensitization"] },
+            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: Die vier Persönlichkeitskonstrukte werden aufgezählt, aber nicht erläutert, „Repression/Sensitization“ ausdrücklich nicht." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "m5-t3-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "fehlertypen", "karte": "m5-t3-k1", "folien": [71],
+          "frage": "Welche zwei Typen von Beobachtungs-/Beurteilungsfehlern unterscheidet das Skript **grundsätzlich**?",
+          "optionen": [
+            "allgemeine vs. persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler",
+            "Wahrnehmungsverzerrungen vs. Fehlinterpretationen",
+            "Gating-Theorie vs. Kognitive Dissonanz",
+            "Assimilation vs. Kontrast"
+          ], "richtig": 0,
+          "erklaerung": "Das Skript nennt genau zwei Typen: allgemeine und persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler. Wahrnehmungsverzerrungen und Fehlinterpretationen sind das, was verringert werden soll; die Theorien sind die Erklärung dahinter, keine Fehlertypen.",
+          "beleg": "allgemeine vs. persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler", "belegQuelle": "folie-43",
+          "kurz": "2 Fehlertypen: allgemeine und persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler." },
+        { "id": "m5-t3-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "grundlagen-theorien", "karte": "m5-t3-k2", "folien": [71],
+          "frage": "Ordne jeder theoretischen Grundlage ihre Kernaussage zu.", "linksTitel": "Theoretische Grundlage", "rechtsTitel": "Kernaussage laut Skript",
+          "paare": [
+            { "links": "Gating-Theorie", "rechts": "Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst" },
+            { "links": "Kognitive Dissonanz", "rechts": "Menschen streben Widerspruchsfreiheit in Meinungen, Werten, Einstellungen an" },
+            { "links": "Assimilations-Kontrast-Theorie", "rechts": "Eigene Einstellungen dienen bei der Beurteilung Anderer als Anker" },
+            { "links": "Persönlichkeitskonstrukte", "rechts": "Verhalten erklärende psychische Prozesse, nur als Teil von Beobachtungen zu sehen" }
+          ],
+          "erklaerung": "Vier Grundlagen, vier verschiedene Mechanismen: Erwartung filtert (Gating), Widerspruch drückt (Dissonanz), das eigene Ich ist der Maßstab (Assimilation/Kontrast), und Konstrukte erklären nur einen Teil.",
+          "belege": [
+            { "text": "menschliche Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst", "quelle": "folie-43" },
+            { "text": "Menschen benutzen bei Beurteilung Anderer eigene Einstellungen als Anker", "quelle": "folie-43" }
+          ],
+          "kurz": "Gating: Erwartung filtert. Dissonanz: Widerspruchsfreiheit. Assimilation/Kontrast: eigene Einstellung als Anker. Konstrukte: nur Teil der Beobachtung." },
+        { "id": "m5-t3-a03", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "persoenlichkeitskonstrukte", "karte": "m5-t3-k3", "folien": [71],
+          "frage": "Welche **Persönlichkeitskonstrukte** zählt das Skript auf?",
+          "optionen": ["Frustrationstoleranz", "Ambiguitätstoleranz", "Belohnungsaufschub", "Repression/Sensitization", "Dissonanzreduktion", "selektive Wahrnehmung"], "richtig": [0, 1, 2, 3],
+          "erklaerung": "Das Skript nennt vier Konstrukte und spricht dabei von Ausprägung, Richtung und Stärke. Dissonanzreduktion gehört zur Kognitiven Dissonanz, selektive Wahrnehmung zur Gating-Theorie.",
+          "beleg": "Ausprägungen/Richtung/Stärke von Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization", "belegQuelle": "folie-43",
+          "kurz": "Persönlichkeitskonstrukte: Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization." },
+        { "id": "m5-t3-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "grundlagen-theorien", "karte": "m5-t3-k3", "folien": [71],
+          "frage": "Die theoretischen Grundlagen: Was stimmt?",
+          "aussagen": [
+            { "text": "Nach der Gating-Theorie werden bestimmte Informationen vorselektiert und verstärkt wahrgenommen.", "wahr": true },
+            { "text": "Nach der Assimilations-Kontrast-Theorie verdecken nahe Einstellungen die Gemeinsamkeiten.", "wahr": false, "korrektur": "Umgekehrt: nahe Einstellungen (Assimilation) verdecken Differenzen, ferne Einstellungen (Kontrast) verdecken Gemeinsamkeiten." },
+            { "text": "Kognitive Dissonanz lässt sich laut Skript aushalten oder durch Dissonanzreduktion ins Gleichgewicht bringen.", "wahr": true },
+            { "text": "Persönlichkeitskonstrukte sind laut Skript allein aussagekräftig und können Beobachtungen ersetzen.", "wahr": false, "korrektur": "Sie sind empirisch belegt, doch nur als Teil von Beobachtungen zu sehen." }
+          ],
+          "erklaerung": "Die häufigste Verwechslung ist Assimilation gegen Kontrast. Merke die Richtung: nah verdeckt Unterschiede, fern verdeckt Gemeinsamkeiten.",
+          "beleg": "nahe Einstellungen (Assimilation) verdecken Differenzen, ferne Einstellungen (Kontrast) verdecken Gemeinsamkeiten", "belegQuelle": "folie-43",
+          "kurz": "Assimilation verdeckt Differenzen, Kontrast verdeckt Gemeinsamkeiten." },
+        { "id": "m5-t3-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "assimilation-kontrast", "karte": "m5-t3-k3", "folien": [71], "bank": true,
+          "frage": "Vervollständige die Assimilations-Kontrast-Theorie.",
+          "text": "Menschen benutzen bei Beurteilung Anderer eigene Einstellungen als {_Anker_}. Nahe Einstellungen ({_Assimilation_}) verdecken {_Differenzen_}, ferne Einstellungen ({_Kontrast_}) verdecken {_Gemeinsamkeiten_}.",
+          "zusatzBank": ["Erwartungshaltungen", "Dissonanzreduktion"],
+          "erklaerung": "Die eigene Einstellung ist der Maßstab. Wer nah dran liegt, wirkt gleicher, als er ist; wer fern liegt, wirkt fremder, als er ist.",
+          "beleg": "Menschen benutzen bei Beurteilung Anderer eigene Einstellungen als Anker", "belegQuelle": "folie-43",
+          "kurz": "Eigene Einstellung als Anker: Assimilation verdeckt Differenzen, Kontrast verdeckt Gemeinsamkeiten." },
+        { "id": "m5-t3-a06", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "grundlagen-theorien", "karte": "m5-t3-k2", "folien": [71],
+          "frage": "Welche theoretische Grundlage erklärt die Aussage?",
+          "kategorien": ["Gating-Theorie", "Kognitive Dissonanz", "Assimilations-Kontrast-Theorie"],
+          "elemente": [
+            { "text": "bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen", "kategorie": 0 },
+            { "text": "selektive Wahrnehmung/Aufmerksamkeit", "kategorie": 0 },
+            { "text": "Menschen streben grds. Widerspruchsfreiheit in Meinungen, Werten, Einstellungen an", "kategorie": 1 },
+            { "text": "Herstellung Gleichgewicht durch Dissonanzreduktion", "kategorie": 1 },
+            { "text": "eigene Einstellungen dienen bei der Beurteilung Anderer als Anker", "kategorie": 2 },
+            { "text": "FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams", "kategorie": 2 }
+          ],
+          "erklaerung": "Jede Theorie hat auf der Folie eine Kernaussage, ein „d.h.“ und eine Folge nach dem Pfeil. Die Folgen sind die besten Erkennungsmerkmale: selektive Wahrnehmung, Dissonanzreduktion, eigene Abbilder.",
+          "belege": [
+            { "text": "d.h., bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen", "quelle": "folie-43" },
+            { "text": "FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams", "quelle": "folie-43" }
+          ],
+          "kurz": "Gating -> selektive Wahrnehmung. Dissonanz -> Dissonanzreduktion. Assimilation/Kontrast -> eigene Abbilder." },
+        { "id": "m5-t3-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "assimilation-kontrast", "karte": "m5-t3-k3", "folien": [71],
+          "frage": "Erkläre die Assimilations-Kontrast-Theorie und welche Folge das Skript daraus für FK zieht.",
+          "musterloesung": "Die Assimilations-Kontrast-Theorie ist eine der theoretischen Grundlagen für Beobachtungs- und Beurteilungsfehler. Sie besagt: Menschen benutzen bei der Beurteilung Anderer ihre eigenen Einstellungen als Anker. Daraus folgen zwei Richtungen. Nahe Einstellungen, also Assimilation, verdecken Differenzen; die andere Person erscheint ähnlicher, als sie ist. Ferne Einstellungen, also Kontrast, verdecken Gemeinsamkeiten; die Unterschiede treten stärker hervor, als sie sind. Das Skript zieht daraus eine Folge für die Praxis, im Wortlaut der Folie: „FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams.“ Das Kürzel „FK“ schreibt das Skript nicht aus. Damit gehört die Theorie zum Ziel der Folie, Wahrnehmungsverzerrungen und Fehlinterpretationen zu verringern.",
+          "checkliste": [
+            "Eigene Einstellungen als Anker genannt",
+            "Assimilation: nahe Einstellungen verdecken Differenzen",
+            "Kontrast: ferne Einstellungen verdecken Gemeinsamkeiten",
+            "Folge laut Skript: FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams",
+            "Einordnung als theoretische Grundlage der Beobachtungs-/Beurteilungsfehler"
+          ],
+          "erklaerung": "Die Folie trägt den Lernstoff-Aufkleber. Für die Klausur zählt die saubere Richtung von Assimilation und Kontrast plus die Folge, die das Skript für FK nennt.",
+          "belege": [
+            { "text": "Menschen benutzen bei Beurteilung Anderer eigene Einstellungen als Anker", "quelle": "folie-43" },
+            { "text": "FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams", "quelle": "folie-43" }
+          ],
+          "kurz": "Eigene Einstellung als Anker; Folge: FK suchen eigene Abbilder oder verdecken Meinungsdifferenzen." },
+        { "id": "m5-t3-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "fehleinschaetzungen", "karte": "m5-t3-k1", "folien": [71],
+          "frage": "„Fehleinschätzungen vermeiden!“ — erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz steht als Kernaussage auf der Folie „Menschen einschätzen im beruflichen Umfeld“ im Kapitel Personalauswahl, -beurteilung und -entwicklung. Das Ziel daneben lautet: Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen. Der Grund ist konkret: verkehrte Stellenbesetzungen und inadäquate PE-Maßnahmen erhöhen die Demotivation. Deshalb unterscheidet das Skript grundsätzlich zwei Typen von Fehlern, allgemeine und persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler, und nennt als theoretische Grundlagen beispielhaft die Gating-Theorie, die Kognitive Dissonanz, die Assimilations-Kontrast-Theorie und Persönlichkeitskonstrukte.",
+          "checkliste": [
+            "Ziel genannt: Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen",
+            "Folge von Fehleinschätzungen: verkehrte Stellenbesetzungen, inadäquate PE-Maßnahmen, mehr Demotivation",
+            "2 Typen von Fehlern: allgemeine und persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler",
+            "Mindestens zwei der vier theoretischen Grundlagen genannt",
+            "Einordnung: Personalauswahl, -beurteilung und -entwicklung"
+          ],
+          "erklaerung": "Der hervorgehobene Satz ist die Klammer der ganzen Folie. Eine gute Antwort nennt Ziel, Folgen, Fehlertypen und Grundlagen.",
+          "belege": [
+            { "text": "Fehleinschätzungen vermeiden!", "quelle": "folie-43" },
+            { "text": "verkehrte Stellenbesetzungen, inadäquate PE-Maßnahmen erhöhen Demotivation", "quelle": "folie-43" }
+          ],
+          "kurz": "Fehleinschätzungen kosten: falsche Stellenbesetzung, unpassende PE-Maßnahmen, mehr Demotivation." },
+        { "id": "m5-t3-a09", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "assimilation-kontrast", "karte": "m5-t3-k3", "folien": [71],
+          "szenario": "Übungsfall: Ein Teamleiter in deiner Bank stellt seit Jahren fast nur Bewerber ein, die ihm in Auftreten und Meinungen ähneln. Im Team fällt auf, dass Meinungsunterschiede selten offen angesprochen werden.",
+          "frage": "Welche theoretische Grundlage des Skripts erklärt dieses Muster am besten?",
+          "optionen": [
+            "Assimilations-Kontrast-Theorie: Die eigene Einstellung dient als Anker, nahe Einstellungen verdecken Differenzen, und FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams.",
+            "Gating-Theorie: Informationen werden vorselektiert und verstärkt wahrgenommen, es entsteht selektive Wahrnehmung.",
+            "Kognitive Dissonanz: Widersprüche werden ausgehalten oder durch Dissonanzreduktion ins Gleichgewicht gebracht.",
+            "Persönlichkeitskonstrukte: Ausprägung und Stärke von Frustrationstoleranz und Ambiguitätstoleranz."
+          ], "richtig": 0,
+          "erklaerung": "Das Skript nennt genau diese Folge bei der Assimilations-Kontrast-Theorie: FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams. Die anderen Grundlagen beschreiben andere Mechanismen.",
+          "beleg": "FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams", "belegQuelle": "folie-43",
+          "kurz": "Eigene Abbilder einstellen und Meinungsdifferenzen verdecken: Assimilations-Kontrast-Theorie." },
+        { "id": "m5-t3-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "gating", "karte": "m5-t3-k2", "folien": [71],
+          "vorne": "Was besagt die **Gating-Theorie** laut Skript?",
+          "hinten": "Menschliche Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst.\n\nd.h.: bestimmte Informationen werden vorselektiert und verstärkt wahrgenommen.\n\nFolge: selektive Wahrnehmung/Aufmerksamkeit.",
+          "erklaerung": "Die Erwartung wirkt wie ein Tor: Sie entscheidet mit, welche Informationen durchkommen und stärker gewichtet werden.",
+          "beleg": "menschliche Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst", "belegQuelle": "folie-43",
+          "kurz": "Gating-Theorie: Erwartungshaltungen steuern die Informationsverarbeitung, Folge ist selektive Wahrnehmung." }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Menschen einschätzen (Folie 71, Lernstoff):** Ziel = Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen. 2 Fehlertypen: allgemeine vs. persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler. 4 Grundlagen: Gating-Theorie, Kognitive Dissonanz, Assimilations-Kontrast-Theorie, Persönlichkeitskonstrukte."
+        ],
+        "ausfuehrlich": [
+          "**Kernaussage:** Fehleinschätzungen vermeiden! Ziel: Verringerung von Wahrnehmungsverzerrungen und Fehlinterpretationen.",
+          "**Warum:** verkehrte Stellenbesetzungen, inadäquate PE-Maßnahmen erhöhen Demotivation.",
+          "**2 Typen von Fehlern:** allgemeine vs. persönlichkeitsbezogene Beobachtungs-/Beurteilungsfehler.",
+          "**Gating-Theorie:** Informationsverarbeitung wird durch bestehende Erwartungshaltungen beeinflusst; Informationen werden vorselektiert und verstärkt wahrgenommen; Folge: selektive Wahrnehmung/Aufmerksamkeit.",
+          "**Kognitive Dissonanz:** Menschen streben grds. Widerspruchsfreiheit in Meinungen, Werten, Einstellungen an; Konflikte/Widersprüche entstehen aufgrund eigenen Verhaltens oder des Verhaltens Anderer; Folge: Widersprüche aushalten oder Herstellung Gleichgewicht durch Dissonanzreduktion.",
+          "**Assimilations-Kontrast-Theorie:** eigene Einstellungen als Anker; nahe Einstellungen (Assimilation) verdecken Differenzen, ferne Einstellungen (Kontrast) verdecken Gemeinsamkeiten; Folge: FK suchen tw. nach eigenen Abbildern oder verdecken Meinungsdifferenzen in Teams.",
+          "**Persönlichkeitskonstrukte:** Verhalten erklärende psychische Prozesse, empirisch belegt, doch nur als Teil von Beobachtungen zu sehen; Ausprägungen/Richtung/Stärke von Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization.",
+          "**Nicht erklärt im Skript:** Repression/Sensitization, PE-Maßnahmen, FK, tw."
+        ],
+        "merkhilfe": "Assimilation klingt nach „anähneln“: nah, also verschwinden die Unterschiede. Kontrast klingt nach Gegensatz: fern, also verschwinden die Gemeinsamkeiten."
+      }
+    }
+  ]
+}

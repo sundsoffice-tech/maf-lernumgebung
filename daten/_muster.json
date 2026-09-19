@@ -1,0 +1,128 @@
+{
+  "id": "muster",
+  "titel": "Musterdaten (nur für Tests und als Vorlage, erscheint nicht im Kurs)",
+  "vorlesung": "MAF II",
+  "themen": [
+    {
+      "id": "muster-t1",
+      "titel": "Herzbergs Zweifaktoren-Theorie",
+      "folien": [47],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "muster-t1-k1",
+          "titel": "Zwei getrennte Dimensionen",
+          "folien": [47],
+          "bloecke": [
+            { "typ": "einfach", "text": "{{Frederick Herzberg}} trennt zwei Fragen, die man leicht vermischt: Was macht **unzufrieden**? Und was macht **zufrieden**? Das sind bei ihm zwei verschiedene Skalen, nicht zwei Enden derselben Skala." },
+            { "typ": "definition", "begriff": "Hygienefaktoren", "text": "Thematisieren die Rahmenbedingungen des Arbeitsprozesses: Image, Arbeitsplatzausstattung, Arbeitsbedingungen, Arbeitsklima, Arbeitsplatzsicherheit, Struktur." },
+            { "typ": "definition", "begriff": "Motivatoren", "text": "Repräsentieren intrinsische Faktoren, wie interessante Aufgaben, Eigenverantwortung, Anerkennung, selbständiges Arbeiten, Aufstiegsmöglichkeiten." },
+            { "typ": "vergleich", "spalten": [
+              { "titel": "Hygienefaktoren", "punkte": ["Skala: unzufrieden / nicht unzufrieden", "fehlen sie, entsteht Unzufriedenheit", "sind sie da, entsteht noch keine Leistungsmotivation"] },
+              { "titel": "Motivatoren", "punkte": ["Skala: zufrieden / nicht zufrieden", "stiften Zufriedenheit", "nur sie erzeugen echte Motivation zur Leistung"] }
+            ] },
+            { "typ": "merksatz", "folie": 47, "text": "zufriedenstellend gestaltete Hygienefaktoren + aufgabenspezifische Motivatoren = Arbeitszufriedenheit & Leistungsbereitschaft" },
+            { "typ": "diagramm", "ref": "herzberg", "unterschrift": "Hygienefaktoren wirken auf der Skala der Unzufriedenheit, Motivatoren auf der Skala der Zufriedenheit." },
+            { "typ": "merkhilfe", "text": "Hygiene wie im Krankenhaus: Fehlt sie, wird man krank. Ist sie da, ist man deshalb noch nicht fit." }
+          ]
+        }
+      ],
+      "aufgaben": [
+        { "id": "muster-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "herzberg-faktoren", "karte": "muster-t1-k1", "folien": [47],
+          "frage": "Welche Skala gehört nach Herzberg zu den **Hygienefaktoren**?",
+          "optionen": ["unzufrieden / nicht unzufrieden", "zufrieden / nicht zufrieden", "motiviert / demotiviert", "intrinsisch / extrinsisch"], "richtig": 0,
+          "erklaerung": "Hygienefaktoren entscheiden nur darüber, ob jemand unzufrieden ist oder nicht unzufrieden. Zufriedenheit entsteht auf der zweiten Skala, durch Motivatoren.",
+          "beleg": "„ unzufrieden/nicht unzufrieden“ (Hygienefaktoren) vs. „zufrieden/nicht zufrieden“ (Motivatoren)", "belegQuelle": "folie-19",
+          "kurz": "Hygienefaktoren: unzufrieden / nicht unzufrieden. Motivatoren: zufrieden / nicht zufrieden." },
+        { "id": "muster-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "herzberg-faktoren", "karte": "muster-t1-k1", "folien": [47],
+          "frage": "Welche der folgenden Punkte nennt das Skript als **Motivatoren**?",
+          "optionen": ["interessante Aufgaben", "Arbeitsplatzsicherheit", "Anerkennung", "Arbeitsklima", "Aufstiegsmöglichkeiten"], "richtig": [0, 2, 4],
+          "erklaerung": "Motivatoren sind intrinsische Faktoren. Arbeitsplatzsicherheit und Arbeitsklima sind Rahmenbedingungen, also Hygienefaktoren.",
+          "beleg": "„Motivatoren“ repräsentieren intrinsische Faktoren, wie interessante Aufgaben, Eigenverantwortung, Anerkennung, selbständiges Arbeiten, Aufstiegsmöglichkeiten", "belegQuelle": "folie-19",
+          "kurz": "Motivatoren: interessante Aufgaben, Eigenverantwortung, Anerkennung, selbständiges Arbeiten, Aufstiegsmöglichkeiten." },
+        { "id": "muster-a03", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "herzberg-these", "karte": "muster-t1-k1", "folien": [47],
+          "frage": "Herzbergs These: Was stimmt?",
+          "aussagen": [
+            { "text": "Fehlende oder unzureichende Hygienefaktoren führen zu Unzufriedenheit.", "wahr": true },
+            { "text": "Vorhandene Hygienefaktoren führen zur erforderlichen Leistungsmotivation.", "wahr": false, "korrektur": "Vorhandene Hygienefaktoren führen gerade NICHT zur erforderlichen Leistungsmotivation." },
+            { "text": "Echte Motivation zur Leistung entsteht nur durch zufriedenheitsstiftende Motivatoren.", "wahr": true }
+          ],
+          "erklaerung": "Das ist der Kern der These: Hygienefaktoren verhindern Unzufriedenheit, motivieren aber nicht. Motivation zur Leistung kommt nur von den Motivatoren.",
+          "beleg": "vorhandene Hygienefaktoren führen aber nicht zu erforderlicher Leistungsmotivation", "belegQuelle": "folie-19",
+          "kurz": "Hygienefaktoren verhindern Unzufriedenheit, erzeugen aber keine Leistungsmotivation." },
+        { "id": "muster-a04", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "inhaltstheorien-personen", "karte": "muster-t1-k1", "folien": [46, 47],
+          "frage": "Ordne die Person ihrem Beitrag zu.", "linksTitel": "Person", "rechtsTitel": "Beitrag laut Skript",
+          "paare": [
+            { "links": "Abraham Maslow", "rechts": "Bedürfnispyramide" },
+            { "links": "Frederick Herzberg", "rechts": "Zweifaktoren-Theorie" },
+            { "links": "Douglas McGregor", "rechts": "Theory X/Y" }
+          ],
+          "erklaerung": "Maslow und Herzberg stehen im Skript für die bedürfnisorientierten Inhaltstheorien der Motivation, McGregor für Theory X/Y.",
+          "beleg": "Herzberg‘s Zweifaktoren-Theorie", "belegQuelle": "folie-19",
+          "kurz": "Maslow: Bedürfnispyramide. Herzberg: Zweifaktoren-Theorie. McGregor: Theory X/Y." },
+        { "id": "muster-a05", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "tuckman", "karte": "muster-t1-k1", "folien": [55],
+          "frage": "Bringe die Phasen der Gruppenentwicklung nach Tuckman in die richtige Reihenfolge.",
+          "elemente": ["Forming", "Storming", "Norming", "Performing", "Re-Forming"],
+          "erklaerung": "Das Skript nennt fünf Phasen und betont: kein linearer Prozess, er unterliegt Sprüngen und Zyklen.",
+          "beleg": "5 Phasen der Psychologie von Gruppen (nach Tuckman‘s Phasenmodell)", "belegQuelle": "folie-27",
+          "kurz": "Forming, Storming, Norming, Performing, Re-Forming. Nicht linear." },
+        { "id": "muster-a06", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "herzberg-faktoren", "karte": "muster-t1-k1", "folien": [47],
+          "frage": "Hygienefaktor oder Motivator? Sortiere ein.",
+          "kategorien": ["Hygienefaktor", "Motivator"],
+          "elemente": [
+            { "text": "Arbeitsklima", "kategorie": 0 }, { "text": "Eigenverantwortung", "kategorie": 1 },
+            { "text": "Arbeitsplatzausstattung", "kategorie": 0 }, { "text": "Anerkennung", "kategorie": 1 },
+            { "text": "Image", "kategorie": 0 }, { "text": "selbständiges Arbeiten", "kategorie": 1 }
+          ],
+          "erklaerung": "Rahmenbedingungen des Arbeitsprozesses sind Hygienefaktoren. Was in der Aufgabe selbst liegt und intrinsisch wirkt, ist ein Motivator.",
+          "beleg": "„Hygienefaktoren“ thematisieren Rahmenbedingungen des Arbeitsprozesses", "belegQuelle": "folie-19",
+          "kurz": "Rahmenbedingungen = Hygienefaktoren, intrinsische Faktoren = Motivatoren." },
+        { "id": "muster-a07", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "herzberg-formel", "karte": "muster-t1-k1", "folien": [47], "bank": true,
+          "frage": "Vervollständige die Formel des Skripts.",
+          "text": "zufriedenstellend gestaltete {_Hygienefaktoren_} + aufgabenspezifische {_Motivatoren_} = {_Arbeitszufriedenheit_} & Leistungsbereitschaft",
+          "zusatzBank": ["Defizitmotive", "Anreize"],
+          "erklaerung": "Erst beides zusammen ergibt Arbeitszufriedenheit und Leistungsbereitschaft.",
+          "beleg": "aufgabenspezifische Motivatoren", "belegQuelle": "folie-19",
+          "kurz": "Hygienefaktoren + Motivatoren = Arbeitszufriedenheit & Leistungsbereitschaft." },
+        { "id": "muster-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "herzberg-faktoren", "karte": "muster-t1-k1", "folien": [47],
+          "vorne": "Was thematisieren Hygienefaktoren?", "hinten": "Die **Rahmenbedingungen des Arbeitsprozesses**: Image, Arbeitsplatzausstattung, Arbeitsbedingungen, Arbeitsklima, Arbeitsplatzsicherheit, Struktur.",
+          "erklaerung": "Hygienefaktoren betreffen das Umfeld der Arbeit, nicht ihren Inhalt.",
+          "beleg": "Rahmenbedingungen des Arbeitsprozesses", "belegQuelle": "folie-19",
+          "kurz": "Hygienefaktoren = Rahmenbedingungen des Arbeitsprozesses." },
+        { "id": "muster-a09", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "herzberg-these", "karte": "muster-t1-k1", "folien": [47],
+          "frage": "Erkläre Herzbergs These: Warum reicht es nicht, nur die Hygienefaktoren gut zu gestalten?",
+          "musterloesung": "Nach Herzberg ist Arbeitszufriedenheit zweidimensional. Hygienefaktoren wirken nur auf der Skala unzufrieden / nicht unzufrieden: Fehlen sie, entsteht Unzufriedenheit. Sind sie vorhanden, führt das aber nicht zur erforderlichen Leistungsmotivation. Echte Motivation zur Leistung entsteht nur durch zufriedenheitsstiftende Motivatoren, also intrinsische Faktoren wie interessante Aufgaben, Eigenverantwortung oder Anerkennung. Erst beides zusammen ergibt Arbeitszufriedenheit und Leistungsbereitschaft.",
+          "checkliste": ["Zwei getrennte Dimensionen genannt (unzufrieden/nicht unzufrieden und zufrieden/nicht zufrieden)", "Fehlende Hygienefaktoren führen zu Unzufriedenheit", "Vorhandene Hygienefaktoren erzeugen keine Leistungsmotivation", "Echte Leistungsmotivation nur durch Motivatoren", "Formel: Hygienefaktoren + Motivatoren = Arbeitszufriedenheit & Leistungsbereitschaft"],
+          "erklaerung": "Die Klausur kann genau diese Unterscheidung verlangen. Wichtig ist, beide Skalen zu nennen.",
+          "beleg": "echte Motivation zur Leistung nur durch zufriedenheitsstiftende Motivatoren", "belegQuelle": "folie-19",
+          "kurz": "Nur Motivatoren erzeugen Leistungsmotivation; Hygienefaktoren verhindern nur Unzufriedenheit." },
+        { "id": "muster-a10", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "herzberg-these", "karte": "muster-t1-k1", "folien": [47, 48],
+          "szenario": "Eine Filiale bekommt neue Möbel, bessere Bildschirme und einen renovierten Pausenraum. Die Beschwerden hören auf, aber das Team leistet nicht mehr als vorher.",
+          "frage": "Wie erklärt Herzbergs Theorie dieses Ergebnis?",
+          "optionen": ["Es wurden Hygienefaktoren verbessert: Das beseitigt Unzufriedenheit, erzeugt aber keine Leistungsmotivation.", "Es wurden Motivatoren verbessert, die erst nach längerer Zeit wirken.", "Die Maßnahme spricht Wachstumsmotive an, die bereits befriedigt waren."], "richtig": 0,
+          "erklaerung": "Arbeitsplatzausstattung und Arbeitsbedingungen sind Hygienefaktoren. Nach dem Skript sollte die Führungskraft jetzt den Schwerpunkt auf Motivatoren legen.",
+          "beleg": "Arbeitsplatzausstattung, Arbeitsbedingungen, Arbeitsklima", "belegQuelle": "folie-19",
+          "kurz": "Bessere Ausstattung = Hygienefaktor: weniger Unzufriedenheit, aber keine zusätzliche Leistungsmotivation." },
+        { "id": "muster-a11", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "herzberg-these", "karte": "muster-t1-k1", "folien": [48],
+          "szenario": "Dein Team ist zufrieden mit Gehalt und Arbeitsbedingungen, wirkt aber lustlos.",
+          "frage": "Was sollte die Führungskraft nach den Schlussfolgerungen des Skripts jetzt tun?",
+          "musterloesung": "Wenn die Hygienefaktoren erfüllt sind, legt die Führungskraft den Schwerpunkt auf Wachstumsmotive (Maslow) und Motivatoren (Herzberg). Dazu identifiziert sie durch Gespräche die individuellen und gruppenspezifischen Motivstrukturen.",
+          "checkliste": ["Hygienefaktoren sind erfüllt, also nicht weiter dort ansetzen", "Schwerpunkt auf Wachstumsmotive und Motivatoren legen", "Motivstrukturen durch Gespräche identifizieren"],
+          "erklaerung": "Das Skript leitet genau diese Reihenfolge ab: erst Mängel lindern, dann Motivatoren stärken.",
+          "beleg": "nach Linderung von Mängeln bei Hygienefaktoren Schwerpunkt auf Wachstumsmotive und Motivatoren legen", "belegQuelle": "folie-20",
+          "kurz": "Hygiene erfüllt? Dann Schwerpunkt auf Wachstumsmotive und Motivatoren." },
+        { "id": "muster-a12", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "herzberg-faktoren", "karte": "muster-t1-k1", "folien": [47],
+          "frage": "Beschrifte die Abbildung zur Zweifaktoren-Theorie.", "diagramm": "herzberg", "gruppe": "faktoren",
+          "erklaerung": "Links die Skala der Unzufriedenheit (Hygienefaktoren), rechts die Skala der Zufriedenheit (Motivatoren).",
+          "beleg": "Arbeitszufriedenheit als zweidimensionales Konzept", "belegQuelle": "folie-19",
+          "kurz": "Zweidimensional: Hygienefaktoren und Motivatoren." }
+      ],
+      "lernzettel": {
+        "kompakt": ["**Herzberg, Zweifaktoren-Theorie:** Hygienefaktoren (Rahmenbedingungen) verhindern nur Unzufriedenheit. Motivatoren (intrinsisch) erzeugen Leistungsmotivation. Beides zusammen = Arbeitszufriedenheit & Leistungsbereitschaft."],
+        "ausfuehrlich": ["**Herzberg, Zweifaktoren-Theorie (Folie 47).** Arbeitszufriedenheit ist zweidimensional: unzufrieden / nicht unzufrieden (Hygienefaktoren) und zufrieden / nicht zufrieden (Motivatoren).", "**Hygienefaktoren:** Image, Arbeitsplatzausstattung, Arbeitsbedingungen, Arbeitsklima, Arbeitsplatzsicherheit, Struktur.", "**Motivatoren:** interessante Aufgaben, Eigenverantwortung, Anerkennung, selbständiges Arbeiten, Aufstiegsmöglichkeiten.", "**These:** Fehlende Hygienefaktoren machen unzufrieden. Vorhandene motivieren noch nicht. Echte Leistungsmotivation nur durch Motivatoren."],
+        "merkhilfe": "Hygiene wie im Krankenhaus: Fehlt sie, wird man krank. Ist sie da, ist man deshalb noch nicht fit."
+      }
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "quellen": [
+    {
+      "id": "pink-rsa",
+      "titel": "RSA Animate – Drive: The surprising truth about what motivates us (Dan Pink)",
+      "url": "https://www.youtube.com/watch?v=u6XAPnuFjJc",
+      "folie": 44,
+      "status": "ja",
+      "hinweis": "Vollständig ausgewertet über die offiziellen englischen Untertitel des Videos (abgerufen am 19.09.2026)."
+    },
+    {
+      "id": "pink-ted",
+      "titel": "TED-Talk Dan Pink: The puzzle of motivation (im Skript: „Dan Pink on motivation“)",
+      "url": "https://www.ted.com/talks/dan_pink_on_motivation/transcript?language=de",
+      "folie": 44,
+      "status": "ja",
+      "hinweis": "Die im Skript verlinkte TED-Seite lieferte beim Abruf kein Transkript. Ausgewertet wurden deshalb die offiziellen deutschen und englischen Untertitel desselben Talks vom TED-Kanal (abgerufen am 20.09.2026)."
+    },
+    {
+      "id": "asch-quarks",
+      "titel": "Das Asch-Experiment: So manipuliert uns die Gruppe (Quarks)",
+      "url": "https://www.youtube.com/watch?v=I40g6U3K7hc",
+      "folie": 58,
+      "status": "teilweise",
+      "hinweis": "Das Video ist zugänglich. Ausgewertet wurden die automatisch erzeugten deutschen Untertitel; sie enthalten Hörfehler. Übernommen ist nur, was eindeutig verständlich war. Sieh dir das Video (rund 5 Minuten) zusätzlich selbst an."
+    },
+    {
+      "id": "konformitaet-braingames",
+      "titel": "Brain Games – Conformity Waiting Room (im Skript: „peer pressure, engl.“)",
+      "url": "https://www.youtube.com/watch?v=X6kWygqR0L8",
+      "folie": 58,
+      "status": "teilweise",
+      "hinweis": "Das Video ist zugänglich. Ausgewertet wurden die automatisch erzeugten englischen Untertitel. Übernommen ist nur, was eindeutig verständlich war. Sieh dir das Video (rund 6 Minuten) zusätzlich selbst an."
+    },
+    {
+      "id": "artikel-muster",
+      "titel": "Gute Leute, schlechte Organisation: Was Leistung ausbremst (Antonia Götsch mit Judith Muster, manager magazin / Harvard Business manager, 05.02.2026)",
+      "url": "https://www.manager-magazin.de/hbm/fuehrung/gute-leute-schlechte-organisation-was-leistung-ausbremst-a-8e878f6d-7ffa-4d8f-8fd8-501d7d9d4df6",
+      "folie": 82,
+      "status": "ja",
+      "hinweis": "Der Artikel steht als Bildausschnitt auf den Folien 82 und 83; dieser Ausschnitt ist wörtlich ausgewertet und gilt als Skriptinhalt. Der Online-Artikel war am 20.09.2026 frei lesbar und wurde gegengelesen."
+    },
+    {
+      "id": "day1-mindset",
+      "titel": "Day 1 Mindset bei Amazon: Innovationskraft und Kundenzentrierung als Erfolgsfaktoren",
+      "url": "https://www.quality.de/lexikon/day-1-mindset/",
+      "folie": 84,
+      "status": "ja",
+      "hinweis": "Die Seite steht als Bild auf Folie 84 und ist wörtlich ausgewertet; sie gilt als Skriptinhalt. Die Online-Seite war am 20.09.2026 frei lesbar und wurde gegengelesen."
+    },
+    {
+      "id": "pexels-515169",
+      "titel": "Bildnachweis zum Foto der Zusammenfassung (Pexels)",
+      "url": "https://www.pexels.com/de/foto/anstellung-arbeit-arbeiten-arbeiter-515169/",
+      "folie": 42,
+      "status": "nein",
+      "hinweis": "Reiner Bildnachweis unter dem Foto der Folie 42, kein Fachinhalt. Nicht ausgewertet, weil es dort nichts zu lernen gibt; hier nur der Vollständigkeit halber verzeichnet."
+    }
+  ],
+  "nurGenannt": [
+    {
+      "begriff": "ETHOS",
+      "folie": 36,
+      "hinweis": "Einer der drei „modes of persuasion\" des Aristoteles. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "LOGOS",
+      "folie": 36,
+      "hinweis": "Einer der drei „modes of persuasion\" des Aristoteles. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "PATHOS",
+      "folie": 36,
+      "hinweis": "Einer der drei „modes of persuasion\" des Aristoteles. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "MA-Reifegrad",
+      "folie": 39,
+      "hinweis": "Dritte Führungs-Dimension bei Hersey/Blanchard in der Übersicht Führungsstile. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Zahlenpaare bei Blake/Mouton",
+      "folie": 39,
+      "hinweis": "Die Paare (1,1), (9,1), (5,5), (9,9), (1,9) stehen in der Übersicht Führungsstile neben den Stilnamen. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Behaviorismus",
+      "folie": 40,
+      "hinweis": "Steht auf der Folie in Klammern hinter „dem Verhalten von FK zugewandt\". Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Mitwirkungsorientierung",
+      "folie": 42,
+      "hinweis": "Dritte Orientierung der Zusammenfassung, erhöht laut Folie die MA-Identifikation. Im Skript hier erstmals genannt, nicht erklärt."
+    }
+  ]
+}
