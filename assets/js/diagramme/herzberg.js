@@ -113,6 +113,127 @@ export default {
   <text data-label="formel-gleich" x="400" y="930" text-anchor="middle" class="d-text-akzent">=</text>
   <text data-label="formel-3" x="400" y="956" text-anchor="middle" class="d-text-akzent">Arbeitszufriedenheit &amp; Leistungsbereitschaft</text>
 </g>`,
+  // Hochkant (iPhone): aus den Spalten werden Blöcke. Die beiden Skalen stehen untereinander, und die beiden
+  // Ereignisreihen der Abbildung folgen in der Leserichtung der Querfassung: erst die linke Seite (extreme
+  // Unzufriedenheit, Minuszeichen), dann die rechte (extreme Zufriedenheit, Pluszeichen).
+  viewBoxSchmal: '0 0 360 1540',
+  svgSchmal: `<g>
+  <text data-label="kopf" x="180" y="26" text-anchor="middle" class="d-text-titel">
+    <tspan x="180" dy="0">Arbeitszufriedenheit als</tspan>
+    <tspan x="180" dy="21">zweidimensionales Konzept</tspan>
+  </text>
+
+  <rect class="d-flaeche-leer" x="6" y="66" width="348" height="306" rx="10"/>
+  <text data-label="hyg-titel" x="180" y="92" text-anchor="middle" class="d-text-fett">Hygienefaktoren</text>
+  <path class="d-linie" d="M 50 124 L 310 124"/>
+  <path class="d-pfeilspitze" d="M 40 124 l 11 -6 l 0 12 Z"/>
+  <path class="d-pfeilspitze" d="M 320 124 l -11 -6 l 0 12 Z"/>
+  <text data-label="hyg-pol-links" x="20" y="148" class="d-text-klein">unzufrieden</text>
+  <text data-label="hyg-pol-rechts" x="340" y="148" text-anchor="end" class="d-text-klein">nicht unzufrieden</text>
+  <text data-label="hyg-def" x="180" y="178" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">thematisieren Rahmenbedingungen des</tspan>
+    <tspan x="180" dy="17">Arbeitsprozesses</tspan>
+  </text>
+  <path class="d-linie-duenn" d="M 22 217 L 32 217"/>
+  <text data-label="hyg-f1" x="40" y="222" class="d-text">Image</text>
+  <path class="d-linie-duenn" d="M 22 243 L 32 243"/>
+  <text data-label="hyg-f2" x="40" y="248" class="d-text">Arbeitsplatzausstattung</text>
+  <path class="d-linie-duenn" d="M 22 269 L 32 269"/>
+  <text data-label="hyg-f3" x="40" y="274" class="d-text">Arbeitsbedingungen</text>
+  <path class="d-linie-duenn" d="M 22 295 L 32 295"/>
+  <text data-label="hyg-f4" x="40" y="300" class="d-text">Arbeitsklima</text>
+  <path class="d-linie-duenn" d="M 22 321 L 32 321"/>
+  <text data-label="hyg-f5" x="40" y="326" class="d-text">Arbeitsplatzsicherheit</text>
+  <path class="d-linie-duenn" d="M 22 347 L 32 347"/>
+  <text data-label="hyg-f6" x="40" y="352" class="d-text">Struktur...</text>
+
+  <rect class="d-flaeche-leer" x="6" y="388" width="348" height="264" rx="10"/>
+  <text data-label="mot-titel" x="180" y="414" text-anchor="middle" class="d-text-fett">Motivatoren</text>
+  <path class="d-linie" d="M 50 446 L 310 446"/>
+  <path class="d-pfeilspitze" d="M 40 446 l 11 -6 l 0 12 Z"/>
+  <path class="d-pfeilspitze" d="M 320 446 l -11 -6 l 0 12 Z"/>
+  <text data-label="mot-pol-links" x="20" y="470" class="d-text-klein">nicht zufrieden</text>
+  <text data-label="mot-pol-rechts" x="340" y="470" text-anchor="end" class="d-text-klein">zufrieden</text>
+  <text data-label="mot-def" x="180" y="500" text-anchor="middle" class="d-text-klein">repräsentieren intrinsische Faktoren</text>
+  <path class="d-linie-duenn" d="M 22 523 L 32 523"/>
+  <text data-label="mot-f1" x="40" y="528" class="d-text">interessante Aufgaben</text>
+  <path class="d-linie-duenn" d="M 22 549 L 32 549"/>
+  <text data-label="mot-f2" x="40" y="554" class="d-text">Eigenverantwortung</text>
+  <path class="d-linie-duenn" d="M 22 575 L 32 575"/>
+  <text data-label="mot-f3" x="40" y="580" class="d-text">Anerkennung</text>
+  <path class="d-linie-duenn" d="M 22 601 L 32 601"/>
+  <text data-label="mot-f4" x="40" y="606" class="d-text">selbständiges Arbeiten</text>
+  <path class="d-linie-duenn" d="M 22 627 L 32 627"/>
+  <text data-label="mot-f5" x="40" y="632" class="d-text">Aufstiegsmöglichkeiten,...</text>
+
+  <rect class="d-flaeche" x="6" y="676" width="348" height="76" rx="8"/>
+  <text data-label="kopf-unzufrieden" x="180" y="702" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Faktoren von 1844 Ereignissen während der Arbeit,</tspan>
+    <tspan x="180" dy="16">die zu extremer Unzufriedenheit führen</tspan>
+    <tspan x="180" dy="16">prozentuale Häufigkeit</tspan>
+  </text>
+  <rect class="d-flaeche-leer" x="156" y="762" width="48" height="30" rx="6"/>
+  <path class="d-linie" d="M 168 777 L 192 777"/>
+
+  <path class="d-linie" d="M 20 806 L 20 1024"/>
+  <path class="d-linie-duenn" d="M 20 811 L 30 811"/>
+  <text data-label="ev-7" x="38" y="816" class="d-text-klein">Firmenpolitik und Verwaltung</text>
+  <path class="d-linie-duenn" d="M 20 833 L 30 833"/>
+  <text data-label="ev-8" x="38" y="838" class="d-text-klein">Technische Kompetenz der Vorgesetzten</text>
+  <path class="d-linie-duenn" d="M 20 855 L 30 855"/>
+  <text data-label="ev-9" x="38" y="860" class="d-text-klein">Persönliche Beziehung zu Vorgesetzten</text>
+  <path class="d-linie-duenn" d="M 20 877 L 30 877"/>
+  <text data-label="ev-10" x="38" y="882" class="d-text-klein">Arbeitsbedingungen</text>
+  <path class="d-linie-duenn" d="M 20 899 L 30 899"/>
+  <text data-label="ev-11" x="38" y="904" class="d-text-klein">Einkommen</text>
+  <path class="d-linie-duenn" d="M 20 921 L 30 921"/>
+  <text data-label="ev-12" x="38" y="926" class="d-text-klein">Persönliche Beziehung zu Kollegen</text>
+  <path class="d-linie-duenn" d="M 20 943 L 30 943"/>
+  <text data-label="ev-13" x="38" y="948" class="d-text-klein">Einfluß auf Privatleben</text>
+  <path class="d-linie-duenn" d="M 20 965 L 30 965"/>
+  <text data-label="ev-14" x="38" y="970" class="d-text-klein">Persönliche Beziehung zu Untergebenen</text>
+  <path class="d-linie-duenn" d="M 20 987 L 30 987"/>
+  <text data-label="ev-15" x="38" y="992" class="d-text-klein">Status</text>
+  <path class="d-linie-duenn" d="M 20 1009 L 30 1009"/>
+  <text data-label="ev-16" x="38" y="1014" class="d-text-klein">Sicherheit</text>
+
+  <rect class="d-flaeche" x="6" y="1044" width="348" height="76" rx="8"/>
+  <text data-label="kopf-zufrieden" x="180" y="1070" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Faktoren von 1763 Ereignissen während der Arbeit,</tspan>
+    <tspan x="180" dy="16">die zu extremer Zufriedenheit führen</tspan>
+    <tspan x="180" dy="16">prozentuale Häufigkeit</tspan>
+  </text>
+  <rect class="d-flaeche-leer" x="156" y="1130" width="48" height="30" rx="6"/>
+  <path class="d-linie" d="M 168 1145 L 192 1145"/>
+  <path class="d-linie" d="M 180 1133 L 180 1157"/>
+
+  <path class="d-linie" d="M 20 1174 L 20 1306"/>
+  <path class="d-linie-duenn" d="M 20 1179 L 30 1179"/>
+  <text data-label="ev-1" x="38" y="1184" class="d-text-klein">Erfolgserlebnis</text>
+  <path class="d-linie-duenn" d="M 20 1201 L 30 1201"/>
+  <text data-label="ev-2" x="38" y="1206" class="d-text-klein">Anerkennung</text>
+  <path class="d-linie-duenn" d="M 20 1223 L 30 1223"/>
+  <text data-label="ev-3" x="38" y="1228" class="d-text-klein">Arbeit selbst</text>
+  <path class="d-linie-duenn" d="M 20 1245 L 30 1245"/>
+  <text data-label="ev-4" x="38" y="1250" class="d-text-klein">Verantwortungsgefühl</text>
+  <path class="d-linie-duenn" d="M 20 1267 L 30 1267"/>
+  <text data-label="ev-5" x="38" y="1272" class="d-text-klein">Fortschritt</text>
+  <path class="d-linie-duenn" d="M 20 1289 L 30 1289"/>
+  <text data-label="ev-6" x="38" y="1294" class="d-text-klein">Wachstum</text>
+
+  <rect class="d-akzentflaeche" x="20" y="1326" width="320" height="194" rx="10"/>
+  <text data-label="formel-1" x="180" y="1356" text-anchor="middle" class="d-text-akzent">
+    <tspan x="180" dy="0">zufriedenstellend gestaltete</tspan>
+    <tspan x="180" dy="22">Hygienefaktoren</tspan>
+  </text>
+  <text data-label="formel-plus" x="180" y="1404" text-anchor="middle" class="d-text-akzent">+</text>
+  <text data-label="formel-2" x="180" y="1430" text-anchor="middle" class="d-text-akzent">aufgabenspezifische Motivatoren</text>
+  <text data-label="formel-gleich" x="180" y="1456" text-anchor="middle" class="d-text-akzent">=</text>
+  <text data-label="formel-3" x="180" y="1482" text-anchor="middle" class="d-text-akzent">
+    <tspan x="180" dy="0">Arbeitszufriedenheit &amp;</tspan>
+    <tspan x="180" dy="22">Leistungsbereitschaft</tspan>
+  </text>
+</g>`,
   labels: [
     { id: 'kopf', text: 'Arbeitszufriedenheit als zweidimensionales Konzept', abfragbar: false, gruppe: 'faktoren' },
     { id: 'hyg-titel', text: 'Hygienefaktoren', abfragbar: true, gruppe: 'faktoren' },

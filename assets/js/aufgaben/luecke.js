@@ -62,10 +62,11 @@ export default {
     }
 
     if (!stellen.length) {
-      // Kaputte Daten sollen die Lernende nicht Punkte kosten
+      // Kaputte Daten sollen die Lernende weder Punkte kosten noch ihr einen schenken: nichtWerten
+      // überspringt die Aufgabe, ohne sie im Lernstand als gekonnt zu vermerken.
       host.appendChild(h('div.hinweiskasten.hinweiskasten--mittel', h('p', 'In diesem Text ist keine Lücke markiert. Die Aufgabe wird nicht gewertet.')))
       api.bereit(true)
-      return { pruefen: () => ({ punkte: 1, antwort: '' }) }
+      return { pruefen: () => ({ nichtWerten: true, antwort: '' }) }
     }
 
     // Wortbank: die Lösungen aller Lücken plus die zusätzlichen falschen Wörter, gemischt
@@ -134,8 +135,12 @@ export default {
         s.huelle.appendChild(s.knopf)
       } else {
         const laenge = Math.max(...s.loesungen.map((l) => l.length))
+        // autocorrect gehört dazu: spellcheck="false" schaltet auf iOS nur die Rechtschreibprüfung ab,
+        // nicht die Autokorrektur. Ohne das ersetzt Safari getippte Fachwörter (Hygienefaktoren, Tuckman)
+        // und die richtige Antwort würde als falsch gewertet.
         s.feld = h('input.luecke.luecke--feld', {
-          type: 'text', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false',
+          type: 'text', autocomplete: 'off', autocapitalize: 'off', autocorrect: 'off', spellcheck: 'false',
+          inputmode: 'text', enterkeyhint: i === stellen.length - 1 ? 'done' : 'next',
           size: String(Math.max(7, Math.min(26, laenge + 2))),
           'aria-label': `Lücke ${s.nummer} von ${stellen.length}`,
           oninput: melde,

@@ -6,108 +6,262 @@
     {
       "id": "m4-t1",
       "titel": "Interne Kommunikation: Bringschuld und Holschuld",
-      "folien": [62],
+      "folien": [
+        62
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m4-t1-k1",
           "titel": "Kommunikation im Sinne MAF",
-          "folien": [62],
+          "folien": [
+            62
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Diese Folie klärt, was das Skript unter interner Kommunikation versteht. Gemeint ist nicht Small Talk, sondern das systematische Informieren der Belegschaft über alles, was das Unternehmen und sein Umfeld bewegt. Die Führungskraft soll damit Sinn und Transparenz vermitteln und Ziele abstimmen. Das Skript stellt die Kommunikation ausdrücklich in den Zusammenhang von Kultur- und Organisationsgestaltung." },
-            { "typ": "text", "text": "Titel der Folie: **Interne (MA)-Kommunikation im Kontext von Kultur- und Organisationsgestaltung**" },
-            { "typ": "merksatz", "folie": 62, "text": "-> Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung" },
-            { "typ": "liste", "titel": "Kommunikation im Sinne MAF:", "punkte": [
-              "intensive Informationen über relevante **Unternehmensereignisse/-beschlüsse/-änderungen** z.B. zu Strategien, Abläufen und Prozessen",
-              "intensive Informationen über relevante **Unternehmensumwelt/-umfeldereignisse und -änderungen**",
-              "Erklärung zu Neben-, Rück- und Folgewirkungen o.g. Ereignisse, Beschlüsse und Änderungen für die Organisation und Einordnung in einen Gesamtzusammenhang **([[Bringschuld]])**",
-              "eigenständige Information der Belegschaft über relevante Ereignisse/Beschlüsse/Änderungen **([[Holschuld]])**",
-              "Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung",
-              "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften,..."
-            ] },
-            { "typ": "hinweis", "text": "Das Skript kürzt auf dieser Folie ab: MAF, FK, MA, MAG, ZVG, ZEG. Aufgelöst wird davon im ganzen Skript nur MAF: die Titelseite schreibt „Modul Mitarbeiterführung (MAF)“. Wofür FK, MA, MAG, ZVG und ZEG stehen, steht nirgends im Material. Wir raten das hier nicht." },
-            { "typ": "skriptluecke", "id": "m4-t1-luecke-abk", "text": "Das Skript löst MAG, ZVG und ZEG nicht auf. Trag hier ein, was in der Vorlesung dazu gesagt wurde.", "felder": [
-              { "id": "mag", "label": "MAG" },
-              { "id": "zvg", "label": "ZVG" },
-              { "id": "zeg", "label": "ZEG" }
-            ] }
+            {
+              "typ": "einfach",
+              "text": "Diese Folie klärt, was das Skript unter interner Kommunikation versteht. Gemeint ist nicht Small Talk, sondern das systematische Informieren der Belegschaft über alles, was das Unternehmen und sein Umfeld bewegt. Die Führungskraft soll damit Sinn und Transparenz vermitteln und Ziele abstimmen. Das Skript stellt die Kommunikation ausdrücklich in den Zusammenhang von Kultur- und Organisationsgestaltung."
+            },
+            {
+              "typ": "text",
+              "text": "Titel der Folie: **Interne (MA)-Kommunikation im Kontext von Kultur- und Organisationsgestaltung**"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 62,
+              "text": "-> Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung"
+            },
+            {
+              "typ": "liste",
+              "titel": "Kommunikation im Sinne MAF:",
+              "punkte": [
+                "intensive Informationen über relevante **Unternehmensereignisse/-beschlüsse/-änderungen** z.B. zu Strategien, Abläufen und Prozessen",
+                "intensive Informationen über relevante **Unternehmensumwelt/-umfeldereignisse und -änderungen**",
+                "Erklärung zu Neben-, Rück- und Folgewirkungen o.g. Ereignisse, Beschlüsse und Änderungen für die Organisation und Einordnung in einen Gesamtzusammenhang **([[Bringschuld]])**",
+                "eigenständige Information der Belegschaft über relevante Ereignisse/Beschlüsse/Änderungen **([[Holschuld]])**",
+                "Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung",
+                "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften,..."
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Das Skript kürzt auf dieser Folie ab: MAF, FK, MA, MAG, ZVG, ZEG. Aufgelöst wird davon im ganzen Skript nur MAF: die Titelseite schreibt „Modul Mitarbeiterführung (MAF)“. Wofür FK, MA, MAG, ZVG und ZEG stehen, steht nirgends im Material. Wir raten das hier nicht."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m4-t1-luecke-abk",
+              "text": "Das Skript löst MAG, ZVG und ZEG nicht auf. Trag hier ein, was in der Vorlesung dazu gesagt wurde.",
+              "felder": [
+                {
+                  "id": "mag",
+                  "label": "MAG"
+                },
+                {
+                  "id": "zvg",
+                  "label": "ZVG"
+                },
+                {
+                  "id": "zeg",
+                  "label": "ZEG"
+                }
+              ]
+            }
           ]
         },
         {
           "id": "m4-t1-k2",
           "titel": "Bringschuld und Holschuld",
-          "folien": [62],
+          "folien": [
+            62
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Das Skript hängt an zwei der Aufzählungspunkte je ein Stichwort. **Bringschuld** steht hinter dem Punkt, in dem jemand die Folgewirkungen von Ereignissen erklärt und sie in einen Gesamtzusammenhang einordnet. **Holschuld** steht hinter dem Punkt, in dem sich die Belegschaft eigenständig informiert. Mehr sagt die Folie zu den beiden Begriffen nicht." },
-            { "typ": "vergleich", "spalten": [
-              { "titel": "(Bringschuld)", "punkte": [
-                "steht hinter: Erklärung zu Neben-, Rück- und Folgewirkungen o.g. Ereignisse, Beschlüsse und Änderungen",
-                "für die Organisation",
-                "Einordnung in einen Gesamtzusammenhang"
-              ] },
-              { "titel": "(Holschuld)", "punkte": [
-                "steht hinter: eigenständige Information der Belegschaft",
-                "über relevante Ereignisse/Beschlüsse/Änderungen"
-              ] }
-            ] },
-            { "typ": "hinweis", "text": "„(Bringschuld)“ und „(Holschuld)“ stehen im Skript nur als fett gesetzte Zuordnung hinter den beiden Punkten. Definiert werden sie nicht. Erklär sie in der Klausur deshalb über den Punkt, hinter dem sie stehen." }
+            {
+              "typ": "einfach",
+              "text": "Das Skript hängt an zwei der Aufzählungspunkte je ein Stichwort. **Bringschuld** steht hinter dem Punkt, in dem jemand die Folgewirkungen von Ereignissen erklärt und sie in einen Gesamtzusammenhang einordnet. **Holschuld** steht hinter dem Punkt, in dem sich die Belegschaft eigenständig informiert. Mehr sagt die Folie zu den beiden Begriffen nicht."
+            },
+            {
+              "typ": "vergleich",
+              "spalten": [
+                {
+                  "titel": "(Bringschuld)",
+                  "punkte": [
+                    "steht hinter: Erklärung zu Neben-, Rück- und Folgewirkungen o.g. Ereignisse, Beschlüsse und Änderungen",
+                    "für die Organisation",
+                    "Einordnung in einen Gesamtzusammenhang"
+                  ]
+                },
+                {
+                  "titel": "(Holschuld)",
+                  "punkte": [
+                    "steht hinter: eigenständige Information der Belegschaft",
+                    "über relevante Ereignisse/Beschlüsse/Änderungen"
+                  ]
+                }
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "„(Bringschuld)“ und „(Holschuld)“ stehen im Skript nur als fett gesetzte Zuordnung hinter den beiden Punkten. Definiert werden sie nicht. Erklär sie in der Klausur deshalb über den Punkt, hinter dem sie stehen."
+            }
           ]
         },
         {
           "id": "m4-t1-k3",
           "titel": "Struktur, elektronische Systeme, Informationsfluss",
-          "folien": [62],
+          "folien": [
+            62
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Der untere Teil der Folie stellt zwei Dinge in Frage. Erstens: Viele Vorstellungen von interner Kommunikation setzen stillschweigend Hierarchie und Bürokratie voraus. Das Skript fragt zurück, ob die gewählte Struktur das Erreichen der Ziele wirklich bestmöglich unterstützt. Zweitens: Elektronische Systeme beschleunigen den Austausch, nehmen der Führungskraft aber Einwirkmöglichkeiten." },
-            { "typ": "text", "text": "Definitionen und Wahrnehmungen von interner Unternehmenskommunikation basieren meist auf stillschweigender Annahme von Hierarchie und Bürokratie!\nABER: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?" },
-            { "typ": "text", "text": "Elektronische/web-basierte Informations- und Kommunikationssysteme begünstigen schnelleren und effizienteren Informationsaustausch und reduzieren Einwirkmöglichkeiten der FK -> erwünschte Übernahme von Eigenverantwortung der MA, jedoch „Kontrollverlust“ für FK: hier eher **Moderation** gefragt" },
-            { "typ": "merksatz", "folie": 62, "text": "KRITISCHER ERFOLGSFAKTOR: RASCHER INFORMATIONSFLUSS" }
+            {
+              "typ": "einfach",
+              "text": "Der untere Teil der Folie stellt zwei Dinge in Frage. Erstens: Viele Vorstellungen von interner Kommunikation setzen stillschweigend Hierarchie und Bürokratie voraus. Das Skript fragt zurück, ob die gewählte Struktur das Erreichen der Ziele wirklich bestmöglich unterstützt. Zweitens: Elektronische Systeme beschleunigen den Austausch, nehmen der Führungskraft aber Einwirkmöglichkeiten."
+            },
+            {
+              "typ": "text",
+              "text": "Definitionen und Wahrnehmungen von interner Unternehmenskommunikation basieren meist auf stillschweigender Annahme von Hierarchie und Bürokratie!\nABER: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?"
+            },
+            {
+              "typ": "text",
+              "text": "Elektronische/web-basierte Informations- und Kommunikationssysteme begünstigen schnelleren und effizienteren Informationsaustausch und reduzieren Einwirkmöglichkeiten der FK -> erwünschte Übernahme von Eigenverantwortung der MA, jedoch „Kontrollverlust“ für FK: hier eher **Moderation** gefragt"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 62,
+              "text": "KRITISCHER ERFOLGSFAKTOR: RASCHER INFORMATIONSFLUSS"
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t1-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "maf-kommunikation-ziel", "karte": "m4-t1-k1", "folien": [62],
+        {
+          "id": "m4-t1-a01",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "maf-kommunikation-ziel",
+          "karte": "m4-t1-k1",
+          "folien": [
+            62
+          ],
           "frage": "Welches **Ziel der FK** nennt die Folie für die interne Kommunikation?",
           "optionen": [
             "Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung",
             "Sicherung von Hierarchie und Bürokratie im Informationsweg",
             "Reduzierung der Einwirkmöglichkeiten der Mitarbeiter",
             "Eigenständige Information der Belegschaft über Strategien"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Das Skript nennt als Ziel der Führungskraft ausdrücklich die Vermittlung von Sinn und Transparenz sowie die Abstimmung von Zielen und Zielerreichung. Hierarchie und Bürokratie sind auf dieser Folie gerade das, was kritisch hinterfragt wird. Und reduziert werden die Einwirkmöglichkeiten der FK, nicht die der Mitarbeiter.",
-          "beleg": "Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung", "belegQuelle": "folie-34",
-          "kurz": "Ziel der FK: Sinn und Transparenz vermitteln, Ziele und Zielerreichung abstimmen." },
-
-        { "id": "m4-t1-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "maf-kommunikation-mittel", "karte": "m4-t1-k1", "folien": [62],
+          "beleg": "Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung",
+          "belegQuelle": "folie-34",
+          "kurz": "Ziel der FK: Sinn und Transparenz vermitteln, Ziele und Zielerreichung abstimmen."
+        },
+        {
+          "id": "m4-t1-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "maf-kommunikation-mittel",
+          "karte": "m4-t1-k1",
+          "folien": [
+            62
+          ],
           "frage": "Welche der folgenden Punkte nennt die Folie als **Mittel** der internen Kommunikation?",
-          "optionen": ["MAG", "ZVG", "ZEG", "Meetings", "Briefings", "Moderation", "Stimmungsbarometer"],
-          "richtig": [0, 1, 2, 3, 4],
+          "optionen": [
+            "MAG",
+            "ZVG",
+            "ZEG",
+            "Meetings",
+            "Briefings",
+            "Moderation",
+            "Stimmungsbarometer"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
           "erklaerung": "Als Mittel nennt das Skript standardisierte Formate: MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften. Moderation steht zwar auf derselben Folie, aber als Antwort auf den Kontrollverlust durch elektronische Systeme. Das Stimmungsbarometer gehört nicht in diese Aufzählung.",
-          "beleg": "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften", "belegQuelle": "folie-34",
-          "kurz": "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften." },
-
-        { "id": "m4-t1-a03", "typ": "luecke", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "bring-holschuld", "karte": "m4-t1-k2", "folien": [62], "bank": true,
+          "beleg": "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften",
+          "belegQuelle": "folie-34",
+          "kurz": "Mittel: standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften."
+        },
+        {
+          "id": "m4-t1-a03",
+          "typ": "luecke",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "bring-holschuld",
+          "karte": "m4-t1-k2",
+          "folien": [
+            62
+          ],
+          "bank": true,
           "frage": "Setze die beiden Stichworte ein, die das Skript hinter diese Punkte schreibt.",
           "text": "Erklärung zu Neben-, Rück- und Folgewirkungen o.g. Ereignisse, Beschlüsse und Änderungen für die Organisation und Einordnung in einen Gesamtzusammenhang ({_Bringschuld_})\n- eigenständige Information der Belegschaft über relevante Ereignisse/Beschlüsse/Änderungen ({_Holschuld_})",
-          "zusatzBank": ["Moderation", "Bürokratie"],
+          "zusatzBank": [
+            "Moderation",
+            "Bürokratie"
+          ],
           "erklaerung": "Die Bringschuld hängt am Erklären und Einordnen der Folgewirkungen. Die Holschuld hängt an der eigenständigen Information der Belegschaft. Genau so, und nur so, ordnet das Skript die beiden Begriffe zu.",
-          "beleg": "Einordnung in einen Gesamtzusammenhang (Bringschuld)", "belegQuelle": "folie-34",
-          "kurz": "Bringschuld: Folgewirkungen erklären und einordnen. Holschuld: eigenständige Information der Belegschaft." },
-
-        { "id": "m4-t1-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "struktur-hierarchie", "karte": "m4-t1-k3", "folien": [62],
+          "beleg": "Einordnung in einen Gesamtzusammenhang (Bringschuld)",
+          "belegQuelle": "folie-34",
+          "kurz": "Bringschuld: Folgewirkungen erklären und einordnen. Holschuld: eigenständige Information der Belegschaft."
+        },
+        {
+          "id": "m4-t1-a04",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "struktur-hierarchie",
+          "karte": "m4-t1-k3",
+          "folien": [
+            62
+          ],
           "frage": "Was sagt die Folie über Struktur, Hierarchie und elektronische Systeme?",
           "aussagen": [
-            { "text": "Definitionen und Wahrnehmungen von interner Unternehmenskommunikation basieren meist auf stillschweigender Annahme von Hierarchie und Bürokratie.", "wahr": true },
-            { "text": "Elektronische und web-basierte Systeme erhöhen die Einwirkmöglichkeiten der Führungskraft.", "wahr": false, "korrektur": "Sie **reduzieren** die Einwirkmöglichkeiten der FK. Das Skript spricht von „Kontrollverlust“ für die FK." },
-            { "text": "Beim Kontrollverlust durch elektronische Systeme ist laut Skript eher Moderation gefragt.", "wahr": true },
-            { "text": "Das Skript hält die vorhandene Struktur für gesetzt und stellt sie nicht in Frage.", "wahr": false, "korrektur": "Das Skript fragt ausdrücklich zurück: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?" }
+            {
+              "text": "Definitionen und Wahrnehmungen von interner Unternehmenskommunikation basieren meist auf stillschweigender Annahme von Hierarchie und Bürokratie.",
+              "wahr": true
+            },
+            {
+              "text": "Elektronische und web-basierte Systeme erhöhen die Einwirkmöglichkeiten der Führungskraft.",
+              "wahr": false,
+              "korrektur": "Sie **reduzieren** die Einwirkmöglichkeiten der FK. Das Skript spricht von „Kontrollverlust“ für die FK."
+            },
+            {
+              "text": "Beim Kontrollverlust durch elektronische Systeme ist laut Skript eher Moderation gefragt.",
+              "wahr": true
+            },
+            {
+              "text": "Das Skript hält die vorhandene Struktur für gesetzt und stellt sie nicht in Frage.",
+              "wahr": false,
+              "korrektur": "Das Skript fragt ausdrücklich zurück: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?"
+            }
           ],
           "erklaerung": "Die Folie beschleunigt nicht nur, sie verschiebt auch: schnellerer Austausch, weniger Einwirkmöglichkeiten der FK, erwünschte Eigenverantwortung der MA und als Antwort darauf Moderation statt Steuerung.",
-          "beleg": "begünstigen schnelleren und effizienteren Informationsaustausch und reduzieren Einwirkmöglichkeiten der FK", "belegQuelle": "folie-34",
-          "kurz": "Elektronische Systeme: schnellerer Austausch, weniger Einwirkmöglichkeiten der FK, Kontrollverlust, deshalb Moderation." },
-
-        { "id": "m4-t1-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "merksatz-transparenz-sinn", "karte": "m4-t1-k1", "folien": [62],
+          "beleg": "begünstigen schnelleren und effizienteren Informationsaustausch und reduzieren Einwirkmöglichkeiten der FK",
+          "belegQuelle": "folie-34",
+          "kurz": "Elektronische Systeme: schnellerer Austausch, weniger Einwirkmöglichkeiten der FK, Kontrollverlust, deshalb Moderation."
+        },
+        {
+          "id": "m4-t1-a05",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "merksatz-transparenz-sinn",
+          "karte": "m4-t1-k1",
+          "folien": [
+            62
+          ],
           "frage": "Auf der Folie steht hervorgehoben und unterstrichen: „-> Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz steht direkt unter dem Titel „Interne (MA)-Kommunikation im Kontext von Kultur- und Organisationsgestaltung“ und sagt, wozu diese Kommunikation dient. Die Folie führt zuerst auf, worüber informiert wird: über Unternehmensereignisse, -beschlüsse und -änderungen sowie über Ereignisse und Änderungen in Unternehmensumwelt und -umfeld. Dazu kommt die Erklärung der Neben-, Rück- und Folgewirkungen und die Einordnung in einen Gesamtzusammenhang (Bringschuld) sowie die eigenständige Information der Belegschaft (Holschuld). Aus all dem zieht das Skript das Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen und Zielerreichung. Die rote Zeile ist also die Kurzfassung dieses Ziels. Den Zusammenhang nennt der Titel der Folie selbst: „im Kontext von Kultur- und Organisationsgestaltung“.",
           "checkliste": [
@@ -118,10 +272,21 @@
             "Zusammenhang: Kultur- und Organisationsgestaltung"
           ],
           "erklaerung": "Die Klausur kann genau diesen Satz vorlegen. Trag ihn nicht nur vor, sondern hänge ihn an die Aufzählung der Folie und an das ausdrücklich genannte Ziel der FK.",
-          "beleg": "Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung", "belegQuelle": "folie-34",
-          "kurz": "Transparenz und Sinn vermitteln ist das Ziel der FK bei der internen Kommunikation." },
-
-        { "id": "m4-t1-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "merksatz-informationsfluss", "karte": "m4-t1-k3", "folien": [62],
+          "beleg": "Ziel der FK: Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung",
+          "belegQuelle": "folie-34",
+          "kurz": "Transparenz und Sinn vermitteln ist das Ziel der FK bei der internen Kommunikation."
+        },
+        {
+          "id": "m4-t1-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "merksatz-informationsfluss",
+          "karte": "m4-t1-k3",
+          "folien": [
+            62
+          ],
           "frage": "Die Folie schließt mit: „KRITISCHER ERFOLGSFAKTOR: RASCHER INFORMATIONSFLUSS“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz ist die Schlussfolgerung der ganzen Folie. Davor steht, dass elektronische und web-basierte Informations- und Kommunikationssysteme einen schnelleren und effizienteren Informationsaustausch begünstigen und dabei die Einwirkmöglichkeiten der FK reduzieren. Erwünscht ist, dass die Mitarbeiter dadurch Eigenverantwortung übernehmen; für die Führungskraft bedeutet es aber „Kontrollverlust“, weshalb hier eher Moderation gefragt ist. Davor steht außerdem die kritische Frage, ob die gewählte Struktur das bestmögliche Erreichen von Zielen überhaupt unterstützt. Kritischer Erfolgsfaktor heißt: Ob die interne Kommunikation ihr Ziel erreicht, nämlich Sinn, Transparenz und Zielabstimmung, entscheidet sich daran, wie rasch Informationen fließen. Struktur und Systeme sind daran zu messen.",
           "checkliste": [
@@ -132,38 +297,76 @@
             "Ziel bleibt Vermittlung von Sinn und Transparenz sowie Abstimmung von Zielen/Zielerreichung"
           ],
           "erklaerung": "Der Satz steht auf der Folie ganz unten und in Großbuchstaben. Er ist die Zuspitzung: Tempo des Informationsflusses entscheidet über Erfolg oder Misserfolg der internen Kommunikation.",
-          "beleg": "KRITISCHER ERFOLGSFAKTOR: RASCHER INFORMATIONSFLUSS", "belegQuelle": "folie-34",
-          "kurz": "Kritischer Erfolgsfaktor der internen Kommunikation ist ein rascher Informationsfluss." },
-
-        { "id": "m4-t1-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "moderation-kontrollverlust", "karte": "m4-t1-k3", "folien": [62],
+          "beleg": "KRITISCHER ERFOLGSFAKTOR: RASCHER INFORMATIONSFLUSS",
+          "belegQuelle": "folie-34",
+          "kurz": "Kritischer Erfolgsfaktor der internen Kommunikation ist ein rascher Informationsfluss."
+        },
+        {
+          "id": "m4-t1-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "moderation-kontrollverlust",
+          "karte": "m4-t1-k3",
+          "folien": [
+            62
+          ],
           "szenario": "Übungsfall: In deiner Filiale läuft die interne Abstimmung seit einem halben Jahr über ein web-basiertes Chat-Werkzeug. Das Team klärt dort vieles selbst, manche Absprachen stehen fest, bevor die Filialleiterin davon hört. Sie fühlt sich übergangen.",
           "frage": "Wie ordnet die Folie diese Lage ein?",
           "optionen": [
             "Elektronische Systeme beschleunigen den Austausch und reduzieren die Einwirkmöglichkeiten der FK. Die Eigenverantwortung der MA ist erwünscht; für die FK bedeutet es „Kontrollverlust“, und hier ist eher Moderation gefragt.",
             "Das ist ein Kommunikationsmangel, weil zu wenige Möglichkeiten für Kommunikation wahrgenommen werden.",
             "Die Filialleiterin sollte ihre Bringschuld an das Team abgeben und selbst nur noch Holschuld leisten."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die Folie beschreibt genau diesen Vorgang: schnellerer und effizienterer Informationsaustausch, weniger Einwirkmöglichkeiten der FK, erwünschte Eigenverantwortung der MA, „Kontrollverlust“ für die FK und als Antwort Moderation. Von einem Abgeben der Bringschuld steht im Skript nichts.",
-          "beleg": "erwünschte Übernahme von Eigenverantwortung der MA, jedoch „Kontrollverlust“ für FK: hier eher Moderation gefragt", "belegQuelle": "folie-34",
-          "kurz": "Web-basierte Systeme: Eigenverantwortung erwünscht, Kontrollverlust für die FK, Antwort ist Moderation." },
-
-        { "id": "m4-t1-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "struktur-hierarchie", "karte": "m4-t1-k3", "folien": [62],
+          "beleg": "erwünschte Übernahme von Eigenverantwortung der MA, jedoch „Kontrollverlust“ für FK: hier eher Moderation gefragt",
+          "belegQuelle": "folie-34",
+          "kurz": "Web-basierte Systeme: Eigenverantwortung erwünscht, Kontrollverlust für die FK, Antwort ist Moderation."
+        },
+        {
+          "id": "m4-t1-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "struktur-hierarchie",
+          "karte": "m4-t1-k3",
+          "folien": [
+            62
+          ],
           "vorne": "Welche kritische Rückfrage stellt die Folie zur gewählten Struktur?",
           "hinten": "**ABER: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?** Das Skript setzt diese Frage gegen die stillschweigende Annahme von Hierarchie und Bürokratie, auf der die meisten Definitionen interner Unternehmenskommunikation beruhen.",
           "erklaerung": "Die Folie nimmt Hierarchie und Bürokratie nicht als gegeben hin, sondern misst die Struktur an der Zielerreichung.",
-          "beleg": "ABER: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?", "belegQuelle": "folie-34",
-          "kurz": "Kritische Rückfrage: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?" },
-
-        { "id": "m4-t1-a09", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "maf-kommunikation-inhalt", "karte": "m4-t1-k1", "folien": [62],
+          "beleg": "ABER: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?",
+          "belegQuelle": "folie-34",
+          "kurz": "Kritische Rückfrage: Unterstützt die gewählte Struktur das bestmögliche Erreichen von Zielen?"
+        },
+        {
+          "id": "m4-t1-a09",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "maf-kommunikation-inhalt",
+          "karte": "m4-t1-k1",
+          "folien": [
+            62
+          ],
           "frage": "Worüber soll laut Folie **intensiv informiert** werden?",
           "optionen": [
             "Über Unternehmensereignisse, -beschlüsse und -änderungen sowie über Unternehmensumwelt- und -umfeldereignisse und -änderungen",
             "Nur über Beschlüsse, die die eigene Abteilung unmittelbar betreffen",
             "Über Hygienefaktoren und das Stimmungsbarometer"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die Folie nennt zwei Richtungen: nach innen die Ereignisse, Beschlüsse und Änderungen des Unternehmens, zum Beispiel zu Strategien, Abläufen und Prozessen, und nach außen die Ereignisse und Änderungen in Unternehmensumwelt und -umfeld.",
-          "beleg": "Unternehmensereignisse/-beschlüsse/-änderungen z.B. zu Strategien, Abläufen und Prozessen", "belegQuelle": "folie-34",
-          "kurz": "Intensiv informieren: Unternehmensereignisse/-beschlüsse/-änderungen und Unternehmensumwelt/-umfeld." }
+          "beleg": "Unternehmensereignisse/-beschlüsse/-änderungen z.B. zu Strategien, Abläufen und Prozessen",
+          "belegQuelle": "folie-34",
+          "kurz": "Intensiv informieren: Unternehmensereignisse/-beschlüsse/-änderungen und Unternehmensumwelt/-umfeld."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -184,80 +387,213 @@
     {
       "id": "m4-t2",
       "titel": "Regel-Kommunikation als Führungsinstrument",
-      "folien": [63],
+      "folien": [
+        63
+      ],
       "gewicht": 2,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m4-t2-k1",
           "titel": "Wer braucht welche Information",
-          "folien": [63],
+          "folien": [
+            63
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "[[Regel-Kommunikation]] heißt: nicht erst reden, wenn etwas passiert ist, sondern regelmäßig. Das Skript begründet das damit, dass Kommunikation Motivation erhält. Dafür müssen beide Seiten rechtzeitig Bescheid wissen, die Mitarbeiter und die Führungskraft. Beide brauchen allerdings Unterschiedliches." },
-            { "typ": "text", "text": "**Regel-Kommunikation bei der MAF erforderlich:**\n- Kommunikation erhält Motivation, FK und MA benötigen jedoch gegenseitige und rechtzeitige Information" },
-            { "typ": "tabelle", "kopf": ["MA benötigt", "FK benötigt"], "zeilen": [
-              ["Informationen zu Zielen", "feedback zu Zielerreichung"],
-              ["Verfahren zur Zielerreichung", "Abweichungen vom Ziel und Gründen"],
-              ["Leitplanken", "Störungen und Problemen beim Arbeitsablauf"],
-              ["Handlungsspielräumen, ggf. fachliche Details,...", "Hygienefaktoren,..."]
-            ], "hinweis": "Beide Aufzählungen enden im Skript mit „,...“, sind also nicht abschließend gemeint." },
-            { "typ": "hinweis", "text": "„Hygienefaktoren“ und „[[Stimmungsbarometer]]“ werden auf dieser Folie nur genannt und nicht erklärt. Wir ergänzen hier nichts von außen. Hygienefaktoren erklärt das Skript an anderer Stelle bei der Zweifaktoren-Theorie." }
+            {
+              "typ": "einfach",
+              "text": "[[Regel-Kommunikation]] heißt: nicht erst reden, wenn etwas passiert ist, sondern regelmäßig. Das Skript begründet das damit, dass Kommunikation Motivation erhält. Dafür müssen beide Seiten rechtzeitig Bescheid wissen, die Mitarbeiter und die Führungskraft. Beide brauchen allerdings Unterschiedliches."
+            },
+            {
+              "typ": "text",
+              "text": "**Regel-Kommunikation bei der MAF erforderlich:**\n- Kommunikation erhält Motivation, FK und MA benötigen jedoch gegenseitige und rechtzeitige Information"
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "MA benötigt",
+                "FK benötigt"
+              ],
+              "zeilen": [
+                [
+                  "Informationen zu Zielen",
+                  "feedback zu Zielerreichung"
+                ],
+                [
+                  "Verfahren zur Zielerreichung",
+                  "Abweichungen vom Ziel und Gründen"
+                ],
+                [
+                  "Leitplanken",
+                  "Störungen und Problemen beim Arbeitsablauf"
+                ],
+                [
+                  "Handlungsspielräumen, ggf. fachliche Details,...",
+                  "Hygienefaktoren,..."
+                ]
+              ],
+              "hinweis": "Beide Aufzählungen enden im Skript mit „,...“, sind also nicht abschließend gemeint."
+            },
+            {
+              "typ": "hinweis",
+              "text": "„Hygienefaktoren“ und „[[Stimmungsbarometer]]“ werden auf dieser Folie nur genannt und nicht erklärt. Wir ergänzen hier nichts von außen. Hygienefaktoren erklärt das Skript an anderer Stelle bei der Zweifaktoren-Theorie."
+            }
           ]
         },
         {
           "id": "m4-t2-k2",
           "titel": "Wirkung und Voraussetzung",
-          "folien": [63],
+          "folien": [
+            63
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die Folie zieht zwei Schlüsse. Erstens: Wer regelmäßig und häufig kommuniziert, verhindert Informationslücken und Missverständnisse und entscheidet besser informiert. Zweitens: Offene, häufige Kommunikation hält die Stimmung oben und stiftet Identifikation und Zufriedenheit. Deshalb steht in Klammern: Kommunikation = Führungsinstrument. Eine Voraussetzung nennt die Folie aber auch: Die Struktur muss die Mitarbeiter bei der Zielerreichung unterstützen." },
-            { "typ": "merksatz", "folie": 63, "text": "-> Regelmäßige Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung" },
-            { "typ": "text", "text": "- regelmäßige und häufige Kommunikation/Information beugt Informationsdefiziten/Missverständnissen vor und verhilft zu besser informierten Entscheidungen\n-> offene und häufige Kommunikation beugt tendenziell schlechter Stimmung vor (Stimmungsbarometer!) und trägt zu Identifikation und Zufriedenheit bei **(Kommunikation = Führungsinstrument)**" },
-            { "typ": "definition", "begriff": "Struktur", "text": "Operationalisierung der Strategie. Die Folie setzt sie als Voraussetzung: Die Struktur muss die MA bei der Zielerreichung unterstützen und sie ausdrücklich nicht behindern." },
-            { "typ": "text", "text": "➔ **Voraussetzung: Struktur (= Operationalisierung der Strategie) unterstützt (und behindert nicht!) MA bei Zielerreichung**" }
+            {
+              "typ": "einfach",
+              "text": "Die Folie zieht zwei Schlüsse. Erstens: Wer regelmäßig und häufig kommuniziert, verhindert Informationslücken und Missverständnisse und entscheidet besser informiert. Zweitens: Offene, häufige Kommunikation hält die Stimmung oben und stiftet Identifikation und Zufriedenheit. Deshalb steht in Klammern: Kommunikation = Führungsinstrument. Eine Voraussetzung nennt die Folie aber auch: Die Struktur muss die Mitarbeiter bei der Zielerreichung unterstützen."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 63,
+              "text": "-> Regelmäßige Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung"
+            },
+            {
+              "typ": "text",
+              "text": "- regelmäßige und häufige Kommunikation/Information beugt Informationsdefiziten/Missverständnissen vor und verhilft zu besser informierten Entscheidungen\n-> offene und häufige Kommunikation beugt tendenziell schlechter Stimmung vor (Stimmungsbarometer!) und trägt zu Identifikation und Zufriedenheit bei **(Kommunikation = Führungsinstrument)**"
+            },
+            {
+              "typ": "definition",
+              "begriff": "Struktur",
+              "text": "Operationalisierung der Strategie. Die Folie setzt sie als Voraussetzung: Die Struktur muss die MA bei der Zielerreichung unterstützen und sie ausdrücklich nicht behindern."
+            },
+            {
+              "typ": "text",
+              "text": "➔ **Voraussetzung: Struktur (= Operationalisierung der Strategie) unterstützt (und behindert nicht!) MA bei Zielerreichung**"
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t2-a01", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "regel-kommunikation-bedarf", "karte": "m4-t2-k1", "folien": [63],
+        {
+          "id": "m4-t2-a01",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "regel-kommunikation-bedarf",
+          "karte": "m4-t2-k1",
+          "folien": [
+            63
+          ],
           "frage": "Wer braucht diese Information laut Folie: der Mitarbeiter oder die Führungskraft?",
-          "kategorien": ["MA benötigt", "FK benötigt"],
+          "kategorien": [
+            "MA benötigt",
+            "FK benötigt"
+          ],
           "elemente": [
-            { "text": "Informationen zu Zielen", "kategorie": 0 },
-            { "text": "Verfahren zur Zielerreichung", "kategorie": 0 },
-            { "text": "Leitplanken", "kategorie": 0 },
-            { "text": "Handlungsspielräume", "kategorie": 0 },
-            { "text": "feedback zu Zielerreichung", "kategorie": 1 },
-            { "text": "Abweichungen vom Ziel und Gründe", "kategorie": 1 },
-            { "text": "Störungen und Probleme beim Arbeitsablauf", "kategorie": 1 },
-            { "text": "Hygienefaktoren", "kategorie": 1 }
+            {
+              "text": "Informationen zu Zielen",
+              "kategorie": 0
+            },
+            {
+              "text": "Verfahren zur Zielerreichung",
+              "kategorie": 0
+            },
+            {
+              "text": "Leitplanken",
+              "kategorie": 0
+            },
+            {
+              "text": "Handlungsspielräume",
+              "kategorie": 0
+            },
+            {
+              "text": "feedback zu Zielerreichung",
+              "kategorie": 1
+            },
+            {
+              "text": "Abweichungen vom Ziel und Gründe",
+              "kategorie": 1
+            },
+            {
+              "text": "Störungen und Probleme beim Arbeitsablauf",
+              "kategorie": 1
+            },
+            {
+              "text": "Hygienefaktoren",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Der Mitarbeiter braucht den Rahmen für seine Arbeit: Ziele, Verfahren, Leitplanken, Handlungsspielräume und ggf. fachliche Details. Die Führungskraft braucht die Rückmeldung daraus: feedback zur Zielerreichung, Abweichungen und Gründe, Störungen und Probleme beim Arbeitsablauf, Hygienefaktoren.",
           "belege": [
-            { "text": "MA benötigt Informationen zu Zielen, Verfahren zur Zielerreichung, Leitplanken", "quelle": "folie-35" },
-            { "text": "FK benötigt feedback zu Zielerreichung, Abweichungen vom Ziel und Gründen, Störungen und Problemen beim Arbeitsablauf, Hygienefaktoren", "quelle": "folie-35" }
+            {
+              "text": "MA benötigt Informationen zu Zielen, Verfahren zur Zielerreichung, Leitplanken",
+              "quelle": "folie-35"
+            },
+            {
+              "text": "FK benötigt feedback zu Zielerreichung, Abweichungen vom Ziel und Gründen, Störungen und Problemen beim Arbeitsablauf, Hygienefaktoren",
+              "quelle": "folie-35"
+            }
           ],
-          "kurz": "MA: Ziele, Verfahren, Leitplanken, Handlungsspielräume. FK: feedback, Abweichungen und Gründe, Störungen, Hygienefaktoren." },
-
-        { "id": "m4-t2-a02", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "regel-kommunikation-wirkung", "karte": "m4-t2-k2", "folien": [63],
+          "kurz": "MA: Ziele, Verfahren, Leitplanken, Handlungsspielräume. FK: feedback, Abweichungen und Gründe, Störungen, Hygienefaktoren."
+        },
+        {
+          "id": "m4-t2-a02",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "regel-kommunikation-wirkung",
+          "karte": "m4-t2-k2",
+          "folien": [
+            63
+          ],
           "frage": "Wovor beugt regelmäßige und häufige Kommunikation laut Folie vor?",
           "optionen": [
             "Informationsdefiziten und Missverständnissen; sie verhilft zu besser informierten Entscheidungen",
             "Double bind und Killerargumenten",
             "dem Kontrollverlust der FK durch elektronische Systeme"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die Folie nennt genau zwei Wirkungen: Sie beugt Informationsdefiziten und Missverständnissen vor und verhilft zu besser informierten Entscheidungen. Double bind und Killerargumente stehen auf Folie 65, der Kontrollverlust auf Folie 62.",
-          "beleg": "regelmäßige und häufige Kommunikation/Information beugt Informationsdefiziten/Missverständnissen vor und verhilft zu besser informierten Entscheidungen", "belegQuelle": "folie-35",
-          "kurz": "Regelmäßige Kommunikation beugt Informationsdefiziten und Missverständnissen vor und verbessert Entscheidungen." },
-
-        { "id": "m4-t2-a03", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "struktur-operationalisierung", "karte": "m4-t2-k2", "folien": [63], "bank": true,
+          "beleg": "regelmäßige und häufige Kommunikation/Information beugt Informationsdefiziten/Missverständnissen vor und verhilft zu besser informierten Entscheidungen",
+          "belegQuelle": "folie-35",
+          "kurz": "Regelmäßige Kommunikation beugt Informationsdefiziten und Missverständnissen vor und verbessert Entscheidungen."
+        },
+        {
+          "id": "m4-t2-a03",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "struktur-operationalisierung",
+          "karte": "m4-t2-k2",
+          "folien": [
+            63
+          ],
+          "bank": true,
           "frage": "Vervollständige die Voraussetzung, die das Skript unten auf der Folie nennt.",
           "text": "Voraussetzung: {_Struktur_} (= {_Operationalisierung der Strategie_}) unterstützt (und behindert nicht!) MA bei {_Zielerreichung_}",
-          "zusatzBank": ["Hierarchie", "Bürokratie", "Moderation"],
+          "zusatzBank": [
+            "Hierarchie",
+            "Bürokratie",
+            "Moderation"
+          ],
           "erklaerung": "Die Struktur ist laut Skript die Operationalisierung der Strategie. Sie ist die Voraussetzung dafür, dass Regel-Kommunikation überhaupt wirkt: Sie muss unterstützen und darf ausdrücklich nicht behindern.",
-          "beleg": "Voraussetzung: Struktur (= Operationalisierung der Strategie) unterstützt (und behindert nicht!) MA bei Zielerreichung", "belegQuelle": "folie-35",
-          "kurz": "Struktur = Operationalisierung der Strategie; sie muss die MA bei der Zielerreichung unterstützen, nicht behindern." },
-
-        { "id": "m4-t2-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "merksatz-regelmaessig", "karte": "m4-t2-k2", "folien": [63],
+          "beleg": "Voraussetzung: Struktur (= Operationalisierung der Strategie) unterstützt (und behindert nicht!) MA bei Zielerreichung",
+          "belegQuelle": "folie-35",
+          "kurz": "Struktur = Operationalisierung der Strategie; sie muss die MA bei der Zielerreichung unterstützen, nicht behindern."
+        },
+        {
+          "id": "m4-t2-a04",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "merksatz-regelmaessig",
+          "karte": "m4-t2-k2",
+          "folien": [
+            63
+          ],
           "frage": "Über der Folie steht hervorgehoben und unterstrichen: „-> Regelmäßige Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Die Folie wiederholt den Titel der Vorfolie, setzt aber ein Wort davor: regelmäßige. Das ist der ganze Punkt. Das Skript sagt, Regel-Kommunikation sei bei der MAF erforderlich, weil Kommunikation Motivation erhält und FK und MA gegenseitige und rechtzeitige Information brauchen. Der MA benötigt Informationen zu Zielen, Verfahren zur Zielerreichung, Leitplanken und Handlungsspielräumen; die FK benötigt feedback zu Zielerreichung, Abweichungen vom Ziel und Gründen sowie zu Störungen und Problemen beim Arbeitsablauf. Regelmäßige und häufige Kommunikation beugt Informationsdefiziten und Missverständnissen vor und verhilft zu besser informierten Entscheidungen. Offene und häufige Kommunikation beugt außerdem tendenziell schlechter Stimmung vor und trägt zu Identifikation und Zufriedenheit bei. Deshalb setzt das Skript in Klammern: Kommunikation = Führungsinstrument.",
           "checkliste": [
@@ -268,10 +604,21 @@
             "Ergebnis: Kommunikation = Führungsinstrument"
           ],
           "erklaerung": "Die Klausur kann nach dem Unterschied zwischen Folie 62 und 63 fragen. Er liegt in der Regelmäßigkeit und in der Gegenseitigkeit der Information.",
-          "beleg": "Regelmäßige Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung", "belegQuelle": "folie-35",
-          "kurz": "Regel-Kommunikation: regelmäßig, gegenseitig und rechtzeitig, deshalb Führungsinstrument." },
-
-        { "id": "m4-t2-a05", "typ": "mehrfach", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "kommunikation-fuehrungsinstrument", "karte": "m4-t2-k2", "folien": [63],
+          "beleg": "Regelmäßige Vermittlung von Transparenz und Sinn, Zielen/Zielerreichung",
+          "belegQuelle": "folie-35",
+          "kurz": "Regel-Kommunikation: regelmäßig, gegenseitig und rechtzeitig, deshalb Führungsinstrument."
+        },
+        {
+          "id": "m4-t2-a05",
+          "typ": "mehrfach",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "kommunikation-fuehrungsinstrument",
+          "karte": "m4-t2-k2",
+          "folien": [
+            63
+          ],
           "frage": "Was bewirkt laut Folie **offene und häufige** Kommunikation?",
           "optionen": [
             "beugt tendenziell schlechter Stimmung vor",
@@ -279,24 +626,66 @@
             "trägt zu Zufriedenheit bei",
             "reduziert die Einwirkmöglichkeiten der FK",
             "verhindert Double bind"
-          ], "richtig": [0, 1, 2],
+          ],
+          "richtig": [
+            0,
+            1,
+            2
+          ],
           "erklaerung": "Die Folie nennt drei Wirkungen und zieht daraus den Schluss: Kommunikation = Führungsinstrument. Die Einwirkmöglichkeiten der FK reduzieren laut Folie 62 die elektronischen Systeme, und Double bind steht erst auf Folie 65.",
-          "beleg": "offene und häufige Kommunikation beugt tendenziell schlechter Stimmung vor (Stimmungsbarometer!) und trägt zu Identifikation und Zufriedenheit bei", "belegQuelle": "folie-35",
-          "kurz": "Offene, häufige Kommunikation: bessere Stimmung, Identifikation, Zufriedenheit. Kommunikation = Führungsinstrument." },
-
-        { "id": "m4-t2-a06", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "regel-kommunikation-bedarf", "karte": "m4-t2-k1", "folien": [63],
+          "beleg": "offene und häufige Kommunikation beugt tendenziell schlechter Stimmung vor (Stimmungsbarometer!) und trägt zu Identifikation und Zufriedenheit bei",
+          "belegQuelle": "folie-35",
+          "kurz": "Offene, häufige Kommunikation: bessere Stimmung, Identifikation, Zufriedenheit. Kommunikation = Führungsinstrument."
+        },
+        {
+          "id": "m4-t2-a06",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "regel-kommunikation-bedarf",
+          "karte": "m4-t2-k1",
+          "folien": [
+            63
+          ],
           "frage": "Welche Aussagen zur Regel-Kommunikation treffen zu?",
           "aussagen": [
-            { "text": "Kommunikation erhält Motivation.", "wahr": true },
-            { "text": "Nur die Mitarbeiter brauchen Information, die Führungskraft nicht.", "wahr": false, "korrektur": "Das Skript verlangt **gegenseitige** und rechtzeitige Information: FK und MA benötigen sie beide." },
-            { "text": "Die Folie bezeichnet Kommunikation ausdrücklich als Führungsinstrument.", "wahr": true },
-            { "text": "Solange die Strategie stimmt, darf die Struktur die MA bei der Zielerreichung ruhig behindern.", "wahr": false, "korrektur": "Voraussetzung ist, dass die Struktur unterstützt und ausdrücklich **nicht behindert**." }
+            {
+              "text": "Kommunikation erhält Motivation.",
+              "wahr": true
+            },
+            {
+              "text": "Nur die Mitarbeiter brauchen Information, die Führungskraft nicht.",
+              "wahr": false,
+              "korrektur": "Das Skript verlangt **gegenseitige** und rechtzeitige Information: FK und MA benötigen sie beide."
+            },
+            {
+              "text": "Die Folie bezeichnet Kommunikation ausdrücklich als Führungsinstrument.",
+              "wahr": true
+            },
+            {
+              "text": "Solange die Strategie stimmt, darf die Struktur die MA bei der Zielerreichung ruhig behindern.",
+              "wahr": false,
+              "korrektur": "Voraussetzung ist, dass die Struktur unterstützt und ausdrücklich **nicht behindert**."
+            }
           ],
           "erklaerung": "Der Kern der Folie ist die Gegenseitigkeit: Beide Seiten müssen rechtzeitig informiert sein, und die Struktur als Operationalisierung der Strategie muss das tragen.",
-          "beleg": "Kommunikation erhält Motivation, FK und MA benötigen jedoch gegenseitige und rechtzeitige Information", "belegQuelle": "folie-35",
-          "kurz": "Information ist gegenseitig und rechtzeitig; die Struktur muss unterstützen, nicht behindern." },
-
-        { "id": "m4-t2-a07", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "regel-kommunikation-bedarf", "karte": "m4-t2-k1", "folien": [63],
+          "beleg": "Kommunikation erhält Motivation, FK und MA benötigen jedoch gegenseitige und rechtzeitige Information",
+          "belegQuelle": "folie-35",
+          "kurz": "Information ist gegenseitig und rechtzeitig; die Struktur muss unterstützen, nicht behindern."
+        },
+        {
+          "id": "m4-t2-a07",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "regel-kommunikation-bedarf",
+          "karte": "m4-t2-k1",
+          "folien": [
+            63
+          ],
           "szenario": "Übungsfall: Du leitest ein Team in der Kreditabteilung. Gesprochen wird nur, wenn etwas schiefgegangen ist. Zwei Mitarbeiter arbeiten seit Wochen an Zielen vorbei, von Störungen im Arbeitsablauf erfährst du erst, wenn sie eskalieren, und die Stimmung ist gereizt.",
           "frage": "Was würde das Skript hier verlangen, und womit begründet es das?",
           "musterloesung": "Das Skript verlangt Regel-Kommunikation, also regelmäßige und häufige Kommunikation statt Kommunikation nur im Anlassfall. Begründung: Kommunikation erhält Motivation, und FK und MA benötigen gegenseitige und rechtzeitige Information. Die Mitarbeiter brauchen Informationen zu Zielen, Verfahren zur Zielerreichung, Leitplanken, Handlungsspielräumen und ggf. fachlichen Details; genau daran fehlt es hier, weil zwei an den Zielen vorbeiarbeiten. Die Führungskraft braucht feedback zu Zielerreichung, Abweichungen vom Ziel und Gründen sowie zu Störungen und Problemen beim Arbeitsablauf; auch das fehlt. Regelmäßige und häufige Kommunikation beugt Informationsdefiziten und Missverständnissen vor und verhilft zu besser informierten Entscheidungen. Offene und häufige Kommunikation beugt außerdem tendenziell schlechter Stimmung vor und trägt zu Identifikation und Zufriedenheit bei. Zusätzlich ist zu prüfen, ob die Struktur die MA bei der Zielerreichung unterstützt und nicht behindert.",
@@ -308,15 +697,28 @@
             "Voraussetzung prüfen: Struktur unterstützt die MA bei der Zielerreichung"
           ],
           "erklaerung": "Der Fall bildet genau die beiden Lücken ab, die die Folie nennt: Der MA bekommt keine Ziele und Leitplanken, die FK bekommt kein feedback zu Abweichungen und Störungen.",
-          "beleg": "Regel-Kommunikation bei der MAF erforderlich", "belegQuelle": "folie-35",
-          "kurz": "Fehlt Regel-Kommunikation, fehlen dem MA Ziele und Leitplanken und der FK feedback zu Abweichungen und Störungen." },
-
-        { "id": "m4-t2-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "kommunikation-fuehrungsinstrument", "karte": "m4-t2-k2", "folien": [63],
+          "beleg": "Regel-Kommunikation bei der MAF erforderlich",
+          "belegQuelle": "folie-35",
+          "kurz": "Fehlt Regel-Kommunikation, fehlen dem MA Ziele und Leitplanken und der FK feedback zu Abweichungen und Störungen."
+        },
+        {
+          "id": "m4-t2-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "kommunikation-fuehrungsinstrument",
+          "karte": "m4-t2-k2",
+          "folien": [
+            63
+          ],
           "vorne": "Warum setzt die Folie in Klammern **(Kommunikation = Führungsinstrument)**?",
           "hinten": "Weil offene und häufige Kommunikation tendenziell schlechter Stimmung vorbeugt (Stimmungsbarometer!) und zu **Identifikation und Zufriedenheit** beiträgt. Sie wirkt damit auf die Motivation, und genau das macht sie zum Instrument der Führung.",
           "erklaerung": "Die Klammer ist die Schlussfolgerung aus der Wirkungskette der Folie: Kommunikation erhält Motivation, hält die Stimmung und stiftet Identifikation und Zufriedenheit.",
-          "beleg": "trägt zu Identifikation und Zufriedenheit bei (Kommunikation = Führungsinstrument)", "belegQuelle": "folie-35",
-          "kurz": "Kommunikation = Führungsinstrument, weil sie Stimmung, Identifikation und Zufriedenheit beeinflusst." }
+          "beleg": "trägt zu Identifikation und Zufriedenheit bei (Kommunikation = Führungsinstrument)",
+          "belegQuelle": "folie-35",
+          "kurz": "Kommunikation = Führungsinstrument, weil sie Stimmung, Identifikation und Zufriedenheit beeinflusst."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -337,66 +739,156 @@
     {
       "id": "m4-t3",
       "titel": "Fokus der Kommunikation und richtig loben",
-      "folien": [64],
+      "folien": [
+        64
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m4-t3-k1",
           "titel": "Die fünf Felder der Kommunikation",
-          "folien": [64],
+          "folien": [
+            64
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Diese Folie nennt Kommunikation ein zentrales Führungsinstrument. Sie zählt fünf Felder auf, auf die sich die Kommunikation der Führungskraft richtet. Alle fünf zielen laut Folie auf dasselbe: Konflikte vorbeugen, vermeiden und lösen. Und sie halten die Motivation aufrecht." },
-            { "typ": "text", "text": "Titel der Folie: **Kommunikation als zentrales Führungsinstrument**" },
-            { "typ": "merksatz", "folie": 64, "text": "-> Kommunikation trägt zum Erhalt der Motivation bei!" },
-            { "typ": "liste", "titel": "Fokus der Kommunikation auf", "punkte": [
-              "**Informieren**",
-              "**Anerkennen/Loben**",
-              "**Kritisieren**",
-              "**Entscheiden**",
-              "**Diskutieren**"
-            ] },
-            { "typ": "merksatz", "folie": 64, "text": "zur Konfliktvorbeugung/-vermeidung/-lösung" },
-            { "typ": "merkhilfe", "text": "In der Reihenfolge der Folie: I-A-K-E-D. Informieren, Anerkennen/Loben, Kritisieren, Entscheiden, Diskutieren." }
+            {
+              "typ": "einfach",
+              "text": "Diese Folie nennt Kommunikation ein zentrales Führungsinstrument. Sie zählt fünf Felder auf, auf die sich die Kommunikation der Führungskraft richtet. Alle fünf zielen laut Folie auf dasselbe: Konflikte vorbeugen, vermeiden und lösen. Und sie halten die Motivation aufrecht."
+            },
+            {
+              "typ": "text",
+              "text": "Titel der Folie: **Kommunikation als zentrales Führungsinstrument**"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 64,
+              "text": "-> Kommunikation trägt zum Erhalt der Motivation bei!"
+            },
+            {
+              "typ": "liste",
+              "titel": "Fokus der Kommunikation auf",
+              "punkte": [
+                "**Informieren**",
+                "**Anerkennen/Loben**",
+                "**Kritisieren**",
+                "**Entscheiden**",
+                "**Diskutieren**"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 64,
+              "text": "zur Konfliktvorbeugung/-vermeidung/-lösung"
+            },
+            {
+              "typ": "merkhilfe",
+              "text": "In der Reihenfolge der Folie: I-A-K-E-D. Informieren, Anerkennen/Loben, Kritisieren, Entscheiden, Diskutieren."
+            }
           ]
         },
         {
           "id": "m4-t3-k2",
           "titel": "Richtig loben und anerkennen",
-          "folien": [64],
+          "folien": [
+            64
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Loben klingt leicht, ist es aber nicht. Das Skript greift hier auf Vorlesung I zurück und nennt Loben und Anerkennen eine Herausforderung für viele Führungskräfte. Lob wirkt nur dann motivierend, wenn es richtig angewandt wird. Dafür gibt die Folie sechs Regeln." },
-            { "typ": "text", "text": "Zur Erinnerung aus Vorlesung I:\n- Herausforderung für viele FK: Loben/Anerkennen\n- Lob/Anerkennung wirkt – richtig angewandt! – motivierend" },
-            { "typ": "liste", "titel": "Lob/Anerkennung wirkt – richtig angewandt! – motivierend:", "punkte": [
-              "erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten/anpassen",
-              "an konkretem Beispiel und umgehend danach loben/anerkennen (was war wichtig/richtig!?)",
-              "positive Gefühle des Beobachters mitgeben",
-              "stets positiv formulieren, ohne Einschränkungen",
-              "auch Teilschritte/-ergebnisse loben, nicht bis zum Endergebnis warten",
-              "authentisch, auch körpersprachlich überzeugend loben"
-            ] },
-            { "typ": "hinweis", "text": "„Zur Erinnerung aus Vorlesung I“ ist ein Querverweis: Die sechs Regeln stammen aus Vorlesung I und werden hier nur wiederholt. Rechts oben zeigt die Folie ein Schmuckfoto (zwei Frauen im Gespräch) ohne eigene Aussage; am unteren Rand steht dazu nur die Bildquelle als Link. Eine Abbildung mit Lernstoff gibt es auf dieser Folie nicht." }
+            {
+              "typ": "einfach",
+              "text": "Loben klingt leicht, ist es aber nicht. Das Skript greift hier auf Vorlesung I zurück und nennt Loben und Anerkennen eine Herausforderung für viele Führungskräfte. Lob wirkt nur dann motivierend, wenn es richtig angewandt wird. Dafür gibt die Folie sechs Regeln."
+            },
+            {
+              "typ": "text",
+              "text": "Zur Erinnerung aus Vorlesung I:\n- Herausforderung für viele FK: Loben/Anerkennen\n- Lob/Anerkennung wirkt – richtig angewandt! – motivierend"
+            },
+            {
+              "typ": "liste",
+              "titel": "Lob/Anerkennung wirkt – richtig angewandt! – motivierend:",
+              "punkte": [
+                "erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten/anpassen",
+                "an konkretem Beispiel und umgehend danach loben/anerkennen (was war wichtig/richtig!?)",
+                "positive Gefühle des Beobachters mitgeben",
+                "stets positiv formulieren, ohne Einschränkungen",
+                "auch Teilschritte/-ergebnisse loben, nicht bis zum Endergebnis warten",
+                "authentisch, auch körpersprachlich überzeugend loben"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "„Zur Erinnerung aus Vorlesung I“ ist ein Querverweis: Die sechs Regeln stammen aus Vorlesung I und werden hier nur wiederholt. Rechts oben zeigt die Folie ein Schmuckfoto (zwei Frauen im Gespräch) ohne eigene Aussage; am unteren Rand steht dazu nur die Bildquelle als Link. Eine Abbildung mit Lernstoff gibt es auf dieser Folie nicht."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t3-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "fokus-kommunikation", "karte": "m4-t3-k1", "folien": [64],
+        {
+          "id": "m4-t3-a01",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "fokus-kommunikation",
+          "karte": "m4-t3-k1",
+          "folien": [
+            64
+          ],
           "frage": "Auf welche fünf Felder richtet die Folie den **Fokus der Kommunikation**?",
-          "optionen": ["Informieren", "Anerkennen/Loben", "Kritisieren", "Entscheiden", "Diskutieren", "Moderation", "aufmerksam Zuhören"],
-          "richtig": [0, 1, 2, 3, 4],
+          "optionen": [
+            "Informieren",
+            "Anerkennen/Loben",
+            "Kritisieren",
+            "Entscheiden",
+            "Diskutieren",
+            "Moderation",
+            "aufmerksam Zuhören"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
           "erklaerung": "Die Folie nennt genau diese fünf. Moderation steht auf Folie 62 als Antwort auf den Kontrollverlust, aufmerksames Zuhören auf Folie 65 als Verhalten bei Warnsignalen.",
-          "beleg": "Informieren … Anerkennen/Loben … Kritisieren … Entscheiden … Diskutieren", "belegQuelle": "folie-36",
-          "kurz": "Fokus der Kommunikation: Informieren, Anerkennen/Loben, Kritisieren, Entscheiden, Diskutieren." },
-
-        { "id": "m4-t3-a02", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fokus-kommunikation", "karte": "m4-t3-k1", "folien": [64], "bank": true,
+          "beleg": "Informieren … Anerkennen/Loben … Kritisieren … Entscheiden … Diskutieren",
+          "belegQuelle": "folie-36",
+          "kurz": "Fokus der Kommunikation: Informieren, Anerkennen/Loben, Kritisieren, Entscheiden, Diskutieren."
+        },
+        {
+          "id": "m4-t3-a02",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "fokus-kommunikation",
+          "karte": "m4-t3-k1",
+          "folien": [
+            64
+          ],
+          "bank": true,
           "frage": "Vervollständige die Aussage der Folie.",
           "text": "Fokus der Kommunikation auf Informieren, {_Anerkennen/Loben_}, {_Kritisieren_}, Entscheiden, Diskutieren {_zur Konfliktvorbeugung/-vermeidung/-lösung_}",
-          "zusatzBank": ["Moderation", "zur Zielerreichung"],
+          "zusatzBank": [
+            "Moderation",
+            "zur Zielerreichung"
+          ],
           "erklaerung": "Die fünf Felder stehen nicht für sich, sondern haben laut Folie einen gemeinsamen Zweck: zur Konfliktvorbeugung, -vermeidung und -lösung.",
-          "beleg": "zur Konfliktvorbeugung/-vermeidung/-lösung", "belegQuelle": "folie-36",
-          "kurz": "Die fünf Felder dienen zur Konfliktvorbeugung, -vermeidung und -lösung." },
-
-        { "id": "m4-t3-a03", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "merksatz-motivation", "karte": "m4-t3-k1", "folien": [64],
+          "beleg": "zur Konfliktvorbeugung/-vermeidung/-lösung",
+          "belegQuelle": "folie-36",
+          "kurz": "Die fünf Felder dienen zur Konfliktvorbeugung, -vermeidung und -lösung."
+        },
+        {
+          "id": "m4-t3-a03",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "merksatz-motivation",
+          "karte": "m4-t3-k1",
+          "folien": [
+            64
+          ],
           "frage": "Über der Folie steht hervorgehoben: „-> Kommunikation trägt zum Erhalt der Motivation bei!“ Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz steht unter dem Titel „Kommunikation als zentrales Führungsinstrument“ und begründet, warum Kommunikation Führungsinstrument ist. Das Skript hatte schon auf Folie 63 gesagt: Kommunikation erhält Motivation. Hier wird gezeigt, wodurch: durch den Fokus auf Informieren, Anerkennen/Loben, Kritisieren, Entscheiden und Diskutieren, und zwar zur Konfliktvorbeugung, -vermeidung und -lösung. Besonders deutlich wird es beim Anerkennen und Loben: Lob und Anerkennung wirken, richtig angewandt, motivierend. Erhalt der Motivation heißt also nicht, dass Kommunikation zusätzliche Motivation schafft, sondern dass sie vorhandene Motivation trägt und nicht verfallen lässt.",
           "checkliste": [
@@ -407,10 +899,21 @@
             "Anschluss an Folie 63: Kommunikation erhält Motivation"
           ],
           "erklaerung": "Der Satz ist die Brücke zwischen der Regel-Kommunikation von Folie 63 und den Lob-Regeln auf derselben Folie 64.",
-          "beleg": "Kommunikation trägt zum Erhalt der Motivation bei!", "belegQuelle": "folie-36",
-          "kurz": "Kommunikation erhält Motivation: über die fünf Felder und besonders über richtig angewandtes Lob." },
-
-        { "id": "m4-t3-a04", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "merksatz-konflikt", "karte": "m4-t3-k1", "folien": [64],
+          "beleg": "Kommunikation trägt zum Erhalt der Motivation bei!",
+          "belegQuelle": "folie-36",
+          "kurz": "Kommunikation erhält Motivation: über die fünf Felder und besonders über richtig angewandtes Lob."
+        },
+        {
+          "id": "m4-t3-a04",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "merksatz-konflikt",
+          "karte": "m4-t3-k1",
+          "folien": [
+            64
+          ],
           "frage": "Die Folie setzt hinter die fünf Felder hervorgehoben: „zur Konfliktvorbeugung/-vermeidung/-lösung“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Zusatz gibt den fünf Feldern ihren gemeinsamen Zweck. Informieren, Anerkennen/Loben, Kritisieren, Entscheiden und Diskutieren sind bei der Führung keine Selbstzwecke, sondern Mittel im Umgang mit Konflikten. Die Folie unterscheidet dabei drei Stufen: vorbeugen, also gar nicht erst entstehen lassen; vermeiden; und lösen, wenn der Konflikt schon da ist. Der Zusammenhang ist der Titel der Folie: Kommunikation als zentrales Führungsinstrument, das zum Erhalt der Motivation beiträgt. Wer informiert, anerkennt, sachlich kritisiert, entscheidet und diskutiert, nimmt Konflikten ihre Grundlage.",
           "checkliste": [
@@ -420,48 +923,137 @@
             "Verbindung zum Erhalt der Motivation"
           ],
           "erklaerung": "Der Zusatz steht auf der Folie hervorgehoben direkt unter der Fünferliste und gehört deshalb zu allen fünf Punkten, nicht nur zum letzten.",
-          "beleg": "zur Konfliktvorbeugung/-vermeidung/-lösung", "belegQuelle": "folie-36",
-          "kurz": "Die fünf Felder dienen der Konfliktvorbeugung, -vermeidung und -lösung." },
-
-        { "id": "m4-t3-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "loben-regeln", "karte": "m4-t3-k2", "folien": [64],
+          "beleg": "zur Konfliktvorbeugung/-vermeidung/-lösung",
+          "belegQuelle": "folie-36",
+          "kurz": "Die fünf Felder dienen der Konfliktvorbeugung, -vermeidung und -lösung."
+        },
+        {
+          "id": "m4-t3-a05",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "loben-regeln",
+          "karte": "m4-t3-k2",
+          "folien": [
+            64
+          ],
           "frage": "Welche Aussagen zum Loben und Anerkennen stimmen mit der Folie überein?",
           "aussagen": [
-            { "text": "Gelobt wird erlebtes oder beobachtetes Verhalten, nicht Eigenschaften.", "wahr": true },
-            { "text": "Mit dem Lob sollte man warten, bis das Endergebnis vorliegt.", "wahr": false, "korrektur": "Auch **Teilschritte und Teilergebnisse** loben, nicht bis zum Endergebnis warten." },
-            { "text": "Lob wird stets positiv formuliert, ohne Einschränkungen.", "wahr": true },
-            { "text": "Ein Lob wirkt auch, wenn es Wochen später und ohne konkretes Beispiel kommt.", "wahr": false, "korrektur": "An **konkretem Beispiel** und **umgehend danach** loben/anerkennen." },
-            { "text": "Die eigenen positiven Gefühle als Beobachter gehören nicht in ein Lob.", "wahr": false, "korrektur": "Doch: **positive Gefühle des Beobachters mitgeben** ist eine der sechs Regeln." }
+            {
+              "text": "Gelobt wird erlebtes oder beobachtetes Verhalten, nicht Eigenschaften.",
+              "wahr": true
+            },
+            {
+              "text": "Mit dem Lob sollte man warten, bis das Endergebnis vorliegt.",
+              "wahr": false,
+              "korrektur": "Auch **Teilschritte und Teilergebnisse** loben, nicht bis zum Endergebnis warten."
+            },
+            {
+              "text": "Lob wird stets positiv formuliert, ohne Einschränkungen.",
+              "wahr": true
+            },
+            {
+              "text": "Ein Lob wirkt auch, wenn es Wochen später und ohne konkretes Beispiel kommt.",
+              "wahr": false,
+              "korrektur": "An **konkretem Beispiel** und **umgehend danach** loben/anerkennen."
+            },
+            {
+              "text": "Die eigenen positiven Gefühle als Beobachter gehören nicht in ein Lob.",
+              "wahr": false,
+              "korrektur": "Doch: **positive Gefühle des Beobachters mitgeben** ist eine der sechs Regeln."
+            }
           ],
           "erklaerung": "Die Folie nennt sechs Regeln. Vier davon werden hier geprüft: Verhalten statt Eigenschaften, konkretes Beispiel und umgehend, positive Gefühle mitgeben, positiv und ohne Einschränkungen formulieren, Teilschritte loben.",
-          "beleg": "auch Teilschritte/-ergebnisse loben, nicht bis zum Endergebnis warten", "belegQuelle": "folie-36",
-          "kurz": "Verhalten statt Eigenschaften, konkret und umgehend, Gefühle mitgeben, ohne Einschränkung, auch Teilschritte, authentisch." },
-
-        { "id": "m4-t3-a06", "typ": "kategorien", "stufe": "transfer", "schwierigkeit": 3, "kern": true, "konzept": "loben-regeln", "karte": "m4-t3-k2", "folien": [64],
+          "beleg": "auch Teilschritte/-ergebnisse loben, nicht bis zum Endergebnis warten",
+          "belegQuelle": "folie-36",
+          "kurz": "Verhalten statt Eigenschaften, konkret und umgehend, Gefühle mitgeben, ohne Einschränkung, auch Teilschritte, authentisch."
+        },
+        {
+          "id": "m4-t3-a06",
+          "typ": "kategorien",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "loben-regeln",
+          "karte": "m4-t3-k2",
+          "folien": [
+            64
+          ],
           "frage": "Übungsfall: Entspricht das den Lob-Regeln der Folie?",
-          "kategorien": ["Entspricht den Regeln", "Widerspricht den Regeln"],
+          "kategorien": [
+            "Entspricht den Regeln",
+            "Widerspricht den Regeln"
+          ],
           "elemente": [
-            { "text": "„Wie Sie heute Vormittag mit dem verärgerten Kunden umgegangen sind, war genau richtig.“", "kategorie": 0 },
-            { "text": "„Sie sind eben ein Naturtalent im Umgang mit Menschen.“", "kategorie": 1 },
-            { "text": "„Der erste Teil der Auswertung ist gut geworden, das sage ich Ihnen gleich jetzt.“", "kategorie": 0 },
-            { "text": "„Ich warte mit meiner Rückmeldung, bis das Projekt komplett abgeschlossen ist.“", "kategorie": 1 },
-            { "text": "„Gut gemacht, nur schade, dass es so lange gedauert hat.“", "kategorie": 1 },
-            { "text": "„Mich hat das beim Zuhören wirklich gefreut.“", "kategorie": 0 }
+            {
+              "text": "„Wie Sie heute Vormittag mit dem verärgerten Kunden umgegangen sind, war genau richtig.“",
+              "kategorie": 0
+            },
+            {
+              "text": "„Sie sind eben ein Naturtalent im Umgang mit Menschen.“",
+              "kategorie": 1
+            },
+            {
+              "text": "„Der erste Teil der Auswertung ist gut geworden, das sage ich Ihnen gleich jetzt.“",
+              "kategorie": 0
+            },
+            {
+              "text": "„Ich warte mit meiner Rückmeldung, bis das Projekt komplett abgeschlossen ist.“",
+              "kategorie": 1
+            },
+            {
+              "text": "„Gut gemacht, nur schade, dass es so lange gedauert hat.“",
+              "kategorie": 1
+            },
+            {
+              "text": "„Mich hat das beim Zuhören wirklich gefreut.“",
+              "kategorie": 0
+            }
           ],
           "erklaerung": "Regelkonform ist: beobachtetes Verhalten an konkretem Beispiel und umgehend loben, Teilschritte loben und die eigenen positiven Gefühle mitgeben. Regelwidrig ist: eine Eigenschaft loben, bis zum Endergebnis warten und mit Einschränkung formulieren.",
           "belege": [
-            { "text": "erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten/anpassen", "quelle": "folie-36" },
-            { "text": "stets positiv formulieren, ohne Einschränkungen", "quelle": "folie-36" }
+            {
+              "text": "erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten/anpassen",
+              "quelle": "folie-36"
+            },
+            {
+              "text": "stets positiv formulieren, ohne Einschränkungen",
+              "quelle": "folie-36"
+            }
           ],
-          "kurz": "Verhalten, konkret, umgehend, Teilschritte, eigene Gefühle: ja. Eigenschaft, Warten, Einschränkung: nein." },
-
-        { "id": "m4-t3-a07", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "loben-regeln", "karte": "m4-t3-k2", "folien": [64],
+          "kurz": "Verhalten, konkret, umgehend, Teilschritte, eigene Gefühle: ja. Eigenschaft, Warten, Einschränkung: nein."
+        },
+        {
+          "id": "m4-t3-a07",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "loben-regeln",
+          "karte": "m4-t3-k2",
+          "folien": [
+            64
+          ],
           "vorne": "Warum soll man **Verhalten** loben und nicht Eigenschaften?",
           "hinten": "Weil sich **Verhalten beibehalten oder anpassen lässt**. Im Skript: erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften.",
           "erklaerung": "Eine Eigenschaft kann der Gelobte nicht steuern, ein Verhalten schon. Deshalb knüpft die Regel am Verhalten an.",
-          "beleg": "erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten/anpassen", "belegQuelle": "folie-36",
-          "kurz": "Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten und anpassen." },
-
-        { "id": "m4-t3-a08", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "loben-regeln", "karte": "m4-t3-k2", "folien": [64],
+          "beleg": "erlebtes/beobachtetes Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten/anpassen",
+          "belegQuelle": "folie-36",
+          "kurz": "Verhalten loben, nicht Eigenschaften: Verhalten lässt sich beibehalten und anpassen."
+        },
+        {
+          "id": "m4-t3-a08",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "loben-regeln",
+          "karte": "m4-t3-k2",
+          "folien": [
+            64
+          ],
           "szenario": "Übungsfall: Eine Auszubildende hat heute Vormittag ein schwieriges Kundengespräch ruhig zu Ende geführt. Du willst sie anerkennen.",
           "frage": "Welche Formulierung passt am besten zu den Regeln der Folie?",
           "optionen": [
@@ -469,21 +1061,36 @@
             "„Sie sind eben ein Naturtalent im Umgang mit Menschen.“",
             "„Ganz gut gemacht heute, nur beim nächsten Mal bitte etwas schneller.“",
             "„Wenn das ganze Quartal so läuft, sage ich Ihnen am Jahresende, was ich davon halte.“"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die erste Formulierung lobt beobachtetes Verhalten, an einem konkreten Beispiel, umgehend danach, und gibt die positiven Gefühle des Beobachters mit. Die zweite lobt eine Eigenschaft, die dritte formuliert mit Einschränkung, die vierte wartet auf das Endergebnis statt Teilschritte zu loben.",
-          "beleg": "an konkretem Beispiel und umgehend danach loben/anerkennen (was war wichtig/richtig!?)", "belegQuelle": "folie-36",
-          "kurz": "Gutes Lob: beobachtetes Verhalten, konkretes Beispiel, umgehend, eigene positive Gefühle, keine Einschränkung." },
-
-        { "id": "m4-t3-a09", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 1, "kern": false, "konzept": "loben-herausforderung", "karte": "m4-t3-k2", "folien": [64],
+          "beleg": "an konkretem Beispiel und umgehend danach loben/anerkennen (was war wichtig/richtig!?)",
+          "belegQuelle": "folie-36",
+          "kurz": "Gutes Lob: beobachtetes Verhalten, konkretes Beispiel, umgehend, eigene positive Gefühle, keine Einschränkung."
+        },
+        {
+          "id": "m4-t3-a09",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "loben-herausforderung",
+          "karte": "m4-t3-k2",
+          "folien": [
+            64
+          ],
           "frage": "Was sagt die Folie über Loben und Anerkennen als Aufgabe der Führungskraft?",
           "optionen": [
             "Es ist eine Herausforderung für viele FK, wirkt aber richtig angewandt motivierend.",
             "Es fällt den meisten FK leicht und wirkt in jedem Fall motivierend.",
             "Es ist Sache der Mitarbeiter, sich Anerkennung im Sinne der Holschuld selbst zu besorgen."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Das Skript nennt Loben und Anerkennen ausdrücklich eine Herausforderung für viele Führungskräfte und knüpft die Wirkung an die Bedingung „richtig angewandt“. Mit der Holschuld von Folie 62 hat das nichts zu tun.",
-          "beleg": "Herausforderung für viele FK: Loben/Anerkennen", "belegQuelle": "folie-36",
-          "kurz": "Loben und Anerkennen ist für viele FK eine Herausforderung und wirkt nur richtig angewandt." }
+          "beleg": "Herausforderung für viele FK: Loben/Anerkennen",
+          "belegQuelle": "folie-36",
+          "kurz": "Loben und Anerkennen ist für viele FK eine Herausforderung und wirkt nur richtig angewandt."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -504,131 +1111,350 @@
     {
       "id": "m4-t4",
       "titel": "Kommunikationsstörungen und Warnsignale",
-      "folien": [65],
+      "folien": [
+        65
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m4-t4-k1",
           "titel": "Vier Ursachen für Kommunikationsstörungen",
-          "folien": [65],
+          "folien": [
+            65
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Kommunikation braucht mehr als einen Beteiligten. Und genau deshalb kann sie schiefgehen. Die Folie ordnet die Störungen vier Ursachen zu: zu wenig Kommunikation, Fehler beim Senden oder Empfangen, [[Double bind]] und eine Nachricht, deren Wirkung nie überprüft wurde." },
-            { "typ": "text", "text": "Titel der Folie: **Kommunikation erfordert mehrere Teilnehmer**" },
-            { "typ": "merksatz", "folie": 65, "text": "-> Kommunikationsstörungen" },
-            { "typ": "tabelle", "kopf": ["Ursache laut Folie", "Was das Skript darunter nennt"], "zeilen": [
-              ["*Kommunikationsmangel/Informationsmangel*", "zu wenige Möglichkeiten für Kommunikation wahrgenommen; Tabuisierung, Wegschweigen, „unter den Teppich kehren“; unter Zeitdruck schnelle Entscheidungen treffen"],
-              ["*Sender-/Empfängerfehler*", "falsche „Codierung“ zwischen unterschiedlichen Spezialisten, unklare/missverständliche Ausdrucksweise, Urteilen, Monologe, Killerargumente, mangelnde Zielgruppenorientierung; selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal/Zeitpunkt"],
-              ["*Double bind*", "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht"],
-              ["*Nachhaltigkeit der Nachricht nicht abgeprüft*", "s. {{Lorenz}}; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention"]
-            ] },
-            { "typ": "text", "text": "Zu den Sender-/Empfängerfehlern setzt das Skript den entscheidenden Zusatz:\n**jedoch: wichtig ist, was beim Empfänger ankommt!**" }
+            {
+              "typ": "einfach",
+              "text": "Kommunikation braucht mehr als einen Beteiligten. Und genau deshalb kann sie schiefgehen. Die Folie ordnet die Störungen vier Ursachen zu: zu wenig Kommunikation, Fehler beim Senden oder Empfangen, [[Double bind]] und eine Nachricht, deren Wirkung nie überprüft wurde."
+            },
+            {
+              "typ": "text",
+              "text": "Titel der Folie: **Kommunikation erfordert mehrere Teilnehmer**"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 65,
+              "text": "-> Kommunikationsstörungen"
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Ursache laut Folie",
+                "Was das Skript darunter nennt"
+              ],
+              "zeilen": [
+                [
+                  "*Kommunikationsmangel/Informationsmangel*",
+                  "zu wenige Möglichkeiten für Kommunikation wahrgenommen; Tabuisierung, Wegschweigen, „unter den Teppich kehren“; unter Zeitdruck schnelle Entscheidungen treffen"
+                ],
+                [
+                  "*Sender-/Empfängerfehler*",
+                  "falsche „Codierung“ zwischen unterschiedlichen Spezialisten, unklare/missverständliche Ausdrucksweise, Urteilen, Monologe, Killerargumente, mangelnde Zielgruppenorientierung; selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal/Zeitpunkt"
+                ],
+                [
+                  "*Double bind*",
+                  "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht"
+                ],
+                [
+                  "*Nachhaltigkeit der Nachricht nicht abgeprüft*",
+                  "s. {{Lorenz}}; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Zu den Sender-/Empfängerfehlern setzt das Skript den entscheidenden Zusatz:\n**jedoch: wichtig ist, was beim Empfänger ankommt!**"
+            }
           ]
         },
         {
           "id": "m4-t4-k2",
           "titel": "Double bind und Nachhaltigkeit der Nachricht",
-          "folien": [65],
+          "folien": [
+            65
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Zwei der vier Ursachen brauchen eine eigene Erklärung. Beim Double bind widersprechen sich Inhalt und Form: Was jemand sagt, passt nicht dazu, wie er es sagt. Das Skript sagt, geurteilt werde dann nach dem WIE statt nach dem WAS. Die vierte Ursache heißt: Niemand prüft nach, ob die Nachricht wirklich etwas verändert hat." },
-            { "typ": "text", "text": "*Double bind*\n- Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht" },
-            { "typ": "hinweis", "text": "„Double bind“ steht im Skript nur als Überschrift und wird über diesen einen Unterpunkt umschrieben, nicht definiert. Auf Folie 66 taucht der Begriff noch einmal auf („Vermeidung ‚Double bind‘“), ebenfalls ohne Erklärung. Wir tragen hier keine Definition von außen nach." },
-            { "typ": "text", "text": "*Nachhaltigkeit der Nachricht nicht abgeprüft*\n- s. {{Lorenz}}; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention" },
-            { "typ": "person", "name": "Lorenz", "folie": 65, "beitrag": "Das Skript verweist bei „Nachhaltigkeit der Nachricht nicht abgeprüft“ auf Lorenz: erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention." },
-            { "typ": "hinweis", "text": "„Lorenz“ wird ohne Vorname, ohne Jahr und ohne Fundstelle genannt. Mehr als diesen einen Satz gibt das Skript zu dieser Quelle nicht her. Merk dir die Zuordnung Lorenz zu kontinuierlicher Beobachtung und Intervention, nicht mehr." }
+            {
+              "typ": "einfach",
+              "text": "Zwei der vier Ursachen brauchen eine eigene Erklärung. Beim Double bind widersprechen sich Inhalt und Form: Was jemand sagt, passt nicht dazu, wie er es sagt. Das Skript sagt, geurteilt werde dann nach dem WIE statt nach dem WAS. Die vierte Ursache heißt: Niemand prüft nach, ob die Nachricht wirklich etwas verändert hat."
+            },
+            {
+              "typ": "text",
+              "text": "*Double bind*\n- Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht"
+            },
+            {
+              "typ": "hinweis",
+              "text": "„Double bind“ steht im Skript nur als Überschrift und wird über diesen einen Unterpunkt umschrieben, nicht definiert. Auf Folie 66 taucht der Begriff noch einmal auf („Vermeidung ‚Double bind‘“), ebenfalls ohne Erklärung. Wir tragen hier keine Definition von außen nach."
+            },
+            {
+              "typ": "text",
+              "text": "*Nachhaltigkeit der Nachricht nicht abgeprüft*\n- s. {{Lorenz}}; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention"
+            },
+            {
+              "typ": "person",
+              "name": "Lorenz",
+              "folie": 65,
+              "beitrag": "Das Skript verweist bei „Nachhaltigkeit der Nachricht nicht abgeprüft“ auf Lorenz: erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention."
+            },
+            {
+              "typ": "hinweis",
+              "text": "„Lorenz“ wird ohne Vorname, ohne Jahr und ohne Fundstelle genannt. Mehr als diesen einen Satz gibt das Skript zu dieser Quelle nicht her. Merk dir die Zuordnung Lorenz zu kontinuierlicher Beobachtung und Intervention, nicht mehr."
+            }
           ]
         },
         {
           "id": "m4-t4-k3",
           "titel": "Warnsignale und was die FK dann tut",
-          "folien": [65],
+          "folien": [
+            65
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die Folie schließt mit einer praktischen Liste: sechs Warnsignale, an denen die Führungskraft merkt, dass die Kommunikation gestört ist. Und vier Verhaltensweisen, mit denen sie darauf reagieren soll. Auffällig ist, dass drei davon Zurückhaltung verlangen: ausreden lassen, nachfragen, schweigen." },
-            { "typ": "liste", "titel": "Warnsignale für gestörte Kommunikation:", "punkte": [
-              "Rechtfertigen",
-              "Absichern",
-              "Finger Pointing",
-              "aggressives Auftreten",
-              "Ausweichen",
-              "permanente Wiederholung"
-            ] },
-            { "typ": "liste", "titel": "Was die FK laut Folie dann tun soll:", "punkte": [
-              "aufmerksam Zuhören",
-              "geschickte Nachfragen stellen",
-              "Ausreden lassen",
-              "Schweigen"
-            ] }
+            {
+              "typ": "einfach",
+              "text": "Die Folie schließt mit einer praktischen Liste: sechs Warnsignale, an denen die Führungskraft merkt, dass die Kommunikation gestört ist. Und vier Verhaltensweisen, mit denen sie darauf reagieren soll. Auffällig ist, dass drei davon Zurückhaltung verlangen: ausreden lassen, nachfragen, schweigen."
+            },
+            {
+              "typ": "liste",
+              "titel": "Warnsignale für gestörte Kommunikation:",
+              "punkte": [
+                "Rechtfertigen",
+                "Absichern",
+                "Finger Pointing",
+                "aggressives Auftreten",
+                "Ausweichen",
+                "permanente Wiederholung"
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Was die FK laut Folie dann tun soll:",
+              "punkte": [
+                "aufmerksam Zuhören",
+                "geschickte Nachfragen stellen",
+                "Ausreden lassen",
+                "Schweigen"
+              ]
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t4-a01", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "stoerungsursachen", "karte": "m4-t4-k1", "folien": [65],
+        {
+          "id": "m4-t4-a01",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "stoerungsursachen",
+          "karte": "m4-t4-k1",
+          "folien": [
+            65
+          ],
           "frage": "Welcher der vier Ursachen ordnet die Folie das jeweils zu?",
-          "kategorien": ["Kommunikationsmangel/Informationsmangel", "Sender-/Empfängerfehler", "Double bind", "Nachhaltigkeit der Nachricht nicht abgeprüft"],
+          "kategorien": [
+            "Kommunikationsmangel/Informationsmangel",
+            "Sender-/Empfängerfehler",
+            "Double bind",
+            "Nachhaltigkeit der Nachricht nicht abgeprüft"
+          ],
           "elemente": [
-            { "text": "Tabuisierung, Wegschweigen, „unter den Teppich kehren“", "kategorie": 0 },
-            { "text": "unter Zeitdruck schnelle Entscheidungen treffen", "kategorie": 0 },
-            { "text": "zu wenige Möglichkeiten für Kommunikation wahrgenommen", "kategorie": 0 },
-            { "text": "falsche „Codierung“ zwischen unterschiedlichen Spezialisten", "kategorie": 1 },
-            { "text": "selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung", "kategorie": 1 },
-            { "text": "Monologe und Killerargumente", "kategorie": 1 },
-            { "text": "Widerspruch zwischen Inhalt und Form der Übermittlung", "kategorie": 2 },
-            { "text": "erwünschte Verhaltensänderung wird nicht kontinuierlich beobachtet", "kategorie": 3 }
+            {
+              "text": "Tabuisierung, Wegschweigen, „unter den Teppich kehren“",
+              "kategorie": 0
+            },
+            {
+              "text": "unter Zeitdruck schnelle Entscheidungen treffen",
+              "kategorie": 0
+            },
+            {
+              "text": "zu wenige Möglichkeiten für Kommunikation wahrgenommen",
+              "kategorie": 0
+            },
+            {
+              "text": "falsche „Codierung“ zwischen unterschiedlichen Spezialisten",
+              "kategorie": 1
+            },
+            {
+              "text": "selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung",
+              "kategorie": 1
+            },
+            {
+              "text": "Monologe und Killerargumente",
+              "kategorie": 1
+            },
+            {
+              "text": "Widerspruch zwischen Inhalt und Form der Übermittlung",
+              "kategorie": 2
+            },
+            {
+              "text": "erwünschte Verhaltensänderung wird nicht kontinuierlich beobachtet",
+              "kategorie": 3
+            }
           ],
           "erklaerung": "Die Folie gliedert die Störungen in vier Blöcke. Alles, was mit fehlender Gelegenheit, Schweigen oder Zeitdruck zu tun hat, steht unter Kommunikations- und Informationsmangel. Alles, was beim Formulieren, Senden oder Aufnehmen schiefgeht, steht unter Sender-/Empfängerfehler.",
           "belege": [
-            { "text": "Kommunikationsmangel/Informationsmangel", "quelle": "folie-37" },
-            { "text": "Sender-/Empfängerfehler", "quelle": "folie-37" },
-            { "text": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht", "quelle": "folie-37" }
+            {
+              "text": "Kommunikationsmangel/Informationsmangel",
+              "quelle": "folie-37"
+            },
+            {
+              "text": "Sender-/Empfängerfehler",
+              "quelle": "folie-37"
+            },
+            {
+              "text": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht",
+              "quelle": "folie-37"
+            }
           ],
-          "kurz": "Vier Ursachen: Kommunikations-/Informationsmangel, Sender-/Empfängerfehler, Double bind, Nachhaltigkeit nicht abgeprüft." },
-
-        { "id": "m4-t4-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "stoerungsursachen", "karte": "m4-t4-k1", "folien": [65],
+          "kurz": "Vier Ursachen: Kommunikations-/Informationsmangel, Sender-/Empfängerfehler, Double bind, Nachhaltigkeit nicht abgeprüft."
+        },
+        {
+          "id": "m4-t4-a02",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "stoerungsursachen",
+          "karte": "m4-t4-k1",
+          "folien": [
+            65
+          ],
           "frage": "Ordne jeder Störungsursache zu, woran das Skript sie festmacht.",
-          "linksTitel": "Ursache laut Folie", "rechtsTitel": "Woran das Skript sie festmacht",
+          "linksTitel": "Ursache laut Folie",
+          "rechtsTitel": "Woran das Skript sie festmacht",
           "paare": [
-            { "links": "Kommunikationsmangel/Informationsmangel", "rechts": "Tabuisierung, Wegschweigen, „unter den Teppich kehren“" },
-            { "links": "Sender-/Empfängerfehler", "rechts": "falsche „Codierung“ zwischen unterschiedlichen Spezialisten" },
-            { "links": "Double bind", "rechts": "Widerspruch zwischen Inhalt und Form der Übermittlung" },
-            { "links": "Nachhaltigkeit der Nachricht nicht abgeprüft", "rechts": "keine kontinuierliche Beobachtung & Intervention (s. Lorenz)" }
+            {
+              "links": "Kommunikationsmangel/Informationsmangel",
+              "rechts": "Tabuisierung, Wegschweigen, „unter den Teppich kehren“"
+            },
+            {
+              "links": "Sender-/Empfängerfehler",
+              "rechts": "falsche „Codierung“ zwischen unterschiedlichen Spezialisten"
+            },
+            {
+              "links": "Double bind",
+              "rechts": "Widerspruch zwischen Inhalt und Form der Übermittlung"
+            },
+            {
+              "links": "Nachhaltigkeit der Nachricht nicht abgeprüft",
+              "rechts": "keine kontinuierliche Beobachtung & Intervention (s. Lorenz)"
+            }
           ],
           "erklaerung": "Das sind die vier Zwischenüberschriften der Folie mit je einem tragenden Merkmal. Die Zuordnung ist klausurtypisch, weil die Begriffe sich leicht vertauschen lassen.",
-          "beleg": "Double bind … Widerspruch zwischen Inhalt und Form der Übermittlung", "belegQuelle": "folie-37",
-          "kurz": "Mangel = keine Gelegenheit, Wegschweigen. Sender-/Empfängerfehler = Codierung, Wahrnehmung. Double bind = Inhalt gegen Form. Nachhaltigkeit = keine Beobachtung." },
-
-        { "id": "m4-t4-a03", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "warnsignale", "karte": "m4-t4-k3", "folien": [65],
+          "beleg": "Double bind … Widerspruch zwischen Inhalt und Form der Übermittlung",
+          "belegQuelle": "folie-37",
+          "kurz": "Mangel = keine Gelegenheit, Wegschweigen. Sender-/Empfängerfehler = Codierung, Wahrnehmung. Double bind = Inhalt gegen Form. Nachhaltigkeit = keine Beobachtung."
+        },
+        {
+          "id": "m4-t4-a03",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "warnsignale",
+          "karte": "m4-t4-k3",
+          "folien": [
+            65
+          ],
           "frage": "Welche **Warnsignale für gestörte Kommunikation** nennt die Folie?",
-          "optionen": ["Rechtfertigen", "Absichern", "Finger Pointing", "aggressives Auftreten", "Ausweichen", "permanente Wiederholung", "Schweigen"],
-          "richtig": [0, 1, 2, 3, 4, 5],
+          "optionen": [
+            "Rechtfertigen",
+            "Absichern",
+            "Finger Pointing",
+            "aggressives Auftreten",
+            "Ausweichen",
+            "permanente Wiederholung",
+            "Schweigen"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
           "erklaerung": "Die Folie nennt sechs Warnsignale. Schweigen gehört nicht dazu: Es steht auf derselben Folie, aber als Verhalten, das die Führungskraft selbst zeigen soll, zusammen mit aufmerksamem Zuhören, geschickten Nachfragen und Ausredenlassen.",
-          "beleg": "Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung", "belegQuelle": "folie-37",
-          "kurz": "Warnsignale: Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung." },
-
-        { "id": "m4-t4-a04", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "lorenz", "karte": "m4-t4-k2", "folien": [65],
+          "beleg": "Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung",
+          "belegQuelle": "folie-37",
+          "kurz": "Warnsignale: Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung."
+        },
+        {
+          "id": "m4-t4-a04",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "lorenz",
+          "karte": "m4-t4-k2",
+          "folien": [
+            65
+          ],
           "frage": "Worauf verweist das Skript mit „s. Lorenz“?",
           "optionen": [
             "Erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention.",
             "Wichtig ist, was beim Empfänger ankommt.",
             "Widerspruch zwischen Inhalt und Form der Übermittlung."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Der Verweis auf {{Lorenz}} steht unter der vierten Ursache „Nachhaltigkeit der Nachricht nicht abgeprüft“. Die beiden anderen Aussagen stehen zwar auf derselben Folie, gehören aber zu den Sender-/Empfängerfehlern und zum Double bind.",
-          "beleg": "s. Lorenz; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention", "belegQuelle": "folie-37",
-          "kurz": "Lorenz steht im Skript für: erwünschte Verhaltensänderungen brauchen kontinuierliche Beobachtung und Intervention." },
-
-        { "id": "m4-t4-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "stoerungsursachen", "karte": "m4-t4-k1", "folien": [65],
+          "beleg": "s. Lorenz; erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung & Intervention",
+          "belegQuelle": "folie-37",
+          "kurz": "Lorenz steht im Skript für: erwünschte Verhaltensänderungen brauchen kontinuierliche Beobachtung und Intervention."
+        },
+        {
+          "id": "m4-t4-a05",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "stoerungsursachen",
+          "karte": "m4-t4-k1",
+          "folien": [
+            65
+          ],
           "frage": "Welche Aussagen zu den Kommunikationsstörungen stimmen?",
           "aussagen": [
-            { "text": "Bei Sender-/Empfängerfehlern gilt laut Skript: wichtig ist, was beim Empfänger ankommt.", "wahr": true },
-            { "text": "Ein Double bind ist ein Mangel an Gelegenheiten zur Kommunikation.", "wahr": false, "korrektur": "Ein Double bind ist ein **Widerspruch zwischen Inhalt und Form der Übermittlung**. Der Mangel an Gelegenheiten gehört zum Kommunikations-/Informationsmangel." },
-            { "text": "Beim Double bind wird nach dem WIE statt nach dem WAS der Nachricht geurteilt.", "wahr": true },
-            { "text": "Unter Zeitdruck schnell zu entscheiden zählt die Folie zu den Sender-/Empfängerfehlern.", "wahr": false, "korrektur": "Das steht unter **Kommunikationsmangel/Informationsmangel**." },
-            { "text": "Killerargumente und Monologe zählt die Folie zu den Sender-/Empfängerfehlern.", "wahr": true }
+            {
+              "text": "Bei Sender-/Empfängerfehlern gilt laut Skript: wichtig ist, was beim Empfänger ankommt.",
+              "wahr": true
+            },
+            {
+              "text": "Ein Double bind ist ein Mangel an Gelegenheiten zur Kommunikation.",
+              "wahr": false,
+              "korrektur": "Ein Double bind ist ein **Widerspruch zwischen Inhalt und Form der Übermittlung**. Der Mangel an Gelegenheiten gehört zum Kommunikations-/Informationsmangel."
+            },
+            {
+              "text": "Beim Double bind wird nach dem WIE statt nach dem WAS der Nachricht geurteilt.",
+              "wahr": true
+            },
+            {
+              "text": "Unter Zeitdruck schnell zu entscheiden zählt die Folie zu den Sender-/Empfängerfehlern.",
+              "wahr": false,
+              "korrektur": "Das steht unter **Kommunikationsmangel/Informationsmangel**."
+            },
+            {
+              "text": "Killerargumente und Monologe zählt die Folie zu den Sender-/Empfängerfehlern.",
+              "wahr": true
+            }
           ],
           "erklaerung": "Die typische Verwechslung in der Klausur ist die zwischen Kommunikations-/Informationsmangel und Sender-/Empfängerfehler. Merkmal: Beim Mangel wird gar nicht geredet, beim Sender-/Empfängerfehler wird falsch geredet oder falsch gehört.",
-          "beleg": "jedoch: wichtig ist, was beim Empfänger ankommt!", "belegQuelle": "folie-37",
-          "kurz": "Mangel = es wird nicht geredet. Sender-/Empfängerfehler = es wird falsch geredet oder falsch gehört." },
-
-        { "id": "m4-t4-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "merksatz-stoerungen", "karte": "m4-t4-k1", "folien": [65],
+          "beleg": "jedoch: wichtig ist, was beim Empfänger ankommt!",
+          "belegQuelle": "folie-37",
+          "kurz": "Mangel = es wird nicht geredet. Sender-/Empfängerfehler = es wird falsch geredet oder falsch gehört."
+        },
+        {
+          "id": "m4-t4-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "merksatz-stoerungen",
+          "karte": "m4-t4-k1",
+          "folien": [
+            65
+          ],
           "frage": "Die Folie trägt den Titel „Kommunikation erfordert mehrere Teilnehmer“ und darunter hervorgehoben „-> Kommunikationsstörungen“. Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Titel nennt die Bedingung, die Zeile darunter die Folge. Weil an Kommunikation immer mehrere beteiligt sind, gibt es Stellen, an denen sie scheitern kann. Die Folie ordnet diese Stellen vier Ursachen zu. Erstens Kommunikationsmangel und Informationsmangel: zu wenige Möglichkeiten für Kommunikation wahrgenommen, Tabuisierung, Wegschweigen, unter den Teppich kehren, unter Zeitdruck schnelle Entscheidungen treffen. Zweitens Sender-/Empfängerfehler: falsche Codierung zwischen unterschiedlichen Spezialisten, unklare oder missverständliche Ausdrucksweise, Urteilen, Monologe, Killerargumente, mangelnde Zielgruppenorientierung, auf der Empfängerseite selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal oder Zeitpunkt. Dazu der Zusatz: wichtig ist, was beim Empfänger ankommt. Drittens Double bind, der Widerspruch zwischen Inhalt und Form der Übermittlung. Viertens: die Nachhaltigkeit der Nachricht wurde nicht abgeprüft. Der Zusammenhang ist das Kapitel Kommunikation und Moderation in der Führung: Nachdem die Vorfolien gezeigt haben, was Kommunikation leisten soll, zeigt diese Folie, woran sie scheitert.",
           "checkliste": [
@@ -640,12 +1466,28 @@
           ],
           "erklaerung": "Die Klausur kann die vier Ursachen abfragen. Wichtig ist die Reihenfolge und dass zu jeder Ursache ein Merkmal genannt wird.",
           "belege": [
-            { "text": "Kommunikation erfordert mehrere Teilnehmer", "quelle": "folie-37" },
-            { "text": "Kommunikationsstörungen aufgrund von", "quelle": "folie-37" }
+            {
+              "text": "Kommunikation erfordert mehrere Teilnehmer",
+              "quelle": "folie-37"
+            },
+            {
+              "text": "Kommunikationsstörungen aufgrund von",
+              "quelle": "folie-37"
+            }
           ],
-          "kurz": "Mehrere Teilnehmer heißt mehrere Störquellen: Mangel, Sender-/Empfängerfehler, Double bind, fehlende Nachprüfung." },
-
-        { "id": "m4-t4-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "empfaenger", "karte": "m4-t4-k1", "folien": [65],
+          "kurz": "Mehrere Teilnehmer heißt mehrere Störquellen: Mangel, Sender-/Empfängerfehler, Double bind, fehlende Nachprüfung."
+        },
+        {
+          "id": "m4-t4-a07",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "empfaenger",
+          "karte": "m4-t4-k1",
+          "folien": [
+            65
+          ],
           "frage": "Das Skript hebt hervor: „jedoch: wichtig ist, was beim Empfänger ankommt!“ Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz steht direkt unter den Sender-/Empfängerfehlern und schließt sie ab. Davor hat die Folie aufgezählt, was auf beiden Seiten schiefgehen kann: auf der Senderseite falsche Codierung zwischen unterschiedlichen Spezialisten, unklare oder missverständliche Ausdrucksweise, Urteilen, Monologe, Killerargumente, mangelnde Zielgruppenorientierung; auf der Empfängerseite selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal oder Zeitpunkt. Das jedoch verschiebt den Maßstab: Entscheidend ist nicht, was der Sender gemeint oder gesagt hat, sondern was beim Empfänger ankommt. Für die Führungskraft heißt das, dass sie die Verantwortung für die Wirkung ihrer Nachricht nicht abgeben kann. Das passt zur vierten Ursache der Folie, der nicht abgeprüften Nachhaltigkeit der Nachricht: Erwünschte Verhaltensänderungen erfordern kontinuierliche Beobachtung und Intervention.",
           "checkliste": [
@@ -656,18 +1498,45 @@
             "Verbindung zur nicht abgeprüften Nachhaltigkeit der Nachricht"
           ],
           "erklaerung": "Der Satz ist auf der Folie fett gesetzt und steht klausurtypisch für den Perspektivwechsel vom Sender zum Empfänger.",
-          "beleg": "selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal/Zeitpunkt jedoch: wichtig ist, was beim Empfänger ankommt!", "belegQuelle": "folie-37",
-          "kurz": "Maßstab ist nicht die Absicht des Senders, sondern was beim Empfänger ankommt." },
-
-        { "id": "m4-t4-a08", "typ": "luecke", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "double-bind", "karte": "m4-t4-k2", "folien": [65], "bank": true,
+          "beleg": "selektive Wahrnehmung, unkonzentriertes Zuhören, Ablenkung, falscher Kanal/Zeitpunkt jedoch: wichtig ist, was beim Empfänger ankommt!",
+          "belegQuelle": "folie-37",
+          "kurz": "Maßstab ist nicht die Absicht des Senders, sondern was beim Empfänger ankommt."
+        },
+        {
+          "id": "m4-t4-a08",
+          "typ": "luecke",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "double-bind",
+          "karte": "m4-t4-k2",
+          "folien": [
+            65
+          ],
+          "bank": true,
           "frage": "Vervollständige, was das Skript zum Double bind sagt.",
           "text": "Double bind: {_Widerspruch_} zwischen {_Inhalt_} und {_Form_} der Übermittlung -> Urteil nach {_WIE_} als {_WAS_} der Nachricht",
-          "zusatzBank": ["Codierung", "Kanal"],
+          "zusatzBank": [
+            "Codierung",
+            "Kanal"
+          ],
           "erklaerung": "Der Empfänger urteilt beim Double bind nach dem WIE der Nachricht, also nach Ton, Miene und Auftreten, und nicht nach dem WAS, also dem Inhalt.",
-          "beleg": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht", "belegQuelle": "folie-37",
-          "kurz": "Double bind: Inhalt und Form widersprechen sich, geurteilt wird nach dem WIE statt nach dem WAS." },
-
-        { "id": "m4-t4-a09", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "warnsignale", "karte": "m4-t4-k3", "folien": [65],
+          "beleg": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht",
+          "belegQuelle": "folie-37",
+          "kurz": "Double bind: Inhalt und Form widersprechen sich, geurteilt wird nach dem WIE statt nach dem WAS."
+        },
+        {
+          "id": "m4-t4-a09",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "warnsignale",
+          "karte": "m4-t4-k3",
+          "folien": [
+            65
+          ],
           "szenario": "Übungsfall: In einer Teambesprechung rechtfertigt sich ein Mitarbeiter dreimal ungefragt, ein zweiter zeigt auf die Nachbarabteilung, eine Kollegin weicht jeder direkten Frage aus, und derselbe Punkt wird zum vierten Mal vorgetragen.",
           "frage": "Was erkennst du daran, und wie sollte sich die Führungskraft laut Folie verhalten?",
           "musterloesung": "Das sind Warnsignale für gestörte Kommunikation. Die Folie nennt sechs davon: Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen und permanente Wiederholung. Im Fall treten vier davon auf: Rechtfertigen, Finger Pointing, Ausweichen und permanente Wiederholung. Das Skript sagt, wie die Führungskraft darauf reagieren soll: aufmerksam zuhören, geschickte Nachfragen stellen, ausreden lassen und schweigen. Auffällig ist, dass die Folie hier kein Eingreifen verlangt, sondern Zurückhaltung. Wer selbst redet, erfährt nicht, woran die Störung liegt. Sinnvoll ist außerdem zu prüfen, welche der vier Ursachen dahintersteckt, zum Beispiel ein Kommunikationsmangel durch Tabuisierung oder ein Sender-/Empfängerfehler.",
@@ -679,15 +1548,28 @@
             "Rückbindung an die vier Ursachen für Kommunikationsstörungen"
           ],
           "erklaerung": "Die Folie verlangt bei Warnsignalen ausdrücklich Zuhören und Nachfragen statt Gegenrede. Genau das ist die Prüffrage im Fall.",
-          "beleg": "FK sollten hier aufmerksam Zuhören und geschickte Nachfragen stellen", "belegQuelle": "folie-37",
-          "kurz": "Bei Warnsignalen: aufmerksam zuhören, geschickt nachfragen, ausreden lassen, schweigen." },
-
-        { "id": "m4-t4-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "double-bind", "karte": "m4-t4-k2", "folien": [65],
+          "beleg": "FK sollten hier aufmerksam Zuhören und geschickte Nachfragen stellen",
+          "belegQuelle": "folie-37",
+          "kurz": "Bei Warnsignalen: aufmerksam zuhören, geschickt nachfragen, ausreden lassen, schweigen."
+        },
+        {
+          "id": "m4-t4-a10",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "double-bind",
+          "karte": "m4-t4-k2",
+          "folien": [
+            65
+          ],
           "vorne": "Was ist laut Folie ein **Double bind**?",
           "hinten": "**Widerspruch zwischen Inhalt und Form der Übermittlung** -> Urteil nach WIE als WAS der Nachricht. Mehr sagt das Skript dazu nicht; eine Definition gibt es dort nicht.",
           "erklaerung": "Double bind steht im Skript nur als Überschrift mit diesem einen Unterpunkt. Die Klausurantwort ist genau dieser Satz.",
-          "beleg": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht", "belegQuelle": "folie-37",
-          "kurz": "Double bind: Widerspruch zwischen Inhalt und Form, Urteil nach WIE statt WAS." }
+          "beleg": "Widerspruch zwischen Inhalt und Form der Übermittlung -> Urteil nach WIE als WAS der Nachricht",
+          "belegQuelle": "folie-37",
+          "kurz": "Double bind: Widerspruch zwischen Inhalt und Form, Urteil nach WIE statt WAS."
+        }
       ],
       "lernzettel": {
         "kompakt": [

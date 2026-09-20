@@ -6,80 +6,240 @@
     {
       "id": "m1-t1",
       "titel": "Hauptaufgabe von Führung (Check-in)",
-      "folien": [30],
+      "folien": [
+        30
+      ],
       "gewicht": 2,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m1-t1-k1",
           "titel": "Was ist die Hauptaufgabe von Führung?",
-          "folien": [30],
+          "folien": [
+            30
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Der Einstieg der Vorlesung stellt eine einzige Frage: Was muss eine Führungskraft eigentlich leisten? Die Antwort des Skripts ist knapp. Führung heißt, für das **Ergebnis** geradezustehen. Gemessen wird das an Leistung und Exzellenz, und immer bezogen auf die jeweilige Lage des Unternehmens." },
-            { "typ": "liste", "titel": "Die Antwort des Skripts", "punkte": [
-              "==ERGEBNIS==verantwortung übernehmen",
-              "KPI: Leistung & Exzellenz (LKW-Formel)",
-              "stets im Kontext (Reife, Größe, Wettbew.pos.,..)"
-            ] },
-            { "typ": "definition", "begriff": "Ergebnisverantwortung", "text": "Die Hauptaufgabe von Führung laut Skript: **ERGEBNIS**verantwortung übernehmen. Im Skript ist der Wortteil „ERGEBNIS“ rot hervorgehoben." },
-            { "typ": "text", "text": "Der [[Kontext]] wird im Skript mit Beispielen gefüllt: **Reife**, **Größe**, **Wettbew.pos.**, gefolgt von zwei Punkten. Die Aufzählung ist also ausdrücklich offen." },
-            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: „LKW-Formel“, „KPI“, „Wettbew.pos.“. Diese Begriffe werden hier deshalb bewusst nicht ausgedeutet." }
+            {
+              "typ": "einfach",
+              "text": "Der Einstieg der Vorlesung stellt eine einzige Frage: Was muss eine Führungskraft eigentlich leisten? Die Antwort des Skripts ist knapp. Führung heißt, für das **Ergebnis** geradezustehen. Gemessen wird das an Leistung und Exzellenz, und immer bezogen auf die jeweilige Lage des Unternehmens."
+            },
+            {
+              "typ": "liste",
+              "titel": "Die Antwort des Skripts",
+              "punkte": [
+                "==ERGEBNIS==verantwortung übernehmen",
+                "KPI: Leistung & Exzellenz (LKW-Formel)",
+                "stets im Kontext (Reife, Größe, Wettbew.pos.,..)"
+              ]
+            },
+            {
+              "typ": "definition",
+              "begriff": "Ergebnisverantwortung",
+              "text": "Die Hauptaufgabe von Führung laut Skript: **ERGEBNIS**verantwortung übernehmen. Im Skript ist der Wortteil „ERGEBNIS“ rot hervorgehoben."
+            },
+            {
+              "typ": "text",
+              "text": "Der [[Kontext]] wird im Skript mit Beispielen gefüllt: **Reife**, **Größe**, **Wettbew.pos.**, gefolgt von zwei Punkten. Die Aufzählung ist also ausdrücklich offen."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Im Skript nur genannt, nicht erklärt: „LKW-Formel“, „KPI“, „Wettbew.pos.“. Diese Begriffe werden hier deshalb bewusst nicht ausgedeutet."
+            }
           ]
         },
         {
           "id": "m1-t1-k2",
           "titel": "Nicht allein — und was sich nie ändert",
-          "folien": [30],
+          "folien": [
+            30
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Das Skript fragt ausdrücklich nach, ob eine Führungskraft das allein schafft. Die Antwort ist ein klares Nein. Führung passiert immer zusammen mit anderen. Zum Schluss steht ein Merksatz, der Regeln und Werkzeuge trennt." },
-            { "typ": "text", "text": "**ALLEIN?**\n- nope, stets gemeinsam mit Anderen" },
-            { "typ": "merksatz", "folie": 30, "text": "RULES: unchanged.\nTOOLS: subject to change." },
-            { "typ": "text", "text": "Als offene Stichworte wirft die Folie ein: **Introverts?...Employer Branding?...WLB?...** — genannt, aber nicht ausgeführt." },
-            { "typ": "hinweis", "text": "„Introverts“, „Employer Branding“ und „WLB“ stehen auf der Folie nur als Stichwort mit Fragezeichen. Das Skript erklärt sie an dieser Stelle nicht." }
+            {
+              "typ": "einfach",
+              "text": "Das Skript fragt ausdrücklich nach, ob eine Führungskraft das allein schafft. Die Antwort ist ein klares Nein. Führung passiert immer zusammen mit anderen. Zum Schluss steht ein Merksatz, der Regeln und Werkzeuge trennt."
+            },
+            {
+              "typ": "text",
+              "text": "**ALLEIN?**\n- nope, stets gemeinsam mit Anderen"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 30,
+              "text": "RULES: unchanged.\nTOOLS: subject to change."
+            },
+            {
+              "typ": "text",
+              "text": "Als offene Stichworte wirft die Folie ein: **Introverts?...Employer Branding?...WLB?...** — genannt, aber nicht ausgeführt."
+            },
+            {
+              "typ": "hinweis",
+              "text": "„Introverts“, „Employer Branding“ und „WLB“ stehen auf der Folie nur als Stichwort mit Fragezeichen. Das Skript erklärt sie an dieser Stelle nicht."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m1-t1-a01", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "hauptaufgabe-fuehrung", "karte": "m1-t1-k1", "folien": [30],
+        {
+          "id": "m1-t1-a01",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "hauptaufgabe-fuehrung",
+          "karte": "m1-t1-k1",
+          "folien": [
+            30
+          ],
           "frage": "Was nennt das Skript als **Hauptaufgabe von Führung**?",
-          "optionen": ["Ergebnisverantwortung übernehmen", "Mitarbeiter motivieren", "Prozesse kontrollieren", "Das Unternehmensleitbild vorleben"], "richtig": 0,
+          "optionen": [
+            "Ergebnisverantwortung übernehmen",
+            "Mitarbeiter motivieren",
+            "Prozesse kontrollieren",
+            "Das Unternehmensleitbild vorleben"
+          ],
+          "richtig": 0,
           "erklaerung": "Die Check-in-Folie beantwortet die Frage mit einem Wort: ERGEBNISverantwortung übernehmen. „ERGEBNIS“ ist dabei rot hervorgehoben.",
           "belege": [
-            { "text": "Was ist die Hauptaufgabe von Führung?", "quelle": "folie-02" },
-            { "text": "==ERGEBNIS==verantwortung übernehmen", "quelle": "folie-02" }
+            {
+              "text": "Was ist die Hauptaufgabe von Führung?",
+              "quelle": "folie-02"
+            },
+            {
+              "text": "==ERGEBNIS==verantwortung übernehmen",
+              "quelle": "folie-02"
+            }
           ],
-          "kurz": "Hauptaufgabe von Führung = Ergebnisverantwortung übernehmen." },
-        { "id": "m1-t1-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "hauptaufgabe-fuehrung", "karte": "m1-t1-k1", "folien": [30],
+          "kurz": "Hauptaufgabe von Führung = Ergebnisverantwortung übernehmen."
+        },
+        {
+          "id": "m1-t1-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "hauptaufgabe-fuehrung",
+          "karte": "m1-t1-k1",
+          "folien": [
+            30
+          ],
           "frage": "Welche Punkte nennt die Check-in-Folie zur Hauptaufgabe von Führung?",
-          "optionen": ["Ergebnisverantwortung übernehmen", "KPI: Leistung & Exzellenz", "stets im Kontext", "Kosten senken", "Hierarchie sichern"], "richtig": [0, 1, 2],
+          "optionen": [
+            "Ergebnisverantwortung übernehmen",
+            "KPI: Leistung & Exzellenz",
+            "stets im Kontext",
+            "Kosten senken",
+            "Hierarchie sichern"
+          ],
+          "richtig": [
+            0,
+            1,
+            2
+          ],
           "erklaerung": "Die Folie nennt genau drei Punkte: Ergebnisverantwortung, KPI Leistung & Exzellenz (LKW-Formel) und den Kontextbezug. Kostensenkung und Hierarchiesicherung stehen dort nicht.",
-          "beleg": "KPI: Leistung & Exzellenz (LKW-Formel)", "belegQuelle": "folie-02",
-          "kurz": "Drei Punkte: Ergebnisverantwortung, KPI Leistung & Exzellenz, stets im Kontext." },
-        { "id": "m1-t1-a03", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "fuehrung-kontext", "karte": "m1-t1-k1", "folien": [30],
+          "beleg": "KPI: Leistung & Exzellenz (LKW-Formel)",
+          "belegQuelle": "folie-02",
+          "kurz": "Drei Punkte: Ergebnisverantwortung, KPI Leistung & Exzellenz, stets im Kontext."
+        },
+        {
+          "id": "m1-t1-a03",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fuehrung-kontext",
+          "karte": "m1-t1-k1",
+          "folien": [
+            30
+          ],
           "frage": "Welche Kontextfaktoren nennt die Folie ausdrücklich als Beispiele?",
-          "optionen": ["Reife", "Größe", "Wettbewerbsposition", "Rechtsform", "Standort"], "richtig": [0, 1, 2],
+          "optionen": [
+            "Reife",
+            "Größe",
+            "Wettbewerbsposition",
+            "Rechtsform",
+            "Standort"
+          ],
+          "richtig": [
+            0,
+            1,
+            2
+          ],
           "erklaerung": "Die Folie schreibt „stets im Kontext (Reife, Größe, Wettbew.pos.,..)“. Die zwei Punkte am Ende zeigen, dass die Liste offen ist. Rechtsform und Standort stehen nicht dort.",
-          "beleg": "stets im Kontext (Reife, Größe, Wettbew.pos.,..)", "belegQuelle": "folie-02",
-          "kurz": "Kontext laut Folie 30: Reife, Größe, Wettbew.pos., Liste offen." },
-        { "id": "m1-t1-a04", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "fuehrung-gemeinsam", "karte": "m1-t1-k2", "folien": [30],
+          "beleg": "stets im Kontext (Reife, Größe, Wettbew.pos.,..)",
+          "belegQuelle": "folie-02",
+          "kurz": "Kontext laut Folie 30: Reife, Größe, Wettbew.pos., Liste offen."
+        },
+        {
+          "id": "m1-t1-a04",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fuehrung-gemeinsam",
+          "karte": "m1-t1-k2",
+          "folien": [
+            30
+          ],
           "frage": "Führung allein oder gemeinsam? Was sagt Folie 30?",
           "aussagen": [
-            { "text": "Führung geschieht laut Skript stets gemeinsam mit Anderen.", "wahr": true },
-            { "text": "Die Folie bejaht die Frage „ALLEIN?“ ausdrücklich.", "wahr": false, "korrektur": "Die Folie antwortet auf „ALLEIN?“ mit „nope, stets gemeinsam mit Anderen“." },
-            { "text": "Die Hauptaufgabe von Führung ist laut Folie die Ergebnisverantwortung.", "wahr": true },
-            { "text": "Die Folie erklärt, was die LKW-Formel bedeutet.", "wahr": false, "korrektur": "Die LKW-Formel wird auf der Folie nur genannt, nicht erklärt." }
+            {
+              "text": "Führung geschieht laut Skript stets gemeinsam mit Anderen.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie bejaht die Frage „ALLEIN?“ ausdrücklich.",
+              "wahr": false,
+              "korrektur": "Die Folie antwortet auf „ALLEIN?“ mit „nope, stets gemeinsam mit Anderen“."
+            },
+            {
+              "text": "Die Hauptaufgabe von Führung ist laut Folie die Ergebnisverantwortung.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt, was die LKW-Formel bedeutet.",
+              "wahr": false,
+              "korrektur": "Die LKW-Formel wird auf der Folie nur genannt, nicht erklärt."
+            }
           ],
           "erklaerung": "Die Folie stellt die Frage „ALLEIN?“ und verneint sie sofort. Die LKW-Formel steht nur als Klammerzusatz hinter dem KPI.",
-          "beleg": "nope, stets gemeinsam mit Anderen", "belegQuelle": "folie-02",
-          "kurz": "ALLEIN? nope — Führung stets gemeinsam mit Anderen." },
-        { "id": "m1-t1-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "rules-tools", "karte": "m1-t1-k2", "folien": [30], "bank": true,
+          "beleg": "nope, stets gemeinsam mit Anderen",
+          "belegQuelle": "folie-02",
+          "kurz": "ALLEIN? nope — Führung stets gemeinsam mit Anderen."
+        },
+        {
+          "id": "m1-t1-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "rules-tools",
+          "karte": "m1-t1-k2",
+          "folien": [
+            30
+          ],
+          "bank": true,
           "frage": "Vervollständige den Merksatz der Check-in-Folie.",
           "text": "{_RULES_}: unchanged. {_TOOLS_}: subject to change.",
-          "zusatzBank": ["KPI", "WLB"],
+          "zusatzBank": [
+            "KPI",
+            "WLB"
+          ],
           "erklaerung": "Die Regeln bleiben, die Werkzeuge ändern sich. Beide Zeilen sind im Skript rot auf gelb hinterlegt.",
-          "beleg": "RULES: unchanged. TOOLS: subject to change.", "belegQuelle": "folie-02",
-          "kurz": "RULES: unchanged. TOOLS: subject to change." },
-        { "id": "m1-t1-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "rules-tools", "karte": "m1-t1-k2", "folien": [30],
+          "beleg": "RULES: unchanged. TOOLS: subject to change.",
+          "belegQuelle": "folie-02",
+          "kurz": "RULES: unchanged. TOOLS: subject to change."
+        },
+        {
+          "id": "m1-t1-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "rules-tools",
+          "karte": "m1-t1-k2",
+          "folien": [
+            30
+          ],
           "frage": "Erkläre, was mit „RULES: unchanged. TOOLS: subject to change.“ gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz steht am Ende der Check-in-Folie zur Hauptaufgabe von Führung. Er trennt zwei Ebenen. Die Regeln bleiben unverändert: Führung heißt Ergebnisverantwortung übernehmen, gemessen an Leistung und Exzellenz. Die Werkzeuge dagegen ändern sich, denn Führung muss stets im Kontext stattfinden, also je nach Reife, Größe und Wettbewerbsposition. Deshalb verneint die Folie auch die Frage „ALLEIN?“: Die Regeln gelten, aber umgesetzt werden sie gemeinsam mit Anderen.",
           "checkliste": [
@@ -90,25 +250,53 @@
             "Bezug zu „nope, stets gemeinsam mit Anderen“"
           ],
           "erklaerung": "Die Klausur kann genau diese Unterscheidung verlangen: was bleibt und was sich ändert. Wichtig ist, beide Seiten zu nennen und den Bezug zur Ergebnisverantwortung herzustellen.",
-          "beleg": "RULES: unchanged. TOOLS: subject to change.", "belegQuelle": "folie-02",
-          "kurz": "Regeln (Ergebnisverantwortung, Leistung & Exzellenz) bleiben; Werkzeuge ändern sich mit dem Kontext." },
-        { "id": "m1-t1-a07", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "hauptaufgabe-fuehrung", "karte": "m1-t1-k1", "folien": [30],
+          "beleg": "RULES: unchanged. TOOLS: subject to change.",
+          "belegQuelle": "folie-02",
+          "kurz": "Regeln (Ergebnisverantwortung, Leistung & Exzellenz) bleiben; Werkzeuge ändern sich mit dem Kontext."
+        },
+        {
+          "id": "m1-t1-a07",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "hauptaufgabe-fuehrung",
+          "karte": "m1-t1-k1",
+          "folien": [
+            30
+          ],
           "vorne": "Woran wird die Hauptaufgabe von Führung laut Folie 30 gemessen?",
           "hinten": "**KPI: Leistung & Exzellenz (LKW-Formel)** — und das **stets im Kontext** (Reife, Größe, Wettbew.pos.,..).",
           "erklaerung": "Der KPI steht als zweiter Punkt direkt unter der Ergebnisverantwortung, der Kontextbezug als dritter.",
-          "beleg": "KPI: Leistung & Exzellenz (LKW-Formel)", "belegQuelle": "folie-02",
-          "kurz": "KPI der Führung: Leistung & Exzellenz, stets im Kontext." },
-        { "id": "m1-t1-a08", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "fuehrung-kontext", "karte": "m1-t1-k1", "folien": [30],
+          "beleg": "KPI: Leistung & Exzellenz (LKW-Formel)",
+          "belegQuelle": "folie-02",
+          "kurz": "KPI der Führung: Leistung & Exzellenz, stets im Kontext."
+        },
+        {
+          "id": "m1-t1-a08",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "fuehrung-kontext",
+          "karte": "m1-t1-k1",
+          "folien": [
+            30
+          ],
           "szenario": "Übungsfall: Eine Kollegin leitet seit einem Jahr ein Team in einer jungen Direktbank und wechselt nun in dieselbe Rolle bei einer alteingesessenen Sparkasse. Sie will ihren Führungsstil eins zu eins mitnehmen.",
           "frage": "Wie beurteilst du das allein mit den Aussagen der Check-in-Folie?",
           "optionen": [
             "Die Regeln bleiben gleich, die Werkzeuge nicht: Führung ist stets im Kontext zu sehen, also nach Reife, Größe und Wettbewerbsposition anzupassen.",
             "Sie sollte alles unverändert lassen, weil sowohl RULES als auch TOOLS unverändert bleiben.",
             "Sie sollte die Ergebnisverantwortung abgeben, weil der Kontext neu ist."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die Folie hält die Regeln fest („RULES: unchanged.“) und gibt die Werkzeuge frei („TOOLS: subject to change.“). Der Kontextbezug nennt ausdrücklich Reife und Größe.",
-          "beleg": "stets im Kontext (Reife, Größe, Wettbew.pos.,..)", "belegQuelle": "folie-02",
-          "kurz": "Kontextwechsel ändert die Werkzeuge, nicht die Ergebnisverantwortung." }
+          "beleg": "stets im Kontext (Reife, Größe, Wettbew.pos.,..)",
+          "belegQuelle": "folie-02",
+          "kurz": "Kontextwechsel ändert die Werkzeuge, nicht die Ergebnisverantwortung."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -129,140 +317,399 @@
     {
       "id": "m1-t2",
       "titel": "Menschenbilder: Entwicklungsgeschichte und Theory X/Y/Z",
-      "folien": [31],
+      "folien": [
+        31
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m1-t2-k1",
           "titel": "Optimistische und pessimistische Menschenbilder",
-          "folien": [31],
+          "folien": [
+            31
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Wie du Menschen siehst, bestimmt, wie du führst. Das Skript stellt dafür eine kleine Ideengeschichte auf: neun Denker aus fünf Jahrhunderten, geordnet nach der Frage, ob sie den Menschen eher freundlich oder eher misstrauisch beschreiben. Merke dir Name, Eigenschaft und Jahrhundert zusammen." },
-            { "typ": "text", "text": "**Entwicklungsgeschichte Menschenbild – Der Mensch ist...**" },
-            { "typ": "tabelle", "kopf": ["Optimistische Menschenbilder", "Pessimistische Menschenbilder"], "zeilen": [
-              ["...vernünftig, kooperativ, unterstützend ({{John Locke}}, 17.Jh.)", "...undankbar, heuchlerisch, ängstlich ({{Nicolo Machiavelli}}, 15. Jh.)"],
-              ["...soziokulturell beeinflusst ({{Erich Fromm}}, 20. Jh.)", "...selbstsüchtig, egoistisch ({{Adam Smith}}, 18. Jh.)"],
-              ["...grds. sozial mit entspr. Gruppen-Verhalten ({{Elton Mayo}}, 20.Jh.)", "...kampfbetont, durchsetzungswillig ({{Charles Darwin}}, 19. Jh.)"],
-              ["...hierarchisch bedürfnisorientiert ({{Abraham Maslow}}, 20. Jh.)", "...primitiv wild, böse ({{Sigmund Freud}}, 19. Jh.)"],
-              ["", "...faul, egoistisch, träge, maschinengleich ({{Frederic Taylor}}, 19. Jh.)"]
-            ], "hinweis": "Die linke Spalte hat vier Einträge, die rechte fünf. Die fünfte Zelle links ist im Skript leer." },
-            { "typ": "hinweis", "text": "Die Schreibweisen stammen aus dem Skript und werden hier nicht korrigiert: „Nicolo Machiavelli“, „Frederic Taylor“." }
+            {
+              "typ": "einfach",
+              "text": "Wie du Menschen siehst, bestimmt, wie du führst. Das Skript stellt dafür eine kleine Ideengeschichte auf: neun Denker aus fünf Jahrhunderten, geordnet nach der Frage, ob sie den Menschen eher freundlich oder eher misstrauisch beschreiben. Merke dir Name, Eigenschaft und Jahrhundert zusammen."
+            },
+            {
+              "typ": "text",
+              "text": "**Entwicklungsgeschichte Menschenbild – Der Mensch ist...**"
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Optimistische Menschenbilder",
+                "Pessimistische Menschenbilder"
+              ],
+              "zeilen": [
+                [
+                  "...vernünftig, kooperativ, unterstützend ({{John Locke}}, 17.Jh.)",
+                  "...undankbar, heuchlerisch, ängstlich ({{Nicolo Machiavelli}}, 15. Jh.)"
+                ],
+                [
+                  "...soziokulturell beeinflusst ({{Erich Fromm}}, 20. Jh.)",
+                  "...selbstsüchtig, egoistisch ({{Adam Smith}}, 18. Jh.)"
+                ],
+                [
+                  "...grds. sozial mit entspr. Gruppen-Verhalten ({{Elton Mayo}}, 20.Jh.)",
+                  "...kampfbetont, durchsetzungswillig ({{Charles Darwin}}, 19. Jh.)"
+                ],
+                [
+                  "...hierarchisch bedürfnisorientiert ({{Abraham Maslow}}, 20. Jh.)",
+                  "...primitiv wild, böse ({{Sigmund Freud}}, 19. Jh.)"
+                ],
+                [
+                  "",
+                  "...faul, egoistisch, träge, maschinengleich ({{Frederic Taylor}}, 19. Jh.)"
+                ]
+              ],
+              "hinweis": "Die linke Spalte hat vier Einträge, die rechte fünf. Die fünfte Zelle links ist im Skript leer."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Schreibweisen stammen aus dem Skript und werden hier nicht korrigiert: „Nicolo Machiavelli“, „Frederic Taylor“."
+            }
           ]
         },
         {
           "id": "m1-t2-k2",
           "titel": "Theory X, Theory Y und Theory Z",
-          "folien": [31],
+          "folien": [
+            31
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "{{Douglas McGregor}} bringt die Menschenbilder auf zwei Grundannahmen von Führungskräften. Nach **Theory X** ist der Mensch arbeitsscheu und braucht Druck. Nach **Theory Y** ist er von innen heraus motiviert und will sich verwirklichen. **Theory Z** wird im Skript nur als dritte Möglichkeit genannt: Sie vereint X und Y." },
-            { "typ": "person", "name": "Douglas McGregor", "beitrag": "Steht im Skript für „Theory X/Y nach Douglas McGregor“ — die beiden gegensätzlichen Grundannahmen über den arbeitenden Menschen.", "folie": 31 },
-            { "typ": "vergleich", "spalten": [
-              { "titel": "...nach Theory X", "punkte": [
-                "...verhält sich unwillig und angeboren arbeitsscheu",
-                "...muss zur Arbeit gezwungen und mit Strafe bedroht werden",
-                "...besitzt wenig Ehrgeiz und sucht Sicherheit",
-                "...braucht Vorgaben, Anleitung, Kontrolle von Vorgesetzten"
-              ] },
-              { "titel": "...nach Theory Y", "punkte": [
-                "...ist intrinsisch motiviert und engagiert",
-                "...benötigt Arbeit als Basis für Zufriedenheit",
-                "...strebt Selbstverwirklichung an",
-                "...identifiziert sich mit der Unternehmung"
-              ] }
-            ] },
-            { "typ": "text", "text": "**Der Mensch...nach [[Theory Z]]...vereinbart Theory X und Y in sich...**" },
-            { "typ": "hinweis", "text": "Zu Theory Z nennt die Folie weder einen Urheber noch eine weitere Erklärung. Mehr als „vereinbart Theory X und Y in sich“ steht dort nicht." }
+            {
+              "typ": "einfach",
+              "text": "{{Douglas McGregor}} bringt die Menschenbilder auf zwei Grundannahmen von Führungskräften. Nach **Theory X** ist der Mensch arbeitsscheu und braucht Druck. Nach **Theory Y** ist er von innen heraus motiviert und will sich verwirklichen. **Theory Z** wird im Skript nur als dritte Möglichkeit genannt: Sie vereint X und Y."
+            },
+            {
+              "typ": "person",
+              "name": "Douglas McGregor",
+              "beitrag": "Steht im Skript für „Theory X/Y nach Douglas McGregor“ — die beiden gegensätzlichen Grundannahmen über den arbeitenden Menschen.",
+              "folie": 31
+            },
+            {
+              "typ": "vergleich",
+              "spalten": [
+                {
+                  "titel": "...nach Theory X",
+                  "punkte": [
+                    "...verhält sich unwillig und angeboren arbeitsscheu",
+                    "...muss zur Arbeit gezwungen und mit Strafe bedroht werden",
+                    "...besitzt wenig Ehrgeiz und sucht Sicherheit",
+                    "...braucht Vorgaben, Anleitung, Kontrolle von Vorgesetzten"
+                  ]
+                },
+                {
+                  "titel": "...nach Theory Y",
+                  "punkte": [
+                    "...ist intrinsisch motiviert und engagiert",
+                    "...benötigt Arbeit als Basis für Zufriedenheit",
+                    "...strebt Selbstverwirklichung an",
+                    "...identifiziert sich mit der Unternehmung"
+                  ]
+                }
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "**Der Mensch...nach [[Theory Z]]...vereinbart Theory X und Y in sich...**"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Zu Theory Z nennt die Folie weder einen Urheber noch eine weitere Erklärung. Mehr als „vereinbart Theory X und Y in sich“ steht dort nicht."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m1-t2-a01", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "menschenbilder-personen", "karte": "m1-t2-k1", "folien": [31],
-          "frage": "Ordne die Person der Eigenschaft zu, für die sie im Skript steht.", "linksTitel": "Person", "rechtsTitel": "Der Mensch ist...",
+        {
+          "id": "m1-t2-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "menschenbilder-personen",
+          "karte": "m1-t2-k1",
+          "folien": [
+            31
+          ],
+          "frage": "Ordne die Person der Eigenschaft zu, für die sie im Skript steht.",
+          "linksTitel": "Person",
+          "rechtsTitel": "Der Mensch ist...",
           "paare": [
-            { "links": "John Locke", "rechts": "...vernünftig, kooperativ, unterstützend" },
-            { "links": "Erich Fromm", "rechts": "...soziokulturell beeinflusst" },
-            { "links": "Elton Mayo", "rechts": "...grds. sozial mit entspr. Gruppen-Verhalten" },
-            { "links": "Abraham Maslow", "rechts": "...hierarchisch bedürfnisorientiert" },
-            { "links": "Nicolo Machiavelli", "rechts": "...undankbar, heuchlerisch, ängstlich" }
+            {
+              "links": "John Locke",
+              "rechts": "...vernünftig, kooperativ, unterstützend"
+            },
+            {
+              "links": "Erich Fromm",
+              "rechts": "...soziokulturell beeinflusst"
+            },
+            {
+              "links": "Elton Mayo",
+              "rechts": "...grds. sozial mit entspr. Gruppen-Verhalten"
+            },
+            {
+              "links": "Abraham Maslow",
+              "rechts": "...hierarchisch bedürfnisorientiert"
+            },
+            {
+              "links": "Nicolo Machiavelli",
+              "rechts": "...undankbar, heuchlerisch, ängstlich"
+            }
           ],
           "erklaerung": "Locke, Fromm, Mayo und Maslow stehen im Skript in der Spalte der optimistischen Menschenbilder, Machiavelli in der pessimistischen.",
-          "beleg": "...vernünftig, kooperativ, unterstützend (John Locke, 17.Jh.)", "belegQuelle": "folie-03",
-          "kurz": "Locke: vernünftig/kooperativ. Fromm: soziokulturell. Mayo: sozial mit Gruppen-Verhalten. Maslow: hierarchisch bedürfnisorientiert. Machiavelli: undankbar/heuchlerisch/ängstlich." },
-        { "id": "m1-t2-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "menschenbilder-personen", "karte": "m1-t2-k1", "folien": [31],
-          "frage": "Ordne die vier pessimistischen Menschenbilder ihren Urhebern zu.", "linksTitel": "Person", "rechtsTitel": "Der Mensch ist...",
+          "beleg": "...vernünftig, kooperativ, unterstützend (John Locke, 17.Jh.)",
+          "belegQuelle": "folie-03",
+          "kurz": "Locke: vernünftig/kooperativ. Fromm: soziokulturell. Mayo: sozial mit Gruppen-Verhalten. Maslow: hierarchisch bedürfnisorientiert. Machiavelli: undankbar/heuchlerisch/ängstlich."
+        },
+        {
+          "id": "m1-t2-a02",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "menschenbilder-personen",
+          "karte": "m1-t2-k1",
+          "folien": [
+            31
+          ],
+          "frage": "Ordne die vier pessimistischen Menschenbilder ihren Urhebern zu.",
+          "linksTitel": "Person",
+          "rechtsTitel": "Der Mensch ist...",
           "paare": [
-            { "links": "Adam Smith", "rechts": "...selbstsüchtig, egoistisch" },
-            { "links": "Charles Darwin", "rechts": "...kampfbetont, durchsetzungswillig" },
-            { "links": "Sigmund Freud", "rechts": "...primitiv wild, böse" },
-            { "links": "Frederic Taylor", "rechts": "...faul, egoistisch, träge, maschinengleich" }
+            {
+              "links": "Adam Smith",
+              "rechts": "...selbstsüchtig, egoistisch"
+            },
+            {
+              "links": "Charles Darwin",
+              "rechts": "...kampfbetont, durchsetzungswillig"
+            },
+            {
+              "links": "Sigmund Freud",
+              "rechts": "...primitiv wild, böse"
+            },
+            {
+              "links": "Frederic Taylor",
+              "rechts": "...faul, egoistisch, träge, maschinengleich"
+            }
           ],
           "erklaerung": "Smith (18. Jh.), Darwin (19. Jh.), Freud (19. Jh.) und Taylor (19. Jh.) stehen im Skript in der Spalte der pessimistischen Menschenbilder.",
-          "beleg": "...faul, egoistisch, träge, maschinengleich (Frederic Taylor, 19. Jh.)", "belegQuelle": "folie-03",
-          "kurz": "Smith: selbstsüchtig. Darwin: kampfbetont. Freud: primitiv wild, böse. Taylor: faul, träge, maschinengleich." },
-        { "id": "m1-t2-a03", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "menschenbilder-lager", "karte": "m1-t2-k1", "folien": [31],
+          "beleg": "...faul, egoistisch, träge, maschinengleich (Frederic Taylor, 19. Jh.)",
+          "belegQuelle": "folie-03",
+          "kurz": "Smith: selbstsüchtig. Darwin: kampfbetont. Freud: primitiv wild, böse. Taylor: faul, träge, maschinengleich."
+        },
+        {
+          "id": "m1-t2-a03",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "menschenbilder-lager",
+          "karte": "m1-t2-k1",
+          "folien": [
+            31
+          ],
           "frage": "Optimistisches oder pessimistisches Menschenbild? Sortiere die Personen ein.",
-          "kategorien": ["Optimistisches Menschenbild", "Pessimistisches Menschenbild"],
+          "kategorien": [
+            "Optimistisches Menschenbild",
+            "Pessimistisches Menschenbild"
+          ],
           "elemente": [
-            { "text": "John Locke", "kategorie": 0 },
-            { "text": "Nicolo Machiavelli", "kategorie": 1 },
-            { "text": "Erich Fromm", "kategorie": 0 },
-            { "text": "Adam Smith", "kategorie": 1 },
-            { "text": "Elton Mayo", "kategorie": 0 },
-            { "text": "Charles Darwin", "kategorie": 1 },
-            { "text": "Abraham Maslow", "kategorie": 0 },
-            { "text": "Frederic Taylor", "kategorie": 1 }
+            {
+              "text": "John Locke",
+              "kategorie": 0
+            },
+            {
+              "text": "Nicolo Machiavelli",
+              "kategorie": 1
+            },
+            {
+              "text": "Erich Fromm",
+              "kategorie": 0
+            },
+            {
+              "text": "Adam Smith",
+              "kategorie": 1
+            },
+            {
+              "text": "Elton Mayo",
+              "kategorie": 0
+            },
+            {
+              "text": "Charles Darwin",
+              "kategorie": 1
+            },
+            {
+              "text": "Abraham Maslow",
+              "kategorie": 0
+            },
+            {
+              "text": "Frederic Taylor",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Die Folie teilt die Denker in zwei Spalten. Links vier optimistische, rechts fünf pessimistische Menschenbilder; Sigmund Freud gehört ebenfalls nach rechts.",
-          "beleg": "Optimistische Menschenbilder | Pessimistische Menschenbilder", "belegQuelle": "folie-03",
-          "kurz": "Optimistisch: Locke, Fromm, Mayo, Maslow. Pessimistisch: Machiavelli, Smith, Darwin, Freud, Taylor." },
-        { "id": "m1-t2-a04", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "theory-xy", "karte": "m1-t2-k2", "folien": [31],
+          "beleg": "Optimistische Menschenbilder | Pessimistische Menschenbilder",
+          "belegQuelle": "folie-03",
+          "kurz": "Optimistisch: Locke, Fromm, Mayo, Maslow. Pessimistisch: Machiavelli, Smith, Darwin, Freud, Taylor."
+        },
+        {
+          "id": "m1-t2-a04",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "theory-xy",
+          "karte": "m1-t2-k2",
+          "folien": [
+            31
+          ],
           "frage": "Welche Aussage gehört nach McGregor zu **Theory X**?",
           "optionen": [
             "...muss zur Arbeit gezwungen und mit Strafe bedroht werden",
             "...strebt Selbstverwirklichung an",
             "...identifiziert sich mit der Unternehmung",
             "...benötigt Arbeit als Basis für Zufriedenheit"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Zwang und Strafandrohung sind ein Kernsatz der Theory X. Die drei anderen Aussagen stehen im Skript in der Spalte Theory Y.",
-          "beleg": "...muss zur Arbeit gezwungen und mit Strafe bedroht werden", "belegQuelle": "folie-03",
-          "kurz": "Theory X: unwillig, arbeitsscheu, muss gezwungen werden, wenig Ehrgeiz, braucht Kontrolle." },
-        { "id": "m1-t2-a05", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "theory-xy", "karte": "m1-t2-k2", "folien": [31],
+          "beleg": "...muss zur Arbeit gezwungen und mit Strafe bedroht werden",
+          "belegQuelle": "folie-03",
+          "kurz": "Theory X: unwillig, arbeitsscheu, muss gezwungen werden, wenig Ehrgeiz, braucht Kontrolle."
+        },
+        {
+          "id": "m1-t2-a05",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "theory-xy",
+          "karte": "m1-t2-k2",
+          "folien": [
+            31
+          ],
           "frage": "Theory X oder Theory Y? Ordne die Aussagen über den Menschen zu.",
-          "kategorien": ["Theory X", "Theory Y"],
+          "kategorien": [
+            "Theory X",
+            "Theory Y"
+          ],
           "elemente": [
-            { "text": "...verhält sich unwillig und angeboren arbeitsscheu", "kategorie": 0 },
-            { "text": "...ist intrinsisch motiviert und engagiert", "kategorie": 1 },
-            { "text": "...besitzt wenig Ehrgeiz und sucht Sicherheit", "kategorie": 0 },
-            { "text": "...strebt Selbstverwirklichung an", "kategorie": 1 },
-            { "text": "...braucht Vorgaben, Anleitung, Kontrolle von Vorgesetzten", "kategorie": 0 },
-            { "text": "...identifiziert sich mit der Unternehmung", "kategorie": 1 }
+            {
+              "text": "...verhält sich unwillig und angeboren arbeitsscheu",
+              "kategorie": 0
+            },
+            {
+              "text": "...ist intrinsisch motiviert und engagiert",
+              "kategorie": 1
+            },
+            {
+              "text": "...besitzt wenig Ehrgeiz und sucht Sicherheit",
+              "kategorie": 0
+            },
+            {
+              "text": "...strebt Selbstverwirklichung an",
+              "kategorie": 1
+            },
+            {
+              "text": "...braucht Vorgaben, Anleitung, Kontrolle von Vorgesetzten",
+              "kategorie": 0
+            },
+            {
+              "text": "...identifiziert sich mit der Unternehmung",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Theory X unterstellt Arbeitsunwilligkeit und Kontrollbedarf, Theory Y intrinsische Motivation und Selbstverwirklichung.",
           "belege": [
-            { "text": "...ist intrinsisch motiviert und engagiert", "quelle": "folie-03" },
-            { "text": "...benötigt Arbeit als Basis für Zufriedenheit", "quelle": "folie-03" }
+            {
+              "text": "...ist intrinsisch motiviert und engagiert",
+              "quelle": "folie-03"
+            },
+            {
+              "text": "...benötigt Arbeit als Basis für Zufriedenheit",
+              "quelle": "folie-03"
+            }
           ],
-          "kurz": "X: arbeitsscheu, Zwang, wenig Ehrgeiz, Kontrolle. Y: intrinsisch motiviert, Arbeit als Basis für Zufriedenheit, Selbstverwirklichung, Identifikation." },
-        { "id": "m1-t2-a06", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "theory-z", "karte": "m1-t2-k2", "folien": [31],
+          "kurz": "X: arbeitsscheu, Zwang, wenig Ehrgeiz, Kontrolle. Y: intrinsisch motiviert, Arbeit als Basis für Zufriedenheit, Selbstverwirklichung, Identifikation."
+        },
+        {
+          "id": "m1-t2-a06",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "theory-z",
+          "karte": "m1-t2-k2",
+          "folien": [
+            31
+          ],
           "frage": "Was sagt das Skript über Theory Z und die Menschenbilder?",
           "aussagen": [
-            { "text": "Theory Z vereinbart Theory X und Y in sich.", "wahr": true },
-            { "text": "Das Skript nennt einen Urheber der Theory Z.", "wahr": false, "korrektur": "Theory Z wird nur genannt; ein Urheber und eine weitere Erklärung fehlen im Skript." },
-            { "text": "Theory X/Y wird im Skript Douglas McGregor zugeschrieben.", "wahr": true },
-            { "text": "Abraham Maslow steht im Skript für ein pessimistisches Menschenbild.", "wahr": false, "korrektur": "Maslow steht in der linken Spalte: „...hierarchisch bedürfnisorientiert“, also für ein optimistisches Menschenbild." }
+            {
+              "text": "Theory Z vereinbart Theory X und Y in sich.",
+              "wahr": true
+            },
+            {
+              "text": "Das Skript nennt einen Urheber der Theory Z.",
+              "wahr": false,
+              "korrektur": "Theory Z wird nur genannt; ein Urheber und eine weitere Erklärung fehlen im Skript."
+            },
+            {
+              "text": "Theory X/Y wird im Skript Douglas McGregor zugeschrieben.",
+              "wahr": true
+            },
+            {
+              "text": "Abraham Maslow steht im Skript für ein pessimistisches Menschenbild.",
+              "wahr": false,
+              "korrektur": "Maslow steht in der linken Spalte: „...hierarchisch bedürfnisorientiert“, also für ein optimistisches Menschenbild."
+            }
           ],
           "erklaerung": "Zu Theory Z steht nur ein Halbsatz im Skript. Die Zuschreibung von Theory X/Y an McGregor steht dagegen ausdrücklich in der Überschrift.",
-          "beleg": "Der Mensch...nach Theory Z...vereinbart Theory X und Y in sich...", "belegQuelle": "folie-03",
-          "kurz": "Theory Z vereinbart X und Y; Urheber im Skript nicht genannt. Theory X/Y stammt von McGregor." },
-        { "id": "m1-t2-a07", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "menschenbilder-personen", "karte": "m1-t2-k1", "folien": [31], "bank": true,
+          "beleg": "Der Mensch...nach Theory Z...vereinbart Theory X und Y in sich...",
+          "belegQuelle": "folie-03",
+          "kurz": "Theory Z vereinbart X und Y; Urheber im Skript nicht genannt. Theory X/Y stammt von McGregor."
+        },
+        {
+          "id": "m1-t2-a07",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "menschenbilder-personen",
+          "karte": "m1-t2-k1",
+          "folien": [
+            31
+          ],
+          "bank": true,
           "frage": "Ergänze die Urheber der Menschenbilder.",
           "text": "...vernünftig, kooperativ, unterstützend ({_John Locke_}, 17.Jh.)\n...primitiv wild, böse ({_Sigmund Freud_}, 19. Jh.)\n...faul, egoistisch, träge, maschinengleich ({_Frederic Taylor_}, 19. Jh.)",
-          "zusatzBank": ["Elton Mayo", "Adam Smith", "Charles Darwin"],
+          "zusatzBank": [
+            "Elton Mayo",
+            "Adam Smith",
+            "Charles Darwin"
+          ],
           "erklaerung": "Locke steht links (optimistisch), Freud und Taylor rechts (pessimistisch). Die Jahrhundertangaben stehen im Skript klein in Klammern dahinter.",
-          "beleg": "...primitiv wild, böse (Sigmund Freud, 19. Jh.)", "belegQuelle": "folie-03",
-          "kurz": "Locke 17. Jh., Smith 18. Jh., Darwin/Freud/Taylor 19. Jh., Fromm/Mayo/Maslow 20. Jh., Machiavelli 15. Jh." },
-        { "id": "m1-t2-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "theory-xy", "karte": "m1-t2-k2", "folien": [31],
+          "beleg": "...primitiv wild, böse (Sigmund Freud, 19. Jh.)",
+          "belegQuelle": "folie-03",
+          "kurz": "Locke 17. Jh., Smith 18. Jh., Darwin/Freud/Taylor 19. Jh., Fromm/Mayo/Maslow 20. Jh., Machiavelli 15. Jh."
+        },
+        {
+          "id": "m1-t2-a08",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "theory-xy",
+          "karte": "m1-t2-k2",
+          "folien": [
+            31
+          ],
           "frage": "Erkläre Theory X und Theory Y nach Douglas McGregor und sage, was Theory Z laut Skript ergänzt.",
           "musterloesung": "Theory X und Theory Y sind zwei gegensätzliche Menschenbilder nach Douglas McGregor. Nach Theory X verhält sich der Mensch unwillig und angeboren arbeitsscheu, er muss zur Arbeit gezwungen und mit Strafe bedroht werden, besitzt wenig Ehrgeiz und sucht Sicherheit und braucht Vorgaben, Anleitung und Kontrolle von Vorgesetzten. Nach Theory Y ist der Mensch intrinsisch motiviert und engagiert, er benötigt Arbeit als Basis für Zufriedenheit, strebt Selbstverwirklichung an und identifiziert sich mit der Unternehmung. Theory Z wird im Skript nur genannt: Der Mensch vereinbart nach Theory Z die Theorien X und Y in sich. Ein Urheber und eine weitere Erklärung werden dazu nicht angegeben.",
           "checkliste": [
@@ -273,25 +720,53 @@
             "Hinweis, dass das Skript zu Theory Z keinen Urheber nennt"
           ],
           "erklaerung": "Für die Klausur zählen beide Spalten mit je vier Aussagen und der Halbsatz zu Theory Z. Die Zuordnung zu McGregor darf nicht fehlen.",
-          "beleg": "Theory X/Y nach Douglas McGregor – Der Mensch...", "belegQuelle": "folie-03",
-          "kurz": "X: Zwang und Kontrolle. Y: intrinsische Motivation und Selbstverwirklichung. Z: vereinbart beides." },
-        { "id": "m1-t2-a09", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "theory-xy", "karte": "m1-t2-k2", "folien": [31],
+          "beleg": "Theory X/Y nach Douglas McGregor – Der Mensch...",
+          "belegQuelle": "folie-03",
+          "kurz": "X: Zwang und Kontrolle. Y: intrinsische Motivation und Selbstverwirklichung. Z: vereinbart beides."
+        },
+        {
+          "id": "m1-t2-a09",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "theory-xy",
+          "karte": "m1-t2-k2",
+          "folien": [
+            31
+          ],
           "szenario": "Übungsfall: Ein Filialleiter lässt jede Kundenberatung stichprobenartig mitprotokollieren, setzt enge Tagesvorgaben und kündigt Abmahnungen an, wenn Ziele verfehlt werden. Begründung: „Ohne Druck macht hier keiner etwas.“",
           "frage": "Welches Menschenbild liegt diesem Führungsverhalten laut Skript zugrunde?",
           "optionen": [
             "Theory X: Der Mensch ist arbeitsscheu, muss gezwungen und mit Strafe bedroht werden und braucht Vorgaben, Anleitung und Kontrolle.",
             "Theory Y: Der Mensch ist intrinsisch motiviert und identifiziert sich mit der Unternehmung.",
             "Theory Z: Der Mensch vereinbart Theory X und Y in sich."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Kontrolle, enge Vorgaben und Strafandrohung sind genau die Annahmen, die das Skript unter Theory X auflistet.",
-          "beleg": "...braucht Vorgaben, Anleitung, Kontrolle von Vorgesetzten", "belegQuelle": "folie-03",
-          "kurz": "Kontrolle und Strafandrohung als Führungsmittel = Theory X." },
-        { "id": "m1-t2-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "menschenbilder-lager", "karte": "m1-t2-k1", "folien": [31],
+          "beleg": "...braucht Vorgaben, Anleitung, Kontrolle von Vorgesetzten",
+          "belegQuelle": "folie-03",
+          "kurz": "Kontrolle und Strafandrohung als Führungsmittel = Theory X."
+        },
+        {
+          "id": "m1-t2-a10",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "menschenbilder-lager",
+          "karte": "m1-t2-k1",
+          "folien": [
+            31
+          ],
           "vorne": "Welche vier Personen stehen im Skript für **optimistische Menschenbilder**?",
           "hinten": "{{John Locke}} (17. Jh.), {{Erich Fromm}} (20. Jh.), {{Elton Mayo}} (20. Jh.), {{Abraham Maslow}} (20. Jh.).",
           "erklaerung": "Die linke Spalte der Folie hat nur vier Einträge, die rechte fünf. Die fünfte Zelle links ist leer.",
-          "beleg": "...soziokulturell beeinflusst (Erich Fromm, 20. Jh.)", "belegQuelle": "folie-03",
-          "kurz": "Optimistisch: Locke, Fromm, Mayo, Maslow." }
+          "beleg": "...soziokulturell beeinflusst (Erich Fromm, 20. Jh.)",
+          "belegQuelle": "folie-03",
+          "kurz": "Optimistisch: Locke, Fromm, Mayo, Maslow."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -312,90 +787,266 @@
     {
       "id": "m1-t3",
       "titel": "Die vier Menschenbilder der BWL",
-      "folien": [32],
+      "folien": [
+        32
+      ],
       "gewicht": 2,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m1-t3-k1",
           "titel": "rational, social, self-actualizing, complex man",
-          "folien": [32],
+          "folien": [
+            32
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die Betriebswirtschaftslehre arbeitet laut Skript mit vier Menschenbildern. Jedes steht für eine andere Annahme darüber, was Menschen antreibt: Nutzen, Gruppe, Selbstverwirklichung oder Wandlungsfähigkeit. Merke dir die englischen Namen genau so, wie sie im Skript stehen." },
-            { "typ": "text", "text": "**In der BWL verwandte 4 Menschenbilder:**" },
-            { "typ": "definition", "begriff": "rational man", "text": "Auch: **homo oeconomicus**. ...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer." },
-            { "typ": "definition", "begriff": "social man", "text": "...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten." },
-            { "typ": "definition", "begriff": "self-actualizing man", "text": "...strebt nach Selbstverwirklichung." },
-            { "typ": "definition", "begriff": "complex man", "text": "...flexibel, anpassungs- und wandlungsfähig." },
-            { "typ": "hinweis", "text": "„homo oeconomicus“ wird im Skript nur als Zweitname des rational man genannt, nicht erklärt." }
+            {
+              "typ": "einfach",
+              "text": "Die Betriebswirtschaftslehre arbeitet laut Skript mit vier Menschenbildern. Jedes steht für eine andere Annahme darüber, was Menschen antreibt: Nutzen, Gruppe, Selbstverwirklichung oder Wandlungsfähigkeit. Merke dir die englischen Namen genau so, wie sie im Skript stehen."
+            },
+            {
+              "typ": "text",
+              "text": "**In der BWL verwandte 4 Menschenbilder:**"
+            },
+            {
+              "typ": "definition",
+              "begriff": "rational man",
+              "text": "Auch: **homo oeconomicus**. ...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer."
+            },
+            {
+              "typ": "definition",
+              "begriff": "social man",
+              "text": "...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten."
+            },
+            {
+              "typ": "definition",
+              "begriff": "self-actualizing man",
+              "text": "...strebt nach Selbstverwirklichung."
+            },
+            {
+              "typ": "definition",
+              "begriff": "complex man",
+              "text": "...flexibel, anpassungs- und wandlungsfähig."
+            },
+            {
+              "typ": "hinweis",
+              "text": "„homo oeconomicus“ wird im Skript nur als Zweitname des rational man genannt, nicht erklärt."
+            }
           ]
         },
         {
           "id": "m1-t3-k2",
           "titel": "Menschenbilder wirken verdeckt",
-          "folien": [32],
+          "folien": [
+            32
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Das Menschenbild einer Führungskraft steht selten auf dem Papier. Es zeigt sich im Verhalten. Deshalb sagt das Skript: zuhören und an Handlungen ablesen. Wer das Menschenbild seines Gegenübers erkennt, versteht dessen Führungsentscheidungen." },
-            { "typ": "merksatz", "folie": 32, "text": "Menschenbilder beeinflussen Führung und Führungskräfte!" },
-            { "typ": "liste", "titel": "Die beiden Folgerungen des Skripts", "punkte": [
-              "-> werden aber kaum (offen) kommuniziert....hören Sie zu, lesen Sie an Handlungen ab...",
-              "-> bestimmen verdeckte Grundannahmen der Führungskräfte"
-            ] },
-            { "typ": "hinweis", "text": "Auf der Folie zeigt ein oranger Pfeil von links auf den Satz „Menschenbilder beeinflussen Führung und Führungskräfte!“. Die beiden Folgerungen stehen kursiv darunter." }
+            {
+              "typ": "einfach",
+              "text": "Das Menschenbild einer Führungskraft steht selten auf dem Papier. Es zeigt sich im Verhalten. Deshalb sagt das Skript: zuhören und an Handlungen ablesen. Wer das Menschenbild seines Gegenübers erkennt, versteht dessen Führungsentscheidungen."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 32,
+              "text": "Menschenbilder beeinflussen Führung und Führungskräfte!"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die beiden Folgerungen des Skripts",
+              "punkte": [
+                "-> werden aber kaum (offen) kommuniziert....hören Sie zu, lesen Sie an Handlungen ab...",
+                "-> bestimmen verdeckte Grundannahmen der Führungskräfte"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Auf der Folie zeigt ein oranger Pfeil von links auf den Satz „Menschenbilder beeinflussen Führung und Führungskräfte!“. Die beiden Folgerungen stehen kursiv darunter."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m1-t3-a01", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "bwl-menschenbilder", "karte": "m1-t3-k1", "folien": [32],
-          "frage": "Ordne die vier Menschenbilder der BWL ihrer Beschreibung zu.", "linksTitel": "Menschenbild", "rechtsTitel": "Beschreibung laut Skript",
+        {
+          "id": "m1-t3-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "bwl-menschenbilder",
+          "karte": "m1-t3-k1",
+          "folien": [
+            32
+          ],
+          "frage": "Ordne die vier Menschenbilder der BWL ihrer Beschreibung zu.",
+          "linksTitel": "Menschenbild",
+          "rechtsTitel": "Beschreibung laut Skript",
           "paare": [
-            { "links": "rational man", "rechts": "...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer" },
-            { "links": "social man", "rechts": "...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten" },
-            { "links": "self-actualizing man", "rechts": "...strebt nach Selbstverwirklichung" },
-            { "links": "complex man", "rechts": "...flexibel, anpassungs- und wandlungsfähig" }
+            {
+              "links": "rational man",
+              "rechts": "...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer"
+            },
+            {
+              "links": "social man",
+              "rechts": "...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten"
+            },
+            {
+              "links": "self-actualizing man",
+              "rechts": "...strebt nach Selbstverwirklichung"
+            },
+            {
+              "links": "complex man",
+              "rechts": "...flexibel, anpassungs- und wandlungsfähig"
+            }
           ],
           "erklaerung": "Die Folie stellt die vier Begriffe links und ihre Erläuterung rechts nebeneinander. Der rational man heißt auch homo oeconomicus.",
-          "beleg": "...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer", "belegQuelle": "folie-04",
-          "kurz": "rational man = Nutzen-Maximierer, social man = Gruppe, self-actualizing man = Selbstverwirklichung, complex man = wandlungsfähig." },
-        { "id": "m1-t3-a02", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "bwl-menschenbilder", "karte": "m1-t3-k1", "folien": [32],
+          "beleg": "...über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer",
+          "belegQuelle": "folie-04",
+          "kurz": "rational man = Nutzen-Maximierer, social man = Gruppe, self-actualizing man = Selbstverwirklichung, complex man = wandlungsfähig."
+        },
+        {
+          "id": "m1-t3-a02",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "bwl-menschenbilder",
+          "karte": "m1-t3-k1",
+          "folien": [
+            32
+          ],
           "frage": "Welches Menschenbild trägt im Skript den Zweitnamen **homo oeconomicus**?",
-          "optionen": ["rational man", "complex man", "social man", "self-actualizing man"], "richtig": 0,
+          "optionen": [
+            "rational man",
+            "complex man",
+            "social man",
+            "self-actualizing man"
+          ],
+          "richtig": 0,
           "erklaerung": "Nur beim rational man steht die Klammer „(auch: homo oeconomicus)“. Der Begriff selbst wird nicht weiter erklärt.",
-          "beleg": "„rational man“ (auch: homo oeconomicus)", "belegQuelle": "folie-04",
-          "kurz": "rational man = homo oeconomicus." },
-        { "id": "m1-t3-a03", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "bwl-menschenbilder", "karte": "m1-t3-k1", "folien": [32],
+          "beleg": "„rational man“ (auch: homo oeconomicus)",
+          "belegQuelle": "folie-04",
+          "kurz": "rational man = homo oeconomicus."
+        },
+        {
+          "id": "m1-t3-a03",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "bwl-menschenbilder",
+          "karte": "m1-t3-k1",
+          "folien": [
+            32
+          ],
           "frage": "Welches Stichwort gehört zu welchem Menschenbild?",
-          "kategorien": ["rational man", "social man", "self-actualizing man", "complex man"],
+          "kategorien": [
+            "rational man",
+            "social man",
+            "self-actualizing man",
+            "complex man"
+          ],
           "elemente": [
-            { "text": "Nutzen-Maximierer", "kategorie": 0 },
-            { "text": "vollständige Information", "kategorie": 0 },
-            { "text": "soziale Kontakte in der Gruppe", "kategorie": 1 },
-            { "text": "strebt nach Selbstverwirklichung", "kategorie": 2 },
-            { "text": "anpassungs- und wandlungsfähig", "kategorie": 3 },
-            { "text": "flexibel", "kategorie": 3 }
+            {
+              "text": "Nutzen-Maximierer",
+              "kategorie": 0
+            },
+            {
+              "text": "vollständige Information",
+              "kategorie": 0
+            },
+            {
+              "text": "soziale Kontakte in der Gruppe",
+              "kategorie": 1
+            },
+            {
+              "text": "strebt nach Selbstverwirklichung",
+              "kategorie": 2
+            },
+            {
+              "text": "anpassungs- und wandlungsfähig",
+              "kategorie": 3
+            },
+            {
+              "text": "flexibel",
+              "kategorie": 3
+            }
           ],
           "erklaerung": "Vollständige Information und Nutzenmaximierung kennzeichnen den rational man, die Gruppe den social man, die Selbstverwirklichung den self-actualizing man, Flexibilität den complex man.",
-          "beleg": "...flexibel, anpassungs- und wandlungsfähig", "belegQuelle": "folie-04",
-          "kurz": "Vier Bilder, vier Stichworte: Nutzen, Gruppe, Selbstverwirklichung, Wandlungsfähigkeit." },
-        { "id": "m1-t3-a04", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "menschenbilder-wirkung", "karte": "m1-t3-k2", "folien": [32],
+          "beleg": "...flexibel, anpassungs- und wandlungsfähig",
+          "belegQuelle": "folie-04",
+          "kurz": "Vier Bilder, vier Stichworte: Nutzen, Gruppe, Selbstverwirklichung, Wandlungsfähigkeit."
+        },
+        {
+          "id": "m1-t3-a04",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "menschenbilder-wirkung",
+          "karte": "m1-t3-k2",
+          "folien": [
+            32
+          ],
           "frage": "Wie wirken Menschenbilder laut Folie 32?",
           "aussagen": [
-            { "text": "Menschenbilder beeinflussen Führung und Führungskräfte.", "wahr": true },
-            { "text": "Menschenbilder werden von Führungskräften in der Regel offen kommuniziert.", "wahr": false, "korrektur": "Sie werden laut Skript kaum (offen) kommuniziert; man soll zuhören und sie an Handlungen ablesen." },
-            { "text": "Menschenbilder bestimmen verdeckte Grundannahmen der Führungskräfte.", "wahr": true },
-            { "text": "Das Skript nennt fünf Menschenbilder der BWL.", "wahr": false, "korrektur": "Das Skript nennt vier: rational man, social man, self-actualizing man, complex man." }
+            {
+              "text": "Menschenbilder beeinflussen Führung und Führungskräfte.",
+              "wahr": true
+            },
+            {
+              "text": "Menschenbilder werden von Führungskräften in der Regel offen kommuniziert.",
+              "wahr": false,
+              "korrektur": "Sie werden laut Skript kaum (offen) kommuniziert; man soll zuhören und sie an Handlungen ablesen."
+            },
+            {
+              "text": "Menschenbilder bestimmen verdeckte Grundannahmen der Führungskräfte.",
+              "wahr": true
+            },
+            {
+              "text": "Das Skript nennt fünf Menschenbilder der BWL.",
+              "wahr": false,
+              "korrektur": "Das Skript nennt vier: rational man, social man, self-actualizing man, complex man."
+            }
           ],
           "erklaerung": "Der Kern der Folie: Menschenbilder wirken, aber verdeckt. Erkennbar werden sie über Zuhören und über Handlungen.",
-          "beleg": "bestimmen verdeckte Grundannahmen der Führungskräfte", "belegQuelle": "folie-04",
-          "kurz": "Menschenbilder wirken verdeckt: kaum offen kommuniziert, aber grundannahmenbildend." },
-        { "id": "m1-t3-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "bwl-menschenbilder", "karte": "m1-t3-k1", "folien": [32], "bank": true,
+          "beleg": "bestimmen verdeckte Grundannahmen der Führungskräfte",
+          "belegQuelle": "folie-04",
+          "kurz": "Menschenbilder wirken verdeckt: kaum offen kommuniziert, aber grundannahmenbildend."
+        },
+        {
+          "id": "m1-t3-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "bwl-menschenbilder",
+          "karte": "m1-t3-k1",
+          "folien": [
+            32
+          ],
+          "bank": true,
           "frage": "Ergänze die Namen der vier Menschenbilder der BWL.",
           "text": "{_rational man_}: über vollständige Information verfügend, Nutzen-Maximierer\n{_social man_}: soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten\n{_self-actualizing man_}: strebt nach Selbstverwirklichung\n{_complex man_}: flexibel, anpassungs- und wandlungsfähig",
-          "zusatzBank": ["homo oeconomicus", "Theory X"],
+          "zusatzBank": [
+            "homo oeconomicus",
+            "Theory X"
+          ],
           "erklaerung": "Die vier Namen stehen im Skript englisch und in Anführungszeichen. „homo oeconomicus“ ist nur der Zweitname des rational man.",
-          "beleg": "„social man“ | ...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten", "belegQuelle": "folie-04",
-          "kurz": "rational man, social man, self-actualizing man, complex man." },
-        { "id": "m1-t3-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "menschenbilder-wirkung", "karte": "m1-t3-k2", "folien": [32],
+          "beleg": "„social man“ | ...soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten",
+          "belegQuelle": "folie-04",
+          "kurz": "rational man, social man, self-actualizing man, complex man."
+        },
+        {
+          "id": "m1-t3-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "menschenbilder-wirkung",
+          "karte": "m1-t3-k2",
+          "folien": [
+            32
+          ],
           "frage": "Erkläre, was mit „Menschenbilder beeinflussen Führung und Führungskräfte!“ gemeint ist und wie man das Menschenbild einer Führungskraft laut Skript erkennt.",
           "musterloesung": "Das Menschenbild ist die Grundannahme darüber, wie der Mensch ist. Die BWL verwendet dafür vier Bilder: rational man (auch homo oeconomicus), social man, self-actualizing man und complex man. Diese Annahme wirkt auf die Führung und auf die Führungskraft selbst, weil sie bestimmt, ob jemand Kontrolle, Gruppenprozesse, Entfaltung oder Flexibilität in den Vordergrund stellt. Das Skript betont aber, dass Menschenbilder kaum offen kommuniziert werden. Sie bestimmen verdeckte Grundannahmen der Führungskräfte. Erkennen kann man sie deshalb nur indirekt: zuhören und an Handlungen ablesen.",
           "checkliste": [
@@ -406,25 +1057,53 @@
             "Erkennen durch Zuhören und Ablesen an Handlungen"
           ],
           "erklaerung": "Die Klausur kann nach der Bedeutung dieses Satzes fragen. Entscheidend ist der zweite Teil: verdeckte Wirkung und indirektes Erkennen.",
-          "beleg": "hören Sie zu, lesen Sie an Handlungen ab", "belegQuelle": "folie-04",
-          "kurz": "Menschenbilder steuern Führung verdeckt; erkennbar über Zuhören und Handlungen." },
-        { "id": "m1-t3-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "bwl-menschenbilder", "karte": "m1-t3-k1", "folien": [32],
+          "beleg": "hören Sie zu, lesen Sie an Handlungen ab",
+          "belegQuelle": "folie-04",
+          "kurz": "Menschenbilder steuern Führung verdeckt; erkennbar über Zuhören und Handlungen."
+        },
+        {
+          "id": "m1-t3-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "bwl-menschenbilder",
+          "karte": "m1-t3-k1",
+          "folien": [
+            32
+          ],
           "szenario": "Übungsfall: Ein Abteilungsleiter begründet jede Entscheidung mit Zahlen, verlangt vor jedem Schritt eine vollständige Datengrundlage und hält Stimmungen im Team für unerheblich.",
           "frage": "Welches der vier BWL-Menschenbilder passt zu dieser Haltung?",
           "optionen": [
             "rational man: über vollständige Information verfügend, rational/emotionslos entscheidend, Nutzen-Maximierer",
             "social man: soziale Kontakte in der Gruppe beeinflussen menschliches Verhalten",
             "complex man: flexibel, anpassungs- und wandlungsfähig"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Vollständige Information und emotionsloses Entscheiden sind genau die Merkmale, die das Skript dem rational man zuschreibt.",
-          "beleg": "rational/emotionslos entscheidend, Nutzen-Maximierer", "belegQuelle": "folie-04",
-          "kurz": "Zahlen, vollständige Information, keine Emotionen = rational man." },
-        { "id": "m1-t3-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "menschenbilder-wirkung", "karte": "m1-t3-k2", "folien": [32],
+          "beleg": "rational/emotionslos entscheidend, Nutzen-Maximierer",
+          "belegQuelle": "folie-04",
+          "kurz": "Zahlen, vollständige Information, keine Emotionen = rational man."
+        },
+        {
+          "id": "m1-t3-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "menschenbilder-wirkung",
+          "karte": "m1-t3-k2",
+          "folien": [
+            32
+          ],
           "vorne": "Warum sind Menschenbilder laut Skript schwer zu erkennen?",
           "hinten": "Weil sie **kaum (offen) kommuniziert** werden. Sie **bestimmen verdeckte Grundannahmen der Führungskräfte**. Deshalb: zuhören und an Handlungen ablesen.",
           "erklaerung": "Die beiden kursiven Folgerungen der Folie nennen genau diesen Punkt.",
-          "beleg": "werden aber kaum (offen) kommuniziert", "belegQuelle": "folie-04",
-          "kurz": "Menschenbilder werden kaum offen kommuniziert, wirken aber als verdeckte Grundannahmen." }
+          "beleg": "werden aber kaum (offen) kommuniziert",
+          "belegQuelle": "folie-04",
+          "kurz": "Menschenbilder werden kaum offen kommuniziert, wirken aber als verdeckte Grundannahmen."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -445,84 +1124,267 @@
     {
       "id": "m1-t4",
       "titel": "Determinanten des Wertewandels",
-      "folien": [33],
+      "folien": [
+        33
+      ],
       "gewicht": 2,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m1-t4-k1",
           "titel": "Sechs Determinanten des Wertewandels",
-          "folien": [33],
+          "folien": [
+            33
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Werte in der Arbeitswelt verschieben sich. Das Skript nennt sechs Treiber dafür und ordnet jedem eine Wirkung zu. Lerne die Paare, nicht nur die Stichworte: Determinante links, Wirkung rechts." },
-            { "typ": "tabelle", "kopf": ["Determinante", "Wirkung laut Skript"], "zeilen": [
-              ["Strukturbrüche", "verstärkte Segmentierung des Arbeitsmarktes (Bildung, Qualifikation, Loyalitäten, Partikularinteressen,...)"],
-              ["techn. Umbrüche", "ML, AI unterstützt Menschen (schneller, billiger, besser)"],
-              ["Diversifizierung", "verschiedene Kulturen, Hintergründe, Verhaltensmuster"],
-              ["Org.strukturen", "Abkehr von ausschließlicher Bürokratie/Hierarchie, sukzessive Öffnung für alternative Modelle (Emergenz/kollektives Wissen), Mehrgeschwindigkeitsorganisationen, Ambidextrie -> Polydextrie"],
-              ["Sinnsuche", "im Westen Arbeitsfreude und Selbstverwirklichung stärker nachgefragt, „Tugenden“ früherer Generationen hinterfragt"],
-              ["Work/Life-Balance", "Erfolg, Herausforderung, Abwechslung und Berücksichtigung privater Interessen zugleich angestrebt"]
-            ], "hinweis": "Im Skript steht zwischen Determinante und Wirkung jeweils ein Pfeil." },
-            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: „ML“, „AI“, „Emergenz/kollektives Wissen“, „Mehrgeschwindigkeitsorganisationen“, „Ambidextrie“, „Polydextrie“, „Wertekosmos“." }
+            {
+              "typ": "einfach",
+              "text": "Werte in der Arbeitswelt verschieben sich. Das Skript nennt sechs Treiber dafür und ordnet jedem eine Wirkung zu. Lerne die Paare, nicht nur die Stichworte: Determinante links, Wirkung rechts."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Determinante",
+                "Wirkung laut Skript"
+              ],
+              "zeilen": [
+                [
+                  "Strukturbrüche",
+                  "verstärkte Segmentierung des Arbeitsmarktes (Bildung, Qualifikation, Loyalitäten, Partikularinteressen,...)"
+                ],
+                [
+                  "techn. Umbrüche",
+                  "ML, AI unterstützt Menschen (schneller, billiger, besser)"
+                ],
+                [
+                  "Diversifizierung",
+                  "verschiedene Kulturen, Hintergründe, Verhaltensmuster"
+                ],
+                [
+                  "Org.strukturen",
+                  "Abkehr von ausschließlicher Bürokratie/Hierarchie, sukzessive Öffnung für alternative Modelle (Emergenz/kollektives Wissen), Mehrgeschwindigkeitsorganisationen, Ambidextrie -> Polydextrie"
+                ],
+                [
+                  "Sinnsuche",
+                  "im Westen Arbeitsfreude und Selbstverwirklichung stärker nachgefragt, „Tugenden“ früherer Generationen hinterfragt"
+                ],
+                [
+                  "Work/Life-Balance",
+                  "Erfolg, Herausforderung, Abwechslung und Berücksichtigung privater Interessen zugleich angestrebt"
+                ]
+              ],
+              "hinweis": "Im Skript steht zwischen Determinante und Wirkung jeweils ein Pfeil."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Im Skript nur genannt, nicht erklärt: „ML“, „AI“, „Emergenz/kollektives Wissen“, „Mehrgeschwindigkeitsorganisationen“, „Ambidextrie“, „Polydextrie“, „Wertekosmos“."
+            }
           ]
         },
         {
           "id": "m1-t4-k2",
           "titel": "Was sich nicht ändert — und die Folgerung",
-          "folien": [33],
+          "folien": [
+            33
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Sechs Dinge ändern sich, eines nicht. Das Skript setzt die siebte Zeile bewusst gegen die anderen: Leistung und Exzellenz bleiben. Daraus zieht es die Folgerung für Führungskräfte." },
-            { "typ": "merksatz", "folie": 33, "text": "UNVERÄNDERT -> LEISTUNG & EXZELLENZ" },
-            { "typ": "merksatz", "folie": 33, "text": "wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos" },
-            { "typ": "text", "text": "Damit schließt die Folie an den Check-in an: Dort steht „KPI: Leistung & Exzellenz“ als Maßstab der [[Ergebnisverantwortung]] (Folie 30)." },
-            { "typ": "hinweis", "text": "Die Zeile „UNVERÄNDERT -> LEISTUNG & EXZELLENZ“ ist im Skript blau und in Versalien gesetzt, der Schlusssatz rot und fett auf hellorangem Balken. Was ein „Wertekosmos“ genau umfasst, sagt das Skript nicht." }
+            {
+              "typ": "einfach",
+              "text": "Sechs Dinge ändern sich, eines nicht. Das Skript setzt die siebte Zeile bewusst gegen die anderen: Leistung und Exzellenz bleiben. Daraus zieht es die Folgerung für Führungskräfte."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 33,
+              "text": "UNVERÄNDERT -> LEISTUNG & EXZELLENZ"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 33,
+              "text": "wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos"
+            },
+            {
+              "typ": "text",
+              "text": "Damit schließt die Folie an den Check-in an: Dort steht „KPI: Leistung & Exzellenz“ als Maßstab der [[Ergebnisverantwortung]] (Folie 30)."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Zeile „UNVERÄNDERT -> LEISTUNG & EXZELLENZ“ ist im Skript blau und in Versalien gesetzt, der Schlusssatz rot und fett auf hellorangem Balken. Was ein „Wertekosmos“ genau umfasst, sagt das Skript nicht."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m1-t4-a01", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "wertewandel-determinanten", "karte": "m1-t4-k1", "folien": [33],
-          "frage": "Ordne jeder Determinante des Wertewandels ihre Wirkung zu.", "linksTitel": "Determinante", "rechtsTitel": "Wirkung laut Skript",
+        {
+          "id": "m1-t4-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "wertewandel-determinanten",
+          "karte": "m1-t4-k1",
+          "folien": [
+            33
+          ],
+          "frage": "Ordne jeder Determinante des Wertewandels ihre Wirkung zu.",
+          "linksTitel": "Determinante",
+          "rechtsTitel": "Wirkung laut Skript",
           "paare": [
-            { "links": "Strukturbrüche", "rechts": "verstärkte Segmentierung des Arbeitsmarktes" },
-            { "links": "techn. Umbrüche", "rechts": "ML, AI unterstützt Menschen (schneller, billiger, besser)" },
-            { "links": "Diversifizierung", "rechts": "verschiedene Kulturen, Hintergründe, Verhaltensmuster" },
-            { "links": "Sinnsuche", "rechts": "Arbeitsfreude und Selbstverwirklichung stärker nachgefragt" },
-            { "links": "Work/Life-Balance", "rechts": "private Interessen und Erfolg zugleich angestrebt" }
+            {
+              "links": "Strukturbrüche",
+              "rechts": "verstärkte Segmentierung des Arbeitsmarktes"
+            },
+            {
+              "links": "techn. Umbrüche",
+              "rechts": "ML, AI unterstützt Menschen (schneller, billiger, besser)"
+            },
+            {
+              "links": "Diversifizierung",
+              "rechts": "verschiedene Kulturen, Hintergründe, Verhaltensmuster"
+            },
+            {
+              "links": "Sinnsuche",
+              "rechts": "Arbeitsfreude und Selbstverwirklichung stärker nachgefragt"
+            },
+            {
+              "links": "Work/Life-Balance",
+              "rechts": "private Interessen und Erfolg zugleich angestrebt"
+            }
           ],
           "erklaerung": "Die Folie listet sechs Determinanten mit je einer Wirkung. Die sechste, Org.strukturen, betrifft die Abkehr von ausschließlicher Bürokratie und Hierarchie.",
-          "beleg": "verschiedene Kulturen, Hintergründe, Verhaltensmuster", "belegQuelle": "folie-05",
-          "kurz": "Strukturbrüche, techn. Umbrüche, Diversifizierung, Org.strukturen, Sinnsuche, Work/Life-Balance." },
-        { "id": "m1-t4-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "wertewandel-determinanten", "karte": "m1-t4-k1", "folien": [33],
+          "beleg": "verschiedene Kulturen, Hintergründe, Verhaltensmuster",
+          "belegQuelle": "folie-05",
+          "kurz": "Strukturbrüche, techn. Umbrüche, Diversifizierung, Org.strukturen, Sinnsuche, Work/Life-Balance."
+        },
+        {
+          "id": "m1-t4-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "wertewandel-determinanten",
+          "karte": "m1-t4-k1",
+          "folien": [
+            33
+          ],
           "frage": "Welche Determinanten des Wertewandels nennt Folie 33?",
-          "optionen": ["Strukturbrüche", "techn. Umbrüche", "Diversifizierung", "Org.strukturen", "Sinnsuche", "Work/Life-Balance", "Globalisierung", "Demografie"], "richtig": [0, 1, 2, 3, 4, 5],
+          "optionen": [
+            "Strukturbrüche",
+            "techn. Umbrüche",
+            "Diversifizierung",
+            "Org.strukturen",
+            "Sinnsuche",
+            "Work/Life-Balance",
+            "Globalisierung",
+            "Demografie"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
           "erklaerung": "Es sind genau sechs. „Globalisierung“ und „Demografie“ stehen auf dieser Folie nicht.",
-          "beleg": "verstärkte Segmentierung des Arbeitsmarktes", "belegQuelle": "folie-05",
-          "kurz": "Sechs Determinanten: Strukturbrüche, techn. Umbrüche, Diversifizierung, Org.strukturen, Sinnsuche, Work/Life-Balance." },
-        { "id": "m1-t4-a03", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "wertewandel-unveraendert", "karte": "m1-t4-k2", "folien": [33],
+          "beleg": "verstärkte Segmentierung des Arbeitsmarktes",
+          "belegQuelle": "folie-05",
+          "kurz": "Sechs Determinanten: Strukturbrüche, techn. Umbrüche, Diversifizierung, Org.strukturen, Sinnsuche, Work/Life-Balance."
+        },
+        {
+          "id": "m1-t4-a03",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "wertewandel-unveraendert",
+          "karte": "m1-t4-k2",
+          "folien": [
+            33
+          ],
           "frage": "Was bleibt laut Folie 33 beim Wertewandel **unverändert**?",
-          "optionen": ["LEISTUNG & EXZELLENZ", "Bürokratie und Hierarchie", "Work/Life-Balance", "die Tugenden früherer Generationen"], "richtig": 0,
+          "optionen": [
+            "LEISTUNG & EXZELLENZ",
+            "Bürokratie und Hierarchie",
+            "Work/Life-Balance",
+            "die Tugenden früherer Generationen"
+          ],
+          "richtig": 0,
           "erklaerung": "Die letzte Zeile der Aufstellung setzt „UNVERÄNDERT“ gegen „LEISTUNG & EXZELLENZ“. Damit knüpft die Folie an den KPI aus Folie 30 an.",
-          "beleg": "UNVERÄNDERT -> LEISTUNG & EXZELLENZ", "belegQuelle": "folie-05",
-          "kurz": "Unverändert bleiben Leistung & Exzellenz." },
-        { "id": "m1-t4-a04", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "wertewandel-orgstrukturen", "karte": "m1-t4-k1", "folien": [33],
+          "beleg": "UNVERÄNDERT -> LEISTUNG & EXZELLENZ",
+          "belegQuelle": "folie-05",
+          "kurz": "Unverändert bleiben Leistung & Exzellenz."
+        },
+        {
+          "id": "m1-t4-a04",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "wertewandel-orgstrukturen",
+          "karte": "m1-t4-k1",
+          "folien": [
+            33
+          ],
           "frage": "Was sagt Folie 33 über Organisationsstrukturen und Sinnsuche?",
           "aussagen": [
-            { "text": "Die Folie beschreibt eine Abkehr von ausschließlicher Bürokratie und Hierarchie.", "wahr": true },
-            { "text": "Alternative Modelle werden laut Skript schlagartig eingeführt.", "wahr": false, "korrektur": "Das Skript spricht von einer sukzessiven Öffnung für alternative Modelle." },
-            { "text": "Unter Sinnsuche fasst das Skript, dass im Westen Arbeitsfreude und Selbstverwirklichung stärker nachgefragt werden.", "wahr": true },
-            { "text": "Das Skript erklärt, was Ambidextrie und Polydextrie bedeuten.", "wahr": false, "korrektur": "Beide Begriffe werden auf der Folie nur genannt, nicht erklärt." }
+            {
+              "text": "Die Folie beschreibt eine Abkehr von ausschließlicher Bürokratie und Hierarchie.",
+              "wahr": true
+            },
+            {
+              "text": "Alternative Modelle werden laut Skript schlagartig eingeführt.",
+              "wahr": false,
+              "korrektur": "Das Skript spricht von einer sukzessiven Öffnung für alternative Modelle."
+            },
+            {
+              "text": "Unter Sinnsuche fasst das Skript, dass im Westen Arbeitsfreude und Selbstverwirklichung stärker nachgefragt werden.",
+              "wahr": true
+            },
+            {
+              "text": "Das Skript erklärt, was Ambidextrie und Polydextrie bedeuten.",
+              "wahr": false,
+              "korrektur": "Beide Begriffe werden auf der Folie nur genannt, nicht erklärt."
+            }
           ],
           "erklaerung": "Wichtig sind die beiden Wörter „ausschließlicher“ und „sukzessive“: Es geht nicht um Abschaffung, sondern um schrittweise Öffnung.",
-          "beleg": "Abkehr von ausschließlicher Bürokratie/Hierarchie, sukzessive Öffnung für alternative Modelle", "belegQuelle": "folie-05",
-          "kurz": "Org.strukturen: Abkehr von ausschließlicher Bürokratie, sukzessive Öffnung; Ambidextrie/Polydextrie nur genannt." },
-        { "id": "m1-t4-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "wertewandel-unveraendert", "karte": "m1-t4-k2", "folien": [33], "bank": true,
+          "beleg": "Abkehr von ausschließlicher Bürokratie/Hierarchie, sukzessive Öffnung für alternative Modelle",
+          "belegQuelle": "folie-05",
+          "kurz": "Org.strukturen: Abkehr von ausschließlicher Bürokratie, sukzessive Öffnung; Ambidextrie/Polydextrie nur genannt."
+        },
+        {
+          "id": "m1-t4-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "wertewandel-unveraendert",
+          "karte": "m1-t4-k2",
+          "folien": [
+            33
+          ],
+          "bank": true,
           "frage": "Vervollständige die Folgerung der Folie.",
           "text": "wirksame {_Führungskräfte_} berücksichtigen einen umfassenden {_Wertekosmos_}",
-          "zusatzBank": ["Mitarbeiter", "Wertewandel"],
+          "zusatzBank": [
+            "Mitarbeiter",
+            "Wertewandel"
+          ],
           "erklaerung": "Der Satz steht rot auf hellorangem Balken am Fuß der Folie, ein breiter Pfeil zeigt darauf.",
-          "beleg": "wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos", "belegQuelle": "folie-05",
-          "kurz": "Wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos." },
-        { "id": "m1-t4-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "wertewandel-unveraendert", "karte": "m1-t4-k2", "folien": [33],
+          "beleg": "wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos",
+          "belegQuelle": "folie-05",
+          "kurz": "Wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos."
+        },
+        {
+          "id": "m1-t4-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "wertewandel-unveraendert",
+          "karte": "m1-t4-k2",
+          "folien": [
+            33
+          ],
           "frage": "Erkläre, was mit „UNVERÄNDERT -> LEISTUNG & EXZELLENZ“ gemeint ist und in welchem Zusammenhang die Aussage steht.",
           "musterloesung": "Die Aussage schließt die Aufstellung der Determinanten des Wertewandels ab. Davor stehen sechs Dinge, die sich verändern: Strukturbrüche, technische Umbrüche, Diversifizierung, Organisationsstrukturen, Sinnsuche und Work/Life-Balance. Die siebte Zeile setzt dagegen, was sich trotz allem nicht ändert: Leistung und Exzellenz. Damit greift die Folie den KPI aus dem Check-in wieder auf, wo Leistung & Exzellenz als Maßstab der Ergebnisverantwortung genannt werden. Die Folgerung der Folie lautet: wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos. Eine Führungskraft muss also die gewandelten Werte kennen und trotzdem am Leistungsanspruch festhalten.",
           "checkliste": [
@@ -533,23 +1395,71 @@
             "Kein Widerspruch: gewandelte Werte anerkennen und Leistungsanspruch halten"
           ],
           "erklaerung": "Diese Zeile ist der Angelpunkt der Folie und verbindet sie mit dem Check-in. Beide Teile gehören in die Antwort: was sich wandelt und was bleibt.",
-          "beleg": "UNVERÄNDERT -> LEISTUNG & EXZELLENZ", "belegQuelle": "folie-05",
-          "kurz": "Werte wandeln sich, Leistung & Exzellenz bleiben; Führung braucht dennoch einen umfassenden Wertekosmos." },
-        { "id": "m1-t4-a07", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": false, "konzept": "wertewandel-determinanten", "karte": "m1-t4-k1", "folien": [33],
+          "beleg": "UNVERÄNDERT -> LEISTUNG & EXZELLENZ",
+          "belegQuelle": "folie-05",
+          "kurz": "Werte wandeln sich, Leistung & Exzellenz bleiben; Führung braucht dennoch einen umfassenden Wertekosmos."
+        },
+        {
+          "id": "m1-t4-a07",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "wertewandel-determinanten",
+          "karte": "m1-t4-k1",
+          "folien": [
+            33
+          ],
           "frage": "Zu welcher Determinante gehört das jeweilige Stichwort?",
-          "kategorien": ["techn. Umbrüche", "Org.strukturen", "Sinnsuche", "Work/Life-Balance"],
+          "kategorien": [
+            "techn. Umbrüche",
+            "Org.strukturen",
+            "Sinnsuche",
+            "Work/Life-Balance"
+          ],
           "elemente": [
-            { "text": "ML, AI unterstützt Menschen", "kategorie": 0 },
-            { "text": "schneller, billiger, besser", "kategorie": 0 },
-            { "text": "Ambidextrie -> Polydextrie", "kategorie": 1 },
-            { "text": "Mehrgeschwindigkeitsorganisationen", "kategorie": 1 },
-            { "text": "„Tugenden“ früherer Generationen hinterfragt", "kategorie": 2 },
-            { "text": "Berücksichtigung privater Interessen", "kategorie": 3 }
+            {
+              "text": "ML, AI unterstützt Menschen",
+              "kategorie": 0
+            },
+            {
+              "text": "schneller, billiger, besser",
+              "kategorie": 0
+            },
+            {
+              "text": "Ambidextrie -> Polydextrie",
+              "kategorie": 1
+            },
+            {
+              "text": "Mehrgeschwindigkeitsorganisationen",
+              "kategorie": 1
+            },
+            {
+              "text": "„Tugenden“ früherer Generationen hinterfragt",
+              "kategorie": 2
+            },
+            {
+              "text": "Berücksichtigung privater Interessen",
+              "kategorie": 3
+            }
           ],
           "erklaerung": "Die Folie ordnet jedem Stichwort genau eine Determinante zu. Ambidextrie und Mehrgeschwindigkeitsorganisationen stehen bei den Organisationsstrukturen, nicht bei den technischen Umbrüchen.",
-          "beleg": "ML, AI unterstützt Menschen (schneller, billiger, besser)", "belegQuelle": "folie-05",
-          "kurz": "ML/AI = techn. Umbrüche. Ambidextrie, Mehrgeschwindigkeit = Org.strukturen. Tugenden hinterfragt = Sinnsuche." },
-        { "id": "m1-t4-a08", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "wertewandel-unveraendert", "karte": "m1-t4-k2", "folien": [33],
+          "beleg": "ML, AI unterstützt Menschen (schneller, billiger, besser)",
+          "belegQuelle": "folie-05",
+          "kurz": "ML/AI = techn. Umbrüche. Ambidextrie, Mehrgeschwindigkeit = Org.strukturen. Tugenden hinterfragt = Sinnsuche."
+        },
+        {
+          "id": "m1-t4-a08",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "wertewandel-unveraendert",
+          "karte": "m1-t4-k2",
+          "folien": [
+            33
+          ],
           "szenario": "Übungsfall: Eine Bankfiliale führt Vier-Tage-Woche und mobiles Arbeiten ein. Ein Teamleiter befürchtet, die Leistungsanforderungen müssten deshalb sinken.",
           "frage": "Wie würdest du ihm allein mit Folie 33 antworten?",
           "musterloesung": "Work/Life-Balance ist laut Skript eine der sechs Determinanten des Wertewandels: Erfolg, Herausforderung, Abwechslung und Berücksichtigung privater Interessen werden zugleich angestrebt. Der Wandel ist damit anerkannt. Die Folie stellt ihm aber ausdrücklich gegenüber, was unverändert bleibt: Leistung & Exzellenz. Die Leistungsanforderung sinkt also nicht. Die Folgerung lautet, dass wirksame Führungskräfte einen umfassenden Wertekosmos berücksichtigen, also beides zusammen denken.",
@@ -560,8 +1470,10 @@
             "Folgerung: umfassenden Wertekosmos berücksichtigen"
           ],
           "erklaerung": "Das Skript stellt Wandel und Konstante nebeneinander, nicht gegeneinander. Genau darin liegt die Antwort.",
-          "beleg": "Erfolg, Herausforderung, Abwechslung und Berücksichtigung privater Interessen zugleich angestrebt", "belegQuelle": "folie-05",
-          "kurz": "Work/Life-Balance ändert die Werte, nicht den Leistungsanspruch." }
+          "beleg": "Erfolg, Herausforderung, Abwechslung und Berücksichtigung privater Interessen zugleich angestrebt",
+          "belegQuelle": "folie-05",
+          "kurz": "Work/Life-Balance ändert die Werte, nicht den Leistungsanspruch."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -582,129 +1494,361 @@
     {
       "id": "m1-t5",
       "titel": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
-      "folien": [34],
+      "folien": [
+        34
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m1-t5-k1",
           "titel": "Vier Entwicklungstypen, zehn Organisationsformen",
-          "folien": [34],
+          "folien": [
+            34
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Unternehmen durchlaufen Lebensphasen. Das Schaubild zeigt den Unternehmenswert über die Zeit als S-Kurve. Darunter liegen vier Unternehmenstypen und zehn Organisationsformen, die mit der Phase mitwachsen. Am rechten Ende gabelt sich die Kurve: Es geht weiter aufwärts oder abwärts." },
-            { "typ": "text", "text": "**Organisationsformen und Entwicklungstypen nach {{Gomez}}/{{Zimmermann}}**" },
-            { "typ": "diagramm", "ref": "entwicklungstypen", "unterschrift": "Unternehmenswert über die Zeit: vier Entwicklungstypen und die zehn Organisationsformen, die ihnen zugeordnet sind. Am rechten Ende gabelt sich die Kurve nach oben und nach unten." },
-            { "typ": "liste", "titel": "Die vier Entwicklungstypen (von links nach rechts)", "geordnet": true, "punkte": [
-              "Pionier-Unternehmen",
-              "Wachstums-Unternehmen",
-              "Reife-Unternehmen",
-              "Wende-Unternehmen"
-            ] },
-            { "typ": "liste", "titel": "Die zehn Organisationsformen (von links nach rechts)", "geordnet": true, "punkte": [
-              "Einfache Linien-Organisation",
-              "Stab-Linien-Organisation",
-              "Funktionale Organisation",
-              "Projekt-Organisation",
-              "Matrix-Organisation",
-              "Divisionale Organisation",
-              "Tensor-Organisation",
-              "Holding-Organisation",
-              "Allianz-Organisation",
-              "Cluster-Organisation"
-            ] },
-            { "typ": "text", "text": "Die Achsen des Schaubilds: **Unternehmenswert** (senkrecht) über **Zeit** (waagerecht)." },
-            { "typ": "hinweis", "text": "Im Skript nur genannt, nicht erklärt: „Tensor-Organisation“, „Cluster-Organisation“, „Allianz-Organisation“, „Unternehmenswert“. Eine Quellenangabe zu Gomez/Zimmermann fehlt auf der Folie." }
+            {
+              "typ": "einfach",
+              "text": "Unternehmen durchlaufen Lebensphasen. Das Schaubild zeigt den Unternehmenswert über die Zeit als S-Kurve. Darunter liegen vier Unternehmenstypen und zehn Organisationsformen, die mit der Phase mitwachsen. Am rechten Ende gabelt sich die Kurve: Es geht weiter aufwärts oder abwärts."
+            },
+            {
+              "typ": "text",
+              "text": "**Organisationsformen und Entwicklungstypen nach {{Gomez}}/{{Zimmermann}}**"
+            },
+            {
+              "typ": "diagramm",
+              "ref": "entwicklungstypen",
+              "unterschrift": "Unternehmenswert über die Zeit: vier Entwicklungstypen und die zehn Organisationsformen, die ihnen zugeordnet sind. Am rechten Ende gabelt sich die Kurve nach oben und nach unten."
+            },
+            {
+              "typ": "liste",
+              "titel": "Die vier Entwicklungstypen (von links nach rechts)",
+              "geordnet": true,
+              "punkte": [
+                "Pionier-Unternehmen",
+                "Wachstums-Unternehmen",
+                "Reife-Unternehmen",
+                "Wende-Unternehmen"
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Die zehn Organisationsformen (von links nach rechts)",
+              "geordnet": true,
+              "punkte": [
+                "Einfache Linien-Organisation",
+                "Stab-Linien-Organisation",
+                "Funktionale Organisation",
+                "Projekt-Organisation",
+                "Matrix-Organisation",
+                "Divisionale Organisation",
+                "Tensor-Organisation",
+                "Holding-Organisation",
+                "Allianz-Organisation",
+                "Cluster-Organisation"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Die Achsen des Schaubilds: **Unternehmenswert** (senkrecht) über **Zeit** (waagerecht)."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Im Skript nur genannt, nicht erklärt: „Tensor-Organisation“, „Cluster-Organisation“, „Allianz-Organisation“, „Unternehmenswert“. Eine Quellenangabe zu Gomez/Zimmermann fehlt auf der Folie."
+            }
           ]
         },
         {
           "id": "m1-t5-k2",
           "titel": "Relevanz: adaptierte Führung, Kontext, Substitution",
-          "folien": [34],
+          "folien": [
+            34
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Warum steht dieses Schaubild in einer Führungsvorlesung? Weil jede Phase eine andere Führung verlangt. Und weil mehrere Phasen oft gleichzeitig in einem Unternehmen liegen. Deshalb warnt das Skript vor Verallgemeinerungen." },
-            { "typ": "merksatz", "folie": 34, "text": "grds. Relevanz -> jede Phase erfordert adaptierte Führung, häufig mehrere Phasen parallel im Unternehmen!" },
-            { "typ": "merksatz", "folie": 34, "text": "-> stets im Kontext argumentieren, Verallgemeinerungen vermeiden" },
-            { "typ": "merksatz", "folie": 34, "text": "aktuelle Relevanz -> Angst vor Substitution (RPA, AI, blockchain, et al.), see lecture VI, Lebenszyklen verstehen!" },
-            { "typ": "text", "text": "Das schließt an den Check-in an: Dort heißt es schon „stets im [[Kontext]] (Reife, Größe, Wettbew.pos.,..)“ (Folie 30)." },
-            { "typ": "hinweis", "text": "„RPA“, „AI“ und „blockchain“ werden nur als Beispiele genannt, nicht erklärt. „see lecture VI“ ist ein Querverweis auf Vorlesung VI." }
+            {
+              "typ": "einfach",
+              "text": "Warum steht dieses Schaubild in einer Führungsvorlesung? Weil jede Phase eine andere Führung verlangt. Und weil mehrere Phasen oft gleichzeitig in einem Unternehmen liegen. Deshalb warnt das Skript vor Verallgemeinerungen."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 34,
+              "text": "grds. Relevanz -> jede Phase erfordert adaptierte Führung, häufig mehrere Phasen parallel im Unternehmen!"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 34,
+              "text": "-> stets im Kontext argumentieren, Verallgemeinerungen vermeiden"
+            },
+            {
+              "typ": "merksatz",
+              "folie": 34,
+              "text": "aktuelle Relevanz -> Angst vor Substitution (RPA, AI, blockchain, et al.), see lecture VI, Lebenszyklen verstehen!"
+            },
+            {
+              "typ": "text",
+              "text": "Das schließt an den Check-in an: Dort heißt es schon „stets im [[Kontext]] (Reife, Größe, Wettbew.pos.,..)“ (Folie 30)."
+            },
+            {
+              "typ": "hinweis",
+              "text": "„RPA“, „AI“ und „blockchain“ werden nur als Beispiele genannt, nicht erklärt. „see lecture VI“ ist ein Querverweis auf Vorlesung VI."
+            }
           ]
         },
         {
           "id": "m1-t5-k3",
           "titel": "Einstein-Zitat und offene Wiederholung",
-          "folien": [34],
+          "folien": [
+            34
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Links unten steht ein Bildzitat von {{Albert Einstein}} über das Fahrradfahren. Die Folie setzt es neben das Schaubild, sagt aber nicht, wie beides zusammenhängt. Darunter hat der Dozent einen Wiederholungskasten bewusst leer gelassen. Diese Felder trägst du aus der Vorlesung nach." },
-            { "typ": "zitat", "person": "Albert Einstein", "kontext": "Bildzitat auf dem Foto links unten, Folie 34", "text": "LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD" },
-            { "typ": "skriptluecke", "id": "m1-t5-wiederholung", "text": "Der Kasten „Wiederholung:“ auf Folie 34 ist im Skript leer. Hinter „Metaziele von Unternehmen/-ern:“ stehen nur 1.) und 2.), hinter „zu erreichen durch:“ nur 1.), 2.) und 3.), danach „ergo, immer.......“ ohne Fortsetzung. Trage hier ein, was in der Vorlesung genannt wurde.", "felder": [
-              { "id": "metaziel1", "label": "Metaziel von Unternehmen/-ern 1.)" },
-              { "id": "metaziel2", "label": "Metaziel von Unternehmen/-ern 2.)" },
-              { "id": "weg1", "label": "zu erreichen durch 1.)" },
-              { "id": "weg2", "label": "zu erreichen durch 2.)" },
-              { "id": "weg3", "label": "zu erreichen durch 3.)" },
-              { "id": "ergo", "label": "ergo, immer......." }
-            ] },
-            { "typ": "hinweis", "text": "Diese Felder bleiben absichtlich leer. Das Skript nennt weder die Metaziele noch die drei Wege; hier wird nichts ergänzt, was nicht im Skript steht. Auch „Metaziele“ selbst wird nicht erklärt." },
-            { "typ": "hinweis", "text": "Zum Zitat: Das Skript beschreibt nur, dass das Foto links unten neben dem Schaubild steht. Eine inhaltliche Verbindung zwischen Zitat und Kurve stellt die Folie nicht her. Naheliegende Lesart (eigene Deutung, nicht aus dem Skript): Balance nur durch Weiterbewegung passt zur steigenden Kurve und zu ihrer Gabelung am rechten Ende. Wer das in der Klausur schreibt, kennzeichnet es als eigene Deutung." }
+            {
+              "typ": "einfach",
+              "text": "Links unten steht ein Bildzitat von {{Albert Einstein}} über das Fahrradfahren. Die Folie setzt es neben das Schaubild, sagt aber nicht, wie beides zusammenhängt. Darunter hat der Dozent einen Wiederholungskasten bewusst leer gelassen. Diese Felder trägst du aus der Vorlesung nach."
+            },
+            {
+              "typ": "zitat",
+              "person": "Albert Einstein",
+              "kontext": "Bildzitat auf dem Foto links unten, Folie 34",
+              "text": "LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD"
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m1-t5-wiederholung",
+              "text": "Der Kasten „Wiederholung:“ auf Folie 34 ist im Skript leer. Hinter „Metaziele von Unternehmen/-ern:“ stehen nur 1.) und 2.), hinter „zu erreichen durch:“ nur 1.), 2.) und 3.), danach „ergo, immer.......“ ohne Fortsetzung. Trage hier ein, was in der Vorlesung genannt wurde.",
+              "felder": [
+                {
+                  "id": "metaziel1",
+                  "label": "Metaziel von Unternehmen/-ern 1.)"
+                },
+                {
+                  "id": "metaziel2",
+                  "label": "Metaziel von Unternehmen/-ern 2.)"
+                },
+                {
+                  "id": "weg1",
+                  "label": "zu erreichen durch 1.)"
+                },
+                {
+                  "id": "weg2",
+                  "label": "zu erreichen durch 2.)"
+                },
+                {
+                  "id": "weg3",
+                  "label": "zu erreichen durch 3.)"
+                },
+                {
+                  "id": "ergo",
+                  "label": "ergo, immer......."
+                }
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Diese Felder bleiben absichtlich leer. Das Skript nennt weder die Metaziele noch die drei Wege; hier wird nichts ergänzt, was nicht im Skript steht. Auch „Metaziele“ selbst wird nicht erklärt."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Zum Zitat: Das Skript beschreibt nur, dass das Foto links unten neben dem Schaubild steht. Eine inhaltliche Verbindung zwischen Zitat und Kurve stellt die Folie nicht her. Naheliegende Lesart (eigene Deutung, nicht aus dem Skript): Balance nur durch Weiterbewegung passt zur steigenden Kurve und zu ihrer Gabelung am rechten Ende. Wer das in der Klausur schreibt, kennzeichnet es als eigene Deutung."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m1-t5-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "entwicklungstypen", "karte": "m1-t5-k1", "folien": [34],
+        {
+          "id": "m1-t5-a01",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "entwicklungstypen",
+          "karte": "m1-t5-k1",
+          "folien": [
+            34
+          ],
           "frage": "Bringe die vier Entwicklungstypen nach Gomez/Zimmermann in die Reihenfolge des Schaubilds (links nach rechts).",
-          "elemente": ["Pionier-Unternehmen", "Wachstums-Unternehmen", "Reife-Unternehmen", "Wende-Unternehmen"],
+          "elemente": [
+            "Pionier-Unternehmen",
+            "Wachstums-Unternehmen",
+            "Reife-Unternehmen",
+            "Wende-Unternehmen"
+          ],
           "erklaerung": "Die vier Felder liegen unter der S-Kurve des Unternehmenswerts, von links (jung) nach rechts (alt).",
-          "beleg": "„Pionier-Unternehmen“, „Wachstums-Unternehmen“, „Reife-Unternehmen“, „Wende-Unternehmen“", "belegQuelle": "folie-06",
-          "kurz": "Pionier — Wachstum — Reife — Wende." },
-        { "id": "m1-t5-a02", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "organisationsformen", "karte": "m1-t5-k1", "folien": [34],
+          "beleg": "„Pionier-Unternehmen“, „Wachstums-Unternehmen“, „Reife-Unternehmen“, „Wende-Unternehmen“",
+          "belegQuelle": "folie-06",
+          "kurz": "Pionier — Wachstum — Reife — Wende."
+        },
+        {
+          "id": "m1-t5-a02",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "organisationsformen",
+          "karte": "m1-t5-k1",
+          "folien": [
+            34
+          ],
           "frage": "Bringe die zehn Organisationsformen in die Reihenfolge des Schaubilds (links nach rechts).",
-          "elemente": ["Einfache Linien-Organisation", "Stab-Linien-Organisation", "Funktionale Organisation", "Projekt-Organisation", "Matrix-Organisation", "Divisionale Organisation", "Tensor-Organisation", "Holding-Organisation", "Allianz-Organisation", "Cluster-Organisation"],
+          "elemente": [
+            "Einfache Linien-Organisation",
+            "Stab-Linien-Organisation",
+            "Funktionale Organisation",
+            "Projekt-Organisation",
+            "Matrix-Organisation",
+            "Divisionale Organisation",
+            "Tensor-Organisation",
+            "Holding-Organisation",
+            "Allianz-Organisation",
+            "Cluster-Organisation"
+          ],
           "erklaerung": "Die zehn Formen stehen senkrecht gedruckt unter den vier Unternehmenstypen, von der einfachsten links bis zur Cluster-Organisation rechts.",
-          "beleg": "„Einfache Linien-Organisation“, „Stab-Linien-Organisation“, „Funktionale Organisation“, „Projekt-Organisation“, „Matrix-Organisation“", "belegQuelle": "folie-06",
-          "kurz": "Einfache Linien, Stab-Linien, Funktional, Projekt, Matrix, Divisional, Tensor, Holding, Allianz, Cluster." },
-        { "id": "m1-t5-a03", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "entwicklungstypen", "karte": "m1-t5-k1", "folien": [34],
-          "frage": "Beschrifte die vier Entwicklungstypen im Schaubild.", "diagramm": "entwicklungstypen", "gruppe": "typen",
+          "beleg": "„Einfache Linien-Organisation“, „Stab-Linien-Organisation“, „Funktionale Organisation“, „Projekt-Organisation“, „Matrix-Organisation“",
+          "belegQuelle": "folie-06",
+          "kurz": "Einfache Linien, Stab-Linien, Funktional, Projekt, Matrix, Divisional, Tensor, Holding, Allianz, Cluster."
+        },
+        {
+          "id": "m1-t5-a03",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "entwicklungstypen",
+          "karte": "m1-t5-k1",
+          "folien": [
+            34
+          ],
+          "frage": "Beschrifte die vier Entwicklungstypen im Schaubild.",
+          "diagramm": "entwicklungstypen",
+          "gruppe": "typen",
           "erklaerung": "Unter der S-Kurve liegen von links nach rechts Pionier-, Wachstums-, Reife- und Wende-Unternehmen.",
-          "beleg": "„Pionier-Unternehmen“, „Wachstums-Unternehmen“, „Reife-Unternehmen“, „Wende-Unternehmen“", "belegQuelle": "folie-06",
-          "kurz": "Vier Entwicklungstypen unter der S-Kurve des Unternehmenswerts." },
-        { "id": "m1-t5-a04", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "organisationsformen", "karte": "m1-t5-k1", "folien": [34],
-          "frage": "Beschrifte die Organisationsformen im Schaubild.", "diagramm": "entwicklungstypen", "gruppe": "formen",
+          "beleg": "„Pionier-Unternehmen“, „Wachstums-Unternehmen“, „Reife-Unternehmen“, „Wende-Unternehmen“",
+          "belegQuelle": "folie-06",
+          "kurz": "Vier Entwicklungstypen unter der S-Kurve des Unternehmenswerts."
+        },
+        {
+          "id": "m1-t5-a04",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "organisationsformen",
+          "karte": "m1-t5-k1",
+          "folien": [
+            34
+          ],
+          "frage": "Beschrifte die Organisationsformen im Schaubild.",
+          "diagramm": "entwicklungstypen",
+          "gruppe": "formen",
           "erklaerung": "Die Organisationsformen stehen senkrecht unter den Entwicklungstypen und werden mit dem Unternehmen komplexer.",
-          "beleg": "„Divisionale Organisation“, „Tensor-Organisation“, „Holding-Organisation“, „Allianz-Organisation“, „Cluster-Organisation“", "belegQuelle": "folie-06",
-          "kurz": "Zehn Organisationsformen, von Einfacher Linien- bis Cluster-Organisation." },
-        { "id": "m1-t5-a05", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "phasen-fuehrung", "karte": "m1-t5-k2", "folien": [34],
+          "beleg": "„Divisionale Organisation“, „Tensor-Organisation“, „Holding-Organisation“, „Allianz-Organisation“, „Cluster-Organisation“",
+          "belegQuelle": "folie-06",
+          "kurz": "Zehn Organisationsformen, von Einfacher Linien- bis Cluster-Organisation."
+        },
+        {
+          "id": "m1-t5-a05",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "phasen-fuehrung",
+          "karte": "m1-t5-k2",
+          "folien": [
+            34
+          ],
           "frage": "Welche Folgerung zieht das Skript aus dem Phasenmodell für die Führung?",
           "optionen": [
             "Jede Phase erfordert adaptierte Führung, häufig liegen mehrere Phasen parallel im Unternehmen.",
             "Ein Unternehmen befindet sich immer in genau einer Phase, die den Führungsstil festlegt.",
             "Der Führungsstil folgt der Organisationsform und nicht der Entwicklungsphase.",
             "Mit zunehmender Reife wird Führung entbehrlich."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Der orange Kasten nennt genau diese zwei Punkte: adaptierte Führung je Phase und mehrere Phasen parallel. Daraus folgt die Warnung vor Verallgemeinerungen.",
-          "beleg": "jede Phase erfordert adaptierte Führung, häufig mehrere Phasen parallel im Unternehmen!", "belegQuelle": "folie-06",
-          "kurz": "Jede Phase braucht adaptierte Führung; mehrere Phasen liegen oft parallel im Unternehmen." },
-        { "id": "m1-t5-a06", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "phasen-fuehrung", "karte": "m1-t5-k2", "folien": [34],
+          "beleg": "jede Phase erfordert adaptierte Führung, häufig mehrere Phasen parallel im Unternehmen!",
+          "belegQuelle": "folie-06",
+          "kurz": "Jede Phase braucht adaptierte Führung; mehrere Phasen liegen oft parallel im Unternehmen."
+        },
+        {
+          "id": "m1-t5-a06",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "phasen-fuehrung",
+          "karte": "m1-t5-k2",
+          "folien": [
+            34
+          ],
           "frage": "Was steht im Relevanz-Kasten der Folie 34?",
           "aussagen": [
-            { "text": "Man soll stets im Kontext argumentieren und Verallgemeinerungen vermeiden.", "wahr": true },
-            { "text": "Als aktuelle Relevanz nennt das Skript die Angst vor Substitution durch RPA, AI und blockchain.", "wahr": true },
-            { "text": "Das Skript erklärt, was RPA und blockchain sind.", "wahr": false, "korrektur": "Beide werden nur als Beispiele in Klammern genannt, nicht erklärt." },
-            { "text": "Der Kasten verweist auf Vorlesung II.", "wahr": false, "korrektur": "Der Querverweis lautet „see lecture VI“, also Vorlesung VI." }
+            {
+              "text": "Man soll stets im Kontext argumentieren und Verallgemeinerungen vermeiden.",
+              "wahr": true
+            },
+            {
+              "text": "Als aktuelle Relevanz nennt das Skript die Angst vor Substitution durch RPA, AI und blockchain.",
+              "wahr": true
+            },
+            {
+              "text": "Das Skript erklärt, was RPA und blockchain sind.",
+              "wahr": false,
+              "korrektur": "Beide werden nur als Beispiele in Klammern genannt, nicht erklärt."
+            },
+            {
+              "text": "Der Kasten verweist auf Vorlesung II.",
+              "wahr": false,
+              "korrektur": "Der Querverweis lautet „see lecture VI“, also Vorlesung VI."
+            }
           ],
           "erklaerung": "Der Kasten trennt grundsätzliche und aktuelle Relevanz. Die genannten Techniken sind Beispiele für Substitutionsangst, keine erklärten Begriffe.",
-          "beleg": "Angst vor Substitution (RPA, AI, blockchain, et al.), see lecture VI, Lebenszyklen verstehen!", "belegQuelle": "folie-06",
-          "kurz": "Kontext statt Verallgemeinerung; aktuelle Relevanz: Substitutionsangst, see lecture VI." },
-        { "id": "m1-t5-a07", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "personen-folie34", "karte": "m1-t5-k1", "folien": [34],
-          "frage": "Ordne die Personen von Folie 34 ihrem Beitrag zu.", "linksTitel": "Person", "rechtsTitel": "Beitrag laut Skript",
+          "beleg": "Angst vor Substitution (RPA, AI, blockchain, et al.), see lecture VI, Lebenszyklen verstehen!",
+          "belegQuelle": "folie-06",
+          "kurz": "Kontext statt Verallgemeinerung; aktuelle Relevanz: Substitutionsangst, see lecture VI."
+        },
+        {
+          "id": "m1-t5-a07",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "personen-folie34",
+          "karte": "m1-t5-k1",
+          "folien": [
+            34
+          ],
+          "frage": "Ordne die Personen von Folie 34 ihrem Beitrag zu.",
+          "linksTitel": "Person",
+          "rechtsTitel": "Beitrag laut Skript",
           "paare": [
-            { "links": "Gomez", "rechts": "Organisationsformen und Entwicklungstypen (gemeinsam mit Zimmermann)" },
-            { "links": "Zimmermann", "rechts": "Organisationsformen und Entwicklungstypen (gemeinsam mit Gomez)" },
-            { "links": "Albert Einstein", "rechts": "Bildzitat: Leben ist wie Fahrradfahren, für Balance muss man sich vorwärts bewegen" }
+            {
+              "links": "Gomez",
+              "rechts": "Organisationsformen und Entwicklungstypen (gemeinsam mit Zimmermann)"
+            },
+            {
+              "links": "Zimmermann",
+              "rechts": "Organisationsformen und Entwicklungstypen (gemeinsam mit Gomez)"
+            },
+            {
+              "links": "Albert Einstein",
+              "rechts": "Bildzitat: Leben ist wie Fahrradfahren, für Balance muss man sich vorwärts bewegen"
+            }
           ],
           "erklaerung": "Gomez und Zimmermann stehen im Titel des Schaubilds. Einstein ist als Urheber des Bildzitats links unten genannt.",
-          "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann", "belegQuelle": "folie-06",
-          "kurz": "Gomez/Zimmermann: Organisationsformen und Entwicklungstypen. Einstein: Fahrrad-Zitat." },
-        { "id": "m1-t5-a08", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "einstein-zitat", "karte": "m1-t5-k3", "folien": [34],
+          "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
+          "belegQuelle": "folie-06",
+          "kurz": "Gomez/Zimmermann: Organisationsformen und Entwicklungstypen. Einstein: Fahrrad-Zitat."
+        },
+        {
+          "id": "m1-t5-a08",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "einstein-zitat",
+          "karte": "m1-t5-k3",
+          "folien": [
+            34
+          ],
           "frage": "Erkläre, was mit dem Zitat „LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD“ gemeint ist und in welchem Zusammenhang es auf Folie 34 steht.",
           "musterloesung": "Das Zitat wird im Skript Albert Einstein zugeschrieben und steht auf dem Foto links unten, neben dem Schaubild der Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann. Die Aussage des Zitats selbst: Wer die Balance halten will, muss sich weiterbewegen. Zum Zusammenhang sagt die Folie nur, wo das Foto steht; sie verknüpft Zitat und Schaubild nicht ausdrücklich. Naheliegend ist die eigene Deutung, dass beides auf dieselbe Bewegungsnotwendigkeit zielt: Das Schaubild zeigt den Unternehmenswert über die Zeit als S-Kurve, die sich am rechten Ende in zwei Richtungen gabelt, aufwärts oder abwärts. Wer diese Verbindung zieht, sollte sie als eigene Deutung kennzeichnen. Belegt ist dagegen, was der Relevanz-Kasten derselben Folie sagt: Jede Phase erfordert adaptierte Führung, häufig liegen mehrere Phasen parallel im Unternehmen, und man muss Lebenszyklen verstehen.",
           "checkliste": [
@@ -716,28 +1860,71 @@
           ],
           "erklaerung": "Zwei Dinge auseinanderhalten: Was das Zitat sagt und wo es steht, ist belegt. Dass es die Kurve deutet, ist eine naheliegende, aber eigene Lesart.",
           "belege": [
-            { "text": "LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD", "quelle": "folie-06" },
-            { "text": "Albert Einstein — Urheber des Zitats auf dem Foto links unten", "quelle": "folie-06" }
+            {
+              "text": "LIFE IS LIKE RIDING A BICYCLE IF YOU WANT TO STAY BALANCED YOU'VE GOT TO KEEP MOVING FORWARD",
+              "quelle": "folie-06"
+            },
+            {
+              "text": "Albert Einstein — Urheber des Zitats auf dem Foto links unten",
+              "quelle": "folie-06"
+            }
           ],
-          "kurz": "Einstein-Bildzitat auf Folie 34: Balance nur durch Vorwärtsbewegung. Die Folie nennt nur den Ort des Fotos, keine Verknüpfung mit dem Schaubild." },
-        { "id": "m1-t5-a09", "typ": "fall", "modus": "mc", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": false, "konzept": "phasen-fuehrung", "karte": "m1-t5-k2", "folien": [34],
+          "kurz": "Einstein-Bildzitat auf Folie 34: Balance nur durch Vorwärtsbewegung. Die Folie nennt nur den Ort des Fotos, keine Verknüpfung mit dem Schaubild."
+        },
+        {
+          "id": "m1-t5-a09",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "phasen-fuehrung",
+          "karte": "m1-t5-k2",
+          "folien": [
+            34
+          ],
           "szenario": "Übungsfall: In einer Bank arbeitet eine junge Digitaleinheit mit wenigen Leuten und schnellen Entscheidungen, während das Filialgeschäft seit Jahrzehnten in festen Strukturen läuft. Ein Vorstand fordert, für das ganze Haus einen einheitlichen Führungsstil festzulegen.",
           "frage": "Was spricht laut Folie 34 gegen diese Forderung?",
           "optionen": [
             "Häufig liegen mehrere Phasen parallel im Unternehmen, und jede Phase erfordert adaptierte Führung. Deshalb soll man stets im Kontext argumentieren und Verallgemeinerungen vermeiden.",
             "Der Führungsstil richtet sich nach der Organisationsform, und die ist im ganzen Haus gleich.",
             "Ein Unternehmen ist immer nur in einer Phase, deshalb ist ein einheitlicher Stil richtig."
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Digitaleinheit und Filialgeschäft stehen in verschiedenen Phasen. Genau diesen Fall nennt der Relevanz-Kasten ausdrücklich.",
-          "beleg": "stets im Kontext argumentieren, Verallgemeinerungen vermeiden", "belegQuelle": "folie-06",
-          "kurz": "Mehrere Phasen parallel = mehrere Führungsweisen; Verallgemeinerungen vermeiden." },
-        { "id": "m1-t5-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "entwicklungstypen", "karte": "m1-t5-k1", "folien": [34],
+          "beleg": "stets im Kontext argumentieren, Verallgemeinerungen vermeiden",
+          "belegQuelle": "folie-06",
+          "kurz": "Mehrere Phasen parallel = mehrere Führungsweisen; Verallgemeinerungen vermeiden."
+        },
+        {
+          "id": "m1-t5-a10",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "entwicklungstypen",
+          "karte": "m1-t5-k1",
+          "folien": [
+            34
+          ],
           "vorne": "Wie sind die Achsen des Schaubilds nach Gomez/Zimmermann beschriftet, und was passiert am rechten Ende der Kurve?",
           "hinten": "Senkrecht **Unternehmenswert**, waagerecht **Zeit**. Am rechten Ende **gabelt sich die S-Kurve in zwei Pfeile**: einer nach rechts oben, einer nach rechts unten.",
           "erklaerung": "Die Gabelung entspricht dem Wende-Unternehmen: Es kann wieder steigen oder weiter fallen.",
-          "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann", "belegQuelle": "folie-06",
-          "kurz": "Achsen: Unternehmenswert über Zeit. Rechts gabelt sich die Kurve nach oben und unten." },
-        { "id": "m1-t5-a11", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "phasen-fuehrung", "karte": "m1-t5-k2", "folien": [34],
+          "beleg": "Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann",
+          "belegQuelle": "folie-06",
+          "kurz": "Achsen: Unternehmenswert über Zeit. Rechts gabelt sich die Kurve nach oben und unten."
+        },
+        {
+          "id": "m1-t5-a11",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "phasen-fuehrung",
+          "karte": "m1-t5-k2",
+          "folien": [
+            34
+          ],
           "frage": "Erkläre, was der Relevanz-Kasten auf Folie 34 sagt — grundsätzliche und aktuelle Relevanz — und in welchem Zusammenhang die Sätze stehen.",
           "musterloesung": "Der orange Kasten steht unter dem Schaubild der Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann und begründet, warum ein Lebenszyklus-Modell in einer Führungsvorlesung steht. Als grundsätzliche Relevanz nennt er: jede Phase erfordert adaptierte Führung, häufig liegen mehrere Phasen parallel im Unternehmen. Daraus folgt der zweite Satz: stets im Kontext argumentieren, Verallgemeinerungen vermeiden. Ein Haus lässt sich also nicht mit einem einzigen Führungsstil führen, weil Pionier-, Wachstums-, Reife- und Wende-Einheiten nebeneinander bestehen können. Als aktuelle Relevanz nennt der Kasten die Angst vor Substitution (RPA, AI, blockchain, et al.), verweist mit „see lecture VI“ auf Vorlesung VI und fordert: Lebenszyklen verstehen. Der Kontextgedanke schließt an den Check-in an, wo schon steht: stets im Kontext (Reife, Größe, Wettbew.pos.,..).",
           "checkliste": [
@@ -749,11 +1936,21 @@
           ],
           "erklaerung": "Der Kasten trennt zwei Ebenen: warum das Modell grundsätzlich für Führung zählt und was daran gerade drängt. Beide Teile gehören in die Antwort, dazu der Schluss gegen Verallgemeinerungen.",
           "belege": [
-            { "text": "jede Phase erfordert adaptierte Führung, häufig mehrere Phasen parallel im Unternehmen!", "quelle": "folie-06" },
-            { "text": "stets im Kontext argumentieren, Verallgemeinerungen vermeiden", "quelle": "folie-06" },
-            { "text": "Angst vor Substitution (RPA, AI, blockchain, et al.), see lecture VI, Lebenszyklen verstehen!", "quelle": "folie-06" }
+            {
+              "text": "jede Phase erfordert adaptierte Führung, häufig mehrere Phasen parallel im Unternehmen!",
+              "quelle": "folie-06"
+            },
+            {
+              "text": "stets im Kontext argumentieren, Verallgemeinerungen vermeiden",
+              "quelle": "folie-06"
+            },
+            {
+              "text": "Angst vor Substitution (RPA, AI, blockchain, et al.), see lecture VI, Lebenszyklen verstehen!",
+              "quelle": "folie-06"
+            }
           ],
-          "kurz": "Relevanz-Kasten Folie 34: jede Phase braucht adaptierte Führung, mehrere Phasen liegen parallel, deshalb im Kontext argumentieren; aktuell Substitutionsangst und Lebenszyklen verstehen." }
+          "kurz": "Relevanz-Kasten Folie 34: jede Phase braucht adaptierte Führung, mehrere Phasen liegen parallel, deshalb im Kontext argumentieren; aktuell Substitutionsangst und Lebenszyklen verstehen."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -775,126 +1972,384 @@
     {
       "id": "m1-t6",
       "titel": "Wachstumsphasen und Krisen der Organisation",
-      "folien": [35],
+      "folien": [
+        35
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m1-t6-k1",
           "titel": "Sechs Phasen: Wachstum durch ...",
-          "folien": [35],
+          "folien": [
+            35
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Dieses Schaubild sagt, wodurch eine Organisation in jeder Phase wächst. Die Achsen sind Größe und Alter der Organisation. Je älter und größer, desto weiter rechts. Jede Phase hat ein eigenes Wachstumsmuster." },
-            { "typ": "diagramm", "ref": "wachstumsphasen", "unterschrift": "Größe der Organisation über ihr Alter: sechs Wachstumsphasen (Evolution), unterbrochen von Krisen (Revolution)." },
-            { "typ": "tabelle", "kopf": ["Phase", "Wachstum durch ..."], "zeilen": [
-              ["Phase 1", "Wachstum durch ‚Kreativität'"],
-              ["Phase 2", "Wachstum durch ‚Direktion'"],
-              ["Phase 3", "Wachstum durch ‚Delegation, Selbstorganisation"],
-              ["Phase 4", "Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'"],
-              ["Phase 5", "Wachstum durch ‚Kollaboration, Akquisition, Innovation'"],
-              ["Phase 6", "Wachstum durch ‚Strategische Allianzen'"]
-            ], "hinweis": "Bei Phase 3 fehlt im Skript das schließende Anführungszeichen; „Selbstorga-nisation“ ist dort durch einen Zeilenumbruch getrennt." },
-            { "typ": "liste", "titel": "Achsen und Stationen des Schaubilds", "punkte": [
-              "Größe der Organisation (senkrecht, links): gross (oben) / klein (unten)",
-              "Alter der Organisation (waagerecht, unten): jung (links) / alt (rechts)",
-              "Start-up (Phase 1) — Sekundäres Wachstum (Phase 3) — Ausgereiftes Wachstum (Phase 5) — ?? (Phase 6)"
-            ] },
-            { "typ": "hinweis", "text": "Die Folie nennt weder Autor noch Quelle des Modells. Im Skript nur genannt, nicht erklärt: „Sekundäres Wachstum“, „Ausgereiftes Wachstum“, „Visionskrise“." }
+            {
+              "typ": "einfach",
+              "text": "Dieses Schaubild sagt, wodurch eine Organisation in jeder Phase wächst. Die Achsen sind Größe und Alter der Organisation. Je älter und größer, desto weiter rechts. Jede Phase hat ein eigenes Wachstumsmuster."
+            },
+            {
+              "typ": "diagramm",
+              "ref": "wachstumsphasen",
+              "unterschrift": "Größe der Organisation über ihr Alter: sechs Wachstumsphasen (Evolution), unterbrochen von Krisen (Revolution)."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Phase",
+                "Wachstum durch ..."
+              ],
+              "zeilen": [
+                [
+                  "Phase 1",
+                  "Wachstum durch ‚Kreativität'"
+                ],
+                [
+                  "Phase 2",
+                  "Wachstum durch ‚Direktion'"
+                ],
+                [
+                  "Phase 3",
+                  "Wachstum durch ‚Delegation, Selbstorganisation"
+                ],
+                [
+                  "Phase 4",
+                  "Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'"
+                ],
+                [
+                  "Phase 5",
+                  "Wachstum durch ‚Kollaboration, Akquisition, Innovation'"
+                ],
+                [
+                  "Phase 6",
+                  "Wachstum durch ‚Strategische Allianzen'"
+                ]
+              ],
+              "hinweis": "Bei Phase 3 fehlt im Skript das schließende Anführungszeichen; „Selbstorga-nisation“ ist dort durch einen Zeilenumbruch getrennt."
+            },
+            {
+              "typ": "liste",
+              "titel": "Achsen und Stationen des Schaubilds",
+              "punkte": [
+                "Größe der Organisation (senkrecht, links): gross (oben) / klein (unten)",
+                "Alter der Organisation (waagerecht, unten): jung (links) / alt (rechts)",
+                "Start-up (Phase 1) — Sekundäres Wachstum (Phase 3) — Ausgereiftes Wachstum (Phase 5) — ?? (Phase 6)"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Folie nennt weder Autor noch Quelle des Modells. Im Skript nur genannt, nicht erklärt: „Sekundäres Wachstum“, „Ausgereiftes Wachstum“, „Visionskrise“."
+            }
           ]
         },
         {
           "id": "m1-t6-k2",
           "titel": "Evolution und Revolution: die vier Krisen",
-          "folien": [35],
+          "folien": [
+            35
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Wachstum verläuft nicht glatt. Zwischen den Phasen liegen Krisen. Das Skript nennt die Wachstumsphase **Evolution** und die Krise **Revolution**. Im Schaubild stehen dafür rote Zickzack-Symbole an den Phasengrenzen." },
-            { "typ": "definition", "begriff": "Evolution", "text": "Laut Legende des Schaubilds: **Wachstumsphase**. Im Diagramm dargestellt durch den schrägen Pfeil nach rechts oben." },
-            { "typ": "definition", "begriff": "Revolution", "text": "Laut Legende des Schaubilds: **Phase der Krise**. Im Diagramm dargestellt durch ein rotes Zickzack-Symbol an der Phasengrenze." },
-            { "typ": "tabelle", "kopf": ["Nach Phase", "Krise"], "zeilen": [
-              ["Phase 1", "Führungskrise"],
-              ["Phase 2", "Autonomiekrise"],
-              ["Phase 3", "Kontrollkrise"],
-              ["Phase 4", "Bürokratiekrise"],
-              ["Phase 5", "Wachstumskrise, Visionskrise"]
-            ] },
-            { "typ": "text", "text": "Im Schaubild liegen fünf rote Zickzack-Symbole auf der Wachstumslinie, jeweils an den Spaltengrenzen und am rechten Ende in Phase 6." },
-            { "typ": "skriptluecke", "id": "m1-t6-phase6", "text": "In Phase 6 steht im Schaubild statt einer Bezeichnung nur „??“ — ein Leerfeld, das der Dozent offen gelassen hat. Trage hier ein, was in der Vorlesung genannt wurde.", "felder": [
-              { "id": "phase6", "label": "Phase 6: ?? (Station über der Linie)" }
-            ] }
+            {
+              "typ": "einfach",
+              "text": "Wachstum verläuft nicht glatt. Zwischen den Phasen liegen Krisen. Das Skript nennt die Wachstumsphase **Evolution** und die Krise **Revolution**. Im Schaubild stehen dafür rote Zickzack-Symbole an den Phasengrenzen."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Evolution",
+              "text": "Laut Legende des Schaubilds: **Wachstumsphase**. Im Diagramm dargestellt durch den schrägen Pfeil nach rechts oben."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Revolution",
+              "text": "Laut Legende des Schaubilds: **Phase der Krise**. Im Diagramm dargestellt durch ein rotes Zickzack-Symbol an der Phasengrenze."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Nach Phase",
+                "Krise"
+              ],
+              "zeilen": [
+                [
+                  "Phase 1",
+                  "Führungskrise"
+                ],
+                [
+                  "Phase 2",
+                  "Autonomiekrise"
+                ],
+                [
+                  "Phase 3",
+                  "Kontrollkrise"
+                ],
+                [
+                  "Phase 4",
+                  "Bürokratiekrise"
+                ],
+                [
+                  "Phase 5",
+                  "Wachstumskrise, Visionskrise"
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Im Schaubild liegen fünf rote Zickzack-Symbole auf der Wachstumslinie, jeweils an den Spaltengrenzen und am rechten Ende in Phase 6."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m1-t6-phase6",
+              "text": "In Phase 6 steht im Schaubild statt einer Bezeichnung nur „??“ — ein Leerfeld, das der Dozent offen gelassen hat. Trage hier ein, was in der Vorlesung genannt wurde.",
+              "felder": [
+                {
+                  "id": "phase6",
+                  "label": "Phase 6: ?? (Station über der Linie)"
+                }
+              ]
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m1-t6-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "wachstumsphasen", "karte": "m1-t6-k1", "folien": [35],
+        {
+          "id": "m1-t6-a01",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "wachstumsphasen",
+          "karte": "m1-t6-k1",
+          "folien": [
+            35
+          ],
           "frage": "Bringe die sechs Wachstumsmuster in die Reihenfolge der Phasen 1 bis 6.",
-          "elemente": ["Wachstum durch ‚Kreativität'", "Wachstum durch ‚Direktion'", "Wachstum durch ‚Delegation, Selbstorganisation", "Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'", "Wachstum durch ‚Kollaboration, Akquisition, Innovation'", "Wachstum durch ‚Strategische Allianzen'"],
+          "elemente": [
+            "Wachstum durch ‚Kreativität'",
+            "Wachstum durch ‚Direktion'",
+            "Wachstum durch ‚Delegation, Selbstorganisation",
+            "Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'",
+            "Wachstum durch ‚Kollaboration, Akquisition, Innovation'",
+            "Wachstum durch ‚Strategische Allianzen'"
+          ],
           "erklaerung": "Die Kopfzeile des Schaubilds nennt für jede der sechs Phasen genau ein Wachstumsmuster, von Kreativität bis Strategische Allianzen.",
           "belege": [
-            { "text": "Wachstum durch ‚Kreativität'", "quelle": "folie-07" },
-            { "text": "Wachstum durch ‚Direktion'", "quelle": "folie-07" }
+            {
+              "text": "Wachstum durch ‚Kreativität'",
+              "quelle": "folie-07"
+            },
+            {
+              "text": "Wachstum durch ‚Direktion'",
+              "quelle": "folie-07"
+            }
           ],
-          "kurz": "Kreativität, Direktion, Delegation/Selbstorganisation, Koalition/Koordination, Kollaboration/Akquisition/Innovation, Strategische Allianzen." },
-        { "id": "m1-t6-a02", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "wachstumskrisen", "karte": "m1-t6-k2", "folien": [35],
+          "kurz": "Kreativität, Direktion, Delegation/Selbstorganisation, Koalition/Koordination, Kollaboration/Akquisition/Innovation, Strategische Allianzen."
+        },
+        {
+          "id": "m1-t6-a02",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "wachstumskrisen",
+          "karte": "m1-t6-k2",
+          "folien": [
+            35
+          ],
           "frage": "Bringe die vier benannten Krisen in die Reihenfolge, in der sie im Schaubild auftreten.",
-          "elemente": ["Führungskrise", "Autonomiekrise", "Kontrollkrise", "Bürokratiekrise"],
+          "elemente": [
+            "Führungskrise",
+            "Autonomiekrise",
+            "Kontrollkrise",
+            "Bürokratiekrise"
+          ],
           "erklaerung": "Die Krisen liegen jeweils am Übergang zur nächsten Phase: Führungskrise nach Phase 1, Autonomiekrise nach Phase 2, Kontrollkrise nach Phase 3, Bürokratiekrise in Phase 4.",
-          "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise", "belegQuelle": "folie-07",
-          "kurz": "Führungs-, Autonomie-, Kontroll-, Bürokratiekrise." },
-        { "id": "m1-t6-a03", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 3, "kern": true, "konzept": "wachstumskrisen", "karte": "m1-t6-k2", "folien": [35],
-          "frage": "Ordne jeder Phase die Krise zu, die im Schaubild an ihrem Ende steht.", "linksTitel": "Phase", "rechtsTitel": "Krise",
+          "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+          "belegQuelle": "folie-07",
+          "kurz": "Führungs-, Autonomie-, Kontroll-, Bürokratiekrise."
+        },
+        {
+          "id": "m1-t6-a03",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "wachstumskrisen",
+          "karte": "m1-t6-k2",
+          "folien": [
+            35
+          ],
+          "frage": "Ordne jeder Phase die Krise zu, die im Schaubild an ihrem Ende steht.",
+          "linksTitel": "Phase",
+          "rechtsTitel": "Krise",
           "paare": [
-            { "links": "Phase 1 (Kreativität)", "rechts": "Führungskrise" },
-            { "links": "Phase 2 (Direktion)", "rechts": "Autonomiekrise" },
-            { "links": "Phase 3 (Delegation, Selbstorganisation)", "rechts": "Kontrollkrise" },
-            { "links": "Phase 4 (Koalition, Koordination)", "rechts": "Bürokratiekrise" },
-            { "links": "Phase 5 (Kollaboration, Akquisition, Innovation)", "rechts": "Wachstumskrise, Visionskrise" }
+            {
+              "links": "Phase 1 (Kreativität)",
+              "rechts": "Führungskrise"
+            },
+            {
+              "links": "Phase 2 (Direktion)",
+              "rechts": "Autonomiekrise"
+            },
+            {
+              "links": "Phase 3 (Delegation, Selbstorganisation)",
+              "rechts": "Kontrollkrise"
+            },
+            {
+              "links": "Phase 4 (Koalition, Koordination)",
+              "rechts": "Bürokratiekrise"
+            },
+            {
+              "links": "Phase 5 (Kollaboration, Akquisition, Innovation)",
+              "rechts": "Wachstumskrise, Visionskrise"
+            }
           ],
           "erklaerung": "Die grauen Kästchen liegen jeweils an der Grenze zur nächsten Phase. In Phase 5 stehen zwei Krisen gemeinsam unter „Ausgereiftes Wachstum“.",
           "belege": [
-            { "text": "Ausgereiftes Wachstum", "quelle": "folie-07" },
-            { "text": "Wachstumskrise, Visionskrise", "quelle": "folie-07" }
+            {
+              "text": "Ausgereiftes Wachstum",
+              "quelle": "folie-07"
+            },
+            {
+              "text": "Wachstumskrise, Visionskrise",
+              "quelle": "folie-07"
+            }
           ],
-          "kurz": "Phase 1 Führungskrise, 2 Autonomiekrise, 3 Kontrollkrise, 4 Bürokratiekrise, 5 Wachstums-/Visionskrise." },
-        { "id": "m1-t6-a04", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "evolution-revolution", "karte": "m1-t6-k2", "folien": [35],
+          "kurz": "Phase 1 Führungskrise, 2 Autonomiekrise, 3 Kontrollkrise, 4 Bürokratiekrise, 5 Wachstums-/Visionskrise."
+        },
+        {
+          "id": "m1-t6-a04",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "evolution-revolution",
+          "karte": "m1-t6-k2",
+          "folien": [
+            35
+          ],
           "frage": "Was bedeuten **Evolution** und **Revolution** in der Legende des Schaubilds?",
           "optionen": [
             "Evolution = Wachstumsphase, Revolution = Phase der Krise",
             "Evolution = langsames Wachstum, Revolution = schnelles Wachstum",
             "Evolution = Phase der Krise, Revolution = Wachstumsphase",
             "Evolution = Gründung, Revolution = Übernahme"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die Legende rechts unten ordnet dem schrägen Pfeil „Evolution: Wachstumsphase“ und dem roten Zickzack „Revolution: Phase der Krise“ zu.",
-          "beleg": "Evolution: Wachstumsphase Revolution: Phase der Krise", "belegQuelle": "folie-07",
-          "kurz": "Evolution = Wachstumsphase, Revolution = Phase der Krise." },
-        { "id": "m1-t6-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "wachstumsphasen", "karte": "m1-t6-k1", "folien": [35], "bank": true,
+          "beleg": "Evolution: Wachstumsphase Revolution: Phase der Krise",
+          "belegQuelle": "folie-07",
+          "kurz": "Evolution = Wachstumsphase, Revolution = Phase der Krise."
+        },
+        {
+          "id": "m1-t6-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "wachstumsphasen",
+          "karte": "m1-t6-k1",
+          "folien": [
+            35
+          ],
+          "bank": true,
           "frage": "Ergänze die Achsenbeschriftungen des Schaubilds.",
           "text": "{_Größe der Organisation_} (senkrecht, links): gross (oben) / klein (unten)\n{_Alter der Organisation_} (waagerecht, unten): jung (links) / alt (rechts)",
-          "zusatzBank": ["Unternehmenswert", "Zeit"],
+          "zusatzBank": [
+            "Unternehmenswert",
+            "Zeit"
+          ],
           "erklaerung": "Achtung bei der Verwechslung mit Folie 34: Dort heißen die Achsen Unternehmenswert und Zeit, hier Größe und Alter der Organisation.",
-          "beleg": "Größe der Organisation (senkrecht, links): gross (oben) / klein (unten)", "belegQuelle": "folie-07",
-          "kurz": "Folie 35: Größe über Alter der Organisation. Folie 34: Unternehmenswert über Zeit." },
-        { "id": "m1-t6-a06", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "wachstumsphasen", "karte": "m1-t6-k1", "folien": [35],
+          "beleg": "Größe der Organisation (senkrecht, links): gross (oben) / klein (unten)",
+          "belegQuelle": "folie-07",
+          "kurz": "Folie 35: Größe über Alter der Organisation. Folie 34: Unternehmenswert über Zeit."
+        },
+        {
+          "id": "m1-t6-a06",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "wachstumsphasen",
+          "karte": "m1-t6-k1",
+          "folien": [
+            35
+          ],
           "frage": "Was steht wirklich im Schaubild der Wachstumsphasen?",
           "aussagen": [
-            { "text": "In Phase 6 steht statt einer Wachstumsbezeichnung über der Linie nur „??“.", "wahr": true },
-            { "text": "Die Folie nennt den Autor des Phasenmodells.", "wahr": false, "korrektur": "Die Folie nennt weder Autor noch Quelle des Modells." },
-            { "text": "„Start-up“ steht in Phase 1, „Sekundäres Wachstum“ in Phase 3, „Ausgereiftes Wachstum“ in Phase 5.", "wahr": true },
-            { "text": "Die Achsen dieses Schaubilds sind Unternehmenswert und Zeit.", "wahr": false, "korrektur": "Das sind die Achsen von Folie 34. Hier heißen sie Größe der Organisation und Alter der Organisation." }
+            {
+              "text": "In Phase 6 steht statt einer Wachstumsbezeichnung über der Linie nur „??“.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie nennt den Autor des Phasenmodells.",
+              "wahr": false,
+              "korrektur": "Die Folie nennt weder Autor noch Quelle des Modells."
+            },
+            {
+              "text": "„Start-up“ steht in Phase 1, „Sekundäres Wachstum“ in Phase 3, „Ausgereiftes Wachstum“ in Phase 5.",
+              "wahr": true
+            },
+            {
+              "text": "Die Achsen dieses Schaubilds sind Unternehmenswert und Zeit.",
+              "wahr": false,
+              "korrektur": "Das sind die Achsen von Folie 34. Hier heißen sie Größe der Organisation und Alter der Organisation."
+            }
           ],
           "erklaerung": "Die beiden Schaubilder auf Folie 34 und 35 sehen ähnlich aus, haben aber andere Achsen. Das ist eine typische Verwechslung.",
-          "beleg": "Alter der Organisation (waagerecht, unten): jung (links) / alt (rechts)", "belegQuelle": "folie-07",
-          "kurz": "Folie 35 hat Größe/Alter als Achsen, kein Autor genannt, Phase 6 mit ??." },
-        { "id": "m1-t6-a07", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 3, "kern": false, "konzept": "wachstumsphasen", "karte": "m1-t6-k1", "folien": [35],
-          "frage": "Beschrifte die Wachstumsphasen im Schaubild.", "diagramm": "wachstumsphasen", "gruppe": "phasen",
+          "beleg": "Alter der Organisation (waagerecht, unten): jung (links) / alt (rechts)",
+          "belegQuelle": "folie-07",
+          "kurz": "Folie 35 hat Größe/Alter als Achsen, kein Autor genannt, Phase 6 mit ??."
+        },
+        {
+          "id": "m1-t6-a07",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "wachstumsphasen",
+          "karte": "m1-t6-k1",
+          "folien": [
+            35
+          ],
+          "frage": "Beschrifte die Wachstumsphasen im Schaubild.",
+          "diagramm": "wachstumsphasen",
+          "gruppe": "phasen",
           "erklaerung": "Sechs Phasen von links nach rechts, jede mit einem eigenen Wachstumsmuster in der Kopfzeile.",
-          "beleg": "Wachstum durch ‚Kollaboration, Akquisition, Innovation'", "belegQuelle": "folie-07",
-          "kurz": "Sechs Phasen: Kreativität, Direktion, Delegation, Koalition, Kollaboration, Strategische Allianzen." },
-        { "id": "m1-t6-a08", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "wachstumskrisen", "karte": "m1-t6-k2", "folien": [35],
-          "frage": "Beschrifte die Krisen im Schaubild.", "diagramm": "wachstumsphasen", "gruppe": "krisen",
+          "beleg": "Wachstum durch ‚Kollaboration, Akquisition, Innovation'",
+          "belegQuelle": "folie-07",
+          "kurz": "Sechs Phasen: Kreativität, Direktion, Delegation, Koalition, Kollaboration, Strategische Allianzen."
+        },
+        {
+          "id": "m1-t6-a08",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "wachstumskrisen",
+          "karte": "m1-t6-k2",
+          "folien": [
+            35
+          ],
+          "frage": "Beschrifte die Krisen im Schaubild.",
+          "diagramm": "wachstumsphasen",
+          "gruppe": "krisen",
           "erklaerung": "Die Krisen liegen als graue Kästchen an den Phasengrenzen, markiert durch rote Zickzack-Symbole.",
-          "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise", "belegQuelle": "folie-07",
-          "kurz": "Führungskrise, Autonomiekrise, Kontrollkrise, Bürokratiekrise, Wachstums-/Visionskrise." },
-        { "id": "m1-t6-a09", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "evolution-revolution", "karte": "m1-t6-k2", "folien": [35],
+          "beleg": "Führungskrise | Autonomiekrise | Kontrollkrise | Bürokratiekrise",
+          "belegQuelle": "folie-07",
+          "kurz": "Führungskrise, Autonomiekrise, Kontrollkrise, Bürokratiekrise, Wachstums-/Visionskrise."
+        },
+        {
+          "id": "m1-t6-a09",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "evolution-revolution",
+          "karte": "m1-t6-k2",
+          "folien": [
+            35
+          ],
           "frage": "Erkläre den Aufbau des Phasenmodells auf Folie 35: Wodurch wächst eine Organisation, und was unterbricht dieses Wachstum?",
           "musterloesung": "Das Schaubild trägt die Größe der Organisation über ihrem Alter auf, von klein und jung links unten bis gross und alt rechts oben. Es teilt die Entwicklung in sechs Phasen mit je einem eigenen Wachstumsmuster: Wachstum durch Kreativität, durch Direktion, durch Delegation und Selbstorganisation, durch Koalition, gesteuerte Dynamik und Koordination, durch Kollaboration, Akquisition und Innovation und schließlich durch Strategische Allianzen. Diese Wachstumsphasen heißen laut Legende Evolution. Zwischen ihnen liegen Krisen, laut Legende Revolution: die Führungskrise nach Phase 1, die Autonomiekrise nach Phase 2, die Kontrollkrise nach Phase 3, die Bürokratiekrise in Phase 4 sowie Wachstumskrise und Visionskrise bei Phase 5. Als Stationen über der Linie stehen Start-up, Sekundäres Wachstum und Ausgereiftes Wachstum; in Phase 6 steht nur ein Fragezeichen.",
           "checkliste": [
@@ -905,19 +2360,35 @@
             "Stationen Start-up, Sekundäres Wachstum, Ausgereiftes Wachstum; Phase 6 offen"
           ],
           "erklaerung": "Das Modell wechselt regelmäßig zwischen Wachstum und Krise. Für die Klausur zählen beide Reihen: Wachstumsmuster und Krisen in der richtigen Reihenfolge.",
-          "beleg": "Evolution: Wachstumsphase Revolution: Phase der Krise", "belegQuelle": "folie-07",
-          "kurz": "Sechs Evolutionsphasen, dazwischen Revolutionen (Krisen); Achsen Größe über Alter." },
-        { "id": "m1-t6-a10", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "wachstumskrisen", "karte": "m1-t6-k2", "folien": [35],
+          "beleg": "Evolution: Wachstumsphase Revolution: Phase der Krise",
+          "belegQuelle": "folie-07",
+          "kurz": "Sechs Evolutionsphasen, dazwischen Revolutionen (Krisen); Achsen Größe über Alter."
+        },
+        {
+          "id": "m1-t6-a10",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "wachstumskrisen",
+          "karte": "m1-t6-k2",
+          "folien": [
+            35
+          ],
           "szenario": "Übungsfall: Ein Fintech ist von 12 auf 90 Mitarbeitende gewachsen. Die Gründerin entscheidet weiterhin alles selbst, die Teamleitungen beklagen, dass sie keinen eigenen Spielraum haben und ständig auf Freigaben warten.",
           "frage": "Welche Krise des Phasenmodells beschreibt das am besten?",
           "optionen": [
             "Autonomiekrise am Ende der Phase „Wachstum durch ‚Direktion'“",
             "Führungskrise am Ende der Phase „Wachstum durch ‚Kreativität'“",
             "Bürokratiekrise am Ende der Phase „Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'“"
-          ], "richtig": 0,
+          ],
+          "richtig": 0,
           "erklaerung": "Die Organisation wächst durch Direktion, also zentrale Anweisung. Die fehlende Selbstständigkeit der Ebene darunter ist im Modell die Autonomiekrise, die auf Phase 2 folgt.",
-          "beleg": "Wachstum durch ‚Direktion'", "belegQuelle": "folie-07",
-          "kurz": "Zentrale Steuerung ohne Spielraum nach unten = Autonomiekrise nach Phase 2 (Direktion)." }
+          "beleg": "Wachstum durch ‚Direktion'",
+          "belegQuelle": "folie-07",
+          "kurz": "Zentrale Steuerung ohne Spielraum nach unten = Autonomiekrise nach Phase 2 (Direktion)."
+        }
       ],
       "lernzettel": {
         "kompakt": [

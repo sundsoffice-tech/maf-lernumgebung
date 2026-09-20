@@ -14,8 +14,9 @@ function fokussiere(el) {
 }
 
 export default {
+  // Kein "schmal": die Breite regelt .themaseite selbst. Schmal bleibt die Textspalte bei 46rem, im Querformat
+  // des iPads trägt der Rahmen die zweispaltige Lage (links der Stoff, rechts der Stand, Vertrag 8.7).
   titel: 'Thema',
-  schmal: true,
 
   render(host, params, app) {
     const thema = app.daten.thema(params.id)
@@ -34,8 +35,10 @@ export default {
     const karten = thema.lernkarten || []
     const schritte = karten.length ? ['karten', 'aufgaben'] : ['aufgaben']
     const nachbarn = app.daten.nachbarn(thema.id)
-    // Wie viele Aufgaben der erste Durchgang bringt. Nur für den Zähler, solange noch keine Sitzung läuft.
-    const geplanteAufgaben = app.modell.themaAufgaben(thema).length
+    // Der Nenner des Zählers: so viele Aufgaben bringt der Durchgang laut Plan. Er wird beim Start einer
+    // Sitzung einmal gesetzt und wächst danach NICHT mehr; Wiederholungen aus der Fehlerschleife stehen
+    // getrennt daneben, damit das Ziel nicht vor der Lernenden davonläuft.
+    let sitzungBasis = app.modell.themaAufgaben(thema).length
 
     let phase = 'karten'
     let karteIndex = 0
@@ -50,17 +53,29 @@ export default {
 
     // ---------- Kopf: wo bin ich, woher kommt der Stoff ----------
 
-    host.appendChild(h('nav.brotkrumen', { 'aria-label': 'Wo du gerade bist' },
-      modul ? h('a', { href: '#/modul/' + modul.id }, modul.titel) : h('a', { href: '#/plan' }, 'Lernplan'),
-      ' › ', thema.titel))
+    const seite = h('div.themaseite')
+    host.appendChild(seite)
 
-    host.appendChild(h('header.seitenkopf',
+    // Die Brotkrume nennt nur den Weg zurück. Das Thema selbst stand hier ein zweites Mal, direkt über der
+    // Überschrift mit demselben Wortlaut.
+    seite.appendChild(h('nav.brotkrumen', { 'aria-label': 'Wo du gerade bist' },
+      modul ? h('a', { href: '#/modul/' + modul.id }, modul.titel) : h('a', { href: '#/plan' }, 'Lernplan')))
+
+    const kopf = h('header.seitenkopf.themakopf',
       h('p.seitenkopf__ueber', (modul && modul.vorlesung) || 'Lernstoff'),
       h('h1', thema.titel),
-      h('p', 'Erst die Lernkarten lesen, dann die Aufgaben dazu. Am Ende siehst du, was sitzt und was noch wackelt.'),
+      h('p.themakopf__einleitung', 'Erst die Lernkarten lesen, dann die Aufgaben dazu. Am Ende siehst du, was sitzt und was noch wackelt.'),
       h('div.zeile.themakopf__marken',
         thema.lernstoff ? h('span.marke-chip.marke-chip--lernstoff', 'Lernstoff laut Skript') : null,
-        h('span.marke-chip.marke-chip--folie', folienText(thema.folien, thema.quelleText)))))
+        h('span.marke-chip.marke-chip--folie', folienText(thema.folien, thema.quelleText))))
+    seite.appendChild(kopf)
+
+    // Sobald es losgeht, schrumpft der Kopf. Erklärsatz und Folienmarke gehören zum ersten Schritt; danach
+    // füllen sie auf dem iPhone den halben Bildschirm, bevor die Aufgabe überhaupt anfängt — bei jedem Schritt.
+    function zeichneKopf() {
+      const ersterSchritt = phase === 'karten' && karteIndex === 0 && !nachschlagen
+      kopf.classList.toggle('ist-kompakt', !ersterSchritt)
+    }
 
     // ---------- Fortschritt: zwei Abschnitte, ein Zähler ----------
 
@@ -69,17 +84,16 @@ export default {
       nummerEls[i], id === 'karten' ? 'Verstehen' : 'Anwenden'))
     const balkenWert = h('div.balken__wert', { style: 'width:0%' })
     const fortschrittText = h('p.leise.fortschritt__text', { 'aria-live': 'polite' })
-    host.appendChild(h('div.fortschritt',
+    seite.appendChild(h('div.fortschritt',
       h('ol.fortschritt__schritte', schrittEls),
-      h('div.balken', balkenWert),
+      h('div.balken.fortschritt__balken', balkenWert),
       fortschrittText))
 
     const buehne = h('div.themabuehne')
-    host.appendChild(buehne)
+    seite.appendChild(buehne)
 
     function zeichneFortschritt() {
-      const aufgabenGesamt = sitzung ? sitzung.erledigt + sitzung.rest : geplanteAufgaben
-      const gesamt = karten.length + aufgabenGesamt
+      const gesamt = karten.length + sitzungBasis
       let getan = 0
       let neben = ''
       if (phase === 'karten') {
@@ -88,7 +102,15 @@ export default {
         if (nachschlagen) neben += ' · du blätterst nach, deine Aufgabe wartet'
       } else if (phase === 'aufgaben' && sitzung) {
         // Die Nummer der Aufgabe steht schon im Aufgabenkopf; hier genügt der Schritt.
-        getan = karten.length + sitzung.erledigt
+        getan = karten.length + Math.min(sitzung.erledigt, sitzungBasis)
+        // Was die Fehlerschleife zusätzlich in die Schlange gelegt hat, steht daneben statt im Nenner.
+        if (sitzung.erledigt < sitzungBasis) {
+          const nachher = Math.max(0, sitzung.erledigt + sitzung.rest - sitzungBasis)
+          if (nachher) neben = nachher === 1 ? '1 Wiederholung danach' : `${nachher} Wiederholungen danach`
+        } else if (sitzung.rest) {
+          // Der geplante Durchgang ist durch; was noch in der Schlange liegt, sind Wiederholungen.
+          neben = sitzung.rest === 1 ? 'noch 1 Wiederholung' : `noch ${sitzung.rest} Wiederholungen`
+        }
       } else {
         getan = gesamt
         neben = 'Thema durchgearbeitet'
@@ -110,6 +132,7 @@ export default {
         if (zustand === 'erledigt') nummerEls[i].appendChild(symbol('haken'))
         else nummerEls[i].textContent = String(i + 1)
       })
+      zeichneKopf()
     }
 
     function nachOben() {
@@ -168,14 +191,20 @@ export default {
     // ---------- Abschnitt 2: Anwenden ----------
 
     function starteSitzung(opts) {
-      sitzung = app.modell.erzeugeSitzung(app.modell.themaAufgaben(thema, opts))
+      const aufgaben = app.modell.themaAufgaben(thema, opts)
+      sitzungBasis = aufgaben.length
+      sitzung = app.modell.erzeugeSitzung(aufgaben)
       bewegt = true
       zeigeAufgaben()
     }
 
     function zeigeAufgaben() {
       phase = 'aufgaben'
-      if (!sitzung) sitzung = app.modell.erzeugeSitzung(app.modell.themaAufgaben(thema))
+      if (!sitzung) {
+        const aufgaben = app.modell.themaAufgaben(thema)
+        sitzungBasis = aufgaben.length
+        sitzung = app.modell.erzeugeSitzung(aufgaben)
+      }
       const item = sitzung.aktuelle
       if (!item) { zeigeAbschluss(); return }
 
@@ -191,9 +220,14 @@ export default {
       buehne.appendChild(h('section.aufgabenlauf', { 'aria-label': 'Anwenden: die Aufgaben des Themas' },
         feld, nachschlagenZeile))
 
+      // Der Nenner bleibt der geplante Durchgang. Alles darüber hinaus ist eine Wiederholung und heißt auch so.
+      const zaehler = sitzung.erledigt < sitzungBasis
+        ? `Aufgabe ${sitzung.erledigt + 1} von ${sitzungBasis}`
+        : `Wiederholung ${sitzung.erledigt - sitzungBasis + 1}`
+
       zeigeAufgabe(feld, item, {
         app,
-        zaehler: `Aufgabe ${sitzung.erledigt + 1} von ${sitzung.erledigt + sitzung.rest}`,
+        zaehler,
         onErgebnis(ergebnis) {
           sitzung.beantworte(ergebnis)
           // Nach der Antwort nicht mehr wegblättern: die Rückmeldung gehört zu dieser Aufgabe.
@@ -202,8 +236,9 @@ export default {
         },
         onWeiter(info) {
           // Konnte der Rahmen die Aufgabe nicht aufbauen, wird sie übersprungen. Sie muss trotzdem aus der
-          // Schlange, sonst käme sie sofort wieder; verbucht wird sie als gesehen und unsicher.
-          if (info && info.uebersprungen) sitzung.beantworte({ punkte: 1, sicher: 'unsicher' })
+          // Schlange, sonst käme sie sofort wieder; verbucht wird sie NICHT (nichtWerten), sonst gälte sie
+          // als gekonnt.
+          if (info && info.uebersprungen) sitzung.beantworte({ nichtWerten: true })
           bewegt = true
           zeigeAufgaben()
         },

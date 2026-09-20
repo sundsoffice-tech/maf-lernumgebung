@@ -37,6 +37,57 @@ export default {
 
   <text data-label="fussnote" x="20" y="556" class="d-text-akzent">*: kein linearer Prozess, unterliegt Sprüngen und Zyklen!</text>
 </g>`,
+  // Hochkant (iPhone): die Zeitachse läuft weiter von oben nach unten, die Beschreibung steht nicht mehr
+  // rechts neben der Station, sondern darunter.
+  viewBoxSchmal: '0 0 360 644',
+  svgSchmal: `<g>
+  <rect class="d-flaeche-2" x="10" y="18" width="340" height="36" rx="8"/>
+  <rect class="d-flaeche-2" x="10" y="138" width="340" height="36" rx="8"/>
+  <rect class="d-flaeche-2" x="10" y="258" width="340" height="36" rx="8"/>
+  <rect class="d-flaeche-2" x="10" y="378" width="340" height="36" rx="8"/>
+  <rect class="d-flaeche-2" x="10" y="498" width="340" height="36" rx="8"/>
+
+  <path class="d-linie" d="M 180 104 L 180 118"/>
+  <path class="d-pfeilspitze" d="M 180 130 l -8 -14 l 16 0 Z"/>
+  <path class="d-linie" d="M 180 224 L 180 238"/>
+  <path class="d-pfeilspitze" d="M 180 250 l -8 -14 l 16 0 Z"/>
+  <path class="d-linie" d="M 180 344 L 180 358"/>
+  <path class="d-pfeilspitze" d="M 180 370 l -8 -14 l 16 0 Z"/>
+  <path class="d-linie" d="M 180 464 L 180 478"/>
+  <path class="d-pfeilspitze" d="M 180 490 l -8 -14 l 16 0 Z"/>
+
+  <text data-label="phase-forming" x="180" y="42" text-anchor="middle" class="d-text-fett">F O R M I N G</text>
+  <text data-label="phase-storming" x="180" y="162" text-anchor="middle" class="d-text-fett">S T O R M I N G</text>
+  <text data-label="phase-norming" x="180" y="282" text-anchor="middle" class="d-text-fett">N O R M I N G</text>
+  <text data-label="phase-performing" x="180" y="402" text-anchor="middle" class="d-text-fett">P E R F O R M I N G</text>
+  <text data-label="phase-reforming" x="180" y="522" text-anchor="middle" class="d-text-fett">R E - F O R M I N G</text>
+
+  <text data-label="besch-forming" x="180" y="74" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Kennenlernen, Prüfen u.a. des Verhaltens,</tspan>
+    <tspan x="180" dy="17">Beziehungsklärung</tspan>
+  </text>
+  <text data-label="besch-storming" x="180" y="194" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Reibungen, Rollenzuweisungen, Einüben des</tspan>
+    <tspan x="180" dy="17">Funktionierens</tspan>
+  </text>
+  <text data-label="besch-norming" x="180" y="314" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Normen/Spielregeln geklärt und akzeptiert,</tspan>
+    <tspan x="180" dy="17">WIR wird Routine</tspan>
+  </text>
+  <text data-label="besch-performing" x="180" y="434" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Arbeit wird geleistet, Potential entfaltet,</tspan>
+    <tspan x="180" dy="17">Optimum angestrebt</tspan>
+  </text>
+  <text data-label="besch-reforming" x="180" y="554" text-anchor="middle" class="d-text-klein">
+    <tspan x="180" dy="0">Neubewertung/Bilanzierung, Repositionierung,</tspan>
+    <tspan x="180" dy="17">Abschluss/Auflösung</tspan>
+  </text>
+
+  <text data-label="fussnote" x="10" y="606" class="d-text-akzent">
+    <tspan x="10" dy="0">*: kein linearer Prozess, unterliegt</tspan>
+    <tspan x="10" dy="22">Sprüngen und Zyklen!</tspan>
+  </text>
+</g>`,
   labels: [
     { id: 'phase-forming', text: 'F O R M I N G', abfragbar: true, gruppe: 'phasen' },
     { id: 'phase-storming', text: 'S T O R M I N G', abfragbar: true, gruppe: 'phasen' },

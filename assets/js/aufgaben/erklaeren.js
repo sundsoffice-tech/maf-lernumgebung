@@ -8,7 +8,13 @@ export default {
 
   render(host, item, api) {
     const feldId = 'antwort-' + item.id
-    const eingabe = h('textarea', { id: feldId, rows: 5, placeholder: 'Formuliere deine Antwort in ganzen Sätzen, so wie in der Klausur. Stichpunkte reichen zur Not auch.' })
+    // Satzanfänge groß ist hier gewollt, die Autokorrektur nicht: iOS ersetzt sonst die Fachwörter,
+    // während die Antwort entsteht. spellcheck="false" allein schaltet die Autokorrektur nicht ab.
+    const eingabe = h('textarea', {
+      id: feldId, rows: 5,
+      autocapitalize: 'sentences', autocorrect: 'off', spellcheck: 'false', enterkeyhint: 'enter',
+      placeholder: 'Formuliere deine Antwort in ganzen Sätzen, so wie in der Klausur. Stichpunkte reichen zur Not auch.',
+    })
     const aufdecken = h('button.knopf.knopf--primaer', { type: 'button' }, 'Musterlösung aufdecken')
     const stufe1 = h('div.stapel',
       h('label.feld', { for: feldId }, h('span.feld__label', 'Deine Erklärung'), eingabe),

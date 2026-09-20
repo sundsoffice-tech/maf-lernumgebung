@@ -195,6 +195,14 @@ test('karte: drei Selbsteinschätzungen melden Punkte und Sicherheit', () => {
   }
 })
 
+test('erklaeren: das Antwortfeld lässt die iOS-Autokorrektur nicht an die Fachwörter', () => {
+  const { host } = baue('erklaeren')
+  const feld = host.querySelector('textarea')
+  assert.equal(feld.getAttribute('autocorrect'), 'off')
+  assert.equal(feld.getAttribute('spellcheck'), 'false')
+  assert.equal(feld.getAttribute('autocapitalize'), 'sentences', 'Satzanfänge groß ist hier gewollt')
+})
+
 // ---------- Zusammenspiel mit dem Rahmen ----------
 
 test('Rahmen: Abgabeknöpfe bleiben gesperrt, bis der Renderer bereit meldet, und liefern das Ergebnis', () => {
@@ -219,6 +227,22 @@ test('Rahmen: Abgabeknöpfe bleiben gesperrt, bis der Renderer bereit meldet, un
   assert.ok(rueck.querySelector('.rueckmeldung__erklaerung'))
   assert.ok(rueck.querySelector('.rueckmeldung__beleg blockquote'), 'Beleg aus dem Skript erwartet')
   assert.ok(rueck.textContent.includes('So steht es im Skript'))
+})
+
+test('Rahmen: eine übersprungene Aufgabe meldet kein Ergebnis und wird nicht verbucht', () => {
+  const item = { id: 't-unbekannt', typ: 'quatsch', stufe: 'erinnern', frage: 'Was nun?' }
+  const host = document.createElement('div')
+  document.body.appendChild(host)
+  const app = { daten: { themaVonAufgabe: () => null, karte: () => null } }
+  let ergebnis = null
+  let weiter = 'nie gerufen'
+  zeigeAufgabe(host, item, { app, onErgebnis: (e) => { ergebnis = e }, onWeiter: (info) => { weiter = info } })
+
+  klick(knopfMit(host, 'Überspringen'))
+  // Der Rahmen darf hier NICHTS melden: ein Ergebnis würde die Aufgabe als gemeistert verbuchen
+  assert.equal(ergebnis, null, 'kein Ergebnis für eine Aufgabe, die niemand lösen konnte')
+  assert.deepEqual(weiter, { uebersprungen: true, nichtWerten: true })
+  assert.equal(host.querySelector('.rueckmeldung__titel'), null, 'keine Rückmeldung zu einer nicht gewerteten Aufgabe')
 })
 
 kleinerTestlauf(tests)

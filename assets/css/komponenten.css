@@ -132,7 +132,8 @@ a.marke-chip { text-decoration: none; }
 .reiter button[aria-selected="true"] { color: var(--primaer); border-bottom-color: var(--primaer); }
 
 /* Schublade (Erklärung nachschlagen, ohne die Aufgabe zu verlassen) */
-.schublade-hintergrund { position: fixed; inset: 0; z-index: 60; background: rgba(10, 14, 20, 0.5); opacity: 0; transition: opacity 0.2s; }
+/* touch-action: none, damit der Hintergrund in iOS Safari nicht unter der Schublade weiterscrollt */
+.schublade-hintergrund { position: fixed; inset: 0; z-index: 60; background: rgba(10, 14, 20, 0.5); opacity: 0; transition: opacity 0.2s; touch-action: none; }
 .schublade-hintergrund.ist-offen { opacity: 1; }
 .schublade {
   position: fixed; z-index: 61; top: 0; right: 0; bottom: 0; width: min(34rem, 100%);
@@ -143,18 +144,24 @@ a.marke-chip { text-decoration: none; }
 .schublade.ist-offen { transform: none; }
 .schublade__kopf { display: flex; align-items: center; justify-content: space-between; gap: var(--a-3); padding: var(--a-3) var(--a-4); border-bottom: 1px solid var(--linie); }
 .schublade__kopf h2 { font-size: var(--gr-xl); margin: 0; }
-.schublade__inhalt { padding: var(--a-4); overflow-y: auto; flex: 1; }
+/* overscroll-behavior: contain verhindert, dass das Scrollen am Ende der Schublade an die Seite durchkettet */
+.schublade__inhalt { padding: var(--a-4); overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; flex: 1; }
 @media (max-width: 40rem) {
   .schublade { top: auto; left: 0; width: 100%; max-height: 88vh; max-height: 88dvh; padding-bottom: env(safe-area-inset-bottom, 0px); border-left: 0; border-top: 1px solid var(--linie);
     border-radius: var(--radius-l) var(--radius-l) 0 0; transform: translateY(100%); }
 }
 
-/* Kurzmeldung */
+/* Kurzmeldung. Ohne Fußnavigation (breite Lage) reicht der Abstand zum Home-Balken. */
 .kurzmeldung {
-  position: fixed; left: 50%; bottom: calc(var(--fuss-hoehe) + var(--a-4)); transform: translate(-50%, 1rem);
+  position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom, 0px) + var(--a-5)); transform: translate(-50%, 1rem);
   z-index: 80; background: var(--tinte); color: var(--papier); padding: var(--a-2) var(--a-4);
   border-radius: var(--radius-voll); font-size: var(--gr-s); font-weight: 600; opacity: 0; pointer-events: none;
   transition: opacity 0.2s, transform 0.2s; max-width: calc(100% - 2rem); text-align: center;
+}
+/* Mit Fußnavigation: über ihr. Deren Höhe enthält den Home-Balken NICHT, der kommt hier dazu —
+   sonst liegt die Meldung auf jedem iPhone mit Home-Balken auf der Navigation statt darüber. */
+@media (max-width: 62rem) {
+  .kurzmeldung { bottom: calc(var(--fuss-hoehe) + env(safe-area-inset-bottom, 0px) + var(--a-4)); }
 }
 .kurzmeldung.ist-sichtbar { opacity: 1; transform: translate(-50%, 0); }
 

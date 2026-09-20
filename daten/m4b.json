@@ -6,147 +6,458 @@
     {
       "id": "m4-t11",
       "titel": "Kommunikationsstörungen umgehen: die vier Ansatzpunkte",
-      "folien": [66],
+      "folien": [
+        66
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m4-t11-k1",
           "titel": "Vier Ansatzpunkte gegen Kommunikationsstörungen",
-          "folien": [66],
+          "folien": [
+            66
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Diese Folie trägt denselben Titel wie Folie 65: **Kommunikation erfordert mehrere Teilnehmer**. Der Pfeil darunter sagt, worum es hier geht: Kommunikationsstörungen *umgehen*. Es geht also nicht mehr darum, was Kommunikation stört, sondern um die Gegenmittel. Das Skript ordnet sie vier Ansatzpunkten zu. Lerne zuerst diese vier Überschriften, dann hängst du die Einzelmaßnahmen daran auf." },
-            { "typ": "text", "text": "**Kommunikation erfordert mehrere Teilnehmer**\n==-> Kommunikationsstörungen umgehen==\n\n**Kommunikationsstörungen beheben durch:**" },
-            { "typ": "liste", "titel": "Die vier Ansatzpunkte der Folie", "geordnet": true, "punkte": ["Reduktion Kommunikationsmangel/Informationsmangel", "Vermeidung [[Senderfehler]]", "Umgehung [[Empfängerfehler]]", "Vermeidung ‚[[Double bind]]‘"] },
-            { "typ": "hinweis", "text": "Die Folie nennt [[Eisenhower-Matrix]], [[Johari-Fenster]], [[Double bind]] und [[Killerphrasen]], erklärt sie aber auf dieser Folie nicht. Auch die Abkürzung FK wird verwendet und nicht erklärt. Diese Lernumgebung erklärt sie deshalb ebenfalls nicht: Sie bleibt beim Wortlaut des Skripts." }
+            {
+              "typ": "einfach",
+              "text": "Diese Folie trägt denselben Titel wie Folie 65: **Kommunikation erfordert mehrere Teilnehmer**. Der Pfeil darunter sagt, worum es hier geht: Kommunikationsstörungen *umgehen*. Es geht also nicht mehr darum, was Kommunikation stört, sondern um die Gegenmittel. Das Skript ordnet sie vier Ansatzpunkten zu. Lerne zuerst diese vier Überschriften, dann hängst du die Einzelmaßnahmen daran auf."
+            },
+            {
+              "typ": "text",
+              "text": "**Kommunikation erfordert mehrere Teilnehmer**\n==-> Kommunikationsstörungen umgehen==\n\n**Kommunikationsstörungen beheben durch:**"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die vier Ansatzpunkte der Folie",
+              "geordnet": true,
+              "punkte": [
+                "Reduktion Kommunikationsmangel/Informationsmangel",
+                "Vermeidung [[Senderfehler]]",
+                "Umgehung [[Empfängerfehler]]",
+                "Vermeidung ‚[[Double bind]]‘"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Folie nennt [[Eisenhower-Matrix]], [[Johari-Fenster]], [[Double bind]] und [[Killerphrasen]], erklärt sie aber auf dieser Folie nicht. Auch die Abkürzung FK wird verwendet und nicht erklärt. Diese Lernumgebung erklärt sie deshalb ebenfalls nicht: Sie bleibt beim Wortlaut des Skripts."
+            }
           ]
         },
         {
           "id": "m4-t11-k2",
           "titel": "Ansatzpunkt 1: Kommunikations- und Informationsmangel reduzieren",
-          "folien": [66],
+          "folien": [
+            66
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Der erste Ansatzpunkt setzt an der Menge und der Ordnung der Kommunikation an. Wenn es zu wenig feste Gelegenheiten zum Reden gibt, entsteht ein Mangel an Information. Die Folie nennt dagegen drei Maßnahmen: feste Formate, Tabus ansprechen, Zeitmanagement." },
-            { "typ": "liste", "titel": "Reduktion Kommunikationsmangel/Informationsmangel", "punkte": ["Standardisierung von Kommunikations-/Gesprächsformaten und feste Terminierung", "Tabus erkennen und politisch geschickt ansprechen", "Zeitmanagement gemäß [[Eisenhower-Matrix]] (s. Vorlesung III) konsequent anwenden"] },
-            { "typ": "hinweis", "text": "Beim Zeitmanagement verweist die Folie auf Vorlesung III. Die [[Eisenhower-Matrix]] selbst wird hier nicht erklärt." }
+            {
+              "typ": "einfach",
+              "text": "Der erste Ansatzpunkt setzt an der Menge und der Ordnung der Kommunikation an. Wenn es zu wenig feste Gelegenheiten zum Reden gibt, entsteht ein Mangel an Information. Die Folie nennt dagegen drei Maßnahmen: feste Formate, Tabus ansprechen, Zeitmanagement."
+            },
+            {
+              "typ": "liste",
+              "titel": "Reduktion Kommunikationsmangel/Informationsmangel",
+              "punkte": [
+                "Standardisierung von Kommunikations-/Gesprächsformaten und feste Terminierung",
+                "Tabus erkennen und politisch geschickt ansprechen",
+                "Zeitmanagement gemäß [[Eisenhower-Matrix]] (s. Vorlesung III) konsequent anwenden"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Beim Zeitmanagement verweist die Folie auf Vorlesung III. Die [[Eisenhower-Matrix]] selbst wird hier nicht erklärt."
+            }
           ]
         },
         {
           "id": "m4-t11-k3",
           "titel": "Ansatzpunkt 2: Senderfehler vermeiden",
-          "folien": [66],
+          "folien": [
+            66
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Der zweite Ansatzpunkt betrifft dich, wenn du sendest, also sprichst oder schreibst. Die Folie sammelt hier, wie du formulierst, an wen du dich richtest und welchen Ton du triffst. Vier Punkte stehen dort, der dritte ist der längste und der prüfungsträchtigste." },
-            { "typ": "liste", "titel": "Vermeidung Senderfehler", "punkte": ["eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal", "Kommunikation an Zielgruppe(n) anpassen", "ICH statt MAN, klare Meinungen, keine [[Killerphrasen]], Sach- statt Beziehungsebene, dennoch auch Empfindungen äußern, say what you mean, kein finger pointing, keine Urteile und Verhöre", "Feedback geben (s. Vorlesungen II & III) und [[Johari-Fenster]] beachten (s. Vorlesung III)"] },
-            { "typ": "einfach", "text": "Achte auf die Einschränkung in Klammern: *Ausnahmen situativ möglich*. Die Folie verlangt also nicht unter allen Umständen klare Formulierung. Und sie verlangt beides zugleich: Sachebene statt Beziehungsebene, trotzdem Empfindungen äußern." }
+            {
+              "typ": "einfach",
+              "text": "Der zweite Ansatzpunkt betrifft dich, wenn du sendest, also sprichst oder schreibst. Die Folie sammelt hier, wie du formulierst, an wen du dich richtest und welchen Ton du triffst. Vier Punkte stehen dort, der dritte ist der längste und der prüfungsträchtigste."
+            },
+            {
+              "typ": "liste",
+              "titel": "Vermeidung Senderfehler",
+              "punkte": [
+                "eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal",
+                "Kommunikation an Zielgruppe(n) anpassen",
+                "ICH statt MAN, klare Meinungen, keine [[Killerphrasen]], Sach- statt Beziehungsebene, dennoch auch Empfindungen äußern, say what you mean, kein finger pointing, keine Urteile und Verhöre",
+                "Feedback geben (s. Vorlesungen II & III) und [[Johari-Fenster]] beachten (s. Vorlesung III)"
+              ]
+            },
+            {
+              "typ": "einfach",
+              "text": "Achte auf die Einschränkung in Klammern: *Ausnahmen situativ möglich*. Die Folie verlangt also nicht unter allen Umständen klare Formulierung. Und sie verlangt beides zugleich: Sachebene statt Beziehungsebene, trotzdem Empfindungen äußern."
+            }
           ]
         },
         {
           "id": "m4-t11-k4",
           "titel": "Ansatzpunkt 3 und 4: Empfängerfehler und Double bind",
-          "folien": [66],
+          "folien": [
+            66
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Der dritte Ansatzpunkt betrifft dich, wenn du zuhörst. Die Folie nennt fünf Verhaltensweisen in einer Zeile. Der vierte Ansatzpunkt hat nur eine einzige Maßnahme, und die musst du wörtlich können." },
-            { "typ": "liste", "titel": "Umgehung Empfängerfehler", "punkte": ["Aufmerksamkeit", "keine Ablenkung", "Blick-Kontakt", "Nachfragen", "keine Wertungen vornehmen"] },
-            { "typ": "liste", "titel": "Vermeidung ‚Double bind‘", "punkte": ["synchrone verbale und non-verbale Kommunikation"] },
-            { "typ": "hinweis", "text": "Was ein [[Double bind]] ist, sagt diese Folie nicht. Sie nennt nur die Gegenmaßnahme: verbale und non-verbale Kommunikation sollen synchron laufen, also zusammenpassen." }
+            {
+              "typ": "einfach",
+              "text": "Der dritte Ansatzpunkt betrifft dich, wenn du zuhörst. Die Folie nennt fünf Verhaltensweisen in einer Zeile. Der vierte Ansatzpunkt hat nur eine einzige Maßnahme, und die musst du wörtlich können."
+            },
+            {
+              "typ": "liste",
+              "titel": "Umgehung Empfängerfehler",
+              "punkte": [
+                "Aufmerksamkeit",
+                "keine Ablenkung",
+                "Blick-Kontakt",
+                "Nachfragen",
+                "keine Wertungen vornehmen"
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Vermeidung ‚Double bind‘",
+              "punkte": [
+                "synchrone verbale und non-verbale Kommunikation"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Was ein [[Double bind]] ist, sagt diese Folie nicht. Sie nennt nur die Gegenmaßnahme: verbale und non-verbale Kommunikation sollen synchron laufen, also zusammenpassen."
+            }
           ]
         },
         {
           "id": "m4-t11-k5",
           "titel": "Empfehlungen für Führungskräfte und das Zitat der Folie",
-          "folien": [66],
+          "folien": [
+            66
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Unten auf der Folie steht der hervorgehobene Kern: fünf Empfehlungen für Führungskräfte. Sie sind auf der Folie groß geschrieben und damit ein guter Kandidat für die Klausur. Oben rechts steht dazu ein englisches Zitat in einem blauen Kasten. Die Fußzeile nennt {{Michael Beckmann}} als Urheber der Folie." },
-            { "typ": "merksatz", "folie": 66, "text": "**Empfehlungen für FK:**\nnicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen, KEINE (LANGEN) MONOLOGE (Fasse Dich kurz!)" },
-            { "typ": "zitat", "text": "Effective leadership is not about making speeches or being liked; leadership is defined by results, not attributes.", "kontext": "Zitatkasten rechts oben auf Folie 66, blau hinterlegt, weiße Schrift. Der zweite Teil ab „leadership is defined by results, not attributes.“ ist unterstrichen. Der Kasten nennt keinen Urheber." },
-            { "typ": "person", "name": "Michael Beckmann", "beitrag": "Urheber der Folien dieses Teils. Die Fußzeile nennt ihn: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann.", "folie": 66 },
-            { "typ": "hinweis", "text": "Das englische Zitat steht ohne Quellen- oder Urheberangabe. Wer es gesagt hat, sagt das Skript nicht. Auf der Folie fehlt außerdem das schließende Anführungszeichen." }
+            {
+              "typ": "einfach",
+              "text": "Unten auf der Folie steht der hervorgehobene Kern: fünf Empfehlungen für Führungskräfte. Sie sind auf der Folie groß geschrieben und damit ein guter Kandidat für die Klausur. Oben rechts steht dazu ein englisches Zitat in einem blauen Kasten. Die Fußzeile nennt {{Michael Beckmann}} als Urheber der Folie."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 66,
+              "text": "**Empfehlungen für FK:**\nnicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen, KEINE (LANGEN) MONOLOGE (Fasse Dich kurz!)"
+            },
+            {
+              "typ": "zitat",
+              "text": "Effective leadership is not about making speeches or being liked; leadership is defined by results, not attributes.",
+              "kontext": "Zitatkasten rechts oben auf Folie 66, blau hinterlegt, weiße Schrift. Der zweite Teil ab „leadership is defined by results, not attributes.“ ist unterstrichen. Der Kasten nennt keinen Urheber."
+            },
+            {
+              "typ": "person",
+              "name": "Michael Beckmann",
+              "beitrag": "Urheber der Folien dieses Teils. Die Fußzeile nennt ihn: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann.",
+              "folie": 66
+            },
+            {
+              "typ": "hinweis",
+              "text": "Das englische Zitat steht ohne Quellen- oder Urheberangabe. Wer es gesagt hat, sagt das Skript nicht. Auf der Folie fehlt außerdem das schließende Anführungszeichen."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t11-a01", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "stoerungen-ansatzpunkte", "karte": "m4-t11-k1", "folien": [66],
+        {
+          "id": "m4-t11-a01",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "stoerungen-ansatzpunkte",
+          "karte": "m4-t11-k1",
+          "folien": [
+            66
+          ],
           "frage": "Zu welchem der vier Ansatzpunkte gehört die Maßnahme **Standardisierung von Kommunikations-/Gesprächsformaten und feste Terminierung**?",
-          "optionen": ["Reduktion Kommunikationsmangel/Informationsmangel", "Vermeidung Senderfehler", "Umgehung Empfängerfehler", "Vermeidung ‚Double bind‘"], "richtig": 0,
+          "optionen": [
+            "Reduktion Kommunikationsmangel/Informationsmangel",
+            "Vermeidung Senderfehler",
+            "Umgehung Empfängerfehler",
+            "Vermeidung ‚Double bind‘"
+          ],
+          "richtig": 0,
           "erklaerung": "Feste Formate und feste Termine schaffen überhaupt erst Gelegenheiten zur Kommunikation. Die Folie ordnet sie deshalb der Reduktion von Kommunikations- und Informationsmangel zu.",
-          "beleg": "Standardisierung von Kommunikations-/Gesprächsformaten und feste Terminierung", "belegQuelle": "folie-38",
-          "kurz": "Standardisierte Formate und feste Termine gehören zur Reduktion von Kommunikations-/Informationsmangel." },
-        { "id": "m4-t11-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "senderfehler", "karte": "m4-t11-k3", "folien": [66],
+          "beleg": "Standardisierung von Kommunikations-/Gesprächsformaten und feste Terminierung",
+          "belegQuelle": "folie-38",
+          "kurz": "Standardisierte Formate und feste Termine gehören zur Reduktion von Kommunikations-/Informationsmangel."
+        },
+        {
+          "id": "m4-t11-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "senderfehler",
+          "karte": "m4-t11-k3",
+          "folien": [
+            66
+          ],
           "frage": "Welche Punkte nennt die Folie unter **Vermeidung Senderfehler**?",
-          "optionen": ["eindeutig und klar formulieren, zur rechten Zeit am rechten Ort/Kanal", "Kommunikation an Zielgruppe(n) anpassen", "Aufmerksamkeit, keine Ablenkung, Blick-Kontakt", "ICH statt MAN, klare Meinungen, keine Killerphrasen", "Feedback geben und Johari-Fenster beachten", "synchrone verbale und non-verbale Kommunikation"], "richtig": [0, 1, 3, 4],
+          "optionen": [
+            "eindeutig und klar formulieren, zur rechten Zeit am rechten Ort/Kanal",
+            "Kommunikation an Zielgruppe(n) anpassen",
+            "Aufmerksamkeit, keine Ablenkung, Blick-Kontakt",
+            "ICH statt MAN, klare Meinungen, keine Killerphrasen",
+            "Feedback geben und Johari-Fenster beachten",
+            "synchrone verbale und non-verbale Kommunikation"
+          ],
+          "richtig": [
+            0,
+            1,
+            3,
+            4
+          ],
           "erklaerung": "Aufmerksamkeit, keine Ablenkung und Blick-Kontakt stehen unter Umgehung Empfängerfehler. Synchrone verbale und non-verbale Kommunikation steht unter Vermeidung ‚Double bind‘.",
-          "beleg": "eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal", "belegQuelle": "folie-38",
-          "kurz": "Senderfehler vermeiden: klar formulieren, an die Zielgruppe anpassen, ICH statt MAN, Feedback und Johari-Fenster." },
-        { "id": "m4-t11-a03", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "stoerungen-ansatzpunkte", "karte": "m4-t11-k1", "folien": [66],
+          "beleg": "eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal",
+          "belegQuelle": "folie-38",
+          "kurz": "Senderfehler vermeiden: klar formulieren, an die Zielgruppe anpassen, ICH statt MAN, Feedback und Johari-Fenster."
+        },
+        {
+          "id": "m4-t11-a03",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "stoerungen-ansatzpunkte",
+          "karte": "m4-t11-k1",
+          "folien": [
+            66
+          ],
           "frage": "Sortiere die Maßnahmen dem Ansatzpunkt zu, unter dem die Folie sie nennt.",
-          "kategorien": ["Reduktion Kommunikationsmangel", "Vermeidung Senderfehler", "Umgehung Empfängerfehler", "Vermeidung ‚Double bind‘"],
+          "kategorien": [
+            "Reduktion Kommunikationsmangel",
+            "Vermeidung Senderfehler",
+            "Umgehung Empfängerfehler",
+            "Vermeidung ‚Double bind‘"
+          ],
           "elemente": [
-            { "text": "Tabus erkennen und politisch geschickt ansprechen", "kategorie": 0 },
-            { "text": "Zeitmanagement gemäß Eisenhower-Matrix konsequent anwenden", "kategorie": 0 },
-            { "text": "keine Killerphrasen, Sach- statt Beziehungsebene", "kategorie": 1 },
-            { "text": "Kommunikation an Zielgruppe(n) anpassen", "kategorie": 1 },
-            { "text": "Nachfragen, keine Wertungen vornehmen", "kategorie": 2 },
-            { "text": "Blick-Kontakt und keine Ablenkung", "kategorie": 2 },
-            { "text": "synchrone verbale und non-verbale Kommunikation", "kategorie": 3 }
+            {
+              "text": "Tabus erkennen und politisch geschickt ansprechen",
+              "kategorie": 0
+            },
+            {
+              "text": "Zeitmanagement gemäß Eisenhower-Matrix konsequent anwenden",
+              "kategorie": 0
+            },
+            {
+              "text": "keine Killerphrasen, Sach- statt Beziehungsebene",
+              "kategorie": 1
+            },
+            {
+              "text": "Kommunikation an Zielgruppe(n) anpassen",
+              "kategorie": 1
+            },
+            {
+              "text": "Nachfragen, keine Wertungen vornehmen",
+              "kategorie": 2
+            },
+            {
+              "text": "Blick-Kontakt und keine Ablenkung",
+              "kategorie": 2
+            },
+            {
+              "text": "synchrone verbale und non-verbale Kommunikation",
+              "kategorie": 3
+            }
           ],
           "erklaerung": "Der erste Ansatzpunkt betrifft die Gelegenheiten und die Zeit, der zweite die eigene Art zu senden, der dritte das Zuhören, der vierte den Widerspruch zwischen Wort und Körper.",
-          "beleg": "Tabus erkennen und politisch geschickt ansprechen", "belegQuelle": "folie-38",
-          "kurz": "Formate und Zeit = Mangel. Formulieren und Ton = Sender. Zuhören = Empfänger." },
-        { "id": "m4-t11-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "stoerungen-ansatzpunkte", "karte": "m4-t11-k4", "folien": [66],
+          "beleg": "Tabus erkennen und politisch geschickt ansprechen",
+          "belegQuelle": "folie-38",
+          "kurz": "Formate und Zeit = Mangel. Formulieren und Ton = Sender. Zuhören = Empfänger."
+        },
+        {
+          "id": "m4-t11-a04",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "stoerungen-ansatzpunkte",
+          "karte": "m4-t11-k4",
+          "folien": [
+            66
+          ],
           "frage": "Was stimmt zu den Gegenmaßnahmen auf Folie 66?",
           "aussagen": [
-            { "text": "Gegen den ‚Double bind‘ nennt die Folie genau eine Maßnahme: synchrone verbale und non-verbale Kommunikation.", "wahr": true },
-            { "text": "Blick-Kontakt und Nachfragen nennt die Folie unter Vermeidung Senderfehler.", "wahr": false, "korrektur": "Blick-Kontakt und Nachfragen stehen unter Umgehung Empfängerfehler." },
-            { "text": "Die Folie verlangt, immer eindeutig und klar zu formulieren, ohne jede Ausnahme.", "wahr": false, "korrektur": "Die Folie schreibt: eindeutig und klar formulieren (Ausnahmen situativ möglich)." },
-            { "text": "Beim Feedback geben verweist die Folie auf die Vorlesungen II & III.", "wahr": true }
+            {
+              "text": "Gegen den ‚Double bind‘ nennt die Folie genau eine Maßnahme: synchrone verbale und non-verbale Kommunikation.",
+              "wahr": true
+            },
+            {
+              "text": "Blick-Kontakt und Nachfragen nennt die Folie unter Vermeidung Senderfehler.",
+              "wahr": false,
+              "korrektur": "Blick-Kontakt und Nachfragen stehen unter Umgehung Empfängerfehler."
+            },
+            {
+              "text": "Die Folie verlangt, immer eindeutig und klar zu formulieren, ohne jede Ausnahme.",
+              "wahr": false,
+              "korrektur": "Die Folie schreibt: eindeutig und klar formulieren (Ausnahmen situativ möglich)."
+            },
+            {
+              "text": "Beim Feedback geben verweist die Folie auf die Vorlesungen II & III.",
+              "wahr": true
+            }
           ],
           "erklaerung": "Die Einschränkung in Klammern und die Zuordnung der Maßnahmen zu den vier Überschriften sind die häufigsten Stolperstellen dieser Folie.",
-          "beleg": "eindeutig und klar formulieren (Ausnahmen situativ möglich)", "belegQuelle": "folie-38",
-          "kurz": "Klar formulieren gilt mit Ausnahme; Blick-Kontakt und Nachfragen gehören zum Empfänger." },
-        { "id": "m4-t11-a05", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fk-empfehlungen", "karte": "m4-t11-k5", "folien": [66], "bank": true,
+          "beleg": "eindeutig und klar formulieren (Ausnahmen situativ möglich)",
+          "belegQuelle": "folie-38",
+          "kurz": "Klar formulieren gilt mit Ausnahme; Blick-Kontakt und Nachfragen gehören zum Empfänger."
+        },
+        {
+          "id": "m4-t11-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fk-empfehlungen",
+          "karte": "m4-t11-k5",
+          "folien": [
+            66
+          ],
+          "bank": true,
           "frage": "Vervollständige die **Empfehlungen für FK** von Folie 66.",
           "text": "Empfehlungen für FK: nicht mit der eigenen {_Meinung_} vorpreschen, {_FRAGEN_} stellen, {_AUSREDEN_} lassen, {_ZUHÖREN_} lernen, KEINE (LANGEN) {_MONOLOGE_} (Fasse Dich kurz!)",
-          "zusatzBank": ["Wertungen", "Verhöre", "Tabus"],
+          "zusatzBank": [
+            "Wertungen",
+            "Verhöre",
+            "Tabus"
+          ],
           "erklaerung": "Die fünf Empfehlungen stehen auf der Folie hervorgehoben und in Großbuchstaben. Sie beschreiben eine zurückhaltende, fragende Führungskraft.",
-          "beleg": "nicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen", "belegQuelle": "folie-38",
-          "kurz": "FK: nicht vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen, KEINE (LANGEN) MONOLOGE." },
-        { "id": "m4-t11-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "fk-empfehlungen", "karte": "m4-t11-k5", "folien": [66],
+          "beleg": "nicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen",
+          "belegQuelle": "folie-38",
+          "kurz": "FK: nicht vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen, KEINE (LANGEN) MONOLOGE."
+        },
+        {
+          "id": "m4-t11-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "fk-empfehlungen",
+          "karte": "m4-t11-k5",
+          "folien": [
+            66
+          ],
           "frage": "Erkläre, was mit den **Empfehlungen für FK** gemeint ist und in welchem Zusammenhang sie stehen.",
           "musterloesung": "Die Empfehlungen stehen am Ende der Folie, die zeigt, wie man Kommunikationsstörungen umgeht. Sie fassen das Verhalten der Führungskraft in fünf Punkten zusammen: nicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen und KEINE (LANGEN) MONOLOGE, also: Fasse Dich kurz. Der Zusammenhang: Die Folie hat vorher vier Ansatzpunkte genannt, an denen Störungen behoben werden. Die Empfehlungen ziehen daraus die Konsequenz für die Führungskraft selbst. (Eigene Verknüpfung, nicht wörtlich auf der Folie: Inhaltlich berühren die Empfehlungen die Senderfehler, also Monologe, Urteile und das Vorpreschen mit der eigenen Meinung, sowie die Empfängerfehler, also Nachfragen, Zuhören und Ausreden lassen. Die Folie nennt beide Listen getrennt und spricht diese Verbindung nicht aus.)",
-          "checkliste": ["Alle fünf Empfehlungen genannt", "Bezug hergestellt: Folie über das Umgehen von Kommunikationsstörungen", "Kür, eigene Verknüpfung und nicht auf der Folie: Bezug zu den Senderfehlern (Monologe, eigene Meinung, Urteile)", "Kür, eigene Verknüpfung und nicht auf der Folie: Bezug zu den Empfängerfehlern (Nachfragen, Zuhören)", "Kernhaltung benannt: zuerst fragen und zuhören, nicht selbst dominieren"],
+          "checkliste": [
+            "Alle fünf Empfehlungen genannt",
+            "Bezug hergestellt: Folie über das Umgehen von Kommunikationsstörungen",
+            "Kür, eigene Verknüpfung und nicht auf der Folie: Bezug zu den Senderfehlern (Monologe, eigene Meinung, Urteile)",
+            "Kür, eigene Verknüpfung und nicht auf der Folie: Bezug zu den Empfängerfehlern (Nachfragen, Zuhören)",
+            "Kernhaltung benannt: zuerst fragen und zuhören, nicht selbst dominieren"
+          ],
           "erklaerung": "In der Klausur zählt, dass du die fünf Empfehlungen nennst und den Zusammenhang angibst: Sie stehen am Ende der Folie, die zeigt, wie man Kommunikationsstörungen umgeht. Die punktgenaue Zuordnung zu Sender- und Empfängerfehlern ist eine eigene Verknüpfung, keine Aussage der Folie.",
-          "beleg": "nicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen", "belegQuelle": "folie-38",
-          "kurz": "Die FK-Empfehlungen stehen am Ende der Folie zum Umgehen von Kommunikationsstörungen: fragen, ausreden lassen, zuhören, kurz fassen." },
-        { "id": "m4-t11-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": false, "konzept": "fuehrungszitat", "karte": "m4-t11-k5", "folien": [66],
+          "beleg": "nicht mit der eigenen Meinung vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen",
+          "belegQuelle": "folie-38",
+          "kurz": "Die FK-Empfehlungen stehen am Ende der Folie zum Umgehen von Kommunikationsstörungen: fragen, ausreden lassen, zuhören, kurz fassen."
+        },
+        {
+          "id": "m4-t11-a07",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "fuehrungszitat",
+          "karte": "m4-t11-k5",
+          "folien": [
+            66
+          ],
           "frage": "Erkläre, was mit diesem Zitat von Folie 66 gemeint ist und in welchem Zusammenhang es steht: „Effective leadership is not about making speeches or being liked; leadership is defined by results, not attributes.“",
           "musterloesung": "Das Zitat steht im blauen Kasten rechts oben auf der Folie zum Umgehen von Kommunikationsstörungen. Es trennt zwei Dinge: das Auftreten einer Führungskraft, also Reden halten und beliebt sein, und das Ergebnis ihrer Arbeit. Wirksame Führung zeigt sich nach diesem Satz an Ergebnissen, nicht an Eigenschaften. Der unterstrichene Teil ist genau diese zweite Hälfte. Im Zusammenhang der Folie passt das zu den Empfehlungen für Führungskräfte: keine langen Monologe, stattdessen FRAGEN stellen, AUSREDEN lassen und ZUHÖREN. Wichtig: Der Kasten nennt keinen Urheber, das Skript schreibt den Satz niemandem zu.",
-          "checkliste": ["Sinn wiedergegeben: Führung ist nicht Reden halten oder beliebt sein", "Führung wird über Ergebnisse definiert, nicht über Eigenschaften", "Der unterstrichene Teil ist die zweite Hälfte des Satzes", "Bezug zur Folie: Empfehlungen für FK, keine langen Monologe, zuhören", "Das Skript nennt keinen Urheber"],
+          "checkliste": [
+            "Sinn wiedergegeben: Führung ist nicht Reden halten oder beliebt sein",
+            "Führung wird über Ergebnisse definiert, nicht über Eigenschaften",
+            "Der unterstrichene Teil ist die zweite Hälfte des Satzes",
+            "Bezug zur Folie: Empfehlungen für FK, keine langen Monologe, zuhören",
+            "Das Skript nennt keinen Urheber"
+          ],
           "erklaerung": "Bei Zitaten prüft die Klausur den Sinn und den Zusammenhang. Erfinde keinen Urheber: Die Folie nennt keinen.",
-          "beleg": "leadership is defined by results, not attributes.", "belegQuelle": "folie-38",
-          "kurz": "Zitat Folie 66: Führung zeigt sich an Ergebnissen, nicht an Eigenschaften. Ohne Urheberangabe." },
-        { "id": "m4-t11-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "double-bind", "karte": "m4-t11-k4", "folien": [66],
+          "beleg": "leadership is defined by results, not attributes.",
+          "belegQuelle": "folie-38",
+          "kurz": "Zitat Folie 66: Führung zeigt sich an Ergebnissen, nicht an Eigenschaften. Ohne Urheberangabe."
+        },
+        {
+          "id": "m4-t11-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "double-bind",
+          "karte": "m4-t11-k4",
+          "folien": [
+            66
+          ],
           "vorne": "Was nennt Folie 66 als Maßnahme gegen den ‚Double bind‘?",
           "hinten": "**synchrone verbale und non-verbale Kommunikation**\n\nMehr sagt die Folie dazu nicht. Was ein Double bind ist, erklärt sie hier nicht.",
           "erklaerung": "Nur eine einzige Maßnahme steht unter diesem Ansatzpunkt. Deshalb ist sie leicht abfragbar.",
-          "beleg": "synchrone verbale und non-verbale Kommunikation", "belegQuelle": "folie-38",
-          "kurz": "Gegen Double bind: synchrone verbale und non-verbale Kommunikation." },
-        { "id": "m4-t11-a10", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": true, "konzept": "senderfehler", "karte": "m4-t11-k3", "folien": [66],
+          "beleg": "synchrone verbale und non-verbale Kommunikation",
+          "belegQuelle": "folie-38",
+          "kurz": "Gegen Double bind: synchrone verbale und non-verbale Kommunikation."
+        },
+        {
+          "id": "m4-t11-a10",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "senderfehler",
+          "karte": "m4-t11-k3",
+          "folien": [
+            66
+          ],
           "szenario": "Übungsfall: In deiner Filiale kündigst du eine neue Beratungssoftware an. Du sagst im Teammeeting: „Man sollte da langsam mal mitziehen, das haben wir doch alle schon tausendmal gehört.“ Danach redest du zehn Minuten am Stück. Hinterher weiß niemand, wer was bis wann tut.",
           "frage": "Gegen welche Punkte der Folie 66 verstößt das vor allem?",
-          "optionen": ["Gegen ICH statt MAN, gegen keine Killerphrasen und gegen KEINE (LANGEN) MONOLOGE.", "Gegen die Umgehung von Empfängerfehlern: Aufmerksamkeit, keine Ablenkung, Blick-Kontakt.", "Gegen die Vermeidung des ‚Double bind‘: verbale und non-verbale Kommunikation laufen auseinander."], "richtig": 0,
+          "optionen": [
+            "Gegen ICH statt MAN, gegen keine Killerphrasen und gegen KEINE (LANGEN) MONOLOGE.",
+            "Gegen die Umgehung von Empfängerfehlern: Aufmerksamkeit, keine Ablenkung, Blick-Kontakt.",
+            "Gegen die Vermeidung des ‚Double bind‘: verbale und non-verbale Kommunikation laufen auseinander."
+          ],
+          "richtig": 0,
           "erklaerung": "„Man sollte“ ist MAN statt ICH. „Das haben wir doch alle schon tausendmal gehört“ ist eine Killerphrase. Zehn Minuten am Stück sind ein langer Monolog. Alle drei stehen auf der Folie unter Vermeidung Senderfehler beziehungsweise in den Empfehlungen für FK.",
-          "beleg": "ICH statt MAN, klare Meinungen, keine Killerphrasen", "belegQuelle": "folie-38",
-          "kurz": "MAN statt ICH, Killerphrase und Monolog sind drei Senderfehler auf einmal." },
-        { "id": "m4-t11-a11", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "fuehrungszitat", "karte": "m4-t11-k5", "folien": [66],
+          "beleg": "ICH statt MAN, klare Meinungen, keine Killerphrasen",
+          "belegQuelle": "folie-38",
+          "kurz": "MAN statt ICH, Killerphrase und Monolog sind drei Senderfehler auf einmal."
+        },
+        {
+          "id": "m4-t11-a11",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "fuehrungszitat",
+          "karte": "m4-t11-k5",
+          "folien": [
+            66
+          ],
           "frage": "Wen nennt Folie 66 als Urheber des englischen Zitats im blauen Kasten?",
-          "optionen": ["Niemanden. Der Kasten nennt keinen Urheber.", "Michael Beckmann", "Leadership First"], "richtig": 0,
+          "optionen": [
+            "Niemanden. Der Kasten nennt keinen Urheber.",
+            "Michael Beckmann",
+            "Leadership First"
+          ],
+          "richtig": 0,
           "erklaerung": "Das englische Zitat steht ohne Quellen- oder Urheberangabe. „Leadership First“ steht auf der Zitatkarte der nächsten Folie, nicht hier. Michael Beckmann steht nur in der Fußzeile als Urheber der Folie.",
-          "beleg": "Der Kasten nennt keinen Urheber.", "belegQuelle": "folie-38",
-          "kurz": "Das Zitat auf Folie 66 hat keine Urheberangabe." }
+          "beleg": "Der Kasten nennt keinen Urheber.",
+          "belegQuelle": "folie-38",
+          "kurz": "Das Zitat auf Folie 66 hat keine Urheberangabe."
+        }
       ],
       "lernzettel": {
-        "kompakt": ["**Folie 66, Störungen umgehen:** vier Ansatzpunkte = Reduktion Kommunikations-/Informationsmangel (Formate, Termine, Tabus, Eisenhower-Matrix), Vermeidung Senderfehler (klar formulieren, Zielgruppe, ICH statt MAN, Feedback/Johari), Umgehung Empfängerfehler (Aufmerksamkeit, Blick-Kontakt, Nachfragen, keine Wertungen), Vermeidung ‚Double bind‘ (synchrone verbale und non-verbale Kommunikation).", "**Empfehlungen für FK:** nicht vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen, KEINE (LANGEN) MONOLOGE."],
+        "kompakt": [
+          "**Folie 66, Störungen umgehen:** vier Ansatzpunkte = Reduktion Kommunikations-/Informationsmangel (Formate, Termine, Tabus, Eisenhower-Matrix), Vermeidung Senderfehler (klar formulieren, Zielgruppe, ICH statt MAN, Feedback/Johari), Umgehung Empfängerfehler (Aufmerksamkeit, Blick-Kontakt, Nachfragen, keine Wertungen), Vermeidung ‚Double bind‘ (synchrone verbale und non-verbale Kommunikation).",
+          "**Empfehlungen für FK:** nicht vorpreschen, FRAGEN stellen, AUSREDEN lassen, ZUHÖREN lernen, KEINE (LANGEN) MONOLOGE."
+        ],
         "ausfuehrlich": [
           "**Kommunikationsstörungen beheben durch (Folie 66)** – vier Überschriften, darunter die Maßnahmen.",
           "**1. Reduktion Kommunikationsmangel/Informationsmangel:** Standardisierung von Kommunikations-/Gesprächsformaten und feste Terminierung; Tabus erkennen und politisch geschickt ansprechen; Zeitmanagement gemäß Eisenhower-Matrix (s. Vorlesung III) konsequent anwenden.",
@@ -163,106 +474,328 @@
     {
       "id": "m4-t12",
       "titel": "Key take aways: so informiert eine Führungskraft",
-      "folien": [67],
+      "folien": [
+        67
+      ],
       "gewicht": 2,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m4-t12-k1",
           "titel": "Die sieben Regeln der Zusammenfassung",
-          "folien": [67],
+          "folien": [
+            67
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Diese Folie fasst das Kapitel zusammen. Der Titel nennt den Grund: **Kommunikation und Moderation ist Kern der Führung**. Darunter stehen sieben kurze Regeln dafür, wie du als Führungskraft informierst. Sie sind teils als Aufforderung an dich formuliert (Geben Sie, Informieren Sie, Nutzen Sie), teils als kurze Merksätze." },
-            { "typ": "text", "text": "**Kommunikation und Moderation ist Kern der Führung**\n==-> key take aways==\n\n**Zusammenfassung:**" },
-            { "typ": "liste", "titel": "Die sieben Punkte der Zusammenfassung", "geordnet": true, "punkte": ["Geben Sie Informationen *direkt* und *ohne Umwege gleichzeitig* und *unverzüglich an alle* Empfänger.", "Informieren Sie wahrheitsgemäß und - wenn möglich - vollständig sowie klar, strukturiert & anregend.", "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.", "Stets die geeigneten Informationskanäle nutzen.", "Formate mit Dialog-Charakter bevorzugen.", "Zugang zu Informationen für alle Empfänger sicherstellen.", "[[Diversity-Aspekte]] bei Kommunikation/Information beachten!"] },
-            { "typ": "einfach", "text": "Achte auf zwei Einschränkungen im Wortlaut. Vollständig informieren gilt nur *wenn möglich*. Und es sind zwei verschiedene Regeln: mehrere Kanäle **synchron** nutzen und dabei stets die **geeigneten** Kanäle wählen." },
-            { "typ": "hinweis", "text": "[[Diversity-Aspekte]] nennt die Folie, erklärt sie aber nicht. Diese Lernumgebung erklärt den Begriff deshalb ebenfalls nicht." }
+            {
+              "typ": "einfach",
+              "text": "Diese Folie fasst das Kapitel zusammen. Der Titel nennt den Grund: **Kommunikation und Moderation ist Kern der Führung**. Darunter stehen sieben kurze Regeln dafür, wie du als Führungskraft informierst. Sie sind teils als Aufforderung an dich formuliert (Geben Sie, Informieren Sie, Nutzen Sie), teils als kurze Merksätze."
+            },
+            {
+              "typ": "text",
+              "text": "**Kommunikation und Moderation ist Kern der Führung**\n==-> key take aways==\n\n**Zusammenfassung:**"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die sieben Punkte der Zusammenfassung",
+              "geordnet": true,
+              "punkte": [
+                "Geben Sie Informationen *direkt* und *ohne Umwege gleichzeitig* und *unverzüglich an alle* Empfänger.",
+                "Informieren Sie wahrheitsgemäß und - wenn möglich - vollständig sowie klar, strukturiert & anregend.",
+                "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.",
+                "Stets die geeigneten Informationskanäle nutzen.",
+                "Formate mit Dialog-Charakter bevorzugen.",
+                "Zugang zu Informationen für alle Empfänger sicherstellen.",
+                "[[Diversity-Aspekte]] bei Kommunikation/Information beachten!"
+              ]
+            },
+            {
+              "typ": "einfach",
+              "text": "Achte auf zwei Einschränkungen im Wortlaut. Vollständig informieren gilt nur *wenn möglich*. Und es sind zwei verschiedene Regeln: mehrere Kanäle **synchron** nutzen und dabei stets die **geeigneten** Kanäle wählen."
+            },
+            {
+              "typ": "hinweis",
+              "text": "[[Diversity-Aspekte]] nennt die Folie, erklärt sie aber nicht. Diese Lernumgebung erklärt den Begriff deshalb ebenfalls nicht."
+            }
           ]
         },
         {
           "id": "m4-t12-k2",
           "titel": "Die Zitatkarte zum Micromanagement",
-          "folien": [67],
+          "folien": [
+            67
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Rechts unten steht eine Zitatkarte mit orangem Rahmen. Sie richtet sich direkt an Führungskräfte und warnt vor Micromanagement. Das Skript erklärt den Begriff nicht und stellt auch keinen Bezug zum übrigen Folientext her." },
-            { "typ": "zitat", "text": "Leaders; If you are micromanaging your team you are toxic to your business.", "kontext": "Zitatkarte rechts unten auf Folie 67, weißer Grund, oranger Rahmen. Darunter klein die Quellenangabe: Leadership First. Im Zitat steht nach „Leaders“ ein Semikolon." },
-            { "typ": "hinweis", "text": "Die Zitatkarte steht ohne Bezug zum übrigen Folientext und ohne Link. „Leadership First“ ist die Quellenangabe auf der Karte, keine Person." }
+            {
+              "typ": "einfach",
+              "text": "Rechts unten steht eine Zitatkarte mit orangem Rahmen. Sie richtet sich direkt an Führungskräfte und warnt vor Micromanagement. Das Skript erklärt den Begriff nicht und stellt auch keinen Bezug zum übrigen Folientext her."
+            },
+            {
+              "typ": "zitat",
+              "text": "Leaders; If you are micromanaging your team you are toxic to your business.",
+              "kontext": "Zitatkarte rechts unten auf Folie 67, weißer Grund, oranger Rahmen. Darunter klein die Quellenangabe: Leadership First. Im Zitat steht nach „Leaders“ ein Semikolon."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Zitatkarte steht ohne Bezug zum übrigen Folientext und ohne Link. „Leadership First“ ist die Quellenangabe auf der Karte, keine Person."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t12-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67],
+        {
+          "id": "m4-t12-a01",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
           "frage": "Welche Punkte nennt die **Zusammenfassung** auf Folie 67?",
-          "optionen": ["Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.", "Formate mit Dialog-Charakter bevorzugen.", "Tabus erkennen und politisch geschickt ansprechen.", "Zugang zu Informationen für alle Empfänger sicherstellen.", "Kontrolltermine vereinbaren."], "richtig": [0, 1, 3],
+          "optionen": [
+            "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.",
+            "Formate mit Dialog-Charakter bevorzugen.",
+            "Tabus erkennen und politisch geschickt ansprechen.",
+            "Zugang zu Informationen für alle Empfänger sicherstellen.",
+            "Kontrolltermine vereinbaren."
+          ],
+          "richtig": [
+            0,
+            1,
+            3
+          ],
           "erklaerung": "„Tabus erkennen und politisch geschickt ansprechen“ steht auf Folie 66 unter Reduktion Kommunikationsmangel. „Kontrolltermine vereinbaren“ steht auf Folie 68 in der Phase Vereinbarung.",
-          "beleg": "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.", "belegQuelle": "folie-39",
-          "kurz": "Zusammenfassung Folie 67: mehrere Kanäle synchron, Dialog-Formate, Zugang für alle." },
-        { "id": "m4-t12-a02", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67], "bank": true,
+          "beleg": "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.",
+          "belegQuelle": "folie-39",
+          "kurz": "Zusammenfassung Folie 67: mehrere Kanäle synchron, Dialog-Formate, Zugang für alle."
+        },
+        {
+          "id": "m4-t12-a02",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
+          "bank": true,
           "frage": "Vervollständige den zweiten Punkt der Zusammenfassung.",
           "text": "Informieren Sie {_wahrheitsgemäß_} und - wenn möglich - {_vollständig_} sowie {_klar_}, {_strukturiert_} & anregend.",
-          "zusatzBank": ["synchron", "unverzüglich", "direkt"],
+          "zusatzBank": [
+            "synchron",
+            "unverzüglich",
+            "direkt"
+          ],
           "erklaerung": "Wahrheitsgemäß gilt ohne Einschränkung, vollständig nur wenn möglich. Dazu kommen klar, strukturiert und anregend.",
-          "beleg": "Informieren Sie wahrheitsgemäß und - wenn möglich - vollständig sowie klar, strukturiert & anregend.", "belegQuelle": "folie-39",
-          "kurz": "Wahrheitsgemäß immer, vollständig wenn möglich, dazu klar, strukturiert & anregend." },
-        { "id": "m4-t12-a03", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67],
+          "beleg": "Informieren Sie wahrheitsgemäß und - wenn möglich - vollständig sowie klar, strukturiert & anregend.",
+          "belegQuelle": "folie-39",
+          "kurz": "Wahrheitsgemäß immer, vollständig wenn möglich, dazu klar, strukturiert & anregend."
+        },
+        {
+          "id": "m4-t12-a03",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
           "frage": "Was stimmt zur Zusammenfassung auf Folie 67?",
           "aussagen": [
-            { "text": "Informationen sollen direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger gehen.", "wahr": true },
-            { "text": "Nach der Folie soll man sich auf einen einzigen Informationskanal beschränken.", "wahr": false, "korrektur": "Die Folie sagt: Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe." },
-            { "text": "Formate mit Dialog-Charakter sollen bevorzugt werden.", "wahr": true },
-            { "text": "Vollständige Information verlangt die Folie ohne jede Einschränkung.", "wahr": false, "korrektur": "Die Folie schreibt: wahrheitsgemäß und - wenn möglich - vollständig." }
+            {
+              "text": "Informationen sollen direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger gehen.",
+              "wahr": true
+            },
+            {
+              "text": "Nach der Folie soll man sich auf einen einzigen Informationskanal beschränken.",
+              "wahr": false,
+              "korrektur": "Die Folie sagt: Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe."
+            },
+            {
+              "text": "Formate mit Dialog-Charakter sollen bevorzugt werden.",
+              "wahr": true
+            },
+            {
+              "text": "Vollständige Information verlangt die Folie ohne jede Einschränkung.",
+              "wahr": false,
+              "korrektur": "Die Folie schreibt: wahrheitsgemäß und - wenn möglich - vollständig."
+            }
           ],
           "erklaerung": "Zwei Stolperstellen: mehrere Kanäle statt einem, und die Einschränkung „wenn möglich“ bei der Vollständigkeit.",
-          "beleg": "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.", "belegQuelle": "folie-39",
-          "kurz": "Mehrere Kanäle synchron; vollständig nur wenn möglich." },
-        { "id": "m4-t12-a04", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 1, "kern": true, "konzept": "dialogformate", "karte": "m4-t12-k1", "folien": [67],
+          "beleg": "Nutzen Sie mehrere Kanäle synchron zur Informationsweitergabe.",
+          "belegQuelle": "folie-39",
+          "kurz": "Mehrere Kanäle synchron; vollständig nur wenn möglich."
+        },
+        {
+          "id": "m4-t12-a04",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "dialogformate",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
           "frage": "Welche Formate sollen nach Folie 67 bevorzugt werden?",
-          "optionen": ["Formate mit Dialog-Charakter", "Formate, in denen die Führungskraft am Stück vorträgt", "Formate, die Informationen nacheinander an einzelne Empfänger weitergeben"], "richtig": 0,
+          "optionen": [
+            "Formate mit Dialog-Charakter",
+            "Formate, in denen die Führungskraft am Stück vorträgt",
+            "Formate, die Informationen nacheinander an einzelne Empfänger weitergeben"
+          ],
+          "richtig": 0,
           "erklaerung": "Die Folie schreibt: Formate mit Dialog-Charakter bevorzugen. Die dritte Option widerspricht außerdem der Regel, gleichzeitig an alle zu informieren.",
-          "beleg": "Formate mit Dialog-Charakter bevorzugen.", "belegQuelle": "folie-39",
-          "kurz": "Formate mit Dialog-Charakter bevorzugen." },
-        { "id": "m4-t12-a05", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67],
-          "frage": "Setze die Punkte der Zusammenfassung richtig zusammen.", "linksTitel": "Anfang", "rechtsTitel": "Fortsetzung laut Folie 67",
+          "beleg": "Formate mit Dialog-Charakter bevorzugen.",
+          "belegQuelle": "folie-39",
+          "kurz": "Formate mit Dialog-Charakter bevorzugen."
+        },
+        {
+          "id": "m4-t12-a05",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
+          "frage": "Setze die Punkte der Zusammenfassung richtig zusammen.",
+          "linksTitel": "Anfang",
+          "rechtsTitel": "Fortsetzung laut Folie 67",
           "paare": [
-            { "links": "Geben Sie Informationen …", "rechts": "direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger" },
-            { "links": "Informieren Sie wahrheitsgemäß und …", "rechts": "wenn möglich - vollständig sowie klar, strukturiert & anregend" },
-            { "links": "Nutzen Sie …", "rechts": "mehrere Kanäle synchron zur Informationsweitergabe" },
-            { "links": "Formate …", "rechts": "mit Dialog-Charakter bevorzugen" },
-            { "links": "Zugang zu Informationen …", "rechts": "für alle Empfänger sicherstellen" }
+            {
+              "links": "Geben Sie Informationen …",
+              "rechts": "direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger"
+            },
+            {
+              "links": "Informieren Sie wahrheitsgemäß und …",
+              "rechts": "wenn möglich - vollständig sowie klar, strukturiert & anregend"
+            },
+            {
+              "links": "Nutzen Sie …",
+              "rechts": "mehrere Kanäle synchron zur Informationsweitergabe"
+            },
+            {
+              "links": "Formate …",
+              "rechts": "mit Dialog-Charakter bevorzugen"
+            },
+            {
+              "links": "Zugang zu Informationen …",
+              "rechts": "für alle Empfänger sicherstellen"
+            }
           ],
           "erklaerung": "Die sieben Punkte sind kurz und fast wörtlich abfragbar. Wer die Anfänge kennt, kann die Fortsetzungen aus dem Gedächtnis ergänzen.",
-          "beleg": "Zugang zu Informationen für alle Empfänger sicherstellen.", "belegQuelle": "folie-39",
-          "kurz": "Sieben Punkte: direkt an alle, wahrheitsgemäß, mehrere Kanäle, geeignete Kanäle, Dialog, Zugang, Diversity." },
-        { "id": "m4-t12-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67],
+          "beleg": "Zugang zu Informationen für alle Empfänger sicherstellen.",
+          "belegQuelle": "folie-39",
+          "kurz": "Sieben Punkte: direkt an alle, wahrheitsgemäß, mehrere Kanäle, geeignete Kanäle, Dialog, Zugang, Diversity."
+        },
+        {
+          "id": "m4-t12-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
           "frage": "Fasse die key take aways der Folie 67 zusammen: Wie soll eine Führungskraft nach dem Skript informieren?",
           "musterloesung": "Die Folie nennt sieben Punkte. Erstens: Informationen direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger geben. Zweitens: wahrheitsgemäß und - wenn möglich - vollständig sowie klar, strukturiert und anregend informieren. Drittens: mehrere Kanäle synchron zur Informationsweitergabe nutzen. Viertens: stets die geeigneten Informationskanäle nutzen. Fünftens: Formate mit Dialog-Charakter bevorzugen. Sechstens: Zugang zu Informationen für alle Empfänger sicherstellen. Siebtens: Diversity-Aspekte bei Kommunikation und Information beachten. Der Titel ordnet das ein: Kommunikation und Moderation ist Kern der Führung.",
-          "checkliste": ["Gleichzeitig, direkt und unverzüglich an alle", "Wahrheitsgemäß, wenn möglich vollständig, klar, strukturiert & anregend", "Mehrere Kanäle synchron und dabei die geeigneten Kanäle", "Formate mit Dialog-Charakter bevorzugen", "Zugang für alle Empfänger sicherstellen", "Diversity-Aspekte beachten"],
+          "checkliste": [
+            "Gleichzeitig, direkt und unverzüglich an alle",
+            "Wahrheitsgemäß, wenn möglich vollständig, klar, strukturiert & anregend",
+            "Mehrere Kanäle synchron und dabei die geeigneten Kanäle",
+            "Formate mit Dialog-Charakter bevorzugen",
+            "Zugang für alle Empfänger sicherstellen",
+            "Diversity-Aspekte beachten"
+          ],
           "erklaerung": "Die Folie ist eine Zusammenfassung. In der Klausur lohnt es sich, die Punkte einzeln und nah am Wortlaut zu nennen.",
-          "beleg": "Zugang zu Informationen für alle Empfänger sicherstellen.", "belegQuelle": "folie-39",
-          "kurz": "Sieben key take aways zur Information: gleichzeitig an alle, wahrheitsgemäß, mehrere und geeignete Kanäle, Dialog, Zugang, Diversity." },
-        { "id": "m4-t12-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "micromanagement-zitat", "karte": "m4-t12-k2", "folien": [67],
+          "beleg": "Zugang zu Informationen für alle Empfänger sicherstellen.",
+          "belegQuelle": "folie-39",
+          "kurz": "Sieben key take aways zur Information: gleichzeitig an alle, wahrheitsgemäß, mehrere und geeignete Kanäle, Dialog, Zugang, Diversity."
+        },
+        {
+          "id": "m4-t12-a07",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "micromanagement-zitat",
+          "karte": "m4-t12-k2",
+          "folien": [
+            67
+          ],
           "frage": "Erkläre, was mit dem Zitat auf Folie 67 gemeint ist und in welchem Zusammenhang es steht: „Leaders; If you are micromanaging your team you are toxic to your business.“",
           "musterloesung": "Das Zitat richtet sich an Führungskräfte: Wer sein Team micromanagt, ist toxisch für das eigene Geschäft. Es steht auf einer Zitatkarte rechts unten, mit der Quellenangabe Leadership First. Zum Zusammenhang gehört eine ehrliche Einschränkung: Die Zitatkarte steht ohne Bezug zum übrigen Folientext und ohne Link. Das Skript erklärt den Begriff Micromanagement nicht. Mehr als die Aussage des Satzes und seine Quelle lässt sich aus dem Skript nicht belegen.",
-          "checkliste": ["Aussage wiedergegeben: Wer sein Team micromanagt, ist toxisch für das Geschäft", "Quellenangabe auf der Karte genannt: Leadership First", "Gesagt, dass das Skript Micromanagement nicht erklärt", "Gesagt, dass die Karte ohne Bezug zum Folientext steht"],
+          "checkliste": [
+            "Aussage wiedergegeben: Wer sein Team micromanagt, ist toxisch für das Geschäft",
+            "Quellenangabe auf der Karte genannt: Leadership First",
+            "Gesagt, dass das Skript Micromanagement nicht erklärt",
+            "Gesagt, dass die Karte ohne Bezug zum Folientext steht"
+          ],
           "erklaerung": "Hier ist die richtige Antwort teilweise eine Auskunft über eine Lücke. Das Skript liefert zu diesem Zitat keine Erklärung, und erfundene Erklärungen wären in der Klausur riskant.",
-          "beleg": "Die Zitatkarte steht ohne Bezug zum übrigen Folientext und ohne Link.", "belegQuelle": "folie-39",
-          "kurz": "Zitat Folie 67 (Leadership First): Micromanagement ist toxisch. Das Skript erklärt den Begriff nicht." },
-        { "id": "m4-t12-a08", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": true, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67],
+          "beleg": "Die Zitatkarte steht ohne Bezug zum übrigen Folientext und ohne Link.",
+          "belegQuelle": "folie-39",
+          "kurz": "Zitat Folie 67 (Leadership First): Micromanagement ist toxisch. Das Skript erklärt den Begriff nicht."
+        },
+        {
+          "id": "m4-t12-a08",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
           "szenario": "Übungsfall: Eine neue Regelung zur Kreditvergabe gilt ab Montag. Du schickst sie am Freitag nur an die beiden Teamleiter, mit der Bitte, sie bei Gelegenheit weiterzugeben. Zwei Berater erfahren davon erst am Dienstag, und zwar von einer Kundin.",
           "frage": "Gegen welchen Punkt der Folie 67 verstößt das am deutlichsten?",
-          "optionen": ["Informationen direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger geben.", "Diversity-Aspekte bei Kommunikation/Information beachten.", "Formate mit Dialog-Charakter bevorzugen."], "richtig": 0,
+          "optionen": [
+            "Informationen direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger geben.",
+            "Diversity-Aspekte bei Kommunikation/Information beachten.",
+            "Formate mit Dialog-Charakter bevorzugen."
+          ],
+          "richtig": 0,
           "erklaerung": "Die Weitergabe über die Teamleiter ist ein Umweg, „bei Gelegenheit“ ist nicht unverzüglich, und nicht alle Empfänger wurden gleichzeitig erreicht. Genau diese drei Wörter stehen im ersten Punkt der Zusammenfassung.",
-          "beleg": "Geben Sie Informationen … ohne Umwege gleichzeitig … unverzüglich an alle … Empfänger.", "belegQuelle": "folie-39",
-          "kurz": "Information über Umwege und „bei Gelegenheit“ verletzt: direkt, gleichzeitig, unverzüglich an alle." },
-        { "id": "m4-t12-a09", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "key-take-aways", "karte": "m4-t12-k1", "folien": [67],
+          "beleg": "Geben Sie Informationen … ohne Umwege gleichzeitig … unverzüglich an alle … Empfänger.",
+          "belegQuelle": "folie-39",
+          "kurz": "Information über Umwege und „bei Gelegenheit“ verletzt: direkt, gleichzeitig, unverzüglich an alle."
+        },
+        {
+          "id": "m4-t12-a09",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "key-take-aways",
+          "karte": "m4-t12-k1",
+          "folien": [
+            67
+          ],
           "vorne": "Nenne die sieben key take aways der Folie 67.",
           "hinten": "1. Informationen *direkt*, *ohne Umwege gleichzeitig*, *unverzüglich an alle* Empfänger\n2. wahrheitsgemäß und - wenn möglich - vollständig sowie klar, strukturiert & anregend\n3. mehrere Kanäle synchron nutzen\n4. stets die geeigneten Informationskanäle nutzen\n5. Formate mit Dialog-Charakter bevorzugen\n6. Zugang zu Informationen für alle Empfänger sicherstellen\n7. Diversity-Aspekte bei Kommunikation/Information beachten",
           "erklaerung": "Sieben Punkte, die sich gut am Stück abfragen lassen. Der Titel liefert die Klammer: Kommunikation und Moderation ist Kern der Führung.",
-          "beleg": "Stets die geeigneten Informationskanäle nutzen.", "belegQuelle": "folie-39",
-          "kurz": "Sieben key take aways, Folie 67." }
+          "beleg": "Stets die geeigneten Informationskanäle nutzen.",
+          "belegQuelle": "folie-39",
+          "kurz": "Sieben key take aways, Folie 67."
+        }
       ],
       "lernzettel": {
-        "kompakt": ["**Folie 67, key take aways:** direkt, ohne Umwege gleichzeitig, unverzüglich an alle; wahrheitsgemäß und wenn möglich vollständig, klar, strukturiert & anregend; mehrere Kanäle synchron; stets geeignete Kanäle; Dialog-Formate bevorzugen; Zugang für alle sichern; Diversity-Aspekte beachten.", "**Titel als Klammer:** Kommunikation und Moderation ist Kern der Führung."],
+        "kompakt": [
+          "**Folie 67, key take aways:** direkt, ohne Umwege gleichzeitig, unverzüglich an alle; wahrheitsgemäß und wenn möglich vollständig, klar, strukturiert & anregend; mehrere Kanäle synchron; stets geeignete Kanäle; Dialog-Formate bevorzugen; Zugang für alle sichern; Diversity-Aspekte beachten.",
+          "**Titel als Klammer:** Kommunikation und Moderation ist Kern der Führung."
+        ],
         "ausfuehrlich": [
           "**Zusammenfassung Folie 67 (key take aways), sieben Punkte:**",
           "1. Geben Sie Informationen direkt und ohne Umwege gleichzeitig und unverzüglich an alle Empfänger.",
@@ -278,139 +811,441 @@
     {
       "id": "m4-t13",
       "titel": "Zielvereinbarungsgespräche richtig führen: die sieben Phasen",
-      "folien": [68],
+      "folien": [
+        68
+      ],
       "gewicht": 3,
       "lernstoff": true,
       "lernkarten": [
         {
           "id": "m4-t13-k1",
           "titel": "Der Leitfaden in sieben Phasen",
-          "folien": [68],
+          "folien": [
+            68
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Diese Folie ist im Skript als **Lernstoff** markiert, sie ist also besonders prüfungsrelevant. Sie gibt dir einen groben Leitfaden für das [[Zielvereinbarungsgespräch]]: sieben Phasen, jede mit eigenen Inhalten. Lerne zuerst die Reihenfolge der sieben Phasen, dann die Stichworte in jeder Phase." },
-            { "typ": "text", "text": "**Zielvereinbarungsgespräche richtig führen**\n==-> grober Leitfaden zur Gesprächsgestaltung==" },
-            { "typ": "liste", "titel": "Die sieben Gesprächsphasen in der Reihenfolge der Folie", "geordnet": true, "punkte": ["Vorbereitung", "Eröffnung", "Rückblick", "Leistungsziele", "MA-Perspektive", "Vereinbarung", "Abschluss"] },
-            { "typ": "einfach", "text": "Die Reihenfolge hat eine Logik: erst vorbereiten, dann eröffnen, dann zurückschauen. Danach kommen die Ziele, und zwar zuerst aus Sicht des Unternehmens, dann aus Sicht des Mitarbeiters. Erst danach wird vereinbart und abgeschlossen." },
-            { "typ": "hinweis", "text": "Die Folie verwendet die Abkürzungen ZV, MA und FK, ohne sie auf dieser Folie zu erklären. Diese Lernumgebung löst sie deshalb nicht auf. Oben rechts trägt die Folie einen roten, schräg gestellten Banner mit der Aufschrift „Lernstoff“ in grüner Schrift: Sie ist damit im Skript ausdrücklich als Lernstoff markiert." },
-            { "typ": "hinweis", "text": "Zwei Schreibweisen übernimmt diese Lernumgebung genau so, wie sie auf der Folie stehen. Im Rückblick steht die Abkürzung **evt.** statt evtl. In der Phase Vereinbarung steht **Arbeits-und Entwicklungsziele** ohne Leerzeichen nach dem Bindestrich. Das sind keine Tippfehler dieser Seite, sondern der Wortlaut des Skripts. Schreib in der Klausur ruhig „evtl.“ und „Arbeits- und Entwicklungsziele“: Gemeint ist dasselbe." }
+            {
+              "typ": "einfach",
+              "text": "Diese Folie ist im Skript als **Lernstoff** markiert, sie ist also besonders prüfungsrelevant. Sie gibt dir einen groben Leitfaden für das [[Zielvereinbarungsgespräch]]: sieben Phasen, jede mit eigenen Inhalten. Lerne zuerst die Reihenfolge der sieben Phasen, dann die Stichworte in jeder Phase."
+            },
+            {
+              "typ": "text",
+              "text": "**Zielvereinbarungsgespräche richtig führen**\n==-> grober Leitfaden zur Gesprächsgestaltung=="
+            },
+            {
+              "typ": "liste",
+              "titel": "Die sieben Gesprächsphasen in der Reihenfolge der Folie",
+              "geordnet": true,
+              "punkte": [
+                "Vorbereitung",
+                "Eröffnung",
+                "Rückblick",
+                "Leistungsziele",
+                "MA-Perspektive",
+                "Vereinbarung",
+                "Abschluss"
+              ]
+            },
+            {
+              "typ": "einfach",
+              "text": "Die Reihenfolge hat eine Logik: erst vorbereiten, dann eröffnen, dann zurückschauen. Danach kommen die Ziele, und zwar zuerst aus Sicht des Unternehmens, dann aus Sicht des Mitarbeiters. Erst danach wird vereinbart und abgeschlossen."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Folie verwendet die Abkürzungen ZV, MA und FK, ohne sie auf dieser Folie zu erklären. Diese Lernumgebung löst sie deshalb nicht auf. Oben rechts trägt die Folie einen roten, schräg gestellten Banner mit der Aufschrift „Lernstoff“ in grüner Schrift: Sie ist damit im Skript ausdrücklich als Lernstoff markiert."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Zwei Schreibweisen übernimmt diese Lernumgebung genau so, wie sie auf der Folie stehen. Im Rückblick steht die Abkürzung **evt.** statt evtl. In der Phase Vereinbarung steht **Arbeits-und Entwicklungsziele** ohne Leerzeichen nach dem Bindestrich. Das sind keine Tippfehler dieser Seite, sondern der Wortlaut des Skripts. Schreib in der Klausur ruhig „evtl.“ und „Arbeits- und Entwicklungsziele“: Gemeint ist dasselbe."
+            }
           ]
         },
         {
           "id": "m4-t13-k2",
           "titel": "Phasen 1 bis 4: Vorbereitung bis Leistungsziele",
-          "folien": [68],
+          "folien": [
+            68
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "In den ersten vier Phasen redet überwiegend die Führungskraft oder es wird gemeinsam zurückgeschaut. Die Vorbereitung passiert vor dem Termin. In der Eröffnung steht ein Detail, das gern abgefragt wird: die Sitzposition, ausdrücklich **nicht gegenüber**." },
-            { "typ": "tabelle", "kopf": ["Gesprächsphase", "Inhalt laut Folie 68"], "zeilen": [
-              ["**Vorbereitung:**", "letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren, daraus Ableitung individueller Ziele, Terminvereinbarung mit MA, günstige Bedingungen schaffen: Zeit, Ruhe, Konzentration"],
-              ["**Eröffnung:**", "freundliche Begrüßung, geeignete Sitzposition einnehmen (nicht gegenüber!), Zweck und Ablauf des Gesprächs schildern, Verbindlichkeit der ZV herausstellen"],
-              ["**Rückblick:**", "MA-Feedback zur abgelaufenen Periode, Selbsteinschätzung des Erreichten durch MA, Gründe für evt. Zielabweichungen gemeinsam erörtern, FK-Perspektive der Zielerreichung"],
-              ["**Leistungsziele:**", "Gesamtsituation der Organisation beschreiben, externe und interne Entwicklungen aufzeigen, break-down der Unternehmensziele auf Bereichs-/Abteilungsebene erklären, Ableitung der MA-Ziele aufzeigen, ggf. notwendige zusätzliche Anforderungen/Fähigkeiten aufzeigen"]
-            ] },
-            { "typ": "einfach", "text": "Beachte die Reihenfolge im Rückblick: Erst spricht der Mitarbeiter (Feedback und Selbsteinschätzung), dann kommen die Gründe für Abweichungen gemeinsam auf den Tisch, erst danach die Sicht der Führungskraft." }
+            {
+              "typ": "einfach",
+              "text": "In den ersten vier Phasen redet überwiegend die Führungskraft oder es wird gemeinsam zurückgeschaut. Die Vorbereitung passiert vor dem Termin. In der Eröffnung steht ein Detail, das gern abgefragt wird: die Sitzposition, ausdrücklich **nicht gegenüber**."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Gesprächsphase",
+                "Inhalt laut Folie 68"
+              ],
+              "zeilen": [
+                [
+                  "**Vorbereitung:**",
+                  "letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren, daraus Ableitung individueller Ziele, Terminvereinbarung mit MA, günstige Bedingungen schaffen: Zeit, Ruhe, Konzentration"
+                ],
+                [
+                  "**Eröffnung:**",
+                  "freundliche Begrüßung, geeignete Sitzposition einnehmen (nicht gegenüber!), Zweck und Ablauf des Gesprächs schildern, Verbindlichkeit der ZV herausstellen"
+                ],
+                [
+                  "**Rückblick:**",
+                  "MA-Feedback zur abgelaufenen Periode, Selbsteinschätzung des Erreichten durch MA, Gründe für evt. Zielabweichungen gemeinsam erörtern, FK-Perspektive der Zielerreichung"
+                ],
+                [
+                  "**Leistungsziele:**",
+                  "Gesamtsituation der Organisation beschreiben, externe und interne Entwicklungen aufzeigen, break-down der Unternehmensziele auf Bereichs-/Abteilungsebene erklären, Ableitung der MA-Ziele aufzeigen, ggf. notwendige zusätzliche Anforderungen/Fähigkeiten aufzeigen"
+                ]
+              ]
+            },
+            {
+              "typ": "einfach",
+              "text": "Beachte die Reihenfolge im Rückblick: Erst spricht der Mitarbeiter (Feedback und Selbsteinschätzung), dann kommen die Gründe für Abweichungen gemeinsam auf den Tisch, erst danach die Sicht der Führungskraft."
+            }
           ]
         },
         {
           "id": "m4-t13-k3",
           "titel": "Phasen 5 bis 7: MA-Perspektive bis Abschluss",
-          "folien": [68],
+          "folien": [
+            68
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "In den letzten drei Phasen kommt zuerst der Mitarbeiter mit seinen eigenen Vorstellungen zu Wort. Danach wird konkret vereinbart und schriftlich festgehalten. Der Abschluss ist freundlich und zukunftsgerichtet, er bringt keine neuen Inhalte mehr." },
-            { "typ": "tabelle", "kopf": ["Gesprächsphase", "Inhalt laut Folie 68"], "zeilen": [
-              ["**MA-Perspektive:**", "eigene Zielvorstellungen schildern lassen, Karriereziele besprechen, Wünsche zu Tätigkeitsinhalten erfragen, Vorsätze oder Vorschläge abfragen, etwaige Vorbehalte des MA registrieren und besprechen"],
-              ["**Vereinbarung:**", "konkrete Arbeits-und Entwicklungsziele vereinbaren, Kompetenzen ggf. neu festlegen, Maßnahmen herunterbrechen, Kontrolltermine vereinbaren, Vereinbarungen schriftlich fixieren"],
-              ["**Abschluss:**", "beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support offerieren, Dank an MA für konstruktive Vorgehensweise, Zuversicht für künftige Kooperation äußern"]
-            ] },
-            { "typ": "einfach", "text": "Nur in der Phase **Vereinbarung** wird etwas festgelegt: konkrete Ziele, Kompetenzen, Maßnahmen, Kontrolltermine, und alles schriftlich. Wer im Gespräch zu früh dorthin springt, überspringt den Rückblick und die Sicht des Mitarbeiters." }
+            {
+              "typ": "einfach",
+              "text": "In den letzten drei Phasen kommt zuerst der Mitarbeiter mit seinen eigenen Vorstellungen zu Wort. Danach wird konkret vereinbart und schriftlich festgehalten. Der Abschluss ist freundlich und zukunftsgerichtet, er bringt keine neuen Inhalte mehr."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Gesprächsphase",
+                "Inhalt laut Folie 68"
+              ],
+              "zeilen": [
+                [
+                  "**MA-Perspektive:**",
+                  "eigene Zielvorstellungen schildern lassen, Karriereziele besprechen, Wünsche zu Tätigkeitsinhalten erfragen, Vorsätze oder Vorschläge abfragen, etwaige Vorbehalte des MA registrieren und besprechen"
+                ],
+                [
+                  "**Vereinbarung:**",
+                  "konkrete Arbeits-und Entwicklungsziele vereinbaren, Kompetenzen ggf. neu festlegen, Maßnahmen herunterbrechen, Kontrolltermine vereinbaren, Vereinbarungen schriftlich fixieren"
+                ],
+                [
+                  "**Abschluss:**",
+                  "beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support offerieren, Dank an MA für konstruktive Vorgehensweise, Zuversicht für künftige Kooperation äußern"
+                ]
+              ]
+            },
+            {
+              "typ": "einfach",
+              "text": "Nur in der Phase **Vereinbarung** wird etwas festgelegt: konkrete Ziele, Kompetenzen, Maßnahmen, Kontrolltermine, und alles schriftlich. Wer im Gespräch zu früh dorthin springt, überspringt den Rückblick und die Sicht des Mitarbeiters."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t13-a01", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "zv-phasen", "karte": "m4-t13-k1", "folien": [68],
+        {
+          "id": "m4-t13-a01",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "zv-phasen",
+          "karte": "m4-t13-k1",
+          "folien": [
+            68
+          ],
           "frage": "Bringe die Gesprächsphasen in die Reihenfolge der Folie 68.",
-          "elemente": ["Vorbereitung", "Eröffnung", "Rückblick", "Leistungsziele", "MA-Perspektive", "Vereinbarung", "Abschluss"],
+          "elemente": [
+            "Vorbereitung",
+            "Eröffnung",
+            "Rückblick",
+            "Leistungsziele",
+            "MA-Perspektive",
+            "Vereinbarung",
+            "Abschluss"
+          ],
           "erklaerung": "Der Leitfaden nennt sieben Phasen in dieser Reihenfolge: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss.",
-          "beleg": "Vorbereitung: letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren", "belegQuelle": "folie-40",
-          "kurz": "Reihenfolge: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss." },
-        { "id": "m4-t13-a02", "typ": "zuordnung", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "zv-phaseninhalte", "karte": "m4-t13-k2", "folien": [68],
-          "frage": "Ordne jeder Phase den Inhalt zu, den die Folie 68 dort nennt.", "linksTitel": "Gesprächsphase", "rechtsTitel": "Inhalt laut Folie 68",
+          "beleg": "Vorbereitung: letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren",
+          "belegQuelle": "folie-40",
+          "kurz": "Reihenfolge: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss."
+        },
+        {
+          "id": "m4-t13-a02",
+          "typ": "zuordnung",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "zv-phaseninhalte",
+          "karte": "m4-t13-k2",
+          "folien": [
+            68
+          ],
+          "frage": "Ordne jeder Phase den Inhalt zu, den die Folie 68 dort nennt.",
+          "linksTitel": "Gesprächsphase",
+          "rechtsTitel": "Inhalt laut Folie 68",
           "paare": [
-            { "links": "Eröffnung", "rechts": "geeignete Sitzposition einnehmen (nicht gegenüber!)" },
-            { "links": "Rückblick", "rechts": "Selbsteinschätzung des Erreichten durch MA" },
-            { "links": "Leistungsziele", "rechts": "break-down der Unternehmensziele auf Bereichs-/Abteilungsebene erklären" },
-            { "links": "MA-Perspektive", "rechts": "Karriereziele besprechen, Wünsche zu Tätigkeitsinhalten erfragen" },
-            { "links": "Vereinbarung", "rechts": "Kontrolltermine vereinbaren, Vereinbarungen schriftlich fixieren" }
+            {
+              "links": "Eröffnung",
+              "rechts": "geeignete Sitzposition einnehmen (nicht gegenüber!)"
+            },
+            {
+              "links": "Rückblick",
+              "rechts": "Selbsteinschätzung des Erreichten durch MA"
+            },
+            {
+              "links": "Leistungsziele",
+              "rechts": "break-down der Unternehmensziele auf Bereichs-/Abteilungsebene erklären"
+            },
+            {
+              "links": "MA-Perspektive",
+              "rechts": "Karriereziele besprechen, Wünsche zu Tätigkeitsinhalten erfragen"
+            },
+            {
+              "links": "Vereinbarung",
+              "rechts": "Kontrolltermine vereinbaren, Vereinbarungen schriftlich fixieren"
+            }
           ],
           "erklaerung": "Jede Phase hat ein Erkennungsmerkmal: Sitzposition in der Eröffnung, Selbsteinschätzung im Rückblick, break-down bei den Leistungszielen, Karriereziele in der MA-Perspektive, Kontrolltermine in der Vereinbarung.",
-          "beleg": "geeignete Sitzposition einnehmen (nicht gegenüber!)", "belegQuelle": "folie-40",
-          "kurz": "Erkennungsmerkmale: Sitzposition, Selbsteinschätzung, break-down, Karriereziele, Kontrolltermine." },
-        { "id": "m4-t13-a03", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "zv-phaseninhalte", "karte": "m4-t13-k2", "folien": [68],
+          "beleg": "geeignete Sitzposition einnehmen (nicht gegenüber!)",
+          "belegQuelle": "folie-40",
+          "kurz": "Erkennungsmerkmale: Sitzposition, Selbsteinschätzung, break-down, Karriereziele, Kontrolltermine."
+        },
+        {
+          "id": "m4-t13-a03",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "zv-phaseninhalte",
+          "karte": "m4-t13-k2",
+          "folien": [
+            68
+          ],
           "frage": "In welcher Phase soll die Führungskraft die Sitzposition wählen, und zwar ausdrücklich **nicht gegenüber**?",
-          "optionen": ["Eröffnung", "Vorbereitung", "Rückblick", "Abschluss"], "richtig": 0,
+          "optionen": [
+            "Eröffnung",
+            "Vorbereitung",
+            "Rückblick",
+            "Abschluss"
+          ],
+          "richtig": 0,
           "erklaerung": "Die Eröffnung umfasst freundliche Begrüßung, geeignete Sitzposition (nicht gegenüber!), Zweck und Ablauf des Gesprächs sowie die Verbindlichkeit der ZV.",
-          "beleg": "freundliche Begrüßung, geeignete Sitzposition einnehmen (nicht gegenüber!)", "belegQuelle": "folie-40",
-          "kurz": "Sitzposition, nicht gegenüber: gehört zur Eröffnung." },
-        { "id": "m4-t13-a04", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "zv-phaseninhalte", "karte": "m4-t13-k2", "folien": [68],
+          "beleg": "freundliche Begrüßung, geeignete Sitzposition einnehmen (nicht gegenüber!)",
+          "belegQuelle": "folie-40",
+          "kurz": "Sitzposition, nicht gegenüber: gehört zur Eröffnung."
+        },
+        {
+          "id": "m4-t13-a04",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "zv-phaseninhalte",
+          "karte": "m4-t13-k2",
+          "folien": [
+            68
+          ],
           "frage": "Was gehört laut Folie 68 zur **Vorbereitung**?",
-          "optionen": ["letzte ZV und Ergebnisse reflektieren", "neue Bereichsziele studieren", "günstige Bedingungen schaffen: Zeit, Ruhe, Konzentration", "Zweck und Ablauf des Gesprächs schildern", "Kontrolltermine vereinbaren"], "richtig": [0, 1, 2],
+          "optionen": [
+            "letzte ZV und Ergebnisse reflektieren",
+            "neue Bereichsziele studieren",
+            "günstige Bedingungen schaffen: Zeit, Ruhe, Konzentration",
+            "Zweck und Ablauf des Gesprächs schildern",
+            "Kontrolltermine vereinbaren"
+          ],
+          "richtig": [
+            0,
+            1,
+            2
+          ],
           "erklaerung": "Zweck und Ablauf schildern gehört zur Eröffnung, Kontrolltermine vereinbaren zur Vereinbarung. Die Vorbereitung passiert vor dem Termin.",
-          "beleg": "letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren", "belegQuelle": "folie-40",
-          "kurz": "Vorbereitung: alte ZV reflektieren, Bereichsziele studieren, Ziele ableiten, Termin vereinbaren, Bedingungen schaffen." },
-        { "id": "m4-t13-a05", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": false, "konzept": "zv-phaseninhalte", "karte": "m4-t13-k3", "folien": [68],
+          "beleg": "letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren",
+          "belegQuelle": "folie-40",
+          "kurz": "Vorbereitung: alte ZV reflektieren, Bereichsziele studieren, Ziele ableiten, Termin vereinbaren, Bedingungen schaffen."
+        },
+        {
+          "id": "m4-t13-a05",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "zv-phaseninhalte",
+          "karte": "m4-t13-k3",
+          "folien": [
+            68
+          ],
           "frage": "Sortiere die Inhalte der Phase zu, in der die Folie sie nennt.",
-          "kategorien": ["Rückblick", "Leistungsziele", "MA-Perspektive"],
+          "kategorien": [
+            "Rückblick",
+            "Leistungsziele",
+            "MA-Perspektive"
+          ],
           "elemente": [
-            { "text": "MA-Feedback zur abgelaufenen Periode", "kategorie": 0 },
-            { "text": "Gründe für evt. Zielabweichungen gemeinsam erörtern", "kategorie": 0 },
-            { "text": "Gesamtsituation der Organisation beschreiben", "kategorie": 1 },
-            { "text": "externe und interne Entwicklungen aufzeigen", "kategorie": 1 },
-            { "text": "eigene Zielvorstellungen schildern lassen", "kategorie": 2 },
-            { "text": "etwaige Vorbehalte des MA registrieren und besprechen", "kategorie": 2 }
+            {
+              "text": "MA-Feedback zur abgelaufenen Periode",
+              "kategorie": 0
+            },
+            {
+              "text": "Gründe für evt. Zielabweichungen gemeinsam erörtern",
+              "kategorie": 0
+            },
+            {
+              "text": "Gesamtsituation der Organisation beschreiben",
+              "kategorie": 1
+            },
+            {
+              "text": "externe und interne Entwicklungen aufzeigen",
+              "kategorie": 1
+            },
+            {
+              "text": "eigene Zielvorstellungen schildern lassen",
+              "kategorie": 2
+            },
+            {
+              "text": "etwaige Vorbehalte des MA registrieren und besprechen",
+              "kategorie": 2
+            }
           ],
           "erklaerung": "Der Rückblick schaut auf die abgelaufene Periode, die Leistungsziele auf die Lage der Organisation, die MA-Perspektive auf die Wünsche und Vorbehalte des Mitarbeiters.",
-          "beleg": "Gesamtsituation der Organisation beschreiben, externe und interne Entwicklungen aufzeigen", "belegQuelle": "folie-40",
-          "kurz": "Rückblick = Vergangenheit, Leistungsziele = Organisation, MA-Perspektive = Wünsche des Mitarbeiters." },
-        { "id": "m4-t13-a06", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "zv-vereinbarung", "karte": "m4-t13-k3", "folien": [68], "bank": true,
+          "beleg": "Gesamtsituation der Organisation beschreiben, externe und interne Entwicklungen aufzeigen",
+          "belegQuelle": "folie-40",
+          "kurz": "Rückblick = Vergangenheit, Leistungsziele = Organisation, MA-Perspektive = Wünsche des Mitarbeiters."
+        },
+        {
+          "id": "m4-t13-a06",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "zv-vereinbarung",
+          "karte": "m4-t13-k3",
+          "folien": [
+            68
+          ],
+          "bank": true,
           "frage": "Vervollständige die Phase **Vereinbarung**.",
           "text": "konkrete {_Arbeits-und Entwicklungsziele_} vereinbaren, {_Kompetenzen_} ggf. neu festlegen, Maßnahmen {_herunterbrechen_}, {_Kontrolltermine_} vereinbaren, Vereinbarungen {_schriftlich_} fixieren",
-          "zusatzBank": ["Bereichsziele", "Karriereziele", "Zielabweichungen"],
+          "zusatzBank": [
+            "Bereichsziele",
+            "Karriereziele",
+            "Zielabweichungen"
+          ],
           "erklaerung": "Fünf Schritte, die alle etwas festlegen. Der letzte ist der wichtigste: Vereinbarungen schriftlich fixieren.",
-          "beleg": "konkrete Arbeits-und Entwicklungsziele vereinbaren, Kompetenzen ggf. neu festlegen", "belegQuelle": "folie-40",
-          "kurz": "Vereinbarung: Ziele, Kompetenzen, Maßnahmen, Kontrolltermine, schriftlich fixieren." },
-        { "id": "m4-t13-a07", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": false, "konzept": "zv-phasen", "karte": "m4-t13-k3", "folien": [68],
+          "beleg": "konkrete Arbeits-und Entwicklungsziele vereinbaren, Kompetenzen ggf. neu festlegen",
+          "belegQuelle": "folie-40",
+          "kurz": "Vereinbarung: Ziele, Kompetenzen, Maßnahmen, Kontrolltermine, schriftlich fixieren."
+        },
+        {
+          "id": "m4-t13-a07",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "zv-phasen",
+          "karte": "m4-t13-k3",
+          "folien": [
+            68
+          ],
           "frage": "Was stimmt zum Leitfaden auf Folie 68?",
           "aussagen": [
-            { "text": "Konkrete Ziele werden erst in der Phase Vereinbarung festgelegt, nicht schon im Rückblick.", "wahr": true },
-            { "text": "Die Folie empfiehlt, sich dem Mitarbeiter im Gespräch gegenüber zu setzen.", "wahr": false, "korrektur": "Die Folie schreibt: geeignete Sitzposition einnehmen (nicht gegenüber!)." },
-            { "text": "Die Vereinbarungen sollen schriftlich fixiert werden.", "wahr": true },
-            { "text": "Der Abschluss dient dazu, dem MA seine Zielabweichungen vorzuhalten.", "wahr": false, "korrektur": "Der Abschluss nennt: beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support, Dank an MA und Zuversicht für künftige Kooperation. Zielabweichungen gehören in den Rückblick." }
+            {
+              "text": "Konkrete Ziele werden erst in der Phase Vereinbarung festgelegt, nicht schon im Rückblick.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie empfiehlt, sich dem Mitarbeiter im Gespräch gegenüber zu setzen.",
+              "wahr": false,
+              "korrektur": "Die Folie schreibt: geeignete Sitzposition einnehmen (nicht gegenüber!)."
+            },
+            {
+              "text": "Die Vereinbarungen sollen schriftlich fixiert werden.",
+              "wahr": true
+            },
+            {
+              "text": "Der Abschluss dient dazu, dem MA seine Zielabweichungen vorzuhalten.",
+              "wahr": false,
+              "korrektur": "Der Abschluss nennt: beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support, Dank an MA und Zuversicht für künftige Kooperation. Zielabweichungen gehören in den Rückblick."
+            }
           ],
           "erklaerung": "Zwei Details werden gern verwechselt: die Sitzposition und die Frage, in welcher Phase etwas festgelegt wird.",
-          "beleg": "beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support offerieren", "belegQuelle": "folie-40",
-          "kurz": "Nicht gegenüber sitzen; festgelegt wird in der Vereinbarung; der Abschluss würdigt und dankt." },
-        { "id": "m4-t13-a08", "typ": "erklaeren", "stufe": "anwenden", "schwierigkeit": 3, "kern": true, "konzept": "zv-phasen", "karte": "m4-t13-k1", "folien": [68],
+          "beleg": "beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support offerieren",
+          "belegQuelle": "folie-40",
+          "kurz": "Nicht gegenüber sitzen; festgelegt wird in der Vereinbarung; der Abschluss würdigt und dankt."
+        },
+        {
+          "id": "m4-t13-a08",
+          "typ": "erklaeren",
+          "stufe": "anwenden",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "zv-phasen",
+          "karte": "m4-t13-k1",
+          "folien": [
+            68
+          ],
           "frage": "Beschreibe den Leitfaden für ein Zielvereinbarungsgespräch: Welche Phasen nennt das Skript und was gehört in jede?",
           "musterloesung": "Das Skript nennt sieben Phasen. Vorbereitung: letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren, daraus individuelle Ziele ableiten, Termin mit dem MA vereinbaren, günstige Bedingungen schaffen (Zeit, Ruhe, Konzentration). Eröffnung: freundliche Begrüßung, geeignete Sitzposition (nicht gegenüber), Zweck und Ablauf schildern, Verbindlichkeit der ZV herausstellen. Rückblick: MA-Feedback zur abgelaufenen Periode, Selbsteinschätzung des Erreichten durch den MA, Gründe für Zielabweichungen gemeinsam erörtern, dann die FK-Perspektive der Zielerreichung. Leistungsziele: Gesamtsituation der Organisation beschreiben, externe und interne Entwicklungen aufzeigen, break-down der Unternehmensziele auf Bereichs- und Abteilungsebene erklären, Ableitung der MA-Ziele aufzeigen, ggf. zusätzliche Anforderungen und Fähigkeiten aufzeigen. MA-Perspektive: eigene Zielvorstellungen schildern lassen, Karriereziele besprechen, Wünsche zu Tätigkeitsinhalten erfragen, Vorsätze oder Vorschläge abfragen, Vorbehalte registrieren und besprechen. Vereinbarung: konkrete Arbeits- und Entwicklungsziele vereinbaren, Kompetenzen ggf. neu festlegen, Maßnahmen herunterbrechen, Kontrolltermine vereinbaren, Vereinbarungen schriftlich fixieren. Abschluss: beiderseitige Würdigung des Gesprächs, Offenheit für Rückfragen und Support, Dank an den MA, Zuversicht für die künftige Kooperation.",
-          "checkliste": ["Alle sieben Phasen in richtiger Reihenfolge genannt", "Vorbereitung: alte ZV, Bereichsziele, Termin, Zeit/Ruhe/Konzentration", "Eröffnung mit Sitzposition (nicht gegenüber) und Verbindlichkeit der ZV", "Rückblick: erst MA-Feedback und Selbsteinschätzung, dann FK-Perspektive", "Leistungsziele mit break-down der Unternehmensziele; MA-Perspektive mit Karrierezielen und Vorbehalten", "Vereinbarung mit Kontrollterminen und schriftlicher Fixierung, Abschluss mit Würdigung und Dank"],
+          "checkliste": [
+            "Alle sieben Phasen in richtiger Reihenfolge genannt",
+            "Vorbereitung: alte ZV, Bereichsziele, Termin, Zeit/Ruhe/Konzentration",
+            "Eröffnung mit Sitzposition (nicht gegenüber) und Verbindlichkeit der ZV",
+            "Rückblick: erst MA-Feedback und Selbsteinschätzung, dann FK-Perspektive",
+            "Leistungsziele mit break-down der Unternehmensziele; MA-Perspektive mit Karrierezielen und Vorbehalten",
+            "Vereinbarung mit Kontrollterminen und schriftlicher Fixierung, Abschluss mit Würdigung und Dank"
+          ],
           "erklaerung": "Diese Folie ist als Lernstoff markiert. Für die Klausur zählt, dass du die Phasen in der richtigen Reihenfolge nennst und zu jeder mindestens zwei Inhalte angeben kannst.",
-          "beleg": "letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren, daraus Ableitung individueller Ziele", "belegQuelle": "folie-40",
-          "kurz": "Sieben Phasen mit je eigenen Inhalten, von der Vorbereitung bis zum Abschluss." },
-        { "id": "m4-t13-a09", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": true, "konzept": "zv-phasen", "karte": "m4-t13-k1", "folien": [68],
+          "beleg": "letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren, daraus Ableitung individueller Ziele",
+          "belegQuelle": "folie-40",
+          "kurz": "Sieben Phasen mit je eigenen Inhalten, von der Vorbereitung bis zum Abschluss."
+        },
+        {
+          "id": "m4-t13-a09",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "zv-phasen",
+          "karte": "m4-t13-k1",
+          "folien": [
+            68
+          ],
           "szenario": "Übungsfall: Du führst als Teamleiterin in der Filiale das Zielvereinbarungsgespräch mit einem Berater. Nach der Begrüßung legst du sofort die neuen Jahresziele auf den Tisch und bittest um Unterschrift. Der Berater wirkt verschlossen und sagt kaum etwas.",
           "frage": "Welche Phasen des Leitfadens hast du übersprungen?",
-          "optionen": ["Rückblick und MA-Perspektive: Selbsteinschätzung des Erreichten und die eigenen Zielvorstellungen des MA fehlen.", "Vorbereitung und Eröffnung: Terminvereinbarung und freundliche Begrüßung fehlen.", "Leistungsziele und Vereinbarung: die Unternehmensziele wurden nicht heruntergebrochen."], "richtig": 0,
+          "optionen": [
+            "Rückblick und MA-Perspektive: Selbsteinschätzung des Erreichten und die eigenen Zielvorstellungen des MA fehlen.",
+            "Vorbereitung und Eröffnung: Terminvereinbarung und freundliche Begrüßung fehlen.",
+            "Leistungsziele und Vereinbarung: die Unternehmensziele wurden nicht heruntergebrochen."
+          ],
+          "richtig": 0,
           "erklaerung": "Nach der Eröffnung folgen im Leitfaden der Rückblick (MA-Feedback, Selbsteinschätzung) und später die MA-Perspektive (eigene Zielvorstellungen, Vorbehalte). Beides wurde übersprungen, deshalb bleibt der Mitarbeiter stumm.",
-          "beleg": "MA-Feedback zur abgelaufenen Periode, Selbsteinschätzung des Erreichten durch MA", "belegQuelle": "folie-40",
-          "kurz": "Ohne Rückblick und MA-Perspektive fehlt dem Gespräch die Sicht des Mitarbeiters." },
-        { "id": "m4-t13-a10", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "zv-phasen", "karte": "m4-t13-k1", "folien": [68],
+          "beleg": "MA-Feedback zur abgelaufenen Periode, Selbsteinschätzung des Erreichten durch MA",
+          "belegQuelle": "folie-40",
+          "kurz": "Ohne Rückblick und MA-Perspektive fehlt dem Gespräch die Sicht des Mitarbeiters."
+        },
+        {
+          "id": "m4-t13-a10",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "zv-phasen",
+          "karte": "m4-t13-k1",
+          "folien": [
+            68
+          ],
           "vorne": "Nenne die sieben Gesprächsphasen des Zielvereinbarungsgesprächs in der richtigen Reihenfolge.",
           "hinten": "1. **Vorbereitung**\n2. **Eröffnung**\n3. **Rückblick**\n4. **Leistungsziele**\n5. **MA-Perspektive**\n6. **Vereinbarung**\n7. **Abschluss**",
           "erklaerung": "Die Folie ist als Lernstoff markiert und nennt die Phasen in genau dieser Reihenfolge.",
-          "beleg": "grober Leitfaden zur Gesprächsgestaltung", "belegQuelle": "folie-40",
-          "kurz": "Sieben Phasen: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss." }
+          "beleg": "grober Leitfaden zur Gesprächsgestaltung",
+          "belegQuelle": "folie-40",
+          "kurz": "Sieben Phasen: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss."
+        }
       ],
       "lernzettel": {
-        "kompakt": ["**Folie 68 (Lernstoff), ZV-Gespräch, sieben Phasen:** Vorbereitung – Eröffnung – Rückblick – Leistungsziele – MA-Perspektive – Vereinbarung – Abschluss.", "**Merkpunkte:** Sitzposition nicht gegenüber (Eröffnung); erst MA-Selbsteinschätzung, dann FK-Perspektive (Rückblick); Kontrolltermine und schriftliche Fixierung (Vereinbarung)."],
+        "kompakt": [
+          "**Folie 68 (Lernstoff), ZV-Gespräch, sieben Phasen:** Vorbereitung – Eröffnung – Rückblick – Leistungsziele – MA-Perspektive – Vereinbarung – Abschluss.",
+          "**Merkpunkte:** Sitzposition nicht gegenüber (Eröffnung); erst MA-Selbsteinschätzung, dann FK-Perspektive (Rückblick); Kontrolltermine und schriftliche Fixierung (Vereinbarung)."
+        ],
         "ausfuehrlich": [
           "**Vorbereitung:** letzte ZV und Ergebnisse reflektieren, neue Bereichsziele studieren, daraus Ableitung individueller Ziele, Terminvereinbarung mit MA, günstige Bedingungen schaffen: Zeit, Ruhe, Konzentration.",
           "**Eröffnung:** freundliche Begrüßung, geeignete Sitzposition einnehmen (nicht gegenüber!), Zweck und Ablauf des Gesprächs schildern, Verbindlichkeit der ZV herausstellen.",
@@ -426,98 +1261,324 @@
     {
       "id": "m4-t14",
       "titel": "Kriterien für herausfordernde und spezifische Ziele",
-      "folien": [68],
+      "folien": [
+        68
+      ],
       "gewicht": 3,
       "lernstoff": true,
       "lernkarten": [
         {
           "id": "m4-t14-k1",
           "titel": "Fünf Kriterien und fünf Buchstaben",
-          "folien": [68],
+          "folien": [
+            68
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Unter dem Gesprächsleitfaden steht ein grün hinterlegter, doppelt umrandeter Kasten. Links nennt er fünf Kriterien dafür, wann ein Ziel herausfordernd und spezifisch ist. Rechts stehen fünf Buchstaben mit ihrer Bedeutung, die [[SMART]]-Buchstaben. Beide Listen gehören zur Folie 68 und damit zum Lernstoff." },
-            { "typ": "text", "text": "Kasten unten (hellgrün hinterlegt, doppelt umrandet):\n\n**Kriterien für herausfordernde und spezifische Ziele:**" },
-            { "typ": "liste", "titel": "Die fünf Kriterien (linke Spalte des Kastens)", "punkte": ["Konkret, spezifisch, messbar", "Herausfordernd, schwierig, erreichbar", "Erreichung intern kontrollierbar", "Motivierend (Sinn, Werte)", "Konfliktfrei (keine Zielkonflikte)"] },
-            { "typ": "liste", "titel": "Die fünf Buchstaben (rechte Spalte des Kastens)", "geordnet": true, "punkte": ["**S**: Spezifisch", "**M**: Messbar", "**A**: Aktiv beeinflussbar", "**R**: Relevant", "**T**: Terminiert"] },
-            { "typ": "hinweis", "text": "Im Kriterienkasten stehen die fünf Kriterien links und die [[SMART]]-Buchstaben rechts nur nebeneinander in einer Zeile. Die Folie sagt nicht, ob die linke Zeile inhaltlich zum rechts stehenden Buchstaben gehört. Deshalb lernst du hier beide Listen getrennt, und diese Lernumgebung behauptet keine Zuordnung, die das Skript nicht hergibt." },
-            { "typ": "skriptluecke", "id": "m4-t14-smart-zuordnung", "text": "Die Folie lässt offen, welches Kriterium zu welchem Buchstaben gehört. Falls der Dozent das in der Vorlesung gesagt hat, trage es hier aus deiner Mitschrift ein. Diese Lernumgebung füllt es bewusst nicht.", "felder": [
-              { "id": "s", "label": "S: Spezifisch – welches Kriterium gehört dazu?" },
-              { "id": "m", "label": "M: Messbar – welches Kriterium gehört dazu?" },
-              { "id": "a", "label": "A: Aktiv beeinflussbar – welches Kriterium gehört dazu?" },
-              { "id": "r", "label": "R: Relevant – welches Kriterium gehört dazu?" },
-              { "id": "t", "label": "T: Terminiert – welches Kriterium gehört dazu?" }
-            ] },
-            { "typ": "einfach", "text": "Der Kasten steht direkt unter dem Leitfaden. Der Zusammenhang ist damit klar: In der Phase **Vereinbarung** werden konkrete Ziele vereinbart, und diese Kriterien sagen, wie ein gutes Ziel aussehen muss." },
-            { "typ": "merkhilfe", "text": "Die fünf Buchstaben ergeben von oben nach unten das Wort SMART. Die Buchstaben sind auf der Folie rot gedruckt, der übrige Kastentext schwarz und fett." }
+            {
+              "typ": "einfach",
+              "text": "Unter dem Gesprächsleitfaden steht ein grün hinterlegter, doppelt umrandeter Kasten. Links nennt er fünf Kriterien dafür, wann ein Ziel herausfordernd und spezifisch ist. Rechts stehen fünf Buchstaben mit ihrer Bedeutung, die [[SMART]]-Buchstaben. Beide Listen gehören zur Folie 68 und damit zum Lernstoff."
+            },
+            {
+              "typ": "text",
+              "text": "Kasten unten (hellgrün hinterlegt, doppelt umrandet):\n\n**Kriterien für herausfordernde und spezifische Ziele:**"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die fünf Kriterien (linke Spalte des Kastens)",
+              "punkte": [
+                "Konkret, spezifisch, messbar",
+                "Herausfordernd, schwierig, erreichbar",
+                "Erreichung intern kontrollierbar",
+                "Motivierend (Sinn, Werte)",
+                "Konfliktfrei (keine Zielkonflikte)"
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Die fünf Buchstaben (rechte Spalte des Kastens)",
+              "geordnet": true,
+              "punkte": [
+                "**S**: Spezifisch",
+                "**M**: Messbar",
+                "**A**: Aktiv beeinflussbar",
+                "**R**: Relevant",
+                "**T**: Terminiert"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Im Kriterienkasten stehen die fünf Kriterien links und die [[SMART]]-Buchstaben rechts nur nebeneinander in einer Zeile. Die Folie sagt nicht, ob die linke Zeile inhaltlich zum rechts stehenden Buchstaben gehört. Deshalb lernst du hier beide Listen getrennt, und diese Lernumgebung behauptet keine Zuordnung, die das Skript nicht hergibt."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m4-t14-smart-zuordnung",
+              "text": "Die Folie lässt offen, welches Kriterium zu welchem Buchstaben gehört. Falls der Dozent das in der Vorlesung gesagt hat, trage es hier aus deiner Mitschrift ein. Diese Lernumgebung füllt es bewusst nicht.",
+              "felder": [
+                {
+                  "id": "s",
+                  "label": "S: Spezifisch – welches Kriterium gehört dazu?"
+                },
+                {
+                  "id": "m",
+                  "label": "M: Messbar – welches Kriterium gehört dazu?"
+                },
+                {
+                  "id": "a",
+                  "label": "A: Aktiv beeinflussbar – welches Kriterium gehört dazu?"
+                },
+                {
+                  "id": "r",
+                  "label": "R: Relevant – welches Kriterium gehört dazu?"
+                },
+                {
+                  "id": "t",
+                  "label": "T: Terminiert – welches Kriterium gehört dazu?"
+                }
+              ]
+            },
+            {
+              "typ": "einfach",
+              "text": "Der Kasten steht direkt unter dem Leitfaden. Der Zusammenhang ist damit klar: In der Phase **Vereinbarung** werden konkrete Ziele vereinbart, und diese Kriterien sagen, wie ein gutes Ziel aussehen muss."
+            },
+            {
+              "typ": "merkhilfe",
+              "text": "Die fünf Buchstaben ergeben von oben nach unten das Wort SMART. Die Buchstaben sind auf der Folie rot gedruckt, der übrige Kastentext schwarz und fett."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m4-t14-a01", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "smart-buchstaben", "karte": "m4-t14-k1", "folien": [68],
-          "frage": "Ordne jedem Buchstaben die Bedeutung zu, die der Kasten auf Folie 68 nennt.", "linksTitel": "Buchstabe", "rechtsTitel": "Bedeutung laut Folie 68",
+        {
+          "id": "m4-t14-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "smart-buchstaben",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
+          "frage": "Ordne jedem Buchstaben die Bedeutung zu, die der Kasten auf Folie 68 nennt.",
+          "linksTitel": "Buchstabe",
+          "rechtsTitel": "Bedeutung laut Folie 68",
           "paare": [
-            { "links": "S", "rechts": "Spezifisch" },
-            { "links": "M", "rechts": "Messbar" },
-            { "links": "A", "rechts": "Aktiv beeinflussbar" },
-            { "links": "R", "rechts": "Relevant" },
-            { "links": "T", "rechts": "Terminiert" }
+            {
+              "links": "S",
+              "rechts": "Spezifisch"
+            },
+            {
+              "links": "M",
+              "rechts": "Messbar"
+            },
+            {
+              "links": "A",
+              "rechts": "Aktiv beeinflussbar"
+            },
+            {
+              "links": "R",
+              "rechts": "Relevant"
+            },
+            {
+              "links": "T",
+              "rechts": "Terminiert"
+            }
           ],
           "erklaerung": "Achte auf das A: Die Folie schreibt Aktiv beeinflussbar, nicht Attraktiv oder Akzeptiert.",
-          "beleg": "S: Spezifisch … M: Messbar … A: Aktiv beeinflussbar … R: Relevant … T: Terminiert", "belegQuelle": "folie-40",
-          "kurz": "S Spezifisch, M Messbar, A Aktiv beeinflussbar, R Relevant, T Terminiert." },
-        { "id": "m4-t14-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "ziel-kriterien", "karte": "m4-t14-k1", "folien": [68],
+          "beleg": "S: Spezifisch … M: Messbar … A: Aktiv beeinflussbar … R: Relevant … T: Terminiert",
+          "belegQuelle": "folie-40",
+          "kurz": "S Spezifisch, M Messbar, A Aktiv beeinflussbar, R Relevant, T Terminiert."
+        },
+        {
+          "id": "m4-t14-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "ziel-kriterien",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
           "frage": "Welche Kriterien für herausfordernde und spezifische Ziele nennt der Kasten auf Folie 68?",
-          "optionen": ["Konkret, spezifisch, messbar", "Herausfordernd, schwierig, erreichbar", "Erreichung intern kontrollierbar", "Schriftlich fixiert", "Motivierend (Sinn, Werte)", "Konfliktfrei (keine Zielkonflikte)"], "richtig": [0, 1, 2, 4, 5],
+          "optionen": [
+            "Konkret, spezifisch, messbar",
+            "Herausfordernd, schwierig, erreichbar",
+            "Erreichung intern kontrollierbar",
+            "Schriftlich fixiert",
+            "Motivierend (Sinn, Werte)",
+            "Konfliktfrei (keine Zielkonflikte)"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
           "erklaerung": "„Vereinbarungen schriftlich fixieren“ steht auf derselben Folie, aber im Leitfaden unter der Phase Vereinbarung, nicht im Kriterienkasten.",
-          "beleg": "Kriterien für herausfordernde und spezifische Ziele:", "belegQuelle": "folie-40",
-          "kurz": "Fünf Kriterien: konkret/spezifisch/messbar, herausfordernd/schwierig/erreichbar, intern kontrollierbar, motivierend, konfliktfrei." },
-        { "id": "m4-t14-a03", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "smart-buchstaben", "karte": "m4-t14-k1", "folien": [68], "bank": true,
+          "beleg": "Kriterien für herausfordernde und spezifische Ziele:",
+          "belegQuelle": "folie-40",
+          "kurz": "Fünf Kriterien: konkret/spezifisch/messbar, herausfordernd/schwierig/erreichbar, intern kontrollierbar, motivierend, konfliktfrei."
+        },
+        {
+          "id": "m4-t14-a03",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "smart-buchstaben",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
+          "bank": true,
           "frage": "Vervollständige die Bedeutungen der fünf Buchstaben.",
           "text": "S: {_Spezifisch_}\nM: {_Messbar_}\nA: {_Aktiv beeinflussbar_}\nR: {_Relevant_}\nT: {_Terminiert_}",
-          "zusatzBank": ["Erreichbar", "Konfliktfrei", "Motivierend"],
+          "zusatzBank": [
+            "Erreichbar",
+            "Konfliktfrei",
+            "Motivierend"
+          ],
           "erklaerung": "Die Wortbank enthält auch Wörter aus der linken Spalte des Kastens. Sie gehören dort zu den Kriterien, nicht zu den Buchstaben.",
-          "beleg": "M: Messbar … A: Aktiv beeinflussbar … T: Terminiert", "belegQuelle": "folie-40",
-          "kurz": "A steht für Aktiv beeinflussbar, T für Terminiert." },
-        { "id": "m4-t14-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "ziel-kriterien", "karte": "m4-t14-k1", "folien": [68],
+          "beleg": "M: Messbar … A: Aktiv beeinflussbar … T: Terminiert",
+          "belegQuelle": "folie-40",
+          "kurz": "A steht für Aktiv beeinflussbar, T für Terminiert."
+        },
+        {
+          "id": "m4-t14-a04",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "ziel-kriterien",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
           "frage": "Was stimmt zum Kriterienkasten auf Folie 68?",
           "aussagen": [
-            { "text": "Der Kasten nennt fünf Kriterien und fünf Buchstaben mit Bedeutung.", "wahr": true },
-            { "text": "Die Folie sagt ausdrücklich, welches Kriterium zu welchem Buchstaben gehört.", "wahr": false, "korrektur": "Die fünf Kriterien stehen links und die SMART-Buchstaben rechts nur nebeneinander in einer Zeile. Die Folie sagt nicht, ob die linke Zeile zum rechts stehenden Buchstaben gehört." },
-            { "text": "Nach dem Kasten soll ein Ziel herausfordernd, schwierig und trotzdem erreichbar sein.", "wahr": true },
-            { "text": "Der Kasten verlangt, dass die Zielerreichung von außen bestimmt wird.", "wahr": false, "korrektur": "Der Kasten nennt: Erreichung intern kontrollierbar." }
+            {
+              "text": "Der Kasten nennt fünf Kriterien und fünf Buchstaben mit Bedeutung.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie sagt ausdrücklich, welches Kriterium zu welchem Buchstaben gehört.",
+              "wahr": false,
+              "korrektur": "Die fünf Kriterien stehen links und die SMART-Buchstaben rechts nur nebeneinander in einer Zeile. Die Folie sagt nicht, ob die linke Zeile zum rechts stehenden Buchstaben gehört."
+            },
+            {
+              "text": "Nach dem Kasten soll ein Ziel herausfordernd, schwierig und trotzdem erreichbar sein.",
+              "wahr": true
+            },
+            {
+              "text": "Der Kasten verlangt, dass die Zielerreichung von außen bestimmt wird.",
+              "wahr": false,
+              "korrektur": "Der Kasten nennt: Erreichung intern kontrollierbar."
+            }
           ],
           "erklaerung": "Die zweite Aussage ist die wichtigste Stolperstelle: Die Folie stellt beide Spalten nur nebeneinander, ohne die Zuordnung auszusprechen.",
-          "beleg": "Im Kriterienkasten stehen die fünf Kriterien links und die SMART-Buchstaben rechts nur nebeneinander in einer Zeile", "belegQuelle": "folie-40",
-          "kurz": "Fünf Kriterien links, fünf Buchstaben rechts; die Folie spricht keine Zuordnung aus." },
-        { "id": "m4-t14-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "ziel-kriterien", "karte": "m4-t14-k1", "folien": [68],
+          "beleg": "Im Kriterienkasten stehen die fünf Kriterien links und die SMART-Buchstaben rechts nur nebeneinander in einer Zeile",
+          "belegQuelle": "folie-40",
+          "kurz": "Fünf Kriterien links, fünf Buchstaben rechts; die Folie spricht keine Zuordnung aus."
+        },
+        {
+          "id": "m4-t14-a05",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "ziel-kriterien",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
           "frage": "Welche Kriterien nennt das Skript für herausfordernde und spezifische Ziele? Zähle sie auf und erkläre, was die fünf Buchstaben bedeuten.",
           "musterloesung": "Der grüne Kasten unter dem Gesprächsleitfaden nennt fünf Kriterien: konkret, spezifisch, messbar; herausfordernd, schwierig, erreichbar; Erreichung intern kontrollierbar; motivierend (Sinn, Werte); konfliktfrei (keine Zielkonflikte). Rechts daneben stehen fünf Buchstaben mit ihrer Bedeutung: S für Spezifisch, M für Messbar, A für Aktiv beeinflussbar, R für Relevant, T für Terminiert. Der Zusammenhang: Der Kasten steht unter dem Leitfaden für das Zielvereinbarungsgespräch und sagt, wie die Ziele aussehen müssen, die in der Phase Vereinbarung festgelegt werden. Wichtig ist eine Einschränkung: Die Folie stellt Kriterien und Buchstaben nur nebeneinander und sagt nicht, welches Kriterium zu welchem Buchstaben gehört.",
-          "checkliste": ["Alle fünf Kriterien genannt", "Alle fünf Buchstaben mit Bedeutung genannt, A = Aktiv beeinflussbar", "Zusammenhang genannt: Kasten steht unter dem Leitfaden zum Zielvereinbarungsgespräch", "Gesagt, dass die Folie die Zuordnung Kriterium zu Buchstabe offen lässt"],
+          "checkliste": [
+            "Alle fünf Kriterien genannt",
+            "Alle fünf Buchstaben mit Bedeutung genannt, A = Aktiv beeinflussbar",
+            "Zusammenhang genannt: Kasten steht unter dem Leitfaden zum Zielvereinbarungsgespräch",
+            "Gesagt, dass die Folie die Zuordnung Kriterium zu Buchstabe offen lässt"
+          ],
           "erklaerung": "Wer beide Listen sauber nennt und die offene Zuordnung erwähnt, liegt näher am Skript als jede aus dem Gedächtnis ergänzte SMART-Standarddefinition.",
-          "beleg": "Kriterien für herausfordernde und spezifische Ziele:", "belegQuelle": "folie-40",
-          "kurz": "Fünf Kriterien plus S/M/A/R/T mit Bedeutung; die Zuordnung untereinander lässt die Folie offen." },
-        { "id": "m4-t14-a06", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": true, "konzept": "ziel-kriterien", "karte": "m4-t14-k1", "folien": [68],
+          "beleg": "Kriterien für herausfordernde und spezifische Ziele:",
+          "belegQuelle": "folie-40",
+          "kurz": "Fünf Kriterien plus S/M/A/R/T mit Bedeutung; die Zuordnung untereinander lässt die Folie offen."
+        },
+        {
+          "id": "m4-t14-a06",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "ziel-kriterien",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
           "szenario": "Übungsfall: Im Zielvereinbarungsgespräch hältst du mit einem Berater fest: „Sie strengen sich in Zukunft mehr an.“",
           "frage": "Welche Vorgaben des Kastens auf Folie 68 verfehlt dieses Ziel am deutlichsten?",
-          "optionen": ["Es ist weder konkret, spezifisch und messbar noch terminiert.", "Es ist nicht intern kontrollierbar und nicht relevant.", "Es ist nicht herausfordernd, dafür aber messbar."], "richtig": 0,
+          "optionen": [
+            "Es ist weder konkret, spezifisch und messbar noch terminiert.",
+            "Es ist nicht intern kontrollierbar und nicht relevant.",
+            "Es ist nicht herausfordernd, dafür aber messbar."
+          ],
+          "richtig": 0,
           "erklaerung": "„Mehr anstrengen“ ist weder konkret noch messbar, „in Zukunft“ nennt keinen Termin. Der Kasten verlangt konkret, spezifisch, messbar und über den Buchstaben T auch terminiert.",
-          "beleg": "Konkret, spezifisch, messbar … T: Terminiert", "belegQuelle": "folie-40",
-          "kurz": "„Mehr anstrengen bis irgendwann“ verfehlt konkret, spezifisch, messbar und terminiert." },
-        { "id": "m4-t14-a07", "typ": "sortieren", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "smart-buchstaben", "karte": "m4-t14-k1", "folien": [68],
+          "beleg": "Konkret, spezifisch, messbar … T: Terminiert",
+          "belegQuelle": "folie-40",
+          "kurz": "„Mehr anstrengen bis irgendwann“ verfehlt konkret, spezifisch, messbar und terminiert."
+        },
+        {
+          "id": "m4-t14-a07",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "smart-buchstaben",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
           "frage": "Bringe die fünf Buchstaben in die Reihenfolge, in der die Folie 68 sie zeigt.",
-          "elemente": ["S: Spezifisch", "M: Messbar", "A: Aktiv beeinflussbar", "R: Relevant", "T: Terminiert"],
+          "elemente": [
+            "S: Spezifisch",
+            "M: Messbar",
+            "A: Aktiv beeinflussbar",
+            "R: Relevant",
+            "T: Terminiert"
+          ],
           "erklaerung": "Die Buchstaben stehen von oben nach unten in dieser Reihenfolge in der rechten Spalte des Kastens.",
-          "beleg": "S: Spezifisch … M: Messbar … R: Relevant … T: Terminiert", "belegQuelle": "folie-40",
-          "kurz": "Reihenfolge im Kasten: S, M, A, R, T." },
-        { "id": "m4-t14-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "ziel-kriterien", "karte": "m4-t14-k1", "folien": [68],
+          "beleg": "S: Spezifisch … M: Messbar … R: Relevant … T: Terminiert",
+          "belegQuelle": "folie-40",
+          "kurz": "Reihenfolge im Kasten: S, M, A, R, T."
+        },
+        {
+          "id": "m4-t14-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "ziel-kriterien",
+          "karte": "m4-t14-k1",
+          "folien": [
+            68
+          ],
           "vorne": "Was steht im grünen Kasten unter dem Gesprächsleitfaden auf Folie 68?",
           "hinten": "**Kriterien für herausfordernde und spezifische Ziele:**\n\nLinks fünf Kriterien: Konkret, spezifisch, messbar / Herausfordernd, schwierig, erreichbar / Erreichung intern kontrollierbar / Motivierend (Sinn, Werte) / Konfliktfrei (keine Zielkonflikte).\n\nRechts fünf Buchstaben: **S** Spezifisch, **M** Messbar, **A** Aktiv beeinflussbar, **R** Relevant, **T** Terminiert.",
           "erklaerung": "Beide Spalten gehören zum Lernstoff dieser Folie. Die Zuordnung zwischen ihnen lässt die Folie offen.",
-          "beleg": "Kasten unten (hellgrün hinterlegt, doppelt umrandet)", "belegQuelle": "folie-40",
-          "kurz": "Grüner Kasten Folie 68: fünf Zielkriterien links, S/M/A/R/T rechts." }
+          "beleg": "Kasten unten (hellgrün hinterlegt, doppelt umrandet)",
+          "belegQuelle": "folie-40",
+          "kurz": "Grüner Kasten Folie 68: fünf Zielkriterien links, S/M/A/R/T rechts."
+        }
       ],
       "lernzettel": {
-        "kompakt": ["**Folie 68 (Lernstoff), Kriterienkasten:** fünf Kriterien = konkret/spezifisch/messbar, herausfordernd/schwierig/erreichbar, Erreichung intern kontrollierbar, motivierend (Sinn, Werte), konfliktfrei (keine Zielkonflikte).", "**Fünf Buchstaben:** S Spezifisch, M Messbar, **A Aktiv beeinflussbar**, R Relevant, T Terminiert. Die Folie sagt nicht, welches Kriterium zu welchem Buchstaben gehört."],
+        "kompakt": [
+          "**Folie 68 (Lernstoff), Kriterienkasten:** fünf Kriterien = konkret/spezifisch/messbar, herausfordernd/schwierig/erreichbar, Erreichung intern kontrollierbar, motivierend (Sinn, Werte), konfliktfrei (keine Zielkonflikte).",
+          "**Fünf Buchstaben:** S Spezifisch, M Messbar, **A Aktiv beeinflussbar**, R Relevant, T Terminiert. Die Folie sagt nicht, welches Kriterium zu welchem Buchstaben gehört."
+        ],
         "ausfuehrlich": [
           "**Kriterien für herausfordernde und spezifische Ziele (grüner Kasten unter dem Gesprächsleitfaden, Folie 68).**",
           "**Linke Spalte, fünf Kriterien:** Konkret, spezifisch, messbar. Herausfordernd, schwierig, erreichbar. Erreichung intern kontrollierbar. Motivierend (Sinn, Werte). Konfliktfrei (keine Zielkonflikte).",

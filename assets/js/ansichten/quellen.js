@@ -3,7 +3,6 @@
 // Skript offen lässt. Gerechnet wird hier nur an den Daten (welche Folie kommt in welchem Thema vor),
 // nicht am Lernstand.
 import { h, mini, symbol, folienText } from '../mini.js'
-import { renderBlock } from '../bausteine/index.js'
 
 // Der Foliensatz des Repetitoriums trägt die Nummern 30 bis 84. Themen außerhalb dieses Bereichs weiten
 // die Tabelle aus, statt aus ihr herauszufallen.
@@ -102,6 +101,7 @@ export default {
           h('div.hinweiskasten__titel', 'Zu diesen Folien gibt es noch kein Thema'),
           h('p', fehlende.map((z) => z.nummer).join(', ')))
         : null,
+      h('p.leise.quellen__tabellenhinweis', 'Die Tabelle rollt in ihrem eigenen Fenster. Zum Weiterlesen der Seite neben der Tabelle wischen.'),
       h('div.tabellenhuelle.quellen__tabelle', { tabindex: '0', role: 'region', 'aria-label': 'Folien und ihre Themen, verschiebbar' },
         h('table.tabelle.abdeckung',
           h('thead', h('tr', h('th', { scope: 'col' }, 'Folie'), h('th', { scope: 'col' }, 'Themen'))),
@@ -155,24 +155,40 @@ export default {
 
     // ---------- Lücken im Skript ----------
 
+    // Diese Seite zeigt nur, WO das Skript offen bleibt, und wie viel davon schon gefüllt ist. Eingetragen
+    // wird die eigene Mitschrift dort, wo sie beim Lernen gebraucht wird: auf der Lernkarte des Themas.
+    // Auf dem Lernzettel steht sie danach neben dem Stoff. Eine dritte Eingabestelle hier würde niemand suchen.
     const felder = luecken.flatMap((l) => l.block.felder || [])
     const gefuellt = felder.filter((f) => String(app.speicher.zustand.notizen[f.id] || '').trim()).length
 
+    function lueckeEintrag({ thema, karte, block }) {
+      const eigene = (block.felder || []).filter((f) => String(app.speicher.zustand.notizen[f.id] || '').trim())
+      const gesamt = (block.felder || []).length
+      const voll = gesamt > 0 && eigene.length === gesamt
+      return h('article.skriptluecke-karte',
+        h('div.zeile.zeile--auseinander.skriptluecke-karte__kopf',
+          h('h3.skriptluecke-karte__thema', thema.titel),
+          h('span.marke-chip.marke-chip--folie', folienText(karte.folien || thema.folien, thema.quelleText))),
+        mini(block.text),
+        h('div.zeile.skriptluecke-karte__weg',
+          gesamt
+            ? h('span.marke-chip.' + (voll ? 'marke-chip--gut' : 'marke-chip--mittel'),
+              symbol(voll ? 'haken' : 'frage'),
+              `${eigene.length} von ${gesamt} Feldern ausgefüllt`)
+            : null,
+          h('a.knopf.knopf--klein', { href: '#/thema/' + thema.id },
+            symbol('lernen'), 'Auf der Lernkarte eintragen')))
+    }
+
     host.appendChild(h('section.quellen__abschnitt', { 'aria-label': 'Lücken im Skript' },
       h('h2', 'Lücken im Skript'),
-      h('p', 'An diesen Stellen hat der Dozent im Skript etwas offen gelassen und es mündlich gefüllt. Trag hier ein, was in deiner Mitschrift steht. Deine Einträge erscheinen auch auf der Lernkarte und auf deinem Lernzettel.'),
+      h('p', 'An diesen Stellen hat der Dozent im Skript etwas offen gelassen und es mündlich gefüllt. Die Lernumgebung erfindet dazu nichts. Eintragen kannst du deine Mitschrift auf der Lernkarte des Themas; sie steht danach auch auf deinem Lernzettel.'),
       luecken.length
         ? h('div.stapel',
           h('p.leise.zahl', `${luecken.length === 1 ? 'Eine Lücke' : luecken.length + ' Lücken'} · ${gefuellt} von ${felder.length} Feldern ausgefüllt`),
-          luecken.map(({ thema, karte, block }) => h('article.skriptluecke-karte',
-            h('div.zeile.zeile--auseinander.skriptluecke-karte__kopf',
-              h('h3.skriptluecke-karte__thema', thema.titel),
-              h('span.marke-chip.marke-chip--folie', folienText(karte.folien || thema.folien, thema.quelleText))),
-            renderBlock(block, app),
-            h('p.skriptluecke-karte__weg', h('a.knopf.knopf--klein', { href: '#/thema/' + thema.id }, symbol('lernen'), 'Zum Thema')))))
+          luecken.map(lueckeEintrag))
         : h('div.hinweiskasten', h('p', 'In dieser Fassung ist keine offene Stelle im Skript vermerkt.'))))
 
-    // Was hier getippt wird, gehört zum Lernstand: beim Verlassen der Seite sofort sichern.
-    return () => app.speicher.sichereSofort()
+    return null
   },
 }

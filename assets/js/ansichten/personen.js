@@ -11,6 +11,10 @@ const HERKUNFT = {
   extern: { text: 'verlinkte Quelle', quelleText: 'Verlinkte Quelle' },
 }
 const JE_RUNDE = 5
+// Eine Person kann in fast jedem Thema vorkommen — der Dozent steht in 47. Alle Themenmarken nebeneinander
+// machen einen einzigen Eintrag auf dem iPhone über acht Bildschirme lang (gemessen 4869 px). Ab dieser Zahl
+// liegen die Marken deshalb hinter einem Aufklapper; bis dahin stehen sie offen.
+const VIELE_THEMEN = 6
 
 function herkunft(person) {
   return HERKUNFT[person.quelle] || HERKUNFT.skript
@@ -86,10 +90,12 @@ export default {
     }
 
     function themenMarken(person) {
-      return (person.themen || []).map((id) => {
+      const marken = []
+      for (const id of person.themen || []) {
         const th = app.daten.thema(id)
-        return th ? h('a.marke-chip.marke-chip--thema', { href: '#/thema/' + th.id }, th.titel) : null
-      })
+        if (th) marken.push(h('a.marke-chip.marke-chip--thema', { href: '#/thema/' + th.id }, th.titel))
+      }
+      return marken
     }
 
     function eintrag(person) {
@@ -97,6 +103,8 @@ export default {
       const folien = person.folien || []
       // Ohne Foliennummer wäre die Folienmarke dasselbe Wort wie die Herkunftsmarke: dann nur die Herkunft.
       const folienMarke = folien.length ? folienText(folien) : (person.quelleText || '')
+      const themen = themenMarken(person)
+      const viele = themen.length > VIELE_THEMEN
       return h('li.register__eintrag.karte.karte--eng',
         h('div.person-eintrag__kopf',
           h('span.person__zeichen', { 'aria-hidden': 'true' }, initialen(person.name)),
@@ -107,7 +115,12 @@ export default {
         h('div.zeile.register__marken',
           folienMarke ? h('span.marke-chip.marke-chip--folie', folienMarke) : null,
           h('span.marke-chip' + (person.quelle === 'extern' ? '.marke-chip--extern' : person.quelle === 'leseliste' ? '.marke-chip--neu' : ''), hk.text),
-          themenMarken(person)))
+          viele ? null : themen),
+        viele
+          ? h('details.aufklapp.register__themen',
+            h('summary', `In ${themen.length} Themen genannt`),
+            h('div.aufklapp__inhalt', h('div.zeile.register__marken', themen)))
+          : null)
     }
 
     const liste = h('div.register__huelle')

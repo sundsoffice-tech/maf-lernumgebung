@@ -1,0 +1,3331 @@
+{
+  "id": "m6",
+  "titel": "Change-Management & Zukunft der Führung",
+  "vorlesung": "MAF VI",
+  "themen": [
+    {
+      "id": "m6-t11",
+      "titel": "Die systemische Sicht: Kongruenzmodell nach Nadler/Tushman",
+      "folien": [
+        80
+      ],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t11-k1",
+          "titel": "Aufbau: Input, Strategie, vier Elemente, Output, Feedback",
+          "folien": [
+            80
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die Folie zeigt ein Unternehmen als System, das man von links nach rechts liest. Links geht etwas hinein, das ist der **Input**. Rechts kommt etwas heraus, das ist der **Output**. Dazwischen liegen vier Kästen, die alle miteinander verbunden sind, und ganz unten läuft ein breiter Pfeil zurück: das **Feedback**."
+            },
+            {
+              "typ": "text",
+              "text": "Der Modelltitel auf der Folie lautet [[Kongruenzmodell]] nach {{Nadler/Tushman}} (1997). Die Folie trägt die Unterzeile *Traditionelles Vorgehen im akuten Change V: Die systemische Sicht*."
+            },
+            {
+              "typ": "liste",
+              "titel": "Input (hoher Kasten links)",
+              "punkte": [
+                "Umwelt",
+                "Ressourcen",
+                "Geschichte"
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Output (hoher Kasten rechts)",
+              "punkte": [
+                "Individuum",
+                "Team",
+                "Organisation"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Vom Input führt ein breiter grauer Pfeil nach rechts, auf dem fett das Wort **Strategie** steht. Ganz unten zeigt ein breiter grauer Pfeil über die volle Breite von rechts nach links zurück, beschriftet mit **F E E D B A C K**."
+            },
+            {
+              "typ": "diagramm",
+              "ref": "kongruenzmodell",
+              "unterschrift": "Vom Input über die Strategie in die vier verbundenen Elemente, von dort zum Output, und über Feedback zurück."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Begriffe Umwelt, Ressourcen, Geschichte sowie Individuum, Team, Organisation werden auf der Folie nur genannt, nicht erläutert. Hier steht deshalb keine weitere Erklärung."
+            }
+          ]
+        },
+        {
+          "id": "m6-t11-k2",
+          "titel": "Die vier Elemente in der Mitte",
+          "folien": [
+            80
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "In der Mitte stehen vier Kästen wie eine Raute: oben, links, rechts und unten. Sie sind durch Doppelpfeile verbunden, auch über Kreuz. Jeder Kasten hängt also mit jedem anderen zusammen."
+            },
+            {
+              "typ": "liste",
+              "titel": "Die vier Kästen in Rautenanordnung",
+              "punkte": [
+                "oben: **Informelle Organisation** (mit einem dicken roten Oval umkreist)",
+                "links: **Prozesse**",
+                "rechts: **Formelle Organisation**",
+                "unten: **Menschen**"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Die vier Kästen sind durch blaue Doppelpfeile verbunden: ein senkrechter Doppelpfeil zwischen [[Informelle Organisation]] und Menschen, ein waagerechter zwischen [[Prozesse]] und [[Formelle Organisation]], dazu vier diagonale Doppelpfeile."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 80,
+              "text": "Informelle Organisation"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Das rote Oval hebt die Informelle Organisation hervor, ohne dass auf der Folie erklärt wird, warum. Die Folie erklärt auch nicht, was informelle und formelle Organisation im Einzelnen bedeuten."
+            },
+            {
+              "typ": "text",
+              "text": "Grafische Besonderheit: Der Ausgangspfeil zum Output geht nur vom Kasten Formelle Organisation aus, der Eingangspfeil Strategie nur zum Kasten Prozesse. Die übrigen zwei Kästen sind nicht direkt an Input oder Output angebunden."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m6-t11-luecke-oval",
+              "text": "Der Dozent hat die Informelle Organisation rot eingekreist, die Folie sagt aber nicht, warum. Trag hier ein, was in der Vorlesung dazu gesagt wurde.",
+              "felder": [
+                {
+                  "id": "warum-oval",
+                  "label": "Warum ist die Informelle Organisation hervorgehoben?"
+                },
+                {
+                  "id": "beispiel-oval",
+                  "label": "Beispiel aus der Vorlesung"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t11-a01",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "kongruenzmodell-rahmen",
+          "karte": "m6-t11-k1",
+          "folien": [
+            80
+          ],
+          "frage": "Was steht im Kongruenzmodell im Kasten **Input**?",
+          "optionen": [
+            "Umwelt, Ressourcen, Geschichte",
+            "Individuum, Team, Organisation",
+            "Prozesse, Menschen, Strategie",
+            "Strategie, Formelle Organisation, Feedback"
+          ],
+          "richtig": 0,
+          "erklaerung": "Der hohe Kasten links trägt die Überschrift Input und darunter die drei Begriffe Umwelt, Ressourcen, Geschichte. Individuum, Team und Organisation stehen rechts im Output.",
+          "beleg": "oben fett beschriftet \"Input\", darunter untereinander: \"Umwelt\", \"Ressourcen\", \"Geschichte\"",
+          "belegQuelle": "folie-52",
+          "kurz": "Input = Umwelt, Ressourcen, Geschichte. Output = Individuum, Team, Organisation."
+        },
+        {
+          "id": "m6-t11-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "kongruenzmodell-elemente",
+          "karte": "m6-t11-k2",
+          "folien": [
+            80
+          ],
+          "frage": "Welche Kästen stehen in der **Mitte** des Kongruenzmodells, in der Rautenanordnung?",
+          "optionen": [
+            "Informelle Organisation",
+            "Prozesse",
+            "Formelle Organisation",
+            "Menschen",
+            "Umwelt",
+            "Strategie"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "erklaerung": "Die vier mittleren Kästen sind Informelle Organisation (oben), Prozesse (links), Formelle Organisation (rechts) und Menschen (unten). Umwelt gehört zum Input, Strategie steht auf dem Pfeil dorthin.",
+          "beleg": "In der Mitte vier mittelgrüne Kästen in Rautenanordnung (oben, links, rechts, unten)",
+          "belegQuelle": "folie-52",
+          "kurz": "Mitte: Informelle Organisation, Prozesse, Formelle Organisation, Menschen."
+        },
+        {
+          "id": "m6-t11-a03",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "kongruenzmodell-rahmen",
+          "karte": "m6-t11-k1",
+          "folien": [
+            80
+          ],
+          "frage": "Ordne die Bauteile der Abbildung ihrer Beschriftung zu.",
+          "linksTitel": "Bauteil der Abbildung",
+          "rechtsTitel": "Beschriftung laut Folie",
+          "paare": [
+            {
+              "links": "Hoher Kasten links",
+              "rechts": "Input: Umwelt, Ressourcen, Geschichte"
+            },
+            {
+              "links": "Hoher Kasten rechts",
+              "rechts": "Output: Individuum, Team, Organisation"
+            },
+            {
+              "links": "Breiter Pfeil vom linken Kasten in die Mitte",
+              "rechts": "Strategie"
+            },
+            {
+              "links": "Breiter Pfeil ganz unten, von rechts nach links",
+              "rechts": "F E E D B A C K"
+            }
+          ],
+          "erklaerung": "Das Modell läuft von links nach rechts: Input, Strategie, die vier Elemente, Output. Der Pfeil ganz unten führt als Feedback zurück.",
+          "belege": [
+            {
+              "text": "oben fett beschriftet \"Output\", darunter untereinander: \"Individuum\", \"Team\", \"Organisation\"",
+              "quelle": "folie-52"
+            },
+            {
+              "text": "ein breiter grauer Pfeil nach rechts, auf dem fett das Wort \"Strategie\" steht",
+              "quelle": "folie-52"
+            }
+          ],
+          "kurz": "Links Input, Pfeil Strategie, Mitte vier Elemente, rechts Output, unten Feedback zurück."
+        },
+        {
+          "id": "m6-t11-a04",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "kongruenzmodell-elemente",
+          "karte": "m6-t11-k2",
+          "folien": [
+            80
+          ],
+          "frage": "Beschrifte die vier Elemente in der Mitte des Kongruenzmodells.",
+          "diagramm": "kongruenzmodell",
+          "gruppe": "elemente",
+          "erklaerung": "Oben die Informelle Organisation, links die Prozesse, rechts die Formelle Organisation, unten die Menschen.",
+          "beleg": "oben: \"Informelle Organisation\" … links: \"Prozesse\" … rechts: \"Formelle Organisation\" … unten: \"Menschen\"",
+          "belegQuelle": "folie-52",
+          "kurz": "Raute: oben Informelle Organisation, links Prozesse, rechts Formelle Organisation, unten Menschen."
+        },
+        {
+          "id": "m6-t11-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "kongruenzmodell-rahmen",
+          "karte": "m6-t11-k1",
+          "folien": [
+            80
+          ],
+          "bank": true,
+          "frage": "Vervollständige den Modelltitel, wie er auf der Folie steht.",
+          "text": "Kongruenzmodell nach {_Nadler/Tushman_} ({_1997_})",
+          "zusatzBank": [
+            "Maddox",
+            "Judith Muster",
+            "1995"
+          ],
+          "erklaerung": "Die Folie nennt das Modell vollständig: Kongruenzmodell nach Nadler/Tushman (1997).",
+          "beleg": "Kongruenzmodell nach Nadler/Tushman (1997)",
+          "belegQuelle": "folie-52",
+          "kurz": "Kongruenzmodell nach Nadler/Tushman (1997)."
+        },
+        {
+          "id": "m6-t11-a06",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "kongruenzmodell-lesen",
+          "karte": "m6-t11-k2",
+          "folien": [
+            80
+          ],
+          "frage": "Was stimmt über die Darstellung auf Folie 80?",
+          "aussagen": [
+            {
+              "text": "Die vier mittleren Kästen sind durch Doppelpfeile miteinander verbunden, auch diagonal.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt, warum die Informelle Organisation rot umkreist ist.",
+              "wahr": false,
+              "korrektur": "Das rote Oval hebt die Informelle Organisation hervor, ohne dass auf der Folie erklärt wird, warum."
+            },
+            {
+              "text": "Der Ausgangspfeil zum Output geht grafisch vom Kasten Menschen aus.",
+              "wahr": false,
+              "korrektur": "Er geht grafisch nur vom Kasten Formelle Organisation aus."
+            },
+            {
+              "text": "Das Modell endet beim Output.",
+              "wahr": false,
+              "korrektur": "Ganz unten läuft ein breiter Feedback-Pfeil über die volle Breite von rechts nach links zurück."
+            }
+          ],
+          "erklaerung": "Zwei Dinge sind prüfungsnah: die Rückkopplung durch das Feedback und die Beobachtung, dass nur die Formelle Organisation direkt an den Output angebunden ist.",
+          "beleg": "Der Ausgangspfeil zum \"Output\" geht grafisch nur vom Kasten \"Formelle Organisation\" aus",
+          "belegQuelle": "folie-52",
+          "kurz": "Vier Elemente über Doppelpfeile verbunden, Feedback läuft zurück, rotes Oval bleibt unerklärt."
+        },
+        {
+          "id": "m6-t11-a07",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "kongruenzmodell-lesen",
+          "karte": "m6-t11-k1",
+          "folien": [
+            80
+          ],
+          "frage": "Erkläre den Aufbau des Kongruenzmodells nach Nadler/Tushman: Welche Bausteine hat es, und wie hängen sie zusammen?",
+          "musterloesung": "Das Kongruenzmodell nach Nadler/Tushman (1997) steht im Skript für die systemische Sicht im akuten Change. Links steht der Input mit Umwelt, Ressourcen und Geschichte. Von dort führt ein Pfeil mit der Beschriftung Strategie in die Mitte. In der Mitte liegen vier Elemente in Rautenanordnung: Informelle Organisation oben, Prozesse links, Formelle Organisation rechts, Menschen unten. Sie sind durch Doppelpfeile miteinander verbunden, senkrecht, waagerecht und diagonal, wirken also in beide Richtungen aufeinander. Rechts steht der Output mit Individuum, Team und Organisation. Ganz unten führt ein breiter Feedback-Pfeil vom Output zurück zum Anfang. Die Folie hebt die Informelle Organisation mit einem roten Oval hervor, erklärt aber nicht, warum.",
+          "checkliste": [
+            "Modellname und Jahr: Kongruenzmodell nach Nadler/Tushman (1997)",
+            "Input: Umwelt, Ressourcen, Geschichte",
+            "Strategie als Pfeil vom Input in die Mitte",
+            "Vier Elemente: Informelle Organisation, Prozesse, Formelle Organisation, Menschen, durch Doppelpfeile verbunden",
+            "Output: Individuum, Team, Organisation",
+            "Feedback läuft über die volle Breite zurück"
+          ],
+          "erklaerung": "In der Klausur zählt die vollständige Kette Input, Strategie, vier Elemente, Output, Feedback und die Beobachtung, dass die vier Elemente wechselseitig verbunden sind.",
+          "beleg": "Die vier Kästen sind durch blaue Doppelpfeile verbunden",
+          "belegQuelle": "folie-52",
+          "kurz": "Input, Strategie, vier verbundene Elemente, Output, Feedback zurück."
+        },
+        {
+          "id": "m6-t11-a08",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "kongruenzmodell-lesen",
+          "karte": "m6-t11-k2",
+          "folien": [
+            80
+          ],
+          "szenario": "Übungsfall: In deiner Bank wird ein neuer Kreditprozess eingeführt. Das Projekt ändert die Arbeitsabläufe (Prozesse) und die Zuständigkeiten im Organigramm (Formelle Organisation). Die Projektleitung sagt, mehr sei nicht betroffen.",
+          "frage": "Was hält die Darstellung des Kongruenzmodells dieser Aussage entgegen?",
+          "musterloesung": "Im Kongruenzmodell stehen Prozesse und Formelle Organisation nicht für sich. Alle vier mittleren Elemente sind durch Doppelpfeile verbunden, senkrecht, waagerecht und diagonal. Wer Prozesse und formelle Organisation ändert, berührt damit auch die Menschen und die informelle Organisation. Außerdem endet das Modell nicht beim Output aus Individuum, Team und Organisation: Ein Feedback-Pfeil führt über die volle Breite zurück, das Ergebnis wirkt also auf das System zurück.",
+          "checkliste": [
+            "Alle vier mittleren Elemente sind wechselseitig verbunden (Doppelpfeile, auch diagonal)",
+            "Menschen und Informelle Organisation sind deshalb mitbetroffen",
+            "Output besteht aus Individuum, Team und Organisation",
+            "Das Feedback führt vom Output zurück ins System"
+          ],
+          "erklaerung": "Der Fall prüft nur, was die Abbildung zeigt: wechselseitige Verbindungen und Rückkopplung. Was informelle Organisation inhaltlich bedeutet, sagt die Folie nicht.",
+          "beleg": "sowie vier diagonale Doppelpfeile",
+          "belegQuelle": "folie-52",
+          "kurz": "Vier Elemente hängen wechselseitig zusammen, das Feedback wirkt zurück: Kein Eingriff bleibt für sich."
+        },
+        {
+          "id": "m6-t11-a09",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "kongruenzmodell-elemente",
+          "karte": "m6-t11-k2",
+          "folien": [
+            80
+          ],
+          "frage": "Welches Element hebt die Folie mit einem dicken roten Oval hervor?",
+          "optionen": [
+            "Informelle Organisation",
+            "Formelle Organisation",
+            "Menschen",
+            "Prozesse"
+          ],
+          "richtig": 0,
+          "erklaerung": "Der obere Kasten der Raute, Informelle Organisation, ist rot umkreist. Einen Grund nennt die Folie nicht.",
+          "beleg": "\"Informelle Organisation\" — dieser Kasten ist mit einem dicken roten Oval umkreist",
+          "belegQuelle": "folie-52",
+          "kurz": "Rot umkreist ist die Informelle Organisation (oben in der Raute)."
+        },
+        {
+          "id": "m6-t11-a10",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "kongruenzmodell-rahmen",
+          "karte": "m6-t11-k1",
+          "folien": [
+            80
+          ],
+          "vorne": "Unter welcher Unterzeile steht das Kongruenzmodell im Skript?",
+          "hinten": "*Traditionelles Vorgehen im akuten Change V:* **Die systemische Sicht**. Die Folie gehört zum Abschnitt „Richtiges und gutes Change-Management“.",
+          "erklaerung": "Die Unterzeile ordnet das Modell ein: Es ist der fünfte Teil der Reihe zum traditionellen Vorgehen im akuten Change und steht dort für die systemische Sicht.",
+          "beleg": "Traditionelles Vorgehen im akuten Change V: Die systemische Sicht",
+          "belegQuelle": "folie-52",
+          "kurz": "Folie 80 = Traditionelles Vorgehen im akuten Change V: Die systemische Sicht."
+        },
+        {
+          "id": "m6-t11-a11",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "kongruenzmodell-elemente",
+          "karte": "m6-t11-k2",
+          "folien": [
+            80
+          ],
+          "frage": "Auf Folie 80 ist ein Element des Kongruenzmodells hervorgehoben. Erkläre: Welches ist es, wo steht es im Modell, und was sagt die Folie dazu — und was nicht?",
+          "musterloesung": "Hervorgehoben ist die Informelle Organisation. Sie ist der obere der vier mittleren Kästen in der Rautenanordnung und mit einem dicken roten Oval umkreist. Im Modell ist sie über einen senkrechten Doppelpfeil mit den Menschen verbunden und über diagonale Doppelpfeile mit den Prozessen und der Formellen Organisation; sie hängt also mit allen drei übrigen Elementen wechselseitig zusammen. Direkt an Input oder Output ist sie nicht angebunden: Der Eingangspfeil Strategie führt zu den Prozessen, der Ausgangspfeil zum Output geht von der Formellen Organisation aus. Was die Folie nicht sagt: warum das rote Oval dort liegt und was informelle Organisation inhaltlich bedeutet. Diese Erklärung gehört in die eigene Mitschrift und wird hier nicht ergänzt.",
+          "checkliste": [
+            "Es ist die Informelle Organisation, oben in der Raute",
+            "Mit dickem rotem Oval umkreist",
+            "Über Doppelpfeile mit Menschen, Prozessen und Formeller Organisation verbunden",
+            "Nicht direkt an Input oder Output angebunden",
+            "Die Folie nennt keinen Grund für die Hervorhebung"
+          ],
+          "erklaerung": "Die Hervorhebung ist prüfungsnah, weil der Dozent sie selbst gesetzt hat. Belegbar ist aber nur die Lage im Modell, nicht eine Deutung.",
+          "beleg": "Das rote Oval hebt \"Informelle Organisation\" hervor, ohne dass auf der Folie erklärt wird, warum.",
+          "belegQuelle": "folie-52",
+          "kurz": "Rot umkreist: Informelle Organisation, oben in der Raute, mit allen anderen Elementen verbunden; einen Grund nennt die Folie nicht."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Kongruenzmodell nach Nadler/Tushman (1997), Folie 80, systemische Sicht:** Input (Umwelt, Ressourcen, Geschichte) → Strategie → vier durch Doppelpfeile verbundene Elemente (Informelle Organisation, Prozesse, Formelle Organisation, Menschen) → Output (Individuum, Team, Organisation) → Feedback zurück.",
+          "Rot umkreist ist die **Informelle Organisation**; die Folie sagt nicht, warum."
+        ],
+        "ausfuehrlich": [
+          "**Folie 80, Kongruenzmodell nach Nadler/Tushman (1997).** Unterzeile: Traditionelles Vorgehen im akuten Change V: Die systemische Sicht.",
+          "**Input** (hoher Kasten links): Umwelt, Ressourcen, Geschichte. Von dort ein breiter Pfeil mit der Aufschrift **Strategie** in die Mitte.",
+          "**Mitte, vier Kästen in Rautenanordnung:** oben Informelle Organisation (rot umkreist), links Prozesse, rechts Formelle Organisation, unten Menschen. Verbunden durch senkrechte, waagerechte und vier diagonale Doppelpfeile.",
+          "**Output** (hoher Kasten rechts): Individuum, Team, Organisation. Darunter ein breiter Pfeil über die volle Breite von rechts nach links: **F E E D B A C K**.",
+          "**Grafische Besonderheit:** Der Ausgangspfeil zum Output geht nur von der Formellen Organisation aus, der Eingangspfeil Strategie nur zu den Prozessen.",
+          "**Nicht erklärt:** Umwelt, Ressourcen, Geschichte, Individuum, Team, Organisation werden nur genannt; das rote Oval bleibt unbegründet."
+        ],
+        "merkhilfe": "Lies die Abbildung als Satz: Was hineingeht, läuft über die Strategie in vier verbundene Kästen, kommt als Output heraus und meldet sich über Feedback zurück."
+      }
+    },
+    {
+      "id": "m6-t12",
+      "titel": "Fallen und Risiken vorbeugen: die zehn Punkte",
+      "folien": [
+        81
+      ],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t12-k1",
+          "titel": "Die Liste auf Folie 81",
+          "folien": [
+            81
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Diese Folie ist eine Vorsorgeliste. Sie zählt auf, was man vor und während eines Change-Projekts tun sollte, damit die bekannten Fallen gar nicht erst zuschnappen. Die Unterzeile heißt deshalb *Fallen und Risiken vorbeugen*. Zehn Punkte stehen untereinander, einer davon ist rot gesetzt: die [[Zeitfalle]]."
+            },
+            {
+              "typ": "liste",
+              "titel": "Traditionelles Vorgehen im akuten Change VII: Fallen und Risiken vorbeugen",
+              "geordnet": true,
+              "punkte": [
+                "umfassende **IT-Analysen** durchführen",
+                "**KPIs** vor Projektbeginn festlegen (Fehlerraten von 70-90%!?)",
+                "hinreichende **pre-Projekt-Checks** (Readiness, Sponsoren, Promotoren, Skills/Erfahrungen, …)",
+                "**Interessenvertretungen** frühzeitig einbeziehen",
+                "==**Zeitfalle** beherrschen:== 1.) Phasenverschiebung Kompetenz 2.) Vergessenskurve (eigenes Thema, siehe nächste Karten)",
+                "**schützende Umgebung etablieren (safe spaces)**",
+                "umfassendes **Stakeholder Management**",
+                "**passende Projektstruktur**: Tandems bilden, Verantwortung nicht sozialisieren, ausgewogenes Reporting",
+                "**Coaching** für Change/Projekt Manager und Executives",
+                "**passende externe Unterstützung** in Betracht ziehen"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Zwei Stellen sind im Wortlaut genau zu nehmen: **KPIs vor Projektbeginn** festlegen (nicht hinterher) und **Verantwortung nicht sozialisieren** (nicht breit verteilen). Auch das Wort **passende** steht zweimal: passende Projektstruktur und passende externe Unterstützung, letzteres im Skript unterstrichen."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Zahl „Fehlerraten von 70-90%!?“ steht auf der Folie ohne Quellenangabe und mit den Zeichen !? dahinter. Sie wird hier so wiedergegeben, wie sie im Skript steht, und nicht erklärt."
+            }
+          ]
+        },
+        {
+          "id": "m6-t12-k2",
+          "titel": "Begriffe, die die Folie nur nennt",
+          "folien": [
+            81
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Einige Wörter auf dieser Folie sehen nach Fachbegriff aus, werden aber nicht erklärt. Du musst sie also wiedererkennen und der richtigen Maßnahme zuordnen können, mehr verlangt das Skript hier nicht."
+            },
+            {
+              "typ": "liste",
+              "titel": "Auf Folie 81 genannt, aber nicht erklärt",
+              "punkte": [
+                "[[KPIs]]",
+                "[[Readiness]]",
+                "[[Promotoren]]",
+                "[[safe spaces]]",
+                "[[Stakeholder Management]]",
+                "[[Executives]]",
+                "[[Entlernen]]",
+                "[[Verantwortung nicht sozialisieren]]"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Diese Begriffe werden hier bewusst nicht aus fremdem Fachwissen ergänzt. Trag in der Lücke unten ein, was der Dozent mündlich dazu gesagt hat."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m6-t12-luecke-begriffe",
+              "text": "Vorlesungsnotizen zu den unerklärten Begriffen der Folie 81.",
+              "felder": [
+                {
+                  "id": "safe-spaces",
+                  "label": "safe spaces: was wurde dazu gesagt?"
+                },
+                {
+                  "id": "sozialisieren",
+                  "label": "Verantwortung nicht sozialisieren: was wurde dazu gesagt?"
+                },
+                {
+                  "id": "stakeholder",
+                  "label": "Stakeholder Management: was wurde dazu gesagt?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t12-a01",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "vorbeugen-liste",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Welche Punkte nennt Folie 81 wörtlich, um Fallen und Risiken vorzubeugen?",
+          "optionen": [
+            "umfassende IT-Analysen durchführen",
+            "Verantwortung breit im Team sozialisieren",
+            "Interessenvertretungen frühzeitig einbeziehen",
+            "KPIs erst nach dem Projektende festlegen",
+            "schützende Umgebung etablieren (safe spaces)",
+            "Coaching für Change/Projekt Manager und Executives"
+          ],
+          "richtig": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "erklaerung": "Die Folie verlangt KPIs vor Projektbeginn und ausdrücklich, Verantwortung nicht zu sozialisieren. Die beiden umgedrehten Formulierungen stehen so nicht im Skript.",
+          "beleg": "schützende Umgebung etablieren (safe spaces)",
+          "belegQuelle": "folie-53",
+          "kurz": "IT-Analysen, KPIs vor Projektbeginn, pre-Projekt-Checks, Interessenvertretungen, Zeitfalle, safe spaces, Stakeholder Management, Projektstruktur, Coaching, externe Unterstützung."
+        },
+        {
+          "id": "m6-t12-a02",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "vorbeugen-wortlaut",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "bank": true,
+          "frage": "Vervollständige den Wortlaut der Folie an den beiden Stellen, an denen es auf jedes Wort ankommt.",
+          "text": "KPIs {_vor Projektbeginn_} festlegen (Fehlerraten von {_70-90%_}!?)\npassende Projektstruktur: {_Tandems_} bilden, Verantwortung {_nicht_} sozialisieren, ausgewogenes Reporting",
+          "zusatzBank": [
+            "nach Projektabschluss",
+            "40-50%",
+            "Arbeitsgruppen",
+            "unbedingt"
+          ],
+          "erklaerung": "Beide Stellen werden gern verdreht: KPIs kommen vor den Projektbeginn, und Verantwortung soll gerade nicht sozialisiert werden.",
+          "beleg": "passende Projektstruktur: Tandems bilden, Verantwortung nicht sozialisieren, ausgewogenes Reporting",
+          "belegQuelle": "folie-53",
+          "kurz": "KPIs vor Projektbeginn (Fehlerraten 70-90%!?); Tandems bilden, Verantwortung nicht sozialisieren."
+        },
+        {
+          "id": "m6-t12-a03",
+          "typ": "zuordnung",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "vorbeugen-liste",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Ordne jeder Maßnahme den Zusatz zu, den die Folie dahinter setzt.",
+          "linksTitel": "Maßnahme",
+          "rechtsTitel": "Zusatz laut Folie 81",
+          "paare": [
+            {
+              "links": "hinreichende pre-Projekt-Checks",
+              "rechts": "Readiness, Sponsoren, Promotoren, Skills/Erfahrungen"
+            },
+            {
+              "links": "schützende Umgebung etablieren",
+              "rechts": "safe spaces"
+            },
+            {
+              "links": "passende Projektstruktur",
+              "rechts": "Tandems bilden, Verantwortung nicht sozialisieren, ausgewogenes Reporting"
+            },
+            {
+              "links": "Coaching",
+              "rechts": "für Change/Projekt Manager und Executives"
+            },
+            {
+              "links": "KPIs festlegen",
+              "rechts": "vor Projektbeginn (Fehlerraten von 70-90%!?)"
+            }
+          ],
+          "erklaerung": "Die Zusätze in Klammern und nach dem Doppelpunkt sind der prüfbare Teil der Liste: Sie sagen, wer gemeint ist und was genau zu tun ist.",
+          "belege": [
+            {
+              "text": "hinreichende pre-Projekt-Checks (Readiness, Sponsoren, Promotoren, Skills/Erfahrungen",
+              "quelle": "folie-53"
+            },
+            {
+              "text": "Coaching für Change/Projekt Manager und Executives",
+              "quelle": "folie-53"
+            }
+          ],
+          "kurz": "pre-Projekt-Checks: Readiness, Sponsoren, Promotoren, Skills/Erfahrungen. Coaching: Change/Projekt Manager und Executives."
+        },
+        {
+          "id": "m6-t12-a04",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "vorbeugen-wortlaut",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Was steht so auf Folie 81?",
+          "aussagen": [
+            {
+              "text": "Interessenvertretungen sollen frühzeitig einbezogen werden.",
+              "wahr": true
+            },
+            {
+              "text": "Externe Unterstützung soll grundsätzlich vermieden werden.",
+              "wahr": false,
+              "korrektur": "Die Folie sagt: passende externe Unterstützung in Betracht ziehen."
+            },
+            {
+              "text": "Die Folie nennt eine Fehlerrate von 70-90% und setzt !? dahinter.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt, was mit safe spaces gemeint ist.",
+              "wahr": false,
+              "korrektur": "safe spaces wird genannt, aber auf dieser Folie nicht erklärt."
+            }
+          ],
+          "erklaerung": "Zwei Fallen: Externe Unterstützung wird nicht abgelehnt, sondern soll passend gewählt werden. Und mehrere Begriffe der Folie bleiben unerklärt.",
+          "beleg": "externe Unterstützung in Betracht ziehen",
+          "belegQuelle": "folie-53",
+          "kurz": "Passende externe Unterstützung in Betracht ziehen; safe spaces bleibt unerklärt."
+        },
+        {
+          "id": "m6-t12-a05",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "vorbeugen-wortlaut",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Wann sollen die **KPIs** laut Folie 81 festgelegt werden?",
+          "optionen": [
+            "vor Projektbeginn",
+            "nach den ersten pre-Projekt-Checks",
+            "am Ende der ersten Projektphase",
+            "nach Projektabschluss, zur Auswertung"
+          ],
+          "richtig": 0,
+          "erklaerung": "Die Folie schreibt KPIs vor Projektbeginn festlegen und setzt die Fehlerraten von 70-90%!? dahinter.",
+          "beleg": "KPIs vor Projektbeginn festlegen (Fehlerraten von 70-90%!?)",
+          "belegQuelle": "folie-53",
+          "kurz": "KPIs werden vor Projektbeginn festgelegt."
+        },
+        {
+          "id": "m6-t12-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "vorbeugen-liste",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Klausurfrage: Mit welchen Maßnahmen beugt man laut Skript im akuten Change Fallen und Risiken vor? Nenne sie und erläutere sie so weit, wie das Skript es tut.",
+          "musterloesung": "Folie 81 nennt zehn Maßnahmen: umfassende IT-Analysen durchführen; KPIs vor Projektbeginn festlegen (dazu die Angabe Fehlerraten von 70-90%!?); hinreichende pre-Projekt-Checks zu Readiness, Sponsoren, Promotoren, Skills und Erfahrungen; Interessenvertretungen frühzeitig einbeziehen; die Zeitfalle beherrschen, nämlich die Phasenverschiebung der Kompetenz und die Vergessenskurve mit richtigem Lernen und Entlernen; eine schützende Umgebung etablieren (safe spaces); umfassendes Stakeholder Management; eine passende Projektstruktur mit Tandems, ohne Verantwortung zu sozialisieren, und mit ausgewogenem Reporting; Coaching für Change- und Projektmanager sowie Executives; und passende externe Unterstützung in Betracht ziehen. Mehrere dieser Begriffe nennt die Folie nur, ohne sie zu erklären.",
+          "checkliste": [
+            "Mindestens acht der zehn Punkte genannt",
+            "KPIs ausdrücklich vor Projektbeginn",
+            "pre-Projekt-Checks mit ihren vier Beispielen",
+            "Zeitfalle mit ihren zwei Unterpunkten",
+            "Projektstruktur: Tandems, Verantwortung nicht sozialisieren, ausgewogenes Reporting",
+            "Hinweis, dass die Folie mehrere Begriffe nur nennt"
+          ],
+          "erklaerung": "Die Klausur kann die Liste als Aufzählung verlangen. Punkte wie die Zeitfalle und die Projektstruktur tragen dabei die meisten Teilpunkte, weil sie Unterpunkte haben.",
+          "beleg": "hinreichende pre-Projekt-Checks (Readiness, Sponsoren, Promotoren, Skills/Erfahrungen",
+          "belegQuelle": "folie-53",
+          "kurz": "Zehn Punkte: IT-Analysen, KPIs vorher, pre-Projekt-Checks, Interessenvertretungen, Zeitfalle, safe spaces, Stakeholder Management, Projektstruktur, Coaching, externe Unterstützung."
+        },
+        {
+          "id": "m6-t12-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "vorbeugen-liste",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "szenario": "Übungsfall: Deine Bank startet ein Projekt zur Einführung einer neuen Beratungssoftware. Der Betriebsrat erfährt davon erst, als die Schulungstermine schon stehen. Gleichzeitig ist unklar, woran der Erfolg gemessen werden soll.",
+          "frage": "Welche zwei Punkte der Folie 81 sind hier übergangen worden?",
+          "optionen": [
+            "Interessenvertretungen frühzeitig einbeziehen und KPIs vor Projektbeginn festlegen",
+            "Tandems bilden und ausgewogenes Reporting",
+            "safe spaces etablieren und Coaching für Executives",
+            "umfassende IT-Analysen und passende externe Unterstützung"
+          ],
+          "richtig": 0,
+          "erklaerung": "Der Betriebsrat ist eine Interessenvertretung, die frühzeitig einzubeziehen ist. Und ohne vorher festgelegte KPIs fehlt der Maßstab, an dem der Projekterfolg gemessen wird.",
+          "beleg": "Interessenvertretungen frühzeitig einbeziehen",
+          "belegQuelle": "folie-53",
+          "kurz": "Interessenvertretungen früh einbeziehen, KPIs vor Projektbeginn festlegen."
+        },
+        {
+          "id": "m6-t12-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "vorbeugen-liste",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "vorne": "Was gehört laut Folie 81 zu einer **passenden Projektstruktur**?",
+          "hinten": "**Tandems bilden**, **Verantwortung nicht sozialisieren**, **ausgewogenes Reporting**.\nWas mit „Verantwortung nicht sozialisieren“ genau gemeint ist, erklärt die Folie nicht.",
+          "erklaerung": "Drei Stichworte, die zusammengehören. Der Ausdruck Verantwortung nicht sozialisieren wird auf der Folie ohne Erklärung verwendet.",
+          "beleg": "\"Verantwortung nicht sozialisieren\" wird ohne Erklärung verwendet.",
+          "belegQuelle": "folie-53",
+          "kurz": "Projektstruktur: Tandems, Verantwortung nicht sozialisieren, ausgewogenes Reporting."
+        },
+        {
+          "id": "m6-t12-a09",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "vorbeugen-wortlaut",
+          "karte": "m6-t12-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Steht das so auf Folie 81? Sortiere ein.",
+          "kategorien": [
+            "Steht so auf Folie 81",
+            "Steht so nicht auf Folie 81"
+          ],
+          "elemente": [
+            {
+              "text": "Verantwortung nicht sozialisieren",
+              "kategorie": 0
+            },
+            {
+              "text": "KPIs vor Projektbeginn festlegen",
+              "kategorie": 0
+            },
+            {
+              "text": "passende externe Unterstützung in Betracht ziehen",
+              "kategorie": 0
+            },
+            {
+              "text": "Interessenvertretungen frühzeitig einbeziehen",
+              "kategorie": 0
+            },
+            {
+              "text": "Verantwortung breit im Team verteilen",
+              "kategorie": 1
+            },
+            {
+              "text": "KPIs am Projektende auswerten",
+              "kategorie": 1
+            },
+            {
+              "text": "auf externe Beratung verzichten",
+              "kategorie": 1
+            }
+          ],
+          "erklaerung": "Die drei falschen Zeilen sind genau die Umkehrungen, die man beim schnellen Lesen einsetzt. Die Folie sagt jeweils das Gegenteil.",
+          "beleg": "passende Projektstruktur: Tandems bilden, Verantwortung nicht sozialisieren",
+          "belegQuelle": "folie-53",
+          "kurz": "Vorsicht bei den Umkehrungen: nicht sozialisieren, vor Projektbeginn, passende externe Unterstützung."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Folie 81, Fallen und Risiken vorbeugen (10 Punkte):** IT-Analysen · KPIs **vor** Projektbeginn (Fehlerraten 70-90%!?) · pre-Projekt-Checks (Readiness, Sponsoren, Promotoren, Skills/Erfahrungen) · Interessenvertretungen früh einbeziehen · **Zeitfalle** beherrschen · safe spaces · Stakeholder Management · Projektstruktur (Tandems, Verantwortung **nicht** sozialisieren, ausgewogenes Reporting) · Coaching für Change/Projekt Manager und Executives · passende externe Unterstützung."
+        ],
+        "ausfuehrlich": [
+          "**Folie 81** trägt die Unterzeile *Traditionelles Vorgehen im akuten Change VII: Fallen und Risiken vorbeugen* und listet zehn Maßnahmen.",
+          "**Wortlautfallen:** KPIs **vor** Projektbeginn (nicht danach); Verantwortung **nicht** sozialisieren (nicht breit verteilen); **passende** externe Unterstützung (nicht: keine).",
+          "**Zusätze, die mitgelernt werden:** pre-Projekt-Checks = Readiness, Sponsoren, Promotoren, Skills/Erfahrungen. Projektstruktur = Tandems bilden, Verantwortung nicht sozialisieren, ausgewogenes Reporting. Coaching = für Change/Projekt Manager und Executives.",
+          "**Zahl ohne Quelle:** Fehlerraten von 70-90%!? steht so auf der Folie, ohne Beleg.",
+          "**Nur genannt, nicht erklärt:** KPIs, Readiness, Promotoren, safe spaces, Stakeholder Management, Executives, Entlernen.",
+          "Der fünfte Punkt, die **Zeitfalle**, ist rot gesetzt und wird im nächsten Thema behandelt."
+        ],
+        "merkhilfe": "Drei Wörter entscheiden über den Punkt in der Klausur: **vor** (KPIs), **nicht** (sozialisieren), **passende** (externe Unterstützung)."
+      }
+    },
+    {
+      "id": "m6-t13",
+      "titel": "Die Zeitfalle: Phasenverschiebung Kompetenz und Vergessenskurve",
+      "folien": [
+        81
+      ],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t13-k1",
+          "titel": "Der rote Punkt: Zeitfalle beherrschen",
+          "folien": [
+            81
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Von den zehn Punkten der Folie ist einer rot gesetzt: die [[Zeitfalle]]. Sie hat zwei Unterpunkte, und zu jedem gehört eine eigene Abbildung rechts auf der Folie. Der Text der Folie führt die beiden Punkte nicht weiter aus, die Bilder tun es."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 81,
+              "text": "Zeitfalle beherrschen:\n1.) Phasenverschiebung Kompetenz\n2.) Vergessenskurve: richtig Lernen & Entlernen"
+            },
+            {
+              "typ": "text",
+              "text": "Der fünfte Punkt samt seinen beiden Unterzeilen ist auf der Folie vollständig **rot** gesetzt. Das Wort *Entlernen* ist zusätzlich unterstrichen."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die beiden Punkte 1.) Phasenverschiebung Kompetenz und 2.) Vergessenskurve werden im Text der Folie nicht ausgeführt. Sie werden nur durch die beiden Abbildungen rechts bebildert, ohne dass der Text auf die Abbildungen verweist. Auch [[Entlernen]] wird nur genannt, nicht erklärt."
+            }
+          ]
+        },
+        {
+          "id": "m6-t13-k2",
+          "titel": "Abbildung 1: Phasenverschiebung der wahrgenommenen Kompetenz",
+          "folien": [
+            81
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die obere Abbildung zeigt drei Kurven für drei Gruppen im Unternehmen. Alle drei durchlaufen denselben Verlauf, aber zu verschiedenen Zeiten. Wer früher im Change drin ist, ist auch früher wieder oben."
+            },
+            {
+              "typ": "text",
+              "text": "Achsen: senkrecht **Wahrgenommene Kompetenz**, waagerecht **Zeit**. Zahlenwerte stehen an keiner der beiden Achsen. Die Abbildung hat keinen eigenen Titel."
+            },
+            {
+              "typ": "liste",
+              "titel": "Legende (drei Kurven, je eine Farbe)",
+              "punkte": [
+                "**Top Management** (blau): durchläuft den Verlauf als erste, am weitesten links",
+                "**Middle Management** (grün): versetzt danach",
+                "**Mitarbeiter** (rot): zuletzt, am weitesten rechts"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Verlauf jeder Kurve: Sie fällt zunächst ab, schwingt in mehreren Wellen und steigt dann an und flacht rechts oben ab. Rechts am Bildrand enden alle drei Kurven auf ähnlicher Höhe, wobei die blaue zuerst, dann die grüne und zuletzt die rote das obere Niveau erreicht."
+            },
+            {
+              "typ": "diagramm",
+              "ref": "phasenverschiebung",
+              "unterschrift": "Drei wellenförmige Kurven verlaufen gegeneinander zeitversetzt: Top Management zuerst, dann Middle Management, dann Mitarbeiter."
+            }
+          ]
+        },
+        {
+          "id": "m6-t13-k3",
+          "titel": "Abbildung 2: Vergessenskurve (nach Maddox)",
+          "folien": [
+            81
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die untere Abbildung zeigt, wie viel vom Gelernten nach einigen Tagen noch da ist. Vier Kurven fallen unterschiedlich schnell ab, je nachdem, was gelernt wurde. Oben bleibt am meisten hängen, unten am wenigsten."
+            },
+            {
+              "typ": "text",
+              "text": "Überschrift im Bild: **Vergessenskurve**. Senkrechte Achse von unten nach oben: 0, 20, 50, 100. Waagerechte Achse: 2, 3, 4, 5, 6, am rechten Ende **15 Tage**. Quellenangabe unten links: *(nach {{Maddox}})*."
+            },
+            {
+              "typ": "liste",
+              "titel": "Vier abfallende Kurven, von oben nach unten",
+              "geordnet": true,
+              "punkte": [
+                "**Gesetzmäßigkeit, Prinzipien** (oberste Kurve, läuft knapp unter 100 aus)",
+                "**Gedichte** (läuft knapp unter 50 aus)",
+                "**Prosatext** (läuft knapp unter 20 aus)",
+                "**sinnlos Gelerntes** (unterste Kurve, läuft knapp darunter aus)"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Alle vier Kurven beginnen steil und laufen dann flach aus. Zwei dicke rote Pfeile zeigen von rechts ins Bild: der obere auf das rechte Ende der Kurve Gesetzmäßigkeit, Prinzipien, der untere auf das rechte Ende der Kurve sinnlos Gelerntes."
+            },
+            {
+              "typ": "diagramm",
+              "ref": "vergessenskurve",
+              "unterschrift": "Je sinnhafter der Stoff, desto höher läuft die Kurve nach 15 Tagen aus: Gesetzmäßigkeit und Prinzipien oben, sinnlos Gelerntes unten."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Bedeutung der zwei roten Pfeile wird auf der Folie nicht erläutert. Hier steht deshalb keine Deutung."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m6-t13-luecke-pfeile",
+              "text": "Die beiden roten Pfeile zeigen auf die oberste und die unterste Kurve. Trag ein, was der Dozent dazu gesagt hat.",
+              "felder": [
+                {
+                  "id": "pfeil-oben",
+                  "label": "Pfeil auf „Gesetzmäßigkeit, Prinzipien“"
+                },
+                {
+                  "id": "pfeil-unten",
+                  "label": "Pfeil auf „sinnlos Gelerntes“"
+                },
+                {
+                  "id": "entlernen",
+                  "label": "Was hieß „Entlernen“ in der Vorlesung?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t13-a01",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "zeitfalle",
+          "karte": "m6-t13-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Auf Folie 81 steht rot: **Zeitfalle beherrschen: 1.) Phasenverschiebung Kompetenz 2.) Vergessenskurve: richtig Lernen & Entlernen.** Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz ist der fünfte und einzige rot gesetzte Punkt der Liste auf Folie 81, mit der man im akuten Change Fallen und Risiken vorbeugt. Er benennt zwei Zeitprobleme. Erstens die Phasenverschiebung der Kompetenz: Die Abbildung oben rechts zeigt drei zeitversetzte Kurven der wahrgenommenen Kompetenz über die Zeit, für Top Management, Middle Management und Mitarbeiter. Das Top Management durchläuft den Verlauf zuerst, das Middle Management versetzt danach, die Mitarbeiter zuletzt; erst am rechten Rand enden alle auf ähnlicher Höhe. Zweitens die Vergessenskurve: Die eingebettete Grafik nach Maddox zeigt, dass Gelerntes unterschiedlich schnell verloren geht. Gesetzmäßigkeiten und Prinzipien laufen nach 15 Tagen knapp unter 100 aus, Gedichte knapp unter 50, Prosatext knapp unter 20, sinnlos Gelerntes am tiefsten. Dazu setzt die Folie das Stichwort richtig Lernen und Entlernen. Der Text der Folie führt beide Punkte nicht aus, sondern bebildert sie nur.",
+          "checkliste": [
+            "Einordnung: rot gesetzter Punkt der Vorbeugungsliste auf Folie 81",
+            "Phasenverschiebung: Top Management zuerst, Middle Management danach, Mitarbeiter zuletzt",
+            "Achsen der ersten Abbildung: wahrgenommene Kompetenz über Zeit",
+            "Vergessenskurve nach Maddox: vier Kurven, Gesetzmäßigkeit/Prinzipien am höchsten, sinnlos Gelerntes am tiefsten",
+            "Stichwort richtig Lernen und Entlernen",
+            "Hinweis: Die Folie führt die beiden Punkte im Text nicht aus"
+          ],
+          "erklaerung": "Für die Klausur zählt beides: die Einordnung des Satzes in die Vorbeugungsliste und die Aussage der beiden Abbildungen, die ihn erklären.",
+          "beleg": "Zeitfalle beherrschen: … 1.) Phasenverschiebung Kompetenz … 2.) Vergessenskurve",
+          "belegQuelle": "folie-53",
+          "kurz": "Zeitfalle = zwei Zeitprobleme im Change: versetzte Kompetenzkurven der Ebenen und das unterschiedlich schnelle Vergessen."
+        },
+        {
+          "id": "m6-t13-a02",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "phasenverschiebung",
+          "karte": "m6-t13-k2",
+          "folien": [
+            81
+          ],
+          "frage": "Beschrifte die drei Kurven der Abbildung zur Phasenverschiebung.",
+          "diagramm": "phasenverschiebung",
+          "gruppe": "ebenen",
+          "erklaerung": "Von links nach rechts: Top Management zuerst, dann Middle Management, dann Mitarbeiter.",
+          "beleg": "\"Top Management\" (blau), \"Middle Management\" (grün), \"Mitarbeiter\" (rot)",
+          "belegQuelle": "folie-53",
+          "kurz": "Drei Kurven: Top Management, Middle Management, Mitarbeiter."
+        },
+        {
+          "id": "m6-t13-a03",
+          "typ": "sortieren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "phasenverschiebung",
+          "karte": "m6-t13-k2",
+          "folien": [
+            81
+          ],
+          "frage": "In welcher Reihenfolge durchlaufen die drei Gruppen den Verlauf der wahrgenommenen Kompetenz? Beginne mit der Gruppe, die am weitesten links liegt.",
+          "elemente": [
+            "Top Management",
+            "Middle Management",
+            "Mitarbeiter"
+          ],
+          "erklaerung": "Die blaue Kurve des Top Managements liegt am weitesten links, die grüne des Middle Managements versetzt danach, die rote der Mitarbeiter zuletzt.",
+          "beleg": "Die blaue Kurve (Top Management) durchläuft diesen Verlauf als erste (am weitesten links)",
+          "belegQuelle": "folie-53",
+          "kurz": "Reihenfolge: Top Management, Middle Management, Mitarbeiter."
+        },
+        {
+          "id": "m6-t13-a04",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "phasenverschiebung",
+          "karte": "m6-t13-k2",
+          "folien": [
+            81
+          ],
+          "frage": "Womit sind die Achsen der oberen Abbildung auf Folie 81 beschriftet?",
+          "optionen": [
+            "senkrecht: Wahrgenommene Kompetenz, waagerecht: Zeit",
+            "senkrecht: Emotionale Akzeptanz, waagerecht: Zeit",
+            "senkrecht: Wahrgenommene Kompetenz, waagerecht: Projektphasen",
+            "senkrecht: Leistung, waagerecht: Tage"
+          ],
+          "richtig": 0,
+          "erklaerung": "Die senkrechte Achse trägt längs und fett Wahrgenommene Kompetenz, die waagerechte am rechten Ende Zeit. Zahlenwerte gibt es an keiner Achse.",
+          "beleg": "Senkrechte Achse mit Pfeil nach oben, längs beschriftet, fett: \"Wahrgenommene Kompetenz\"",
+          "belegQuelle": "folie-53",
+          "kurz": "Achsen: Wahrgenommene Kompetenz über Zeit, ohne Zahlenwerte."
+        },
+        {
+          "id": "m6-t13-a05",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "vergessenskurve",
+          "karte": "m6-t13-k3",
+          "folien": [
+            81
+          ],
+          "frage": "Beschrifte die vier Kurven der Vergessenskurve.",
+          "diagramm": "vergessenskurve",
+          "gruppe": "kurven",
+          "erklaerung": "Von oben nach unten: Gesetzmäßigkeit, Prinzipien; Gedichte; Prosatext; sinnlos Gelerntes.",
+          "beleg": "\"Gesetzmäßigkeit, Prinzipien\" (oberste Kurve, läuft knapp unter 100 aus)",
+          "belegQuelle": "folie-53",
+          "kurz": "Vergessenskurve von oben nach unten: Gesetzmäßigkeit/Prinzipien, Gedichte, Prosatext, sinnlos Gelerntes."
+        },
+        {
+          "id": "m6-t13-a06",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "vergessenskurve",
+          "karte": "m6-t13-k3",
+          "folien": [
+            81
+          ],
+          "frage": "Ordne jeder Kurve der Vergessenskurve zu, wo sie rechts ausläuft.",
+          "linksTitel": "Kurve",
+          "rechtsTitel": "Auslauf laut Abbildung",
+          "paare": [
+            {
+              "links": "Gesetzmäßigkeit, Prinzipien",
+              "rechts": "knapp unter 100"
+            },
+            {
+              "links": "Gedichte",
+              "rechts": "knapp unter 50"
+            },
+            {
+              "links": "Prosatext",
+              "rechts": "knapp unter 20"
+            },
+            {
+              "links": "sinnlos Gelerntes",
+              "rechts": "unterste Kurve, knapp darunter"
+            }
+          ],
+          "erklaerung": "Je sinnhafter und strukturierter der Stoff, desto höher läuft die Kurve aus. Die Achse reicht von 0 bis 100, die Zeitachse bis 15 Tage.",
+          "belege": [
+            {
+              "text": "\"Gedichte\" (läuft knapp unter 50 aus)",
+              "quelle": "folie-53"
+            },
+            {
+              "text": "\"Prosatext\" (läuft knapp unter 20 aus)",
+              "quelle": "folie-53"
+            }
+          ],
+          "kurz": "Auslauf nach 15 Tagen: Prinzipien knapp unter 100, Gedichte unter 50, Prosatext unter 20, sinnlos Gelerntes am tiefsten."
+        },
+        {
+          "id": "m6-t13-a07",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "zeitfalle",
+          "karte": "m6-t13-k1",
+          "folien": [
+            81
+          ],
+          "frage": "Was stimmt über die beiden Abbildungen der Zeitfalle?",
+          "aussagen": [
+            {
+              "text": "Die Mitarbeiter durchlaufen den Kompetenzverlauf später als das Top Management.",
+              "wahr": true
+            },
+            {
+              "text": "Die obere Abbildung nennt Zahlenwerte an beiden Achsen.",
+              "wahr": false,
+              "korrektur": "Die Abbildung hat keinen Titel und keine Zahlenwerte an den Achsen."
+            },
+            {
+              "text": "Die Vergessenskurve ist mit der Quellenangabe (nach Maddox) versehen.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erläutert, was die zwei roten Pfeile in der Vergessenskurve bedeuten.",
+              "wahr": false,
+              "korrektur": "Die Bedeutung der zwei roten Pfeile wird nicht erläutert."
+            },
+            {
+              "text": "Jede Kurve der oberen Abbildung fällt zuerst ab, bevor sie ansteigt.",
+              "wahr": true
+            }
+          ],
+          "erklaerung": "Beide Abbildungen sind knapp beschriftet. Prüfbar sind die Reihenfolge der drei Ebenen, die Quellenangabe und das, was die Folie ausdrücklich offen lässt.",
+          "beleg": "Die Abbildung oben rechts hat keinen Titel und keine Zahlenwerte an den Achsen.",
+          "belegQuelle": "folie-53",
+          "kurz": "Keine Achsenwerte oben, Quelle unten ist Maddox, die roten Pfeile bleiben unerklärt."
+        },
+        {
+          "id": "m6-t13-a08",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "phasenverschiebung",
+          "karte": "m6-t13-k2",
+          "folien": [
+            81
+          ],
+          "szenario": "Übungsfall: Der Vorstand deiner Bank hat die neue Strategie vor einem halben Jahr beschlossen und fühlt sich längst sicher darin. Die Filialleitungen kommen gerade erst zurecht, die Kundenberaterinnen wirken noch unsicher und skeptisch. Der Vorstand fragt, warum das so lange dauert.",
+          "frage": "Wie erklärt die Abbildung zur Phasenverschiebung diese Lage?",
+          "musterloesung": "Die Abbildung zur Phasenverschiebung zeigt drei zeitversetzte Kurven der wahrgenommenen Kompetenz. Top Management, Middle Management und Mitarbeiter durchlaufen denselben Verlauf, aber nacheinander: erst das Top Management, dann das Middle Management, zuletzt die Mitarbeiter. Jede Kurve fällt zunächst ab, schwingt in Wellen und steigt dann an. Dass der Vorstand schon oben ist, während die Beraterinnen noch im Abfall stecken, ist also genau der abgebildete Normalfall. Deshalb steht die Zeitfalle als rot gesetzter Punkt in der Vorbeugungsliste: Wer das nicht einplant, misst die eigene Ebene und hält den Rest für widerständig.",
+          "checkliste": [
+            "Drei Ebenen durchlaufen denselben Verlauf zeitversetzt",
+            "Reihenfolge: Top Management, Middle Management, Mitarbeiter",
+            "Jede Kurve fällt erst ab, schwingt und steigt dann an",
+            "Einordnung als Zeitfalle aus der Vorbeugungsliste der Folie 81"
+          ],
+          "erklaerung": "Der Fall verlangt nur, was die Abbildung zeigt: gleicher Verlauf, andere Zeit. Eine Maßnahme dazu nennt die Folie nicht über die Liste hinaus.",
+          "beleg": "Drei wellenförmige Kurven verlaufen gegeneinander zeitversetzt von links nach rechts.",
+          "belegQuelle": "folie-53",
+          "kurz": "Gleicher Verlauf, versetzte Zeit: Das Top Management ist zuerst oben, die Mitarbeiter zuletzt."
+        },
+        {
+          "id": "m6-t13-a09",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "vergessenskurve",
+          "karte": "m6-t13-k3",
+          "folien": [
+            81
+          ],
+          "vorne": "Welche Quellenangabe trägt die Vergessenskurve auf Folie 81, und wo steht sie?",
+          "hinten": "**(nach Maddox)** — unten links, außerhalb der Achsen der eingebetteten Schwarz-Weiß-Grafik.",
+          "erklaerung": "Die Grafik ist als Bild eingefügt und trägt als einzige Quellenangabe den Zusatz (nach Maddox).",
+          "beleg": "Unten links außerhalb der Achsen: \"(nach Maddox)\"",
+          "belegQuelle": "folie-53",
+          "kurz": "Vergessenskurve: (nach Maddox), unten links in der Grafik."
+        },
+        {
+          "id": "m6-t13-a10",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "zeitfalle",
+          "karte": "m6-t13-k1",
+          "folien": [
+            81
+          ],
+          "bank": true,
+          "frage": "Vervollständige den rot gesetzten Punkt der Folie 81.",
+          "text": "Zeitfalle beherrschen:\n1.) {_Phasenverschiebung_} Kompetenz\n2.) {_Vergessenskurve_}: richtig Lernen & {_Entlernen_}",
+          "zusatzBank": [
+            "Wahrgenommene Kompetenz",
+            "Lernkurve",
+            "Verlernen"
+          ],
+          "erklaerung": "Die beiden Unterpunkte heißen wörtlich Phasenverschiebung Kompetenz und Vergessenskurve: richtig Lernen & Entlernen.",
+          "beleg": "Zeitfalle beherrschen: … 1.) Phasenverschiebung Kompetenz",
+          "belegQuelle": "folie-53",
+          "kurz": "Zeitfalle: 1.) Phasenverschiebung Kompetenz, 2.) Vergessenskurve: richtig Lernen & Entlernen."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Zeitfalle (Folie 81, rot):** 1.) Phasenverschiebung Kompetenz — Top Management, Middle Management, Mitarbeiter durchlaufen dieselbe Kurve der wahrgenommenen Kompetenz zeitversetzt. 2.) Vergessenskurve (nach Maddox): richtig Lernen & Entlernen."
+        ],
+        "ausfuehrlich": [
+          "**Zeitfalle beherrschen** ist der einzige rot gesetzte Punkt der Vorbeugungsliste auf Folie 81, mit zwei Unterpunkten.",
+          "**Abbildung 1, Phasenverschiebung:** senkrecht wahrgenommene Kompetenz, waagerecht Zeit, keine Zahlenwerte, kein Titel. Drei Kurven: Top Management (blau) zuerst, Middle Management (grün) danach, Mitarbeiter (rot) zuletzt. Jede Kurve fällt erst ab, schwingt in Wellen, steigt dann an und flacht oben ab; rechts enden alle auf ähnlicher Höhe.",
+          "**Abbildung 2, Vergessenskurve (nach Maddox):** Achse 0 bis 100, Zeitachse bis 15 Tage. Vier Kurven von oben nach unten: Gesetzmäßigkeit, Prinzipien (knapp unter 100) · Gedichte (knapp unter 50) · Prosatext (knapp unter 20) · sinnlos Gelerntes (am tiefsten). Zwei rote Pfeile zeigen auf die oberste und die unterste Kurve.",
+          "**Offen gelassen:** Der Folientext führt die beiden Punkte nicht aus; die Bedeutung der roten Pfeile und das Wort Entlernen werden nicht erklärt."
+        ],
+        "merkhilfe": "Zwei Uhren laufen falsch: Die Ebenen starten versetzt (Phasenverschiebung), und das Gelernte rinnt weg (Vergessenskurve). Sinnvolles bleibt oben, Sinnloses fällt durch."
+      }
+    },
+    {
+      "id": "m6-t14",
+      "titel": "Fix the system, not the people! Leistung als Ergebnis der Organisation",
+      "folien": [
+        82
+      ],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t14-k1",
+          "titel": "Der Merksatz und seine Einordnung",
+          "folien": [
+            82
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Über dem Artikel steht eine eigene rote Zeile des Dozenten. Sie sagt in fünf Worten, worum es in diesem Abschnitt geht: Wenn Leistung ausbleibt, suche zuerst den Fehler im System, nicht in den Personen. Dieselbe Zeile steht auf beiden Folien, 82 und 83."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 82,
+              "text": "Fix the system, not the people!"
+            },
+            {
+              "typ": "text",
+              "text": "Der Folientitel lautet *Erfolgsfaktoren langfristiger Change-Fähigkeit: Was tatsächlich wirkt - II*. Die Folgefolie 83 trägt denselben Titel mit *- III* und dieselbe rote Zeile. Der Abschnitt heißt weiterhin „Richtiges und gutes Change-Management“."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Achte auf den Wortlaut: Das Skript schreibt **Fix** the system, not the people. Die geläufige Variante „Change the system“ steht so nicht im Skript."
+            }
+          ]
+        },
+        {
+          "id": "m6-t14-k2",
+          "titel": "Der Artikel: Judith Muster und Antonia Götsch",
+          "folien": [
+            82
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Unter der roten Zeile steht ein ganzer Zeitschriftenartikel als Bild. Er gehört damit zum Skriptinhalt und ist prüfbar. Der Artikel gibt die Position einer Soziologin wieder und zählt sieben typische Fehler auf, die Leistung ausbremsen."
+            },
+            {
+              "typ": "text",
+              "text": "Quelle laut Folie: Podcast „Wegen guter Führung“, Artikel **Gute Leute, schlechte Organisation: Was Leistung ausbremst**, von **{{Antonia Götsch}}**, 05.02.2026, 07.05 Uhr."
+            },
+            {
+              "typ": "person",
+              "name": "Judith Muster",
+              "folie": 82,
+              "beitrag": "Soziologin, forscht an der Universität Potsdam und leitet als Partnerin die Organisationsberatung Metaplan. Von ihr stammen die sieben typischen Fehler, die Leistung ausbremsen."
+            },
+            {
+              "typ": "person",
+              "name": "Antonia Götsch",
+              "folie": 82,
+              "beitrag": "Autorin des Artikels („Von Antonia Götsch“, 05.02.2026)."
+            },
+            {
+              "typ": "zitat",
+              "person": "Judith Muster",
+              "kontext": "Folie 82, Fehler 2 Ressourcenkonflikte",
+              "text": "Ressourcenkonflikte sind ein verbreiteter Performancekiller"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die These des Artikels (vom Dozenten farbig markiert)",
+              "punkte": [
+                "==Häufig bremsen nicht Menschen, sondern die Strukturen, in denen sie arbeiten==",
+                "==Widersprüchliche Ziele, Ressourcenkonflikte und endlose Genehmigungsschleifen verhindern Spitzenleistung.==",
+                "==Dabei ist Leistung vor allem das Ergebnis kluger Organisation.=="
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Der Artikel setzt dagegen, worüber sonst geredet wird: *Faule Mitarbeitende, Low-Performer, die bequeme Generation Z.* Wenn über Leistung diskutiert wird, gehe es meist um die individuelle Ebene. Aber: **Die besten Leute scheitern, wenn sie widersprüchliche Ziele verfolgen oder sich ständig um Ressourcen streiten müssen.**"
+            },
+            {
+              "typ": "extern",
+              "quelle": "artikel-muster",
+              "titel": "Gegenprüfung mit der Online-Fassung",
+              "punkte": [
+                "Der Artikel steht auf den Folien 82 und 83 vollständig; gegenüber der Online-Fassung fehlt nichts.",
+                "Nur die vollständige Quell-URL steht allein online: Im Screenshot ist sie mit „…“ gekürzt und sehr klein gesetzt.",
+                "Ein kleines rundes Logo-Zeichen der Screenshot-Software verdeckt auf Folie 82 den Anfang einer Zeile; der verdeckte Wortlaut stammt aus dem Online-Text."
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Der Artikel kündigt sieben typische Fehler an, auf Folie 82 stehen nur die Punkte 1 bis 3. Die Punkte 4 bis 7 folgen auf Folie 83."
+            }
+          ]
+        },
+        {
+          "id": "m6-t14-k3",
+          "titel": "Fehler 1 bis 3",
+          "folien": [
+            82
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die ersten drei Fehler haben dieselbe Bauart: Nicht die Person ist zu langsam, sondern die Organisation stellt ihr ein Bein. Einmal durch Ziele, die sich widersprechen, einmal durch Streit um Ressourcen, einmal durch Formulare und Genehmigungen."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Widersprüchliche Ziele",
+              "text": "Fehler 1. In vielen Unternehmen laufen verschiedene Ziele gegeneinander, statt sich gegenseitig zu verstärken. Beispiel: Teams sollen gleichzeitig das Bestandsgeschäft stabilisieren und neue Geschäftsmodelle entwickeln. Es entsteht Priorisierungsstress. Ein Leistungskiller."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Ressourcenkonflikte",
+              "text": "Fehler 2. Zwei Teamleiter, die um dieselben Forschungs- und Entwicklungsressourcen ringen, machen ihren Job richtig gut, wenn sie sagen: „Mein Kunde ist der allerwichtigste, ich brauche alle Ressourcen.“ Schließlich zeigen sie Ehrgeiz und Engagement. Lateral können solche Streitigkeiten dauerhaft kaum gelöst werden, zudem kostet es viel Zeit und Energie, ständig neu zu verhandeln, wer wann zugreifen darf."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Bürokratie und Genehmigungsschleifen",
+              "text": "Fehler 3. Mitarbeitende sollen schnell handeln und nach Dringlichkeit priorisieren, gleichzeitig aber Formulare ausfüllen und von Vorgesetzten oder anderen Abteilungen Genehmigungen einholen. Solche Kontroll- und Berichtsstrukturen bremsen Eigeninitiative und Spitzenleistung aus."
+            },
+            {
+              "typ": "text",
+              "text": "Gegenmaßnahme laut Artikel, nur bei Fehler 2 genannt: Unternehmen können ihre Leistung steigern, wenn sie **formale Wege etablieren, Ressourcenfragen zu verhandeln**, und **Räume schaffen, in denen Streitfragen mit offenem Visier geklärt werden können**."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Der Begriff [[lateral]] wird im Artikel verwendet, aber weder dort noch auf der Folie erklärt."
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t14-a01",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "fix-the-system",
+          "karte": "m6-t14-k1",
+          "folien": [
+            82,
+            83
+          ],
+          "frage": "Auf den Folien 82 und 83 steht rot: **Fix the system, not the people!** Erkläre, was damit gemeint ist, in welchem Zusammenhang der Satz steht und welche Bedeutung er im Thema hat.",
+          "musterloesung": "Der Satz ist eine eigene rote Zeile des Dozenten über dem eingefügten Artikel und steht auf beiden Folien, 82 und 83. Die Folien tragen den Titel Erfolgsfaktoren langfristiger Change-Fähigkeit: Was tatsächlich wirkt. Gemeint ist: Wenn Leistung ausbleibt, ist der Ansatzpunkt das System, nicht die einzelne Person. Der Artikel belegt das: Häufig bremsen nicht Menschen, sondern die Strukturen, in denen sie arbeiten. Widersprüchliche Ziele, Ressourcenkonflikte und endlose Genehmigungsschleifen verhindern Spitzenleistung; Leistung ist vor allem das Ergebnis kluger Organisation. Auch die besten Leute scheitern, wenn sie widersprüchliche Ziele verfolgen oder sich ständig um Ressourcen streiten müssen. Die Bedeutung für das Thema Change: Die sieben Fehler von Judith Muster beschreiben lauter organisationale Ursachen, und im siebten Fehler steht ausdrücklich, dass Unternehmen dazu neigen, ungelöste Probleme auf Personen zu verschieben, statt den Fokus aufs System zu richten.",
+          "checkliste": [
+            "Wortlaut und Ort: rote Zeile des Dozenten über dem Artikel, auf Folie 82 und 83",
+            "Kernaussage: nicht die Menschen, sondern die Strukturen bremsen",
+            "Beleg aus dem Artikel: Leistung ist vor allem das Ergebnis kluger Organisation",
+            "Zusammenhang: Erfolgsfaktoren langfristiger Change-Fähigkeit, sieben Fehler nach Judith Muster",
+            "Gegenbild: ungelöste Probleme auf Personen verschieben statt Fokus aufs System"
+          ],
+          "erklaerung": "Die Klausur kann genau diese drei Teile verlangen: was der Satz sagt, wo er steht und wofür er im Abschnitt steht. Der Artikel liefert die Begründung.",
+          "belege": [
+            {
+              "text": "Fix the system, not the people!",
+              "quelle": "folie-54"
+            },
+            {
+              "text": "Häufig bremsen nicht Menschen, sondern die Strukturen, in denen sie arbeiten",
+              "quelle": "folie-54"
+            }
+          ],
+          "kurz": "Fix the system, not the people: Ursache für fehlende Leistung ist die Organisation, nicht die Person."
+        },
+        {
+          "id": "m6-t14-a02",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "muster-person",
+          "karte": "m6-t14-k2",
+          "folien": [
+            82
+          ],
+          "frage": "Wer ist **Judith Muster** laut Artikel?",
+          "optionen": [
+            "Soziologin an der Universität Potsdam, Partnerin der Organisationsberatung Metaplan",
+            "Chefredakteurin des Harvard Business managers",
+            "Professorin für Change-Management an der DHBW Mannheim",
+            "Gründerin des Podcasts „Wegen guter Führung“"
+          ],
+          "richtig": 0,
+          "erklaerung": "Judith Muster forscht als Soziologin in Potsdam und leitet als Partnerin Metaplan. Chefredakteurin des Harvard Business managers ist Antonia Götsch.",
+          "beleg": "Judith Muster forscht als Soziologin an der Universität Potsdam und leitet als Partnerin die Organisationsberatung Metaplan.",
+          "belegQuelle": "folie-54",
+          "kurz": "Judith Muster: Soziologin, Universität Potsdam, Partnerin bei Metaplan."
+        },
+        {
+          "id": "m6-t14-a03",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "personen-m6b",
+          "karte": "m6-t14-k2",
+          "folien": [
+            80,
+            81,
+            82
+          ],
+          "frage": "Ordne die Personen ihrem Beitrag in diesem Skriptteil zu.",
+          "linksTitel": "Person",
+          "rechtsTitel": "Beitrag laut Skript",
+          "paare": [
+            {
+              "links": "Judith Muster",
+              "rechts": "sieben typische Fehler, die Leistung ausbremsen"
+            },
+            {
+              "links": "Antonia Götsch",
+              "rechts": "Autorin des Artikels und Chefredakteurin des Harvard Business managers"
+            },
+            {
+              "links": "Nadler/Tushman",
+              "rechts": "Kongruenzmodell (1997)"
+            },
+            {
+              "links": "Maddox",
+              "rechts": "Vergessenskurve"
+            }
+          ],
+          "erklaerung": "Alle vier Zuordnungen stehen ausdrücklich im Skript: Muster und Götsch auf den Folien 82 und 83, Nadler/Tushman auf Folie 80, Maddox als Quellenangabe der Vergessenskurve auf Folie 81.",
+          "belege": [
+            {
+              "text": "Sie beschreibt sieben typische Fehler in Unternehmen, die Leistung ausbremsen.",
+              "quelle": "folie-54"
+            },
+            {
+              "text": "Kongruenzmodell nach Nadler/Tushman (1997)",
+              "quelle": "folie-52"
+            },
+            {
+              "text": "Unten links außerhalb der Achsen: \"(nach Maddox)\"",
+              "quelle": "folie-53"
+            }
+          ],
+          "kurz": "Muster: sieben Fehler. Götsch: Artikel und Podcast. Nadler/Tushman: Kongruenzmodell. Maddox: Vergessenskurve."
+        },
+        {
+          "id": "m6-t14-a04",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "muster-fehler-1-3",
+          "karte": "m6-t14-k3",
+          "folien": [
+            82
+          ],
+          "frage": "Welche Fehler stehen auf **Folie 82**, also als Punkte 1 bis 3?",
+          "optionen": [
+            "Widersprüchliche Ziele",
+            "Ressourcenkonflikte",
+            "Kollegialitätsnormen",
+            "Bürokratie und Genehmigungsschleifen",
+            "Überzogene Perfektion",
+            "Allzweckwaffe Coaching"
+          ],
+          "richtig": [
+            0,
+            1,
+            3
+          ],
+          "erklaerung": "Folie 82 zeigt die Punkte 1 bis 3. Kollegialitätsnormen (4), Überzogene Perfektion (6) und Allzweckwaffe Coaching (7) stehen auf Folie 83.",
+          "beleg": "Der Artikel kündigt „sieben typische Fehler“ an, auf dieser Folie stehen nur die Punkte 1 bis 3.",
+          "belegQuelle": "folie-54",
+          "kurz": "Folie 82: 1. Widersprüchliche Ziele, 2. Ressourcenkonflikte, 3. Bürokratie und Genehmigungsschleifen."
+        },
+        {
+          "id": "m6-t14-a05",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fix-the-system",
+          "karte": "m6-t14-k2",
+          "folien": [
+            82
+          ],
+          "bank": true,
+          "frage": "Vervollständige die beiden Sätze, die der Dozent im Artikel farbig markiert hat.",
+          "text": "Häufig bremsen nicht {_Menschen_}, sondern die {_Strukturen_}, in denen sie arbeiten.\nDabei ist Leistung vor allem das Ergebnis {_kluger Organisation_}.",
+          "zusatzBank": [
+            "Vorgesetzten",
+            "Ziele",
+            "individueller Anstrengung"
+          ],
+          "erklaerung": "Diese beiden Sätze tragen die These des Artikels und damit die rote Zeile des Dozenten.",
+          "beleg": "Dabei ist Leistung vor allem das Ergebnis kluger Organisation.",
+          "belegQuelle": "folie-54",
+          "kurz": "Nicht Menschen bremsen, sondern Strukturen. Leistung ist vor allem Ergebnis kluger Organisation."
+        },
+        {
+          "id": "m6-t14-a06",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "muster-fehler-1-3",
+          "karte": "m6-t14-k3",
+          "folien": [
+            82
+          ],
+          "frage": "Zu welchem der drei Fehler gehört die Beschreibung?",
+          "kategorien": [
+            "Widersprüchliche Ziele",
+            "Ressourcenkonflikte",
+            "Bürokratie und Genehmigungsschleifen"
+          ],
+          "elemente": [
+            {
+              "text": "Ziele laufen gegeneinander, statt sich gegenseitig zu verstärken",
+              "kategorie": 0
+            },
+            {
+              "text": "Bestandsgeschäft stabilisieren und zugleich neue Geschäftsmodelle entwickeln",
+              "kategorie": 0
+            },
+            {
+              "text": "Es entsteht Priorisierungsstress. Ein Leistungskiller.",
+              "kategorie": 0
+            },
+            {
+              "text": "Zwei Teamleiter ringen um dieselben Forschungs- und Entwicklungsressourcen",
+              "kategorie": 1
+            },
+            {
+              "text": "Formale Wege etablieren und Räume mit offenem Visier schaffen",
+              "kategorie": 1
+            },
+            {
+              "text": "Formulare ausfüllen und Genehmigungen einholen, obwohl schnell gehandelt werden soll",
+              "kategorie": 2
+            },
+            {
+              "text": "Kontroll- und Berichtsstrukturen bremsen Eigeninitiative aus",
+              "kategorie": 2
+            }
+          ],
+          "erklaerung": "Priorisierungsstress gehört zu widersprüchlichen Zielen, die formalen Verhandlungswege sind die Gegenmaßnahme bei Ressourcenkonflikten, Formulare und Genehmigungen gehören zur Bürokratie.",
+          "beleg": "Solche Kontroll- und Berichtsstrukturen bremsen Eigeninitiative und Spitzenleistung aus.",
+          "belegQuelle": "folie-54",
+          "kurz": "1 Ziele gegeneinander → Priorisierungsstress. 2 Streit um Ressourcen → formale Wege. 3 Genehmigungen → Eigeninitiative gebremst."
+        },
+        {
+          "id": "m6-t14-a07",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "muster-fehler-1-3",
+          "karte": "m6-t14-k3",
+          "folien": [
+            82
+          ],
+          "frage": "Was sagt der Artikel über die zwei streitenden Teamleiter?",
+          "aussagen": [
+            {
+              "text": "Sie machen ihren Job richtig gut, wenn sie alle Ressourcen für ihren Kunden fordern.",
+              "wahr": true
+            },
+            {
+              "text": "Sie zeigen damit Ehrgeiz und Engagement.",
+              "wahr": true
+            },
+            {
+              "text": "Solche Streitigkeiten lassen sich lateral dauerhaft gut lösen.",
+              "wahr": false,
+              "korrektur": "Lateral können solche Streitigkeiten dauerhaft kaum gelöst werden."
+            },
+            {
+              "text": "Das ständige Neuverhandeln kostet viel Zeit und Energie.",
+              "wahr": true
+            }
+          ],
+          "erklaerung": "Der Artikel wertet das Verhalten der Teamleiter nicht als Fehlverhalten: Es ist aus ihrer Rolle heraus richtig. Genau deshalb braucht es eine Lösung auf Systemebene.",
+          "beleg": "Lateral können solche Streitigkeiten dauerhaft kaum gelöst werden",
+          "belegQuelle": "folie-54",
+          "kurz": "Die Teamleiter handeln rollengerecht; lateral ist der Konflikt kaum dauerhaft lösbar."
+        },
+        {
+          "id": "m6-t14-a08",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "muster-fehler-1-3",
+          "karte": "m6-t14-k3",
+          "folien": [
+            82
+          ],
+          "szenario": "Übungsfall: Dein Filialteam soll in diesem Jahr den Bestand an Sparverträgen halten und gleichzeitig alle Kundinnen auf die neue Anlage-App umstellen. Beides kostet dieselbe Beratungszeit. Das Team arbeitet viel, kommt aber bei beidem nicht voran, und die Leiterin überlegt, ob sie die Leistungsschwächsten einzeln ansprechen soll.",
+          "frage": "Welchen der Fehler beschreibt der Artikel hier, und was folgt daraus für die Leiterin?",
+          "optionen": [
+            "Widersprüchliche Ziele: Es entsteht Priorisierungsstress, ein Leistungskiller. Der Ansatzpunkt ist das Zielsystem, nicht die einzelne Person.",
+            "Bürokratie und Genehmigungsschleifen: Das Team soll Formulare ausfüllen, statt zu handeln.",
+            "Ressourcenkonflikte: Zwei Teamleiter ringen um dieselben Entwicklungsressourcen.",
+            "Allzweckwaffe Coaching: Die Leiterin sollte ein Coaching erhalten."
+          ],
+          "richtig": 0,
+          "erklaerung": "Zwei Ziele, die dieselbe knappe Zeit beanspruchen, laufen gegeneinander, statt sich zu verstärken. Nach der roten Zeile Fix the system, not the people! gilt der Blick dem Zielsystem.",
+          "beleg": "In vielen Unternehmen laufen verschiedene Ziele gegeneinander, statt sich gegenseitig zu verstärken.",
+          "belegQuelle": "folie-54",
+          "kurz": "Zwei Ziele um dieselbe Zeit = widersprüchliche Ziele, Priorisierungsstress, Leistungskiller."
+        },
+        {
+          "id": "m6-t14-a09",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "muster-zitate",
+          "karte": "m6-t14-k2",
+          "folien": [
+            82
+          ],
+          "frage": "Judith Muster sagt: **„Ressourcenkonflikte sind ein verbreiteter Performancekiller.“** Erkläre, was damit gemeint ist und in welchem Zusammenhang der Satz steht.",
+          "musterloesung": "Der Satz steht im zweiten der sieben Fehler, die Leistung ausbremsen. Gemeint ist der Streit um dieselben knappen Ressourcen: Zwei Teamleiter, die um dieselben Forschungs- und Entwicklungsressourcen ringen, machen ihren Job sogar gut, wenn sie sagen, ihr Kunde sei der allerwichtigste. Sie zeigen Ehrgeiz und Engagement. Lateral lässt sich der Streit dauerhaft kaum lösen, und das ständige Neuverhandeln kostet viel Zeit und Energie. Deshalb liegt die Ursache nicht bei den Personen, sondern in der fehlenden Regelung: Der Artikel empfiehlt, formale Wege zum Verhandeln von Ressourcenfragen zu etablieren und Räume zu schaffen, in denen Streitfragen mit offenem Visier geklärt werden.",
+          "checkliste": [
+            "Einordnung als Fehler 2 der sieben Fehler",
+            "Beispiel: zwei Teamleiter um dieselben F+E-Ressourcen",
+            "Ihr Verhalten ist rollengerecht, nicht faul",
+            "Lateral kaum dauerhaft lösbar, kostet Zeit und Energie",
+            "Abhilfe: formale Wege und Räume mit offenem Visier"
+          ],
+          "erklaerung": "Das Zitat ist prüfbar, weil es den Kern der Systemsicht trägt: Das Problem entsteht aus der Struktur, nicht aus mangelndem Willen.",
+          "beleg": "„Ressourcenkonflikte sind ein verbreiteter Performancekiller“, sagt Judith Muster.",
+          "belegQuelle": "folie-54",
+          "kurz": "Ressourcenkonflikte: rollengerechtes Verhalten, lateral kaum lösbar, Abhilfe über formale Wege."
+        },
+        {
+          "id": "m6-t14-a10",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "fix-the-system",
+          "karte": "m6-t14-k1",
+          "folien": [
+            82
+          ],
+          "vorne": "Wie lautet der Folientitel, unter dem der Artikel von Judith Muster steht?",
+          "hinten": "**Erfolgsfaktoren langfristiger Change-Fähigkeit: Was tatsächlich wirkt** — auf Folie 82 mit *- II*, auf Folie 83 mit *- III*. Darüber jeweils die rote Zeile **Fix the system, not the people!**",
+          "erklaerung": "Der Titel sagt, wozu der Artikel dient: Er soll zeigen, was langfristig tatsächlich wirkt.",
+          "beleg": "Erfolgsfaktoren langfristiger Change-Fähigkeit: Was tatsächlich wirkt - II",
+          "belegQuelle": "folie-54",
+          "kurz": "Folie 82/83: Erfolgsfaktoren langfristiger Change-Fähigkeit: Was tatsächlich wirkt."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Fix the system, not the people!** (rote Zeile des Dozenten, Folie 82 und 83). Häufig bremsen nicht Menschen, sondern die Strukturen. Leistung ist vor allem das Ergebnis kluger Organisation. Quelle: Artikel von **Antonia Götsch** über **Judith Muster** (Soziologin, Uni Potsdam, Partnerin bei Metaplan), sieben typische Fehler."
+        ],
+        "ausfuehrlich": [
+          "**Folie 82, Titel:** Erfolgsfaktoren langfristiger Change-Fähigkeit: Was tatsächlich wirkt - II. Darüber die rote Zeile **Fix the system, not the people!**",
+          "**These (markiert):** Häufig bremsen nicht Menschen, sondern die Strukturen, in denen sie arbeiten. Widersprüchliche Ziele, Ressourcenkonflikte und endlose Genehmigungsschleifen verhindern Spitzenleistung. Dabei ist Leistung vor allem das Ergebnis kluger Organisation.",
+          "**Fehler 1, Widersprüchliche Ziele:** Ziele laufen gegeneinander statt sich zu verstärken (Bestandsgeschäft stabilisieren und neue Geschäftsmodelle entwickeln) → Priorisierungsstress, ein Leistungskiller.",
+          "**Fehler 2, Ressourcenkonflikte:** Zwei Teamleiter um dieselben F+E-Ressourcen; ihr Verhalten ist rollengerecht (Ehrgeiz, Engagement). Lateral kaum dauerhaft lösbar, ständiges Neuverhandeln kostet Zeit und Energie. Abhilfe: formale Wege etablieren, Räume mit offenem Visier. Zitat: Ressourcenkonflikte sind ein verbreiteter Performancekiller.",
+          "**Fehler 3, Bürokratie und Genehmigungsschleifen:** schnell handeln sollen, aber Formulare und Genehmigungen; Kontroll- und Berichtsstrukturen bremsen Eigeninitiative und Spitzenleistung aus.",
+          "**Personen:** Judith Muster (Soziologin, Universität Potsdam, Partnerin Metaplan) · Antonia Götsch (Autorin, 05.02.2026)."
+        ],
+        "merkhilfe": "Fünf Worte, fünf Prüfungspunkte: **Fix** (nicht Change) — **the system** (die Struktur) — **not the people** (nicht die Person)."
+      }
+    },
+    {
+      "id": "m6-t15",
+      "titel": "Die sieben Fehler, Teil 2: Kollegialitätsnormen bis Allzweckwaffe Coaching",
+      "folien": [
+        83
+      ],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t15-k1",
+          "titel": "Fehler 4: Kollegialitätsnormen",
+          "folien": [
+            83
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Manche Regeln stehen nirgendwo, gelten aber trotzdem. Wer merkt, dass zu viel Einsatz im Team schlecht ankommt, bremst sich selbst. Der Artikel nennt das eine informelle Norm und gibt drei Fragen an die Hand, mit denen man solche Normen im eigenen Team aufspürt."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Kollegialitätsnormen",
+              "text": "Fehler 4. Sie stehen in keinem Organigramm und Regelwerk, dennoch gibt es in jedem Unternehmen kulturelle Gepflogenheiten. Kollegialitätsnormen können dazu führen, dass Menschen ihr Engagement bewusst dosieren, ==um bei anderen Teammitgliedern nicht anzuecken==."
+            },
+            {
+              "typ": "text",
+              "text": "Zweites Beispiel einer solchen informellen Norm: **Scrum-Teams veranschlagen häufig für einzelne Schritte mehr Aufwand, um Puffer zu haben.**"
+            },
+            {
+              "typ": "liste",
+              "titel": "Drei Reflexionsfragen, um Kollegialitätsnormen zu ergründen",
+              "geordnet": true,
+              "punkte": [
+                "Was passiert bei uns im Team, wenn jemand sichtbar mehr leistet als der Rest?",
+                "Wo ist die Grenze zwischen „engagiert“ und „zu engagiert“?",
+                "Wo bauen wir systematisch einen Puffer ein – und wofür brauchen wir ihn wirklich?"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "[[Scrum-Teams]] werden im Artikel genannt, aber nicht erklärt."
+            }
+          ]
+        },
+        {
+          "id": "m6-t15-k2",
+          "titel": "Fehler 5: Ziele mit Scheuklappeneffekt",
+          "folien": [
+            83
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Ziele steuern stark, aber sie steuern auch das, was man nicht gemeint hat. Wer nur misst, was leicht messbar ist, bekommt genau das und sonst nichts. Wenn jede Person einzeln optimiert wird, hört die Zusammenarbeit auf."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Ziele mit Scheuklappeneffekt",
+              "text": "Fehler 5. Zielsysteme sind ein starkes Steuerungsinstrument, aber entwickeln häufig ungeplante Nebenwirkungen."
+            },
+            {
+              "typ": "zitat",
+              "person": "Judith Muster",
+              "kontext": "Folie 83, Fehler 5",
+              "text": "You get what you measure"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die Folge laut Artikel (vom Dozenten markiert)",
+              "punkte": [
+                "==Viele Unternehmen optimieren stark auf messbare KPIs und die individuelle Ebene.==",
+                "==Kooperation wird verhindert, da die Zielsysteme Selbstoptimierungsdruck erzeugen.=="
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Im Artikel unterstrichen, nicht farbig markiert: *Das ist besonders relevant, wenn Performance eigentlich mehrere Dimensionen bräuchte (Qualität, Tempo, Kooperation, Innovation), das Zielsystem aber nur einen Ausschnitt belohnt.*"
+            }
+          ]
+        },
+        {
+          "id": "m6-t15-k3",
+          "titel": "Fehler 6 und 7: Überzogene Perfektion, Allzweckwaffe Coaching",
+          "folien": [
+            83
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Der sechste Fehler beschreibt eine Kultur, die in einem Bereich nötig ist und dann überall gilt. Der siebte beschreibt den Griff zum Coaching, wenn eigentlich Regeln fehlen. Beide enden bei derselben Empfehlung: Schau auf das System."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Überzogene Perfektion",
+              "text": "Fehler 6. Gerade in Organisationen, die sehr ingenieursgetrieben sind oder hohen Sicherheitsstandards unterliegen, entwickelt sich häufig eine Null-Fehler-Kultur. Diese Erwartungsstruktur, die für manche Bereiche unverzichtbar ist (zum Beispiel für die Bremssysteme, die ein Unternehmen herstellt), ==schwappt auf andere Bereiche über==. Die Folge: ==Mitarbeitende sichern alles mehrfach ab, statt zügig zu entscheiden== – auch in Bereichen, wo Fehler kaum Kosten und Risiken erzeugen würden."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Allzweckwaffe Coaching",
+              "text": "Fehler 7. So hilfreich ein Coaching sein kann, „viele Unternehmen neigen dazu, ==ungelöste Probleme auf Personen zu verschieben==“, sagt Muster. Die Führungskraft wird dann ins Coaching geschickt, um an ihren Kommunikationskompetenzen oder einem Konflikt zu arbeiten. ==Dabei fehlen Strukturen oder verbindliche Regeln.=="
+            },
+            {
+              "typ": "merksatz",
+              "folie": 83,
+              "text": "Gerade wenn auf einer Position schon mehrere Menschen gescheitert sind oder ähnliche Probleme immer wieder auftauchen, lohnt sich ==der Fokus aufs System.=="
+            },
+            {
+              "typ": "hinweis",
+              "text": "Vom Merksatz ist im Skript nur der Schluss hervorgehoben: „der Fokus aufs System.“ Der Rest des Satzes ist hier mit abgedruckt, weil er den Zusammenhang trägt. Bei Punkt 7 ist im Unterschied zu 4, 5 und 6 nur die Überschrift fett, nicht farbig markiert. [[Null-Fehler-Kultur]] und KPIs werden genannt, aber nicht erklärt."
+            }
+          ]
+        },
+        {
+          "id": "m6-t15-k4",
+          "titel": "Woher der Text stammt: Podcast und Format",
+          "folien": [
+            83
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Am Ende des Artikels steht, woher er kommt. Das gehört mit auf die Folie und lässt sich abfragen: Name des Podcasts, wer ihn macht, in welchem Takt er erscheint."
+            },
+            {
+              "typ": "text",
+              "text": "Im Podcast „Wegen guter Führung“ mit {{Judith Muster}} geht es darum, wie man dem Team Raum für Spitzenleistung ermöglicht und in welchen Momenten die Führungskraft gefragt ist."
+            },
+            {
+              "typ": "liste",
+              "titel": "Format laut Folie",
+              "punkte": [
+                "Titel: „Wegen guter Führung – der ehrliche Führungspodcast“",
+                "{{Antonia Götsch}}, **Chefredakteurin des Harvard Business managers**, spricht alle zwei Wochen mit Gästen aus Wirtschaft, Wissenschaft und Sport über Führung, Strategie und Management",
+                "erscheint 14-täglich, auch auf Spotify und Apple"
+              ]
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t15-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "muster-fehler-4-7",
+          "karte": "m6-t15-k3",
+          "folien": [
+            83
+          ],
+          "frage": "Ordne die Fehler 4 bis 7 ihrer Kernaussage zu.",
+          "linksTitel": "Fehler",
+          "rechtsTitel": "Kernaussage laut Artikel",
+          "paare": [
+            {
+              "links": "4. Kollegialitätsnormen",
+              "rechts": "Menschen dosieren ihr Engagement, um nicht anzuecken"
+            },
+            {
+              "links": "5. Ziele mit Scheuklappeneffekt",
+              "rechts": "Zielsysteme erzeugen Selbstoptimierungsdruck und verhindern Kooperation"
+            },
+            {
+              "links": "6. Überzogene Perfektion",
+              "rechts": "Null-Fehler-Kultur schwappt auf Bereiche über, in denen sie nicht nötig ist"
+            },
+            {
+              "links": "7. Allzweckwaffe Coaching",
+              "rechts": "ungelöste Probleme werden auf Personen verschoben"
+            }
+          ],
+          "erklaerung": "Alle vier Fehler beschreiben Ursachen in der Organisation, nicht in der Person: informelle Normen, Zielsysteme, Erwartungsstrukturen, fehlende Regeln.",
+          "belege": [
+            {
+              "text": "um bei anderen Teammitgliedern nicht anzuecken.",
+              "quelle": "folie-55"
+            },
+            {
+              "text": "Kooperation wird verhindert, da die Zielsysteme Selbstoptimierungsdruck erzeugen.",
+              "quelle": "folie-55"
+            },
+            {
+              "text": "ungelöste Probleme auf Personen zu verschieben",
+              "quelle": "folie-55"
+            }
+          ],
+          "kurz": "4 Normen dosieren Engagement · 5 Zielsysteme verhindern Kooperation · 6 Null-Fehler-Kultur schwappt über · 7 Probleme auf Personen geschoben."
+        },
+        {
+          "id": "m6-t15-a02",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "kollegialitaetsnormen",
+          "karte": "m6-t15-k1",
+          "folien": [
+            83
+          ],
+          "frage": "Was kennzeichnet **Kollegialitätsnormen** laut Artikel?",
+          "optionen": [
+            "Sie stehen in keinem Organigramm und Regelwerk, wirken aber als kulturelle Gepflogenheit",
+            "Sie sind Teil des formalen Zielsystems und werden jährlich vereinbart",
+            "Sie sind Vorgaben der Interessenvertretung",
+            "Sie entstehen erst durch ein Coaching der Führungskraft"
+          ],
+          "richtig": 0,
+          "erklaerung": "Kollegialitätsnormen sind informelle Normen. Sie führen dazu, dass Menschen ihr Engagement bewusst dosieren, um bei anderen Teammitgliedern nicht anzuecken.",
+          "beleg": "Sie stehen in keinem Organigramm und Regelwerk, dennoch gibt es in jedem Unternehmen kulturelle Gepflogenheiten.",
+          "belegQuelle": "folie-55",
+          "kurz": "Kollegialitätsnormen: informell, in keinem Regelwerk, dosieren das Engagement."
+        },
+        {
+          "id": "m6-t15-a03",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "scheuklappen",
+          "karte": "m6-t15-k2",
+          "folien": [
+            83
+          ],
+          "frage": "Judith Muster sagt: **„You get what you measure.“** Erkläre, was damit gemeint ist, in welchem Zusammenhang der Satz steht und welche Folge der Artikel daraus ableitet.",
+          "musterloesung": "Der Satz steht im fünften Fehler, den Zielen mit Scheuklappeneffekt. Zielsysteme sind ein starkes Steuerungsinstrument, entwickeln aber häufig ungeplante Nebenwirkungen. Gemeint ist: Ein Unternehmen bekommt genau das, was es misst, und nicht das, was es eigentlich will. Viele Unternehmen optimieren stark auf messbare KPIs und auf die individuelle Ebene. Die Folge ist, dass Kooperation verhindert wird, weil die Zielsysteme Selbstoptimierungsdruck erzeugen. Besonders relevant ist das, wenn Performance eigentlich mehrere Dimensionen bräuchte, nämlich Qualität, Tempo, Kooperation und Innovation, das Zielsystem aber nur einen Ausschnitt belohnt. Der Fehler liegt damit im System der Ziele, nicht im Willen der Beschäftigten.",
+          "checkliste": [
+            "Einordnung als Fehler 5, Ziele mit Scheuklappeneffekt",
+            "Zielsysteme steuern stark, haben aber ungeplante Nebenwirkungen",
+            "Optimierung auf messbare KPIs und die individuelle Ebene",
+            "Folge: Kooperation wird verhindert, Selbstoptimierungsdruck",
+            "Mehrere Dimensionen nötig: Qualität, Tempo, Kooperation, Innovation"
+          ],
+          "erklaerung": "Der Satz ist ein Zitat im Skript und damit direkt abfragbar. Die vier Dimensionen sind der Teil, den man leicht vergisst.",
+          "beleg": "„You get what you measure“, sagt Muster.",
+          "belegQuelle": "folie-55",
+          "kurz": "You get what you measure: Gemessene KPIs verdrängen Kooperation; Performance bräuchte Qualität, Tempo, Kooperation, Innovation."
+        },
+        {
+          "id": "m6-t15-a04",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "kollegialitaetsnormen",
+          "karte": "m6-t15-k1",
+          "folien": [
+            83
+          ],
+          "frage": "Welche Reflexionsfragen nennt der Artikel, um Kollegialitätsnormen zu ergründen?",
+          "optionen": [
+            "Was passiert bei uns im Team, wenn jemand sichtbar mehr leistet als der Rest?",
+            "Wo ist die Grenze zwischen „engagiert“ und „zu engagiert“?",
+            "Welche Kennzahl misst die Leistung am besten?",
+            "Wo bauen wir systematisch einen Puffer ein – und wofür brauchen wir ihn wirklich?",
+            "Wer im Team braucht ein Coaching?"
+          ],
+          "richtig": [
+            0,
+            1,
+            3
+          ],
+          "erklaerung": "Der Artikel nennt genau drei Reflexionsfragen. Kennzahlen gehören zu Fehler 5, das Coaching zu Fehler 7.",
+          "beleg": "Wo ist die Grenze zwischen „engagiert“ und „zu engagiert“?",
+          "belegQuelle": "folie-55",
+          "kurz": "Drei Fragen: Was passiert bei Mehrleistung? Wo liegt die Grenze zu „zu engagiert“? Wo steckt systematisch Puffer?"
+        },
+        {
+          "id": "m6-t15-a05",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "perfektion",
+          "karte": "m6-t15-k3",
+          "folien": [
+            83
+          ],
+          "frage": "Was sagt der Artikel über die **Überzogene Perfektion**?",
+          "aussagen": [
+            {
+              "text": "Eine Null-Fehler-Kultur entsteht häufig in ingenieursgetriebenen Organisationen oder bei hohen Sicherheitsstandards.",
+              "wahr": true
+            },
+            {
+              "text": "Die Null-Fehler-Kultur ist für alle Bereiche schädlich.",
+              "wahr": false,
+              "korrektur": "Diese Erwartungsstruktur ist für manche Bereiche unverzichtbar, zum Beispiel für die Bremssysteme, die ein Unternehmen herstellt."
+            },
+            {
+              "text": "Die Erwartungsstruktur schwappt auf andere Bereiche über.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folge ist, dass Mitarbeitende alles mehrfach absichern, statt zügig zu entscheiden.",
+              "wahr": true
+            }
+          ],
+          "erklaerung": "Der Fehler liegt nicht in der Null-Fehler-Kultur selbst, sondern in ihrer Ausbreitung auf Bereiche, wo Fehler kaum Kosten und Risiken erzeugen würden.",
+          "beleg": "Diese Erwartungsstruktur, die für manche Bereiche unverzichtbar ist",
+          "belegQuelle": "folie-55",
+          "kurz": "Null-Fehler-Kultur ist stellenweise unverzichtbar, schwappt aber über: Mehrfachabsicherung statt zügiger Entscheidung."
+        },
+        {
+          "id": "m6-t15-a06",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "coaching-fehler",
+          "karte": "m6-t15-k3",
+          "folien": [
+            83
+          ],
+          "bank": true,
+          "frage": "Vervollständige das Zitat zu Fehler 7 und den Satz, der darauf folgt.",
+          "text": "„viele Unternehmen neigen dazu, {_ungelöste Probleme_} auf {_Personen_} zu verschieben“, sagt Muster.\nDabei fehlen {_Strukturen_} oder verbindliche {_Regeln_}.",
+          "zusatzBank": [
+            "Kompetenzen",
+            "Zielsysteme",
+            "Ressourcen"
+          ],
+          "erklaerung": "Das Zitat und der Folgesatz gehören zusammen: Das Coaching ersetzt die fehlende Struktur, statt sie zu schaffen.",
+          "beleg": "Dabei fehlen Strukturen oder verbindliche Regeln.",
+          "belegQuelle": "folie-55",
+          "kurz": "Ungelöste Probleme werden auf Personen verschoben, dabei fehlen Strukturen oder verbindliche Regeln."
+        },
+        {
+          "id": "m6-t15-a07",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "coaching-fehler",
+          "karte": "m6-t15-k3",
+          "folien": [
+            83
+          ],
+          "szenario": "Übungsfall: In deiner Bank hat die Leitung der Marktfolge innerhalb von vier Jahren dreimal gewechselt. Jede der drei Personen wurde nach einigen Monaten ins Kommunikationscoaching geschickt, weil es Streit mit dem Vertrieb gab. Jetzt soll auch die vierte Leitung ein Coaching bekommen.",
+          "frage": "Wie beurteilt der Artikel diesen Fall, und was wäre die Konsequenz?",
+          "musterloesung": "Der Fall passt auf den siebten Fehler, die Allzweckwaffe Coaching. So hilfreich ein Coaching sein kann, viele Unternehmen neigen dazu, ungelöste Probleme auf Personen zu verschieben. Die Führungskraft wird ins Coaching geschickt, um an ihren Kommunikationskompetenzen oder an einem Konflikt zu arbeiten, dabei fehlen Strukturen oder verbindliche Regeln. Genau der beschriebene Fall steht im Artikel: Gerade wenn auf einer Position schon mehrere Menschen gescheitert sind oder ähnliche Probleme immer wieder auftauchen, lohnt sich der Fokus aufs System. Konsequenz ist also, die Schnittstelle zwischen Marktfolge und Vertrieb zu regeln, statt die vierte Person zu schulen. Das ist die rote Zeile des Dozenten: Fix the system, not the people!",
+          "checkliste": [
+            "Einordnung als Fehler 7, Allzweckwaffe Coaching",
+            "Ungelöste Probleme werden auf Personen verschoben",
+            "Es fehlen Strukturen oder verbindliche Regeln",
+            "Mehrere Gescheiterte auf einer Position: der Fokus aufs System lohnt sich",
+            "Bezug zur roten Zeile Fix the system, not the people!"
+          ],
+          "erklaerung": "Der Artikel nennt genau dieses Erkennungszeichen: mehrere Gescheiterte auf derselben Position oder wiederkehrende Probleme.",
+          "beleg": "Gerade wenn auf einer Position schon mehrere Menschen gescheitert sind … ähnliche Probleme immer wieder auftauchen, lohnt sich der Fokus aufs System.",
+          "belegQuelle": "folie-55",
+          "kurz": "Mehrere Gescheiterte auf einer Stelle: nicht die vierte Person coachen, sondern das System ansehen."
+        },
+        {
+          "id": "m6-t15-a08",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "muster-fehler-4-7",
+          "karte": "m6-t15-k3",
+          "folien": [
+            83
+          ],
+          "frage": "Zu welchem Fehler gehört die Aussage?",
+          "kategorien": [
+            "Kollegialitätsnormen",
+            "Ziele mit Scheuklappeneffekt",
+            "Überzogene Perfektion",
+            "Allzweckwaffe Coaching"
+          ],
+          "elemente": [
+            {
+              "text": "Scrum-Teams veranschlagen mehr Aufwand, um Puffer zu haben",
+              "kategorie": 0
+            },
+            {
+              "text": "Menschen dosieren ihr Engagement, um nicht anzuecken",
+              "kategorie": 0
+            },
+            {
+              "text": "Optimierung auf messbare KPIs und die individuelle Ebene",
+              "kategorie": 1
+            },
+            {
+              "text": "Das Zielsystem belohnt nur einen Ausschnitt der Performance",
+              "kategorie": 1
+            },
+            {
+              "text": "Alles wird mehrfach abgesichert, statt zügig zu entscheiden",
+              "kategorie": 2
+            },
+            {
+              "text": "Eine Erwartungsstruktur schwappt auf andere Bereiche über",
+              "kategorie": 2
+            },
+            {
+              "text": "Die Führungskraft wird zum Konflikt geschickt, obwohl Regeln fehlen",
+              "kategorie": 3
+            }
+          ],
+          "erklaerung": "Die Zuordnung gelingt über das Stichwort: Puffer und Anecken gehören zu den Normen, KPIs und Ausschnitt zum Zielsystem, Absichern zur Perfektion, das Coaching zum siebten Fehler.",
+          "beleg": "Mitarbeitende sichern alles mehrfach ab, statt zügig zu entscheiden",
+          "belegQuelle": "folie-55",
+          "kurz": "Puffer/Anecken = Normen · KPIs/Ausschnitt = Scheuklappen · Mehrfach absichern = Perfektion · Coaching statt Regeln = Fehler 7."
+        },
+        {
+          "id": "m6-t15-a09",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "muster-quelle",
+          "karte": "m6-t15-k4",
+          "folien": [
+            83
+          ],
+          "vorne": "Aus welchem Format stammt der Artikel, und wer führt es?",
+          "hinten": "Podcast **„Wegen guter Führung – der ehrliche Führungspodcast“**. **Antonia Götsch**, Chefredakteurin des Harvard Business managers, spricht alle zwei Wochen mit Gästen aus Wirtschaft, Wissenschaft und Sport über Führung, Strategie und Management. Er erscheint 14-täglich, auch auf Spotify und Apple.",
+          "erklaerung": "Die Formatangabe steht am Ende des Artikels auf Folie 83 und gehört damit zum Skriptinhalt.",
+          "beleg": "Antonia Götsch, Chefredakteurin des Harvard Business managers, alle zwei Wochen mit Gästen",
+          "belegQuelle": "folie-55",
+          "kurz": "Podcast „Wegen guter Führung“, geführt von Antonia Götsch, 14-täglich."
+        },
+        {
+          "id": "m6-t15-a10",
+          "typ": "erklaeren",
+          "stufe": "anwenden",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "coaching-fehler",
+          "karte": "m6-t15-k3",
+          "folien": [
+            83
+          ],
+          "frage": "Klausurfrage: Erläutere den Fehler **Allzweckwaffe Coaching** und sage, woran man laut Artikel erkennt, dass der Fokus aufs System gehört.",
+          "musterloesung": "Der siebte Fehler heißt Allzweckwaffe Coaching. So hilfreich ein Coaching sein kann: Viele Unternehmen neigen dazu, ungelöste Probleme auf Personen zu verschieben, sagt Judith Muster. Die Führungskraft wird dann ins Coaching geschickt, um an ihren Kommunikationskompetenzen oder an einem Konflikt zu arbeiten. Dabei fehlen Strukturen oder verbindliche Regeln, das eigentliche Problem bleibt also unberührt. Erkennungszeichen laut Artikel: Gerade wenn auf einer Position schon mehrere Menschen gescheitert sind oder ähnliche Probleme immer wieder auftauchen, lohnt sich der Fokus aufs System. Der Punkt ist auf der Folie der einzige der sieben, dessen Überschrift nur fett und nicht farbig markiert ist.",
+          "checkliste": [
+            "Name des Fehlers und das Zitat zum Verschieben auf Personen",
+            "Beispiel: Coaching zu Kommunikationskompetenzen oder Konflikt",
+            "Es fehlen Strukturen oder verbindliche Regeln",
+            "Erkennungszeichen: mehrere Gescheiterte auf einer Position oder wiederkehrende Probleme",
+            "Schlussfolgerung: der Fokus aufs System lohnt sich"
+          ],
+          "erklaerung": "Dieser Fehler schließt den Kreis zur roten Zeile Fix the system, not the people! und ist deshalb prüfungsnah.",
+          "beleg": "Die Führungskraft wird dann ins Coaching geschickt, um an ihren Kommunikationskompetenzen oder einem Konflikt zu arbeiten.",
+          "belegQuelle": "folie-55",
+          "kurz": "Allzweckwaffe Coaching: Probleme werden auf Personen verschoben, obwohl Strukturen und Regeln fehlen."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Fehler 4 bis 7 (Folie 83):** 4 **Kollegialitätsnormen** (informell, Engagement wird dosiert, um nicht anzuecken; Scrum-Puffer) · 5 **Ziele mit Scheuklappeneffekt** („You get what you measure“, KPIs und Einzelebene verhindern Kooperation) · 6 **Überzogene Perfektion** (Null-Fehler-Kultur schwappt über, alles wird mehrfach abgesichert) · 7 **Allzweckwaffe Coaching** (ungelöste Probleme auf Personen verschoben, Strukturen fehlen)."
+        ],
+        "ausfuehrlich": [
+          "**4. Kollegialitätsnormen:** stehen in keinem Organigramm und Regelwerk, wirken aber als kulturelle Gepflogenheit. Folge: Engagement wird dosiert, um bei anderen Teammitgliedern nicht anzuecken. Zweites Beispiel: Scrum-Teams veranschlagen mehr Aufwand, um Puffer zu haben. Drei Reflexionsfragen: Was passiert bei sichtbarer Mehrleistung? Wo liegt die Grenze zwischen engagiert und zu engagiert? Wo bauen wir systematisch Puffer ein, und wofür?",
+          "**5. Ziele mit Scheuklappeneffekt:** Zielsysteme steuern stark, haben aber ungeplante Nebenwirkungen. „You get what you measure.“ Optimierung auf messbare KPIs und die individuelle Ebene verhindert Kooperation, weil Selbstoptimierungsdruck entsteht. Besonders relevant, wenn Performance mehrere Dimensionen bräuchte: **Qualität, Tempo, Kooperation, Innovation**.",
+          "**6. Überzogene Perfektion:** Null-Fehler-Kultur in ingenieursgetriebenen oder sicherheitskritischen Organisationen; unverzichtbar für manche Bereiche (Beispiel Bremssysteme), schwappt aber über. Folge: alles mehrfach absichern statt zügig entscheiden, auch wo Fehler kaum Kosten und Risiken erzeugen.",
+          "**7. Allzweckwaffe Coaching:** ungelöste Probleme werden auf Personen verschoben; die Führungskraft geht ins Coaching, dabei fehlen Strukturen oder verbindliche Regeln. **Merksatz:** Gerade wenn auf einer Position schon mehrere Menschen gescheitert sind oder ähnliche Probleme immer wieder auftauchen, lohnt sich der Fokus aufs System.",
+          "**Quelle/Format:** Podcast „Wegen guter Führung – der ehrliche Führungspodcast“, Antonia Götsch, Chefredakteurin des Harvard Business managers, 14-täglich, auch auf Spotify und Apple."
+        ],
+        "merkhilfe": "Vier Kurzbilder: **Puffer** (Normen), **Scheuklappe** (Ziele), **Bremsen** (Perfektion), **Couch** (Coaching)."
+      }
+    },
+    {
+      "id": "m6-t16",
+      "titel": "Kontinuierlich im Start-up-Modus: Day 1 Mindset und Day 2",
+      "folien": [
+        84
+      ],
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t16-k1",
+          "titel": "Die Überschrift des Dozenten",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die letzte Folie dieses Abschnitts stellt eine Frage an die Dauer: Wie bleibt ein Unternehmen auf lange Sicht beweglich? Die rote Überschrift gibt die Antwort in Großbuchstaben, darunter steht als Bild ein Lexikon-Artikel über Amazon."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 84,
+              "text": "„organisatorischer Entropie“ begegnen: ==„KONTINUIERLICH IM START-UP MODUS BLEIBEN“=="
+            },
+            {
+              "typ": "text",
+              "text": "Der zweite Teil der Überschrift ist rot, in Großbuchstaben und kursiv gesetzt. Er stammt vom Dozenten, nicht aus der eingefügten Quelle."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Der Titelbegriff [[organisatorische Entropie]] wird in Anführungszeichen genannt, auf der Folie aber nicht erklärt. In der eingebetteten Quelle kommt er nicht vor. Hier wird er deshalb nicht gedeutet."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m6-t16-luecke-entropie",
+              "text": "Was hat der Dozent zu „organisatorischer Entropie“ gesagt? Trag es hier ein, die Folie sagt es nicht.",
+              "felder": [
+                {
+                  "id": "entropie-bedeutung",
+                  "label": "Bedeutung laut Vorlesung"
+                },
+                {
+                  "id": "entropie-bezug",
+                  "label": "Bezug zum Change-Management"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m6-t16-k2",
+          "titel": "Day 1 Mindset: Definition und Ursprung",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Day 1 heißt: Das Unternehmen tut so, als wäre heute sein erster Tag. Es entscheidet schnell, hört auf Kunden und traut sich etwas. Day 2 ist das Gegenteil: satt, langsam, bürokratisch."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Day 1 Mindset",
+              "text": "Das [[Day 1 Mindset]] steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität. Unternehmen, die diese Haltung verkörpern, bleiben relevant, wettbewerbsfähig und wachsen nachhaltig. Dieses Prinzip wurde maßgeblich von {{Jeff Bezos}} bei Amazon etabliert."
+            },
+            {
+              "typ": "text",
+              "text": "Ursprung laut Quelle: Das Day 1 Mindset wurde von Jeff Bezos geprägt und **befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten**. Die Schwerpunkte: **Innovation, radikale Kundenzentrierung, schnelle Entscheidungsfindung und Risikobereitschaft**."
+            },
+            {
+              "typ": "zitat",
+              "person": "Jeff Bezos",
+              "kontext": "Folie 84, Quellenangabe laut Rohtext: AWS Executive Insights",
+              "text": "Day 1 steht für Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen – während Day 2 Trägheit, Bürokratie und den Niedergang eines Unternehmens bedeutet."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Folie nennt den Begriff Day 1 Mindset durchgängig auf Englisch, ohne deutsche Entsprechung. Die Quellenangabe hinter dem Zitat ist auf der Folie extrem klein gesetzt und kaum lesbar; sie lautet nach dem Rohtext der Online-Quelle „AWS Executive Insights“."
+            }
+          ]
+        },
+        {
+          "id": "m6-t16-k3",
+          "titel": "Die sechs Kernprinzipien bei Amazon",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Sechs Punkte sagen, woran man ein Day-1-Unternehmen erkennt. Der Dozent hat genau diese Liste grau hinterlegt, sie ist also der Kern der Folie. Merke dir Reihenfolge und Zusatz, nicht nur die Schlagworte."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Kernprinzip",
+                "Erläuterung laut Quelle"
+              ],
+              "hinweis": "Auf der Folie grau hinterlegt, also vom Dozenten hervorgehoben.",
+              "zeilen": [
+                [
+                  "1. **Kundenzentrierung**",
+                  "Kundenbedürfnisse bestimmen jede Entscheidung."
+                ],
+                [
+                  "2. **Schnelligkeit & Agilität**",
+                  "Entscheidungsprozesse erfolgen zügig und marktnah."
+                ],
+                [
+                  "3. **Trendorientierung**",
+                  "Entwicklungen werden früh erkannt und aktiv gestaltet."
+                ],
+                [
+                  "4. **Entscheidungsqualität**",
+                  "Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen für effizientes Handeln."
+                ],
+                [
+                  "5. **Innovationskultur**",
+                  "Kontinuierliches Experimentieren, Lernen und Mut zu Neuem."
+                ],
+                [
+                  "6. **Risikobereitschaft**",
+                  "Fehler gelten als Lernchance."
+                ]
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Leitfrage aus dem Praxisteil derselben Folie: **„Wie würde ein Startup dieses Problem lösen?“** — Jeff Bezos."
+            }
+          ]
+        },
+        {
+          "id": "m6-t16-k4",
+          "titel": "Day 2: die Warnung vor Stillstand",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Day 2 ist kein zweiter Tag, sondern ein Zustand. Die Quelle beschreibt ihn als Abstieg in vier Stufen und stellt Bezos' Gegenmittel daneben."
+            },
+            {
+              "typ": "liste",
+              "titel": "Day 2 Mentalität steht für",
+              "punkte": [
+                "Stagnation statt Innovation",
+                "Bürokratie und Komplexität",
+                "Verlust an Kundenfokus und Unternehmergeist",
+                "Niedergang der Wettbewerbsfähigkeit"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 84,
+              "text": "Bezos' Fazit: Unternehmen müssen aktiv gegen den Übergang in „Day 2“ ansteuern – durch Mut, Lernfreude und radikale Kundenorientierung."
+            },
+            {
+              "typ": "text",
+              "text": "Fazit der Quelle (rechte Spalte der Folie), wörtlich: Das **Day 1 Mindset** ist für Unternehmen **essenziell**, um **innovativ** und **wettbewerbsfähig** zu bleiben. **Schnelligkeit, Kundenzentrierung, Risikobereitschaft** und **Offenheit für Neues** sind Schlüssel gegen die „Day 2“-Falle."
+            },
+            {
+              "typ": "vergleich",
+              "spalten": [
+                {
+                  "titel": "Day 1",
+                  "punkte": [
+                    "Agilität",
+                    "Neugier",
+                    "Anpassungsfähigkeit",
+                    "Mut zu neuen Wegen"
+                  ]
+                },
+                {
+                  "titel": "Day 2",
+                  "punkte": [
+                    "Trägheit",
+                    "Bürokratie",
+                    "Niedergang eines Unternehmens"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t16-a01",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "start-up-modus",
+          "karte": "m6-t16-k1",
+          "folien": [
+            84
+          ],
+          "frage": "Die Folie 84 ist überschrieben: **„organisatorischer Entropie“ begegnen: „KONTINUIERLICH IM START-UP MODUS BLEIBEN“.** Erkläre, was damit gemeint ist, in welchem Zusammenhang es steht und welche Bedeutung es im Thema hat.",
+          "musterloesung": "Die Zeile ist die Überschrift der letzten Folie des Abschnitts Richtiges und gutes Change-Management; der zweite Teil ist rot und in Großbuchstaben gesetzt und stammt vom Dozenten. Der Begriff organisatorische Entropie wird auf der Folie nur in Anführungszeichen genannt und nicht erklärt. Was die Folie zeigt, ist das Gegenmittel: kontinuierlich im Start-up-Modus bleiben. Ausgeführt wird das durch den eingefügten Artikel zum Day 1 Mindset bei Amazon. Das Day 1 Mindset steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität; es befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten, mit den Schwerpunkten Innovation, radikale Kundenzentrierung, schnelle Entscheidungsfindung und Risikobereitschaft. Das Gegenstück ist Day 2: Trägheit, Bürokratie und der Niedergang eines Unternehmens. Die Bedeutung im Thema: Nach Change-Modellen, Widerstand und den sieben Fehlern steht hier die Dauerform, also wie ein Unternehmen langfristig change-fähig bleibt.",
+          "checkliste": [
+            "Einordnung: Überschrift der Folie 84, roter Teil vom Dozenten",
+            "organisatorische Entropie wird genannt, aber nicht erklärt",
+            "Start-up-Modus wird durch das Day 1 Mindset ausgeführt",
+            "Day 1: Innovationskraft, Kundenzentrierung, dauerhafte Agilität, wie ein Startup verhalten",
+            "Gegenstück Day 2: Trägheit, Bürokratie, Niedergang"
+          ],
+          "erklaerung": "Die Klausur kann nach dem Sinn der Überschrift fragen. Wichtig ist, ehrlich zu bleiben: Entropie wird nicht erklärt, der Start-up-Modus dagegen ausführlich.",
+          "belege": [
+            {
+              "text": "„organisatorischer Entropie“ begegnen: „KONTINUIERLICH IM START-UP MODUS BLEIBEN“",
+              "quelle": "folie-56"
+            },
+            {
+              "text": "befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten",
+              "quelle": "folie-56"
+            }
+          ],
+          "kurz": "Kontinuierlich im Start-up-Modus bleiben = Day 1 Mindset; organisatorische Entropie bleibt unerklärt."
+        },
+        {
+          "id": "m6-t16-a02",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "day1-ursprung",
+          "karte": "m6-t16-k2",
+          "folien": [
+            84
+          ],
+          "frage": "Von wem wurde das **Day 1 Mindset** geprägt, und wo wurde es etabliert?",
+          "optionen": [
+            "Von Jeff Bezos bei Amazon",
+            "Von Judith Muster bei Metaplan",
+            "Von Nadler und Tushman",
+            "Von Antonia Götsch im Harvard Business manager"
+          ],
+          "richtig": 0,
+          "erklaerung": "Die Quelle sagt es zweimal: maßgeblich von Jeff Bezos bei Amazon etabliert und von Jeff Bezos geprägt.",
+          "beleg": "Dieses Prinzip wurde maßgeblich von Jeff Bezos bei Amazon etabliert.",
+          "belegQuelle": "folie-56",
+          "kurz": "Day 1 Mindset: von Jeff Bezos bei Amazon geprägt und etabliert."
+        },
+        {
+          "id": "m6-t16-a03",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "day1-kernprinzipien",
+          "karte": "m6-t16-k3",
+          "folien": [
+            84
+          ],
+          "frage": "Ordne jedem der sechs Kernprinzipien seine Erläuterung zu.",
+          "linksTitel": "Kernprinzip",
+          "rechtsTitel": "Erläuterung laut Quelle",
+          "paare": [
+            {
+              "links": "Kundenzentrierung",
+              "rechts": "Kundenbedürfnisse bestimmen jede Entscheidung"
+            },
+            {
+              "links": "Schnelligkeit & Agilität",
+              "rechts": "Entscheidungsprozesse erfolgen zügig und marktnah"
+            },
+            {
+              "links": "Trendorientierung",
+              "rechts": "Entwicklungen werden früh erkannt und aktiv gestaltet"
+            },
+            {
+              "links": "Entscheidungsqualität",
+              "rechts": "Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen"
+            },
+            {
+              "links": "Innovationskultur",
+              "rechts": "Kontinuierliches Experimentieren, Lernen und Mut zu Neuem"
+            },
+            {
+              "links": "Risikobereitschaft",
+              "rechts": "Fehler gelten als Lernchance"
+            }
+          ],
+          "erklaerung": "Die sechs Prinzipien sind auf der Folie grau hinterlegt, also hervorgehoben. Die Erläuterung gehört jeweils dazu und kann einzeln abgefragt werden.",
+          "belege": [
+            {
+              "text": "Entscheidungsqualität: Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen für effizientes Handeln.",
+              "quelle": "folie-56"
+            },
+            {
+              "text": "Risikobereitschaft: Fehler gelten als Lernchance.",
+              "quelle": "folie-56"
+            }
+          ],
+          "kurz": "Sechs Kernprinzipien: Kundenzentrierung, Schnelligkeit & Agilität, Trendorientierung, Entscheidungsqualität, Innovationskultur, Risikobereitschaft."
+        },
+        {
+          "id": "m6-t16-a04",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-day2",
+          "karte": "m6-t16-k2",
+          "folien": [
+            84
+          ],
+          "bank": true,
+          "frage": "Vervollständige das Zitat von Jeff Bezos.",
+          "text": "„Day 1 steht für {_Agilität_}, Neugier, {_Anpassungsfähigkeit_} und Mut zu neuen Wegen – während Day 2 {_Trägheit_}, {_Bürokratie_} und den Niedergang eines Unternehmens bedeutet.“",
+          "zusatzBank": [
+            "Kundenfokus",
+            "Stagnation",
+            "Komplexität"
+          ],
+          "erklaerung": "Das Zitat stellt Day 1 und Day 2 gegenüber. Vier Wörter für Day 1, drei Folgen für Day 2.",
+          "beleg": "Day 1 steht für Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen",
+          "belegQuelle": "folie-56",
+          "kurz": "Day 1: Agilität, Neugier, Anpassungsfähigkeit, Mut zu neuen Wegen. Day 2: Trägheit, Bürokratie, Niedergang."
+        },
+        {
+          "id": "m6-t16-a05",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "day1-day2",
+          "karte": "m6-t16-k4",
+          "folien": [
+            84
+          ],
+          "frage": "Day 1 oder Day 2? Sortiere ein.",
+          "kategorien": [
+            "Day 1",
+            "Day 2"
+          ],
+          "elemente": [
+            {
+              "text": "Agilität",
+              "kategorie": 0
+            },
+            {
+              "text": "Neugier",
+              "kategorie": 0
+            },
+            {
+              "text": "Mut zu neuen Wegen",
+              "kategorie": 0
+            },
+            {
+              "text": "Anpassungsfähigkeit",
+              "kategorie": 0
+            },
+            {
+              "text": "Trägheit",
+              "kategorie": 1
+            },
+            {
+              "text": "Bürokratie und Komplexität",
+              "kategorie": 1
+            },
+            {
+              "text": "Stagnation statt Innovation",
+              "kategorie": 1
+            },
+            {
+              "text": "Verlust an Kundenfokus und Unternehmergeist",
+              "kategorie": 1
+            }
+          ],
+          "erklaerung": "Die Day-1-Wörter stammen aus dem Bezos-Zitat, die Day-2-Merkmale aus der Warnung vor Stillstand.",
+          "beleg": "Verlust an Kundenfokus und Unternehmergeist",
+          "belegQuelle": "folie-56",
+          "kurz": "Day 1 = Agilität, Neugier, Anpassungsfähigkeit, Mut. Day 2 = Trägheit, Bürokratie, Stagnation, Verlust an Kundenfokus."
+        },
+        {
+          "id": "m6-t16-a06",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-ursprung",
+          "karte": "m6-t16-k2",
+          "folien": [
+            84
+          ],
+          "frage": "Was sagt die Quelle über das Day 1 Mindset?",
+          "aussagen": [
+            {
+              "text": "Es steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität.",
+              "wahr": true
+            },
+            {
+              "text": "Unternehmen mit dieser Haltung bleiben relevant, wettbewerbsfähig und wachsen nachhaltig.",
+              "wahr": true
+            },
+            {
+              "text": "Es verlangt, dass ein Unternehmen sich einmal jährlich wie ein Startup verhält.",
+              "wahr": false,
+              "korrektur": "Es befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten."
+            },
+            {
+              "text": "Die Folie nennt eine deutsche Entsprechung für den Begriff.",
+              "wahr": false,
+              "korrektur": "Die Folie nennt den Begriff durchgängig auf Englisch, ohne deutsche Entsprechung."
+            }
+          ],
+          "erklaerung": "Das Wort ständig ist der Kern: Day 1 ist eine Dauerhaltung, keine Aktion zu einem Termin.",
+          "beleg": "Das Day 1 Mindset steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität.",
+          "belegQuelle": "folie-56",
+          "kurz": "Day 1 ist eine Dauerhaltung: ständig wie ein Startup, englischer Begriff ohne deutsche Entsprechung."
+        },
+        {
+          "id": "m6-t16-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "day1-kernprinzipien",
+          "karte": "m6-t16-k3",
+          "folien": [
+            84
+          ],
+          "szenario": "Übungsfall: In deiner Bank soll entschieden werden, ob ein neues Beratungsformat für drei Monate in zwei Filialen getestet wird. Das Gremium schiebt die Entscheidung seit sechs Wochen, weil noch mehr Zahlen fehlen. Der Test ließe sich jederzeit wieder beenden.",
+          "frage": "Welches der sechs Kernprinzipien des Day 1 Mindsets trifft hier am genauesten zu?",
+          "optionen": [
+            "Entscheidungsqualität: Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen für effizientes Handeln",
+            "Kundenzentrierung: Kundenbedürfnisse bestimmen jede Entscheidung",
+            "Trendorientierung: Entwicklungen werden früh erkannt und aktiv gestaltet",
+            "Risikobereitschaft: Fehler gelten als Lernchance"
+          ],
+          "richtig": 0,
+          "erklaerung": "Der Test ist jederzeit beendbar, also eine reversible Entscheidung. Genau dafür nennt die Quelle die Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen, um effizient zu handeln. Passend dazu die Schwerpunkte schnelle Entscheidungsfindung und Risikobereitschaft.",
+          "beleg": "Entscheidungsqualität: Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen für effizientes Handeln.",
+          "belegQuelle": "folie-56",
+          "kurz": "Reversible Entscheidungen schnell treffen: Das ist das Prinzip Entscheidungsqualität."
+        },
+        {
+          "id": "m6-t16-a08",
+          "typ": "erklaeren",
+          "stufe": "anwenden",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-praxis",
+          "karte": "m6-t16-k3",
+          "folien": [
+            84
+          ],
+          "frage": "Jeff Bezos fragt: **„Wie würde ein Startup dieses Problem lösen?“** Erkläre, was damit gemeint ist und in welchem Zusammenhang die Frage auf der Folie steht.",
+          "musterloesung": "Die Frage steht im Praxisteil der Folie, direkt unter der Überschrift Umsetzung des Day 1 Mindsets bei Amazon. Sie ist die Arbeitsform des Day 1 Mindsets: Das Unternehmen prüft ein Problem nicht aus der Sicht des eingespielten Konzerns, sondern aus der Sicht eines Startups, das noch nichts zu verteidigen hat. Das Beispiel der Quelle sind Amazons Lieferprozesse: Anstatt die bestehende Logistik lediglich zu verbessern, setzt Amazon auf disruptive Lösungen wie Drohnenlieferungen und autonome Fahrzeuge, um die Kundenerwartungen zu übertreffen. Die Frage gehört damit zur Haltung, sich ständig wie ein Startup zu verhalten, und zu den Schwerpunkten Innovation und radikale Kundenzentrierung.",
+          "checkliste": [
+            "Ort: Praxisbeispiel der Folie, Umsetzung bei Amazon",
+            "Sinn: Problem aus der Sicht eines Startups betrachten",
+            "Beispiel: Lieferprozesse, nicht nur verbessern, sondern disruptiv lösen",
+            "Drohnenlieferungen und autonome Fahrzeuge, um Kundenerwartungen zu übertreffen"
+          ],
+          "erklaerung": "Das Zitat ist kurz und wird leicht überlesen. Es steht für die Umsetzung, das Beispiel liefert die Folie gleich mit.",
+          "beleg": "„Wie würde ein Startup dieses Problem lösen?“",
+          "belegQuelle": "folie-56",
+          "kurz": "Leitfrage der Umsetzung: das Problem wie ein Startup lösen, Beispiel disruptive Lieferprozesse."
+        },
+        {
+          "id": "m6-t16-a09",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-day2",
+          "karte": "m6-t16-k4",
+          "folien": [
+            84
+          ],
+          "vorne": "Wie lautet **Bezos' Fazit** zur Day 2 Mentalität?",
+          "hinten": "**Unternehmen müssen aktiv gegen den Übergang in „Day 2“ ansteuern – durch Mut, Lernfreude und radikale Kundenorientierung.**\nAuf der Folie grau hinterlegt.",
+          "erklaerung": "Das Fazit nennt drei Mittel: Mut, Lernfreude, radikale Kundenorientierung. Es ist vom Dozenten hervorgehoben.",
+          "beleg": "Unternehmen müssen … gegen den Übergang in „Day 2“ ansteuern – durch Mut, Lernfreude und radikale Kundenorientierung.",
+          "belegQuelle": "folie-56",
+          "kurz": "Gegen Day 2: aktiv ansteuern durch Mut, Lernfreude und radikale Kundenorientierung."
+        },
+        {
+          "id": "m6-t16-a10",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-day2",
+          "karte": "m6-t16-k4",
+          "folien": [
+            84
+          ],
+          "frage": "Wofür steht die **Day 2 Mentalität** laut Folie 84?",
+          "optionen": [
+            "Stagnation statt Innovation",
+            "Bürokratie und Komplexität",
+            "Verlust an Kundenfokus und Unternehmergeist",
+            "Niedergang der Wettbewerbsfähigkeit",
+            "Erhöhter Innovationsdruck",
+            "Skalierungsschwierigkeiten"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "erklaerung": "Die vier ersten Punkte stehen unter der Warnung vor Stillstand. Erhöhter Innovationsdruck und Skalierungsschwierigkeiten sind dagegen Herausforderungen des Day 1 Mindsets.",
+          "beleg": "Sie steht für: - Stagnation statt Innovation - Bürokratie und Komplexität",
+          "belegQuelle": "folie-56",
+          "kurz": "Day 2: Stagnation, Bürokratie und Komplexität, Verlust an Kundenfokus und Unternehmergeist, Niedergang der Wettbewerbsfähigkeit."
+        },
+        {
+          "id": "m6-t16-a11",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-day2",
+          "karte": "m6-t16-k2",
+          "folien": [
+            84
+          ],
+          "frage": "Jeff Bezos sagt: **„Day 1 steht für Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen – während Day 2 Trägheit, Bürokratie und den Niedergang eines Unternehmens bedeutet.“** Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Das Zitat steht auf Folie 84 im Abschnitt Definition und Ursprung des Day 1 Mindsets, also unter der roten Überschrift des Dozenten: kontinuierlich im Start-up-Modus bleiben. Gemeint sind zwei Haltungen, keine zwei Tage. Day 1 ist die Haltung eines Unternehmens, das sich ständig wie ein Startup verhält: Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen. Day 2 ist der Gegenzustand: Trägheit, Bürokratie und der Niedergang eines Unternehmens. Der Zusammenhang: Das Day 1 Mindset steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität, es wurde von Jeff Bezos geprägt und bei Amazon etabliert, und seine Schwerpunkte sind Innovation, radikale Kundenzentrierung, schnelle Entscheidungsfindung und Risikobereitschaft. Bezos warnt ausdrücklich vor der Day 2 Mentalität; sein Fazit lautet, Unternehmen müssten aktiv gegen den Übergang in Day 2 ansteuern, durch Mut, Lernfreude und radikale Kundenorientierung. Zur Quelle ehrlich bleiben: Die Angabe hinter dem Zitat ist auf der Folie kaum lesbar, nach dem Rohtext der Online-Quelle lautet sie AWS Executive Insights.",
+          "checkliste": [
+            "Ort: Folie 84, Definition und Ursprung, unter der Überschrift kontinuierlich im Start-up-Modus bleiben",
+            "Day 1: Agilität, Neugier, Anpassungsfähigkeit, Mut zu neuen Wegen",
+            "Day 2: Trägheit, Bürokratie, Niedergang eines Unternehmens",
+            "Es sind Haltungen, keine Tage: sich ständig wie ein Startup verhalten",
+            "Bezos warnt vor Day 2 und will aktives Gegensteuern durch Mut, Lernfreude, radikale Kundenorientierung"
+          ],
+          "erklaerung": "Das Zitat ist die Kurzform des ganzen Themas: Wer es erklären kann, hat Day 1 und Day 2 mit ihren je drei bis vier Merkmalen beisammen.",
+          "belege": [
+            {
+              "text": "Day 1 steht für Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen – während Day 2 Trägheit, Bürokratie und den Niedergang eines Unternehmens bedeutet.",
+              "quelle": "folie-56"
+            },
+            {
+              "text": "Das Day 1 Mindset wurde von Jeff Bezos geprägt und befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten.",
+              "quelle": "folie-56"
+            }
+          ],
+          "kurz": "Day 1 = Agilität, Neugier, Anpassungsfähigkeit, Mut zu neuen Wegen. Day 2 = Trägheit, Bürokratie, Niedergang."
+        },
+        {
+          "id": "m6-t16-a12",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-day2",
+          "karte": "m6-t16-k4",
+          "folien": [
+            84
+          ],
+          "frage": "Die Folie hebt grau hervor: **Bezos' Fazit: Unternehmen müssen aktiv gegen den Übergang in „Day 2“ ansteuern – durch Mut, Lernfreude und radikale Kundenorientierung.** Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Der Satz schließt den Abschnitt Day 2 Mentalität, Warnung vor Stillstand, ab. Day 2 ist dort kein Tag, sondern ein Zustand mit vier Merkmalen: Stagnation statt Innovation, Bürokratie und Komplexität, Verlust an Kundenfokus und Unternehmergeist, Niedergang der Wettbewerbsfähigkeit. Das entscheidende Wort ist aktiv: Der Übergang in diesen Zustand passiert von selbst, das Gegensteuern nicht. Die Mittel nennt der Satz selbst: Mut, Lernfreude und radikale Kundenorientierung. Der Zusammenhang: Das Fazit der Quelle stellt daneben, dass Schnelligkeit, Kundenzentrierung, Risikobereitschaft und Offenheit für Neues Schlüssel gegen die Day 2 Falle sind, und die Überschrift des Dozenten nennt dasselbe Ziel, kontinuierlich im Start-up-Modus zu bleiben. Auf der Folie ist der Satz grau hinterlegt, also hervorgehoben.",
+          "checkliste": [
+            "Ort: Abschluss des Abschnitts Day 2 Mentalität, auf der Folie grau hinterlegt",
+            "Day 2 ist ein Zustand: Stagnation, Bürokratie und Komplexität, Verlust an Kundenfokus, Niedergang",
+            "Das Wort aktiv: der Übergang kommt von selbst, das Gegensteuern nicht",
+            "Die drei Mittel: Mut, Lernfreude, radikale Kundenorientierung",
+            "Anschluss: Schnelligkeit, Kundenzentrierung, Risikobereitschaft und Offenheit für Neues sind Schlüssel gegen die Day 2 Falle"
+          ],
+          "erklaerung": "Das Fazit ist die Gegenrichtung zur Day 2 Mentalität. Prüfungsrelevant sind das Wort aktiv und die drei genannten Mittel.",
+          "belege": [
+            {
+              "text": "Bezos' Fazit: Unternehmen müssen aktiv gegen den Übergang in „Day 2“ ansteuern – durch Mut, Lernfreude und radikale Kundenorientierung.",
+              "quelle": "extern-change"
+            },
+            {
+              "text": "Das Day 1 Mindset ist für Unternehmen essenziell, um innovativ und wettbewerbsfähig zu bleiben.",
+              "quelle": "folie-56"
+            }
+          ],
+          "kurz": "Gegen Day 2 muss aktiv angesteuert werden: durch Mut, Lernfreude und radikale Kundenorientierung."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Folie 84:** „organisatorischer Entropie“ begegnen: **KONTINUIERLICH IM START-UP MODUS BLEIBEN**. Ausgeführt durch das **Day 1 Mindset** (Jeff Bezos, Amazon): Innovationskraft, Kundenzentrierung, dauerhafte Agilität, sich ständig wie ein Startup verhalten. Gegenstück **Day 2**: Trägheit, Bürokratie, Niedergang."
+        ],
+        "ausfuehrlich": [
+          "**Überschrift (Dozent, rot):** „organisatorischer Entropie“ begegnen: „KONTINUIERLICH IM START-UP MODUS BLEIBEN“. Der Begriff organisatorische Entropie wird nicht erklärt.",
+          "**Day 1 Mindset:** steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität; solche Unternehmen bleiben relevant, wettbewerbsfähig und wachsen nachhaltig. Von Jeff Bezos geprägt und bei Amazon etabliert. Es befähigt Unternehmen, sich **ständig wie ein Startup** zu verhalten. Schwerpunkte: Innovation, radikale Kundenzentrierung, schnelle Entscheidungsfindung, Risikobereitschaft.",
+          "**Zitat Bezos:** Day 1 steht für Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen – während Day 2 Trägheit, Bürokratie und den Niedergang eines Unternehmens bedeutet. (Quellenangabe laut Rohtext: AWS Executive Insights.)",
+          "**Sechs Kernprinzipien (grau hinterlegt):** 1 Kundenzentrierung (Kundenbedürfnisse bestimmen jede Entscheidung) · 2 Schnelligkeit & Agilität (zügig und marktnah) · 3 Trendorientierung (früh erkennen, aktiv gestalten) · 4 Entscheidungsqualität (reversibel oder irreversibel unterscheiden) · 5 Innovationskultur (Experimentieren, Lernen, Mut zu Neuem) · 6 Risikobereitschaft (Fehler als Lernchance).",
+          "**Day 2 Mentalität:** Stagnation statt Innovation · Bürokratie und Komplexität · Verlust an Kundenfokus und Unternehmergeist · Niedergang der Wettbewerbsfähigkeit. **Bezos' Fazit:** aktiv gegensteuern durch Mut, Lernfreude und radikale Kundenorientierung.",
+          "**Fazit der Quelle:** Schnelligkeit, Kundenzentrierung, Risikobereitschaft und Offenheit für Neues sind die Schlüssel gegen die „Day 2“-Falle."
+        ],
+        "merkhilfe": "Sechs Prinzipien, sechs Finger: **K**unde, **S**chnell, **T**rend, **E**ntscheidung, **I**nnovation, **R**isiko."
+      }
+    },
+    {
+      "id": "m6-t17",
+      "titel": "Day 1 in der Praxis: Vorteile, Herausforderungen, Amazon-Prinzipien",
+      "folien": [
+        84
+      ],
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m6-t17-k1",
+          "titel": "Praxisbeispiel: Amazons Lieferprozesse",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die Quelle zeigt an einem Beispiel, was der Start-up-Modus praktisch heißt. Amazon macht die bestehende Logistik nicht nur ein bisschen besser, sondern setzt auf ganz neue Wege. Zwei weitere Beispiele stehen daneben."
+            },
+            {
+              "typ": "text",
+              "text": "Ein Paradebeispiel ist Amazons Entwicklung innovativer Lieferprozesse: Anstatt bestehende Logistik lediglich zu verbessern, setzt Amazon auf **disruptive Lösungen** wie **Drohnenlieferungen** und **autonome Fahrzeuge**, um die **Kundenerwartungen** zu übertreffen."
+            },
+            {
+              "typ": "liste",
+              "titel": "Weitere Beispiele",
+              "punkte": [
+                "**Amazon Prime:** Revolutionäres Kundenangebot mit schneller Lieferung.",
+                "**Alexa:** Neue Technologien zur Verbesserung des Kundenerlebnisses."
+              ]
+            },
+            {
+              "typ": "definition",
+              "begriff": "disruptive Lösungen",
+              "text": "Innovative Ansätze, die bestehende Märkte oder Prozesse radikal verändern, wie z.B. die Einführung neuer Technologien. (Antwort aus dem FAQ-Teil derselben Folie.)"
+            }
+          ]
+        },
+        {
+          "id": "m6-t17-k2",
+          "titel": "Vorteile des Day 1 Mindsets",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Fünf Vorteile zählt die Quelle auf. Jeder besteht aus einem Schlagwort und einem kurzen Nachsatz. Lerne beides zusammen, der Nachsatz macht den Unterschied zu den Kernprinzipien."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Vorteil",
+                "Erläuterung laut Quelle"
+              ],
+              "zeilen": [
+                [
+                  "**Langfristige Innovationsfähigkeit**",
+                  "Erfolge werden kontinuierlich hinterfragt."
+                ],
+                [
+                  "**Kundennähe**",
+                  "Produkte und Services werden kundenzentrierter gestaltet."
+                ],
+                [
+                  "**Agiles Handeln**",
+                  "Schnelle Anpassung an Marktveränderungen."
+                ],
+                [
+                  "**Motivation & Unternehmergeist**",
+                  "Kreative Teams agieren eigenverantwortlich."
+                ],
+                [
+                  "**Lernkultur**",
+                  "Fehler werden als Chancen für Wachstum verstanden."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m6-t17-k3",
+          "titel": "Herausforderungen des Day 1 Mindsets",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die Quelle nennt auch vier Schattenseiten. Das ist prüfungsnah, weil man leicht nur die Vorteile im Kopf behält. Vier Herausforderungen, fünf Vorteile: Die Zahlen helfen beim Aufzählen."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Herausforderung",
+                "Erläuterung laut Quelle"
+              ],
+              "zeilen": [
+                [
+                  "**Erhöhter Innovationsdruck**",
+                  "Ständiger Wandel kann Stress verursachen."
+                ],
+                [
+                  "**Risiko von Fehlinvestitionen**",
+                  "Mehr Experimente bedeuten auch mehr Risiken."
+                ],
+                [
+                  "**Skalierungsschwierigkeiten**",
+                  "Große Organisationen tun sich schwerer mit flächendeckender Umsetzung."
+                ],
+                [
+                  "**Balance zwischen Mut und Kontrolle**",
+                  "Innovation erfordert sorgfältige Risikobewertung."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "m6-t17-k4",
+          "titel": "Amazon-Prinzipien für Produktivität & Kundenfokus",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "In der rechten Spalte steht eine zweite Liste mit sieben Arbeitsprinzipien. Sie sind nur mit je einem Halbsatz erklärt. Du musst sie also zuordnen können, mehr gibt die Quelle nicht her."
+            },
+            {
+              "typ": "liste",
+              "titel": "Sieben Prinzipien laut Folie",
+              "punkte": [
+                "**Disagree & Commit:** Schnelle Entscheidungen trotz Meinungsverschiedenheiten",
+                "**Deep Work:** Maximale Konzentration für beste Ergebnisse",
+                "**Working Backwards:** Konsequente Kundenorientierung",
+                "**Day 1 Mindset:** Flexibilität & Innovationsbereitschaft",
+                "**Narrative Kommunikation:** Effektivere Entscheidungen durch strukturierte Texte",
+                "**Silent Meetings:** Effizientere Meetings mit schriftlicher Vorbereitung",
+                "**Amazon Memos:** Faktenbasierte Analysen für Strategie"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "[[Disagree & Commit]], [[Working Backwards]], [[Narrative Kommunikation]], [[Silent Meetings]] und [[Amazon Memos]] werden nur mit einem Halbsatz belegt, nicht ausgeführt. Mehr steht weder auf der Folie noch in der Quelle."
+            }
+          ]
+        },
+        {
+          "id": "m6-t17-k5",
+          "titel": "Kurzantworten und Schlusssatz",
+          "folien": [
+            84
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Der FAQ-Teil der Folie wiederholt die Kernaussagen in je einem Satz. Das sind fertige Klausurantworten. Am Ende steht ein Schlusssatz, den der Dozent grau hinterlegt hat."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Frage auf der Folie",
+                "Antwort laut Quelle"
+              ],
+              "zeilen": [
+                [
+                  "Was versteht man unter dem Day 1 Mindset?",
+                  "Eine Unternehmenshaltung, die dauerhaft Innovation, Kundenzentrierung, Agilität und Risikobereitschaft fördert."
+                ],
+                [
+                  "Wie lässt sich das Day 1 Mindset implementieren?",
+                  "Durch radikale Kundenorientierung, schnelles Entscheiden, mutiges Experimentieren und ständiges Infragestellen bestehender Prozesse."
+                ],
+                [
+                  "Was ist die Gefahr von „Day 2“?",
+                  "Day 2 steht für Stillstand, Bürokratie, Verlust von Innovationskraft und sinkende Wettbewerbsfähigkeit."
+                ],
+                [
+                  "Was bedeutet Agilität im Kontext des Day 1 Mindsets?",
+                  "Schnelle Anpassung an Marktveränderungen und die Fähigkeit, rasch auf Kundenfeedback zu reagieren."
+                ],
+                [
+                  "Wie bleibt ein Unternehmen innovativ?",
+                  "Durch kontinuierliches Experimentieren, Lernen und den Mut, neue Wege zu gehen."
+                ]
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 84,
+              "text": "Wer Struktur, Fokus und Kundenorientierung lebt, bleibt langfristig am Markt erfolgreich."
+            },
+            {
+              "typ": "extern",
+              "quelle": "day1-mindset",
+              "titel": "Nur in der Online-Quelle, nicht auf der Folie",
+              "punkte": [
+                "Die zweite Zeile des Call to Action: „Ist dein Unternehmen bereit für das Day 1 Mindset?“ Der Screenshot endet vorher.",
+                "Der Abschnitt „Quellenangabe“ mit zwei Belegen: [1] AWS Executive Insights, „Elements of Amazon's Day 1 Culture“, und [2] Raso360, „How Amazon's Day 1 Culture Can Inspire Your Company“.",
+                "Die Auflösung der auf der Folie unleserlichen Quellenangabe hinter dem ersten Bezos-Zitat: „AWS Executive Insights“.",
+                "Die Quelle ist ein Lexikoneintrag eines Dritten, keine Amazon-Primärquelle. Ob die Zitate Bezos wörtlich wiedergeben oder Übersetzungen sind, lässt sich aus den vorliegenden Quellen nicht entscheiden."
+              ]
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m6-t17-a01",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-vorteile",
+          "karte": "m6-t17-k2",
+          "folien": [
+            84
+          ],
+          "frage": "Welche **Vorteile** des Day 1 Mindsets nennt die Quelle?",
+          "optionen": [
+            "Langfristige Innovationsfähigkeit",
+            "Kundennähe",
+            "Erhöhter Innovationsdruck",
+            "Agiles Handeln",
+            "Motivation & Unternehmergeist",
+            "Skalierungsschwierigkeiten",
+            "Lernkultur"
+          ],
+          "richtig": [
+            0,
+            1,
+            3,
+            4,
+            6
+          ],
+          "erklaerung": "Fünf Vorteile stehen auf der Folie. Erhöhter Innovationsdruck und Skalierungsschwierigkeiten gehören zu den vier Herausforderungen.",
+          "beleg": "Motivation & Unternehmergeist: Kreative Teams agieren eigenverantwortlich.",
+          "belegQuelle": "folie-56",
+          "kurz": "Fünf Vorteile: Innovationsfähigkeit, Kundennähe, agiles Handeln, Motivation & Unternehmergeist, Lernkultur."
+        },
+        {
+          "id": "m6-t17-a02",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "day1-vorteile",
+          "karte": "m6-t17-k3",
+          "folien": [
+            84
+          ],
+          "frage": "Vorteil oder Herausforderung des Day 1 Mindsets?",
+          "kategorien": [
+            "Vorteil",
+            "Herausforderung"
+          ],
+          "elemente": [
+            {
+              "text": "Erfolge werden kontinuierlich hinterfragt",
+              "kategorie": 0
+            },
+            {
+              "text": "Fehler werden als Chancen für Wachstum verstanden",
+              "kategorie": 0
+            },
+            {
+              "text": "Kreative Teams agieren eigenverantwortlich",
+              "kategorie": 0
+            },
+            {
+              "text": "Ständiger Wandel kann Stress verursachen",
+              "kategorie": 1
+            },
+            {
+              "text": "Mehr Experimente bedeuten auch mehr Risiken",
+              "kategorie": 1
+            },
+            {
+              "text": "Große Organisationen tun sich schwerer mit flächendeckender Umsetzung",
+              "kategorie": 1
+            },
+            {
+              "text": "Innovation erfordert sorgfältige Risikobewertung",
+              "kategorie": 1
+            }
+          ],
+          "erklaerung": "Die Quelle nennt fünf Vorteile und vier Herausforderungen. Wer nur die Vorteile lernt, verliert in der Klausur die halbe Antwort.",
+          "beleg": "Risiko von Fehlinvestitionen: Mehr Experimente bedeuten auch mehr Risiken.",
+          "belegQuelle": "folie-56",
+          "kurz": "5 Vorteile, 4 Herausforderungen: Innovationsdruck, Fehlinvestitionen, Skalierung, Balance Mut und Kontrolle."
+        },
+        {
+          "id": "m6-t17-a03",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "amazon-prinzipien",
+          "karte": "m6-t17-k4",
+          "folien": [
+            84
+          ],
+          "frage": "Ordne die Amazon-Prinzipien für Produktivität und Kundenfokus ihrer Kurzbeschreibung zu.",
+          "linksTitel": "Prinzip",
+          "rechtsTitel": "Kurzbeschreibung laut Folie",
+          "paare": [
+            {
+              "links": "Disagree & Commit",
+              "rechts": "Schnelle Entscheidungen trotz Meinungsverschiedenheiten"
+            },
+            {
+              "links": "Deep Work",
+              "rechts": "Maximale Konzentration für beste Ergebnisse"
+            },
+            {
+              "links": "Working Backwards",
+              "rechts": "Konsequente Kundenorientierung"
+            },
+            {
+              "links": "Narrative Kommunikation",
+              "rechts": "Effektivere Entscheidungen durch strukturierte Texte"
+            },
+            {
+              "links": "Silent Meetings",
+              "rechts": "Effizientere Meetings mit schriftlicher Vorbereitung"
+            },
+            {
+              "links": "Amazon Memos",
+              "rechts": "Faktenbasierte Analysen für Strategie"
+            }
+          ],
+          "erklaerung": "Sieben Prinzipien stehen auf der Folie, das siebte ist das Day 1 Mindset selbst (Flexibilität & Innovationsbereitschaft). Mehr als diese Halbsätze gibt die Quelle nicht her.",
+          "belege": [
+            {
+              "text": "Disagree & Commit: Schnelle Entscheidungen trotz Meinungsverschiedenheiten",
+              "quelle": "folie-56"
+            },
+            {
+              "text": "Silent Meetings: Effizientere Meetings mit schriftlicher Vorbereitung",
+              "quelle": "folie-56"
+            }
+          ],
+          "kurz": "Disagree & Commit · Deep Work · Working Backwards · Day 1 Mindset · Narrative Kommunikation · Silent Meetings · Amazon Memos."
+        },
+        {
+          "id": "m6-t17-a04",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-praxis",
+          "karte": "m6-t17-k1",
+          "folien": [
+            84
+          ],
+          "frage": "Woran zeigt die Quelle die Umsetzung des Day 1 Mindsets bei Amazon?",
+          "optionen": [
+            "An den Lieferprozessen: disruptive Lösungen wie Drohnenlieferungen und autonome Fahrzeuge statt bloßer Verbesserung der Logistik",
+            "An der Einführung eines Zielsystems mit messbaren KPIs",
+            "An jährlichen Innovationsworkshops für alle Führungskräfte",
+            "An der Umstellung der Meetings auf Videokonferenzen"
+          ],
+          "richtig": 0,
+          "erklaerung": "Das Paradebeispiel ist die Entwicklung innovativer Lieferprozesse. Weitere Beispiele: Amazon Prime und Alexa.",
+          "beleg": "setzt Amazon auf disruptive Lösungen wie Drohnenlieferungen und autonome Fahrzeuge, um die Kundenerwartungen zu übertreffen",
+          "belegQuelle": "folie-56",
+          "kurz": "Praxisbeispiel: Lieferprozesse mit Drohnen und autonomen Fahrzeugen, dazu Amazon Prime und Alexa."
+        },
+        {
+          "id": "m6-t17-a05",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-vorteile",
+          "karte": "m6-t17-k3",
+          "folien": [
+            84
+          ],
+          "frage": "Was sagt die Quelle über die Herausforderungen?",
+          "aussagen": [
+            {
+              "text": "Ständiger Wandel kann Stress verursachen.",
+              "wahr": true
+            },
+            {
+              "text": "Große Organisationen setzen das Day 1 Mindset leichter flächendeckend um als kleine.",
+              "wahr": false,
+              "korrektur": "Große Organisationen tun sich schwerer mit flächendeckender Umsetzung."
+            },
+            {
+              "text": "Mehr Experimente bedeuten auch mehr Risiken.",
+              "wahr": true
+            },
+            {
+              "text": "Innovation erfordert sorgfältige Risikobewertung.",
+              "wahr": true
+            }
+          ],
+          "erklaerung": "Die Skalierungsschwierigkeit ist die Falle in dieser Aufgabe: Gerade große Organisationen tun sich schwer.",
+          "beleg": "Skalierungsschwierigkeiten: Große Organisationen tun sich schwerer mit flächendeckender Umsetzung.",
+          "belegQuelle": "folie-56",
+          "kurz": "Herausforderungen: Stress durch Wandel, mehr Risiko, Skalierung in großen Organisationen, Balance Mut und Kontrolle."
+        },
+        {
+          "id": "m6-t17-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "day1-vorteile",
+          "karte": "m6-t17-k2",
+          "folien": [
+            84
+          ],
+          "frage": "Klausurfrage: Stelle Vorteile und Herausforderungen des Day 1 Mindsets gegenüber und nenne, was die Quelle als Schlüssel gegen die „Day 2“-Falle bezeichnet.",
+          "musterloesung": "Die Quelle nennt fünf Vorteile: langfristige Innovationsfähigkeit, weil Erfolge kontinuierlich hinterfragt werden; Kundennähe, weil Produkte und Services kundenzentrierter gestaltet werden; agiles Handeln als schnelle Anpassung an Marktveränderungen; Motivation und Unternehmergeist, weil kreative Teams eigenverantwortlich agieren; und eine Lernkultur, in der Fehler als Chancen für Wachstum verstanden werden. Dem stehen vier Herausforderungen gegenüber: erhöhter Innovationsdruck, weil ständiger Wandel Stress verursachen kann; das Risiko von Fehlinvestitionen, weil mehr Experimente auch mehr Risiken bedeuten; Skalierungsschwierigkeiten, weil große Organisationen sich mit flächendeckender Umsetzung schwerer tun; und die Balance zwischen Mut und Kontrolle, weil Innovation eine sorgfältige Risikobewertung erfordert. Als Schlüssel gegen die Day-2-Falle nennt das Fazit Schnelligkeit, Kundenzentrierung, Risikobereitschaft und Offenheit für Neues.",
+          "checkliste": [
+            "Mindestens vier der fünf Vorteile mit Nachsatz",
+            "Alle vier Herausforderungen genannt",
+            "Skalierungsschwierigkeit richtig: große Organisationen tun sich schwerer",
+            "Schlüssel gegen Day 2: Schnelligkeit, Kundenzentrierung, Risikobereitschaft, Offenheit für Neues"
+          ],
+          "erklaerung": "Eine typische Gegenüberstellungsfrage. Die Zahlen fünf und vier helfen, nichts zu vergessen.",
+          "beleg": "Schnelligkeit, Kundenzentrierung, Risikobereitschaft und Offenheit für Neues sind Schlüssel gegen die “Day 2”-Falle.",
+          "belegQuelle": "folie-56",
+          "kurz": "5 Vorteile gegen 4 Herausforderungen; Schlüssel gegen Day 2: Schnelligkeit, Kundenzentrierung, Risikobereitschaft, Offenheit."
+        },
+        {
+          "id": "m6-t17-a07",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "amazon-prinzipien",
+          "karte": "m6-t17-k4",
+          "folien": [
+            84
+          ],
+          "szenario": "Übungsfall: In deiner Abteilung dauern Besprechungen lange, weil alle unvorbereitet kommen und die Unterlagen erst im Termin gelesen werden. Danach wird die Entscheidung vertagt, weil zwei Kolleginnen anderer Meinung sind.",
+          "frage": "Welche Amazon-Prinzipien der Folie passen auf diese beiden Probleme, und was besagen sie?",
+          "musterloesung": "Für die unvorbereiteten Besprechungen passen zwei Prinzipien: Silent Meetings, also effizientere Meetings mit schriftlicher Vorbereitung, und Narrative Kommunikation, also effektivere Entscheidungen durch strukturierte Texte. Dazu gehören die Amazon Memos als faktenbasierte Analysen für Strategie. Für die vertagte Entscheidung bei Meinungsverschiedenheit passt Disagree & Commit: schnelle Entscheidungen trotz Meinungsverschiedenheiten. Mehr als diese Kurzbeschreibungen gibt die Folie nicht her; sie belegt die Prinzipien nur mit je einem Halbsatz.",
+          "checkliste": [
+            "Silent Meetings: schriftliche Vorbereitung",
+            "Narrative Kommunikation oder Amazon Memos: strukturierte Texte, faktenbasierte Analysen",
+            "Disagree & Commit: schnelle Entscheidungen trotz Meinungsverschiedenheiten",
+            "Hinweis, dass die Quelle die Prinzipien nur mit einem Halbsatz belegt"
+          ],
+          "erklaerung": "Der Fall bleibt bewusst bei den Halbsätzen der Folie. Eine ausgeführte Methode steht dort nicht.",
+          "beleg": "Narrative Kommunikation: Effektivere Entscheidungen durch strukturierte Texte",
+          "belegQuelle": "folie-56",
+          "kurz": "Silent Meetings und Narrative Kommunikation gegen unvorbereitete Termine, Disagree & Commit gegen vertagte Entscheidungen."
+        },
+        {
+          "id": "m6-t17-a08",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-fazit",
+          "karte": "m6-t17-k5",
+          "folien": [
+            84
+          ],
+          "bank": true,
+          "frage": "Vervollständige den grau hinterlegten Schlusssatz der Folie.",
+          "text": "Wer {_Struktur_}, {_Fokus_} und {_Kundenorientierung_} lebt, bleibt langfristig am Markt erfolgreich.",
+          "zusatzBank": [
+            "Agilität",
+            "Mut",
+            "Innovationskraft"
+          ],
+          "erklaerung": "Der Satz steht im Call-to-Action-Teil der Folie und ist vom Dozenten grau hinterlegt.",
+          "beleg": "Wer Struktur, Fokus und Kundenorientierung lebt, bleibt langfristig am Markt erfolgreich.",
+          "belegQuelle": "folie-56",
+          "kurz": "Schlusssatz: Struktur, Fokus und Kundenorientierung leben."
+        },
+        {
+          "id": "m6-t17-a09",
+          "typ": "karte",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-quelle",
+          "karte": "m6-t17-k5",
+          "folien": [
+            84
+          ],
+          "vorne": "Was steht nur in der Online-Quelle zum Day 1 Mindset und **nicht** auf Folie 84?",
+          "hinten": "Drei Dinge: die zweite Zeile des Call to Action („Ist dein Unternehmen bereit für das Day 1 Mindset?“), der ganze Abschnitt **Quellenangabe** mit den Belegen AWS Executive Insights und Raso360, und die Auflösung der auf der Folie unleserlichen Quellenangabe hinter dem Bezos-Zitat.",
+          "erklaerung": "Für die Klausur zählt nur, was auf der Folie steht. Der Rest ist Herkunft und hier ausdrücklich als solcher gekennzeichnet.",
+          "beleg": "Ist dein Unternehmen bereit für das Day 1 Mindset?",
+          "belegQuelle": "extern-change",
+          "kurz": "Nur online: zweite CTA-Zeile, Abschnitt Quellenangabe (AWS Executive Insights, Raso360), Auflösung der Zitatquelle."
+        },
+        {
+          "id": "m6-t17-a10",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "day1-fazit",
+          "karte": "m6-t17-k5",
+          "folien": [
+            84
+          ],
+          "frage": "Der Schlusssatz der Folie lautet: **Wer Struktur, Fokus und Kundenorientierung lebt, bleibt langfristig am Markt erfolgreich.** Erkläre, was damit gemeint ist und in welchem Zusammenhang er steht.",
+          "musterloesung": "Der Satz steht ganz am Ende der rechten Spalte im Teil Call to Action und ist auf der Folie grau hinterlegt, also hervorgehoben. Er bringt nichts Neues, sondern fasst den eingefügten Artikel in einem Satz zusammen. Kundenorientierung ist die Kurzform der Kundenzentrierung, des ersten der sechs Kernprinzipien: Kundenbedürfnisse bestimmen jede Entscheidung. Struktur und Fokus greifen die sieben Amazon-Prinzipien für Produktivität und Kundenfokus auf, zum Beispiel Working Backwards (konsequente Kundenorientierung) und Deep Work (maximale Konzentration für beste Ergebnisse). Der Zusammenhang: Der Satz ist die Antwort auf die Überschrift des Dozenten, kontinuierlich im Start-up-Modus bleiben, und die Gegenrichtung zur Day 2 Falle. Wichtig ist das Wort lebt: Gemeint ist eine dauerhafte Haltung, kein Projekt. Zur Quelle: Auf der Folie endet der Auszug nach diesem Satz, die zweite Zeile des Call to Action steht nur in der Online-Quelle.",
+          "checkliste": [
+            "Ort: Call to Action am Ende der rechten Spalte, grau hinterlegt",
+            "Der Satz fasst zusammen, er bringt keinen neuen Inhalt",
+            "Kundenorientierung entspricht der Kundenzentrierung, dem ersten Kernprinzip",
+            "Struktur und Fokus greifen die Amazon-Prinzipien auf, etwa Working Backwards und Deep Work",
+            "Gegenrichtung zur Day 2 Falle, Antwort auf: kontinuierlich im Start-up-Modus bleiben",
+            "Das Wort lebt: dauerhafte Haltung, kein Projekt"
+          ],
+          "erklaerung": "Der Satz ist der Schluss der Folie und vom Dozenten hervorgehoben. Er eignet sich als Schlusssatz einer Klausurantwort, weil er alles bündelt.",
+          "belege": [
+            {
+              "text": "Wer Struktur, Fokus und Kundenorientierung lebt, bleibt langfristig am Markt erfolgreich.",
+              "quelle": "folie-56"
+            },
+            {
+              "text": "Working Backwards: Konsequente Kundenorientierung",
+              "quelle": "folie-56"
+            }
+          ],
+          "kurz": "Schlusssatz: Struktur, Fokus und Kundenorientierung leben, dann bleibt man langfristig am Markt erfolgreich."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Day 1 in der Praxis (Folie 84):** Lieferprozesse disruptiv statt verbessert (Drohnen, autonome Fahrzeuge), dazu Amazon Prime und Alexa. **5 Vorteile** (Innovationsfähigkeit, Kundennähe, agiles Handeln, Motivation & Unternehmergeist, Lernkultur) gegen **4 Herausforderungen** (Innovationsdruck, Fehlinvestitionen, Skalierung, Balance Mut und Kontrolle)."
+        ],
+        "ausfuehrlich": [
+          "**Praxisbeispiel:** Anstatt bestehende Logistik lediglich zu verbessern, setzt Amazon auf disruptive Lösungen wie Drohnenlieferungen und autonome Fahrzeuge, um Kundenerwartungen zu übertreffen. Weitere Beispiele: Amazon Prime (revolutionäres Kundenangebot mit schneller Lieferung), Alexa (neue Technologien zur Verbesserung des Kundenerlebnisses).",
+          "**Fünf Vorteile:** langfristige Innovationsfähigkeit (Erfolge kontinuierlich hinterfragt) · Kundennähe (kundenzentriertere Produkte und Services) · agiles Handeln (schnelle Anpassung an Marktveränderungen) · Motivation & Unternehmergeist (kreative Teams agieren eigenverantwortlich) · Lernkultur (Fehler als Chancen für Wachstum).",
+          "**Vier Herausforderungen:** erhöhter Innovationsdruck (Stress durch ständigen Wandel) · Risiko von Fehlinvestitionen (mehr Experimente, mehr Risiken) · Skalierungsschwierigkeiten (große Organisationen tun sich schwerer) · Balance zwischen Mut und Kontrolle (sorgfältige Risikobewertung).",
+          "**Sieben Amazon-Prinzipien:** Disagree & Commit (schnelle Entscheidungen trotz Meinungsverschiedenheiten) · Deep Work (maximale Konzentration) · Working Backwards (konsequente Kundenorientierung) · Day 1 Mindset (Flexibilität & Innovationsbereitschaft) · Narrative Kommunikation (strukturierte Texte) · Silent Meetings (schriftliche Vorbereitung) · Amazon Memos (faktenbasierte Analysen). Nur mit je einem Halbsatz belegt.",
+          "**Schlusssatz (grau hinterlegt):** Wer Struktur, Fokus und Kundenorientierung lebt, bleibt langfristig am Markt erfolgreich.",
+          "**Quellenlage:** Die Seite ist ein Lexikoneintrag eines Dritten, keine Amazon-Primärquelle. Die Angabe hinter dem Bezos-Zitat ist auf der Folie unleserlich, laut Rohtext AWS Executive Insights."
+        ],
+        "merkhilfe": "Fünf Vorteile, vier Herausforderungen, sieben Arbeitsprinzipien: 5 - 4 - 7."
+      }
+    }
+  ]
+}

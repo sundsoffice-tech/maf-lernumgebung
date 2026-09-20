@@ -93,7 +93,10 @@
 }
 .zuordnung__liste--bank .zuordnung__eintrag { width: auto; }
 @media (min-width: 44rem) { .zuordnung__liste--bank .zuordnung__eintrag { width: 100%; } }
-.zuordnung__eintrag:hover { background: var(--flaeche-2); }
+/* Hover nur mit Zeiger: auf dem iPad bliebe die zuletzt angetippte Zeile sonst hinterlegt (Vertrag 8.3). */
+@media (hover: hover) {
+  @media (hover: hover) { .zuordnung__eintrag:hover { background: var(--flaeche-2); } }
+}
 .zuordnung__eintrag[disabled] { cursor: default; box-shadow: none; }
 .zuordnung__text { min-width: 0; line-height: 1.35; }
 
@@ -160,7 +163,9 @@
 }
 .sortierzeile .ordnen__marke { border-style: solid; border-color: var(--linie-stark); background: var(--flaeche-2); color: var(--tinte-2); }
 .sortierzeile__text { min-width: 0; line-height: 1.35; }
-.sortierzeile__knoepfe { display: flex; gap: var(--a-1); }
+/* Auf und Ab liegen nebeneinander und tun das Gegenteil voneinander. 8 px Luft dazwischen, damit der
+   Daumen nicht danebengreift (Vertrag 8.4). */
+.sortierzeile__knoepfe { display: flex; gap: var(--a-2); }
 .sortierzeile__knopf { min-width: 2.75rem; padding: 0 var(--a-2); }
 .sortierzeile__loesung { grid-column: 1 / -1; }
 /* Zuletzt bewegte Zeile kurz kenntlich machen, damit der Sprung nachvollziehbar bleibt */

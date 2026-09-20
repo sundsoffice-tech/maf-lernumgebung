@@ -51,6 +51,55 @@ export default {
     <rect x="520" y="452" width="270" height="42" rx="6" class="d-akzentflaeche"/>
     <text data-label="zentrum" x="655" y="479" text-anchor="middle" class="d-text-akzent">im Zentrum stehen SIE, die FK!</text>
   `,
+  // Hochkant: die Kreuzform bleibt (oben Vorgesetzten-, unten MA-Führung, in der Mitte die
+  // Selbst-Führung zwischen den beiden seitlichen Beziehungen), nur schmaler und mit umbrochenen
+  // Beschriftungen. Die beiden Merksaetze der Folie stehen als Zeilen darueber und darunter.
+  viewBoxSchmal: '0 0 360 512',
+  svgSchmal: `
+    <text data-label="titel" x="180" y="24" text-anchor="middle" class="d-text-titel"><tspan x="180" y="24">5 Führungsbeziehungen </tspan><tspan x="180" y="46">direkter, personal-interaktiver </tspan><tspan x="180" y="68">(Menschen)Führung</tspan></text>
+
+    <rect x="64" y="84" width="232" height="36" rx="6" class="d-akzentflaeche"/>
+    <text data-label="strukturen" x="180" y="108" text-anchor="middle" class="d-text-akzent">Und dazu Strukturen!</text>
+
+    <rect x="90" y="136" width="180" height="62" rx="10" class="d-flaeche-2"/>
+    <text data-label="bez-oben" x="180" y="162" text-anchor="middle" class="d-text-fett">Vorgesetzten-Führung</text>
+    <text data-label="engl-oben" x="180" y="184" text-anchor="middle" class="d-text-klein">(„leading upwards")</text>
+
+    <path d="M 180 209 L 180 223" class="d-linie"/>
+    <path d="M 180 196 L 173 210 L 187 210 Z" class="d-pfeilspitze"/>
+    <path d="M 180 236 L 173 222 L 187 222 Z" class="d-pfeilspitze"/>
+
+    <rect x="9" y="236" width="90" height="106" rx="10" class="d-flaeche-2"/>
+    <text data-label="bez-links" x="54" y="274" text-anchor="middle" class="d-text-fett"><tspan x="54" y="264">laterale </tspan><tspan x="54" y="284">Führung</tspan></text>
+    <text data-label="engl-links" x="54" y="306" text-anchor="middle" class="d-text-klein"><tspan x="54" y="306">(„leading </tspan><tspan x="54" y="324">sideways")</tspan></text>
+
+    <rect x="135" y="236" width="90" height="106" rx="10" class="d-akzentflaeche"/>
+    <text data-label="bez-mitte" x="180" y="274" text-anchor="middle" class="d-text-fett"><tspan x="180" y="264">Selbst-</tspan><tspan x="180" y="284">Führung</tspan></text>
+    <text data-label="engl-mitte" x="180" y="306" text-anchor="middle" class="d-text-klein"><tspan x="180" y="306">(„leading </tspan><tspan x="180" y="324">yourself")</tspan></text>
+
+    <rect x="261" y="236" width="90" height="106" rx="10" class="d-flaeche-2"/>
+    <text data-label="bez-rechts" x="306" y="276" text-anchor="middle" class="d-text-fett"><tspan x="306" y="256">Kunden-</tspan><tspan x="306" y="276">/Partner-</tspan><tspan x="306" y="296">Führung</tspan></text>
+    <text data-label="engl-rechts" x="306" y="318" text-anchor="middle" class="d-text-klein"><tspan x="306" y="318">(„leading </tspan><tspan x="306" y="336">sideways")</tspan></text>
+
+    <path d="M 109 289 L 125 289" class="d-linie"/>
+    <path d="M 99 289 L 110 282 L 110 296 Z" class="d-pfeilspitze"/>
+    <path d="M 135 289 L 124 282 L 124 296 Z" class="d-pfeilspitze"/>
+
+    <path d="M 235 289 L 251 289" class="d-linie"/>
+    <path d="M 225 289 L 236 282 L 236 296 Z" class="d-pfeilspitze"/>
+    <path d="M 261 289 L 250 282 L 250 296 Z" class="d-pfeilspitze"/>
+
+    <path d="M 180 353 L 180 367" class="d-linie"/>
+    <path d="M 180 340 L 173 354 L 187 354 Z" class="d-pfeilspitze"/>
+    <path d="M 180 380 L 173 366 L 187 366 Z" class="d-pfeilspitze"/>
+
+    <rect x="90" y="380" width="180" height="62" rx="10" class="d-flaeche-2"/>
+    <text data-label="bez-unten" x="180" y="406" text-anchor="middle" class="d-text-fett">MA-Führung</text>
+    <text data-label="engl-unten" x="180" y="428" text-anchor="middle" class="d-text-klein">(„leading downwards")</text>
+
+    <rect x="48" y="462" width="264" height="36" rx="6" class="d-akzentflaeche"/>
+    <text data-label="zentrum" x="180" y="486" text-anchor="middle" class="d-text-akzent">im Zentrum stehen SIE, die FK!</text>
+  `,
   labels: [
     { id: 'titel', text: '5 Führungsbeziehungen direkter, personal-interaktiver (Menschen)Führung', abfragbar: false, gruppe: 'rahmen' },
     { id: 'bez-oben', text: 'Vorgesetzten-Führung', abfragbar: true, gruppe: 'beziehungen' },

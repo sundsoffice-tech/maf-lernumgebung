@@ -1,5 +1,7 @@
 // Lernzettel (#/lernzettel): ein Dokument für die letzte Wiederholung vor der Klausur, nicht die Webseite
-// noch einmal. Auf dem Bildschirm steht eine Werkzeugleiste darüber, gedruckt wird nur das Dokument (A4 hoch).
+// noch einmal. Auf dem Bildschirm steht der Titel zuerst, darunter die Werkzeuge und ein Inhaltsverzeichnis
+// mit Sprungmarken; jedes Modul lässt sich zuklappen, ein mitlaufender Knopf führt zurück nach oben.
+// Gedruckt wird nur das Dokument (A4 hoch), ohne Werkzeuge, Verzeichnis und Knopf.
 // Alles, was Stand ist, kommt aus app.modell: welcher Modus je Thema passt, welche Themen am schwächsten sind
 // und wo es gehakt hat. Die Ansicht rechnet nichts selbst.
 //
@@ -9,6 +11,11 @@ import { statusText } from '../lernmodell.js'
 
 const PDF_PFAD = 'lernzettel/MAF-Lernzettel.pdf'
 const ZUERST_MAX = 8
+// Ab hier ist der Bildschirm breit genug, dass die Werkzeuge offen stehen können, ohne den Titel zu verdrängen.
+// Auf dem iPhone (390 px) bleiben sie zugeklappt, auf dem iPad (ab 768 px) stehen sie offen.
+const WERKZEUGE_OFFEN_AB = '(min-width: 40rem)'
+// Erst nach rund einer Bildschirmhöhe erscheint „Nach oben“; davor verdeckt er nur Inhalt.
+const NACH_OBEN_AB = 700
 
 const MODI = [
   { id: 'persoenlich', text: 'Persönlich' },
@@ -71,6 +78,23 @@ function stolperMarke(stelle) {
   return stelle.offen ? 'noch offen' : 'wackelig'
 }
 
+/**
+ * Sprung zu einem Abschnitt des Zettels. Kein Anker im href: die App hängt ihre Route an den Hash,
+ * ein „#lz-m1“ würde die Ansicht neu laden statt zu scrollen.
+ */
+function springeZu(id) {
+  const ziel = document.getElementById(id)
+  if (!ziel) return
+  // Ein zugeklapptes Modul öffnet sich beim Sprung wieder, sonst führt die Marke auf eine leere Überschrift.
+  const zu = ziel.querySelector('.lz-modul__klapp[aria-expanded="false"]')
+  if (zu) zu.click()
+  ziel.scrollIntoView()
+  // Tastatur und Vorlesefunktion springen mit, ohne dass der Fokus noch einmal scrollt.
+  const marke = ziel.querySelector('.lz-modul__klapp') || ziel.querySelector('h2') || ziel
+  if (marke.tagName !== 'BUTTON' && !marke.hasAttribute('tabindex')) marke.setAttribute('tabindex', '-1')
+  try { marke.focus({ preventScroll: true }) } catch (e) { /* ältere Safari-Fassungen kennen die Option nicht */ }
+}
+
 function themaBlock(app, thema, modus) {
   const lz = thema.lernzettel || {}
   const zeilen = zeilenFuer(thema, modus)
@@ -121,9 +145,24 @@ function themaBlock(app, thema, modus) {
 function modulAbschnitt(app, modul, modusWahl) {
   const themen = modul.themen || []
   if (!themen.length) return null
-  const abschnitt = h('section.lz-modul')
-  abschnitt.appendChild(h('h2.lz-modul__titel', modul.titel,
-    modul.vorlesung ? h('span.lz-modul__vorlesung', modul.vorlesung) : null))
+  const abschnitt = h('section.lz-modul', { id: 'lz-' + modul.id })
+  const inhalt = h('div.lz-modul__inhalt', { id: 'lz-' + modul.id + '-inhalt' })
+
+  // Zuklappen ist eine Lesehilfe am Bildschirm: sechs Module hintereinander sind auf dem iPhone ein
+  // Endlosband. Der Knopf trägt den Überschriftstext (übliches Aufklapp-Muster) und ist damit breit
+  // genug für einen Finger. Auf dem Papier steht jedes Modul offen, das erzwingt das Druck-CSS.
+  const knopf = h('button.lz-modul__klapp', {
+    type: 'button',
+    'aria-expanded': 'true',
+    'aria-controls': inhalt.id,
+  }, h('span.lz-modul__name', modul.titel),
+    modul.vorlesung ? h('span.lz-modul__vorlesung', modul.vorlesung) : null,
+    symbol('ab', { class: 'lz-modul__pfeil' }))
+  knopf.addEventListener('click', () => {
+    const zu = abschnitt.classList.toggle('ist-zu')
+    knopf.setAttribute('aria-expanded', String(!zu))
+  })
+  abschnitt.appendChild(h('h2.lz-modul__titel', knopf))
 
   // Kurze Blöcke stehen im Druck zweispaltig. Deshalb landen aufeinanderfolgende kompakte Themen
   // in einem gemeinsamen Kasten; ein ausführliches Thema beendet die Gruppe und behält die volle Breite.
@@ -132,13 +171,14 @@ function modulAbschnitt(app, modul, modusWahl) {
     const modus = modusWahl === 'persoenlich' ? app.modell.lernzettelModus(thema) : modusWahl
     const block = themaBlock(app, thema, modus)
     if (modus === 'kompakt') {
-      if (!gruppe) { gruppe = h('div.lz-kompaktgruppe'); abschnitt.appendChild(gruppe) }
+      if (!gruppe) { gruppe = h('div.lz-kompaktgruppe'); inhalt.appendChild(gruppe) }
       gruppe.appendChild(block)
     } else {
       gruppe = null
-      abschnitt.appendChild(block)
+      inhalt.appendChild(block)
     }
   }
+  abschnitt.appendChild(inhalt)
   return abschnitt
 }
 
@@ -152,7 +192,7 @@ function zuerstAbschnitt(app) {
   const sortiert = offen.slice().sort((a, b) => a.s.wert - b.s.wert || (b.thema.gewicht || 1) - (a.thema.gewicht || 1))
   const liste = sortiert.slice(0, ZUERST_MAX)
 
-  return h('section.lz-abschnitt.lz-zuerst',
+  return h('section.lz-abschnitt.lz-zuerst', { id: 'lz-zuerst' },
     h('h2', 'Darauf zuerst schauen'),
     h('p.leise.lz-zuerst__satz', !liste.length
       ? 'Nach deinem Stand wackelt gerade nichts. Geh den Zettel trotzdem einmal ganz durch.'
@@ -171,14 +211,24 @@ function zuerstAbschnitt(app) {
 function personenAbschnitt(app) {
   const personen = app.daten.personen || []
   if (!personen.length) return null
-  return h('section.lz-abschnitt.lz-personen',
+  return h('section.lz-abschnitt.lz-personen', { id: 'lz-personen' },
     h('h2', 'Personen auf einen Blick'),
     h('ul.lz-personen__liste', personen.map((p) => h('li',
       h('strong', p.name),
       p.kurz ? h('span.lz-personen__kurz', ': ' + p.kurz) : null))))
 }
 
-function werkzeugleiste(app, modus, setzeModus) {
+/** Verzeichnis mit Sprungmarken: der Weg zu MAF V, ohne Minuten zu scrollen. */
+function inhaltAbschnitt(ziele) {
+  return h('nav.lz-inhalt', { 'aria-label': 'Inhalt des Lernzettels' },
+    h('h2.lz-inhalt__titel', 'Inhalt'),
+    h('ul.lz-inhalt__liste', ziele.map((z) => h('li',
+      h('button.lz-inhalt__ziel', { type: 'button', onclick: () => springeZu(z.id) },
+        h('span.lz-inhalt__name', z.titel),
+        z.neben ? h('span.lz-inhalt__neben', z.neben) : null)))))
+}
+
+function werkzeugleiste(modus, setzeModus, offen) {
   const wahl = h('div.lz-modi', { role: 'group', 'aria-label': 'Wie ausführlich soll der Lernzettel sein?' },
     MODI.map((m) => h('button.knopf.knopf--klein', {
       type: 'button',
@@ -194,16 +244,20 @@ function werkzeugleiste(app, modus, setzeModus) {
     h('div.aufklapp__inhalt.stapel--eng',
       ANLEITUNG.map(([geraet, text]) => [h('h4', geraet), h('p', text)])))
 
-  const leiste = h('div.lz-werkzeuge',
-    h('div.lz-werkzeuge__zeile', wahl, drucken),
-    h('p.leise.lz-werkzeuge__satz', MODUS_SATZ[modus]),
-    anleitung)
-  return leiste
+  // Auf dem iPhone zugeklappt: vorher füllten drei Fassungsknöpfe, der Druckknopf und ein Aufklapper
+  // den ganzen ersten Bildschirm, bevor der Titel kam.
+  return h('details.aufklapp.lz-werkzeuge', { open: offen },
+    h('summary', 'Fassung und Druck'),
+    h('div.aufklapp__inhalt.lz-werkzeuge__inhalt',
+      h('div.lz-werkzeuge__zeile', wahl, drucken),
+      h('p.leise.lz-werkzeuge__satz', MODUS_SATZ[modus]),
+      anleitung))
 }
 
 export default {
   titel: 'Lernzettel',
-  schmal: true,
+  // Bewusst nicht „schmal“: das Dokument begrenzt seine Zeilenlänge selbst und darf auf dem iPad quer
+  // zweispaltig über die volle Breite stehen (lernzettel.css, ab 64rem).
 
   render(host, params, app) {
     const kurs = app.daten.kurs || {}
@@ -211,6 +265,7 @@ export default {
     const druck = params.druck != null && params.druck !== '0'
     const themaVorher = document.documentElement.getAttribute('data-thema')
     let lebt = true
+    let loeseScroll = null
 
     // Gedruckt wird immer hell. Für die Druckansicht gilt das schon auf dem Bildschirm, damit die Vorschau
     // zeigt, was später auf dem Papier steht. Die Navigation bleibt stehen, damit niemand in der Ansicht
@@ -219,45 +274,75 @@ export default {
 
     const kopf = h('div.seitenkopf.lz-kopf',
       h('div.seitenkopf__ueber', 'Lernzettel'),
-      h('h1', 'Lernzettel ' + (kurs.titel || 'Mitarbeiterführung (MAF)')),
+      h('h1', { tabindex: '-1' }, 'Lernzettel ' + (kurs.titel || 'Mitarbeiterführung (MAF)')),
       h('p.lz-nur-bildschirm', 'Deine letzte Wiederholung vor der Klausur, auf Papier oder als PDF. Was sicher sitzt, steht nur kurz da.'),
+      // Zwei eigene Zeilen statt einer Reihe mit Trennpunkten: beim Umbruch blieb sonst ein „·“ am Zeilenende hängen.
       h('p.lz-kopf__zeilen',
         kurs.rahmen ? h('span', kurs.rahmen) : null,
-        h('span', 'Stand ' + datumText()),
-        h('span', 'Fassung ' + (MODI.find((m) => m.id === modus) || MODI[0]).text)),
+        h('span', 'Stand ' + datumText() + ', Fassung ' + (MODI.find((m) => m.id === modus) || MODI[0]).text)),
       modus === 'persoenlich'
         ? h('p.lz-kopf__legende', 'Legende: Themen, die laut deinem Lernstand sitzen, stehen kurz. Wo es gehakt hat, steht es ausführlich, mit deinen Stolperstellen.')
         : null)
 
     const dokument = h('article.lz-dokument', kopf)
+    host.appendChild(dokument)
 
+    // Titel zuerst, Werkzeuge darunter. Sie stehen im Dokument, weil sie mit ihm mitlaufen sollen;
+    // auf dem Papier nimmt das Druck-CSS sie heraus.
     if (!druck) {
-      host.appendChild(werkzeugleiste(app, modus, (neu) => {
-        app.navigiere('#/lernzettel?modus=' + encodeURIComponent(neu) + (druck ? '&druck=1' : ''))
-      }))
+      let breit = true
+      try { breit = window.matchMedia(WERKZEUGE_OFFEN_AB).matches } catch (e) { breit = true }
+      dokument.appendChild(werkzeugleiste(modus, (neu) => {
+        app.navigiere('#/lernzettel?modus=' + encodeURIComponent(neu))
+      }, breit))
     }
 
     if (!app.daten.module.length || !app.daten.alleThemen.length) {
       dokument.appendChild(h('div.hinweiskasten.hinweiskasten--mittel',
         h('div.hinweiskasten__titel', 'Noch keine Inhalte'),
         h('p', 'Sobald die Module hinterlegt sind, steht hier dein Lernzettel.')))
-      host.appendChild(dokument)
       return () => { lebt = false }
     }
 
+    // Erst alle Abschnitte bauen, dann das Verzeichnis davor hängen: es kennt seine Marken erst danach.
+    const abschnitte = []
+    const ziele = []
     const zuerst = zuerstAbschnitt(app)
-    if (zuerst) dokument.appendChild(zuerst)
+    if (zuerst) { abschnitte.push(zuerst); ziele.push({ id: zuerst.id, titel: 'Darauf zuerst schauen' }) }
     for (const modul of app.daten.module) {
       const abschnitt = modulAbschnitt(app, modul, modus)
-      if (abschnitt) dokument.appendChild(abschnitt)
+      if (!abschnitt) continue
+      abschnitte.push(abschnitt)
+      ziele.push({ id: abschnitt.id, titel: modul.titel, neben: modul.vorlesung || '' })
     }
     const personen = personenAbschnitt(app)
-    if (personen) dokument.appendChild(personen)
+    if (personen) { abschnitte.push(personen); ziele.push({ id: personen.id, titel: 'Personen auf einen Blick' }) }
+
+    if (!druck && ziele.length > 1) dokument.appendChild(inhaltAbschnitt(ziele))
+    for (const abschnitt of abschnitte) dokument.appendChild(abschnitt)
 
     dokument.appendChild(h('p.lz-fuss.leise',
       'Alle Fachinhalte stammen aus dem Skript der Vorlesung. Merkhilfen sind als solche gekennzeichnet und stehen nicht im Skript.'))
 
-    host.appendChild(dokument)
+    // Der Zettel ist auch zugeklappt lang. Der Knopf steht über der Fußnavigation und kommt erst,
+    // wenn wirklich gescrollt wurde.
+    if (!druck) {
+      const nachOben = h('button.lz-nachoben', {
+        type: 'button',
+        hidden: true,
+        'aria-label': 'Zurück zum Anfang des Lernzettels',
+        onclick: () => {
+          window.scrollTo(0, 0)
+          const titel = dokument.querySelector('h1')
+          if (titel) { try { titel.focus({ preventScroll: true }) } catch (e) { titel.focus() } }
+        },
+      }, symbol('auf'), h('span.lz-nachoben__text', 'Oben'))
+      host.appendChild(nachOben)
+      const pruefe = () => { nachOben.hidden = window.scrollY < NACH_OBEN_AB }
+      window.addEventListener('scroll', pruefe, { passive: true })
+      loeseScroll = () => window.removeEventListener('scroll', pruefe)
+      pruefe()
+    }
 
     // Das fertige Standard-PDF gibt es erst, wenn es erzeugt wurde. Der Link erscheint deshalb nur,
     // wenn die Datei wirklich ausgeliefert wird.
@@ -265,18 +350,18 @@ export default {
       fetch(PDF_PFAD, { method: 'HEAD', cache: 'no-cache' })
         .then((antwort) => {
           if (!lebt || !antwort.ok) return
-          const leiste = host.querySelector('.lz-werkzeuge')
-          if (leiste) {
-            leiste.insertBefore(
-              h('p.lz-werkzeuge__pdf', h('a', { href: PDF_PFAD }, symbol('zettel'), 'Fertiges Standard-PDF öffnen')),
-              leiste.querySelector('.lz-anleitung'))
-          }
+          const inhalt = host.querySelector('.lz-werkzeuge__inhalt')
+          if (!inhalt) return
+          inhalt.insertBefore(
+            h('p.lz-werkzeuge__pdf', h('a', { href: PDF_PFAD }, symbol('zettel'), 'Fertiges Standard-PDF öffnen')),
+            inhalt.querySelector('.lz-anleitung'))
         })
         .catch(() => {})
     }
 
     return () => {
       lebt = false
+      if (loeseScroll) loeseScroll()
       if (!druck) return
       if (themaVorher) document.documentElement.setAttribute('data-thema', themaVorher)
       else document.documentElement.removeAttribute('data-thema')

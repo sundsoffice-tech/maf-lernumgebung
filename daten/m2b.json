@@ -6,85 +6,228 @@
     {
       "id": "m2-t11",
       "titel": "Determinanten unseres Verhaltens",
-      "folien": [49],
+      "folien": [
+        49
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m2-t11-k1",
           "titel": "Vier Determinanten rund um das Verhalten",
-          "folien": [49],
+          "folien": [
+            49
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die Folie fragt: Wovon hängt ab, wie sich ein Mensch verhält? Sie nennt vier Bedingungen: **Können**, **Dürfen**, **Wollen** und **Sollen**. Im Schaubild stehen diese vier Kästchen kreuzförmig um ein fünftes in der Mitte, und darin steht **Verhalten**. Zwei der vier liegen in der Person selbst, zwei im Umfeld." },
-            { "typ": "text", "text": "**Determinanten unseres Verhaltens**\nSchaubild: vier Felder um den Mittelbegriff **Verhalten**." },
-            { "typ": "tabelle",
-              "kopf": ["Determinante", "steht laut Folie für", "Seite"],
-              "zeilen": [
-                ["**Können**", "persönliche Qualifikation", "akteursbezogen (links)"],
-                ["**Wollen**", "individuelle Motivation/Werte", "akteursbezogen (links)"],
-                ["**Dürfen**", "soziale Normen", "kontextbezogen (rechts)"],
-                ["**Sollen**", "formale Mechanismen", "kontextbezogen (rechts)"]
+            {
+              "typ": "einfach",
+              "text": "Die Folie fragt: Wovon hängt ab, wie sich ein Mensch verhält? Sie nennt vier Bedingungen: **Können**, **Dürfen**, **Wollen** und **Sollen**. Im Schaubild stehen diese vier Kästchen kreuzförmig um ein fünftes in der Mitte, und darin steht **Verhalten**. Zwei der vier liegen in der Person selbst, zwei im Umfeld."
+            },
+            {
+              "typ": "text",
+              "text": "**Determinanten unseres Verhaltens**\nSchaubild: vier Felder um den Mittelbegriff **Verhalten**."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Determinante",
+                "steht laut Folie für",
+                "Seite"
               ],
-              "hinweis": "Im Bild steht Können oben links, Dürfen oben rechts, Wollen unten links, Sollen unten rechts. Die Beschriftung *akteursbezogen* steht senkrecht links auf Höhe von Können und Wollen, *kontextbezogen* rechts auf Höhe von Dürfen und Sollen." },
-            { "typ": "definition", "begriff": "akteursbezogen", "text": "Seitliche Beschriftung links am Schaubild, auf Höhe der Kästchen [[Können]] und [[Wollen]]. Diese beiden Determinanten liegen also beim handelnden Menschen selbst." },
-            { "typ": "definition", "begriff": "kontextbezogen", "text": "Seitliche Beschriftung rechts am Schaubild, auf Höhe der Kästchen [[Dürfen]] und [[Sollen]]. Diese beiden Determinanten liegen also im Umfeld, nicht in der Person." },
-            { "typ": "diagramm", "ref": "verhalten-determinanten", "unterschrift": "Vier Determinanten um den Mittelbegriff Verhalten: Können und Wollen akteursbezogen, Dürfen und Sollen kontextbezogen." }
+              "zeilen": [
+                [
+                  "**Können**",
+                  "persönliche Qualifikation",
+                  "akteursbezogen (links)"
+                ],
+                [
+                  "**Wollen**",
+                  "individuelle Motivation/Werte",
+                  "akteursbezogen (links)"
+                ],
+                [
+                  "**Dürfen**",
+                  "soziale Normen",
+                  "kontextbezogen (rechts)"
+                ],
+                [
+                  "**Sollen**",
+                  "formale Mechanismen",
+                  "kontextbezogen (rechts)"
+                ]
+              ],
+              "hinweis": "Im Bild steht Können oben links, Dürfen oben rechts, Wollen unten links, Sollen unten rechts. Die Beschriftung *akteursbezogen* steht senkrecht links auf Höhe von Können und Wollen, *kontextbezogen* rechts auf Höhe von Dürfen und Sollen."
+            },
+            {
+              "typ": "definition",
+              "begriff": "akteursbezogen",
+              "text": "Seitliche Beschriftung links am Schaubild, auf Höhe der Kästchen [[Können]] und [[Wollen]]. Diese beiden Determinanten liegen also beim handelnden Menschen selbst."
+            },
+            {
+              "typ": "definition",
+              "begriff": "kontextbezogen",
+              "text": "Seitliche Beschriftung rechts am Schaubild, auf Höhe der Kästchen [[Dürfen]] und [[Sollen]]. Diese beiden Determinanten liegen also im Umfeld, nicht in der Person."
+            },
+            {
+              "typ": "diagramm",
+              "ref": "verhalten-determinanten",
+              "unterschrift": "Vier Determinanten um den Mittelbegriff Verhalten: Können und Wollen akteursbezogen, Dürfen und Sollen kontextbezogen."
+            }
           ]
         },
         {
           "id": "m2-t11-k2",
           "titel": "Wechselwirkungen und der Weg zur Verhaltensänderung",
-          "folien": [49],
+          "folien": [
+            49
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die vier Determinanten stehen nicht nebeneinander, sie beeinflussen sich gegenseitig. Wer etwas gut kann, will es meist auch. Was viele wollen, wird mit der Zeit zur Regel. Deshalb endet die Folie mit einer Forderung: Verhalten ändert man langfristig, indem man alle vier Faktoren im jeweiligen Kontext beeinflusst." },
-            { "typ": "liste", "titel": "Wechselwirkungen beachten:", "punkte": [
-              "was viele wollen, wird zur (un)geschriebenen Regel (Norm)",
-              "wer etwas gut kann, wird es auch wollen (Fähigkeiten motivieren!)",
-              "wer etwas intensiv will, wird sich Fertigkeiten aneignen",
-              "äußere Bedingungen werden beeinflusst vom Können, Dürfen und Wollen",
-              "Unmögliches wird man nicht wollen, und es wird auch nicht erwartet"
-            ] },
-            { "typ": "merksatz", "folie": 49, "text": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!" },
-            { "typ": "hinweis", "text": "Drei der vier Wörter aus dem Merksatz stehen wörtlich auch in den Kästchen des Schaubilds: Normen, Qualifikation, Motivation. **Wofür die Buchstaben S, D, K und W stehen, erklärt die Folie nicht.**" },
-            { "typ": "skriptluecke", "id": "m2-t11-l1", "text": "Der Dozent hat die Buchstaben im unteren Kasten nicht aufgelöst. Trag hier ein, was er in der Vorlesung dazu gesagt hat. Rate nicht.", "felder": [
-              { "id": "s", "label": "S = Strukturen/Prozesse gehört zu welchem Kästchen?" },
-              { "id": "d", "label": "D = Normen gehört zu welchem Kästchen?" },
-              { "id": "k", "label": "K = Qualifikation gehört zu welchem Kästchen?" },
-              { "id": "w", "label": "W = Motivation gehört zu welchem Kästchen?" }
-            ] }
+            {
+              "typ": "einfach",
+              "text": "Die vier Determinanten stehen nicht nebeneinander, sie beeinflussen sich gegenseitig. Wer etwas gut kann, will es meist auch. Was viele wollen, wird mit der Zeit zur Regel. Deshalb endet die Folie mit einer Forderung: Verhalten ändert man langfristig, indem man alle vier Faktoren im jeweiligen Kontext beeinflusst."
+            },
+            {
+              "typ": "liste",
+              "titel": "Wechselwirkungen beachten:",
+              "punkte": [
+                "was viele wollen, wird zur (un)geschriebenen Regel (Norm)",
+                "wer etwas gut kann, wird es auch wollen (Fähigkeiten motivieren!)",
+                "wer etwas intensiv will, wird sich Fertigkeiten aneignen",
+                "äußere Bedingungen werden beeinflusst vom Können, Dürfen und Wollen",
+                "Unmögliches wird man nicht wollen, und es wird auch nicht erwartet"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 49,
+              "text": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Drei der vier Wörter aus dem Merksatz stehen wörtlich auch in den Kästchen des Schaubilds: Normen, Qualifikation, Motivation. **Wofür die Buchstaben S, D, K und W stehen, erklärt die Folie nicht.**"
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m2-t11-l1",
+              "text": "Der Dozent hat die Buchstaben im unteren Kasten nicht aufgelöst. Trag hier ein, was er in der Vorlesung dazu gesagt hat. Rate nicht.",
+              "felder": [
+                {
+                  "id": "s",
+                  "label": "S = Strukturen/Prozesse gehört zu welchem Kästchen?"
+                },
+                {
+                  "id": "d",
+                  "label": "D = Normen gehört zu welchem Kästchen?"
+                },
+                {
+                  "id": "k",
+                  "label": "K = Qualifikation gehört zu welchem Kästchen?"
+                },
+                {
+                  "id": "w",
+                  "label": "W = Motivation gehört zu welchem Kästchen?"
+                }
+              ]
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m2-t11-a01", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 1, "kern": true, "konzept": "determinanten-vier", "karte": "m2-t11-k1", "folien": [49],
-          "frage": "Ordne jede Determinante dem zu, wofür sie laut Folie steht.", "linksTitel": "Determinante", "rechtsTitel": "steht laut Folie für",
+        {
+          "id": "m2-t11-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "determinanten-vier",
+          "karte": "m2-t11-k1",
+          "folien": [
+            49
+          ],
+          "frage": "Ordne jede Determinante dem zu, wofür sie laut Folie steht.",
+          "linksTitel": "Determinante",
+          "rechtsTitel": "steht laut Folie für",
           "paare": [
-            { "links": "Können", "rechts": "persönliche Qualifikation" },
-            { "links": "Dürfen", "rechts": "soziale Normen" },
-            { "links": "Wollen", "rechts": "individuelle Motivation/Werte" },
-            { "links": "Sollen", "rechts": "formale Mechanismen" }
+            {
+              "links": "Können",
+              "rechts": "persönliche Qualifikation"
+            },
+            {
+              "links": "Dürfen",
+              "rechts": "soziale Normen"
+            },
+            {
+              "links": "Wollen",
+              "rechts": "individuelle Motivation/Werte"
+            },
+            {
+              "links": "Sollen",
+              "rechts": "formale Mechanismen"
+            }
           ],
           "erklaerung": "Das sind die vier Kästchen des Schaubilds. Verwechselt wird meist Dürfen (soziale Normen) mit Sollen (formale Mechanismen): Dürfen ist das Ungeschriebene, Sollen das Formale.",
           "belege": [
-            { "text": "Können -> persönliche Qualifikation", "quelle": "folie-21" },
-            { "text": "Sollen -> formale Mechanismen", "quelle": "folie-21" }
+            {
+              "text": "Können -> persönliche Qualifikation",
+              "quelle": "folie-21"
+            },
+            {
+              "text": "Sollen -> formale Mechanismen",
+              "quelle": "folie-21"
+            }
           ],
-          "kurz": "Können = persönliche Qualifikation, Dürfen = soziale Normen, Wollen = individuelle Motivation/Werte, Sollen = formale Mechanismen." },
-
-        { "id": "m2-t11-a02", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "determinanten-seiten", "karte": "m2-t11-k1", "folien": [49],
+          "kurz": "Können = persönliche Qualifikation, Dürfen = soziale Normen, Wollen = individuelle Motivation/Werte, Sollen = formale Mechanismen."
+        },
+        {
+          "id": "m2-t11-a02",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "determinanten-seiten",
+          "karte": "m2-t11-k1",
+          "folien": [
+            49
+          ],
           "frage": "Akteursbezogen oder kontextbezogen? Sortiere die vier Determinanten so ein, wie die Seitenbeschriftungen des Schaubilds sie zuordnen.",
-          "kategorien": ["akteursbezogen", "kontextbezogen"],
+          "kategorien": [
+            "akteursbezogen",
+            "kontextbezogen"
+          ],
           "elemente": [
-            { "text": "Können", "kategorie": 0 },
-            { "text": "Wollen", "kategorie": 0 },
-            { "text": "Dürfen", "kategorie": 1 },
-            { "text": "Sollen", "kategorie": 1 }
+            {
+              "text": "Können",
+              "kategorie": 0
+            },
+            {
+              "text": "Wollen",
+              "kategorie": 0
+            },
+            {
+              "text": "Dürfen",
+              "kategorie": 1
+            },
+            {
+              "text": "Sollen",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Die Beschriftung akteursbezogen steht links auf Höhe von Können und Wollen, kontextbezogen rechts auf Höhe von Dürfen und Sollen. Können und Wollen liegen also beim Menschen, Dürfen und Sollen im Umfeld.",
-          "beleg": "Die linke Beschriftung steht auf Höhe der Kästchen „Können\" und „Wollen\", die rechte auf Höhe von „Dürfen\" und „Sollen\".", "belegQuelle": "folie-21",
-          "kurz": "Akteursbezogen: Können und Wollen. Kontextbezogen: Dürfen und Sollen." },
-
-        { "id": "m2-t11-a03", "typ": "mehrfach", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "determinanten-wechselwirkung", "karte": "m2-t11-k2", "folien": [49],
+          "beleg": "Die linke Beschriftung steht auf Höhe der Kästchen „Können\" und „Wollen\", die rechte auf Höhe von „Dürfen\" und „Sollen\".",
+          "belegQuelle": "folie-21",
+          "kurz": "Akteursbezogen: Können und Wollen. Kontextbezogen: Dürfen und Sollen."
+        },
+        {
+          "id": "m2-t11-a03",
+          "typ": "mehrfach",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "determinanten-wechselwirkung",
+          "karte": "m2-t11-k2",
+          "folien": [
+            49
+          ],
           "frage": "Welche Wechselwirkungen nennt die Folie ausdrücklich?",
           "optionen": [
             "was viele wollen, wird zur (un)geschriebenen Regel (Norm)",
@@ -94,20 +237,51 @@
             "Unmögliches wird man nicht wollen, und es wird auch nicht erwartet",
             "äußere Bedingungen bleiben von Können, Dürfen und Wollen unberührt"
           ],
-          "richtig": [0, 1, 2, 4],
+          "richtig": [
+            0,
+            1,
+            2,
+            4
+          ],
           "erklaerung": "Die Folie nennt fünf Wechselwirkungen. Die beiden falschen Aussagen drehen die Folie um: Sie sagt gerade nicht, dass Dürfen Können erzeugt, und sie sagt ausdrücklich, dass äußere Bedingungen vom Können, Dürfen und Wollen beeinflusst werden.",
-          "beleg": "äußere Bedingungen werden beeinflusst vom Können, Dürfen und Wollen", "belegQuelle": "folie-21",
-          "kurz": "Wechselwirkungen: Wollen wird zur Norm, Können erzeugt Wollen, Wollen erzeugt Fertigkeiten, äußere Bedingungen werden beeinflusst, Unmögliches wird nicht gewollt und nicht erwartet." },
-
-        { "id": "m2-t11-a04", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "determinanten-merksatz", "karte": "m2-t11-k2", "folien": [49], "bank": true,
+          "beleg": "äußere Bedingungen werden beeinflusst vom Können, Dürfen und Wollen",
+          "belegQuelle": "folie-21",
+          "kurz": "Wechselwirkungen: Wollen wird zur Norm, Können erzeugt Wollen, Wollen erzeugt Fertigkeiten, äußere Bedingungen werden beeinflusst, Unmögliches wird nicht gewollt und nicht erwartet."
+        },
+        {
+          "id": "m2-t11-a04",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "determinanten-merksatz",
+          "karte": "m2-t11-k2",
+          "folien": [
+            49
+          ],
+          "bank": true,
           "frage": "Vervollständige den Merksatz der Folie.",
           "text": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – {_Strukturen/Prozesse_} (S), {_Normen_} (D), {_Qualifikation_} (K), {_Motivation_} (W) – im jeweiligen Kontext begünstigt!",
-          "zusatzBank": ["Werte", "Anreize"],
+          "zusatzBank": [
+            "Werte",
+            "Anreize"
+          ],
           "erklaerung": "Der Merksatz steht im orangefarbenen Kasten am Fuß der Folie. Er nennt vier Faktoren mit den Kürzeln S, D, K und W.",
-          "beleg": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren", "belegQuelle": "folie-21",
-          "kurz": "Vier Faktoren der Verhaltensänderung: Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W)." },
-
-        { "id": "m2-t11-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "determinanten-merksatz", "karte": "m2-t11-k2", "folien": [49],
+          "beleg": "Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren",
+          "belegQuelle": "folie-21",
+          "kurz": "Vier Faktoren der Verhaltensänderung: Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W)."
+        },
+        {
+          "id": "m2-t11-a05",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "determinanten-merksatz",
+          "karte": "m2-t11-k2",
+          "folien": [
+            49
+          ],
           "frage": "Auf der Folie steht: „Verhaltensänderungen werden (langfristig) durch Beeinflussung der 4 Faktoren – Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!\" Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz schließt die Folie „Determinanten unseres Verhaltens\" ab. Diese Folie zeigt ein Schaubild mit vier Feldern um den Mittelbegriff Verhalten: Können steht für persönliche Qualifikation, Dürfen für soziale Normen, Wollen für individuelle Motivation/Werte, Sollen für formale Mechanismen. Können und Wollen sind akteursbezogen, Dürfen und Sollen kontextbezogen. Der Merksatz zieht daraus die Folgerung: Wer Verhalten dauerhaft ändern will, muss an vier Faktoren ansetzen – Strukturen/Prozesse, Normen, Qualifikation und Motivation – und zwar immer im jeweiligen Kontext. Drei dieser Wörter stehen wörtlich auch in den Kästchen des Schaubilds: Normen, Qualifikation, Motivation. Dazu passen die Wechselwirkungen der Folie: Was viele wollen, wird zur (un)geschriebenen Regel; wer etwas gut kann, wird es auch wollen; wer etwas intensiv will, eignet sich Fertigkeiten an; äußere Bedingungen werden vom Können, Dürfen und Wollen beeinflusst. Einzelmaßnahmen an nur einem Faktor greifen deshalb zu kurz. Wofür die Buchstaben S, D, K und W jeweils stehen, sagt die Folie selbst nicht.",
           "checkliste": [
@@ -118,16 +292,41 @@
             "Mindestens eine Wechselwirkung als Begründung genannt"
           ],
           "erklaerung": "Eine Klausurfrage zu diesem Satz verlangt beides: die vier Faktoren und den Zusammenhang mit dem Schaubild. Wer nur den Satz wiederholt, zeigt kein Verständnis.",
-          "beleg": "Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!", "belegQuelle": "folie-21",
-          "kurz": "Verhalten ändert sich langfristig nur, wenn Strukturen/Prozesse, Normen, Qualifikation und Motivation gemeinsam im Kontext beeinflusst werden." },
-
-        { "id": "m2-t11-a06", "typ": "beschriften", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "determinanten-vier", "karte": "m2-t11-k1", "folien": [49],
-          "frage": "Beschrifte das Schaubild zu den Determinanten des Verhaltens.", "diagramm": "verhalten-determinanten", "gruppe": "faktoren",
+          "beleg": "Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W) – im jeweiligen Kontext begünstigt!",
+          "belegQuelle": "folie-21",
+          "kurz": "Verhalten ändert sich langfristig nur, wenn Strukturen/Prozesse, Normen, Qualifikation und Motivation gemeinsam im Kontext beeinflusst werden."
+        },
+        {
+          "id": "m2-t11-a06",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "determinanten-vier",
+          "karte": "m2-t11-k1",
+          "folien": [
+            49
+          ],
+          "frage": "Beschrifte das Schaubild zu den Determinanten des Verhaltens.",
+          "diagramm": "verhalten-determinanten",
+          "gruppe": "faktoren",
           "erklaerung": "In der Mitte steht das Verhalten, darum die vier Determinanten mit ihrer jeweiligen Bedeutung.",
-          "beleg": "Schaubild (vier Felder um den Mittelbegriff Verhalten)", "belegQuelle": "folie-21",
-          "kurz": "Vier Felder um den Mittelbegriff Verhalten: Können, Dürfen, Wollen, Sollen." },
-
-        { "id": "m2-t11-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 2, "kern": false, "konzept": "determinanten-vier", "karte": "m2-t11-k1", "folien": [49],
+          "beleg": "Schaubild (vier Felder um den Mittelbegriff Verhalten)",
+          "belegQuelle": "folie-21",
+          "kurz": "Vier Felder um den Mittelbegriff Verhalten: Können, Dürfen, Wollen, Sollen."
+        },
+        {
+          "id": "m2-t11-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "determinanten-vier",
+          "karte": "m2-t11-k1",
+          "folien": [
+            49
+          ],
           "szenario": "In deiner Filiale soll ein neues Beratungsgespräch eingeführt werden. Das Team findet die Idee gut und will sie umsetzen, die Hausregeln erlauben es und die Vorgabe steht im Prozesshandbuch. Trotzdem läuft es nicht: Niemand hat das Gespräch je geübt.",
           "frage": "Welche Determinante fehlt hier nach dem Schaubild der Folie?",
           "optionen": [
@@ -138,27 +337,65 @@
           ],
           "richtig": 0,
           "erklaerung": "Wollen, Dürfen und Sollen sind im Fall erfüllt: Das Team will, es darf, und es ist formal vorgegeben. Offen bleibt das Können, also die persönliche Qualifikation. Passend dazu die Wechselwirkung der Folie: Wer etwas intensiv will, wird sich Fertigkeiten aneignen.",
-          "beleg": "Können -> persönliche Qualifikation", "belegQuelle": "folie-21",
-          "kurz": "Fehlende Übung und Fertigkeit ist ein Können-Problem: persönliche Qualifikation." },
-
-        { "id": "m2-t11-a08", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "determinanten-seiten", "karte": "m2-t11-k1", "folien": [49],
+          "beleg": "Können -> persönliche Qualifikation",
+          "belegQuelle": "folie-21",
+          "kurz": "Fehlende Übung und Fertigkeit ist ein Können-Problem: persönliche Qualifikation."
+        },
+        {
+          "id": "m2-t11-a08",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "determinanten-seiten",
+          "karte": "m2-t11-k1",
+          "folien": [
+            49
+          ],
           "frage": "Was stimmt zum Schaubild der Determinanten?",
           "aussagen": [
-            { "text": "Können steht auf der Folie für die persönliche Qualifikation.", "wahr": true },
-            { "text": "Sollen steht auf der Folie für die sozialen Normen.", "wahr": false, "korrektur": "Sollen steht für formale Mechanismen. Die sozialen Normen gehören zum Dürfen." },
-            { "text": "Können und Wollen stehen auf der akteursbezogenen Seite des Schaubilds.", "wahr": true },
-            { "text": "Die Folie erklärt, wofür die Buchstaben S, D, K und W stehen.", "wahr": false, "korrektur": "Die Buchstaben im unteren Kasten werden auf der Folie nicht erklärt." }
+            {
+              "text": "Können steht auf der Folie für die persönliche Qualifikation.",
+              "wahr": true
+            },
+            {
+              "text": "Sollen steht auf der Folie für die sozialen Normen.",
+              "wahr": false,
+              "korrektur": "Sollen steht für formale Mechanismen. Die sozialen Normen gehören zum Dürfen."
+            },
+            {
+              "text": "Können und Wollen stehen auf der akteursbezogenen Seite des Schaubilds.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt, wofür die Buchstaben S, D, K und W stehen.",
+              "wahr": false,
+              "korrektur": "Die Buchstaben im unteren Kasten werden auf der Folie nicht erklärt."
+            }
           ],
           "erklaerung": "Die häufigste Verwechslung ist Dürfen gegen Sollen. Und der Merksatz nennt die Buchstaben, ohne sie zuzuordnen: Diese Lücke lässt die Folie offen.",
-          "beleg": "Die Buchstaben im unteren Kasten (S, D, K, W) werden auf der Folie nicht erklärt.", "belegQuelle": "folie-21",
-          "kurz": "Dürfen = soziale Normen, Sollen = formale Mechanismen. Die Buchstaben S, D, K, W erklärt die Folie nicht." },
-
-        { "id": "m2-t11-a09", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "determinanten-seiten", "karte": "m2-t11-k1", "folien": [49],
+          "beleg": "Die Buchstaben im unteren Kasten (S, D, K, W) werden auf der Folie nicht erklärt.",
+          "belegQuelle": "folie-21",
+          "kurz": "Dürfen = soziale Normen, Sollen = formale Mechanismen. Die Buchstaben S, D, K, W erklärt die Folie nicht."
+        },
+        {
+          "id": "m2-t11-a09",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "determinanten-seiten",
+          "karte": "m2-t11-k1",
+          "folien": [
+            49
+          ],
           "vorne": "Was bedeuten die seitlichen Beschriftungen **akteursbezogen** und **kontextbezogen** im Schaubild?",
           "hinten": "**akteursbezogen** steht links, auf Höhe von Können und Wollen: Diese beiden liegen in der Person.\n**kontextbezogen** steht rechts, auf Höhe von Dürfen und Sollen: Diese beiden liegen im Umfeld.",
           "erklaerung": "Die Seitenbeschriftungen teilen das Schaubild in zwei Hälften: Person links, Umfeld rechts.",
-          "beleg": "Seitliche Beschriftungen: akteursbezogen (links), kontextbezogen (rechts)", "belegQuelle": "folie-21",
-          "kurz": "Links akteursbezogen (Können, Wollen), rechts kontextbezogen (Dürfen, Sollen)." }
+          "beleg": "Seitliche Beschriftungen: akteursbezogen (links), kontextbezogen (rechts)",
+          "belegQuelle": "folie-21",
+          "kurz": "Links akteursbezogen (Können, Wollen), rechts kontextbezogen (Dürfen, Sollen)."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -178,96 +415,250 @@
     {
       "id": "m2-t12",
       "titel": "Zusammenfassung: Motivation und Engagement",
-      "folien": [50],
+      "folien": [
+        50
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m2-t12-k1",
           "titel": "Motive, Motivation, Volition, Anreize",
-          "folien": [50],
+          "folien": [
+            50
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Diese Folie bündelt das ganze Kapitel in wenigen Sätzen. Sie trennt zwei Dinge, die leicht durcheinandergeraten: **Motive** wirken lange, **Motivation** eher kurz. Und sie sagt, was Motivation noch braucht, um in Handeln umzuschlagen: den Willen." },
-            { "typ": "definition", "begriff": "Motive", "text": "Bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) [[Motivation]]." },
-            { "typ": "definition", "begriff": "Motivation", "text": "Die zum Handeln bewegende Kraft. Sie erfordert Willen, die [[Volition]]. Kurzfristig kann sie mittels adäquater [[Anreize]] aktiviert werden." },
-            { "typ": "definition", "begriff": "Volition", "text": "Der Wille, den Motivation erfordert: „Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.\" Weiter erklärt die Folie den Begriff nicht." },
-            { "typ": "liste", "titel": "Die Kernsätze der Zusammenfassung", "punkte": [
-              "Motive bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) Motivation.",
-              "Verhalten wird durch Motivation/Wollen, Können, Dürfen/Sollen und den jeweiligen Kontext bestimmt.",
-              "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
-              "Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden. Adäquate Anreize müssen mit den identifizierten Bedürfnissen der MA korrespondieren.",
-              "Motivierende Interventionen der Führung sollen Unternehmensleistung und MA-Zufriedenheit erhöhen."
-            ] },
-            { "typ": "hinweis", "text": "Der zweite Kernsatz greift das Schaubild der Vorfolie auf: Motivation/Wollen, Können, Dürfen/Sollen und der Kontext. Die Zusammenfassung schreibt Dürfen und Sollen hier zusammen." },
-            { "typ": "hinweis", "text": "Die Folie benutzt die Abkürzungen **MA**, **FK** und **wiss.**, löst sie aber nicht auf. Sie nennt außerdem Volition, Hygienefaktoren, Wachstumsmotive und Motivatoren, ohne sie an dieser Stelle zu erklären." }
+            {
+              "typ": "einfach",
+              "text": "Diese Folie bündelt das ganze Kapitel in wenigen Sätzen. Sie trennt zwei Dinge, die leicht durcheinandergeraten: **Motive** wirken lange, **Motivation** eher kurz. Und sie sagt, was Motivation noch braucht, um in Handeln umzuschlagen: den Willen."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Motive",
+              "text": "Bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) [[Motivation]]."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Motivation",
+              "text": "Die zum Handeln bewegende Kraft. Sie erfordert Willen, die [[Volition]]. Kurzfristig kann sie mittels adäquater [[Anreize]] aktiviert werden."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Volition",
+              "text": "Der Wille, den Motivation erfordert: „Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.\" Weiter erklärt die Folie den Begriff nicht."
+            },
+            {
+              "typ": "liste",
+              "titel": "Die Kernsätze der Zusammenfassung",
+              "punkte": [
+                "Motive bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) Motivation.",
+                "Verhalten wird durch Motivation/Wollen, Können, Dürfen/Sollen und den jeweiligen Kontext bestimmt.",
+                "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
+                "Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden. Adäquate Anreize müssen mit den identifizierten Bedürfnissen der MA korrespondieren.",
+                "Motivierende Interventionen der Führung sollen Unternehmensleistung und MA-Zufriedenheit erhöhen."
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Der zweite Kernsatz greift das Schaubild der Vorfolie auf: Motivation/Wollen, Können, Dürfen/Sollen und der Kontext. Die Zusammenfassung schreibt Dürfen und Sollen hier zusammen."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Folie benutzt die Abkürzungen **MA**, **FK** und **wiss.**, löst sie aber nicht auf. Sie nennt außerdem Volition, Hygienefaktoren, Wachstumsmotive und Motivatoren, ohne sie an dieser Stelle zu erklären."
+            }
           ]
         },
         {
           "id": "m2-t12-k2",
           "titel": "Wer steht wofür: die vier Theorien der Zusammenfassung",
-          "folien": [50],
+          "folien": [
+            50
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die Folie sortiert vier Namen in zwei Gruppen. Die einen geben **Hinweise** auf Motivstrukturen, die anderen liefern **wissenschaftlich gut abgestützte** Theorien. Diese Unterscheidung trifft die Folie selbst, und sie ist klausurtauglich." },
-            { "typ": "person", "name": "Abraham Maslow", "folie": 50, "beitrag": "Auf dieser Folie: „Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.\"" },
-            { "typ": "person", "name": "Frederick Herzberg", "folie": 50, "beitrag": "Auf dieser Folie: „Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.\" Im selben Satzzusammenhang stehen Hygienefaktoren und Motivatoren." },
-            { "typ": "person", "name": "McClelland", "folie": 50, "beitrag": "„McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.\"" },
-            { "typ": "person", "name": "Deci/Ryan", "folie": 50, "beitrag": "„McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.\" Die Folie nennt beide gemeinsam und ohne Vornamen." },
-            { "typ": "text", "text": "Neben der Linderung von Mängeln bei Hygienefaktoren sind Wachstumsmotive und Motivatoren zu fördern bzw. zu stärken." }
+            {
+              "typ": "einfach",
+              "text": "Die Folie sortiert vier Namen in zwei Gruppen. Die einen geben **Hinweise** auf Motivstrukturen, die anderen liefern **wissenschaftlich gut abgestützte** Theorien. Diese Unterscheidung trifft die Folie selbst, und sie ist klausurtauglich."
+            },
+            {
+              "typ": "person",
+              "name": "Abraham Maslow",
+              "folie": 50,
+              "beitrag": "Auf dieser Folie: „Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.\""
+            },
+            {
+              "typ": "person",
+              "name": "Frederick Herzberg",
+              "folie": 50,
+              "beitrag": "Auf dieser Folie: „Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.\" Im selben Satzzusammenhang stehen Hygienefaktoren und Motivatoren."
+            },
+            {
+              "typ": "person",
+              "name": "McClelland",
+              "folie": 50,
+              "beitrag": "„McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.\""
+            },
+            {
+              "typ": "person",
+              "name": "Deci/Ryan",
+              "folie": 50,
+              "beitrag": "„McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.\" Die Folie nennt beide gemeinsam und ohne Vornamen."
+            },
+            {
+              "typ": "text",
+              "text": "Neben der Linderung von Mängeln bei Hygienefaktoren sind Wachstumsmotive und Motivatoren zu fördern bzw. zu stärken."
+            }
           ]
         },
         {
           "id": "m2-t12-k3",
           "titel": "Die Hebel der Führung",
-          "folien": [50],
+          "folien": [
+            50
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Am Schluss wird die Folie konkret: Womit kann Führung überhaupt motivieren? Nicht mit einem einzelnen Mittel, sondern mit einer **Kombination** von Motivatoren. Der rote Schlusssatz fasst alle Einzelpunkte in einem Begriff zusammen: Spielräume." },
-            { "typ": "text", "text": "Motivierende Interventionen der Führung sollen **Unternehmensleistung** und **MA-Zufriedenheit** erhöhen." },
-            { "typ": "liste", "titel": "Hebel liegen in der geschickten Kombination von Motivatoren, wie", "punkte": [
-              "Vermittlung von Leistungs-/Erfolgserlebnissen,",
-              "Anerkennung/Lob, herausfordernden Arbeitsinhalten, Abwechslung,",
-              "Lernchancen, Delegation von Verantwortung, Aufstiegsperspektiven und Entwicklungschancen,"
-            ] },
-            { "typ": "merksatz", "folie": 50, "text": "also Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen" }
+            {
+              "typ": "einfach",
+              "text": "Am Schluss wird die Folie konkret: Womit kann Führung überhaupt motivieren? Nicht mit einem einzelnen Mittel, sondern mit einer **Kombination** von Motivatoren. Der rote Schlusssatz fasst alle Einzelpunkte in einem Begriff zusammen: Spielräume."
+            },
+            {
+              "typ": "text",
+              "text": "Motivierende Interventionen der Führung sollen **Unternehmensleistung** und **MA-Zufriedenheit** erhöhen."
+            },
+            {
+              "typ": "liste",
+              "titel": "Hebel liegen in der geschickten Kombination von Motivatoren, wie",
+              "punkte": [
+                "Vermittlung von Leistungs-/Erfolgserlebnissen,",
+                "Anerkennung/Lob, herausfordernden Arbeitsinhalten, Abwechslung,",
+                "Lernchancen, Delegation von Verantwortung, Aufstiegsperspektiven und Entwicklungschancen,"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 50,
+              "text": "also Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen"
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m2-t12-a01", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "motive-motivation-volition", "karte": "m2-t12-k1", "folien": [50], "bank": true,
+        {
+          "id": "m2-t12-a01",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "motive-motivation-volition",
+          "karte": "m2-t12-k1",
+          "folien": [
+            50
+          ],
+          "bank": true,
           "frage": "Vervollständige die beiden ersten Kernsätze der Zusammenfassung.",
           "text": "Motive bestimmen {_langfristiges_} Verhalten und wirken auf die (tendenziell kurzfristige) {_Motivation_}.\nMotivation, die zum Handeln bewegende Kraft, erfordert {_Willen_}, die {_Volition_}.",
-          "zusatzBank": ["kurzfristiges", "Anreize"],
+          "zusatzBank": [
+            "kurzfristiges",
+            "Anreize"
+          ],
           "erklaerung": "Die Richtung ist entscheidend: Motive sind das Langfristige und wirken auf die Motivation, nicht umgekehrt. Und Motivation allein reicht nicht, es braucht den Willen.",
-          "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.", "belegQuelle": "folie-22",
-          "kurz": "Motive = langfristig, wirken auf die kurzfristige Motivation. Motivation erfordert Willen, die Volition." },
-
-        { "id": "m2-t12-a02", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "theorien-personen", "karte": "m2-t12-k2", "folien": [50, 51],
-          "frage": "Ordne zu, was das Skript den genannten Personen zuschreibt.", "linksTitel": "Person(en)", "rechtsTitel": "Beitrag laut Skript",
+          "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
+          "belegQuelle": "folie-22",
+          "kurz": "Motive = langfristig, wirken auf die kurzfristige Motivation. Motivation erfordert Willen, die Volition."
+        },
+        {
+          "id": "m2-t12-a02",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "theorien-personen",
+          "karte": "m2-t12-k2",
+          "folien": [
+            50,
+            51
+          ],
+          "frage": "Ordne zu, was das Skript den genannten Personen zuschreibt.",
+          "linksTitel": "Person(en)",
+          "rechtsTitel": "Beitrag laut Skript",
           "paare": [
-            { "links": "Maslow und Herzberg", "rechts": "Theorien, die Hinweise auf Motivstrukturen geben" },
-            { "links": "McClelland und Deci/Ryan", "rechts": "wissenschaftlich gut abgestützte Theorien, insbesondere zum Verhalten von Führungskräften" },
-            { "links": "Peter Drucker", "rechts": "„No man should be in a leadership position who does not trust his best people.\"" }
+            {
+              "links": "Maslow und Herzberg",
+              "rechts": "Theorien, die Hinweise auf Motivstrukturen geben"
+            },
+            {
+              "links": "McClelland und Deci/Ryan",
+              "rechts": "wissenschaftlich gut abgestützte Theorien, insbesondere zum Verhalten von Führungskräften"
+            },
+            {
+              "links": "Peter Drucker",
+              "rechts": "„No man should be in a leadership position who does not trust his best people.\""
+            }
           ],
           "erklaerung": "Die Zusammenfassung unterscheidet ausdrücklich: Maslow und Herzberg geben Hinweise, McClelland und Deci/Ryan liefern wissenschaftlich gut abgestützte Theorien. Das Drucker-Zitat steht auf der folgenden Folie zu den Führungsaktivitäten.",
           "belege": [
-            { "text": "Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.", "quelle": "folie-22" },
-            { "text": "McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.", "quelle": "folie-22" },
-            { "text": "No man should be in a leadership position who does not trust his best people.", "quelle": "folie-23" }
+            {
+              "text": "Maslow's und Herzberg's Theorien geben Hinweise auf Motivstrukturen.",
+              "quelle": "folie-22"
+            },
+            {
+              "text": "McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.",
+              "quelle": "folie-22"
+            },
+            {
+              "text": "No man should be in a leadership position who does not trust his best people.",
+              "quelle": "folie-23"
+            }
           ],
-          "kurz": "Maslow und Herzberg: Hinweise auf Motivstrukturen. McClelland und Deci/Ryan: wiss. gut abgestützte Theorien zum Verhalten von Führungskräften. Drucker: Zitat über Vertrauen." },
-
-        { "id": "m2-t12-a03", "typ": "wahrfalsch", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "motive-motivation-volition", "karte": "m2-t12-k1", "folien": [50],
+          "kurz": "Maslow und Herzberg: Hinweise auf Motivstrukturen. McClelland und Deci/Ryan: wiss. gut abgestützte Theorien zum Verhalten von Führungskräften. Drucker: Zitat über Vertrauen."
+        },
+        {
+          "id": "m2-t12-a03",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "motive-motivation-volition",
+          "karte": "m2-t12-k1",
+          "folien": [
+            50
+          ],
           "frage": "Was sagt die Zusammenfassung?",
           "aussagen": [
-            { "text": "Motive bestimmen langfristiges Verhalten.", "wahr": true },
-            { "text": "Die Motivation ist laut Folie das Langfristige, die Motive sind das Kurzfristige.", "wahr": false, "korrektur": "Genau umgekehrt: Motive bestimmen langfristiges Verhalten und wirken auf die tendenziell kurzfristige Motivation." },
-            { "text": "Adäquate Anreize müssen mit den identifizierten Bedürfnissen der Mitarbeiter korrespondieren.", "wahr": true },
-            { "text": "Motivierende Interventionen der Führung sollen allein die Mitarbeiterzufriedenheit erhöhen.", "wahr": false, "korrektur": "Sie sollen Unternehmensleistung UND MA-Zufriedenheit erhöhen." }
+            {
+              "text": "Motive bestimmen langfristiges Verhalten.",
+              "wahr": true
+            },
+            {
+              "text": "Die Motivation ist laut Folie das Langfristige, die Motive sind das Kurzfristige.",
+              "wahr": false,
+              "korrektur": "Genau umgekehrt: Motive bestimmen langfristiges Verhalten und wirken auf die tendenziell kurzfristige Motivation."
+            },
+            {
+              "text": "Adäquate Anreize müssen mit den identifizierten Bedürfnissen der Mitarbeiter korrespondieren.",
+              "wahr": true
+            },
+            {
+              "text": "Motivierende Interventionen der Führung sollen allein die Mitarbeiterzufriedenheit erhöhen.",
+              "wahr": false,
+              "korrektur": "Sie sollen Unternehmensleistung UND MA-Zufriedenheit erhöhen."
+            }
           ],
           "erklaerung": "Zwei Stolperstellen: die Richtung zwischen Motiv und Motivation, und das doppelte Ziel der Interventionen.",
-          "beleg": "Motive bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) Motivation.", "belegQuelle": "folie-22",
-          "kurz": "Motive langfristig, Motivation kurzfristig. Interventionen zielen auf Unternehmensleistung und MA-Zufriedenheit." },
-
-        { "id": "m2-t12-a04", "typ": "mehrfach", "stufe": "verstehen", "schwierigkeit": 2, "kern": true, "konzept": "motivatoren-hebel", "karte": "m2-t12-k3", "folien": [50],
+          "beleg": "Motive bestimmen langfristiges Verhalten und wirken auf die (tendenziell kurzfristige) Motivation.",
+          "belegQuelle": "folie-22",
+          "kurz": "Motive langfristig, Motivation kurzfristig. Interventionen zielen auf Unternehmensleistung und MA-Zufriedenheit."
+        },
+        {
+          "id": "m2-t12-a04",
+          "typ": "mehrfach",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "motivatoren-hebel",
+          "karte": "m2-t12-k3",
+          "folien": [
+            50
+          ],
           "frage": "Welche Hebel nennt die Zusammenfassung als Kombination von Motivatoren?",
           "optionen": [
             "Vermittlung von Leistungs-/Erfolgserlebnissen",
@@ -277,12 +668,27 @@
             "abgegrenzte Ablaufstrukturen, Entscheidungswege und Kommunikationspfade",
             "Bündelung von Wissen und Machtmonopolen"
           ],
-          "richtig": [0, 1, 2],
+          "richtig": [
+            0,
+            1,
+            2
+          ],
           "erklaerung": "Die drei richtigen Punkte stehen wörtlich auf der Folie. Die drei falschen sind Merkmale bürokratischer Hierarchien aus dem Skript: Sie gelten dort gerade als ungünstig für Verhalten in dynamischen Märkten.",
-          "beleg": "Hebel liegen in der geschickten Kombination von Motivatoren", "belegQuelle": "folie-22",
-          "kurz": "Hebel: Erfolgserlebnisse, Anerkennung/Lob, herausfordernde Inhalte, Abwechslung, Lernchancen, Delegation, Aufstiegs- und Entwicklungschancen." },
-
-        { "id": "m2-t12-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "spielraeume", "karte": "m2-t12-k3", "folien": [50],
+          "beleg": "Hebel liegen in der geschickten Kombination von Motivatoren",
+          "belegQuelle": "folie-22",
+          "kurz": "Hebel: Erfolgserlebnisse, Anerkennung/Lob, herausfordernde Inhalte, Abwechslung, Lernchancen, Delegation, Aufstiegs- und Entwicklungschancen."
+        },
+        {
+          "id": "m2-t12-a05",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "spielraeume",
+          "karte": "m2-t12-k3",
+          "folien": [
+            50
+          ],
           "frage": "Die Zusammenfassung endet mit dem rot hervorgehobenen Satz „also Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen\". Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz steht am Ende der Zusammenfassung des Kapitels Motivation und Engagement, direkt hinter der Aufzählung der Hebel. Die Folie sagt zuvor: Motivierende Interventionen der Führung sollen Unternehmensleistung und MA-Zufriedenheit erhöhen, und die Hebel liegen in der geschickten Kombination von Motivatoren – Vermittlung von Leistungs- und Erfolgserlebnissen, Anerkennung und Lob, herausfordernde Arbeitsinhalte, Abwechslung, Lernchancen, Delegation von Verantwortung, Aufstiegsperspektiven und Entwicklungschancen. Das „also\" fasst diese Liste in einem Begriff zusammen: Alle genannten Motivatoren laufen darauf hinaus, den Mitarbeitern Spielräume einzuräumen, und zwar in vier Richtungen: Entscheidungsspielräume, Kontrollspielräume, Kontaktspielräume und Tätigkeitsspielräume. Motivation wird damit nicht über zusätzliche äußere Anreize erzeugt, sondern über die Gestaltung der Arbeit selbst. Der Satz ist die Handlungsanweisung an die Führungskraft, die sich aus den Inhaltstheorien der Motivation ergibt.",
           "checkliste": [
@@ -293,17 +699,40 @@
             "Kern: Motivation entsteht durch die Gestaltung der Arbeit, nicht durch ein einzelnes Mittel"
           ],
           "erklaerung": "Der Satz ist rot gesetzt und damit ein typischer Kandidat für eine Klausurfrage. Gefragt ist der Bogen von den einzelnen Motivatoren zum Oberbegriff Spielräume.",
-          "beleg": "Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen", "belegQuelle": "folie-22",
-          "kurz": "Alle Motivatoren der Folie laufen auf vier Spielräume hinaus: Entscheidung, Kontrolle, Kontakt, Tätigkeit." },
-
-        { "id": "m2-t12-a06", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "anreize", "karte": "m2-t12-k1", "folien": [50],
+          "beleg": "Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen",
+          "belegQuelle": "folie-22",
+          "kurz": "Alle Motivatoren der Folie laufen auf vier Spielräume hinaus: Entscheidung, Kontrolle, Kontakt, Tätigkeit."
+        },
+        {
+          "id": "m2-t12-a06",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "anreize",
+          "karte": "m2-t12-k1",
+          "folien": [
+            50
+          ],
           "vorne": "Wie kann Motivation laut Zusammenfassung **kurzfristig** aktiviert werden, und welche Bedingung nennt die Folie dafür?",
           "hinten": "Kurzfristig mittels **adäquater Anreize**.\nBedingung: Adäquate Anreize müssen mit den **identifizierten Bedürfnissen der MA** korrespondieren.",
           "erklaerung": "Anreize wirken nur, wenn sie zu den tatsächlich erhobenen Bedürfnissen passen. Das setzt voraus, dass die Bedürfnisse vorher identifiziert wurden.",
-          "beleg": "Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden.", "belegQuelle": "folie-22",
-          "kurz": "Anreize wirken kurzfristig und nur, wenn sie zu den identifizierten Bedürfnissen der Mitarbeiter passen." },
-
-        { "id": "m2-t12-a07", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "motivatoren-hebel", "karte": "m2-t12-k3", "folien": [50],
+          "beleg": "Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden.",
+          "belegQuelle": "folie-22",
+          "kurz": "Anreize wirken kurzfristig und nur, wenn sie zu den identifizierten Bedürfnissen der Mitarbeiter passen."
+        },
+        {
+          "id": "m2-t12-a07",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "motivatoren-hebel",
+          "karte": "m2-t12-k3",
+          "folien": [
+            50
+          ],
           "szenario": "Deine Abteilung bekommt für ein gutes Quartal eine einmalige Prämie. Die Stimmung steigt spürbar. Vier Wochen später arbeiten alle wieder genau wie vorher, und zwei Kolleginnen fragen, wann die nächste Prämie kommt.",
           "frage": "Wie ordnet die Zusammenfassung der Folie 50 diesen Verlauf ein, und woran sollte die Führungskraft als Nächstes ansetzen?",
           "musterloesung": "Die Prämie ist ein Anreiz. Die Folie sagt dazu: Motivation kann kurzfristig mittels adäquater Anreize aktiviert werden – kurzfristig ist hier das entscheidende Wort, und genau das zeigt der Fall. Außerdem müssen adäquate Anreize mit den identifizierten Bedürfnissen der Mitarbeiter korrespondieren; ob das hier geprüft wurde, ist offen. Langfristiges Verhalten bestimmen dagegen die Motive, und sie wirken auf die Motivation. Als Nächstes sollte die Führungskraft deshalb an den Motivatoren ansetzen: Leistungs- und Erfolgserlebnisse vermitteln, Anerkennung und Lob geben, herausfordernde Arbeitsinhalte und Abwechslung schaffen, Lernchancen bieten, Verantwortung delegieren, Aufstiegs- und Entwicklungsperspektiven zeigen. Zusammengefasst: Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräume einräumen. Ziel bleibt dabei beides: Unternehmensleistung und Mitarbeiterzufriedenheit.",
@@ -315,10 +744,21 @@
             "Schlusspunkt: Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen"
           ],
           "erklaerung": "Übungsfall. Die Lösung ergibt sich vollständig aus den Kernsätzen der Zusammenfassung: Anreize wirken kurz, Motivatoren wirken über die Arbeit selbst.",
-          "beleg": "Adäquate Anreize müssen mit den identifizierten Bedürfnissen der MA korrespondieren.", "belegQuelle": "folie-22",
-          "kurz": "Anreize wirken kurzfristig. Dauerhaft motiviert wird über Motivatoren und Spielräume." },
-
-        { "id": "m2-t12-a08", "typ": "mc", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "theorien-personen", "karte": "m2-t12-k2", "folien": [50],
+          "beleg": "Adäquate Anreize müssen mit den identifizierten Bedürfnissen der MA korrespondieren.",
+          "belegQuelle": "folie-22",
+          "kurz": "Anreize wirken kurzfristig. Dauerhaft motiviert wird über Motivatoren und Spielräume."
+        },
+        {
+          "id": "m2-t12-a08",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "theorien-personen",
+          "karte": "m2-t12-k2",
+          "folien": [
+            50
+          ],
           "frage": "Was sagt die Zusammenfassung über **McClelland und Deci/Ryan**?",
           "optionen": [
             "Sie liefern wissenschaftlich gut abgestützte Theorien, insbesondere zum Verhalten von Führungskräften.",
@@ -328,22 +768,53 @@
           ],
           "richtig": 0,
           "erklaerung": "Der Hinweis auf Motivstrukturen gehört auf dieser Folie zu Maslow und Herzberg. McClelland und Deci/Ryan stehen für die wissenschaftlich gut abgestützten Theorien, insbesondere zum Verhalten von FK.",
-          "beleg": "McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.", "belegQuelle": "folie-22",
-          "kurz": "McClelland und Deci/Ryan: wiss. gut abgestützte Theorien, insbesondere zum Verhalten von Führungskräften." },
-
-        { "id": "m2-t12-a09", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": true, "konzept": "motive-motivation-volition", "karte": "m2-t12-k1", "folien": [50],
+          "beleg": "McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.",
+          "belegQuelle": "folie-22",
+          "kurz": "McClelland und Deci/Ryan: wiss. gut abgestützte Theorien, insbesondere zum Verhalten von Führungskräften."
+        },
+        {
+          "id": "m2-t12-a09",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "motive-motivation-volition",
+          "karte": "m2-t12-k1",
+          "folien": [
+            50
+          ],
           "frage": "Sagt die Folie das über **Motive** oder über **Motivation**? Sortiere ein.",
-          "kategorien": ["Motive", "Motivation"],
+          "kategorien": [
+            "Motive",
+            "Motivation"
+          ],
           "elemente": [
-            { "text": "bestimmen langfristiges Verhalten", "kategorie": 0 },
-            { "text": "wirken auf das tendenziell Kurzfristige", "kategorie": 0 },
-            { "text": "ist die zum Handeln bewegende Kraft", "kategorie": 1 },
-            { "text": "erfordert Willen, die Volition", "kategorie": 1 },
-            { "text": "kann kurzfristig mittels adäquater Anreize aktiviert werden", "kategorie": 1 }
+            {
+              "text": "bestimmen langfristiges Verhalten",
+              "kategorie": 0
+            },
+            {
+              "text": "wirken auf das tendenziell Kurzfristige",
+              "kategorie": 0
+            },
+            {
+              "text": "ist die zum Handeln bewegende Kraft",
+              "kategorie": 1
+            },
+            {
+              "text": "erfordert Willen, die Volition",
+              "kategorie": 1
+            },
+            {
+              "text": "kann kurzfristig mittels adäquater Anreize aktiviert werden",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Motive sind das Langfristige und wirken auf die Motivation. Die Motivation selbst ist die bewegende Kraft, ist eher kurzfristig und braucht zusätzlich den Willen.",
-          "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.", "belegQuelle": "folie-22",
-          "kurz": "Motive: langfristig, wirken auf die Motivation. Motivation: bewegende Kraft, kurzfristig, braucht Volition." }
+          "beleg": "Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.",
+          "belegQuelle": "folie-22",
+          "kurz": "Motive: langfristig, wirken auf die Motivation. Motivation: bewegende Kraft, kurzfristig, braucht Volition."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -363,45 +834,94 @@
     {
       "id": "m2-t13",
       "titel": "Führung macht den Unterschied: welche Führungsaktivitäten motivieren konkret?",
-      "folien": [51],
+      "folien": [
+        51
+      ],
       "gewicht": 2,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m2-t13-k1",
           "titel": "Acht Führungsaktivitäten, die konkret motivieren",
-          "folien": [51],
+          "folien": [
+            51
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Bisher ging es um Theorien. Jetzt wird die Folie praktisch und stellt eine einzige Frage: Was muss eine Führungskraft konkret **tun**, damit Motivation entsteht? Die Antwort ist eine Liste aus acht Tätigkeiten. Sie reicht vom Zielesetzen bis zum Führungsleitbild." },
-            { "typ": "text", "text": "**Führung macht den Unterschied!**\n-> welche Führungsaktivitäten motivieren konkret?" },
-            { "typ": "liste", "titel": "Die acht Aktivitäten (wörtlich)", "geordnet": true, "punkte": [
-              "Ziele setzen und Ziele gemeinsam vereinbaren",
-              "ENTSCHEIDEN und für KONSEQUENTE UMSETZUNG sorgen",
-              "Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben",
-              "Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)",
-              "Vorbild geben, keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten",
-              "aktuelle Anforderungen an Führungskompetenz erfüllen, Antworten auf Entwicklungen geben können",
-              "negatives Führungsverhalten vermeiden/sanktionieren",
-              "modernes Führungsleitbild vorgeben und einhalten (s. MAF I)"
-            ] },
-            { "typ": "text", "text": "Die letzte Zeile enthält einen **Querverweis**: „modernes Führungsleitbild vorgeben und einhalten (s. MAF I)\"." },
-            { "typ": "hinweis", "text": "Im Skript auf dieser Folie nur genannt, nicht erklärt: [[Silodenken]], [[Führungsleitbild]] und „rohe Sitten\"." }
+            {
+              "typ": "einfach",
+              "text": "Bisher ging es um Theorien. Jetzt wird die Folie praktisch und stellt eine einzige Frage: Was muss eine Führungskraft konkret **tun**, damit Motivation entsteht? Die Antwort ist eine Liste aus acht Tätigkeiten. Sie reicht vom Zielesetzen bis zum Führungsleitbild."
+            },
+            {
+              "typ": "text",
+              "text": "**Führung macht den Unterschied!**\n-> welche Führungsaktivitäten motivieren konkret?"
+            },
+            {
+              "typ": "liste",
+              "titel": "Die acht Aktivitäten (wörtlich)",
+              "geordnet": true,
+              "punkte": [
+                "Ziele setzen und Ziele gemeinsam vereinbaren",
+                "ENTSCHEIDEN und für KONSEQUENTE UMSETZUNG sorgen",
+                "Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben",
+                "Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)",
+                "Vorbild geben, keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten",
+                "aktuelle Anforderungen an Führungskompetenz erfüllen, Antworten auf Entwicklungen geben können",
+                "negatives Führungsverhalten vermeiden/sanktionieren",
+                "modernes Führungsleitbild vorgeben und einhalten (s. MAF I)"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Die letzte Zeile enthält einen **Querverweis**: „modernes Führungsleitbild vorgeben und einhalten (s. MAF I)\"."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Im Skript auf dieser Folie nur genannt, nicht erklärt: [[Silodenken]], [[Führungsleitbild]] und „rohe Sitten\"."
+            }
           ]
         },
         {
           "id": "m2-t13-k2",
           "titel": "Drucker: Vertrauen als Bedingung für Führung",
-          "folien": [51],
+          "folien": [
+            51
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Unten rechts auf der Folie steht ein Zitat in einem schwarzen Bild, mit Porträtfoto. Es setzt hinter die Liste der Aktivitäten eine Bedingung: Wer seinen besten Leuten nicht vertraut, gehört nicht auf einen Führungsposten." },
-            { "typ": "zitat", "text": "No man should be in a leadership position who does not trust his best people.", "person": "Peter Drucker", "kontext": "Folie 51, schwarzes Bild unten rechts mit Porträtfoto; darunter die Zeile „Peter Drucker, 1909-2005\". Die erste und die dritte Zeile des Zitats sind rot gerahmt." },
-            { "typ": "person", "name": "Peter Drucker", "folie": 51, "beitrag": "Steht im Skript für das Zitat „No man should be in a leadership position who does not trust his best people.\", mit der Angabe „1909-2005\"." },
-            { "typ": "hinweis", "text": "Das Zitat steht auf der Folie ohne Übersetzung und ohne weiteren Kommentar. Auf derselben Folie taucht **Vertrauen** aber auch in der Liste auf, als Teil von „Kommunizieren\"." }
+            {
+              "typ": "einfach",
+              "text": "Unten rechts auf der Folie steht ein Zitat in einem schwarzen Bild, mit Porträtfoto. Es setzt hinter die Liste der Aktivitäten eine Bedingung: Wer seinen besten Leuten nicht vertraut, gehört nicht auf einen Führungsposten."
+            },
+            {
+              "typ": "zitat",
+              "text": "No man should be in a leadership position who does not trust his best people.",
+              "person": "Peter Drucker",
+              "kontext": "Folie 51, schwarzes Bild unten rechts mit Porträtfoto; darunter die Zeile „Peter Drucker, 1909-2005\". Die erste und die dritte Zeile des Zitats sind rot gerahmt."
+            },
+            {
+              "typ": "person",
+              "name": "Peter Drucker",
+              "folie": 51,
+              "beitrag": "Steht im Skript für das Zitat „No man should be in a leadership position who does not trust his best people.\", mit der Angabe „1909-2005\"."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Das Zitat steht auf der Folie ohne Übersetzung und ohne weiteren Kommentar. Auf derselben Folie taucht **Vertrauen** aber auch in der Liste auf, als Teil von „Kommunizieren\"."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m2-t13-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "fuehrungsaktivitaeten", "karte": "m2-t13-k1", "folien": [51],
+        {
+          "id": "m2-t13-a01",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fuehrungsaktivitaeten",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
           "frage": "Welche Führungsaktivitäten nennt die Folie „Führung macht den Unterschied!\"?",
           "optionen": [
             "Ziele setzen und Ziele gemeinsam vereinbaren",
@@ -411,23 +931,59 @@
             "Silodenken zwischen den Bereichen bewusst zulassen",
             "Vorbild geben, keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten"
           ],
-          "richtig": [0, 1, 2, 5],
+          "richtig": [
+            0,
+            1,
+            2,
+            5
+          ],
           "erklaerung": "Die beiden falschen Optionen drehen die Folie um: Sie verlangt, negatives Führungsverhalten zu vermeiden oder zu sanktionieren, und nennt „kein Silodenken\" als Teil des Kommunizierens.",
           "belege": [
-            { "text": "Ziele setzen und Ziele gemeinsam vereinbaren", "quelle": "folie-23" },
-            { "text": "-> negatives Führungsverhalten vermeiden/sanktionieren", "quelle": "folie-23" }
+            {
+              "text": "Ziele setzen und Ziele gemeinsam vereinbaren",
+              "quelle": "folie-23"
+            },
+            {
+              "text": "-> negatives Führungsverhalten vermeiden/sanktionieren",
+              "quelle": "folie-23"
+            }
           ],
-          "kurz": "Acht Aktivitäten: Ziele vereinbaren, entscheiden und umsetzen, Feedback, Kommunizieren, Vorbild, Führungskompetenz, negatives Verhalten sanktionieren, Führungsleitbild." },
-
-        { "id": "m2-t13-a02", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "fuehrungsaktivitaeten", "karte": "m2-t13-k1", "folien": [51], "bank": true,
+          "kurz": "Acht Aktivitäten: Ziele vereinbaren, entscheiden und umsetzen, Feedback, Kommunizieren, Vorbild, Führungskompetenz, negatives Verhalten sanktionieren, Führungsleitbild."
+        },
+        {
+          "id": "m2-t13-a02",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fuehrungsaktivitaeten",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
+          "bank": true,
           "frage": "Vervollständige drei Zeilen der Liste.",
           "text": "-> ENTSCHEIDEN und für {_KONSEQUENTE UMSETZUNG_} sorgen\n-> Kommunizieren (Anerkennen/Loben, {_Vertrauen_}, Kritisieren, effiziente Meetings, kein {_Silodenken_})\n-> modernes {_Führungsleitbild_} vorgeben und einhalten (s. MAF I)",
-          "zusatzBank": ["Egomanie", "Führungskompetenz"],
+          "zusatzBank": [
+            "Egomanie",
+            "Führungskompetenz"
+          ],
           "erklaerung": "Vertrauen steht auf dieser Folie zweimal: in der Klammer beim Kommunizieren und im Drucker-Zitat.",
-          "beleg": "Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)", "belegQuelle": "folie-23",
-          "kurz": "Kommunizieren heißt laut Folie: Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken." },
-
-        { "id": "m2-t13-a03", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "drucker-vertrauen", "karte": "m2-t13-k2", "folien": [51],
+          "beleg": "Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)",
+          "belegQuelle": "folie-23",
+          "kurz": "Kommunizieren heißt laut Folie: Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken."
+        },
+        {
+          "id": "m2-t13-a03",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "drucker-vertrauen",
+          "karte": "m2-t13-k2",
+          "folien": [
+            51
+          ],
           "frage": "Auf der Folie steht das Zitat „No man should be in a leadership position who does not trust his best people.\" (Peter Drucker, 1909-2005). Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Wörtlich übersetzt: Niemand sollte eine Führungsposition innehaben, der seinen besten Leuten nicht vertraut. Das Zitat steht auf der Folie „Führung macht den Unterschied!\", die fragt, welche Führungsaktivitäten konkret motivieren. Vertrauen ist dort keine Nebensache: Die Folie führt es ausdrücklich unter „Kommunizieren\" auf, neben Anerkennen/Loben, Kritisieren, effizienten Meetings und „kein Silodenken\". Drucker macht daraus eine Bedingung für das Amt selbst: Wer seinen besten Leuten misstraut, ist für eine Führungsposition nicht geeignet. Damit verstärkt das Zitat die anderen Punkte der Liste, besonders „Vorbild geben, keine Sturköpfigkeit/Egomanie oder Un-Fairness\". Die Folie kommentiert das Zitat nicht weiter; sie stellt es neben die Liste der Aktivitäten. Zugeschrieben wird es im Skript ausdrücklich Peter Drucker (1909-2005).",
           "checkliste": [
@@ -438,29 +994,77 @@
             "Erkannt, dass das Skript das Zitat nicht weiter kommentiert"
           ],
           "erklaerung": "Bei Zitaten fragt die Klausur nach Bedeutung UND Zusammenhang. Die Zuschreibung an Peter Drucker gehört dazu.",
-          "beleg": "No man should be in a leadership position who does not trust his best people.", "belegQuelle": "folie-23",
-          "kurz": "Drucker: Wer seinen besten Leuten nicht vertraut, gehört nicht in eine Führungsposition. Steht bei den motivierenden Führungsaktivitäten." },
-
-        { "id": "m2-t13-a04", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "fuehrungsleitbild", "karte": "m2-t13-k1", "folien": [51],
+          "beleg": "No man should be in a leadership position who does not trust his best people.",
+          "belegQuelle": "folie-23",
+          "kurz": "Drucker: Wer seinen besten Leuten nicht vertraut, gehört nicht in eine Führungsposition. Steht bei den motivierenden Führungsaktivitäten."
+        },
+        {
+          "id": "m2-t13-a04",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "fuehrungsleitbild",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
           "vorne": "Welchen Querverweis enthält die letzte Zeile der Folie 51?",
           "hinten": "„modernes Führungsleitbild vorgeben und einhalten **(s. MAF I)**\" – also ein Verweis zurück auf die Vorlesung MAF I. Was ein Führungsleitbild ist, erklärt diese Folie nicht.",
           "erklaerung": "Der Verweis zeigt, dass das Führungsleitbild hier vorausgesetzt und nicht neu eingeführt wird.",
-          "beleg": "modernes Führungsleitbild vorgeben und einhalten (s. MAF I)", "belegQuelle": "folie-23",
-          "kurz": "Letzte Zeile Folie 51: modernes Führungsleitbild vorgeben und einhalten, mit Verweis auf MAF I." },
-
-        { "id": "m2-t13-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "fuehrungsaktivitaeten", "karte": "m2-t13-k1", "folien": [51],
+          "beleg": "modernes Führungsleitbild vorgeben und einhalten (s. MAF I)",
+          "belegQuelle": "folie-23",
+          "kurz": "Letzte Zeile Folie 51: modernes Führungsleitbild vorgeben und einhalten, mit Verweis auf MAF I."
+        },
+        {
+          "id": "m2-t13-a05",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "fuehrungsaktivitaeten",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
           "frage": "Was stimmt zur Folie „Führung macht den Unterschied!\"?",
           "aussagen": [
-            { "text": "„kein Silodenken\" nennt die Folie als Teil des Kommunizierens.", "wahr": true },
-            { "text": "Die Folie erklärt, was mit Silodenken gemeint ist.", "wahr": false, "korrektur": "Silodenken wird auf der Folie nur genannt, nicht erklärt. Dasselbe gilt für „Führungsleitbild\" und „rohe Sitten\"." },
-            { "text": "Negatives Führungsverhalten soll vermieden oder sanktioniert werden.", "wahr": true },
-            { "text": "Das Zitat unten rechts stammt von Frederick Herzberg.", "wahr": false, "korrektur": "Das Zitat stammt von Peter Drucker (1909-2005)." }
+            {
+              "text": "„kein Silodenken\" nennt die Folie als Teil des Kommunizierens.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt, was mit Silodenken gemeint ist.",
+              "wahr": false,
+              "korrektur": "Silodenken wird auf der Folie nur genannt, nicht erklärt. Dasselbe gilt für „Führungsleitbild\" und „rohe Sitten\"."
+            },
+            {
+              "text": "Negatives Führungsverhalten soll vermieden oder sanktioniert werden.",
+              "wahr": true
+            },
+            {
+              "text": "Das Zitat unten rechts stammt von Frederick Herzberg.",
+              "wahr": false,
+              "korrektur": "Das Zitat stammt von Peter Drucker (1909-2005)."
+            }
           ],
           "erklaerung": "Zwei typische Fehler: Begriffe, die das Skript nur nennt, für erklärt zu halten, und das Zitat der falschen Person zuzuschreiben.",
-          "beleg": "Begriffe, die nur genannt, aber nicht erklärt werden: „Silodenken\", „Führungsleitbild\", „rohe Sitten\".", "belegQuelle": "folie-23",
-          "kurz": "Silodenken, Führungsleitbild und rohe Sitten werden nur genannt. Das Zitat ist von Peter Drucker." },
-
-        { "id": "m2-t13-a06", "typ": "fall", "modus": "mc", "stufe": "anwenden", "schwierigkeit": 2, "kern": false, "konzept": "fuehrungsaktivitaeten", "karte": "m2-t13-k1", "folien": [51],
+          "beleg": "Begriffe, die nur genannt, aber nicht erklärt werden: „Silodenken\", „Führungsleitbild\", „rohe Sitten\".",
+          "belegQuelle": "folie-23",
+          "kurz": "Silodenken, Führungsleitbild und rohe Sitten werden nur genannt. Das Zitat ist von Peter Drucker."
+        },
+        {
+          "id": "m2-t13-a06",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "anwenden",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "fuehrungsaktivitaeten",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
           "szenario": "Eine Teamleiterin in der Filiale vereinbart im Januar mit jedem Mitarbeiter klare Ziele. Danach spricht sie das ganze Jahr nicht mehr darüber: keine Rückmeldung zu beobachtetem Verhalten, kein Zwischenstand. Im Dezember sind alle überrascht, wie die Beurteilung ausfällt.",
           "frage": "Welche der auf der Folie genannten Führungsaktivitäten wurde hier ausgelassen?",
           "optionen": [
@@ -471,10 +1075,21 @@
           ],
           "richtig": 0,
           "erklaerung": "Die Ziele wurden gemeinsam vereinbart, das war erledigt. Ausgefallen ist genau die dritte Aktivität der Liste: Feedback zu beobachtetem Verhalten und vereinbarten Zielen.",
-          "beleg": "Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben", "belegQuelle": "folie-23",
-          "kurz": "Ziele ohne Feedback zum Verhalten und zum Zielstand lassen die dritte Führungsaktivität der Folie aus." },
-
-        { "id": "m2-t13-a07", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "fuehrungsaktivitaeten", "karte": "m2-t13-k1", "folien": [51],
+          "beleg": "Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben",
+          "belegQuelle": "folie-23",
+          "kurz": "Ziele ohne Feedback zum Verhalten und zum Zielstand lassen die dritte Führungsaktivität der Folie aus."
+        },
+        {
+          "id": "m2-t13-a07",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "fuehrungsaktivitaeten",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
           "frage": "Klausurfrage: Welche Führungsaktivitäten motivieren laut Skript konkret? Nenne sie und erläutere kurz, was die Folie jeweils dazu sagt.",
           "musterloesung": "Die Folie „Führung macht den Unterschied!\" nennt acht Aktivitäten. Erstens: Ziele setzen und Ziele gemeinsam vereinbaren – Ziele werden also nicht nur vorgegeben, sondern vereinbart. Zweitens: ENTSCHEIDEN und für KONSEQUENTE UMSETZUNG sorgen; beides ist auf der Folie groß geschrieben. Drittens: Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben. Viertens: Kommunizieren, das heißt laut Folie Anerkennen und Loben, Vertrauen, Kritisieren, effiziente Meetings und kein Silodenken. Fünftens: Vorbild geben, keine Sturköpfigkeit, Egomanie, Un-Fairness oder rohe Sitten. Sechstens: aktuelle Anforderungen an Führungskompetenz erfüllen und Antworten auf Entwicklungen geben können. Siebtens: negatives Führungsverhalten vermeiden oder sanktionieren. Achtens: ein modernes Führungsleitbild vorgeben und einhalten, mit Verweis auf MAF I. Dazu stellt die Folie das Zitat von Peter Drucker: No man should be in a leadership position who does not trust his best people.",
           "checkliste": [
@@ -486,23 +1101,55 @@
             "Drucker-Zitat als Ergänzung der Folie erwähnt"
           ],
           "erklaerung": "Die Liste ist der prüfbare Kern der Folie. Wer nur drei Punkte nennt, verliert Punkte; die Klammern zu „Kommunizieren\" und „Vorbild geben\" gehören dazu.",
-          "beleg": "aktuelle Anforderungen an Führungskompetenz erfüllen, Antworten auf Entwicklungen geben können", "belegQuelle": "folie-23",
-          "kurz": "Acht Aktivitäten laut Folie 51, von Ziele vereinbaren bis Führungsleitbild, plus Drucker-Zitat zum Vertrauen." },
-
-        { "id": "m2-t13-a08", "typ": "zuordnung", "stufe": "erinnern", "schwierigkeit": 2, "kern": false, "konzept": "fuehrungsaktivitaeten", "karte": "m2-t13-k1", "folien": [51],
-          "frage": "Ordne jeder Aktivität zu, was die Folie in Klammern oder als Zusatz dazu nennt.", "linksTitel": "Aktivität", "rechtsTitel": "Zusatz laut Folie",
+          "beleg": "aktuelle Anforderungen an Führungskompetenz erfüllen, Antworten auf Entwicklungen geben können",
+          "belegQuelle": "folie-23",
+          "kurz": "Acht Aktivitäten laut Folie 51, von Ziele vereinbaren bis Führungsleitbild, plus Drucker-Zitat zum Vertrauen."
+        },
+        {
+          "id": "m2-t13-a08",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "fuehrungsaktivitaeten",
+          "karte": "m2-t13-k1",
+          "folien": [
+            51
+          ],
+          "frage": "Ordne jeder Aktivität zu, was die Folie in Klammern oder als Zusatz dazu nennt.",
+          "linksTitel": "Aktivität",
+          "rechtsTitel": "Zusatz laut Folie",
           "paare": [
-            { "links": "Kommunizieren", "rechts": "Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken" },
-            { "links": "Vorbild geben", "rechts": "keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten" },
-            { "links": "Feedback geben", "rechts": "zu beobachtetem Verhalten und vereinbarten Zielen" },
-            { "links": "Führungskompetenz", "rechts": "aktuelle Anforderungen erfüllen, Antworten auf Entwicklungen geben können" }
+            {
+              "links": "Kommunizieren",
+              "rechts": "Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken"
+            },
+            {
+              "links": "Vorbild geben",
+              "rechts": "keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten"
+            },
+            {
+              "links": "Feedback geben",
+              "rechts": "zu beobachtetem Verhalten und vereinbarten Zielen"
+            },
+            {
+              "links": "Führungskompetenz",
+              "rechts": "aktuelle Anforderungen erfüllen, Antworten auf Entwicklungen geben können"
+            }
           ],
           "erklaerung": "Die Klammern sind der eigentliche Inhalt: Ohne sie bleiben die Aktivitäten Schlagworte.",
           "belege": [
-            { "text": "Vorbild geben, keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten", "quelle": "folie-23" },
-            { "text": "Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben", "quelle": "folie-23" }
+            {
+              "text": "Vorbild geben, keine Sturköpfigkeit/Egomanie oder Un-Fairness/rohe Sitten",
+              "quelle": "folie-23"
+            },
+            {
+              "text": "Feedback zu beobachtetem Verhalten und vereinbarten Zielen geben",
+              "quelle": "folie-23"
+            }
           ],
-          "kurz": "Kommunizieren = Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken." }
+          "kurz": "Kommunizieren = Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -520,85 +1167,207 @@
     {
       "id": "m2-t14",
       "titel": "Feedback geben – und nehmen",
-      "folien": [52],
+      "folien": [
+        52
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m2-t14-k1",
           "titel": "Was Feedback ist, was es soll, und dass es zwei Seiten hat",
-          "folien": [52],
+          "folien": [
+            52
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Feedback ist auf dieser Folie kein lockeres Gespräch, sondern eine Technik mit festen Regeln. Die Folie sagt drei Dinge: was Feedback **inhaltlich** ist, welches **Ziel** es verfolgt, und dass es aus **zwei** Komponenten besteht. Geben und Nehmen sind beide schwer." },
-            { "typ": "text", "text": "**Feedback geben – und nehmen**\n-> Feedback-Regeln erfordern reifes Selbstverständnis!" },
-            { "typ": "definition", "begriff": "Feedback", "text": "Inhalt: konstruktives Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln." },
-            { "typ": "text", "text": "**Ziel:** Schwachstellen aufzeigen/beseitigen, Effektivität/Effizienz steigern, Kooperation verbessern, also, **Veränderung bewirken**." },
-            { "typ": "text", "text": "**2 Komponenten:** Feedback geben und Feedback nehmen: für beide Seiten herausfordernd!" },
-            { "typ": "merkhilfe", "text": "Merk dir die Reihenfolge der Folie: Inhalt – Ziel – zwei Komponenten – Regeln für den Geber – Regeln für den Nehmer. Wer diese fünf Schritte nennt, hat die Folie vollständig." }
+            {
+              "typ": "einfach",
+              "text": "Feedback ist auf dieser Folie kein lockeres Gespräch, sondern eine Technik mit festen Regeln. Die Folie sagt drei Dinge: was Feedback **inhaltlich** ist, welches **Ziel** es verfolgt, und dass es aus **zwei** Komponenten besteht. Geben und Nehmen sind beide schwer."
+            },
+            {
+              "typ": "text",
+              "text": "**Feedback geben – und nehmen**\n-> Feedback-Regeln erfordern reifes Selbstverständnis!"
+            },
+            {
+              "typ": "definition",
+              "begriff": "Feedback",
+              "text": "Inhalt: konstruktives Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln."
+            },
+            {
+              "typ": "text",
+              "text": "**Ziel:** Schwachstellen aufzeigen/beseitigen, Effektivität/Effizienz steigern, Kooperation verbessern, also, **Veränderung bewirken**."
+            },
+            {
+              "typ": "text",
+              "text": "**2 Komponenten:** Feedback geben und Feedback nehmen: für beide Seiten herausfordernd!"
+            },
+            {
+              "typ": "merkhilfe",
+              "text": "Merk dir die Reihenfolge der Folie: Inhalt – Ziel – zwei Komponenten – Regeln für den Geber – Regeln für den Nehmer. Wer diese fünf Schritte nennt, hat die Folie vollständig."
+            }
           ]
         },
         {
           "id": "m2-t14-k2",
           "titel": "Die Regeln für den Feedbackgeber",
-          "folien": [52],
+          "folien": [
+            52
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Neun Regeln für die Person, die Rückmeldung gibt. Sie laufen alle in eine Richtung: Rede über **Verhalten**, das du selbst erlebt hast, nicht über den **Menschen**. Und sprich von dir aus, nicht über den anderen." },
-            { "typ": "liste", "titel": "der Feedbackgeber:", "punkte": [
-              "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen",
-              "formuliert nur sachlich und klar, nie auf die Person bezogen",
-              "spiegelt stets erlebtes Verhalten oder Wahrnehmungen",
-              "spricht in [[Ich-Botschaften]] und vermeidet Du/Sie-Botschaften",
-              "stellt sicher, das Botschaften angekommen sind und verstanden wurden",
-              "gibt ausgewogene Rückmeldungen: positiv und negativ zugleich",
-              "fordert nicht Unerfüllbares ein",
-              "wertet nicht, gibt keine moralischen Hinweise",
-              "nimmt ebenfalls Feedback an"
-            ] },
-            { "typ": "merksatz", "folie": 52, "text": "Kick the ball and not the player!" },
-            { "typ": "hinweis", "text": "Der englische Spruch steht auf der Folie in einem orangefarbenen Kasten in Handschrift. Das Skript **übersetzt und erläutert ihn nicht**. Ebenfalls unverändert übernommen: In der fünften Regel steht auf der Folie „das\" statt „dass\"." }
+            {
+              "typ": "einfach",
+              "text": "Neun Regeln für die Person, die Rückmeldung gibt. Sie laufen alle in eine Richtung: Rede über **Verhalten**, das du selbst erlebt hast, nicht über den **Menschen**. Und sprich von dir aus, nicht über den anderen."
+            },
+            {
+              "typ": "liste",
+              "titel": "der Feedbackgeber:",
+              "punkte": [
+                "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen",
+                "formuliert nur sachlich und klar, nie auf die Person bezogen",
+                "spiegelt stets erlebtes Verhalten oder Wahrnehmungen",
+                "spricht in [[Ich-Botschaften]] und vermeidet Du/Sie-Botschaften",
+                "stellt sicher, das Botschaften angekommen sind und verstanden wurden",
+                "gibt ausgewogene Rückmeldungen: positiv und negativ zugleich",
+                "fordert nicht Unerfüllbares ein",
+                "wertet nicht, gibt keine moralischen Hinweise",
+                "nimmt ebenfalls Feedback an"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 52,
+              "text": "Kick the ball and not the player!"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Der englische Spruch steht auf der Folie in einem orangefarbenen Kasten in Handschrift. Das Skript **übersetzt und erläutert ihn nicht**. Ebenfalls unverändert übernommen: In der fünften Regel steht auf der Folie „das\" statt „dass\"."
+            }
           ]
         },
         {
           "id": "m2-t14-k3",
           "titel": "Die Regeln für den Feedbacknehmer",
-          "folien": [52],
+          "folien": [
+            52
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Sechs Regeln für die Person, die Rückmeldung bekommt. Auch sie laufen in eine Richtung: erst **zuhören**, nicht verteidigen. Über die Berechtigung des Gehörten entscheidet der Nehmer am Ende selbst, aber innerlich, nicht im Gespräch." },
-            { "typ": "liste", "titel": "der Feedbacknehmer:", "punkte": [
-              "hört genau zu und lässt aussprechen, unterbricht nicht",
-              "stellt nur Nachfragen",
-              "entschuldigt oder rechtfertigt sich nicht",
-              "bedankt sich für Feedback",
-              "stoppt ggf. das Gespräch",
-              "entscheidet selbst innerlich über Berechtigung des Gehörten"
-            ] },
-            { "typ": "vergleich", "spalten": [
-              { "titel": "Feedbackgeber", "punkte": ["stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen", "formuliert nur sachlich und klar, nie auf die Person bezogen", "spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften", "gibt ausgewogene Rückmeldungen: positiv und negativ zugleich", "wertet nicht, gibt keine moralischen Hinweise", "nimmt ebenfalls Feedback an"] },
-              { "titel": "Feedbacknehmer", "punkte": ["hört genau zu und lässt aussprechen, unterbricht nicht", "stellt nur Nachfragen", "entschuldigt oder rechtfertigt sich nicht", "bedankt sich für Feedback", "stoppt ggf. das Gespräch", "entscheidet selbst innerlich über Berechtigung des Gehörten"] }
-            ] },
-            { "typ": "hinweis", "text": "Die Gegenüberstellung stellt sechs Regeln je Rolle nebeneinander, alle im Wortlaut der Folie. Beim Geber sind das sechs von neun: Die drei übrigen (spiegelt stets erlebtes Verhalten oder Wahrnehmungen · stellt sicher, das Botschaften angekommen sind und verstanden wurden · fordert nicht Unerfüllbares ein) stehen vollständig auf der Karte zuvor." }
+            {
+              "typ": "einfach",
+              "text": "Sechs Regeln für die Person, die Rückmeldung bekommt. Auch sie laufen in eine Richtung: erst **zuhören**, nicht verteidigen. Über die Berechtigung des Gehörten entscheidet der Nehmer am Ende selbst, aber innerlich, nicht im Gespräch."
+            },
+            {
+              "typ": "liste",
+              "titel": "der Feedbacknehmer:",
+              "punkte": [
+                "hört genau zu und lässt aussprechen, unterbricht nicht",
+                "stellt nur Nachfragen",
+                "entschuldigt oder rechtfertigt sich nicht",
+                "bedankt sich für Feedback",
+                "stoppt ggf. das Gespräch",
+                "entscheidet selbst innerlich über Berechtigung des Gehörten"
+              ]
+            },
+            {
+              "typ": "vergleich",
+              "spalten": [
+                {
+                  "titel": "Feedbackgeber",
+                  "punkte": [
+                    "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen",
+                    "formuliert nur sachlich und klar, nie auf die Person bezogen",
+                    "spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften",
+                    "gibt ausgewogene Rückmeldungen: positiv und negativ zugleich",
+                    "wertet nicht, gibt keine moralischen Hinweise",
+                    "nimmt ebenfalls Feedback an"
+                  ]
+                },
+                {
+                  "titel": "Feedbacknehmer",
+                  "punkte": [
+                    "hört genau zu und lässt aussprechen, unterbricht nicht",
+                    "stellt nur Nachfragen",
+                    "entschuldigt oder rechtfertigt sich nicht",
+                    "bedankt sich für Feedback",
+                    "stoppt ggf. das Gespräch",
+                    "entscheidet selbst innerlich über Berechtigung des Gehörten"
+                  ]
+                }
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Gegenüberstellung stellt sechs Regeln je Rolle nebeneinander, alle im Wortlaut der Folie. Beim Geber sind das sechs von neun: Die drei übrigen (spiegelt stets erlebtes Verhalten oder Wahrnehmungen · stellt sicher, das Botschaften angekommen sind und verstanden wurden · fordert nicht Unerfüllbares ein) stehen vollständig auf der Karte zuvor."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m2-t14-a01", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "feedback-rollen", "karte": "m2-t14-k3", "folien": [52],
+        {
+          "id": "m2-t14-a01",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "feedback-rollen",
+          "karte": "m2-t14-k3",
+          "folien": [
+            52
+          ],
           "frage": "Regel für den **Feedbackgeber** oder für den **Feedbacknehmer**? Sortiere ein.",
-          "kategorien": ["Feedbackgeber", "Feedbacknehmer"],
+          "kategorien": [
+            "Feedbackgeber",
+            "Feedbacknehmer"
+          ],
           "elemente": [
-            { "text": "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen", "kategorie": 0 },
-            { "text": "spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften", "kategorie": 0 },
-            { "text": "gibt ausgewogene Rückmeldungen: positiv und negativ zugleich", "kategorie": 0 },
-            { "text": "wertet nicht, gibt keine moralischen Hinweise", "kategorie": 0 },
-            { "text": "hört genau zu und lässt aussprechen, unterbricht nicht", "kategorie": 1 },
-            { "text": "stellt nur Nachfragen", "kategorie": 1 },
-            { "text": "bedankt sich für Feedback", "kategorie": 1 },
-            { "text": "entscheidet selbst innerlich über Berechtigung des Gehörten", "kategorie": 1 }
+            {
+              "text": "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen",
+              "kategorie": 0
+            },
+            {
+              "text": "spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften",
+              "kategorie": 0
+            },
+            {
+              "text": "gibt ausgewogene Rückmeldungen: positiv und negativ zugleich",
+              "kategorie": 0
+            },
+            {
+              "text": "wertet nicht, gibt keine moralischen Hinweise",
+              "kategorie": 0
+            },
+            {
+              "text": "hört genau zu und lässt aussprechen, unterbricht nicht",
+              "kategorie": 1
+            },
+            {
+              "text": "stellt nur Nachfragen",
+              "kategorie": 1
+            },
+            {
+              "text": "bedankt sich für Feedback",
+              "kategorie": 1
+            },
+            {
+              "text": "entscheidet selbst innerlich über Berechtigung des Gehörten",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Die Folie trennt die beiden Rollen ausdrücklich. Merkhilfe: Der Geber gestaltet das Gespräch, der Nehmer hält es aus und verarbeitet es danach.",
-          "beleg": "2 Komponenten: Feedback geben und Feedback nehmen: für beide Seiten herausfordernd!", "belegQuelle": "folie-24",
-          "kurz": "Geber: Umfeld, Sachlichkeit, Ich-Botschaften, Ausgewogenheit, keine Wertung. Nehmer: zuhören, nur Nachfragen, nicht rechtfertigen, danken, selbst entscheiden." },
-
-        { "id": "m2-t14-a02", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "feedbackgeber", "karte": "m2-t14-k2", "folien": [52],
+          "beleg": "2 Komponenten: Feedback geben und Feedback nehmen: für beide Seiten herausfordernd!",
+          "belegQuelle": "folie-24",
+          "kurz": "Geber: Umfeld, Sachlichkeit, Ich-Botschaften, Ausgewogenheit, keine Wertung. Nehmer: zuhören, nur Nachfragen, nicht rechtfertigen, danken, selbst entscheiden."
+        },
+        {
+          "id": "m2-t14-a02",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "feedbackgeber",
+          "karte": "m2-t14-k2",
+          "folien": [
+            52
+          ],
           "frage": "Welche Regeln gelten laut Folie für den **Feedbackgeber**?",
           "optionen": [
             "formuliert nur sachlich und klar, nie auf die Person bezogen",
@@ -608,32 +1377,88 @@
             "entschuldigt oder rechtfertigt sich nicht",
             "nimmt ebenfalls Feedback an"
           ],
-          "richtig": [0, 1, 2, 5],
+          "richtig": [
+            0,
+            1,
+            2,
+            5
+          ],
           "erklaerung": "„stellt nur Nachfragen\" und „entschuldigt oder rechtfertigt sich nicht\" sind Regeln des Feedbacknehmers. Das Vertauschen der beiden Listen ist der häufigste Fehler.",
-          "beleg": "formuliert nur sachlich und klar, nie auf die Person bezogen", "belegQuelle": "folie-24",
-          "kurz": "Der Geber ist sachlich, spiegelt erlebtes Verhalten, fordert nichts Unerfüllbares und nimmt selbst Feedback an." },
-
-        { "id": "m2-t14-a03", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "feedback-definition", "karte": "m2-t14-k1", "folien": [52], "bank": true,
+          "beleg": "formuliert nur sachlich und klar, nie auf die Person bezogen",
+          "belegQuelle": "folie-24",
+          "kurz": "Der Geber ist sachlich, spiegelt erlebtes Verhalten, fordert nichts Unerfüllbares und nimmt selbst Feedback an."
+        },
+        {
+          "id": "m2-t14-a03",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "feedback-definition",
+          "karte": "m2-t14-k1",
+          "folien": [
+            52
+          ],
+          "bank": true,
           "frage": "Vervollständige Inhalt und Ziel von Feedback.",
           "text": "Inhalt: konstruktives Anbringen von {_positiver_} oder {_negativer_} Rückmeldung nach {_festgelegten Regeln_}.\nZiel: Schwachstellen aufzeigen/beseitigen, Effektivität/Effizienz steigern, Kooperation verbessern, also, {_Veränderung bewirken_}.",
-          "zusatzBank": ["Nachfragen", "Wahrnehmungen"],
+          "zusatzBank": [
+            "Nachfragen",
+            "Wahrnehmungen"
+          ],
           "erklaerung": "Zwei Punkte sind prüfungsrelevant: Feedback ist positiv ODER negativ, und es folgt festgelegten Regeln. Das Ziel ist am Ende immer Veränderung.",
-          "beleg": "Inhalt: konstruktives Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln", "belegQuelle": "folie-24",
-          "kurz": "Feedback = konstruktives Anbringen positiver oder negativer Rückmeldung nach festgelegten Regeln, Ziel: Veränderung bewirken." },
-
-        { "id": "m2-t14-a04", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "feedback-rollen", "karte": "m2-t14-k3", "folien": [52],
+          "beleg": "Inhalt: konstruktives Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln",
+          "belegQuelle": "folie-24",
+          "kurz": "Feedback = konstruktives Anbringen positiver oder negativer Rückmeldung nach festgelegten Regeln, Ziel: Veränderung bewirken."
+        },
+        {
+          "id": "m2-t14-a04",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "feedback-rollen",
+          "karte": "m2-t14-k3",
+          "folien": [
+            52
+          ],
           "frage": "Was stimmt zu den Feedback-Regeln?",
           "aussagen": [
-            { "text": "Der Feedbackgeber spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften.", "wahr": true },
-            { "text": "Der Feedbacknehmer soll sich für sein Verhalten entschuldigen.", "wahr": false, "korrektur": "Er entschuldigt oder rechtfertigt sich nicht. Er bedankt sich für das Feedback und entscheidet selbst innerlich über die Berechtigung des Gehörten." },
-            { "text": "Feedback wird in einem informellen und persönlichen Umfeld gegeben, ungestört und unter 4 Augen.", "wahr": true },
-            { "text": "Der Feedbackgeber gibt moralische Hinweise, damit die Botschaft ankommt.", "wahr": false, "korrektur": "Er wertet nicht und gibt keine moralischen Hinweise. Er stellt nur sicher, das Botschaften angekommen sind und verstanden wurden." }
+            {
+              "text": "Der Feedbackgeber spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften.",
+              "wahr": true
+            },
+            {
+              "text": "Der Feedbacknehmer soll sich für sein Verhalten entschuldigen.",
+              "wahr": false,
+              "korrektur": "Er entschuldigt oder rechtfertigt sich nicht. Er bedankt sich für das Feedback und entscheidet selbst innerlich über die Berechtigung des Gehörten."
+            },
+            {
+              "text": "Feedback wird in einem informellen und persönlichen Umfeld gegeben, ungestört und unter 4 Augen.",
+              "wahr": true
+            },
+            {
+              "text": "Der Feedbackgeber gibt moralische Hinweise, damit die Botschaft ankommt.",
+              "wahr": false,
+              "korrektur": "Er wertet nicht und gibt keine moralischen Hinweise. Er stellt nur sicher, das Botschaften angekommen sind und verstanden wurden."
+            }
           ],
           "erklaerung": "Beide falschen Aussagen kehren eine Regel um. Besonders leicht zu verwechseln: Der Nehmer darf nachfragen, aber nicht rechtfertigen.",
-          "beleg": "entschuldigt oder rechtfertigt sich nicht", "belegQuelle": "folie-24",
-          "kurz": "Nehmer: nicht entschuldigen, nicht rechtfertigen. Geber: nicht werten, keine moralischen Hinweise." },
-
-        { "id": "m2-t14-a05", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "kick-the-ball", "karte": "m2-t14-k2", "folien": [52],
+          "beleg": "entschuldigt oder rechtfertigt sich nicht",
+          "belegQuelle": "folie-24",
+          "kurz": "Nehmer: nicht entschuldigen, nicht rechtfertigen. Geber: nicht werten, keine moralischen Hinweise."
+        },
+        {
+          "id": "m2-t14-a05",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "kick-the-ball",
+          "karte": "m2-t14-k2",
+          "folien": [
+            52
+          ],
           "frage": "Auf der Folie steht in einem orangefarbenen Kasten: „Kick the ball and not the player!\" Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Spruch steht auf der Folie „Feedback geben – und nehmen\", direkt neben den Regeln für den Feedbackgeber. Das Skript übersetzt und erläutert ihn nicht; seine Bedeutung ergibt sich aus den Regeln daneben. Diese Regeln verlangen: sachlich und klar formulieren, nie auf die Person bezogen; stets erlebtes Verhalten oder Wahrnehmungen spiegeln; in Ich-Botschaften sprechen und Du/Sie-Botschaften vermeiden; nicht werten und keine moralischen Hinweise geben. Im Bild gesprochen: Das Feedback richtet sich auf den Ball, also auf die Sache und das beobachtete Verhalten, nicht auf den Spieler, also nicht auf die Person. Das passt zum Ziel der Folie: Schwachstellen aufzeigen und beseitigen, Effektivität und Effizienz steigern, Kooperation verbessern, also Veränderung bewirken. Ein Angriff auf die Person würde dagegen Abwehr auslösen, und genau davor schützen die Regeln, die laut Untertitel der Folie ein reifes Selbstverständnis erfordern.",
           "checkliste": [
@@ -645,12 +1470,28 @@
           ],
           "erklaerung": "Ein Bildsatz wie dieser ist ein klassischer Klausurkandidat. Gefragt ist nicht die Übersetzung, sondern die Verbindung zu den Feedback-Regeln der Folie.",
           "belege": [
-            { "text": "Kick the ball and not the player!", "quelle": "folie-24" },
-            { "text": "formuliert nur sachlich und klar, nie auf die Person bezogen", "quelle": "folie-24" }
+            {
+              "text": "Kick the ball and not the player!",
+              "quelle": "folie-24"
+            },
+            {
+              "text": "formuliert nur sachlich und klar, nie auf die Person bezogen",
+              "quelle": "folie-24"
+            }
           ],
-          "kurz": "Kick the ball, not the player: Feedback zielt auf Verhalten und Sache, nie auf die Person." },
-
-        { "id": "m2-t14-a06", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "feedback-definition", "karte": "m2-t14-k1", "folien": [52],
+          "kurz": "Kick the ball, not the player: Feedback zielt auf Verhalten und Sache, nie auf die Person."
+        },
+        {
+          "id": "m2-t14-a06",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "feedback-definition",
+          "karte": "m2-t14-k1",
+          "folien": [
+            52
+          ],
           "frage": "Klausurfrage: Erkläre Inhalt und Ziel von Feedback und nenne die wichtigsten Regeln für beide Komponenten.",
           "musterloesung": "Inhalt: Feedback ist das konstruktive Anbringen von positiver oder negativer Rückmeldung nach festgelegten Regeln. Ziel: Schwachstellen aufzeigen und beseitigen, Effektivität und Effizienz steigern, Kooperation verbessern, also Veränderung bewirken. Feedback hat zwei Komponenten, Feedback geben und Feedback nehmen, und beide Seiten sind herausfordernd; der Untertitel der Folie sagt, dass die Feedback-Regeln ein reifes Selbstverständnis erfordern. Der Feedbackgeber stellt ein informelles und persönliches Umfeld her, ungestört und unter 4 Augen, formuliert nur sachlich und klar und nie auf die Person bezogen, spiegelt stets erlebtes Verhalten oder Wahrnehmungen, spricht in Ich-Botschaften und vermeidet Du/Sie-Botschaften, stellt sicher, dass die Botschaften angekommen und verstanden wurden, gibt ausgewogene Rückmeldungen, positiv und negativ zugleich, fordert nichts Unerfüllbares ein, wertet nicht und gibt keine moralischen Hinweise und nimmt ebenfalls Feedback an. Der Feedbacknehmer hört genau zu und lässt aussprechen, unterbricht nicht, stellt nur Nachfragen, entschuldigt oder rechtfertigt sich nicht, bedankt sich für das Feedback, stoppt gegebenenfalls das Gespräch und entscheidet selbst innerlich über die Berechtigung des Gehörten. Dazu der Spruch der Folie: Kick the ball and not the player!",
           "checkliste": [
@@ -662,10 +1503,22 @@
             "Untertitel oder Spruch der Folie eingebaut"
           ],
           "erklaerung": "Diese Frage deckt die ganze Folie ab. Wer nur die Geber-Regeln kennt, verliert die halbe Punktzahl: Die Folie nennt zwei Komponenten.",
-          "beleg": "Feedback-Regeln erfordern reifes Selbstverständnis!", "belegQuelle": "folie-24",
-          "kurz": "Feedback: Inhalt, Ziel (Veränderung bewirken), zwei Komponenten, neun Geber-Regeln, sechs Nehmer-Regeln." },
-
-        { "id": "m2-t14-a07", "typ": "fall", "modus": "mc", "stufe": "anwenden", "schwierigkeit": 2, "kern": false, "konzept": "feedbacknehmer", "karte": "m2-t14-k3", "folien": [52],
+          "beleg": "Feedback-Regeln erfordern reifes Selbstverständnis!",
+          "belegQuelle": "folie-24",
+          "kurz": "Feedback: Inhalt, Ziel (Veränderung bewirken), zwei Komponenten, neun Geber-Regeln, sechs Nehmer-Regeln."
+        },
+        {
+          "id": "m2-t14-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "anwenden",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "feedbacknehmer",
+          "karte": "m2-t14-k3",
+          "folien": [
+            52
+          ],
           "szenario": "Ein Auszubildender bekommt von seiner Ausbilderin Rückmeldung zu einem Beratungsgespräch. Er hört ruhig zu und lässt sie aussprechen. Dann erklärt er ausführlich, warum er nicht anders konnte: Der Kunde sei schwierig gewesen und das System langsam.",
           "frage": "Gegen welche Regel für den Feedbacknehmer verstößt er?",
           "optionen": [
@@ -676,10 +1529,22 @@
           ],
           "richtig": 0,
           "erklaerung": "Zuhören und Aussprechenlassen hat er eingehalten. Verletzt ist die Regel „entschuldigt oder rechtfertigt sich nicht\". Vorgesehen wären: sich bedanken und die Berechtigung des Gehörten innerlich für sich selbst prüfen. „stellt nur Nachfragen\" heißt nicht, dass er Fragen stellen muss, sondern dass er sich auf Nachfragen beschränkt.",
-          "beleg": "entschuldigt oder rechtfertigt sich nicht", "belegQuelle": "folie-24",
-          "kurz": "Rechtfertigen ist für den Feedbacknehmer nicht vorgesehen: bedanken, nur nachfragen, innerlich selbst entscheiden." },
-
-        { "id": "m2-t14-a08", "typ": "fall", "modus": "offen", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "feedbackgeber", "karte": "m2-t14-k2", "folien": [52],
+          "beleg": "entschuldigt oder rechtfertigt sich nicht",
+          "belegQuelle": "folie-24",
+          "kurz": "Rechtfertigen ist für den Feedbacknehmer nicht vorgesehen: bedanken, nur nachfragen, innerlich selbst entscheiden."
+        },
+        {
+          "id": "m2-t14-a08",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "feedbackgeber",
+          "karte": "m2-t14-k2",
+          "folien": [
+            52
+          ],
           "szenario": "Du leitest ein kleines Team in der Filiale. Eine Kollegin hat in einem Kundengespräch, das du miterlebt hast, den Kunden zweimal unterbrochen und ihm widersprochen. Der Abschluss kam nicht zustande. Du willst ihr das zurückmelden.",
           "frage": "Wie gehst du nach den Regeln der Folie vor? Beschreibe das Vorgehen vom Rahmen bis zum Abschluss des Gesprächs.",
           "musterloesung": "Zuerst der Rahmen: ein informelles und persönliches Umfeld herstellen, ungestört und unter 4 Augen, nicht vor dem Team. Im Gespräch sachlich und klar formulieren und nie auf die Person bezogen, also nicht sagen, sie sei ungeduldig, sondern das erlebte Verhalten spiegeln: dass sie den Kunden zweimal unterbrochen und ihm widersprochen hat. Dabei in Ich-Botschaften sprechen und Du- oder Sie-Botschaften vermeiden, etwa: Ich habe gehört, wie ... Nicht werten und keine moralischen Hinweise geben. Die Rückmeldung ausgewogen halten, also positiv und negativ zugleich, und nichts Unerfüllbares einfordern. Danach sicherstellen, das die Botschaften angekommen sind und verstanden wurden. Schließlich selbst ebenfalls Feedback annehmen, denn auch das steht in der Liste des Feedbackgebers. Kurzform der Folie dazu: Kick the ball and not the player!",
@@ -692,17 +1557,39 @@
             "Verstehen sicherstellen und selbst Feedback annehmen"
           ],
           "erklaerung": "Übungsfall. Jeder Schritt der Musterlösung steht wörtlich in der Liste des Feedbackgebers auf Folie 52.",
-          "beleg": "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen", "belegQuelle": "folie-24",
-          "kurz": "Feedback geben: Rahmen schaffen, Verhalten statt Person, Ich-Botschaften, ausgewogen, Verstehen sichern, selbst Feedback annehmen." },
-
-        { "id": "m2-t14-a09", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "feedback-rollen", "karte": "m2-t14-k1", "folien": [52],
+          "beleg": "stellt informelles und persönliches Umfeld her, ungestört, unter 4 Augen",
+          "belegQuelle": "folie-24",
+          "kurz": "Feedback geben: Rahmen schaffen, Verhalten statt Person, Ich-Botschaften, ausgewogen, Verstehen sichern, selbst Feedback annehmen."
+        },
+        {
+          "id": "m2-t14-a09",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "feedback-rollen",
+          "karte": "m2-t14-k1",
+          "folien": [
+            52
+          ],
           "vorne": "Aus welchen zwei Komponenten besteht Feedback, und was sagt die Folie über beide?",
           "hinten": "**Feedback geben** und **Feedback nehmen**.\nDie Folie ergänzt: „für beide Seiten herausfordernd!\" Und im Untertitel: „Feedback-Regeln erfordern reifes Selbstverständnis!\"",
           "erklaerung": "Die Zweiteilung ist der Grund, warum die Folie zwei getrennte Regellisten führt.",
-          "beleg": "2 Komponenten: Feedback geben und Feedback nehmen: für beide Seiten herausfordernd!", "belegQuelle": "folie-24",
-          "kurz": "Zwei Komponenten: Feedback geben und Feedback nehmen, beide herausfordernd." },
-
-        { "id": "m2-t14-a10", "typ": "mc", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "feedback-definition", "karte": "m2-t14-k1", "folien": [52],
+          "beleg": "2 Komponenten: Feedback geben und Feedback nehmen: für beide Seiten herausfordernd!",
+          "belegQuelle": "folie-24",
+          "kurz": "Zwei Komponenten: Feedback geben und Feedback nehmen, beide herausfordernd."
+        },
+        {
+          "id": "m2-t14-a10",
+          "typ": "mc",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "feedback-definition",
+          "karte": "m2-t14-k1",
+          "folien": [
+            52
+          ],
           "frage": "Worauf zielt Feedback laut Folie **letztlich** ab?",
           "optionen": [
             "Veränderung bewirken",
@@ -712,8 +1599,10 @@
           ],
           "richtig": 0,
           "erklaerung": "Die Folie zählt Schwachstellen aufzeigen und beseitigen, Effektivität und Effizienz steigern und Kooperation verbessern auf und fasst zusammen: also, Veränderung bewirken. Dieser Schluss ist auf der Folie unterstrichen. Rechtfertigung ist dem Feedbacknehmer sogar ausdrücklich untersagt.",
-          "beleg": "Kooperation verbessern, also, Veränderung bewirken", "belegQuelle": "folie-24",
-          "kurz": "Ziel des Feedbacks ist am Ende: Veränderung bewirken." }
+          "beleg": "Kooperation verbessern, also, Veränderung bewirken",
+          "belegQuelle": "folie-24",
+          "kurz": "Ziel des Feedbacks ist am Ende: Veränderung bewirken."
+        }
       ],
       "lernzettel": {
         "kompakt": [
@@ -736,59 +1625,117 @@
     {
       "id": "m2-t15",
       "titel": "Einfluss von Unternehmensstruktur und -prozessen auf Motivation",
-      "folien": [53],
+      "folien": [
+        53
+      ],
       "gewicht": 3,
       "lernstoff": false,
       "lernkarten": [
         {
           "id": "m2-t15-k1",
           "titel": "Bürokratische Hierarchien: vier Merkmale",
-          "folien": [53],
+          "folien": [
+            53
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Bisher lag der Hebel bei der Führungskraft. Jetzt schaut die Folie auf das **Unternehmen** selbst. Ihre These: Wie eine Firma gebaut ist, entscheidet mit darüber, ob Menschen motiviert bleiben. Zuerst beschreibt sie, woran man eine bürokratische Hierarchie erkennt." },
-            { "typ": "text", "text": "**Einfluss von Unternehmensstruktur/-prozessen auf Motivation**\n-> so wenig Bürokratie wie nötig...." },
-            { "typ": "liste", "titel": "Bürokratische Hierarchien...", "punkte": [
-              "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
-              "verfügen über abgegrenzte Ablaufstrukturen, Entscheidungswege und Kommunikationspfade",
-              "bündeln Wissen und Machtmonopole",
-              "setzen [[extrinsische Anreizsysteme]] ein"
-            ] },
-            { "typ": "merksatz", "folie": 53, "text": "Bürokratische Hierarchien...\n...können Verhalten in dynamischen Märkten ungünstig beeinflussen!" },
-            { "typ": "hinweis", "text": "Beachte die Einschränkung: Die Folie sagt nicht, Hierarchien seien immer schlecht. Sie sagt **in dynamischen Märkten** und im Untertitel „so wenig Bürokratie wie nötig....\"" }
+            {
+              "typ": "einfach",
+              "text": "Bisher lag der Hebel bei der Führungskraft. Jetzt schaut die Folie auf das **Unternehmen** selbst. Ihre These: Wie eine Firma gebaut ist, entscheidet mit darüber, ob Menschen motiviert bleiben. Zuerst beschreibt sie, woran man eine bürokratische Hierarchie erkennt."
+            },
+            {
+              "typ": "text",
+              "text": "**Einfluss von Unternehmensstruktur/-prozessen auf Motivation**\n-> so wenig Bürokratie wie nötig...."
+            },
+            {
+              "typ": "liste",
+              "titel": "Bürokratische Hierarchien...",
+              "punkte": [
+                "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
+                "verfügen über abgegrenzte Ablaufstrukturen, Entscheidungswege und Kommunikationspfade",
+                "bündeln Wissen und Machtmonopole",
+                "setzen [[extrinsische Anreizsysteme]] ein"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "folie": 53,
+              "text": "Bürokratische Hierarchien...\n...können Verhalten in dynamischen Märkten ungünstig beeinflussen!"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Beachte die Einschränkung: Die Folie sagt nicht, Hierarchien seien immer schlecht. Sie sagt **in dynamischen Märkten** und im Untertitel „so wenig Bürokratie wie nötig....\""
+            }
           ]
         },
         {
           "id": "m2-t15-k2",
           "titel": "Denn: sieben Gründe und das Resultat",
-          "folien": [53],
+          "folien": [
+            53
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Die Folie begründet ihre These mit sieben Punkten. Sie beschreiben alle dasselbe Muster: Die Organisation sieht nur, was sie schon kennt, und entscheidet nur dort, wo schon Umsatz ist. Neues fällt durch das Raster." },
-            { "typ": "liste", "titel": "Denn:", "punkte": [
-              "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
-              "[[Wachstumsparadigma]] behindert Sicht auf (noch) „kleine\" Wachstumschancen ([[weak signals]])",
-              "Tests neuer Produkte erfolgen nur bei bestehenden Kunden",
-              "„inexistente Märkte können nicht bearbeitet werden\"",
-              "Planung/Steuerung inkl. [[Incentivierung]] erfolgt streng hierarchisch",
-              "2. Ebene entscheidet in großen Unternehmen tendenziell nachfrageorientiert",
-              "übergreifende Kommunikation erfolgt nur auf bestimmten Ebenen"
-            ] },
-            { "typ": "text", "text": "**Resultat: agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!**" },
-            { "typ": "hinweis", "text": "Auf dieser Folie nur genannt, nicht erklärt: [[weak signals]], [[Wachstumsparadigma]], [[Incentivierung]], „2. Ebene\" und „agile Mitarbeiter\". Der Satz „inexistente Märkte können nicht bearbeitet werden\" steht in Anführungszeichen, ohne Quellenangabe." }
+            {
+              "typ": "einfach",
+              "text": "Die Folie begründet ihre These mit sieben Punkten. Sie beschreiben alle dasselbe Muster: Die Organisation sieht nur, was sie schon kennt, und entscheidet nur dort, wo schon Umsatz ist. Neues fällt durch das Raster."
+            },
+            {
+              "typ": "liste",
+              "titel": "Denn:",
+              "punkte": [
+                "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
+                "[[Wachstumsparadigma]] behindert Sicht auf (noch) „kleine\" Wachstumschancen ([[weak signals]])",
+                "Tests neuer Produkte erfolgen nur bei bestehenden Kunden",
+                "„inexistente Märkte können nicht bearbeitet werden\"",
+                "Planung/Steuerung inkl. [[Incentivierung]] erfolgt streng hierarchisch",
+                "2. Ebene entscheidet in großen Unternehmen tendenziell nachfrageorientiert",
+                "übergreifende Kommunikation erfolgt nur auf bestimmten Ebenen"
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "**Resultat: agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!**"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Auf dieser Folie nur genannt, nicht erklärt: [[weak signals]], [[Wachstumsparadigma]], [[Incentivierung]], „2. Ebene\" und „agile Mitarbeiter\". Der Satz „inexistente Märkte können nicht bearbeitet werden\" steht in Anführungszeichen, ohne Quellenangabe."
+            }
           ]
         },
         {
           "id": "m2-t15-k3",
           "titel": "Die Schlussfolgerung: Struktur wirkt auf Motivation",
-          "folien": [53],
+          "folien": [
+            53
+          ],
           "bloecke": [
-            { "typ": "einfach", "text": "Der rote Kasten am Fuß der Folie dreht die Aussage ins Positive. Nicht „Hierarchie ist schlecht\", sondern: Die **richtige** Struktur wirkt auf drei Dinge, und über diese drei auf die Motivation." },
-            { "typ": "merksatz", "folie": 53, "text": "Die richtige Unternehmensstruktur wirkt auf Kreativität, Agilität, und Prozessqualität, und damit auf die Motivation!" },
-            { "typ": "hinweis", "text": "Damit schließt sich der Bogen zum Schaubild der Folie 49: Dort gehören **Strukturen/Prozesse (S)** zu den vier Faktoren, über die Verhalten langfristig beeinflusst wird." }
+            {
+              "typ": "einfach",
+              "text": "Der rote Kasten am Fuß der Folie dreht die Aussage ins Positive. Nicht „Hierarchie ist schlecht\", sondern: Die **richtige** Struktur wirkt auf drei Dinge, und über diese drei auf die Motivation."
+            },
+            {
+              "typ": "merksatz",
+              "folie": 53,
+              "text": "Die richtige Unternehmensstruktur wirkt auf Kreativität, Agilität, und Prozessqualität, und damit auf die Motivation!"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Damit schließt sich der Bogen zum Schaubild der Folie 49: Dort gehören **Strukturen/Prozesse (S)** zu den vier Faktoren, über die Verhalten langfristig beeinflusst wird."
+            }
           ]
         }
       ],
       "aufgaben": [
-        { "id": "m2-t15-a01", "typ": "mehrfach", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "buerokratie-merkmale", "karte": "m2-t15-k1", "folien": [53],
+        {
+          "id": "m2-t15-a01",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "buerokratie-merkmale",
+          "karte": "m2-t15-k1",
+          "folien": [
+            53
+          ],
           "frage": "Welche Merkmale nennt die Folie für **bürokratische Hierarchien**?",
           "optionen": [
             "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
@@ -798,12 +1745,28 @@
             "räumen Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräume ein",
             "fördern übergreifende Kommunikation auf allen Ebenen"
           ],
-          "richtig": [0, 1, 2, 3],
+          "richtig": [
+            0,
+            1,
+            2,
+            3
+          ],
           "erklaerung": "Die beiden falschen Optionen sind das Gegenteil dessen, was das Skript sagt: Spielräume einräumen ist der Motivations-Hebel aus der Zusammenfassung, und laut dieser Folie erfolgt übergreifende Kommunikation nur auf bestimmten Ebenen.",
-          "beleg": "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche", "belegQuelle": "folie-25",
-          "kurz": "Bürokratische Hierarchien: begrenzte Verantwortung, abgegrenzte Ablaufstrukturen, gebündeltes Wissen und Machtmonopole, extrinsische Anreizsysteme." },
-
-        { "id": "m2-t15-a02", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "buerokratie-these", "karte": "m2-t15-k1", "folien": [53],
+          "beleg": "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
+          "belegQuelle": "folie-25",
+          "kurz": "Bürokratische Hierarchien: begrenzte Verantwortung, abgegrenzte Ablaufstrukturen, gebündeltes Wissen und Machtmonopole, extrinsische Anreizsysteme."
+        },
+        {
+          "id": "m2-t15-a02",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "buerokratie-these",
+          "karte": "m2-t15-k1",
+          "folien": [
+            53
+          ],
           "frage": "Auf der Folie steht rot und unterstrichen: „Bürokratische Hierarchien... ...können Verhalten in dynamischen Märkten ungünstig beeinflussen!\" Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz ist die These der Folie „Einfluss von Unternehmensstruktur/-prozessen auf Motivation\", deren Untertitel lautet: so wenig Bürokratie wie nötig. Gemeint sind Organisationen mit vier Merkmalen: Sie begrenzen Verantwortung auf Teilaufgaben und Teilbereiche, verfügen über abgegrenzte Ablaufstrukturen, Entscheidungswege und Kommunikationspfade, bündeln Wissen und Machtmonopole und setzen extrinsische Anreizsysteme ein. In dynamischen Märkten wirkt das ungünstig, und die Folie begründet das mit sieben Punkten: Nähe und Kundengröße führen teilweise zu blinden Flecken und Erkenntnisbarrieren der Organisation; das Wachstumsparadigma behindert die Sicht auf noch kleine Wachstumschancen, die weak signals; Tests neuer Produkte erfolgen nur bei bestehenden Kunden; inexistente Märkte können nicht bearbeitet werden; Planung und Steuerung einschließlich Incentivierung erfolgen streng hierarchisch; die 2. Ebene entscheidet in großen Unternehmen tendenziell nachfrageorientiert; übergreifende Kommunikation erfolgt nur auf bestimmten Ebenen. Das Resultat benennt die Folie ausdrücklich: Agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen. Wichtig ist die Einschränkung im Satz selbst: Die Aussage gilt für dynamische Märkte, und die Folie fordert nicht null Bürokratie, sondern so wenig wie nötig.",
           "checkliste": [
@@ -814,10 +1777,21 @@
             "Einschränkung erkannt: die Aussage gilt für dynamische Märkte, nicht pauschal"
           ],
           "erklaerung": "Der Satz ist rot, unterstrichen und zweigeteilt: Er ist ein typischer Klausurkandidat. Wer die Einschränkung „in dynamischen Märkten\" weglässt, verfälscht die Aussage.",
-          "beleg": "können Verhalten in dynamischen Märkten ungünstig beeinflussen!", "belegQuelle": "folie-25",
-          "kurz": "Bürokratische Hierarchien wirken in dynamischen Märkten ungünstig auf Verhalten: vier Merkmale, sieben Gründe, ein Resultat." },
-
-        { "id": "m2-t15-a03", "typ": "erklaeren", "stufe": "verstehen", "schwierigkeit": 3, "kern": true, "konzept": "struktur-motivation", "karte": "m2-t15-k3", "folien": [53],
+          "beleg": "können Verhalten in dynamischen Märkten ungünstig beeinflussen!",
+          "belegQuelle": "folie-25",
+          "kurz": "Bürokratische Hierarchien wirken in dynamischen Märkten ungünstig auf Verhalten: vier Merkmale, sieben Gründe, ein Resultat."
+        },
+        {
+          "id": "m2-t15-a03",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "struktur-motivation",
+          "karte": "m2-t15-k3",
+          "folien": [
+            53
+          ],
           "frage": "Im roten Kasten am Fuß der Folie steht: „Die richtige Unternehmensstruktur wirkt auf Kreativität, Agilität, und Prozessqualität, und damit auf die Motivation!\" Erkläre, was damit gemeint ist und in welchem Zusammenhang es steht.",
           "musterloesung": "Der Satz schließt die Folie zum Einfluss von Unternehmensstruktur und -prozessen auf Motivation ab und dreht ihre vorherige Aussage ins Positive. Zuvor hat die Folie gezeigt, was bürokratische Hierarchien anrichten: begrenzte Verantwortung, abgegrenzte Ablaufstrukturen und Entscheidungswege, gebündeltes Wissen und Machtmonopole, extrinsische Anreizsysteme, und als Resultat agile Mitarbeiter, die ihre Kreativität kaum einbringen können und demotiviert gehen. Der Schlusssatz sagt: Die Wirkung geht nicht direkt von der Struktur auf die Motivation, sondern über drei Zwischenschritte – Kreativität, Agilität und Prozessqualität. Wer also motivieren will, kann nicht nur an der Führungskraft ansetzen, sondern muss die Struktur selbst gestalten, und zwar nach dem Untertitel: so wenig Bürokratie wie nötig. Das passt zur Folie „Determinanten unseres Verhaltens\", wo Strukturen/Prozesse (S) als einer der vier Faktoren genannt werden, über die Verhalten langfristig beeinflusst wird.",
           "checkliste": [
@@ -828,45 +1802,127 @@
             "Untertitel eingebaut: so wenig Bürokratie wie nötig"
           ],
           "erklaerung": "Die Kette ist das Prüfbare: Struktur wirkt nicht unmittelbar auf Motivation, sondern über Kreativität, Agilität und Prozessqualität.",
-          "beleg": "Die richtige Unternehmensstruktur wirkt auf Kreativität, Agilität, und Prozessqualität, und damit auf die Motivation!", "belegQuelle": "folie-25",
-          "kurz": "Struktur wirkt über Kreativität, Agilität und Prozessqualität auf die Motivation." },
-
-        { "id": "m2-t15-a04", "typ": "luecke", "stufe": "erinnern", "schwierigkeit": 2, "kern": true, "konzept": "buerokratie-resultat", "karte": "m2-t15-k2", "folien": [53], "bank": true,
+          "beleg": "Die richtige Unternehmensstruktur wirkt auf Kreativität, Agilität, und Prozessqualität, und damit auf die Motivation!",
+          "belegQuelle": "folie-25",
+          "kurz": "Struktur wirkt über Kreativität, Agilität und Prozessqualität auf die Motivation."
+        },
+        {
+          "id": "m2-t15-a04",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "buerokratie-resultat",
+          "karte": "m2-t15-k2",
+          "folien": [
+            53
+          ],
+          "bank": true,
           "frage": "Vervollständige das Resultat, das die Folie zieht.",
           "text": "Resultat: {_agile_} Mitarbeiter können {_Kreativität_} kaum einbringen und verlassen {_demotiviert_} streng hierarchisch geführte Unternehmen!",
-          "zusatzBank": ["Agilität", "Prozessqualität"],
+          "zusatzBank": [
+            "Agilität",
+            "Prozessqualität"
+          ],
           "erklaerung": "Der Satz nennt zwei Folgen zugleich: Die Kreativität kommt nicht an, und die Leute gehen.",
-          "beleg": "Resultat: agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!", "belegQuelle": "folie-25",
-          "kurz": "Resultat: agile Mitarbeiter bringen Kreativität kaum ein und verlassen demotiviert streng hierarchisch geführte Unternehmen." },
-
-        { "id": "m2-t15-a05", "typ": "wahrfalsch", "stufe": "abgrenzen", "schwierigkeit": 2, "kern": true, "konzept": "buerokratie-these", "karte": "m2-t15-k2", "folien": [53],
+          "beleg": "Resultat: agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!",
+          "belegQuelle": "folie-25",
+          "kurz": "Resultat: agile Mitarbeiter bringen Kreativität kaum ein und verlassen demotiviert streng hierarchisch geführte Unternehmen."
+        },
+        {
+          "id": "m2-t15-a05",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "buerokratie-these",
+          "karte": "m2-t15-k2",
+          "folien": [
+            53
+          ],
           "frage": "Was stimmt zur Folie über Unternehmensstruktur und Motivation?",
           "aussagen": [
-            { "text": "Bürokratische Hierarchien setzen laut Folie extrinsische Anreizsysteme ein.", "wahr": true },
-            { "text": "Die Folie erklärt, was mit „weak signals\" gemeint ist.", "wahr": false, "korrektur": "„weak signals\" wird nur genannt, nicht erklärt. Dasselbe gilt für Wachstumsparadigma, Incentivierung, 2. Ebene und agile Mitarbeiter." },
-            { "text": "Tests neuer Produkte erfolgen laut Folie nur bei bestehenden Kunden.", "wahr": true },
-            { "text": "Die Folie fordert, Bürokratie vollständig abzuschaffen.", "wahr": false, "korrektur": "Der Untertitel lautet: so wenig Bürokratie wie nötig. Und die These gilt ausdrücklich für dynamische Märkte." }
+            {
+              "text": "Bürokratische Hierarchien setzen laut Folie extrinsische Anreizsysteme ein.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt, was mit „weak signals\" gemeint ist.",
+              "wahr": false,
+              "korrektur": "„weak signals\" wird nur genannt, nicht erklärt. Dasselbe gilt für Wachstumsparadigma, Incentivierung, 2. Ebene und agile Mitarbeiter."
+            },
+            {
+              "text": "Tests neuer Produkte erfolgen laut Folie nur bei bestehenden Kunden.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie fordert, Bürokratie vollständig abzuschaffen.",
+              "wahr": false,
+              "korrektur": "Der Untertitel lautet: so wenig Bürokratie wie nötig. Und die These gilt ausdrücklich für dynamische Märkte."
+            }
           ],
           "erklaerung": "Zwei Fallen: Begriffe für erklärt zu halten, die das Skript nur nennt, und die These zu einer pauschalen Absage an Hierarchie zu überziehen.",
-          "beleg": "Begriffe, die nur genannt, aber nicht erklärt werden: weak signals", "belegQuelle": "folie-25",
-          "kurz": "Nur genannt: weak signals, Wachstumsparadigma, Incentivierung, 2. Ebene, agile Mitarbeiter. Die Forderung lautet: so wenig Bürokratie wie nötig." },
-
-        { "id": "m2-t15-a06", "typ": "zuordnung", "stufe": "verstehen", "schwierigkeit": 2, "kern": false, "konzept": "buerokratie-gruende", "karte": "m2-t15-k2", "folien": [53],
-          "frage": "Ordne jedem Stichwort der „Denn:\"-Liste die passende Aussage der Folie zu.", "linksTitel": "Stichwort", "rechtsTitel": "Aussage laut Folie",
+          "beleg": "Begriffe, die nur genannt, aber nicht erklärt werden: weak signals",
+          "belegQuelle": "folie-25",
+          "kurz": "Nur genannt: weak signals, Wachstumsparadigma, Incentivierung, 2. Ebene, agile Mitarbeiter. Die Forderung lautet: so wenig Bürokratie wie nötig."
+        },
+        {
+          "id": "m2-t15-a06",
+          "typ": "zuordnung",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "buerokratie-gruende",
+          "karte": "m2-t15-k2",
+          "folien": [
+            53
+          ],
+          "frage": "Ordne jedem Stichwort der „Denn:\"-Liste die passende Aussage der Folie zu.",
+          "linksTitel": "Stichwort",
+          "rechtsTitel": "Aussage laut Folie",
           "paare": [
-            { "links": "Nähe und Kundengröße", "rechts": "führt tw. zu blinden Flecken/Erkenntnisbarrieren der Organisation" },
-            { "links": "Wachstumsparadigma", "rechts": "behindert Sicht auf (noch) kleine Wachstumschancen (weak signals)" },
-            { "links": "Tests neuer Produkte", "rechts": "erfolgen nur bei bestehenden Kunden" },
-            { "links": "2. Ebene in großen Unternehmen", "rechts": "entscheidet tendenziell nachfrageorientiert" }
+            {
+              "links": "Nähe und Kundengröße",
+              "rechts": "führt tw. zu blinden Flecken/Erkenntnisbarrieren der Organisation"
+            },
+            {
+              "links": "Wachstumsparadigma",
+              "rechts": "behindert Sicht auf (noch) kleine Wachstumschancen (weak signals)"
+            },
+            {
+              "links": "Tests neuer Produkte",
+              "rechts": "erfolgen nur bei bestehenden Kunden"
+            },
+            {
+              "links": "2. Ebene in großen Unternehmen",
+              "rechts": "entscheidet tendenziell nachfrageorientiert"
+            }
           ],
           "erklaerung": "Alle vier Punkte beschreiben denselben Mechanismus: Die Organisation bleibt bei dem, was sie schon kennt, und übersieht das Kleine und Neue.",
           "belege": [
-            { "text": "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation", "quelle": "folie-25" },
-            { "text": "2. Ebene entscheidet in großen Unternehmen tendenziell nachfrageorientiert", "quelle": "folie-25" }
+            {
+              "text": "Nähe und Kundengröße führt tw. zu „blinden Flecken\"/Erkenntnisbarrieren der Organisation",
+              "quelle": "folie-25"
+            },
+            {
+              "text": "2. Ebene entscheidet in großen Unternehmen tendenziell nachfrageorientiert",
+              "quelle": "folie-25"
+            }
           ],
-          "kurz": "Denn: blinde Flecken durch Nähe und Kundengröße, Wachstumsparadigma verdeckt weak signals, Tests nur bei Bestandskunden, 2. Ebene entscheidet nachfrageorientiert." },
-
-        { "id": "m2-t15-a07", "typ": "fall", "modus": "mc", "stufe": "transfer", "schwierigkeit": 3, "kern": false, "konzept": "buerokratie-gruende", "karte": "m2-t15-k2", "folien": [53],
+          "kurz": "Denn: blinde Flecken durch Nähe und Kundengröße, Wachstumsparadigma verdeckt weak signals, Tests nur bei Bestandskunden, 2. Ebene entscheidet nachfrageorientiert."
+        },
+        {
+          "id": "m2-t15-a07",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "buerokratie-gruende",
+          "karte": "m2-t15-k2",
+          "folien": [
+            53
+          ],
           "szenario": "Eine Filialleiterin schlägt ein Angebot für eine kleine, bisher nicht betreute Kundengruppe vor. Das Volumen ist noch winzig. Die Bereichsleitung lehnt ab: Man konzentriere sich auf die großen Bestandskunden, dort sei mehr zu holen.",
           "frage": "Welchen Punkt der Folie beschreibt dieser Vorgang am genauesten?",
           "optionen": [
@@ -877,30 +1933,75 @@
           ],
           "richtig": 0,
           "erklaerung": "Abgelehnt wird gerade wegen des kleinen Volumens. Genau das beschreibt die Folie: Das Wachstumsparadigma verstellt den Blick auf noch kleine Chancen. Passend dazu der Nachbarpunkt: Tests neuer Produkte erfolgen nur bei bestehenden Kunden. Das Skript erklärt die Begriffe Wachstumsparadigma und weak signals allerdings nicht weiter.",
-          "beleg": "Wachstumsparadigma behindert Sicht auf (noch) „kleine\" Wachstumschancen (weak signals)", "belegQuelle": "folie-25",
-          "kurz": "Kleine Chancen werden wegen des Wachstumsparadigmas übersehen: weak signals." },
-
-        { "id": "m2-t15-a08", "typ": "karte", "stufe": "erinnern", "schwierigkeit": 1, "kern": false, "konzept": "buerokratie-resultat", "karte": "m2-t15-k2", "folien": [53],
+          "beleg": "Wachstumsparadigma behindert Sicht auf (noch) „kleine\" Wachstumschancen (weak signals)",
+          "belegQuelle": "folie-25",
+          "kurz": "Kleine Chancen werden wegen des Wachstumsparadigmas übersehen: weak signals."
+        },
+        {
+          "id": "m2-t15-a08",
+          "typ": "karte",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "buerokratie-resultat",
+          "karte": "m2-t15-k2",
+          "folien": [
+            53
+          ],
           "vorne": "Welches **Resultat** zieht die Folie aus den sieben „Denn:\"-Punkten?",
           "hinten": "„**Resultat:** agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!\"",
           "erklaerung": "Zwei Folgen in einem Satz: Die Kreativität kommt nicht zum Zug, und die Leute kündigen.",
-          "beleg": "Resultat: agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!", "belegQuelle": "folie-25",
-          "kurz": "Resultat: Kreativität kommt nicht an, agile Mitarbeiter gehen demotiviert." },
-
-        { "id": "m2-t15-a09", "typ": "kategorien", "stufe": "abgrenzen", "schwierigkeit": 3, "kern": false, "konzept": "buerokratie-merkmale", "karte": "m2-t15-k1", "folien": [53],
+          "beleg": "Resultat: agile Mitarbeiter können Kreativität kaum einbringen und verlassen demotiviert streng hierarchisch geführte Unternehmen!",
+          "belegQuelle": "folie-25",
+          "kurz": "Resultat: Kreativität kommt nicht an, agile Mitarbeiter gehen demotiviert."
+        },
+        {
+          "id": "m2-t15-a09",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": true,
+          "konzept": "buerokratie-merkmale",
+          "karte": "m2-t15-k1",
+          "folien": [
+            53
+          ],
           "frage": "Merkmal einer bürokratischen Hierarchie oder Begründung aus der „Denn:\"-Liste? Sortiere ein.",
-          "kategorien": ["Merkmal bürokratischer Hierarchien", "Begründung unter „Denn:\""],
+          "kategorien": [
+            "Merkmal bürokratischer Hierarchien",
+            "Begründung unter „Denn:\""
+          ],
           "elemente": [
-            { "text": "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche", "kategorie": 0 },
-            { "text": "bündeln Wissen und Machtmonopole", "kategorie": 0 },
-            { "text": "setzen extrinsische Anreizsysteme ein", "kategorie": 0 },
-            { "text": "Tests neuer Produkte erfolgen nur bei bestehenden Kunden", "kategorie": 1 },
-            { "text": "übergreifende Kommunikation erfolgt nur auf bestimmten Ebenen", "kategorie": 1 },
-            { "text": "„inexistente Märkte können nicht bearbeitet werden\"", "kategorie": 1 }
+            {
+              "text": "begrenzen Verantwortung auf Teilaufgaben und (Teil)Bereiche",
+              "kategorie": 0
+            },
+            {
+              "text": "bündeln Wissen und Machtmonopole",
+              "kategorie": 0
+            },
+            {
+              "text": "setzen extrinsische Anreizsysteme ein",
+              "kategorie": 0
+            },
+            {
+              "text": "Tests neuer Produkte erfolgen nur bei bestehenden Kunden",
+              "kategorie": 1
+            },
+            {
+              "text": "übergreifende Kommunikation erfolgt nur auf bestimmten Ebenen",
+              "kategorie": 1
+            },
+            {
+              "text": "„inexistente Märkte können nicht bearbeitet werden\"",
+              "kategorie": 1
+            }
           ],
           "erklaerung": "Die obere Liste beschreibt, wie die Organisation gebaut ist. Die „Denn:\"-Liste begründet, warum dieser Bau in dynamischen Märkten schadet. Leicht zu verwechseln sind „abgegrenzte Kommunikationspfade\" (Merkmal) und „übergreifende Kommunikation nur auf bestimmten Ebenen\" (Begründung).",
-          "beleg": "setzen extrinsische Anreizsysteme ein", "belegQuelle": "folie-25",
-          "kurz": "Merkmale beschreiben den Bau der Organisation, die Denn-Liste begründet die schädliche Wirkung in dynamischen Märkten." }
+          "beleg": "setzen extrinsische Anreizsysteme ein",
+          "belegQuelle": "folie-25",
+          "kurz": "Merkmale beschreiben den Bau der Organisation, die Denn-Liste begründet die schädliche Wirkung in dynamischen Märkten."
+        }
       ],
       "lernzettel": {
         "kompakt": [

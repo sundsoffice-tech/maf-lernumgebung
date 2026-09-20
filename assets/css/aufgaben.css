@@ -91,7 +91,11 @@
   cursor: pointer; transition: background 0.15s, border-color 0.15s;
   -webkit-tap-highlight-color: transparent;
 }
-label.option:hover { background: var(--flaeche-2); border-color: var(--linie-stark); }
+/* Hover nur, wo es einen Zeiger gibt. Auf iPad und iPhone bliebe der Zustand nach dem Antippen kleben und
+   die zuletzt berührte Option sähe aus wie gewählt (Vertrag 8.3). */
+@media (hover: hover) {
+  @media (hover: hover) { label.option:hover { background: var(--flaeche-2); border-color: var(--linie-stark); } }
+}
 .option:has(input:disabled) { cursor: default; }
 .option:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
 .option__text { flex: 1 1 10rem; line-height: 1.5; }
@@ -169,8 +173,18 @@ label.option:hover { background: var(--flaeche-2); border-color: var(--linie-sta
   min-height: 2.75rem; padding: var(--a-2); line-height: 1.5;
   border-left: 3px solid transparent; border-radius: var(--radius-s); cursor: pointer;
 }
-.checkpunkt:hover { background: var(--flaeche-2); }
+@media (hover: hover) {
+  @media (hover: hover) { .checkpunkt:hover { background: var(--flaeche-2); } }
+}
 .checkpunkt:has(input:focus-visible) { outline: 3px solid var(--fokus); outline-offset: 2px; }
+
+/* Rückfall für iPadOS 15.0 bis 15.3: dort gibt es weder :has() noch :focus-visible, und die Tastatur
+   liefe ohne sichtbaren Fokus. Dort zeigt der einfache Fokus den Ring, bei der Option an der Marke,
+   weil das Eingabefeld selbst nur für Vorleser da ist. Neuere Fassungen erreicht dieser Block nicht. */
+@supports not selector(:focus-visible) {
+  .option input:focus + .option__marke { outline: 3px solid var(--fokus); outline-offset: 2px; }
+  .checkpunkt input:focus { outline: 3px solid var(--fokus); outline-offset: 2px; }
+}
 .checkpunkt input { flex: none; width: 1.3rem; height: 1.3rem; margin: 0.2rem 0 0; accent-color: var(--primaer); }
 .checkpunkt.ist-richtig { background: var(--gut-sanft); border-left-color: var(--gut); }
 .checkpunkt.ist-verpasst { background: var(--flaeche-2); border-left-color: var(--mittel); border-left-style: dashed; color: var(--tinte-2); }

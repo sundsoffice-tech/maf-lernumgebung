@@ -1,7 +1,7 @@
 // Renderer für die Blöcke einer Lernkarte (Vertrag 4.4). Jeder Block bekommt seine Herkunft sichtbar mit:
 // Skript, verlinkte Quelle, eigene Merkhilfe oder Lücke im Skript. So bleibt die Quellenbindung für die
 // Lernende jederzeit nachprüfbar.
-import { h, mini, folienText } from '../mini.js'
+import { h, mini, folienText, textfeld } from '../mini.js'
 import { renderDiagramm } from '../diagramme/index.js'
 
 function kasten(klasse, titel, ...inhalt) {
@@ -67,7 +67,7 @@ const BAUER = {
   skriptluecke: (b, kontext) => {
     const speicher = kontext && kontext.speicher
     const felder = (b.felder || []).map((f) => {
-      const eingabe = h('input.feld__eingabe', { type: 'text', autocomplete: 'off', value: (speicher && speicher.zustand.notizen[f.id]) || '', placeholder: 'aus deiner Mitschrift' })
+      const eingabe = textfeld({ value: (speicher && speicher.zustand.notizen[f.id]) || '', placeholder: 'aus deiner Mitschrift' })
       eingabe.addEventListener('input', () => { if (speicher) speicher.aendere((z) => { z.notizen[f.id] = eingabe.value }, { still: true }) })
       return h('label.feld', h('span.feld__label', f.label), eingabe)
     })

@@ -77,6 +77,75 @@ export default {
   <text data-label="motiv-wachstum" x="20" y="84" text-anchor="middle" transform="rotate(-90 20 84)" class="d-text-klein">Wachstumsmotive</text>
   <text data-label="motiv-defizit" x="20" y="304" text-anchor="middle" transform="rotate(-90 20 304)" class="d-text-klein">Defizitmotive</text>
 </g>`,
+  // Hochkant (iPhone): die Erläuterungen stehen nicht mehr rechts neben der Pyramide, sondern in der Stufe
+  // selbst; die beiden Klammerebenen laufen als zwei senkrechte Schienen links daneben.
+  viewBoxSchmal: '0 0 360 600',
+  svgSchmal: `<g>
+  <polygon class="d-flaeche-3" points="87,488 348,488 356,580 78,580"/>
+  <polygon class="d-flaeche-3" points="96,380 338,380 348,488 87,488"/>
+  <polygon class="d-flaeche-2" points="106,272 328,272 338,380 96,380"/>
+  <polygon class="d-flaeche-2" points="115,180 319,180 328,272 106,272"/>
+  <polygon class="d-flaeche" points="169,24 265,24 319,180 115,180"/>
+
+  <text data-label="stufe-selbst" x="217" y="118" text-anchor="middle" class="d-text">Selbstverwirklichung</text>
+  <text data-label="erl-selbst" x="217" y="143" text-anchor="middle" class="d-text-klein">
+    <tspan x="217" dy="0">-&gt; Selbstverwirklichung,</tspan>
+    <tspan x="217" dy="17">Entwicklung</tspan>
+  </text>
+
+  <text data-label="stufe-individual" x="217" y="210" text-anchor="middle" class="d-text">Individualbedürfnisse</text>
+  <text data-label="erl-individual" x="217" y="235" text-anchor="middle" class="d-text-klein">
+    <tspan x="217" dy="0">-&gt; Ansehen, Status,</tspan>
+    <tspan x="217" dy="17">Wertschätzung, Lob</tspan>
+  </text>
+
+  <text data-label="stufe-sozial" x="217" y="300" text-anchor="middle" class="d-text">Soziale Bedürfnisse</text>
+  <text data-label="erl-sozial" x="217" y="325" text-anchor="middle" class="d-text-klein">
+    <tspan x="217" dy="0">-&gt; Familie,</tspan>
+    <tspan x="217" dy="17">Freundschaften, Vereine,</tspan>
+    <tspan x="217" dy="17">Religionsgemeinschaften</tspan>
+  </text>
+
+  <text data-label="stufe-sicherheit" x="217" y="408" text-anchor="middle" class="d-text">Sicherheitsbedürfnisse</text>
+  <text data-label="erl-sicherheit" x="217" y="433" text-anchor="middle" class="d-text-klein">
+    <tspan x="217" dy="0">-&gt; finanzielle Sicherheit</tspan>
+    <tspan x="217" dy="17">(Versicherungen,</tspan>
+    <tspan x="217" dy="17">Sparguthaben, ...)</tspan>
+  </text>
+
+  <text data-label="stufe-physio" x="217" y="518" text-anchor="middle" class="d-text">Physiologische Bedürfnisse</text>
+  <text data-label="erl-physio" x="217" y="543" text-anchor="middle" class="d-text-klein">
+    <tspan x="217" dy="0">-&gt; körperliches Wohlbefinden,</tspan>
+    <tspan x="217" dy="17">Wohnung, Nahrung, Kleidung</tspan>
+  </text>
+
+  <path class="d-linie-gestrichelt" d="M 40 180 L 115 180"/>
+  <path class="d-linie-gestrichelt" d="M 40 380 L 96 380"/>
+
+  <path class="d-linie-duenn" d="M 66 36 L 66 168"/>
+  <path class="d-pfeilspitze" d="M 66 28 l -5 10 l 10 0 Z"/>
+  <path class="d-pfeilspitze" d="M 66 176 l -5 -10 l 10 0 Z"/>
+  <path class="d-linie-duenn" d="M 66 192 L 66 368"/>
+  <path class="d-pfeilspitze" d="M 66 184 l -5 10 l 10 0 Z"/>
+  <path class="d-pfeilspitze" d="M 66 376 l -5 -10 l 10 0 Z"/>
+  <path class="d-linie-duenn" d="M 66 392 L 66 568"/>
+  <path class="d-pfeilspitze" d="M 66 384 l -5 10 l 10 0 Z"/>
+  <path class="d-pfeilspitze" d="M 66 576 l -5 -10 l 10 0 Z"/>
+
+  <text data-label="art-idealistisch" x="50" y="102" text-anchor="middle" transform="rotate(-90 50 102)" class="d-text-klein">idealistische Bedürfnisse</text>
+  <text data-label="art-sozial" x="50" y="280" text-anchor="middle" transform="rotate(-90 50 280)" class="d-text-klein">soziale Bedürfnisse</text>
+  <text data-label="art-oekonomisch" x="50" y="480" text-anchor="middle" transform="rotate(-90 50 480)" class="d-text-klein">ökonomische Bedürfnisse</text>
+
+  <path class="d-linie-duenn" d="M 30 36 L 30 168"/>
+  <path class="d-pfeilspitze" d="M 30 28 l -5 10 l 10 0 Z"/>
+  <path class="d-pfeilspitze" d="M 30 176 l -5 -10 l 10 0 Z"/>
+  <path class="d-linie-duenn" d="M 30 192 L 30 568"/>
+  <path class="d-pfeilspitze" d="M 30 184 l -5 10 l 10 0 Z"/>
+  <path class="d-pfeilspitze" d="M 30 576 l -5 -10 l 10 0 Z"/>
+
+  <text data-label="motiv-wachstum" x="14" y="102" text-anchor="middle" transform="rotate(-90 14 102)" class="d-text-klein">Wachstumsmotive</text>
+  <text data-label="motiv-defizit" x="14" y="380" text-anchor="middle" transform="rotate(-90 14 380)" class="d-text-klein">Defizitmotive</text>
+</g>`,
   labels: [
     { id: 'stufe-physio', text: 'Physiologische Bedürfnisse', abfragbar: true, gruppe: 'stufen' },
     { id: 'stufe-sicherheit', text: 'Sicherheitsbedürfnisse', abfragbar: true, gruppe: 'stufen' },

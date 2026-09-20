@@ -76,7 +76,7 @@ export default {
           h('li', 'Die Ergebnisse zählen ganz normal in deinen Lernstand.')),
         h('p.leise', 'Am besten am Ende des zweiten Lerntags, wenn du jedes Thema einmal gesehen hast.'),
         bereit
-          ? mengenKnoepfe(bereit, MENGEN, (n) => starte(n), { empfohlen: true, ziel: STANDARD_MENGE })
+          ? mengenKnoepfe(bereit, MENGEN, (n) => starte(n), { empfohlen: true, ziel: STANDARD_MENGE, aktion: 'Probe starten' })
           : h('p.leise', 'Für eine Probe sind noch keine Aufgaben da. Arbeite zuerst ein Thema durch.')))
 
       const verlauf = fruehereProben()

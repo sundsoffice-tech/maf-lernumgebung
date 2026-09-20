@@ -90,12 +90,21 @@ export function renderDiagramm(id, opts = {}) {
     else huelle.style.removeProperty('--d-minbreite')
   }
   stelleEin()
-  // Drehen des Geräts: Fassung wechseln, solange niemand gerade beschriftet (Marken tragen dann Zustände)
-  if (medium && !opts.verdeckt) {
-    if (medium.addEventListener) medium.addEventListener('change', stelleEin)
-    else if (medium.addListener) medium.addListener(stelleEin)
-  }
   huelle.appendChild(svg)
+  // Drehen des Geräts: Fassung wechseln, solange niemand gerade beschriftet (Marken tragen dann Zustände).
+  // Der Hörer meldet sich selbst ab, sobald das Diagramm nicht mehr im Dokument hängt: Über eine lange
+  // Lernsitzung mit vielen Kartenwechseln bliebe sonst je Abbildung ein Hörer samt Element im Speicher.
+  if (medium && !opts.verdeckt) {
+    let warImDokument = false
+    const beimDrehen = () => {
+      if (svg.isConnected) { warImDokument = true; stelleEin(); return }
+      if (!warImDokument) return
+      if (medium.removeEventListener) medium.removeEventListener('change', beimDrehen)
+      else if (medium.removeListener) medium.removeListener(beimDrehen)
+    }
+    if (medium.addEventListener) medium.addEventListener('change', beimDrehen)
+    else if (medium.addListener) medium.addListener(beimDrehen)
+  }
 
   // Bleibt eine Abbildung breiter als der Bildschirm, merkt ohne Hinweis niemand, dass rechts etwas fehlt:
   // Randverlauf plus Textzeile, solange etwas verborgen ist.
@@ -109,7 +118,16 @@ export function renderDiagramm(id, opts = {}) {
     fenster.classList.toggle('hat-ueberlauf', ueber && !amEnde)
   }
   huelle.addEventListener('scroll', pruefeUeberlauf, { passive: true })
-  if (typeof ResizeObserver !== 'undefined') new ResizeObserver(pruefeUeberlauf).observe(huelle)
+  if (typeof ResizeObserver !== 'undefined') {
+    // Wird die Abbildung aus dem Dokument genommen, schrumpft sie auf 0 und der Beobachter feuert ein letztes
+    // Mal: Das ist der Moment, ihn abzumelden, damit er das entfernte Element nicht festhält.
+    let warImDokument = false
+    const beobachter = new ResizeObserver(() => {
+      if (huelle.isConnected) { warImDokument = true; pruefeUeberlauf(); return }
+      if (warImDokument) beobachter.disconnect()
+    })
+    beobachter.observe(huelle)
+  }
   return rahmen
 }
 

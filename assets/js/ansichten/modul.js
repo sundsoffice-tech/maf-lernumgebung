@@ -91,8 +91,9 @@ export default {
         h('div.kennzahlen',
           kennzahl('Themen', `${stand.fertigeThemen} von ${stand.themen}`, 'durchgearbeitet'),
           kennzahl('Aufgaben', `${stand.gesehen} von ${stand.gesamt}`, 'bearbeitet'),
+          // Die Zeitangabe bleibt zusammen: "1 Std 17" und "Min" in zwei Zeilen liest sich wie zwei Zahlen.
           kennzahl('Planzeit', minutenText(modul.zeitMin || 0),
-            rest >= 1 ? 'noch rund ' + minutenText(rest) : 'erster Durchgang erledigt'),
+            rest >= 1 ? ['noch rund ', h('span.kennzahl__zeit', minutenText(rest))] : 'erster Durchgang erledigt'),
           h('div.kennzahl',
             h('div.kennzahl__titel', 'Davon genutzt'),
             genutzt,

@@ -60,8 +60,20 @@ export function zeigeAufgabe(host, item, opts) {
   let abgeschlossen = false
   let steuerung = null
 
+  // Eine Aufgabe, die gar nicht erst aufgebaut werden konnte oder deren Daten keine Lösung hergeben, wird
+  // ÜBERSPRUNGEN: keine Rückmeldung, kein Ergebnis, kein Eintrag im Lernstand. Früher wurde sie mit einem
+  // vollen Punkt verbucht und galt damit als gemeistert, obwohl sie niemand gesehen hat.
+  function ueberspringe() {
+    if (abgeschlossen) return
+    abgeschlossen = true
+    leeren(abgabe)
+    // Beide Kennzeichen: uebersprungen für die Ansicht, nichtWerten für sitzung.beantworte()
+    if (opts.onWeiter) opts.onWeiter({ uebersprungen: true, nichtWerten: true })
+  }
+
   function schliesseAb(ergebnis) {
     if (abgeschlossen) return
+    if (ergebnis && ergebnis.nichtWerten) { ueberspringe(); return }
     abgeschlossen = true
     leeren(abgabe)
     const punkte = Math.max(0, Math.min(1, Number(ergebnis.punkte) || 0))
@@ -96,6 +108,7 @@ export function zeigeAufgabe(host, item, opts) {
 
   const api = {
     bereit(ja) { for (const b of abgabe.querySelectorAll('button')) b.disabled = !ja },
+    // {punkte, sicher} schließt die Aufgabe ab; {nichtWerten: true} überspringt sie, ohne sie zu verbuchen
     fertig(ergebnis) { schliesseAb(ergebnis) },
     app,
   }
@@ -105,7 +118,7 @@ export function zeigeAufgabe(host, item, opts) {
   } catch (fehler) {
     console.error('Aufgabe konnte nicht aufgebaut werden', item.id, fehler)
     antwort.appendChild(h('div.hinweiskasten.hinweiskasten--schlecht', h('p', 'Diese Aufgabe konnte nicht angezeigt werden. Sie wird übersprungen und nicht gewertet.')))
-    abgabe.appendChild(h('button.knopf', { type: 'button', onclick: () => opts.onWeiter && opts.onWeiter({ uebersprungen: true }) }, 'Weiter'))
+    abgabe.appendChild(h('button.knopf', { type: 'button', onclick: () => ueberspringe() }, 'Weiter'))
     return { element: wurzel }
   }
 

@@ -10,6 +10,12 @@ function ampel(status) {
   return h('span.ampel.ampel--' + status, statusText(status))
 }
 
+/** Mindestbreite für einen angefangenen Balken: wenige Prozent sähen sonst aus wie ein Staubkorn. */
+function breite(anteil) {
+  const p = prozent(anteil)
+  return p > 0 ? `max(${p}%, 1.25rem)` : '0'
+}
+
 function balken(wert, abdeckung, status) {
   const el = h('div.balken.balken--dick.balken--' + status, {
     role: 'img',
@@ -17,8 +23,8 @@ function balken(wert, abdeckung, status) {
   })
   const streifen = h('div.balken__schatten')
   const voll = h('div.balken__wert')
-  streifen.style.width = prozent(abdeckung) + '%'
-  voll.style.width = prozent(wert) + '%'
+  streifen.style.width = breite(abdeckung)
+  voll.style.width = breite(wert)
   el.append(streifen, voll)
   return el
 }
@@ -27,18 +33,28 @@ function summe(module, wert) {
   return module.reduce((s, m) => s + wert(m), 0)
 }
 
+/**
+ * Themen eines Moduls. Genau EIN farbiger Hinweis je Zeile trägt eine Entscheidung: die Ampel. Die Zahl der
+ * fälligen Wiederholungen sagt dasselbe noch einmal und steht deshalb als ruhiger Text daneben — sonst wird
+ * die Liste eine Wand aus Warnfarben, in der nichts mehr heraussticht. Hervorgehoben ist die eine Zeile,
+ * an der es weitergeht: das erste Thema, dessen Lernkarten oder Kernaufgaben noch offen sind.
+ */
 function themenListe(app, modul) {
-  return h('ul.eintragsliste', (modul.themen || []).map((th) => {
-    const s = app.modell.themaStand(th)
+  const staende = (modul.themen || []).map((th) => ({ th, s: app.modell.themaStand(th) }))
+  const weiter = staende.find(({ s }) => !s.kartenFertig || !s.kernFertig)
+  const weiterId = weiter ? weiter.th.id : null
+  return h('ul.eintragsliste', staende.map(({ th, s }) => {
     const neben = []
     if (th.lernstoff) neben.push(h('span.marke-chip.marke-chip--lernstoff', 'Lernstoff laut Skript'))
-    neben.push(h('span.leise', `${s.gesehen} von ${s.gesamt} Aufgaben`))
-    if (s.faellig) neben.push(h('span.marke-chip.marke-chip--mittel', s.faellig === 1 ? '1 Wiederholung fällig' : s.faellig + ' Wiederholungen fällig'))
-    return h('li', h('a.eintrag', { href: '#/thema/' + th.id },
+    const faellig = s.faellig === 1 ? ' · 1 Wiederholung fällig' : s.faellig ? ` · ${s.faellig} Wiederholungen fällig` : ''
+    neben.push(h('span.leise', `${s.gesehen} von ${s.gesamt} Aufgaben${faellig}`))
+    return h('li', h('a.eintrag' + (th.id === weiterId ? '.plan__weiter' : ''), { href: '#/thema/' + th.id },
       h('div',
         h('div.eintrag__titel', th.titel),
         h('div.eintrag__neben.zeile.plan__themazeile', neben)),
-      h('div.eintrag__rechts', ampel(s.status))))
+      h('div.eintrag__rechts',
+        th.id === weiterId ? h('span.marke-chip.marke-chip--neu', 'hier weiter') : null,
+        ampel(s.status))))
   }))
 }
 
@@ -134,7 +150,7 @@ export default {
     const tag2 = daten.module.slice(MODULE_TAG_1)
     const planGesamt = summe(daten.module, (m) => m.zeitMin || 0) + (kurs.probeMin || 0)
 
-    host.appendChild(h('div.karte.stapel--eng',
+    host.appendChild(h('div.karte.stapel--eng.plan__ueberblick',
       h('div.karte__ueber', 'Überblick'),
       h('p', `Der Vorschlag verplant ${minutenText(planGesamt)} von deinem Budget von ${minutenText(budget)}. Bisher gelernt: ${minutenText(app.zeit.gesamtMin)}. Für den ersten Durchgang durch alle Themen sind es nach heutiger Schätzung noch rund ${minutenText(app.modell.restzeitMin())}.`),
       h('p.leise', 'Die Reihenfolge ist ein Vorschlag, keine Vorschrift. Wenn dir ein Modul schwerfällt, nimm ihm die Zeit von einem, das schon sitzt.')))

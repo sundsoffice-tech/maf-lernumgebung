@@ -20,7 +20,9 @@ const UNBEKANNT = {
   render(host, item, api) {
     host.appendChild(h('div.hinweiskasten.hinweiskasten--mittel',
       h('p', `Der Aufgabentyp „${item.typ}“ ist in dieser Fassung nicht verfügbar. Die Aufgabe wird nicht gewertet.`),
-      h('button.knopf', { type: 'button', onclick: () => api.fertig({ punkte: 1, sicher: 'unsicher' }) }, 'Überspringen')))
+      // nichtWerten statt eines vollen Punktes: eine Aufgabe, die niemand lösen konnte, darf nicht als
+      // gemeistert im Lernstand landen und aus den Wiederholungen fallen.
+      h('button.knopf', { type: 'button', onclick: () => api.fertig({ nichtWerten: true }) }, 'Überspringen')))
     return {}
   },
 }
@@ -28,10 +30,4 @@ const UNBEKANNT = {
 export function holeRenderer(typ, item) {
   if (typ === 'fall') return item && item.modus === 'offen' ? erklaeren : mc
   return RENDERER[typ] || UNBEKANNT
-}
-
-export const TYP_NAMEN = {
-  mc: 'Auswahl', mehrfach: 'Mehrfachauswahl', wahrfalsch: 'Wahr oder falsch', zuordnung: 'Zuordnen',
-  sortieren: 'Reihenfolge', kategorien: 'Einsortieren', luecke: 'Lückentext', karte: 'Karteikarte',
-  erklaeren: 'Erklären', fall: 'Übungsfall', beschriften: 'Abbildung beschriften',
 }

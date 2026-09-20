@@ -68,6 +68,70 @@ export default {
     <text data-label="skala-y9" x="96" y="65" text-anchor="end" class="d-text-klein">9</text>
     <text data-label="achse-y" x="50" y="260" text-anchor="middle" transform="rotate(-90 50 260)" class="d-text-fett">Mitarbeiterorientierung</text>
   `,
+  // Hochkant: dasselbe Gitter, quadratisch und kleiner; die Bezeichnungen stehen zweizeilig
+  // an ihrer Ecke, die Zahlenpaare darunter. Lage der fuenf Positionen bleibt unveraendert.
+  viewBoxSchmal: '0 0 360 464',
+  svgSchmal: `
+    <text data-label="titel" x="180" y="26" text-anchor="middle" class="d-text-titel">Blake/Mouton</text>
+
+    <rect x="60" y="96" width="270" height="300" class="d-flaeche-leer"/>
+    <path d="M 93.75 96 L 93.75 396" class="d-linie-gestrichelt"/>
+    <path d="M 127.5 96 L 127.5 396" class="d-linie-gestrichelt"/>
+    <path d="M 161.25 96 L 161.25 396" class="d-linie-gestrichelt"/>
+    <path d="M 195 96 L 195 396" class="d-linie-gestrichelt"/>
+    <path d="M 228.75 96 L 228.75 396" class="d-linie-gestrichelt"/>
+    <path d="M 262.5 96 L 262.5 396" class="d-linie-gestrichelt"/>
+    <path d="M 296.25 96 L 296.25 396" class="d-linie-gestrichelt"/>
+    <path d="M 60 133.5 L 330 133.5" class="d-linie-gestrichelt"/>
+    <path d="M 60 171 L 330 171" class="d-linie-gestrichelt"/>
+    <path d="M 60 208.5 L 330 208.5" class="d-linie-gestrichelt"/>
+    <path d="M 60 246 L 330 246" class="d-linie-gestrichelt"/>
+    <path d="M 60 283.5 L 330 283.5" class="d-linie-gestrichelt"/>
+    <path d="M 60 321 L 330 321" class="d-linie-gestrichelt"/>
+    <path d="M 60 358.5 L 330 358.5" class="d-linie-gestrichelt"/>
+
+    <circle cx="60" cy="396" r="7" class="d-punkt"/>
+    <rect x="62" y="296" width="98" height="62" rx="4" class="d-flaeche-leer"/>
+    <text data-label="stil-11" x="68" y="319" text-anchor="start" class="d-text-fett"><tspan x="68" y="310">laissez-faire </tspan><tspan x="68" y="328">pflegen</tspan></text>
+    <text data-label="wert-11" x="68" y="348" text-anchor="start" class="d-text-leise">(1,1)</text>
+
+    <circle cx="330" cy="396" r="7" class="d-punkt"/>
+    <rect x="227" y="296" width="103" height="62" rx="4" class="d-flaeche-leer"/>
+    <text data-label="stil-91" x="324" y="319" text-anchor="end" class="d-text-fett"><tspan x="324" y="310">über Leichen </tspan><tspan x="324" y="328">gehen</tspan></text>
+    <text data-label="wert-91" x="324" y="348" text-anchor="end" class="d-text-leise">(9,1)</text>
+
+    <circle cx="195" cy="246" r="7" class="d-punkt"/>
+    <rect x="134" y="176" width="122" height="62" rx="4" class="d-flaeche-leer"/>
+    <text data-label="stil-55" x="195" y="208" text-anchor="middle" class="d-text-fett"><tspan x="195" y="190">ausgeglichene </tspan><tspan x="195" y="208">Kombinationen </tspan><tspan x="195" y="226">suchen</tspan></text>
+    <rect x="205" y="250" width="37" height="22" rx="4" class="d-flaeche-leer"/>
+    <text data-label="wert-55" x="209" y="266" text-anchor="start" class="d-text-leise">(5,5)</text>
+
+    <circle cx="60" cy="96" r="7" class="d-punkt"/>
+    <rect x="62" y="104" width="124" height="62" rx="4" class="d-flaeche-leer"/>
+    <text data-label="stil-19" x="68" y="127" text-anchor="start" class="d-text-fett"><tspan x="68" y="118">geselliges </tspan><tspan x="68" y="136">Beisammensein</tspan></text>
+    <text data-label="wert-19" x="68" y="156" text-anchor="start" class="d-text-leise">(1,9)</text>
+
+    <circle cx="330" cy="96" r="7" class="d-punkt"/>
+    <rect x="244" y="104" width="86" height="62" rx="4" class="d-flaeche-leer"/>
+    <text data-label="stil-99" x="324" y="127" text-anchor="end" class="d-text-fett"><tspan x="324" y="118">exzellente </tspan><tspan x="324" y="136">Führung</tspan></text>
+    <text data-label="wert-99" x="324" y="156" text-anchor="end" class="d-text-leise">(9,9)</text>
+
+    <path d="M 60 396 L 60 404" class="d-linie-duenn"/>
+    <path d="M 195 396 L 195 404" class="d-linie-duenn"/>
+    <path d="M 330 396 L 330 404" class="d-linie-duenn"/>
+    <text data-label="skala-x1" x="60" y="420" text-anchor="middle" class="d-text-klein">1</text>
+    <text data-label="skala-x5" x="195" y="420" text-anchor="middle" class="d-text-klein">5</text>
+    <text data-label="skala-x9" x="330" y="420" text-anchor="middle" class="d-text-klein">9</text>
+    <text data-label="achse-x" x="195" y="446" text-anchor="middle" class="d-text-fett">Aufgabenorientierung</text>
+
+    <path d="M 52 396 L 60 396" class="d-linie-duenn"/>
+    <path d="M 52 246 L 60 246" class="d-linie-duenn"/>
+    <path d="M 52 96 L 60 96" class="d-linie-duenn"/>
+    <text data-label="skala-y1" x="46" y="401" text-anchor="end" class="d-text-klein">1</text>
+    <text data-label="skala-y5" x="46" y="251" text-anchor="end" class="d-text-klein">5</text>
+    <text data-label="skala-y9" x="46" y="101" text-anchor="end" class="d-text-klein">9</text>
+    <text data-label="achse-y" x="20" y="246" text-anchor="middle" transform="rotate(-90 20 246)" class="d-text-fett">Mitarbeiterorientierung</text>
+  `,
   labels: [
     { id: 'titel', text: 'Blake/Mouton', abfragbar: false, gruppe: 'rahmen' },
     { id: 'stil-11', text: 'laissez-faire pflegen', abfragbar: true, gruppe: 'stile' },

@@ -6,6 +6,7 @@ export default {
   titel: 'Umgang mit Widerstand: Spektrum und Ursachen',
   folien: [79],
   viewBox: '0 0 800 800',
+  viewBoxSchmal: '0 0 360 800',
   minBreite: 560,
   beschreibung: 'Oben eine Kette von sieben Stufen, die von Commitment ueber Apathy bis Aggressive resistance reicht. Darunter die drei Ursachen Nicht-Wissen, Nicht-Koennen und Nicht-Wollen mit den Folgen, die das Skript ihnen zuordnet.',
   svg: `
@@ -47,6 +48,48 @@ export default {
     <polygon class="d-flaeche-3" points="20,682 600,682 644,726 600,770 20,770"/>
     <text data-label="ur-3" x="44" y="712" text-anchor="start" class="d-text-fett">Nicht-Wollen</text>
     <text data-label="fo-3a" x="64" y="740" text-anchor="start" class="d-text">-&gt; grds. Ablehnung von Neuem, Change, Innovation</text>
+  </g>`,
+  // Hochkantfassung fuer 360 px (iPhone hochkant): dieselbe Abfolge, nur schmaler. Die Kette steht schon in
+  // der Querfassung senkrecht; hier werden die Baender und die Ursachen-Pfeile auf Handybreite gezogen.
+  svgSchmal: `
+  <g>
+    <polygon class="d-flaeche" points="16,18 344,18 344,48 180,62 16,48"/>
+    <text data-label="sp-1" x="180" y="41" text-anchor="middle" class="d-text-fett">Commitment</text>
+
+    <polygon class="d-flaeche" points="16,70 344,70 344,100 180,114 16,100"/>
+    <text data-label="sp-2" x="180" y="93" text-anchor="middle" class="d-text-fett">Involvement</text>
+
+    <polygon class="d-flaeche" points="16,122 344,122 344,152 180,166 16,152"/>
+    <text data-label="sp-3" x="180" y="145" text-anchor="middle" class="d-text-fett">Support</text>
+
+    <polygon class="d-flaeche" points="16,174 344,174 344,204 180,218 16,204"/>
+    <text data-label="sp-4" x="180" y="197" text-anchor="middle" class="d-text-fett">Apathy</text>
+
+    <polygon class="d-flaeche" points="16,226 344,226 344,256 180,270 16,256"/>
+    <text data-label="sp-5" x="180" y="249" text-anchor="middle" class="d-text-fett">Passive resistance</text>
+
+    <polygon class="d-flaeche" points="16,278 344,278 344,308 180,322 16,308"/>
+    <text data-label="sp-6" x="180" y="301" text-anchor="middle" class="d-text-fett">Active resistance</text>
+
+    <polygon class="d-flaeche" points="16,330 344,330 344,360 180,374 16,360"/>
+    <text data-label="sp-7" x="180" y="353" text-anchor="middle" class="d-text-fett">Aggressive resistance</text>
+
+    <text data-label="ueberschrift-ursachen" x="16" y="424" text-anchor="start" class="d-text-titel">Ursachen</text>
+    <line class="d-linie-duenn" x1="16" y1="432" x2="100" y2="432"/>
+
+    <polygon class="d-flaeche" points="16,450 300,450 344,494 300,538 16,538"/>
+    <text data-label="ur-1" x="32" y="480" text-anchor="start" class="d-text-fett">Nicht-Wissen</text>
+    <text data-label="fo-1a" x="40" y="504" text-anchor="start" class="d-text">-&gt; Orientierungslosigkeit</text>
+    <text data-label="fo-1b" x="40" y="526" text-anchor="start" class="d-text">-&gt; Unsicherheit</text>
+
+    <polygon class="d-flaeche-2" points="16,566 300,566 344,610 300,654 16,654"/>
+    <text data-label="ur-2" x="32" y="596" text-anchor="start" class="d-text-fett">Nicht-Können</text>
+    <text data-label="fo-2a" x="40" y="620" text-anchor="start" class="d-text">-&gt; Versagensängste</text>
+    <text data-label="fo-2b" x="40" y="642" text-anchor="start" class="d-text">-&gt; soziale Scham</text>
+
+    <polygon class="d-flaeche-3" points="16,682 300,682 344,726 300,770 16,770"/>
+    <text data-label="ur-3" x="32" y="712" text-anchor="start" class="d-text-fett">Nicht-Wollen</text>
+    <text data-label="fo-3a" x="40" y="736" text-anchor="start" class="d-text"><tspan x="40" y="736">-&gt; grds. Ablehnung von Neuem, </tspan><tspan x="40" y="756">Change, Innovation</tspan></text>
   </g>`,
   labels: [
     { id: 'sp-1', text: 'Commitment', abfragbar: true, gruppe: 'spektrum' },

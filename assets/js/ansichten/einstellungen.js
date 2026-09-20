@@ -74,10 +74,26 @@ export default {
       stand.textContent = `${g.gesehen} von ${g.gesamt} Aufgaben bearbeitet · ${minutenText(app.zeit.gesamtMin)} gelernt · zuletzt gespeichert ${datumText(speicher.zustand.geaendert)}`
     }
 
-    const datei = h('input.feld__eingabe.einst__datei', { type: 'file', accept: '.json,application/json' })
+    // Das Eingabefeld selbst bleibt verborgen: Safari beschriftet es mit "Choose File" und "no file selected",
+    // also mitten auf der deutschen Seite an der Stelle, an der man am meisten Angst hat, etwas zu verlieren.
+    // Sichtbar sind stattdessen ein eigener Knopf und der Name der gewählten Datei.
+    const datei = h('input', { type: 'file', accept: '.json,application/json', hidden: true })
+    const dateiName = h('p.leise.einst__dateiname', 'Noch keine Datei gewählt')
+
+    /** Datum, das in der eingelesenen Datei steht, für die Rückmeldung. Fehlt es, bleibt die Meldung ohne Datum. */
+    function standDatum(text) {
+      try {
+        const roh = JSON.parse(text)
+        return Number(roh && roh.geaendert) || 0
+      } catch (fehler) {
+        return 0
+      }
+    }
+
     datei.addEventListener('change', async () => {
       const gewaehlt = datei.files && datei.files[0]
       if (!gewaehlt) return
+      dateiName.textContent = gewaehlt.name
       let text = ''
       try {
         text = await gewaehlt.text()
@@ -85,7 +101,9 @@ export default {
         melde('schlecht', 'Nicht eingelesen', 'Die Datei konnte nicht gelesen werden.')
         return
       }
+      const vom = standDatum(text)
       const ergebnis = speicher.importiere(text)
+      // Zurücksetzen, damit dieselbe Datei danach erneut gewählt werden kann; der Name bleibt sichtbar
       datei.value = ''
       if (!ergebnis.ok) {
         melde('schlecht', 'Nicht eingelesen', ergebnis.grund + ' Dein bisheriger Lernstand ist unverändert.')
@@ -95,7 +113,11 @@ export default {
       app.setzeThema(speicher.zustand.einstellungen.thema || 'auto')
       zeigeThema()
       zeigeStand()
-      melde('gut', 'Eingelesen', 'Der Lernstand aus der Datei ist jetzt aktiv. Der vorherige Stand auf diesem Gerät wurde dabei ersetzt.')
+      const g = app.modell.gesamtStand()
+      melde('gut', 'Eingelesen',
+        (vom ? `Der Lernstand vom ${datumText(vom)} ist jetzt aktiv.` : 'Der Lernstand aus der Datei ist jetzt aktiv.')
+        + ` Übernommen wurden ${g.gesehen} von ${g.gesamt} bearbeiteten Aufgaben und ${minutenText(app.zeit.gesamtMin)} Lernzeit.`
+        + ' Der vorherige Stand auf diesem Gerät wurde dabei ersetzt.')
       kurzmeldung('Lernstand eingelesen')
     })
 
@@ -108,8 +130,15 @@ export default {
           type: 'button',
           onclick: () => { biete(speicher.exportiere(), DATEINAME); kurzmeldung('Lernstand gesichert') },
         }, symbol('zettel'), 'Lernstand sichern')),
-      h('label.feld',
-        h('span.feld__label', 'Lernstand aus einer Datei einlesen'),
+      h('div.feld',
+        h('span.feld__label#einst-einlesen', 'Lernstand aus einer Datei einlesen'),
+        h('div.einst__dateiwahl',
+          h('button.knopf', {
+            type: 'button',
+            'aria-describedby': 'einst-einlesen',
+            onclick: () => datei.click(),
+          }, symbol('zettel'), 'Datei auswählen'),
+          dateiName),
         datei),
       h('p.leise', 'Beim Einlesen wird der Stand auf diesem Gerät vollständig ersetzt. Sichere ihn vorher, wenn du ihn behalten willst.'),
       meldung))

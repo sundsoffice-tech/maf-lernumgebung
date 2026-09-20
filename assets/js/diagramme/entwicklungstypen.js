@@ -7,6 +7,7 @@ export default {
   titel: 'Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann',
   folien: [34],
   viewBox: '0 0 800 600',
+  viewBoxSchmal: '0 0 360 870',
   minBreite: 660,
   beschreibung: 'Der Unternehmenswert steigt im Zeitverlauf als S-förmige Kurve und gabelt sich am Ende in zwei Richtungen, aufwärts und abwärts. Unter der Kurve stehen die vier Unternehmenstypen Pionier-, Wachstums-, Reife- und Wende-Unternehmen und darunter zehn Organisationsformen in ihrer Reihenfolge.',
   svg: `
@@ -65,6 +66,66 @@ export default {
     <text data-label="form-6" x="432" y="546" text-anchor="middle" class="d-text-klein"><tspan x="432" y="546">Divisionale </tspan><tspan x="432" y="564">Organisation</tspan></text>
     <text data-label="form-8" x="568" y="546" text-anchor="middle" class="d-text-klein"><tspan x="568" y="546">Holding-</tspan><tspan x="568" y="564">Organisation</tspan></text>
     <text data-label="form-10" x="704" y="546" text-anchor="middle" class="d-text-klein"><tspan x="704" y="546">Cluster-</tspan><tspan x="704" y="564">Organisation</tspan></text>
+  `,
+  // Hochkantfassung fuer 360 px (iPhone hochkant): dieselbe Aussage, um 90 Grad gedreht. Die Zeit laeuft
+  // senkrecht nach unten (eine Achse fuer Kurve, Typen und Formen), der Unternehmenswert waagerecht nach
+  // rechts. Die vier Typen und die zehn Formen stehen untereinander in derselben Reihenfolge wie quer.
+  svgSchmal: `
+    <text data-label="titel" x="180" y="24" text-anchor="middle" class="d-text-titel"><tspan x="180" y="24">Organisationsformen und </tspan><tspan x="180" y="46">Entwicklungstypen nach </tspan><tspan x="180" y="68">Gomez/Zimmermann</tspan></text>
+
+    <rect x="94" y="84" width="184" height="30" rx="6" class="d-flaeche-leer"/>
+    <text data-label="achse-wert" x="186" y="105" text-anchor="middle" class="d-text-fett">Unternehmenswert</text>
+
+    <path d="M 36 126 L 330 126" class="d-linie-duenn"/>
+    <path d="M 344 126 L 328 132 L 328 120 Z" class="d-pfeilspitze"/>
+    <path d="M 36 178 L 330 178" class="d-linie-duenn"/>
+    <path d="M 344 178 L 328 184 L 328 172 Z" class="d-pfeilspitze"/>
+    <path d="M 36 230 L 330 230" class="d-linie-duenn"/>
+    <path d="M 344 230 L 328 236 L 328 224 Z" class="d-pfeilspitze"/>
+    <path d="M 36 283 L 330 283" class="d-linie-duenn"/>
+    <path d="M 344 283 L 328 289 L 328 277 Z" class="d-pfeilspitze"/>
+
+    <path d="M 72 130 C 75 155 99 168 141 183 C 188 199 224 223 232 252 C 237 271 235 284 231 294" class="d-kurve"/>
+    <path d="M 231 294 C 236 305 260 314 290 327" class="d-kurve"/>
+    <path d="M 302 332 L 288.8 332.1 L 293.2 322.1 Z" class="d-pfeilspitze"/>
+    <path d="M 231 294 C 225 305 202 314 171 327" class="d-kurve"/>
+    <path d="M 158 332 L 167.1 322.4 L 171.1 332.6 Z" class="d-pfeilspitze"/>
+
+    <path d="M 24 118 L 24 820" class="d-linie"/>
+    <path d="M 24 836 L 17 818 L 31 818 Z" class="d-pfeilspitze"/>
+    <text data-label="achse-zeit" x="24" y="858" text-anchor="middle" class="d-text-fett">Zeit</text>
+
+    <rect x="36" y="356" width="316" height="136" class="d-flaeche-leer"/>
+    <path d="M 36 390 L 352 390" class="d-linie-duenn"/>
+    <path d="M 36 424 L 352 424" class="d-linie-duenn"/>
+    <path d="M 36 458 L 352 458" class="d-linie-duenn"/>
+    <path d="M 24 356 L 36 356" class="d-linie-duenn"/>
+    <path d="M 24 492 L 36 492" class="d-linie-duenn"/>
+    <text data-label="typ-1" x="194" y="379" text-anchor="middle" class="d-text-fett">Pionier-Unternehmen</text>
+    <text data-label="typ-2" x="194" y="413" text-anchor="middle" class="d-text-fett">Wachstums-Unternehmen</text>
+    <text data-label="typ-3" x="194" y="447" text-anchor="middle" class="d-text-fett">Reife-Unternehmen</text>
+    <text data-label="typ-4" x="194" y="481" text-anchor="middle" class="d-text-fett">Wende-Unternehmen</text>
+
+    <path d="M 24 523 L 40 523" class="d-linie-duenn"/>
+    <text data-label="form-1" x="48" y="528" text-anchor="start" class="d-text-klein">Einfache Linien-Organisation</text>
+    <path d="M 24 553 L 40 553" class="d-linie-duenn"/>
+    <text data-label="form-2" x="48" y="558" text-anchor="start" class="d-text-klein">Stab-Linien-Organisation</text>
+    <path d="M 24 583 L 40 583" class="d-linie-duenn"/>
+    <text data-label="form-3" x="48" y="588" text-anchor="start" class="d-text-klein">Funktionale Organisation</text>
+    <path d="M 24 613 L 40 613" class="d-linie-duenn"/>
+    <text data-label="form-4" x="48" y="618" text-anchor="start" class="d-text-klein">Projekt-Organisation</text>
+    <path d="M 24 643 L 40 643" class="d-linie-duenn"/>
+    <text data-label="form-5" x="48" y="648" text-anchor="start" class="d-text-klein">Matrix-Organisation</text>
+    <path d="M 24 673 L 40 673" class="d-linie-duenn"/>
+    <text data-label="form-6" x="48" y="678" text-anchor="start" class="d-text-klein">Divisionale Organisation</text>
+    <path d="M 24 703 L 40 703" class="d-linie-duenn"/>
+    <text data-label="form-7" x="48" y="708" text-anchor="start" class="d-text-klein">Tensor-Organisation</text>
+    <path d="M 24 733 L 40 733" class="d-linie-duenn"/>
+    <text data-label="form-8" x="48" y="738" text-anchor="start" class="d-text-klein">Holding-Organisation</text>
+    <path d="M 24 763 L 40 763" class="d-linie-duenn"/>
+    <text data-label="form-9" x="48" y="768" text-anchor="start" class="d-text-klein">Allianz-Organisation</text>
+    <path d="M 24 793 L 40 793" class="d-linie-duenn"/>
+    <text data-label="form-10" x="48" y="798" text-anchor="start" class="d-text-klein">Cluster-Organisation</text>
   `,
   labels: [
     { id: 'titel', text: 'Organisationsformen und Entwicklungstypen nach Gomez/Zimmermann', abfragbar: false, gruppe: 'rahmen' },

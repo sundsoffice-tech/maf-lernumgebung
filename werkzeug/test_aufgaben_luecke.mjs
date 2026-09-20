@@ -116,6 +116,29 @@ test('Tippfelder: Anteil richtiger Lücken, richtige Lösung wird nachgereicht, 
   assert.deepEqual(loesungen, ['Beta'])
 })
 
+test('Tippfelder schalten die iOS-Autokorrektur ab', () => {
+  // spellcheck allein genügt auf iOS nicht: ohne autocorrect ersetzt Safari getippte Fachwörter
+  const { host } = baue(luecke, { id: 't-ios', text: '{_Hygienefaktoren_} und {_Motivatoren_}' })
+  const felder = [...host.querySelectorAll('input.luecke--feld')]
+  assert.equal(felder.length, 2)
+  for (const f of felder) {
+    assert.equal(f.getAttribute('autocorrect'), 'off')
+    assert.equal(f.getAttribute('autocapitalize'), 'off')
+    assert.equal(f.getAttribute('spellcheck'), 'false')
+    assert.equal(f.getAttribute('inputmode'), 'text')
+  }
+  assert.equal(felder[0].getAttribute('enterkeyhint'), 'next')
+  assert.equal(felder[1].getAttribute('enterkeyhint'), 'done', 'die letzte Lücke schließt ab')
+})
+
+test('Ein Text ohne Lücke wird übersprungen, nicht als gekonnt verbucht', () => {
+  const { host, steuerung } = baue(luecke, { id: 't-leer', text: 'Hier fehlt jede Markierung.' })
+  assert.ok(host.textContent.includes('nicht gewertet'))
+  const ergebnis = steuerung.pruefen()
+  assert.equal(ergebnis.nichtWerten, true)
+  assert.equal(ergebnis.punkte, undefined, 'keine Punkte, sonst gälte die Aufgabe als gemeistert')
+})
+
 test('Tippfelder: alles richtig gibt einen vollen Punkt', () => {
   const { host, steuerung } = baue(luecke, { id: 't-tipp3', text: '{_Alpha_} und {_Beta_}' })
   const felder = host.querySelectorAll('input.luecke--feld')
@@ -211,7 +234,8 @@ test('Fehlt die Abbildung, gibt es einen ruhigen Hinweis und einen Knopf zum Üb
   const knopf = host.querySelector('button')
   assert.equal(knopf.textContent, 'Überspringen')
   klick(knopf)
-  assert.deepEqual(api.log.fertig, { punkte: 1, sicher: 'unsicher' })
+  // nichtWerten statt eines vollen Punktes: eine Aufgabe ohne Abbildung darf nicht als gekonnt gelten
+  assert.deepEqual(api.log.fertig, { nichtWerten: true })
 })
 
 // Testdiagramm und ein Nachbau des Markenteils aus diagramme/index.js: jede verdeckte Beschriftung wird
@@ -324,7 +348,7 @@ test('Beschriften: ein Diagramm ganz ohne abfragbare Beschriftungen wird übersp
   const { host, api } = baue(beschriften, { id: 't-b6', diagramm: 'test-diagramm' })
   assert.equal(host.querySelectorAll('select').length, 0)
   klick(host.querySelector('button'))
-  assert.deepEqual(api.log.fertig, { punkte: 1, sicher: 'unsicher' })
+  assert.deepEqual(api.log.fertig, { nichtWerten: true })
 })
 
 kleinerTestlauf(tests)

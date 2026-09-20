@@ -1,5 +1,5 @@
 // Start der Lernumgebung: Daten laden, Lernstand öffnen, Routen bedienen.
-import { h, leeren, symbol, minutenText, mini, folienText } from './mini.js'
+import { h, leeren, symbol, minutenText, minutenKurz, mini, folienText } from './mini.js'
 import { ladeDaten } from './daten.js'
 import { erzeugeSpeicher } from './speicher.js'
 import { erzeugeModell } from './lernmodell.js'
@@ -36,6 +36,9 @@ const NAV_BREIT_ZUSATZ = [
 const inhalt = document.getElementById('inhalt')
 let aufraeumen = null
 let app = null
+// Einmalige Hinweise, die erst gezeigt werden, wenn wirklich eine Ansicht steht
+let verirrt = null
+let speicherHinweis = null
 
 function zerlegeHash() {
   const roh = (location.hash || '#/').replace(/^#\/?/, '')
@@ -62,19 +65,33 @@ function zeichneZeit() {
   const el = document.getElementById('kopf-zeit')
   if (!app) return
   const budget = app.daten.kurs.zeitbudgetMin || 600
+  const lang = `${minutenText(app.zeit.gesamtMin)} von ${minutenText(budget)}`
   el.hidden = false
-  el.textContent = `${minutenText(app.zeit.gesamtMin)} von ${minutenText(budget)}`
+  leeren(el)
+  // Beide Formen stehen im Text, das CSS blendet die zur Breite unpassende aus. Der erste Teil ist nur
+  // für Vorleser da: auf dem iPhone und iPad gibt es kein title-Tooltip, das die Marke erklären könnte.
+  el.append(
+    h('span.nur-vorleser', 'Aktive Lernzeit: ' + lang),
+    h('span.kopf__zeit-lang', { 'aria-hidden': 'true' }, lang),
+    h('span.kopf__zeit-kurz', { 'aria-hidden': 'true' }, minutenKurz(app.zeit.gesamtMin)))
 }
 
 function zeigeRoute() {
   const { route, id, params } = zerlegeHash()
-  const ansicht = ROUTEN[route] || start
+  // Tippfehler oder altes Lesezeichen: zurück an den Anfang, aber OHNE einen Eintrag im Verlauf zu
+  // hinterlassen — sonst landet das Zurückwischen in Safari sofort wieder auf derselben toten Adresse.
+  if (!ROUTEN[route]) {
+    verirrt = location.hash || ''
+    location.replace('#/')
+    return
+  }
+  const ansicht = ROUTEN[route]
   if (typeof aufraeumen === 'function') { try { aufraeumen() } catch (e) { console.error(e) } }
   aufraeumen = null
   schliesseSchublade()
   leeren(inhalt)
   inhalt.className = 'seite' + (ansicht.schmal ? ' seite--schmal' : '')
-  zeichneNavigation(ROUTEN[route] ? route : '')
+  zeichneNavigation(route)
   app.zeit.setzeModul(null)
   try {
     aufraeumen = ansicht.render(inhalt, { id, ...params }, app) || null
@@ -83,6 +100,15 @@ function zeigeRoute() {
     inhalt.appendChild(h('div.fehlerseite', h('h1', 'Hier ist etwas schiefgegangen'),
       h('p', 'Die Ansicht konnte nicht aufgebaut werden. Dein Lernstand ist davon nicht betroffen.'),
       h('p', h('a.knopf', { href: '#/' }, 'Zur Startseite'))))
+  }
+  if (speicherHinweis) {
+    inhalt.prepend(h('div.hinweiskasten.hinweiskasten--mittel', h('p', speicherHinweis)))
+    speicherHinweis = null
+  }
+  if (verirrt) {
+    inhalt.prepend(h('div.hinweiskasten.hinweiskasten--mittel',
+      h('p', 'Die Stelle ' + verirrt + ' gibt es hier nicht. Das ist der Anfang.')))
+    verirrt = null
   }
   document.title = (ansicht.titel ? ansicht.titel + ' · ' : '') + 'MAF Lernumgebung'
   if (!params.druck) window.scrollTo(0, 0)
@@ -139,10 +165,12 @@ async function starte() {
     zeichneZeit()
     document.addEventListener('click', verweisKlick)
     window.addEventListener('hashchange', zeigeRoute)
-    zeigeRoute()
+    // Vor dem ersten Zeichnen setzen: zeigeRoute kann bei einer unbekannten Adresse umleiten, und dann
+    // würde ein danach eingehängter Hinweis vom zweiten Durchlauf wieder weggewischt.
     if (!speicher.verfuegbar) {
-      inhalt.prepend(h('div.hinweiskasten.hinweiskasten--mittel', h('p', 'Dein Browser erlaubt gerade kein Speichern (privater Modus?). Du kannst lernen, aber der Lernstand geht beim Schließen verloren.')))
+      speicherHinweis = 'Dein Browser erlaubt gerade kein Speichern (privater Modus oder blockierte Cookies?). Du kannst lernen, aber der Lernstand geht beim Schließen verloren.'
     }
+    zeigeRoute()
   } catch (fehler) {
     console.error(fehler)
     leeren(inhalt)

@@ -134,6 +134,27 @@ export function minutenText(min) {
   return rest ? `${st} Std ${rest} Min` : `${st} Std`
 }
 
+/** Kurzform für enge Leisten, z. B. „3:30 Std“ auf dem iPhone im Hochformat. */
+export function minutenKurz(min) {
+  const m = Math.max(0, Math.round(min))
+  return `${Math.floor(m / 60)}:${String(m % 60).padStart(2, '0')} Std`
+}
+
+/**
+ * Einzeiliges Eingabefeld für eigene Mitschrift. iOS korrigiert Fachbegriffe sonst beim Tippen um,
+ * gerade dort, wo der Dozent eine Lücke gelassen hat. Jedes neue Feld nimmt diesen Helfer.
+ */
+export function textfeld(attrs = {}) {
+  return h('input.feld__eingabe', {
+    type: 'text',
+    autocomplete: 'off',
+    autocorrect: 'off',
+    autocapitalize: 'sentences',
+    spellcheck: 'false',
+    ...attrs,
+  })
+}
+
 export function prozent(wert) {
   return Math.round(Math.max(0, Math.min(1, wert)) * 100)
 }

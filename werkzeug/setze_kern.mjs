@@ -4,9 +4,9 @@
 // im Pool und kommen bei Fehlern (Nachschub zum selben Konzept), im Training und in der Generalprobe.
 //
 // Regel je Thema, nach Gewicht:
-//   Gewicht 3 (auch "Lernstoff laut Skript"): 4 Kernaufgaben = 1 Erklären + 1 Abgrenzen/Transfer + 2 Abruf
-//   Gewicht 2:                                3 Kernaufgaben = 1 Erklären + 1 Abgrenzen/Transfer + 1 Abruf
-//   Gewicht 1:                                2 Kernaufgaben = 1 Abruf + 1 Verstehen (ohne offene Erklärung)
+//   Gewicht 3 (auch "Lernstoff laut Skript"): 3 Kernaufgaben = 1 Erklären + 1 Abgrenzen/Transfer + 1 Abruf
+//   Gewicht 2:                                2 Kernaufgaben = 1 Erklären + 1 Abruf
+//   Gewicht 1:                                2 Kernaufgaben = 1 Abgrenzen/Verstehen + 1 Abruf (ohne offene Erklärung)
 // Abrufaufgaben werden so gewählt, dass sie verschiedene Konzepte abdecken; Karteikarten sind nie Kern.
 // Aufruf: node werkzeug/setze_kern.mjs [--trocken]
 import { readFileSync, writeFileSync, readdirSync } from 'node:fs'
@@ -25,10 +25,21 @@ const rangAbgrenzung = (a) => ({ kategorien: 0, wahrfalsch: 1, fall: 2, zuordnun
 const rangAbruf = (a) => ({ zuordnung: 0, luecke: 1, mc: 2, sortieren: 3, beschriften: 4, mehrfach: 5, wahrfalsch: 6, kategorien: 7, fall: 8 }[a.typ] ?? 9)
   + ({ erinnern: 0, verstehen: 0.3, anwenden: 0.6 }[a.stufe] ?? 0.9)
 
+// Hat das Thema eine vom Skript hervorgehobene Kernaussage? Genau die muss die Lernende erklären können
+// (Auftrag: "Change the system, not the people" ... erklären, was gemeint ist), also gehört dort die offene
+// Erklär-Aufgabe in den ersten Durchgang.
+const hatMerksatz = (thema) => (thema.lernkarten || []).some((k) => (k.bloecke || []).some((b) => b.typ === 'merksatz'))
+
 function waehle(thema) {
   const alle = thema.aufgaben || []
-  const g = thema.gewicht || 2
-  const plan = g >= 3 ? { offen: 1, abgrenzung: 1, abruf: 2 } : g === 2 ? { offen: 1, abgrenzung: 1, abruf: 1 } : { offen: 0, abgrenzung: 1, abruf: 1 }
+  // Rückwärts gerechnet (Wissenschaftler, 20.09.2026): Budget 600 Min, Generalprobe 40, Wiederholung rund 100
+  // lassen 460 Min für den ersten Durchgang. Die 164 Lernkarten kosten rund 190 Min, bleiben rund 270 Min für
+  // Aufgaben samt Fehlerschleife (Faktor bis 1,4), also rund 200 Min reine Aufgabenzeit. Das Gewicht der Autoren
+  // trennt nicht (47 von 67 Themen tragen Gewicht 3), deshalb hängt die teure offene Erklärung (150 s) an harten
+  // Merkmalen: Lernstoff-Marke des Dozenten oder Merksatz des Skripts. Jedes Thema bekommt eine Abgrenzung und
+  // einen Abruf; alles Übrige bleibt im Pool für Nachschub, Training und Generalprobe.
+  const offen = (thema.lernstoff || hatMerksatz(thema)) ? 1 : 0
+  const plan = { offen, abgrenzung: 1, abruf: 1 }
   const gewaehlt = []
   const konzepte = new Set()
   const nimm = (kandidaten, n, rang) => {

@@ -110,6 +110,110 @@ export default {
   <path class="d-linie-duenn" d="M 40 1307 L 52 1307"/>
   <text data-label="adaptiv-3" x="60" y="1312" class="d-text-akzent">Änderungen in Verhalten, Werten, Einstellungen erforderlich</text>
 </g>`,
+  viewBoxSchmal: '0 0 360 1380',
+  svgSchmal: `<g>
+  <text data-label="frage" x="180" y="30" text-anchor="middle" class="d-text-titel">Welches Problem liegt vor?</text>
+
+  <text data-label="sp-gomez" x="12" y="70" class="d-text-titel">Gomez/Probst</text>
+  <path class="d-linie-duenn" d="M 12 78 L 128 78"/>
+
+  <rect class="d-flaeche" x="10" y="88" width="340" height="106" rx="10"/>
+  <text data-label="t-einfach" x="22" y="114" class="d-text-fett">einfache Probleme</text>
+  <path class="d-linie-duenn" d="M 24 133 L 36 133"/>
+  <text data-label="einfach-1" x="42" y="138" class="d-text">monokausale Zusammenhänge</text>
+  <path class="d-linie-duenn" d="M 24 155 L 36 155"/>
+  <text data-label="einfach-2" x="42" y="160" class="d-text">eine Antwort, keine Optionen</text>
+  <path class="d-linie-duenn" d="M 24 177 L 36 177"/>
+  <text data-label="einfach-3" x="42" y="182" class="d-text">Routinen, ggf. best practices</text>
+
+  <rect class="d-flaeche" x="10" y="204" width="340" height="128" rx="10"/>
+  <text data-label="t-kompliziert" x="22" y="230" class="d-text-fett">komplizierte Probleme</text>
+  <path class="d-linie-duenn" d="M 24 249 L 36 249"/>
+  <text data-label="kompliziert-1" x="42" y="254" class="d-text">häufig kausale Zusammenhänge</text>
+  <path class="d-linie-duenn" d="M 24 271 L 36 271"/>
+  <text data-label="kompliziert-2" x="42" y="276" class="d-text">mehrere Lösungsoptionen</text>
+  <path class="d-linie-duenn" d="M 24 293 L 36 293"/>
+  <text data-label="kompliziert-3" x="42" y="298" class="d-text">Analyse, Expertenwissen</text>
+  <path class="d-linie-duenn" d="M 24 315 L 36 315"/>
+  <text data-label="kompliziert-4" x="42" y="320" class="d-text">Gefahr: copy/paste!</text>
+
+  <rect class="d-flaeche" x="10" y="342" width="340" height="106" rx="10"/>
+  <text data-label="t-komplex" x="22" y="368" class="d-text-fett">komplexe Probleme</text>
+  <path class="d-linie-duenn" d="M 24 387 L 36 387"/>
+  <text data-label="komplex-1" x="42" y="392" class="d-text">dynamische vernetzte Kausalitäten</text>
+  <path class="d-linie-duenn" d="M 24 409 L 36 409"/>
+  <text data-label="komplex-2" x="42" y="414" class="d-text">umfassender Lösungsraum</text>
+  <path class="d-linie-duenn" d="M 24 431 L 36 431"/>
+  <text data-label="komplex-3" x="42" y="436" class="d-text">systemische Methoden</text>
+
+  <rect class="d-flaeche" x="10" y="458" width="340" height="128" rx="10"/>
+  <text data-label="t-chaotisch" x="22" y="484" class="d-text-fett">chaotische Probleme</text>
+  <path class="d-linie-duenn" d="M 24 503 L 36 503"/>
+  <text data-label="chaotisch-1" x="42" y="508" class="d-text">höchste Umweltdynamik, Stress</text>
+  <path class="d-linie-duenn" d="M 24 525 L 36 525"/>
+  <text data-label="chaotisch-2" x="42" y="530" class="d-text">Engpassfaktor: Zeit</text>
+  <path class="d-linie-duenn" d="M 24 547 L 36 547"/>
+  <text data-label="chaotisch-3" x="42" y="552" class="d-text">autoritäres Management nötig</text>
+  <path class="d-linie-duenn" d="M 24 569 L 36 569"/>
+  <text data-label="chaotisch-4" x="42" y="574" class="d-text">Notfallpläne vorhalten &amp; üben</text>
+
+  <text data-label="sp-grint" x="12" y="630" class="d-text-titel">Grint</text>
+  <path class="d-linie-duenn" d="M 12 638 L 68 638"/>
+
+  <rect class="d-flaeche-2" x="10" y="648" width="340" height="128" rx="10"/>
+  <text data-label="t-tame" x="22" y="674" class="d-text-fett">tame problems</text>
+  <path class="d-linie-duenn" d="M 24 693 L 36 693"/>
+  <text data-label="tame-1" x="42" y="698" class="d-text">wiederkehrende Probleme</text>
+  <path class="d-linie-duenn" d="M 24 715 L 36 715"/>
+  <text data-label="tame-2" x="42" y="720" class="d-text">operationaler Lösungsraum</text>
+  <path class="d-linie-duenn" d="M 24 737 L 36 737"/>
+  <text data-label="tame-3" x="42" y="742" class="d-text">Management/Prozesse/Ratio</text>
+  <path class="d-linie-duenn" d="M 24 759 L 36 759"/>
+  <text data-label="tame-4" x="42" y="764" class="d-text">mittelfristige Wirksamkeit</text>
+
+  <rect class="d-flaeche-2" x="10" y="786" width="340" height="128" rx="10"/>
+  <text data-label="t-wicked" x="22" y="812" class="d-text-fett">wicked problems</text>
+  <path class="d-linie-duenn" d="M 24 831 L 36 831"/>
+  <text data-label="wicked-1" x="42" y="836" class="d-text">komplexe, „unschöne" Probleme</text>
+  <path class="d-linie-duenn" d="M 24 853 L 36 853"/>
+  <text data-label="wicked-2" x="42" y="858" class="d-text">strategischer Lösungsraum</text>
+  <path class="d-linie-duenn" d="M 24 875 L 36 875"/>
+  <text data-label="wicked-3" x="42" y="880" class="d-text">Kollaboration, Fragen stellen</text>
+  <path class="d-linie-duenn" d="M 24 897 L 36 897"/>
+  <text data-label="wicked-4" x="42" y="902" class="d-text">langfristige Wirksamkeit</text>
+
+  <rect class="d-flaeche-2" x="10" y="924" width="340" height="128" rx="10"/>
+  <text data-label="t-critical" x="22" y="950" class="d-text-fett">critical problems</text>
+  <path class="d-linie-duenn" d="M 24 969 L 36 969"/>
+  <text data-label="critical-1" x="42" y="974" class="d-text">plötzliche Krise; Schocksituation</text>
+  <path class="d-linie-duenn" d="M 24 991 L 36 991"/>
+  <text data-label="critical-2" x="42" y="996" class="d-text">taktischer Lösungsraum</text>
+  <path class="d-linie-duenn" d="M 24 1013 L 36 1013"/>
+  <text data-label="critical-3" x="42" y="1018" class="d-text">Kommandos, Antworten geben</text>
+  <path class="d-linie-duenn" d="M 24 1035 L 36 1035"/>
+  <text data-label="critical-4" x="42" y="1040" class="d-text">kurzfristige Wirksamkeit</text>
+
+  <text data-label="sp-heifetz" x="12" y="1096" class="d-text-titel">Heifetz</text>
+  <path class="d-linie-duenn" d="M 12 1104 L 90 1104"/>
+
+  <rect class="d-flaeche-3" x="10" y="1114" width="340" height="106" rx="10"/>
+  <text data-label="t-technisch" x="22" y="1140" class="d-text-fett">technisches Problem</text>
+  <path class="d-linie-duenn" d="M 24 1159 L 36 1159"/>
+  <text data-label="technisch-1" x="42" y="1164" class="d-text">klar abgrenzbares Problem</text>
+  <path class="d-linie-duenn" d="M 24 1181 L 36 1181"/>
+  <text data-label="technisch-2" x="42" y="1186" class="d-text">enger, erlernbarer Lösungsraum</text>
+  <path class="d-linie-duenn" d="M 24 1203 L 36 1203"/>
+  <text data-label="technisch-3" x="42" y="1208" class="d-text">Expertenwissen und -können</text>
+
+  <rect class="d-flaeche-3" x="10" y="1230" width="340" height="134" rx="10"/>
+  <text data-label="t-adaptiv" x="22" y="1256" class="d-text-fett">adaptives Problem</text>
+  <path class="d-linie-duenn" d="M 24 1275 L 36 1275"/>
+  <text data-label="adaptiv-1" x="42" y="1280" class="d-text">Problem z.T. schwer eingrenzbar</text>
+  <path class="d-linie-duenn" d="M 24 1297 L 36 1297"/>
+  <text data-label="adaptiv-2" x="42" y="1302" class="d-text">Lösungsraum nicht sofort evident</text>
+  <path class="d-linie-duenn" d="M 24 1319 L 36 1319"/>
+  <text data-label="adaptiv-3" x="42" y="1324" class="d-text-akzent"><tspan x="42" y="1324">Änderungen in Verhalten, Werten, </tspan><tspan x="42" y="1346">Einstellungen erforderlich</tspan></text>
+</g>`,
   labels: [
     { id: 'frage', text: 'Welches Problem liegt vor?', abfragbar: false, gruppe: 'typen' },
     { id: 'sp-gomez', text: 'Gomez/Probst', abfragbar: false, gruppe: 'typen' },

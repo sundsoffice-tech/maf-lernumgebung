@@ -73,6 +73,16 @@
       "belegQuelle": "folie-50"
     },
     {
+      "begriff": "A short reading list",
+      "text": "Untertitel der Literaturfolie „Mitarbeiterführung & Change Management“. Sie führt 22 Angaben auf, jede mit Autor, Jahr, Titel und Fundstelle (Ort und Verlag bei Büchern, Zeitschrift mit Band, Nummer und Seiten bei Aufsätzen). Inhaltsangaben zu den Werken enthält die Folie nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "beleg": "Mitarbeiterführung & Change Management - A short reading list -",
+      "belegQuelle": "folie-57"
+    },
+    {
       "begriff": "Abgleich Fremdbild/Vorgesetzter",
       "text": "Dritte Phase des Leitfadens: Der Vorgesetzte gibt Feedback, bestätigt und begründet gemeinsame Einschätzungen, lobt, spricht Schwächen sachlich an; die Ursachen für differierende Sichtweisen werden gemeinsam besprochen und geklärt.",
       "folien": [
@@ -145,6 +155,30 @@
       ],
       "beleg": "Für einfache, regelbasierte („algorithmische“) Aufgaben funktionieren „Wenn-dann“-Belohnungen (Zuckerbrot und Peitsche) gut.",
       "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Allzweckwaffe Coaching",
+      "text": "Siebter der sieben Fehler (Folie 83). Viele Unternehmen neigen dazu, ungelöste Probleme auf Personen zu verschieben; die Führungskraft wird ins Coaching geschickt, dabei fehlen Strukturen oder verbindliche Regeln. Erkennungszeichen: Wenn auf einer Position schon mehrere Menschen gescheitert sind oder ähnliche Probleme immer wieder auftauchen, lohnt sich der Fokus aufs System. Als einziger der sieben Punkte ist die Überschrift nur fett, nicht farbig markiert.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "ungelöste Probleme auf Personen zu verschieben",
+      "belegQuelle": "folie-55"
+    },
+    {
+      "begriff": "Amazon Memos",
+      "text": "Eines der sieben Amazon-Prinzipien (Folie 84): Faktenbasierte Analysen für Strategie. Nur mit diesem Halbsatz belegt, nicht ausgeführt.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Amazon Memos: Faktenbasierte Analysen für Strategie",
+      "belegQuelle": "folie-56"
     },
     {
       "begriff": "Ambiguitätstoleranz",
@@ -463,6 +497,18 @@
       "belegQuelle": "folie-34"
     },
     {
+      "begriff": "Bürokratie und Genehmigungsschleifen",
+      "text": "Dritter der sieben Fehler (Folie 82). Mitarbeitende sollen schnell handeln und nach Dringlichkeit priorisieren, gleichzeitig aber Formulare ausfüllen und Genehmigungen einholen. Solche Kontroll- und Berichtsstrukturen bremsen Eigeninitiative und Spitzenleistung aus.",
+      "folien": [
+        82
+      ],
+      "themen": [
+        "m6-t14"
+      ],
+      "beleg": "Solche Kontroll- und Berichtsstrukturen bremsen Eigeninitiative und Spitzenleistung aus.",
+      "belegQuelle": "folie-54"
+    },
+    {
       "begriff": "Bürokratiekrise",
       "text": "Vierte Krise im Phasenschaubild (Folie 35), in Phase 4 „Wachstum durch ‚Koalition, gesteuerte Dynamik, Koordination'“.",
       "folien": [
@@ -607,6 +653,43 @@
       "belegQuelle": "folie-49"
     },
     {
+      "begriff": "Day 1 Mindset",
+      "text": "Haltung, die auf Folie 84 als Antwort auf die Überschrift „KONTINUIERLICH IM START-UP MODUS BLEIBEN“ steht. Sie steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität; Unternehmen, die sie verkörpern, bleiben relevant, wettbewerbsfähig und wachsen nachhaltig. Von Jeff Bezos geprägt und bei Amazon etabliert; sie befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten. Schwerpunkte: Innovation, radikale Kundenzentrierung, schnelle Entscheidungsfindung und Risikobereitschaft.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16",
+        "m6-t17"
+      ],
+      "beleg": "Das Day 1 Mindset steht für Innovationskraft, Kundenzentrierung und dauerhafte Agilität.",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "Day 2 Mentalität",
+      "text": "Gegenstück zum Day 1 Mindset auf Folie 84. Jeff Bezos warnt explizit davor. Sie steht für Stagnation statt Innovation, Bürokratie und Komplexität, Verlust an Kundenfokus und Unternehmergeist sowie den Niedergang der Wettbewerbsfähigkeit. Im Bezos-Zitat: Day 2 bedeutet Trägheit, Bürokratie und den Niedergang eines Unternehmens.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Jeff Bezos warnt explizit vor der Day 2 Mentalität.",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "Deep Work",
+      "text": "Eines der sieben Amazon-Prinzipien (Folie 84): Maximale Konzentration für beste Ergebnisse. Nur mit diesem Halbsatz belegt.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Deep Work: Maximale Konzentration für beste Ergebnisse",
+      "belegQuelle": "folie-56"
+    },
+    {
       "begriff": "Defizitmotive",
       "text": "Bei Maslow die Klammer über die vier unteren Stufen der Pyramide (Individualbedürfnisse, Soziale Bedürfnisse, Sicherheitsbedürfnisse, Physiologische Bedürfnisse). Ihre Befriedigung führt noch nicht zum vollständigen Wohlergehen.",
       "folien": [
@@ -709,6 +792,30 @@
       "belegQuelle": "folie-10"
     },
     {
+      "begriff": "Disagree & Commit",
+      "text": "Eines der sieben Amazon-Prinzipien für Produktivität und Kundenfokus (Folie 84): Schnelle Entscheidungen trotz Meinungsverschiedenheiten. Nur mit diesem Halbsatz belegt, nicht ausgeführt.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Disagree & Commit: Schnelle Entscheidungen trotz Meinungsverschiedenheiten",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "disruptive Lösungen",
+      "text": "Begriff aus dem Praxisbeispiel auf Folie 84: Amazon setzt bei den Lieferprozessen auf disruptive Lösungen wie Drohnenlieferungen und autonome Fahrzeuge. Der FAQ-Teil derselben Folie erklärt sie als innovative Ansätze, die bestehende Märkte oder Prozesse radikal verändern, wie zum Beispiel die Einführung neuer Technologien.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Innovative Ansätze, die bestehende Märkte oder Prozesse radikal verändern",
+      "belegQuelle": "folie-56"
+    },
+    {
       "begriff": "Dissonanzreduktion",
       "text": "Einer der beiden Auswege bei kognitiver Dissonanz: Widersprüche aushalten oder Herstellung Gleichgewicht durch Dissonanzreduktion.",
       "folien": [
@@ -731,6 +838,16 @@
       ],
       "beleg": "Diversity-Aspekte bei Kommunikation/Information beachten!",
       "belegQuelle": "folie-39"
+    },
+    {
+      "begriff": "Dominanz von Status und Ego",
+      "text": "Oberste der fünf Dysfunktionen im rechten Dreieck der Teamperformance-Pyramide („5 Dysfunktionen – to kill“). Sie steht der Funktion Ziel-Orientierung gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Ziel-Orientierung / Dominanz von Status und Ego",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "Double bind",
@@ -757,6 +874,16 @@
       ],
       "beleg": "Dürfen -> soziale Normen",
       "belegQuelle": "folie-21"
+    },
+    {
+      "begriff": "Dysfunktionen eines Teams",
+      "text": "Titel der Abschlussfolie: „Die Kehrseite: Dysfunktionen eines Teams“. Gemeint sind die fünf Begriffe des rechten Dreiecks der Teamperformance-Pyramide, am Rand mit „5 Dysfunktionen – to kill“ bezeichnet: Dominanz von Status und Ego, Niedrige Standards, Zweideutigkeit, Künstliche Harmonie, Fehlende Offenheit. Quelle laut Fußnote: Patrick Lencioni, Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Die Kehrseite: Dysfunktionen eines Teams",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "einfache Probleme",
@@ -821,6 +948,18 @@
       "belegQuelle": "folie-51"
     },
     {
+      "begriff": "Entlernen",
+      "text": "Wort aus dem zweiten Unterpunkt der Zeitfalle: „Vergessenskurve: richtig Lernen & Entlernen“. Auf der Folie unterstrichen. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t13"
+      ],
+      "beleg": "und \"Entlernen\" werden genannt, aber auf dieser Folie nicht erklärt",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräume",
       "text": "Der rot hervorgehobene Schlusssatz der Zusammenfassung (Folie 50) fasst alle genannten Motivatoren in diesem Begriff zusammen: „also Einräumung von Entscheidungs-, Kontroll-, Kontakt- und Tätigkeitsspielräumen\".",
       "folien": [
@@ -843,6 +982,18 @@
       ],
       "beleg": "Tannenbaum/Schmidt — Dimension Entscheidungspartizipation, Stile autoritär, patriarchalisch",
       "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Entscheidungsqualität",
+      "text": "Viertes der sechs Kernprinzipien des Day 1 Mindsets (Folie 84): Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen für effizientes Handeln.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Entscheidungsqualität: Unterscheidung zwischen reversiblen und irreversiblen Entscheidungen für effizientes Handeln.",
+      "belegQuelle": "folie-56"
     },
     {
       "begriff": "Entwicklungstypen",
@@ -917,6 +1068,18 @@
       "belegQuelle": "folie-07"
     },
     {
+      "begriff": "Executives",
+      "text": "Zielgruppe des neunten Punktes der Vorbeugungsliste auf Folie 81: „Coaching für Change/Projekt Manager und Executives“. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "Coaching für Change/Projekt Manager und Executives",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "extrinsische Anreizsysteme",
       "text": "Eines der vier Merkmale bürokratischer Hierarchien auf Folie 53: Sie setzen extrinsische Anreizsysteme ein. Was genau darunter fällt, führt diese Folie nicht aus.",
       "folien": [
@@ -953,6 +1116,18 @@
       "belegQuelle": "folie-24"
     },
     {
+      "begriff": "Feedback (Kongruenzmodell)",
+      "text": "Breiter grauer Pfeil ganz unten im Kongruenzmodell, der über die volle Breite von rechts nach links zeigt und mit gesperrtem fettem Text „F E E D B A C K“ beschriftet ist. Er führt vom Output zurück zum Anfang.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "beschriftet mit gesperrtem fettem Text: \"F  E  E  D  B  A  C  K\"",
+      "belegQuelle": "folie-52"
+    },
+    {
       "begriff": "Feedbackgeber",
       "text": "Die Seite, die Rückmeldung gibt. Die Folie 52 nennt neun Regeln, darunter: ungestört unter 4 Augen, sachlich und klar formulieren und nie auf die Person bezogen, erlebtes Verhalten spiegeln, in Ich-Botschaften sprechen, ausgewogen bleiben, nicht werten und selbst ebenfalls Feedback annehmen.",
       "folien": [
@@ -977,6 +1152,16 @@
       "belegQuelle": "folie-24"
     },
     {
+      "begriff": "Fehlende Offenheit",
+      "text": "Unterste der fünf Dysfunktionen im rechten Dreieck der Teamperformance-Pyramide. Sie steht der Funktion Vertrauen gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Vertrauen / Fehlende Offenheit",
+      "belegQuelle": "folie-58"
+    },
+    {
       "begriff": "Finger Pointing",
       "text": "Eines der sechs Warnsignale für gestörte Kommunikation auf Folie 65. Der Begriff wird nur genannt, nicht erklärt.",
       "folien": [
@@ -987,6 +1172,20 @@
       ],
       "beleg": "Rechtfertigen, Absichern, Finger Pointing, aggressives Auftreten, Ausweichen, permanente Wiederholung",
       "belegQuelle": "folie-37"
+    },
+    {
+      "begriff": "Fix the system, not the people!",
+      "text": "Eigene rote Zeile des Dozenten über dem eingefügten Artikel, auf den Folien 82 und 83 identisch. Sie fasst die Position von Judith Muster zusammen: Häufig bremsen nicht Menschen, sondern die Strukturen, in denen sie arbeiten; Leistung ist vor allem das Ergebnis kluger Organisation. Das Skript schreibt „Fix“, nicht „Change“.",
+      "folien": [
+        82,
+        83
+      ],
+      "themen": [
+        "m6-t14",
+        "m6-t15"
+      ],
+      "beleg": "Fix the system, not the people!",
+      "belegQuelle": "folie-54"
     },
     {
       "begriff": "FK",
@@ -1015,6 +1214,18 @@
       ],
       "beleg": "Fokus der Kommunikation auf",
       "belegQuelle": "folie-36"
+    },
+    {
+      "begriff": "Formelle Organisation",
+      "text": "Rechter der vier mittleren Kästen im Kongruenzmodell. Von ihm geht grafisch als einzigem der Ausgangspfeil zum Output aus. Der Begriff wird auf der Folie nicht erläutert.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "rechts: \"Formelle Organisation\"",
+      "belegQuelle": "folie-52"
     },
     {
       "begriff": "Forming",
@@ -1187,6 +1398,16 @@
       "belegQuelle": "folie-43"
     },
     {
+      "begriff": "Gegenseitige Verantwortlichkeit",
+      "text": "Zweite Funktion von oben im linken Dreieck der Teamperformance-Pyramide. Auf gleicher Höhe steht ihr die Dysfunktion Niedrige Standards gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Gegenseitige Verantwortlichkeit / Niedrige Standards",
+      "belegQuelle": "folie-58"
+    },
+    {
       "begriff": "Gruppendenken",
       "text": "Anpassung der eigenen Meinung an eine erwartete Gruppenmeinung. Das Streben nach Einmütigkeit korrumpiert die Fähigkeit der Bewertung von realistischen Alternativen; in Unternehmen wie in Politik zu beobachten; es kommt zur irrationalen Abschottung von Umwelt und gegenteiligen Meinungen (geschlossenes System).",
       "folien": [
@@ -1347,6 +1568,18 @@
       "belegQuelle": "folie-10"
     },
     {
+      "begriff": "Informelle Organisation",
+      "text": "Oberer der vier mittleren Kästen im Kongruenzmodell, mit einem dicken roten Oval umkreist. Verbunden mit Menschen (senkrechter Doppelpfeil) sowie mit Prozessen und Formeller Organisation (diagonale Doppelpfeile). Warum die Folie ihn hervorhebt und was der Begriff inhaltlich bedeutet, steht nicht auf der Folie.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "oben: \"Informelle Organisation\" — dieser Kasten ist mit einem dicken roten Oval umkreist",
+      "belegQuelle": "folie-52"
+    },
+    {
       "begriff": "Inhaltstheorien",
       "text": "Sammelname des Skripts (Folien 46 bis 48) für die bedürfnisorientierten Motivationstheorien von Maslow und Herzberg. Der Begriff steht auf Folie 46 in Anführungszeichen und wird dort nicht definiert.",
       "folien": [
@@ -1373,6 +1606,42 @@
       ],
       "beleg": "Initiating Structure (Aufgabenorientierung) und Consideration (Mitarbeiterorientierung)",
       "belegQuelle": "folie-11"
+    },
+    {
+      "begriff": "Innovationskultur",
+      "text": "Fünftes der sechs Kernprinzipien des Day 1 Mindsets (Folie 84): Kontinuierliches Experimentieren, Lernen und Mut zu Neuem.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Innovationskultur: Kontinuierliches Experimentieren, Lernen und Mut zu Neuem.",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "Input (Kongruenzmodell)",
+      "text": "Hoher Kasten links im Kongruenzmodell mit den drei Begriffen Umwelt, Ressourcen und Geschichte. Die drei Begriffe werden auf der Folie nur genannt, nicht erläutert.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "oben fett beschriftet \"Input\", darunter untereinander: \"Umwelt\", \"Ressourcen\", \"Geschichte\"",
+      "belegQuelle": "folie-52"
+    },
+    {
+      "begriff": "Interessenvertretungen",
+      "text": "Vierter Punkt der Vorbeugungsliste auf Folie 81: „Interessenvertretungen frühzeitig einbeziehen“. Wer damit gemeint ist, führt die Folie nicht aus.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "Interessenvertretungen frühzeitig einbeziehen",
+      "belegQuelle": "folie-53"
     },
     {
       "begriff": "Interne (MA)-Kommunikation",
@@ -1500,6 +1769,18 @@
       "belegQuelle": "folie-31"
     },
     {
+      "begriff": "Kollegialitätsnormen",
+      "text": "Vierter der sieben Fehler (Folie 83). Sie stehen in keinem Organigramm und Regelwerk, dennoch gibt es in jedem Unternehmen kulturelle Gepflogenheiten. Sie können dazu führen, dass Menschen ihr Engagement bewusst dosieren, um bei anderen Teammitgliedern nicht anzuecken. Zweites Beispiel: Scrum-Teams veranschlagen mehr Aufwand, um Puffer zu haben.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "Sie stehen in keinem Organigramm und Regelwerk, dennoch gibt es in jedem Unternehmen kulturelle Gepflogenheiten.",
+      "belegQuelle": "folie-55"
+    },
+    {
       "begriff": "Kommunikation = Führungsinstrument",
       "text": "Schlussfolgerung des Skripts auf Folie 63: Offene und häufige Kommunikation beugt schlechter Stimmung vor und trägt zu Identifikation und Zufriedenheit bei. Folie 64 nennt Kommunikation entsprechend ein zentrales Führungsinstrument, das zum Erhalt der Motivation beiträgt.",
       "folien": [
@@ -1566,6 +1847,16 @@
       "belegQuelle": "folie-49"
     },
     {
+      "begriff": "Konfliktbereitschaft",
+      "text": "Vierte Funktion von oben im linken Dreieck der Teamperformance-Pyramide. Auf gleicher Höhe steht ihr die Dysfunktion Künstliche Harmonie gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Konfliktbereitschaft / Künstliche Harmonie",
+      "belegQuelle": "folie-58"
+    },
+    {
       "begriff": "Konformität",
       "text": "Begriff aus den beiden Videos, die Folie 58 verlinkt: das Anpassen des eigenen Verhaltens an die Gruppe, auch gegen die eigene Wahrnehmung. Laut dem Video Brain Games ist Konformität ein zentraler Mechanismus der Sozialisation, kann aber auch schlechte Gewohnheiten oder wiederholte Fehler perpetuieren.",
       "folien": [
@@ -1590,6 +1881,18 @@
       ],
       "beleg": "Ähnlichkeiten erzeugen Konformitätsdruck gegenüber abweichendem Verhalten/Meinungsbild",
       "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Kongruenzmodell",
+      "text": "Modell der systemischen Sicht auf Folie 80: „Kongruenzmodell nach Nadler/Tushman (1997)“. Es liest ein Unternehmen von links nach rechts: Input (Umwelt, Ressourcen, Geschichte), ein Pfeil „Strategie“ in vier durch Doppelpfeile verbundene Elemente (Informelle Organisation, Prozesse, Formelle Organisation, Menschen), daraus der Output (Individuum, Team, Organisation) und ein Feedback-Pfeil über die volle Breite zurück.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "Kongruenzmodell nach Nadler/Tushman (1997)",
+      "belegQuelle": "folie-52"
     },
     {
       "begriff": "Können",
@@ -1666,6 +1969,20 @@
       "belegQuelle": "folie-07"
     },
     {
+      "begriff": "KPIs",
+      "text": "Auf Folie 81: „KPIs vor Projektbeginn festlegen (Fehlerraten von 70-90%!?)“. Auf Folie 83 noch einmal genannt: Viele Unternehmen optimieren stark auf messbare KPIs und die individuelle Ebene. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81,
+        83
+      ],
+      "themen": [
+        "m6-t12",
+        "m6-t15"
+      ],
+      "beleg": "KPIs vor Projektbeginn festlegen (Fehlerraten von 70-90%!?)",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "Kritische Erfolgsfaktoren für Gruppen",
       "text": "Überschrift der Folie 56. Als Punkt 2.) nennt das Skript dort Strukturen und Normen. Einen Punkt 1.) zeigt diese Folie nicht.",
       "folien": [
@@ -1702,6 +2019,28 @@
       "belegQuelle": "folie-09"
     },
     {
+      "begriff": "Kundenzentrierung",
+      "text": "Erstes der sechs Kernprinzipien des Day 1 Mindsets bei Amazon (Folie 84): Kundenbedürfnisse bestimmen jede Entscheidung.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Kundenzentrierung: Kundenbedürfnisse bestimmen jede Entscheidung.",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "Künstliche Harmonie",
+      "text": "Vierte Dysfunktion von oben im rechten Dreieck der Teamperformance-Pyramide. Sie steht der Funktion Konfliktbereitschaft gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Konfliktbereitschaft / Künstliche Harmonie",
+      "belegQuelle": "folie-58"
+    },
+    {
       "begriff": "laissez-faire",
       "text": "Einer der drei grundlegenden Führungsstile. Verhalten: Verzicht auf Leitung, Passivität, Unverbindlichkeit in Bezug auf Ziele und deren Durchsetzung, Nachgiebigkeit. Folgen: Ratlosigkeit, Regression und Verwahrlosung, Cliquenbildung und Zerfall, Wunsch nach autoritärer Leitung.",
       "folien": [
@@ -1714,6 +2053,18 @@
       ],
       "beleg": "Verzicht auf Leitung: Passivität",
       "belegQuelle": "folie-13"
+    },
+    {
+      "begriff": "lateral",
+      "text": "Wort aus dem Artikel auf Folie 82: „Lateral können solche Streitigkeiten dauerhaft kaum gelöst werden.“ Der Begriff wird weder im Artikel noch auf der Folie erklärt.",
+      "folien": [
+        82
+      ],
+      "themen": [
+        "m6-t14"
+      ],
+      "beleg": "Der Begriff „Lateral“ (im Sinne lateraler Führung) wird verwendet, aber nicht erklärt.",
+      "belegQuelle": "folie-54"
     },
     {
       "begriff": "laterale Führung",
@@ -1824,6 +2175,18 @@
       ],
       "beleg": "Management-Aufgaben Information/Kommunikation/Einbinden Aufbau Fähigkeiten/Tools/Durchbruchsthemen Coaching Controlling/Monitoring",
       "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Menschen",
+      "text": "Unterer der vier mittleren Kästen im Kongruenzmodell, über Doppelpfeile mit Informeller Organisation, Prozessen und Formeller Organisation verbunden. Der Begriff wird auf der Folie nicht erläutert.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "unten: \"Menschen\"",
+      "belegQuelle": "folie-52"
     },
     {
       "begriff": "Menschenbild",
@@ -2014,6 +2377,18 @@
       "belegQuelle": "folie-46"
     },
     {
+      "begriff": "Narrative Kommunikation",
+      "text": "Eines der sieben Amazon-Prinzipien (Folie 84): Effektivere Entscheidungen durch strukturierte Texte. Nur mit diesem Halbsatz belegt, nicht ausgeführt.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Narrative Kommunikation: Effektivere Entscheidungen durch strukturierte Texte",
+      "belegQuelle": "folie-56"
+    },
+    {
       "begriff": "Neben-, Rück- und Folgewirkungen",
       "text": "Zweite Zeile des Merksatzes auf Folie 76: Zur Problemklärung gehört, diese Wirkungen zu ermitteln. Die Folie erklärt die drei Begriffe nicht weiter.",
       "folien": [
@@ -2060,6 +2435,16 @@
       ],
       "beleg": "Nicht-Wollen -> grds. Ablehnung von Neuem, Change, Innovation",
       "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Niedrige Standards",
+      "text": "Zweite Dysfunktion von oben im rechten Dreieck der Teamperformance-Pyramide. Sie steht der Funktion Gegenseitige Verantwortlichkeit gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Gegenseitige Verantwortlichkeit / Niedrige Standards",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "Nimbus-Effekt",
@@ -2110,6 +2495,18 @@
       "belegQuelle": "folie-27"
     },
     {
+      "begriff": "Null-Fehler-Kultur",
+      "text": "Erwartungsstruktur, die sich laut Folie 83 in ingenieursgetriebenen oder sicherheitskritischen Organisationen entwickelt. Der Begriff wird genannt, aber nicht erklärt.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "„Scrum-Teams“, „KPIs“ und „Null-Fehler-Kultur“ werden genannt, aber nicht erklärt.",
+      "belegQuelle": "folie-55"
+    },
+    {
       "begriff": "ökonomische Bedürfnisse",
       "text": "Innere Klammer auf Folie 46 über die Sicherheitsbedürfnisse und die Physiologischen Bedürfnisse. In existenzbedrohender Lage treten sie wieder in den Vordergrund.",
       "folien": [
@@ -2158,6 +2555,18 @@
       "belegQuelle": "folie-06"
     },
     {
+      "begriff": "organisatorische Entropie",
+      "text": "Titelbegriff der Folie 84: „‚organisatorischer Entropie‘ begegnen“. Der Begriff stammt vom Dozenten, steht nur in der Folienüberschrift und wird auf der Folie nicht erklärt; in der eingebetteten Quelle kommt er nicht vor. Er wird hier deshalb nicht gedeutet.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Der Titelbegriff „organisatorischer Entropie“ wird in Anführungszeichen genannt, auf der Folie aber nicht erklärt.",
+      "belegQuelle": "folie-56"
+    },
+    {
       "begriff": "organisatorischer Rahmen",
       "text": "Zweites Bündel der Faktoren, die zur Gruppenbildung beitragen: räumliche Nähe der Mitglieder, Förderung direkter Kommunikation und Formalisierung der Kommunikation, Inhaltliche Strukturierung.",
       "folien": [
@@ -2168,6 +2577,18 @@
       ],
       "beleg": "räumliche Nähe der Mitglieder … Förderung direkter Kommunikation und Formalisierung der Kommunikation",
       "belegQuelle": "folie-26"
+    },
+    {
+      "begriff": "Output (Kongruenzmodell)",
+      "text": "Hoher Kasten rechts im Kongruenzmodell mit den drei Begriffen Individuum, Team und Organisation. Auch diese drei werden nur genannt, nicht erläutert.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "oben fett beschriftet \"Output\", darunter untereinander: \"Individuum\", \"Team\", \"Organisation\"",
+      "belegQuelle": "folie-52"
     },
     {
       "begriff": "Passive resistance",
@@ -2204,6 +2625,18 @@
       ],
       "beleg": "verkehrte Stellenbesetzungen, inadäquate PE-Maßnahmen erhöhen Demotivation",
       "belegQuelle": "folie-43"
+    },
+    {
+      "begriff": "Performancekiller",
+      "text": "Wort aus dem Zitat von Judith Muster auf Folie 82: „Ressourcenkonflikte sind ein verbreiteter Performancekiller“.",
+      "folien": [
+        82
+      ],
+      "themen": [
+        "m6-t14"
+      ],
+      "beleg": "Ressourcenkonflikte sind ein verbreiteter Performancekiller",
+      "belegQuelle": "folie-54"
     },
     {
       "begriff": "Performing",
@@ -2266,6 +2699,30 @@
       "belegQuelle": "folie-03"
     },
     {
+      "begriff": "Phasenverschiebung Kompetenz",
+      "text": "Erster Unterpunkt der Zeitfalle. Die Abbildung oben rechts auf Folie 81 zeigt drei wellenförmige Kurven der wahrgenommenen Kompetenz über die Zeit, zeitversetzt gegeneinander: Top Management (blau) zuerst, Middle Management (grün) danach, Mitarbeiter (rot) zuletzt. Jede Kurve fällt zunächst ab, schwingt in mehreren Wellen, steigt dann an und flacht rechts oben ab.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t13"
+      ],
+      "beleg": "1.) Phasenverschiebung Kompetenz",
+      "belegQuelle": "folie-53"
+    },
+    {
+      "begriff": "pre-Projekt-Checks",
+      "text": "Dritter Punkt der Vorbeugungsliste auf Folie 81: „hinreichende pre-Projekt-Checks (Readiness, Sponsoren, Promotoren, Skills/Erfahrungen, …)“. Die vier Beispiele in Klammern gehören zum Begriff, weiter erklärt wird er nicht.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "hinreichende pre-Projekt-Checks (Readiness, Sponsoren, Promotoren, Skills/Erfahrungen",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "Primacy-/Recency-Effekt",
       "text": "In einer Reihe aufeinander folgender Beobachtungen/Informationen bleiben vor allem die erste und die letzte haften.",
       "folien": [
@@ -2276,6 +2733,18 @@
       ],
       "beleg": "in Reihe aufeinander folgender Beobachtungen/Informationen bleiben v.a. erste und letzte haften!",
       "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Priorisierungsstress",
+      "text": "Folge widersprüchlicher Ziele laut Artikel auf Folie 82; er wird dort als „Leistungskiller“ bezeichnet.",
+      "folien": [
+        82
+      ],
+      "themen": [
+        "m6-t14"
+      ],
+      "beleg": "entsteht Priorisierungsstress. Ein Leistungskiller.",
+      "belegQuelle": "folie-54"
     },
     {
       "begriff": "Problemkonsens vor Lösungskonsens",
@@ -2300,6 +2769,30 @@
       ],
       "beleg": "Projekt-Phasen: Entscheidung Ankündigung Konzeption Umsetzung Roll-out",
       "belegQuelle": "folie-50"
+    },
+    {
+      "begriff": "Promotoren",
+      "text": "Drittes Beispiel in der Klammer hinter den pre-Projekt-Checks auf Folie 81, neben Readiness, Sponsoren und Skills/Erfahrungen. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "Readiness, Sponsoren, Promotoren, Skills/Erfahrungen",
+      "belegQuelle": "folie-53"
+    },
+    {
+      "begriff": "Prozesse",
+      "text": "Linker der vier mittleren Kästen im Kongruenzmodell. Nur zu ihm führt grafisch der Eingangspfeil „Strategie“. Der Begriff wird auf der Folie nicht erläutert.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "links: \"Prozesse\"",
+      "belegQuelle": "folie-52"
     },
     {
       "begriff": "Prozessgewinne",
@@ -2350,6 +2843,18 @@
       "belegQuelle": "folie-27"
     },
     {
+      "begriff": "Readiness",
+      "text": "Erstes Beispiel in der Klammer hinter den pre-Projekt-Checks auf Folie 81. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "\"Readiness\", \"Promotoren\", \"safe spaces\"",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "Regel-Kommunikation",
       "text": "Laut Skript bei der MAF erforderlich: Kommunikation erhält Motivation, FK und MA benötigen jedoch gegenseitige und rechtzeitige Information. Regelmäßige und häufige Kommunikation beugt Informationsdefiziten und Missverständnissen vor und verhilft zu besser informierten Entscheidungen.",
       "folien": [
@@ -2374,6 +2879,16 @@
       "belegQuelle": "folie-45"
     },
     {
+      "begriff": "Repetitorium",
+      "text": "So nennt das Skript die Abschlussveranstaltung, die den Stoff der Vorlesungen I bis VI zusammenfasst. Die Titelfolie trägt die Zeile „Repetitorium Vorlesungen I - VI“ und den Hinweis, dass alle nachfolgenden Folien den ursprünglichen Vorlesungen entnommen wurden.",
+      "folien": [],
+      "themen": [
+        "m7-t1"
+      ],
+      "beleg": "Repetitorium Vorlesungen I - VI",
+      "belegQuelle": "folie-01"
+    },
+    {
       "begriff": "Repression/Sensitization",
       "text": "Viertes der genannten Persönlichkeitskonstrukte. Das Skript nennt es nur; eine Erklärung steht dort nicht.",
       "folien": [
@@ -2396,6 +2911,18 @@
       ],
       "beleg": "Empathie, Perspektivenwechsel, Resilienz,",
       "belegQuelle": "folie-51"
+    },
+    {
+      "begriff": "Ressourcenkonflikte",
+      "text": "Zweiter der sieben Fehler (Folie 82). Zwei Teamleiter ringen um dieselben Forschungs- und Entwicklungsressourcen und machen ihren Job damit richtig gut; sie zeigen Ehrgeiz und Engagement. Lateral sind solche Streitigkeiten dauerhaft kaum lösbar, ständiges Neuverhandeln kostet Zeit und Energie. Abhilfe laut Artikel: formale Wege zum Verhandeln etablieren und Räume schaffen, in denen Streitfragen mit offenem Visier geklärt werden.",
+      "folien": [
+        82
+      ],
+      "themen": [
+        "m6-t14"
+      ],
+      "beleg": "„Ressourcenkonflikte sind ein verbreiteter Performancekiller“, sagt Judith Muster.",
+      "belegQuelle": "folie-54"
     },
     {
       "begriff": "Revolution",
@@ -2434,6 +2961,18 @@
       "belegQuelle": "folie-32"
     },
     {
+      "begriff": "Risikobereitschaft",
+      "text": "Sechstes der sechs Kernprinzipien des Day 1 Mindsets (Folie 84): Fehler gelten als Lernchance.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Risikobereitschaft: Fehler gelten als Lernchance.",
+      "belegQuelle": "folie-56"
+    },
+    {
       "begriff": "Risikoschub",
       "text": "Im Skript auch **risky shift**: Gruppen gehen bei Entscheidungen höhere Risiken ein als Einzelne, Gruppen sind i.a. risikofreudiger. Gründe laut Skript: Konformitätsdruck, Hochschaukeln, Selbstüberschätzung der Gruppe, Verteilung der Risiken auf mehrere Schultern (Sozialisierung), Rolleneinfluss der Starken („Wir schaffen das!“).",
       "folien": [
@@ -2446,6 +2985,18 @@
       "belegQuelle": "folie-32"
     },
     {
+      "begriff": "safe spaces",
+      "text": "Sechster Punkt der Vorbeugungsliste auf Folie 81: „schützende Umgebung etablieren (safe spaces)“. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "schützende Umgebung etablieren (safe spaces)",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "Sandwich-Kandidaten",
       "text": "Kandidaten, die in einer Reihe „dazwischen“ rutschen. Sie werden tendenziell pauschal bewertet, während erster und letzter Kandidat eher aussagekräftigere oder extremere Bewertungen erhalten.",
       "folien": [
@@ -2456,6 +3007,30 @@
       ],
       "beleg": "Risiko für „Sandwich-Kandidaten“, die „dazwischen“ rutschen",
       "belegQuelle": "folie-45"
+    },
+    {
+      "begriff": "Schnelligkeit & Agilität",
+      "text": "Zweites der sechs Kernprinzipien des Day 1 Mindsets (Folie 84): Entscheidungsprozesse erfolgen zügig und marktnah.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Schnelligkeit & Agilität: Entscheidungsprozesse erfolgen zügig und marktnah.",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "Scrum-Teams",
+      "text": "Beispiel für eine informelle Norm auf Folie 83: Scrum-Teams veranschlagen häufig für einzelne Schritte mehr Aufwand, um Puffer zu haben. Der Begriff selbst wird nicht erklärt.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "Scrum-Teams veranschlagen häufig für einzelne Schritte mehr Aufwand, um Puffer zu haben.",
+      "belegQuelle": "folie-55"
     },
     {
       "begriff": "Selbst-Führung",
@@ -2492,6 +3067,28 @@
       ],
       "beleg": "MA liefert Begründungen für positive und negative Einschätzungen",
       "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "Selbstoptimierungsdruck",
+      "text": "Folge von Zielsystemen laut Folie 83: „Kooperation wird verhindert, da die Zielsysteme Selbstoptimierungsdruck erzeugen.“",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "Kooperation wird verhindert, da die Zielsysteme Selbstoptimierungsdruck erzeugen.",
+      "belegQuelle": "folie-55"
+    },
+    {
+      "begriff": "Selbstverpflichtung",
+      "text": "Dritte Funktion von oben im linken Dreieck der Teamperformance-Pyramide, also die mittlere Ebene. Auf gleicher Höhe steht ihr die Dysfunktion Zweideutigkeit gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Selbstverpflichtung / Zweideutigkeit",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "selektive Wahrnehmung",
@@ -2552,6 +3149,18 @@
       ],
       "beleg": "eindeutig und klar formulieren (Ausnahmen situativ möglich), zur rechten Zeit am rechten Ort/Kanal",
       "belegQuelle": "folie-38"
+    },
+    {
+      "begriff": "Silent Meetings",
+      "text": "Eines der sieben Amazon-Prinzipien (Folie 84): Effizientere Meetings mit schriftlicher Vorbereitung. Nur mit diesem Halbsatz belegt, nicht ausgeführt.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Silent Meetings: Effizientere Meetings mit schriftlicher Vorbereitung",
+      "belegQuelle": "folie-56"
     },
     {
       "begriff": "Silodenken",
@@ -2710,6 +3319,18 @@
       "belegQuelle": "extern-gruppendruck"
     },
     {
+      "begriff": "Stakeholder Management",
+      "text": "Siebter Punkt der Vorbeugungsliste auf Folie 81: „umfassendes Stakeholder Management“. Im Skript nur genannt, nicht erklärt.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "umfassendes Stakeholder Management",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "STAR-Technik",
       "text": "Zweites Mittel neben der 2-Schritt-Technik: Situation - Task - Action - Result. Das Skript nennt die vier Schritte, erklärt sie aber nicht.",
       "folien": [
@@ -2744,6 +3365,18 @@
       ],
       "beleg": "Reibungen, … Einüben des Funktionierens",
       "belegQuelle": "folie-27"
+    },
+    {
+      "begriff": "Strategie (Kongruenzmodell)",
+      "text": "Beschriftung des breiten grauen Pfeils, der im Kongruenzmodell vom Input nach rechts in die Mitte führt, grafisch zum Kasten Prozesse.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "ein breiter grauer Pfeil nach rechts, auf dem fett das Wort \"Strategie\" steht",
+      "belegQuelle": "folie-52"
     },
     {
       "begriff": "Struktur",
@@ -2830,6 +3463,18 @@
       "belegQuelle": "folie-49"
     },
     {
+      "begriff": "systemische Sicht",
+      "text": "Unterzeile der Folie 80: „Traditionelles Vorgehen im akuten Change V: Die systemische Sicht“. Unter ihr steht das Kongruenzmodell. Eine eigene Definition des Ausdrucks gibt die Folie nicht.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "beleg": "Traditionelles Vorgehen im akuten Change V: Die systemische Sicht",
+      "belegQuelle": "folie-52"
+    },
+    {
       "begriff": "Szenario-Fragen",
       "text": "Untaugliche Standardfrage in der Form „Stellen Sie sich vor...“. Sie fragt nach einer gedachten Lage statt nach tatsächlich gezeigtem Verhalten.",
       "folien": [
@@ -2854,6 +3499,28 @@
       ],
       "beleg": "tame problems: … wiederkehrende Probleme",
       "belegQuelle": "folie-49"
+    },
+    {
+      "begriff": "Tandems",
+      "text": "Erstes Element der passenden Projektstruktur auf Folie 81: „Tandems bilden“. Wie ein Tandem besetzt wird, sagt die Folie nicht.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "passende Projektstruktur: Tandems bilden, Verantwortung nicht sozialisieren, ausgewogenes Reporting",
+      "belegQuelle": "folie-53"
+    },
+    {
+      "begriff": "Teamperformance-Pyramide",
+      "text": "Fette Überschrift der Abbildung auf der Abschlussfolie. Die Grafik besteht aus zwei ineinandergeschobenen Dreiecken: links ein dunkelblau gefülltes Dreieck mit der Spitze nach oben (die fünf Funktionen), rechts ein nur als Umrisslinie gezeichnetes Dreieck mit der Spitze nach unten (die fünf Dysfunktionen). Beide sind in fünf waagerechte Ebenen geteilt, die auf gleicher Höhe liegen und einander paarweise gegenüberstehen.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Abbildung „Teamperformance-Pyramide“ (Überschrift über der Grafik, fett)",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "technisches Problem",
@@ -2968,6 +3635,18 @@
       "belegQuelle": "folie-11"
     },
     {
+      "begriff": "Trendorientierung",
+      "text": "Drittes der sechs Kernprinzipien des Day 1 Mindsets (Folie 84): Entwicklungen werden früh erkannt und aktiv gestaltet.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16"
+      ],
+      "beleg": "Trendorientierung: Entwicklungen werden früh erkannt und aktiv gestaltet.",
+      "belegQuelle": "folie-56"
+    },
+    {
       "begriff": "Trittbrettfahrer (free rider)",
       "text": "Prozessverlust: Einzelne drücken sich vor Einsatz zur Zielerreichung auf Kosten der anderen.",
       "folien": [
@@ -2990,6 +3669,18 @@
       ],
       "beleg": "Überlegenheit: der Wunsch, besser und besser bei etwas Bedeutungsvollem zu werden.",
       "belegQuelle": "extern-pink"
+    },
+    {
+      "begriff": "Überzogene Perfektion",
+      "text": "Sechster der sieben Fehler (Folie 83). In ingenieursgetriebenen Organisationen oder solchen mit hohen Sicherheitsstandards entwickelt sich häufig eine Null-Fehler-Kultur. Diese Erwartungsstruktur ist für manche Bereiche unverzichtbar (Beispiel: Bremssysteme), schwappt aber auf andere Bereiche über. Folge: Mitarbeitende sichern alles mehrfach ab, statt zügig zu entscheiden.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "Mitarbeitende sichern alles mehrfach ab, statt zügig zu entscheiden",
+      "belegQuelle": "folie-55"
     },
     {
       "begriff": "unerwünschte Fluktuation",
@@ -3016,6 +3707,30 @@
       "belegQuelle": "folie-41"
     },
     {
+      "begriff": "Verantwortung nicht sozialisieren",
+      "text": "Teil des achten Punktes der Vorbeugungsliste auf Folie 81: „passende Projektstruktur: Tandems bilden, Verantwortung nicht sozialisieren, ausgewogenes Reporting“. Der Ausdruck wird ohne Erklärung verwendet.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12"
+      ],
+      "beleg": "\"Verantwortung nicht sozialisieren\" wird ohne Erklärung verwendet.",
+      "belegQuelle": "folie-53"
+    },
+    {
+      "begriff": "Vergessenskurve",
+      "text": "Zweiter Unterpunkt der Zeitfalle, bebildert durch eine eingebettete Schwarz-Weiß-Grafik „(nach Maddox)“ auf Folie 81. Senkrechte Achse 0 bis 100, waagerechte Achse bis 15 Tage. Vier abfallende Kurven: Gesetzmäßigkeit, Prinzipien (läuft knapp unter 100 aus), Gedichte (knapp unter 50), Prosatext (knapp unter 20), sinnlos Gelerntes (unterste Kurve).",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t13"
+      ],
+      "beleg": "Überschrift oben links im Bild: \"Vergessenskurve\"",
+      "belegQuelle": "folie-53"
+    },
+    {
       "begriff": "Vergleich",
       "text": "Zweiter der drei Mechanismen: Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen.",
       "folien": [
@@ -3026,6 +3741,16 @@
       ],
       "beleg": "Mitglieder erkennen zwar nachteilige Gruppennormen, wollen sich aber keinem sozialen Druck aussetzen",
       "belegQuelle": "folie-31"
+    },
+    {
+      "begriff": "Vertrauen",
+      "text": "Unterste der fünf Funktionen im linken Dreieck der Teamperformance-Pyramide. Auf gleicher Höhe steht ihr die Dysfunktion Fehlende Offenheit gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Vertrauen / Fehlende Offenheit",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "Verzerrte Maßstabsanwendung",
@@ -3200,6 +3925,18 @@
       "belegQuelle": "folie-49"
     },
     {
+      "begriff": "Widersprüchliche Ziele",
+      "text": "Erster der sieben Fehler nach Judith Muster (Folie 82). In vielen Unternehmen laufen verschiedene Ziele gegeneinander, statt sich gegenseitig zu verstärken. Beispiel: Teams sollen gleichzeitig das Bestandsgeschäft stabilisieren und neue Geschäftsmodelle entwickeln. Es entsteht Priorisierungsstress. Ein Leistungskiller.",
+      "folien": [
+        82
+      ],
+      "themen": [
+        "m6-t14"
+      ],
+      "beleg": "In vielen Unternehmen laufen verschiedene Ziele gegeneinander, statt sich gegenseitig zu verstärken.",
+      "belegQuelle": "folie-54"
+    },
+    {
       "begriff": "Wiederaufwertung niedrigerer Bedürfnisse",
       "text": "Regel auf Folie 46: Wird eine Kategorie nicht befriedigt, gewinnen die niedrigeren Bedürfnisse wieder an Gewicht. Beispiel der Folie: diffuse Ängste und Hamsterkäufe während CoViD19.",
       "folien": [
@@ -3238,6 +3975,30 @@
       "belegQuelle": "folie-21"
     },
     {
+      "begriff": "Working Backwards",
+      "text": "Eines der sieben Amazon-Prinzipien (Folie 84): Konsequente Kundenorientierung. Nur mit diesem Halbsatz belegt, nicht ausgeführt.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t17"
+      ],
+      "beleg": "Working Backwards: Konsequente Kundenorientierung",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "begriff": "You get what you measure",
+      "text": "Zitat von Judith Muster auf Folie 83, im fünften Fehler (Ziele mit Scheuklappeneffekt). Es steht für die ungeplanten Nebenwirkungen von Zielsystemen: Gemessen wird ein Ausschnitt, und genau dieser Ausschnitt wird optimiert.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "„You get what you measure“, sagt Muster.",
+      "belegQuelle": "folie-55"
+    },
+    {
       "begriff": "ZEG",
       "text": "Kürzel in der Überschrift „Beurteilung/ZEG richtig führen“. Auf der Folie wird es weder ausgeschrieben noch erklärt.",
       "folien": [
@@ -3248,6 +4009,19 @@
       ],
       "beleg": "Beurteilung/ZEG richtig führen",
       "belegQuelle": "folie-42"
+    },
+    {
+      "begriff": "Zeitfalle",
+      "text": "Fünfter und einziger rot gesetzter Punkt der Vorbeugungsliste auf Folie 81: „Zeitfalle beherrschen: 1.) Phasenverschiebung Kompetenz 2.) Vergessenskurve: richtig Lernen & Entlernen“. Der Text der Folie führt die beiden Unterpunkte nicht aus, sie werden nur durch die zwei Abbildungen rechts bebildert.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t12",
+        "m6-t13"
+      ],
+      "beleg": "Zeitfalle beherrschen:",
+      "belegQuelle": "folie-53"
     },
     {
       "begriff": "zentrale Führungsaufgaben",
@@ -3262,6 +4036,28 @@
       "belegQuelle": "folie-10"
     },
     {
+      "begriff": "Ziel-Orientierung",
+      "text": "Oberste der fünf Funktionen im linken Dreieck der Teamperformance-Pyramide („5 Funktionen – to do“). Auf gleicher Höhe steht ihr die Dysfunktion Dominanz von Status und Ego gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Ziel-Orientierung / Dominanz von Status und Ego",
+      "belegQuelle": "folie-58"
+    },
+    {
+      "begriff": "Ziele mit Scheuklappeneffekt",
+      "text": "Fünfter der sieben Fehler (Folie 83). Zielsysteme sind ein starkes Steuerungsinstrument, entwickeln aber häufig ungeplante Nebenwirkungen. Viele Unternehmen optimieren stark auf messbare KPIs und die individuelle Ebene; Kooperation wird verhindert, weil die Zielsysteme Selbstoptimierungsdruck erzeugen. Besonders relevant, wenn Performance mehrere Dimensionen bräuchte (Qualität, Tempo, Kooperation, Innovation), das Zielsystem aber nur einen Ausschnitt belohnt.",
+      "folien": [
+        83
+      ],
+      "themen": [
+        "m6-t15"
+      ],
+      "beleg": "Zielsysteme sind ein starkes Steuerungsinstrument, aber entwickeln häufig ungeplante Nebenwirkungen.",
+      "belegQuelle": "folie-55"
+    },
+    {
       "begriff": "Zielvereinbarungsgespräch",
       "text": "Gegenstand der Folie 68 (Lernstoff): **Zielvereinbarungsgespräche richtig führen**, mit einem groben Leitfaden zur Gesprächsgestaltung in sieben Phasen: Vorbereitung, Eröffnung, Rückblick, Leistungsziele, MA-Perspektive, Vereinbarung, Abschluss.",
       "folien": [
@@ -3273,6 +4069,16 @@
       ],
       "beleg": "Zielvereinbarungsgespräche richtig führen",
       "belegQuelle": "folie-40"
+    },
+    {
+      "begriff": "Zweideutigkeit",
+      "text": "Dritte Dysfunktion von oben im rechten Dreieck der Teamperformance-Pyramide. Sie steht der Funktion Selbstverpflichtung gegenüber. Das Skript nennt den Begriff, erklärt ihn aber nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "beleg": "Selbstverpflichtung / Zweideutigkeit",
+      "belegQuelle": "folie-58"
     },
     {
       "begriff": "Zweifaktoren-Theorie",

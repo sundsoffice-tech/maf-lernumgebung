@@ -12,6 +12,15 @@ function wiederholungen(n) {
   return n === 1 ? '1 Wiederholung fällig' : n + ' Wiederholungen fällig'
 }
 
+/**
+ * Breite eines Balkenteils. Ein angefangener Wert bekommt eine Mindestbreite: bei wenigen Prozent bliebe
+ * sonst ein Punkt übrig, der wie ein Staubkorn auf dem Bildschirm aussieht statt wie ein Anfang.
+ */
+function breite(anteil) {
+  const p = prozent(anteil)
+  return p > 0 ? `max(${p}%, 1.25rem)` : '0'
+}
+
 /** Balken: Beherrschung als Wert, dahinter als Streifen, wie viel vom Stoff überhaupt schon bearbeitet ist. */
 function balken(wert, abdeckung, status) {
   const el = h('div.balken.balken--dick' + (status ? '.balken--' + status : ''), {
@@ -20,8 +29,8 @@ function balken(wert, abdeckung, status) {
   })
   const streifen = h('div.balken__schatten')
   const voll = h('div.balken__wert')
-  streifen.style.width = prozent(abdeckung) + '%'
-  voll.style.width = prozent(wert) + '%'
+  streifen.style.width = breite(abdeckung)
+  voll.style.width = breite(wert)
   el.append(streifen, voll)
   return el
 }
@@ -55,11 +64,15 @@ function naechsterSchritt(app) {
     }
   }
   if (s.art === 'wiederholen') {
+    // Auf den Knopf gehört eine Portion, keine Bilanz: die Gesamtzahl fälliger Aufgaben wächst mit der Zeit
+    // von allein und wäre als einzige angebotene Aufgabe ein Schuldenstand statt eines nächsten Schritts.
+    const gesamt = s.faelligGesamt || s.anzahl
     return {
       hash: '#/training?modus=faellig',
       symbolName: 'wiederholen',
-      text: `${s.anzahl} ${s.anzahl === 1 ? 'Wiederholung ist' : 'Wiederholungen sind'} fällig`,
-      warum: `${s.grund}. Der Durchgang mischt die Themen, damit du sie auseinanderhalten kannst.`,
+      text: 'Wiederholungsrunde starten',
+      neben: `${gesamt} ${gesamt === 1 ? 'Aufgabe wartet' : 'Aufgaben warten'}`,
+      warum: `${s.grund} Eine Runde nimmt sich die wackeligsten Aufgaben vor und mischt dabei die Themen; der Rest wartet.`,
     }
   }
   if (s.art === 'schwaechen') {
@@ -81,10 +94,15 @@ function naechsterSchritt(app) {
 function schrittKarte(app) {
   const s = naechsterSchritt(app)
   return h('div.karte.cockpit__schritt',
-    h('div.karte__ueber', 'Dein nächster Schritt'),
+    h('div.zeile.zeile--auseinander.cockpit__schrittkopf',
+      h('div.karte__ueber', 'Dein nächster Schritt'),
+      s.neben ? h('span.leise.cockpit__neben', s.neben) : null),
     h('a.knopf.knopf--primaer.knopf--gross.knopf--block.cockpit__schrittknopf', { href: s.hash },
       symbol(s.symbolName), h('span', s.text)),
-    h('p.leise.cockpit__warum', s.warum))
+    h('p.leise.cockpit__warum', s.warum),
+    // Der zweite Weg steht gleichwertig darunter statt als Fußnote am Seitenende
+    h('a.knopf.knopf--block.cockpit__zweiterweg', { href: '#/plan' },
+      symbol('lernen'), h('span', 'Lernplan für zwei Tage ansehen')))
 }
 
 /** Klausurtermin: freiwillig, liegt im Lernstand und wird als verbleibende Stunden angezeigt. */
@@ -174,8 +192,11 @@ function modulKarte(app, modul) {
       ampel(s.status)),
     h('h3.karte__titel', modul.titel),
     modul.kurz ? h('p.leise', modul.kurz) : null,
-    balken(s.wert, s.abdeckung, s.status),
-    h('p.leise', zahlen.join(' · ')))
+    // Balken und Zahlenzeile sitzen immer unten: nebeneinander liegende Karten bekommen so ein ruhiges Raster,
+    // auch wenn der Kurztext unterschiedlich lang ist.
+    h('div.cockpit__modulfuss',
+      balken(s.wert, s.abdeckung, s.status),
+      h('p.leise', zahlen.join(' · '))))
 }
 
 function haktKarte(app, staende) {
@@ -241,8 +262,7 @@ function kursUebersicht(app) {
         h('div',
           h('div.eintrag__titel', modul.titel),
           h('div.eintrag__neben', [modul.vorlesung, modulFolien(modul)].filter(Boolean).join(' · '))),
-        h('div.eintrag__rechts.leise', modul.zeitMin ? minutenText(modul.zeitMin) : ''))))),
-    h('p', h('a', { href: '#/plan' }, 'Zum Lernplan für die zwei Tage')))
+        h('div.eintrag__rechts.leise', modul.zeitMin ? minutenText(modul.zeitMin) : ''))))))
 }
 
 export default {
@@ -283,8 +303,7 @@ export default {
           zeit.element,
           gesamtKarte(gesamt),
           // Bei einem einzigen Modul ist eine halbe Spalte verloren: dann volle Breite
-          h('div.raster' + (daten.module.length > 1 ? '.raster--2' : ''), daten.module.map((modul) => modulKarte(app, modul))),
-          h('p.leise', h('a', { href: '#/plan' }, 'Zum Lernplan für die zwei Tage'))),
+          h('div.raster' + (daten.module.length > 1 ? '.raster--2' : ''), daten.module.map((modul) => modulKarte(app, modul)))),
         h('div.stapel', haktKarte(app, staende), irrtumKarte(staende))))
     }
 

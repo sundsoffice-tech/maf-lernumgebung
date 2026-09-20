@@ -5,6 +5,7 @@ export default {
   titel: 'Sechs Wachstumsphasen und ihre Krisen',
   folien: [35],
   viewBox: '0 0 800 620',
+  viewBoxSchmal: '0 0 360 962',
   minBreite: 660,
   beschreibung: 'Die Organisation wächst mit dem Alter in sechs Phasen von klein nach gross; zwischen den Phasen liegt jeweils eine Krise. Die Wachstumsphase heisst Evolution, die Krise Revolution.',
   svg: `
@@ -85,6 +86,94 @@ export default {
     <text data-label="achse-jung" x="100" y="550" text-anchor="end" class="d-text-klein">jung</text>
     <text data-label="achse-alt" x="720" y="550" text-anchor="start" class="d-text-klein">alt</text>
     <text data-label="achse-alter" x="400" y="578" text-anchor="middle" class="d-text-klein">Alter der Organisation</text>
+  `,
+  // Hochkantfassung fuer 360 px (iPhone hochkant). Oben das Achsenkreuz mit der Evolutionslinie und den fuenf
+  // Revolutionen (Zickzack) samt Legende; darunter werden die sechs Spalten zu sechs Bloecken untereinander,
+  // mit den Krisen dazwischen. Die Stufen stehen in der Kopfzeile der Phase, ueber der sie quer stehen.
+  svgSchmal: `
+    <text data-label="achse-groesse" x="12" y="150" text-anchor="middle" transform="rotate(-90 12 150)" class="d-text-klein">Größe der Organisation</text>
+    <path d="M 64 250 L 64 54" class="d-linie-duenn"/>
+    <path d="M 64 42 L 58 58 L 70 58 Z" class="d-pfeilspitze"/>
+    <text data-label="achse-gross" x="58" y="50" text-anchor="end" class="d-text-klein">gross</text>
+    <text data-label="achse-klein" x="58" y="246" text-anchor="end" class="d-text-klein">klein</text>
+
+    <path d="M 76 244 L 340 74" class="d-linie"/>
+    <path d="M 352 66 L 344.1 77.6 L 338.1 68.4 Z" class="d-pfeilspitze"/>
+
+    <path d="M 108 224 L 113 212 L 117 222 L 122 210 L 126 220 L 131 210" class="d-linie-akzent"/>
+    <path d="M 152 195 L 157 183 L 161 193 L 166 181 L 170 191 L 175 181" class="d-linie-akzent"/>
+    <path d="M 196 167 L 201 155 L 205 165 L 210 153 L 214 163 L 219 153" class="d-linie-akzent"/>
+    <path d="M 240 139 L 245 127 L 249 137 L 254 125 L 258 135 L 263 125" class="d-linie-akzent"/>
+    <path d="M 284 110 L 289 98 L 293 108 L 298 96 L 302 106 L 307 96" class="d-linie-akzent"/>
+
+    <rect x="178" y="184" width="172" height="80" rx="4" class="d-flaeche-leer"/>
+    <path d="M 186 208 L 206 197" class="d-linie-duenn"/>
+    <path d="M 214 193 L 204.8 203.2 L 200.4 195.4 Z" class="d-pfeilspitze"/>
+    <text data-label="legende-1" x="218" y="202" text-anchor="start" class="d-text-klein">Evolution:</text>
+    <text data-label="legende-2" x="218" y="218" text-anchor="start" class="d-text-klein">Wachstumsphase</text>
+    <path d="M 184 246 L 189 236 L 193 244 L 198 234 L 203 242 L 208 235" class="d-linie-akzent"/>
+    <text data-label="legende-3" x="218" y="240" text-anchor="start" class="d-text-klein">Revolution:</text>
+    <text data-label="legende-4" x="218" y="256" text-anchor="start" class="d-text-klein">Phase der Krise</text>
+
+    <path d="M 80 276 L 312 276" class="d-linie-duenn"/>
+    <path d="M 324 276 L 308 282 L 308 270 Z" class="d-pfeilspitze"/>
+    <text data-label="achse-jung" x="74" y="280" text-anchor="end" class="d-text-klein">jung</text>
+    <text data-label="achse-alt" x="330" y="280" text-anchor="start" class="d-text-klein">alt</text>
+    <text data-label="achse-alter" x="196" y="300" text-anchor="middle" class="d-text-klein">Alter der Organisation</text>
+
+    <rect x="16" y="326" width="328" height="56" class="d-flaeche"/>
+    <rect x="16" y="326" width="328" height="24" class="d-dunkel"/>
+    <text data-label="kopf-1" x="30" y="343" text-anchor="start" class="d-text-invers">Phase 1</text>
+    <text data-label="stufe-1" x="330" y="343" text-anchor="end" class="d-text-invers">Start-up</text>
+    <text data-label="phase-1" x="30" y="370" text-anchor="start" class="d-text-klein">Wachstum durch ‚Kreativität'</text>
+
+    <rect x="16" y="390" width="328" height="30" rx="4" class="d-flaeche-leer"/>
+    <path d="M 28 412 L 34 400 L 39 410 L 45 398 L 51 408 L 57 399" class="d-linie-akzent"/>
+    <text data-label="krise-1" x="72" y="410" text-anchor="start" class="d-text-fett">Führungskrise</text>
+
+    <rect x="16" y="428" width="328" height="56" class="d-flaeche"/>
+    <rect x="16" y="428" width="328" height="24" class="d-dunkel"/>
+    <text data-label="kopf-2" x="30" y="445" text-anchor="start" class="d-text-invers">Phase 2</text>
+    <text data-label="phase-2" x="30" y="472" text-anchor="start" class="d-text-klein">Wachstum durch ‚Direktion'</text>
+
+    <rect x="16" y="492" width="328" height="30" rx="4" class="d-flaeche-leer"/>
+    <path d="M 28 514 L 34 502 L 39 512 L 45 500 L 51 510 L 57 501" class="d-linie-akzent"/>
+    <text data-label="krise-2" x="72" y="512" text-anchor="start" class="d-text-fett">Autonomiekrise</text>
+
+    <rect x="16" y="530" width="328" height="74" class="d-flaeche-2"/>
+    <rect x="16" y="530" width="328" height="24" class="d-dunkel"/>
+    <text data-label="kopf-3" x="30" y="547" text-anchor="start" class="d-text-invers">Phase 3</text>
+    <text data-label="stufe-2" x="330" y="547" text-anchor="end" class="d-text-invers">Sekundäres Wachstum</text>
+    <text data-label="phase-3" x="30" y="572" text-anchor="start" class="d-text-klein"><tspan x="30" y="572">Wachstum durch ‚Delegation, </tspan><tspan x="30" y="589">Selbstorga-nisation</tspan></text>
+
+    <rect x="16" y="612" width="328" height="30" rx="4" class="d-flaeche-leer"/>
+    <path d="M 28 634 L 34 622 L 39 632 L 45 620 L 51 630 L 57 621" class="d-linie-akzent"/>
+    <text data-label="krise-3" x="72" y="632" text-anchor="start" class="d-text-fett">Kontrollkrise</text>
+
+    <rect x="16" y="650" width="328" height="74" class="d-flaeche-2"/>
+    <rect x="16" y="650" width="328" height="24" class="d-dunkel"/>
+    <text data-label="kopf-4" x="30" y="667" text-anchor="start" class="d-text-invers">Phase 4</text>
+    <text data-label="phase-4" x="30" y="692" text-anchor="start" class="d-text-klein"><tspan x="30" y="692">Wachstum durch ‚Koalition, gesteuerte </tspan><tspan x="30" y="709">Dynamik, Koordination'</tspan></text>
+
+    <rect x="16" y="732" width="328" height="30" rx="4" class="d-flaeche-leer"/>
+    <path d="M 28 754 L 34 742 L 39 752 L 45 740 L 51 750 L 57 741" class="d-linie-akzent"/>
+    <text data-label="krise-4" x="72" y="752" text-anchor="start" class="d-text-fett">Bürokratiekrise</text>
+
+    <rect x="16" y="770" width="328" height="74" class="d-flaeche-3"/>
+    <rect x="16" y="770" width="328" height="24" class="d-dunkel"/>
+    <text data-label="kopf-5" x="30" y="787" text-anchor="start" class="d-text-invers">Phase 5</text>
+    <text data-label="stufe-3" x="330" y="787" text-anchor="end" class="d-text-invers">Ausgereiftes Wachstum</text>
+    <text data-label="phase-5" x="30" y="812" text-anchor="start" class="d-text-klein"><tspan x="30" y="812">Wachstum durch ‚Kollaboration, </tspan><tspan x="30" y="829">Akquisition, Innovation'</tspan></text>
+
+    <rect x="16" y="852" width="328" height="30" rx="4" class="d-flaeche-leer"/>
+    <path d="M 28 874 L 34 862 L 39 872 L 45 860 L 51 870 L 57 861" class="d-linie-akzent"/>
+    <text data-label="krise-5" x="72" y="872" text-anchor="start" class="d-text-klein">Wachstumskrise, Visionskrise</text>
+
+    <rect x="16" y="890" width="328" height="56" class="d-flaeche-3"/>
+    <rect x="16" y="890" width="328" height="24" class="d-dunkel"/>
+    <text data-label="kopf-6" x="30" y="907" text-anchor="start" class="d-text-invers">Phase 6</text>
+    <text data-label="stufe-4" x="330" y="907" text-anchor="end" class="d-text-invers">??</text>
+    <text data-label="phase-6" x="30" y="934" text-anchor="start" class="d-text-klein">Wachstum durch ‚Strategische Allianzen'</text>
   `,
   labels: [
     { id: 'kopf-1', text: 'Phase 1', abfragbar: false, gruppe: 'rahmen' },

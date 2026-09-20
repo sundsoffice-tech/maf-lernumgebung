@@ -70,6 +70,68 @@ export default {
     <polygon class="d-flaeche-3" points="786,492 70,492 70,478 22,514 70,550 70,536 786,536"/>
     <text data-label="feedback" x="430" y="521" text-anchor="middle" class="d-text-fett" xml:space="preserve">F  E  E  D  B  A  C  K</text>
   </g>`,
+  viewBoxSchmal: '0 0 360 738',
+  svgSchmal: `
+  <g>
+    <text data-label="modelltitel" x="180" y="26" text-anchor="middle" class="d-text-titel"><tspan x="180" y="26">Kongruenzmodell nach </tspan><tspan x="180" y="48">Nadler/Tushman (1997)</tspan></text>
+
+    <rect class="d-flaeche-2" x="10" y="62" width="340" height="84" rx="8"/>
+    <text data-label="input" x="180" y="90" text-anchor="middle" class="d-text-titel">Input</text>
+    <text data-label="umwelt" x="60" y="124" text-anchor="middle" class="d-text">Umwelt</text>
+    <text data-label="ressourcen" x="180" y="124" text-anchor="middle" class="d-text">Ressourcen</text>
+    <text data-label="geschichte" x="300" y="124" text-anchor="middle" class="d-text">Geschichte</text>
+
+    <path class="d-flaeche-3" d="M 124 150 L 236 150 L 236 180 L 258 180 L 180 210 L 102 180 L 124 180 Z"/>
+    <text data-label="strategie" x="180" y="172" text-anchor="middle" class="d-text-klein">Strategie</text>
+
+    <rect class="d-flaeche-2" x="95" y="232" width="170" height="54" rx="6"/>
+    <text data-label="informelle-organisation" x="180" y="264" text-anchor="middle" class="d-text-fett"><tspan x="180" y="253">Informelle </tspan><tspan x="180" y="275">Organisation</tspan></text>
+    <ellipse class="d-linie-akzent" cx="180" cy="259" rx="96" ry="38"/>
+
+    <rect class="d-flaeche-2" x="10" y="336" width="144" height="54" rx="6"/>
+    <text data-label="prozesse" x="82" y="369" text-anchor="middle" class="d-text-fett">Prozesse</text>
+
+    <rect class="d-flaeche-2" x="206" y="336" width="144" height="54" rx="6"/>
+    <text data-label="formelle-organisation" x="278" y="367" text-anchor="middle" class="d-text-fett"><tspan x="278" y="356">Formelle </tspan><tspan x="278" y="378">Organisation</tspan></text>
+
+    <rect class="d-flaeche-2" x="95" y="440" width="170" height="54" rx="6"/>
+    <text data-label="menschen" x="180" y="473" text-anchor="middle" class="d-text-fett">Menschen</text>
+
+    <path class="d-linie-duenn" d="M 180 310 L 180 427"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(180,306)"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(180,431) rotate(180)"/>
+
+    <path class="d-linie-duenn" d="M 167 363 L 193 363"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(163,363) rotate(270)"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(197,363) rotate(90)"/>
+
+    <path class="d-linie-duenn" d="M 139 303 L 115 328"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(140,301) rotate(43)"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(114,330) rotate(-137)"/>
+
+    <path class="d-linie-duenn" d="M 221 303 L 245 328"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(220,301) rotate(-43)"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(246,330) rotate(137)"/>
+
+    <path class="d-linie-duenn" d="M 147 435 L 115 399"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(148,434) rotate(137)"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(114,397) rotate(-43)"/>
+
+    <path class="d-linie-duenn" d="M 213 435 L 245 399"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(212,434) rotate(-137)"/>
+    <path class="d-pfeilspitze" d="M 0 -9 L -6 4 L 6 4 Z" transform="translate(246,397) rotate(43)"/>
+
+    <path class="d-flaeche-3" d="M 124 502 L 236 502 L 236 532 L 258 532 L 180 562 L 102 532 L 124 532 Z"/>
+
+    <rect class="d-flaeche-2" x="10" y="572" width="340" height="84" rx="8"/>
+    <text data-label="output" x="180" y="600" text-anchor="middle" class="d-text-titel">Output</text>
+    <text data-label="individuum" x="62" y="634" text-anchor="middle" class="d-text">Individuum</text>
+    <text data-label="team" x="180" y="634" text-anchor="middle" class="d-text">Team</text>
+    <text data-label="organisation" x="296" y="634" text-anchor="middle" class="d-text">Organisation</text>
+
+    <path class="d-flaeche-3" d="M 348 678 L 46 678 L 46 668 L 14 696 L 46 724 L 46 714 L 348 714 Z"/>
+    <text data-label="feedback" x="197" y="702" text-anchor="middle" class="d-text-fett" xml:space="preserve">F  E  E  D  B  A  C  K</text>
+  </g>`,
   labels: [
     { id: 'modelltitel', text: 'Kongruenzmodell nach Nadler/Tushman (1997)', abfragbar: false, gruppe: 'rahmen' },
     { id: 'input', text: 'Input', abfragbar: false, gruppe: 'rahmen' },

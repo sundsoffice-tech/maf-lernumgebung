@@ -47,51 +47,303 @@
       "folie": 84,
       "status": "ja",
       "hinweis": "Die Seite steht als Bild auf Folie 84 und ist wörtlich ausgewertet; sie gilt als Skriptinhalt. Die Online-Seite war am 20.09.2026 frei lesbar und wurde gegengelesen."
-    },
-    {
-      "id": "pexels-515169",
-      "titel": "Bildnachweis zum Foto der Zusammenfassung (Pexels)",
-      "url": "https://www.pexels.com/de/foto/anstellung-arbeit-arbeiten-arbeiter-515169/",
-      "folie": 42,
-      "status": "nein",
-      "hinweis": "Reiner Bildnachweis unter dem Foto der Folie 42, kein Fachinhalt. Nicht ausgewertet, weil es dort nichts zu lernen gibt; hier nur der Vollständigkeit halber verzeichnet."
     }
   ],
   "nurGenannt": [
     {
-      "begriff": "ETHOS",
-      "folie": 36,
-      "hinweis": "Einer der drei „modes of persuasion\" des Aristoteles. Im Skript nur genannt, nicht erklärt."
+      "begriff": "AI",
+      "folie": 33,
+      "hinweis": "Folie 33 nennt als technischen Umbruch „ML, AI unterstützt Menschen (schneller, billiger, besser)“, Folie 34 führt AI noch einmal unter der „Angst vor Substitution (RPA, AI, blockchain, et al.)“ auf. Wofür die Abkürzung steht und was damit gemeint ist, sagt das Skript an keiner Stelle."
     },
     {
-      "begriff": "LOGOS",
-      "folie": 36,
-      "hinweis": "Einer der drei „modes of persuasion\" des Aristoteles. Im Skript nur genannt, nicht erklärt."
+      "begriff": "(Alters-)Kohorten",
+      "folie": 77,
+      "hinweis": "Folie 77 stellt unter der Übersicht der Problemtypen die Frage „Und wie werden welche (Alters-)Kohorten angesprochen und involviert?“ Die Frage bleibt auf der Folie unbeantwortet, und der Begriff wird nicht erklärt."
     },
     {
-      "begriff": "PATHOS",
-      "folie": 36,
-      "hinweis": "Einer der drei „modes of persuasion\" des Aristoteles. Im Skript nur genannt, nicht erklärt."
-    },
-    {
-      "begriff": "MA-Reifegrad",
-      "folie": 39,
-      "hinweis": "Dritte Führungs-Dimension bei Hersey/Blanchard in der Übersicht Führungsstile. Im Skript nur genannt, nicht erklärt."
-    },
-    {
-      "begriff": "Zahlenpaare bei Blake/Mouton",
-      "folie": 39,
-      "hinweis": "Die Paare (1,1), (9,1), (5,5), (9,9), (1,9) stehen in der Übersicht Führungsstile neben den Stilnamen. Im Skript nur genannt, nicht erklärt."
+      "begriff": "Ambidextrie",
+      "folie": 33,
+      "hinweis": "Steht auf Folie 33 in der Zeile zu den Organisationsstrukturen: „Ambidextrie -> Polydextrie“. Das Skript nennt den Begriff nur und erklärt ihn nicht."
     },
     {
       "begriff": "Behaviorismus",
       "folie": 40,
-      "hinweis": "Steht auf der Folie in Klammern hinter „dem Verhalten von FK zugewandt\". Im Skript nur genannt, nicht erklärt."
+      "hinweis": "Steht auf Folie 40 in Klammern hinter „dem Verhalten von FK zugewandt“. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "blockchain",
+      "folie": 34,
+      "hinweis": "Folie 34 nennt die „Angst vor Substitution (RPA, AI, blockchain, et al.)“ als aktuelle Relevanz der Lebenszyklen. Der Begriff wird dort nur aufgezählt, nicht erklärt."
+    },
+    {
+      "begriff": "Brainwriting und Metaplan-Technik",
+      "folie": 59,
+      "hinweis": "Folie 59 empfiehlt gegen die Nivellierung in Gruppen unter anderem „Brainwriting und/oder Metaplan-Technik“. Beide Verfahren werden nur genannt, nicht beschrieben."
+    },
+    {
+      "begriff": "critical incident",
+      "folie": 72,
+      "hinweis": "Steht auf Folie 72 kursiv in Klammern hinter „prägnantes Ereignis“ in der Beschreibung des Halo-Effekts. Der englische Ausdruck wird im Skript nicht erklärt."
+    },
+    {
+      "begriff": "Deci/Ryan",
+      "folie": 50,
+      "hinweis": "Die Zusammenfassung auf Folie 50 sagt: „McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.“ Worin diese Theorien bestehen, steht auf keiner Folie; Vornamen, Jahr und Fundstelle fehlen ebenfalls."
+    },
+    {
+      "begriff": "Demotivatoren",
+      "folie": 48,
+      "hinweis": "Folie 48 rät, „bei motivierten Mitarbeitern auf Abbau (frustrierender) Demotivatoren“ zu fokussieren. Der Begriff wird nur genannt; erklärt ist im Skript lediglich sein Gegenstück, die Motivatoren auf Folie 47."
+    },
+    {
+      "begriff": "„Dips“",
+      "folie": 79,
+      "hinweis": "Folie 79 nennt als Ziel im Umgang mit Widerstand die „Minimierung des ‚Dips‘ und unerwünschter Fluktuation“. Das Wort steht dort in Anführungszeichen, ohne Erklärung."
+    },
+    {
+      "begriff": "Diversity-Aspekte",
+      "folie": 67,
+      "hinweis": "Letzter Punkt der Zusammenfassung zur Kommunikation auf Folie 67: „Diversity-Aspekte bei Kommunikation/Information beachten!“ Welche Aspekte gemeint sind, sagt das Skript nicht; Folie 61 spricht nur von „Diversity in Denken, Kultur und Erfahrung“."
+    },
+    {
+      "begriff": "Double bind",
+      "folie": 65,
+      "hinweis": "Auf Folie 65 Überschrift eines Abschnitts zu Kommunikationsstörungen, umschrieben allein mit „Widerspruch zwischen Inhalt und Form der Übermittlung“. Folie 66 nennt den Begriff erneut („Vermeidung ‚Double bind‘“); definiert wird er auf keiner der beiden Folien."
+    },
+    {
+      "begriff": "Eisenhower-Matrix",
+      "folie": 66,
+      "hinweis": "Folie 66 rät, „Zeitmanagement gemäß Eisenhower-Matrix (s. Vorlesung III) konsequent anwenden“. Der Verweis geht auf eine Vorlesung außerhalb dieses Repetitoriums; die Matrix selbst wird hier nicht erklärt."
+    },
+    {
+      "begriff": "Emergenz/kollektives Wissen",
+      "folie": 33,
+      "hinweis": "Steht auf Folie 33 in Klammern hinter der „sukzessive[n] Öffnung für alternative Modelle“ bei den Organisationsstrukturen. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Employer Branding",
+      "folie": 30,
+      "hinweis": "Folie 30 reiht drei Stichworte mit Fragezeichen aneinander: „Introverts?...Employer Branding?...WLB?...“ Keines der drei wird auf dieser oder einer anderen Folie erklärt oder ausgeschrieben."
+    },
+    {
+      "begriff": "Entlernen",
+      "folie": 81,
+      "hinweis": "Folie 81 nennt unter der Zeitfalle „2.) Vergessenskurve: richtig Lernen & Entlernen“, das Wort ist dort unterstrichen. Erklärt wird es nicht."
+    },
+    {
+      "begriff": "ETHOS",
+      "folie": 36,
+      "hinweis": "Einer der drei Begriffe in der Ellipse auf Folie 36 zu Aristoteles' „modes of persuasion“. Im Skript nur genannt, nicht erklärt; auch die Farbigkeit der drei Begriffe bleibt unerläutert."
+    },
+    {
+      "begriff": "Führungsleitbild",
+      "folie": 51,
+      "hinweis": "Folie 51 verlangt, ein „modernes Führungsleitbild vorgeben und einhalten (s. MAF I)“. Was ein Führungsleitbild ist, sagt das Skript nicht; der Verweis geht auf Vorlesung I."
+    },
+    {
+      "begriff": "homo oeconomicus",
+      "folie": 32,
+      "hinweis": "Auf Folie 32 nur als Zweitname des „rational man“ in Klammern, auf Folie 45 noch einmal neben Theory X. An keiner Stelle erklärt."
+    },
+    {
+      "begriff": "Incentivierung",
+      "folie": 53,
+      "hinweis": "Folie 53 schreibt „Planung/Steuerung inkl. Incentivierung erfolgt streng hierarchisch“. Der Begriff wird dort nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "„Inhaltstheorien“",
+      "folie": 46,
+      "hinweis": "Überschrift der Folien 46 bis 48: „Bedürfnisorientierte ‚Inhaltstheorien‘ der Motivation“. Der Begriff steht in Anführungszeichen und wird auf keiner der drei Folien definiert."
+    },
+    {
+      "begriff": "Johari-Fenster",
+      "folie": 66,
+      "hinweis": "Folie 66 rät, „Feedback geben (s. Vorlesungen II & III) und Johari-Fenster beachten (s. Vorlesung III)“. Das Modell wird nur genannt, der Verweis führt aus diesem Repetitorium hinaus."
+    },
+    {
+      "begriff": "Killerphrasen",
+      "folie": 66,
+      "hinweis": "Folie 66 nennt „keine Killerphrasen“ unter der Vermeidung von Senderfehlern, Folie 65 zuvor „Killerargumente“. Beide Ausdrücke bleiben im Skript unerklärt."
+    },
+    {
+      "begriff": "KPI",
+      "folie": 30,
+      "hinweis": "Folie 30 nennt „KPI: Leistung & Exzellenz (LKW-Formel)“; die Folien 81 und 83 sprechen von „KPIs“, die vor Projektbeginn festzulegen seien. Wofür die Abkürzung steht, schreibt das Skript nirgends aus."
+    },
+    {
+      "begriff": "laterale Führung",
+      "folie": 37,
+      "hinweis": "Folie 37 führt die laterale Führung als eine der fünf Führungsbeziehungen und setzt nur „(‚leading sideways‘)“ dahinter – dieselbe Klammer wie bei der Kunden-/Partner-Führung. Der Artikel auf Folie 82 benutzt „lateral“ erneut; erklärt wird der Begriff an keiner Stelle."
+    },
+    {
+      "begriff": "Leitplanken",
+      "folie": 48,
+      "hinweis": "Folie 48 nennt „Einräumen von Handlungsspielräumen statt engen Leitplanken“, Folie 63 führt Leitplanken unter dem auf, was ein MA an Information braucht. Das Bild wird an keiner Stelle erklärt."
+    },
+    {
+      "begriff": "LKW-Formel",
+      "folie": 30,
+      "hinweis": "Steht auf Folie 30 in Klammern hinter „KPI: Leistung & Exzellenz“. Wofür die drei Buchstaben stehen und wie die Formel lautet, sagt das Skript nicht."
+    },
+    {
+      "begriff": "LOGOS",
+      "folie": 36,
+      "hinweis": "Einer der drei Begriffe in der Ellipse auf Folie 36 zu Aristoteles' „modes of persuasion“. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Lorenz",
+      "folie": 65,
+      "hinweis": "Folie 65 stützt den Punkt „Nachhaltigkeit der Nachricht nicht abgeprüft“ mit „s. Lorenz“. Der Name steht ohne Vorname, Jahr und Fundstelle; in der Leseliste am Ende des Skripts kommt er nicht vor."
+    },
+    {
+      "begriff": "MA-Reifegrad",
+      "folie": 39,
+      "hinweis": "Dritte Führungs-Dimension bei Hersey/Blanchard in der Übersicht Führungsstile auf Folie 39. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "MAG",
+      "folie": 62,
+      "hinweis": "Folie 62 nennt als Mittel der Kommunikation „standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften“. Die Abkürzung wird im ganzen Skript nicht ausgeschrieben."
+    },
+    {
+      "begriff": "McClelland",
+      "folie": 50,
+      "hinweis": "Die Zusammenfassung auf Folie 50 sagt: „McClelland und Deci/Ryan liefern wiss. Gut abgestützte Theorien, insbesondere zu Verhalten von FK.“ Mehr als diesen Satz gibt das Skript zu McClelland nicht her."
+    },
+    {
+      "begriff": "Mehrgeschwindigkeitsorganisationen",
+      "folie": 33,
+      "hinweis": "Steht auf Folie 33 in der Zeile zu den Organisationsstrukturen, zwischen „Emergenz/kollektives Wissen“ und „Ambidextrie“. Nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Metaziele",
+      "folie": 34,
+      "hinweis": "Der Kasten „Wiederholung:“ auf Folie 34 fragt nach den „Metaziele[n] von Unternehmen/-ern“ und lässt die Felder „1.)“ und „2.)“ leer. Weder die Metaziele selbst noch der Begriff werden im Skript erklärt."
     },
     {
       "begriff": "Mitwirkungsorientierung",
       "folie": 42,
-      "hinweis": "Dritte Orientierung der Zusammenfassung, erhöht laut Folie die MA-Identifikation. Im Skript hier erstmals genannt, nicht erklärt."
+      "hinweis": "Dritte Orientierung in der Zusammenfassung auf Folie 42, dort nur mit ihrer Wirkung genannt („erhöht MA-Identifikation“). Anders als Aufgaben- und Mitarbeiterorientierung wird sie im Skript nicht erläutert."
+    },
+    {
+      "begriff": "ML",
+      "folie": 33,
+      "hinweis": "Folie 33 nennt als technischen Umbruch „ML, AI unterstützt Menschen (schneller, billiger, besser)“. Wofür ML steht, schreibt das Skript nicht aus."
+    },
+    {
+      "begriff": "Modern Portfolio Theory",
+      "folie": 61,
+      "hinweis": "Folie 61 rät Führungskräften, „Diversity in Denken, Kultur und Erfahrung pflegen -> siehe Modern Portfolio Theory“. Der Querverweis steht ohne Quelle, ohne Folienangabe und ohne Erklärung."
+    },
+    {
+      "begriff": "Null-Fehler-Kultur",
+      "folie": 83,
+      "hinweis": "Der auf Folie 83 abgedruckte Artikel nennt die Null-Fehler-Kultur als Beispiel für eine informelle Erwartungsstruktur. Der Begriff wird dort nicht erklärt."
+    },
+    {
+      "begriff": "„organisatorische Entropie“",
+      "folie": 84,
+      "hinweis": "Die Überschrift von Folie 84 spricht von „organisatorischer Entropie“ in Anführungszeichen. Weder die Folie noch die dort eingebettete Quelle erklären den Begriff."
+    },
+    {
+      "begriff": "PATHOS",
+      "folie": 36,
+      "hinweis": "Einer der drei Begriffe in der Ellipse auf Folie 36 zu Aristoteles' „modes of persuasion“. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Polydextrie",
+      "folie": 33,
+      "hinweis": "Steht auf Folie 33 am Ende der Zeile zu den Organisationsstrukturen: „Ambidextrie -> Polydextrie“. Im Skript nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Repression/Sensitization",
+      "folie": 71,
+      "hinweis": "Folie 71 zählt unter den Persönlichkeitskonstrukten „Frustrationstoleranz, Ambiguitätstoleranz, Belohnungsaufschub, Repression/Sensitization“ auf. Die Konstrukte werden nur benannt, nicht erläutert."
+    },
+    {
+      "begriff": "Ringelmann-Effekt",
+      "folie": 60,
+      "hinweis": "Folie 60 führt den Ringelmann-Effekt unter „Erfahrungswissen:“ und setzt allein das Bild „ein fauler Apfel steckt andere an“ dahinter. Eine Definition oder eine Studie dazu steht nicht im Skript."
+    },
+    {
+      "begriff": "RPA",
+      "folie": 34,
+      "hinweis": "Folie 34 nennt die „Angst vor Substitution (RPA, AI, blockchain, et al.)“. Wofür RPA steht, schreibt das Skript nicht aus."
+    },
+    {
+      "begriff": "S, D, K, W (Buchstaben im Merksatz zum Verhalten)",
+      "folie": 49,
+      "hinweis": "Der Merksatz auf Folie 49 und noch einmal auf Folie 56 lautet „Strukturen/Prozesse (S), Normen (D), Qualifikation (K), Motivation (W)“. Die Buchstaben passen nicht zu den Anfangsbuchstaben der Wörter, und das Skript erklärt sie nicht."
+    },
+    {
+      "begriff": "Scrum-Teams",
+      "folie": 83,
+      "hinweis": "Der auf Folie 83 abgedruckte Artikel nennt Scrum-Teams als Beispiel für eine informelle Norm. Was ein Scrum-Team ist, erklärt weder der Artikel noch die Folie."
+    },
+    {
+      "begriff": "Silodenken",
+      "folie": 51,
+      "hinweis": "Folie 51 nennt unter den motivierenden Führungsaktivitäten „Kommunizieren (Anerkennen/Loben, Vertrauen, Kritisieren, effiziente Meetings, kein Silodenken)“. Der Begriff wird nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "Sprenger",
+      "folie": 48,
+      "hinweis": "Folie 48 verweist beim Abbau von Demotivatoren mit „(siehe Sprenger)“. Der Name steht ohne Vorname, Titel und Jahr; in der Leseliste am Ende des Skripts kommt er nicht vor."
+    },
+    {
+      "begriff": "STAR-Technik",
+      "folie": 69,
+      "hinweis": "Folie 69 nennt die „STAR-Technik: Situation - Task - Action - Result“ als Mittel der Gesprächsführung. Die vier Schritte werden nur aufgezählt, nicht erklärt."
+    },
+    {
+      "begriff": "Stimmungsbarometer",
+      "folie": 63,
+      "hinweis": "Folie 63 schreibt, offene und häufige Kommunikation beuge schlechter Stimmung vor „(Stimmungsbarometer!)“. Der Begriff steht dort ohne Erklärung."
+    },
+    {
+      "begriff": "Tensor-, Allianz- und Cluster-Organisation",
+      "folie": 34,
+      "hinweis": "Drei der zehn Organisationsformen, die das Schaubild auf Folie 34 (nach Gomez/Zimmermann) senkrecht auflistet. Anders als die übrigen Formen kommen sie im Skript sonst nicht vor und werden nirgends erklärt; eine Quellenangabe zum Modell fehlt auf der Folie."
+    },
+    {
+      "begriff": "Theory Z",
+      "folie": 31,
+      "hinweis": "Folie 31 schreibt nur: „Der Mensch...nach Theory Z...vereinbart Theory X und Y in sich...“ Einen Urheber und jede weitere Erklärung lässt das Skript weg, während Theory X und Y darüber ausführlich gegenübergestellt werden."
+    },
+    {
+      "begriff": "Volition",
+      "folie": 50,
+      "hinweis": "Die Zusammenfassung auf Folie 50 sagt: „Motivation, die zum Handeln bewegende Kraft, erfordert Willen, die Volition.“ Über diese Gleichsetzung hinaus steht im Skript nichts dazu."
+    },
+    {
+      "begriff": "Wachstumsparadigma",
+      "folie": 53,
+      "hinweis": "Folie 53 schreibt: „Wachstumsparadigma behindert Sicht auf (noch) ‚kleine‘ Wachstumschancen (weak signals)“. Der Begriff wird nur genannt, nicht erklärt."
+    },
+    {
+      "begriff": "weak signals",
+      "folie": 53,
+      "hinweis": "Steht auf Folie 53 in Klammern hinter „(noch) ‚kleine‘ Wachstumschancen“ unter den Nachteilen bürokratischer Hierarchien. Der englische Ausdruck wird im Skript nicht erklärt."
+    },
+    {
+      "begriff": "Wertekosmos",
+      "folie": 33,
+      "hinweis": "Der hervorgehobene Schlusssatz von Folie 33 lautet: „wirksame Führungskräfte berücksichtigen einen umfassenden Wertekosmos“. Was dieser Wertekosmos umfasst, sagt das Skript nicht."
+    },
+    {
+      "begriff": "Zahlenpaare bei Blake/Mouton",
+      "folie": 39,
+      "hinweis": "Die Paare (1,1), (9,1), (5,5), (9,9), (1,9) stehen in der Übersicht Führungsstile auf Folie 39 neben den Stilnamen. Was die Zahlen bedeuten, erklärt das Skript nicht."
+    },
+    {
+      "begriff": "ZEG",
+      "folie": 62,
+      "hinweis": "Folie 62 nennt „standardisierte Formate wie MAG, ZVG, ZEG“, Folie 70 trägt ZEG sogar in der Überschrift („Beurteilung/ZEG richtig führen“). Ausgeschrieben wird die Abkürzung im ganzen Skript nicht."
+    },
+    {
+      "begriff": "ZVG",
+      "folie": 62,
+      "hinweis": "Folie 62 nennt als Mittel der Kommunikation „standardisierte Formate wie MAG, ZVG, ZEG, Meetings, Briefings, mailings, MA-Zeitschriften“. Die Abkürzung wird im ganzen Skript nicht ausgeschrieben."
     }
   ]
 }

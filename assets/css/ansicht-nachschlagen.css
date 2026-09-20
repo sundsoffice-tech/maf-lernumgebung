@@ -16,26 +16,36 @@
 .registerfilter__zahl { margin-bottom: var(--a-4); }
 
 /* Marke, die zu einem Thema führt: darf umbrechen, weil Thementitel lang sind, und ist so hoch wie der
-   kleine Knopf, damit sie sich auf dem Handy treffen lässt. */
+   kleine Knopf auf einem Touch-Gerät (44 px), damit sie sich mit dem Daumen treffen lässt. */
 .marke-chip--thema {
   white-space: normal; text-align: left; color: var(--primaer);
   background: var(--flaeche-2); border-color: var(--linie);
-  min-height: 2.25rem; padding: 0.3rem 0.7rem;
+  min-height: 2.75rem; padding: 0.3rem 0.7rem;
 }
-a.marke-chip--thema:hover { background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer); }
-.register__marken { gap: var(--a-1) var(--a-2); }
+/* Hover nur mit Zeigegerät: auf iPhone und iPad bliebe der Zustand nach dem Antippen kleben. */
+@media (hover: hover) {
+  @media (hover: hover) { a.marke-chip--thema:hover { background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer); } }
+}
+/* Marken im Register tragen freien Text: Thementitel und Folienlisten wie „Folien 36, 37, 40, …“. Ohne
+   Umbruch schiebt eine einzige Marke die ganze Seite waagerecht auseinander (gemessen 835 px auf einem
+   320 px breiten Schirm). Zeilenabstand var(--a-2), damit zwei antippbare Marken 8 px auseinanderliegen. */
+.register__marken { gap: var(--a-2); }
+.register__marken .marke-chip { white-space: normal; text-align: left; max-width: 100%; }
 
 /* ---------- Personenregister ---------- */
 
 .register { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-4); }
 @media (min-width: 48rem) { .register { grid-template-columns: repeat(auto-fill, minmax(21rem, 1fr)); } }
 
-.register__eintrag { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--a-3); align-content: start; overflow-wrap: anywhere; }
+.register__eintrag { display: grid; gap: var(--a-3); align-content: start; }
 .person-eintrag__kopf { display: flex; align-items: center; gap: var(--a-3); }
 .person-eintrag__namen { min-width: 0; }
 .person-eintrag__name { font-size: var(--gr-l); margin: 0; }
 .person-eintrag__kurz { margin: 0; font-size: var(--gr-s); font-weight: 650; color: var(--tinte-2); }
 .person-eintrag__beitrag > :last-child { margin-bottom: 0; }
+/* Nur für Personen mit sehr vielen Themen: die Marken stecken in einem Aufklapper, damit ein Eintrag den
+   Registerlauf nicht über mehrere Bildschirme unterbricht. */
+.register__themen > .aufklapp__inhalt { padding-top: var(--a-1); }
 
 /* Schnelltraining: Anriss über dem Register, Kopfzeile im Training selbst */
 .persontraining__anriss {
@@ -51,9 +61,11 @@ a.marke-chip--thema:hover { background: var(--primaer-sanft); border-color: var(
 
 /* ---------- Glossar ---------- */
 
+/* A bis Z: 44 px breit und 8 px auseinander, sonst trifft der Daumen den Nachbarbuchstaben. Auf schmalen
+   Schirmen lieber eine Zeile mehr als zu kleine Knöpfe. */
 .glossar__buchstaben {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(2.25rem, 1fr));
-  gap: var(--a-1); margin-bottom: var(--a-4);
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(2.75rem, 1fr));
+  gap: var(--a-2); margin-bottom: var(--a-4);
 }
 .glossar__buchstaben-knopf {
   min-height: 2.75rem; padding: 0 var(--a-1);
@@ -61,7 +73,7 @@ a.marke-chip--thema:hover { background: var(--primaer-sanft); border-color: var(
   background: var(--flaeche); color: var(--primaer);
   font-weight: 650; font-variant-numeric: tabular-nums; cursor: pointer;
 }
-.glossar__buchstaben-knopf:hover { background: var(--primaer-sanft); }
+@media (hover: hover) { .glossar__buchstaben-knopf:hover { background: var(--primaer-sanft); } }
 .glossar__buchstaben-knopf[disabled] { color: var(--tinte-3); background: var(--flaeche-2); opacity: 0.6; cursor: default; }
 
 .glossar__gruppe { margin-bottom: var(--a-6); scroll-margin-top: calc(var(--kopf-hoehe) + var(--a-3)); }
@@ -80,10 +92,17 @@ a.marke-chip--thema:hover { background: var(--primaer-sanft); border-color: var(
 .quellen__abschnitt > p { max-width: var(--breite-text); }
 
 .abdeckung__zahlen { margin-bottom: var(--a-3); }
+.quellen__tabellenhinweis { margin-bottom: var(--a-2); }
+/* Die Tabelle rollt in einem eigenen Fenster. Füllt dieses Fenster fast den ganzen Schirm, fängt es jeden
+   Wisch ab und die Seite selbst bewegt sich nicht mehr — auf dem iPhone SE (568 px) war das bei 480 px der
+   Fall. Auf niedrigen Schirmen deshalb höchstens zwei Drittel der Fensterhöhe; erst vh, dann dvh. */
 .quellen__tabelle { max-height: 30rem; overflow: auto; }
+@media (max-height: 50rem) {
+  .quellen__tabelle { max-height: 62vh; max-height: 62dvh; }
+}
 .abdeckung thead th { position: sticky; top: 0; z-index: 1; }
 .abdeckung th[scope="row"] { width: 5rem; font-variant-numeric: tabular-nums; }
-.abdeckung__themen { gap: var(--a-1); }
+.abdeckung__themen { gap: var(--a-2); }
 .abdeckung__fehlt { color: var(--schlecht); font-weight: 650; gap: var(--a-1); }
 .abdeckung__fehlt svg { width: 1em; height: 1em; flex: none; }
 .abdeckung__zeile--fehlt th, .abdeckung__zeile--fehlt td { background: var(--schlecht-sanft); }

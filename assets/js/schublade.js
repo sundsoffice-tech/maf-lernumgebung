@@ -2,6 +2,31 @@
 import { h, symbol } from './mini.js'
 
 let offen = null
+let scrollStand = 0
+
+// iOS Safari scrollt den Hintergrund trotz overflow: hidden weiter. Erst ein fest gestellter body hält ihn
+// an; dafür muss der Scrollstand gemerkt und beim Schließen zurückgesetzt werden, sonst springt die Seite.
+function sperreHintergrund() {
+  scrollStand = window.scrollY || document.documentElement.scrollTop || 0
+  const s = document.body.style
+  s.position = 'fixed'
+  s.top = -scrollStand + 'px'
+  s.left = '0'
+  s.right = '0'
+  s.width = '100%'
+  s.overflow = 'hidden'
+}
+
+function loeseHintergrund() {
+  const s = document.body.style
+  s.position = ''
+  s.top = ''
+  s.left = ''
+  s.right = ''
+  s.width = ''
+  s.overflow = ''
+  window.scrollTo(0, scrollStand)
+}
 
 export function schliesseSchublade() {
   if (!offen) return
@@ -11,7 +36,7 @@ export function schliesseSchublade() {
   hintergrund.classList.remove('ist-offen')
   lade.classList.remove('ist-offen')
   setTimeout(() => { hintergrund.remove(); lade.remove() }, 260)
-  document.body.style.overflow = ''
+  loeseHintergrund()
   if (vorher && typeof vorher.focus === 'function') vorher.focus()
 }
 
@@ -34,7 +59,8 @@ export function oeffneSchublade(titel, inhalt) {
     else if (!e.shiftKey && document.activeElement === letztes) { e.preventDefault(); erstes.focus() }
   }
   document.body.append(hintergrund, lade)
-  document.body.style.overflow = 'hidden'
+  // Nach schliesseSchublade() oben: der Scrollstand ist bereits zurückgesetzt, hier wird der echte gemerkt
+  sperreHintergrund()
   document.addEventListener('keydown', tastatur)
   offen = { hintergrund, lade, vorher, tastatur }
   requestAnimationFrame(() => { hintergrund.classList.add('ist-offen'); lade.classList.add('ist-offen'); zu.focus() })

@@ -11,6 +11,7 @@ export default {
   titel: 'Change-Modelle und Change-Kurve',
   folien: [78],
   viewBox: '0 0 800 1472',
+  viewBoxSchmal: '0 0 360 1610',
   minBreite: 660,
   beschreibung: 'Oben die drei Schritte von Kurt Lewin und die acht Schritte von John Kotter in ihrer Reihenfolge. Darunter die Change-Kurve: das Leistungsniveau fällt von 100 Prozent bis zum Tiefpunkt bei der emotionalen Akzeptanz und steigt danach wieder über den Ausgangswert, begleitet von den Projekt-Phasen und den Management-Aufgaben.',
   svg: `
@@ -127,6 +128,132 @@ export default {
     <line class="d-linie-duenn" x1="462" y1="1440" x2="750" y2="1440"/>
     <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(450,1440) rotate(270)"/>
     <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(762,1440) rotate(90)"/>
+  </g>`,
+  // Hochkantfassung fuer 360 px (iPhone hochkant). Lewins drei Schritte werden zu drei Kaesten untereinander,
+  // Kotters acht bleiben senkrecht. Die Change-Kurve ist um 90 Grad gedreht: die Zeit laeuft nach unten, das
+  // Leistungsniveau nach rechts, die 100-Prozent-Linie steht senkrecht. Die acht Stationen behalten ihre Lage
+  // und Reihenfolge und stehen links neben ihrem Punkt. Projekt-Phasen und Management-Aufgaben stehen als
+  // Bloecke darunter, in derselben Reihenfolge und mit denselben Zeitspannen wie quer.
+  svgSchmal: `
+  <g>
+    <text data-label="t-modelle" x="16" y="26" text-anchor="start" class="d-text-titel">Change-Modelle</text>
+
+    <text data-label="lewin-titel" x="16" y="56" text-anchor="start" class="d-text-fett">Kurt Lewins 3-Schritt-Modell (1951)</text>
+    <rect class="d-flaeche" x="16" y="68" width="328" height="32" rx="6"/>
+    <text data-label="lewin-1" x="180" y="89" text-anchor="middle" class="d-text-fett">Auftauen</text>
+    <rect class="d-flaeche" x="16" y="106" width="328" height="32" rx="6"/>
+    <text data-label="lewin-2" x="180" y="127" text-anchor="middle" class="d-text-fett">Verändern</text>
+    <rect class="d-flaeche" x="16" y="144" width="328" height="32" rx="6"/>
+    <text data-label="lewin-3" x="180" y="165" text-anchor="middle" class="d-text-fett">Einfrieren</text>
+
+    <text data-label="kotter-titel" x="16" y="206" text-anchor="start" class="d-text-fett">John Kotters 8-Schritt-Modell (1995)</text>
+    <line class="d-linie" x1="24" y1="220" x2="24" y2="480"/>
+    <polygon class="d-pfeilspitze" points="0,-9 -6,4 6,4" transform="translate(24,492) rotate(180)"/>
+    <rect class="d-flaeche" x="40" y="218" width="304" height="28" rx="6"/>
+    <text data-label="kotter-1" x="52" y="237" text-anchor="start" class="d-text-klein">Dringlichkeit erzeugen</text>
+    <rect class="d-flaeche" x="40" y="251" width="304" height="28" rx="6"/>
+    <text data-label="kotter-2" x="52" y="270" text-anchor="start" class="d-text-klein">Etablierung Führungsteam</text>
+    <rect class="d-flaeche" x="40" y="284" width="304" height="28" rx="6"/>
+    <text data-label="kotter-3" x="52" y="303" text-anchor="start" class="d-text-klein">Vision entwickeln</text>
+    <rect class="d-flaeche" x="40" y="317" width="304" height="28" rx="6"/>
+    <text data-label="kotter-4" x="52" y="336" text-anchor="start" class="d-text-klein">Vision kommunizieren</text>
+    <rect class="d-flaeche" x="40" y="350" width="304" height="28" rx="6"/>
+    <text data-label="kotter-5" x="52" y="369" text-anchor="start" class="d-text-klein">Befähigung/ Bevollmächtigung</text>
+    <rect class="d-flaeche" x="40" y="383" width="304" height="28" rx="6"/>
+    <text data-label="kotter-6" x="52" y="402" text-anchor="start" class="d-text-klein">kfr. Ziele erreichen/ Erfolge erzielen</text>
+    <rect class="d-flaeche" x="40" y="416" width="304" height="28" rx="6"/>
+    <text data-label="kotter-7" x="52" y="435" text-anchor="start" class="d-text-klein">erreichte Ziele/ Erfolge sichern</text>
+    <rect class="d-flaeche" x="40" y="449" width="304" height="28" rx="6"/>
+    <text data-label="kotter-8" x="52" y="468" text-anchor="start" class="d-text-klein">Konsolidierung/ Change kultivieren</text>
+
+    <text data-label="t-kurve" x="16" y="536" text-anchor="start" class="d-text-titel">Change-Kurve</text>
+
+    <text data-label="leistungsniveau" x="180" y="562" text-anchor="start" class="d-text-klein">Leistungsniveau</text>
+    <line class="d-linie-duenn" x1="176" y1="574" x2="336" y2="574"/>
+    <polygon class="d-pfeilspitze" points="0,-9 -6,4 6,4" transform="translate(348,574) rotate(90)"/>
+    <line class="d-linie-duenn" x1="16" y1="580" x2="16" y2="1006"/>
+    <polygon class="d-pfeilspitze" points="0,-9 -6,4 6,4" transform="translate(16,1018) rotate(180)"/>
+    <text data-label="zeit" x="30" y="1016" text-anchor="start" class="d-text-fett">Zeit</text>
+
+    <line class="d-linie-duenn" x1="316" y1="580" x2="316" y2="1000"/>
+    <text data-label="hundert-ist" x="352" y="1020" text-anchor="end" class="d-text-akzent">100% bzw. IST</text>
+
+    <path class="d-linie-gestrichelt" d="M 176 619 L 304 619"/>
+    <path class="d-linie-gestrichelt" d="M 176 664 L 267 664"/>
+    <path class="d-linie-gestrichelt" d="M 176 712 L 288 712"/>
+    <path class="d-linie-gestrichelt" d="M 176 762 L 234 762"/>
+    <path class="d-linie-gestrichelt" d="M 176 876 L 235 876"/>
+    <path class="d-linie-gestrichelt" d="M 176 927 L 273 927"/>
+    <path class="d-linie-gestrichelt" d="M 176 976 L 317 976"/>
+
+    <path class="d-kurve" d="M 311 592 C 315 601 317 611 316 619 C 315 633 286 645 279 664 C 272 683 291 702 300 712 C 312 726 276 743 246 762 C 217 779 200 792 191 807 C 180 826 222 857 247 876 C 271 893 275 909 285 927 C 298 947 321 962 329 976 C 333 984 334 990 334 995"/>
+
+    <circle class="d-punkt" cx="316" cy="619" r="5"/>
+    <circle class="d-punkt" cx="279" cy="664" r="5"/>
+    <circle class="d-punkt" cx="300" cy="712" r="5"/>
+    <circle class="d-punkt" cx="246" cy="762" r="5"/>
+    <circle class="d-punkt" cx="191" cy="807" r="5"/>
+    <circle class="d-punkt" cx="247" cy="876" r="5"/>
+    <circle class="d-punkt" cx="285" cy="927" r="5"/>
+    <circle class="d-punkt" cx="329" cy="976" r="5"/>
+
+    <line class="d-linie-akzent" x1="205" y1="807" x2="302" y2="807"/>
+    <polygon class="d-pfeilspitze-akzent" points="0,-11 -7,5 7,5" transform="translate(191,807) rotate(-90)"/>
+    <polygon class="d-pfeilspitze-akzent" points="0,-11 -7,5 7,5" transform="translate(316,807) rotate(90)"/>
+
+    <text data-label="st-1" x="170" y="614" text-anchor="end" class="d-text-fett"><tspan x="170" y="614">Vorahnung/ </tspan><tspan x="170" y="631">Gerüchte</tspan></text>
+    <text data-label="st-2" x="170" y="659" text-anchor="end" class="d-text-fett"><tspan x="170" y="659">Irritation/ </tspan><tspan x="170" y="676">Schock</tspan></text>
+    <text data-label="st-3" x="170" y="707" text-anchor="end" class="d-text-fett"><tspan x="170" y="707">Verneinung/ </tspan><tspan x="170" y="724">Abwehr</tspan></text>
+    <text data-label="st-4" x="170" y="757" text-anchor="end" class="d-text-fett"><tspan x="170" y="757">rationale </tspan><tspan x="170" y="774">Akzeptanz</tspan></text>
+    <text data-label="st-5" x="170" y="802" text-anchor="end" class="d-text-fett"><tspan x="170" y="802">emotionale </tspan><tspan x="170" y="819">Akzeptanz</tspan></text>
+    <text data-label="ausrufezeichen" x="176" y="796" text-anchor="start" class="d-text-akzent">!</text>
+    <text data-label="st-6" x="170" y="871" text-anchor="end" class="d-text-fett"><tspan x="170" y="871">Anpassung, </tspan><tspan x="170" y="888">Lernen</tspan></text>
+    <text data-label="st-7" x="170" y="922" text-anchor="end" class="d-text-fett"><tspan x="170" y="922">Erkenntnis, </tspan><tspan x="170" y="939">Aha-Effekt!</tspan></text>
+    <text data-label="st-8" x="170" y="971" text-anchor="end" class="d-text-fett"><tspan x="170" y="971">Integration/ </tspan><tspan x="170" y="988">Manifestation</tspan></text>
+
+    <text data-label="projekt-phasen" x="16" y="1066" text-anchor="start" class="d-text">Projekt-Phasen:</text>
+    <line class="d-linie-duenn" x1="16" y1="1073" x2="134" y2="1073"/>
+
+    <line class="d-linie-gestrichelt" x1="24" y1="1084" x2="24" y2="1212"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(24,1089) rotate(90)"/>
+    <text data-label="ph-1" x="40" y="1094" text-anchor="start" class="d-text-klein">Entscheidung</text>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(24,1119) rotate(90)"/>
+    <text data-label="ph-2" x="40" y="1124" text-anchor="start" class="d-text-klein">Ankündigung</text>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(24,1149) rotate(90)"/>
+    <text data-label="ph-3" x="40" y="1154" text-anchor="start" class="d-text-klein">Konzeption</text>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(24,1179) rotate(90)"/>
+    <text data-label="ph-4" x="40" y="1184" text-anchor="start" class="d-text-klein">Umsetzung</text>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(24,1209) rotate(90)"/>
+    <text data-label="ph-5" x="40" y="1214" text-anchor="start" class="d-text-klein">Roll-out</text>
+
+    <rect class="d-akzentflaeche" x="16" y="1244" width="328" height="62" rx="8"/>
+    <text data-label="hinweis-strukturen" x="32" y="1272" text-anchor="start" class="d-text-akzent"><tspan x="32" y="1272">STRUKTUREN/PROZESSE -&gt; </tspan><tspan x="32" y="1293">Changes greif-/erlebbar machen!</tspan></text>
+
+    <rect class="d-flaeche-leer" x="16" y="1320" width="328" height="58" rx="8"/>
+    <text data-label="hinweis-evidenz" x="32" y="1346" text-anchor="start" class="d-text-mittel"><tspan x="32" y="1346">ABER: nicht evidenzbasiert, </tspan><tspan x="32" y="1366">nicht empirisch belegt!</tspan></text>
+
+    <text data-label="management-aufgaben" x="16" y="1406" text-anchor="start" class="d-text-fett">Management-Aufgaben</text>
+    <rect class="d-flaeche" x="16" y="1418" width="328" height="178" rx="8"/>
+
+    <text data-label="ma-1" x="32" y="1442" text-anchor="start" class="d-text-klein">Information/Kommunikation/Einbinden</text>
+    <line class="d-linie-duenn" x1="40" y1="1452" x2="138" y2="1452"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(32,1452) rotate(270)"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(146,1452) rotate(90)"/>
+
+    <text data-label="ma-2" x="66" y="1476" text-anchor="start" class="d-text-klein"><tspan x="66" y="1476">Aufbau Fähigkeiten/Tools/</tspan><tspan x="66" y="1493">Durchbruchsthemen</tspan></text>
+    <line class="d-linie-duenn" x1="74" y1="1503" x2="222" y2="1503"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(66,1503) rotate(270)"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(230,1503) rotate(90)"/>
+
+    <text data-label="ma-3" x="138" y="1527" text-anchor="start" class="d-text-klein">Coaching</text>
+    <line class="d-linie-duenn" x1="146" y1="1537" x2="271" y2="1537"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(138,1537) rotate(270)"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(279,1537) rotate(90)"/>
+
+    <text data-label="ma-4" x="188" y="1561" text-anchor="start" class="d-text-klein">Controlling/Monitoring</text>
+    <line class="d-linie-duenn" x1="196" y1="1571" x2="298" y2="1571"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(188,1571) rotate(270)"/>
+    <polygon class="d-pfeilspitze" points="0,-8 -5,3 5,3" transform="translate(306,1571) rotate(90)"/>
   </g>`,
   labels: [
     { id: 't-modelle', text: 'Change-Modelle', abfragbar: false, gruppe: 'gliederung' },

@@ -1,6 +1,8 @@
 /* Ansichten "Modul" und "Thema": der Weg durch den Stoff.
-   Hier stehen nur Anordnung und Abstände. Knöpfe, Karten, Marken, Balken, Ampel, Listen und Reiter kommen
-   unverändert aus komponenten.css; Farben, Abstände und Radien ausschließlich über die Tokens. */
+   Hier stehen Anordnung und Abstände. Knöpfe, Karten, Marken, Ampel und Listen kommen unverändert aus
+   komponenten.css; Farben, Abstände und Radien ausschließlich über die Tokens. Abweichungen von
+   komponenten.css gibt es nur zwei, beide begründet an Ort und Stelle: die Spur des Fortschrittsbalkens
+   und die Reiter der Lernkarten. */
 
 /* ---------- Modul: Kopfzahlen ---------- */
 
@@ -12,13 +14,17 @@
 .modulstand__zahlen { flex: 1 1 15rem; min-width: 0; display: flex; flex-direction: column; gap: var(--a-3); }
 .modulstand__knopf { flex: none; }
 
-.kennzahlen { display: grid; grid-template-columns: repeat(auto-fit, minmax(6.5rem, 1fr)); gap: var(--a-3) var(--a-4); }
+/* Festes Raster statt auto-fit: auto-fit legte auf dem iPad hochkant drei Werte nebeneinander und den
+   vierten in eine zweite Zeile darunter. Zwei Spalten bis zum Querformat, dort vier nebeneinander. */
+.kennzahlen { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--a-3) var(--a-4); }
+@media (min-width: 64rem) { .kennzahlen { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
 .kennzahl__titel {
   font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
   color: var(--tinte-3);
 }
 .kennzahl__wert { font-family: var(--schrift-titel); font-size: var(--gr-l); line-height: 1.25; }
 .kennzahl__zusatz { font-size: var(--gr-s); color: var(--tinte-3); line-height: 1.35; }
+.kennzahl__zeit { white-space: nowrap; }
 
 /* ---------- Modul: Themenliste ---------- */
 
@@ -38,9 +44,42 @@
   .eintrag__pfeil { display: none; }
 }
 
+/* ---------- Thema: Seitenlage ---------- */
+
+/* Die Ansicht bringt ihre Breite selbst mit, statt "seite--schmal" zu tragen: schmal bleibt die Textspalte
+   bei 46rem, im Querformat des iPads (ab 64rem) trägt derselbe Rahmen die zweispaltige Lage. */
+.themaseite { max-width: var(--breite-text); margin-left: auto; margin-right: auto; }
+
+@media (min-width: 64rem) {
+  /* Vertrag 8.7: das iPad quer ist eine eigene Lage. Links der Stoff in Lesebreite, rechts der Stand,
+     der beim Arbeiten stehen bleibt. Vorher endete die Seite bei 768 px und ließ 426 px leer. */
+  .themaseite {
+    max-width: none; margin-left: 0; margin-right: 0;
+    display: grid; grid-template-columns: minmax(0, var(--breite-text)) minmax(0, 18rem);
+    column-gap: var(--a-6); align-items: start; justify-content: start;
+  }
+  .themaseite > .brotkrumen { grid-column: 1 / -1; grid-row: 1; }
+  .themaseite > .seitenkopf { grid-column: 1 / -1; grid-row: 2; }
+  .themaseite > .themabuehne { grid-column: 1; grid-row: 3; }
+  .themaseite > .fortschritt {
+    grid-column: 2; grid-row: 3; margin-bottom: 0;
+    position: sticky; top: calc(var(--kopf-hoehe) + var(--a-4));
+    padding: var(--a-4); gap: var(--a-3);
+    border: 1px solid var(--linie); border-radius: var(--radius-m); background: var(--flaeche-2);
+  }
+  .themaseite > .fortschritt .fortschritt__schritte { flex-direction: column; align-items: flex-start; gap: var(--a-3); }
+}
+
 /* ---------- Thema: Kopf und Fortschritt ---------- */
 
 .themakopf__marken { margin-top: var(--a-3); gap: var(--a-1) var(--a-2); }
+
+/* Läuft das Thema erst einmal, trägt der Kopf nur noch Vorlesung und Titel: Erklärsatz und Folienmarke
+   gehören zum ersten Schritt. Auf dem iPhone begann die Aufgabe sonst erst nach 470 px, bei jedem Schritt. */
+.themakopf.ist-kompakt { margin-bottom: var(--a-4); }
+.themakopf.ist-kompakt h1 { font-size: var(--gr-xl); margin-bottom: 0; }
+.themakopf.ist-kompakt .themakopf__einleitung,
+.themakopf.ist-kompakt .themakopf__marken { display: none; }
 
 .fortschritt { display: flex; flex-direction: column; gap: var(--a-2); margin-bottom: var(--a-5); }
 .fortschritt__schritte { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--a-2) var(--a-5); }
@@ -61,6 +100,11 @@
 .fortschritt__schritt.ist-erledigt .fortschritt__nummer { border-color: var(--gut); color: var(--gut); }
 .fortschritt__text { margin: 0; }
 
+/* Die leere Spur muss als leer lesbar sein. Im dunklen Thema lag sie mit --flaeche-3 heller auf der Seite
+   als das Papier und sah bei "Schritt 1 von 9" wie ein durchgezogener, voller Balken aus. Jetzt eine
+   eingetiefte Spur mit Rand: was leuchtet, ist allein der Wert. */
+.fortschritt__balken { background: var(--flaeche); box-shadow: inset 0 0 0 1px var(--linie-stark); }
+
 /* Bühne: hier lösen Verstehen, Anwenden und Abschluss einander ab. Die Mindesthöhe hält die Seite ruhig,
    wenn auf eine lange Lernkarte eine kurze Aufgabe folgt. */
 .themabuehne { min-height: 18rem; }
@@ -70,9 +114,19 @@
 .kartenlauf { display: flex; flex-direction: column; gap: var(--a-4); }
 .kartenlauf__titel { margin: 0; }
 
-.kartenreiter__knopf { display: inline-flex; align-items: center; gap: 0.4em; padding: 0 var(--a-3); max-width: 13rem; }
+/* Die Reiter nennen, was auf der jeweiligen Karte steht. Abgeschnittene Titel ("Die Beispielfragen de…")
+   zwingen zum Raten, und auf dem iPhone SE lagen zwei der drei Reiter ganz außerhalb des Fensters
+   (gemessen: sichtbar 288 px, gebraucht 632 px, Rollbalken ausgeblendet). Deshalb: umbrechen statt
+   seitlich weglaufen, und auf dem iPad ausschreiben statt kürzen. */
+.kartenreiter { flex-wrap: wrap; overflow-x: visible; }
+.kartenreiter__knopf { display: inline-flex; align-items: center; gap: 0.4em; padding: 0 var(--a-3); max-width: 100%; text-align: left; }
 .kartenreiter__knopf > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .kartenreiter__knopf svg { width: 1rem; height: 1rem; flex: none; color: var(--gut); stroke-width: 2.4; }
+
+@media (min-width: 40rem) {
+  .kartenreiter__knopf { white-space: normal; padding-top: var(--a-2); padding-bottom: var(--a-2); }
+  .kartenreiter__knopf > span { overflow: visible; text-overflow: clip; white-space: normal; }
+}
 
 .lauf__navi { gap: var(--a-3); }
 @media (max-width: 34rem) {

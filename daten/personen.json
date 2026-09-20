@@ -204,8 +204,8 @@
     },
     {
       "name": "Michael Beckmann",
-      "kurz": "Dozent und Urheber des Skripts · Dozent und Urheber der Folien · Urheber der Folien · Urheber des Skripts",
-      "beitrag": "- **Folie 36, 37, 38, 40, 41, 42:** Urheber des Skripts laut Fußzeile jeder Folie: „DHBW, BWL-Bank, MAF I, SS 2026 © Michael Beckmann\".\n- **Folie 43, 44, 45, 46, 47, 48:** Urheber der Folien laut Fußzeile jeder Seite des Skripts. Er ist der Dozent der Vorlesung Mitarbeiterführung.\n- **Folie 49, 50, 51, 52, 53:** Steht in der Fußzeile der Folien 49 bis 53 als Urheber: DHBW, BWL-Bank, MAF II, SS 2026 © Michael Beckmann. Er ist der Dozent der Vorlesung Mitarbeiterführung. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 58, 59, 60, 61:** Steht in der Fußzeile der Folien 58 bis 61 als Urheber: DHBW, BWL-Bank, MAF III, SS 2026 © Michael Beckmann. Er ist der Dozent der Vorlesung Mitarbeiterführung. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 62, 63, 64, 65:** Steht in der Fußzeile der Folien 62, 63, 64 und 65 als Urheber: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 66, 67, 68:** Steht in der Fußzeile der Folien 66, 67 und 68 als Urheber: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 76, 77, 78, 79:** Urheber des Skripts laut Fußzeile jeder Folie dieses Teils: DHBW, BWL-Bank, MAF VI, SS 2026 © Michael Beckmann.",
+      "kurz": "Dozent und Urheber des Skripts · Dozent und Urheber der Folien · Urheber der Folien · Urheber des Skripts · Dozent des Moduls Mitarbeiterführung (MAF)",
+      "beitrag": "- **Folie 36, 37, 38, 40, 41, 42:** Urheber des Skripts laut Fußzeile jeder Folie: „DHBW, BWL-Bank, MAF I, SS 2026 © Michael Beckmann\".\n- **Folie 43, 44, 45, 46, 47, 48:** Urheber der Folien laut Fußzeile jeder Seite des Skripts. Er ist der Dozent der Vorlesung Mitarbeiterführung.\n- **Folie 49, 50, 51, 52, 53:** Steht in der Fußzeile der Folien 49 bis 53 als Urheber: DHBW, BWL-Bank, MAF II, SS 2026 © Michael Beckmann. Er ist der Dozent der Vorlesung Mitarbeiterführung. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 58, 59, 60, 61:** Steht in der Fußzeile der Folien 58 bis 61 als Urheber: DHBW, BWL-Bank, MAF III, SS 2026 © Michael Beckmann. Er ist der Dozent der Vorlesung Mitarbeiterführung. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 62, 63, 64, 65:** Steht in der Fußzeile der Folien 62, 63, 64 und 65 als Urheber: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 66, 67, 68:** Steht in der Fußzeile der Folien 66, 67 und 68 als Urheber: DHBW, BWL-Bank, MAF IV, SS 2026 © Michael Beckmann. Eine inhaltliche Aussage wird ihm auf diesen Folien nicht zugeschrieben.\n- **Folie 76, 77, 78, 79:** Urheber des Skripts laut Fußzeile jeder Folie dieses Teils: DHBW, BWL-Bank, MAF VI, SS 2026 © Michael Beckmann.\n- **Folie 80, 81, 82, 83, 84:** Urheber des Skripts laut Fußzeile der Folien 80 bis 84: „DHBW, BWL-Bank, MAF VI, SS 2026 © Michael Beckmann“. Von ihm stammen auch die eigenen roten Zeilen über den eingefügten Artikeln: „Fix the system, not the people!“ auf den Folien 82 und 83 sowie „KONTINUIERLICH IM START-UP MODUS BLEIBEN“ in der Überschrift der Folie 84.\n- **Skript:** Dozent des Moduls. Die Titelfolie nennt ihn unter Ort und Datum als „Michael Beckmann, MBA, MSc (HEC)“, die Fußzeile jeder Folie trägt „© Michael Beckmann“. Auf der Schlussfolie stehen unter „Bei Nachfragen“ seine Kontaktdaten www.michael-beckmann.org und mpsmb@t-online.de.",
       "folien": [
         36,
         37,
@@ -238,7 +238,12 @@
         76,
         77,
         78,
-        79
+        79,
+        80,
+        81,
+        82,
+        83,
+        84
       ],
       "themen": [
         "m1-t11",
@@ -279,7 +284,15 @@
         "m6-t3",
         "m6-t4",
         "m6-t5",
-        "m6-t6"
+        "m6-t6",
+        "m6-t11",
+        "m6-t12",
+        "m6-t13",
+        "m6-t14",
+        "m6-t15",
+        "m6-t16",
+        "m6-t17",
+        "m7-t1"
       ],
       "quelle": "skript",
       "beleg": "Michael Beckmann — Urheber laut Fußzeile „DHBW, BWL-Bank, MAF I, SS 2026 © Michael Beckmann\"",
@@ -704,17 +717,18 @@
     },
     {
       "name": "Steve Jobs",
-      "kurz": "Zitat zum Sinn-Motiv",
-      "beitrag": "Im RSA-Video von Dan Pink als Beispiel für das Sinn-Motiv zitiert, neben dem Skype-Gründer. Mehr sagt die Quelle über ihn nicht.",
+      "kurz": "Zitat zum Sinn-Motiv · Zitat auf der Schlussfolie: Führung und Gefallenwollen",
+      "beitrag": "- **Folie 44:** Im RSA-Video von Dan Pink als Beispiel für das Sinn-Motiv zitiert, neben dem Skype-Gründer. Mehr sagt die Quelle über ihn nicht.\n- **Skript:** Urheber des Zitats in der Bildkachel rechts unten auf der Schlussfolie (farewell): „If you want to make everyone happy, don't be a leader. Sell ice-cream.“ Das Skript kommentiert das Zitat nicht.",
       "folien": [
         44
       ],
       "themen": [
-        "m2-t4"
+        "m2-t4",
+        "m7-t1"
       ],
-      "quelle": "extern",
-      "beleg": "Steve Jobs („I want to put a ding in the universe“)",
-      "belegQuelle": "extern-pink"
+      "quelle": "skript",
+      "beleg": "If you want to make everyone happy, don't be a leader. Sell ice-cream.",
+      "belegQuelle": "folie-59"
     },
     {
       "name": "Sven Henckel",
@@ -978,6 +992,429 @@
       "quelle": "skript",
       "beleg": "John Kotters 8-Schritt-Modell (1995)",
       "belegQuelle": "folie-50"
+    },
+    {
+      "name": "Nadler/Tushman",
+      "kurz": "Kongruenzmodell (1997)",
+      "beitrag": "Stehen auf Folie 80 für das „Kongruenzmodell nach Nadler/Tushman (1997)“, mit dem das Skript die systemische Sicht im akuten Change darstellt: Input (Umwelt, Ressourcen, Geschichte), ein Pfeil „Strategie“ in vier durch Doppelpfeile verbundene Elemente (Informelle Organisation, Prozesse, Formelle Organisation, Menschen), daraus der Output (Individuum, Team, Organisation) und ein Feedback-Pfeil zurück. Das Skript nennt die Namen ohne Vornamen und ohne weitere Quellenangabe.",
+      "folien": [
+        80
+      ],
+      "themen": [
+        "m6-t11"
+      ],
+      "quelle": "skript",
+      "beleg": "Kongruenzmodell nach Nadler/Tushman (1997)",
+      "belegQuelle": "folie-52"
+    },
+    {
+      "name": "Maddox",
+      "kurz": "Vergessenskurve",
+      "beitrag": "Quellenangabe der auf Folie 81 eingebetteten Grafik „Vergessenskurve“: Unten links außerhalb der Achsen steht „(nach Maddox)“. Die Grafik zeigt vier abfallende Kurven über 15 Tage: Gesetzmäßigkeit, Prinzipien (läuft knapp unter 100 aus), Gedichte (knapp unter 50), Prosatext (knapp unter 20) und sinnlos Gelerntes (unterste Kurve). Mehr sagt das Skript über Maddox nicht.",
+      "folien": [
+        81
+      ],
+      "themen": [
+        "m6-t13"
+      ],
+      "quelle": "skript",
+      "beleg": "Unten links außerhalb der Achsen: \"(nach Maddox)\"",
+      "belegQuelle": "folie-53"
+    },
+    {
+      "name": "Antonia Götsch",
+      "kurz": "Autorin des Artikels, Chefredakteurin des Harvard Business managers",
+      "beitrag": "Autorin des auf den Folien 82 und 83 eingefügten Artikels „Gute Leute, schlechte Organisation: Was Leistung ausbremst“ (manager magazin / Harvard Business manager, 05.02.2026, 07.05 Uhr). Sie ist Chefredakteurin des Harvard Business managers und spricht in „Wegen guter Führung – der ehrliche Führungspodcast“ alle zwei Wochen mit Gästen aus Wirtschaft, Wissenschaft und Sport über Führung, Strategie und Management; der Podcast erscheint 14-täglich, auch auf Spotify und Apple.",
+      "folien": [
+        82,
+        83
+      ],
+      "themen": [
+        "m6-t14",
+        "m6-t15"
+      ],
+      "quelle": "skript",
+      "beleg": "Antonia Götsch, Chefredakteurin des Harvard Business managers, alle zwei Wochen mit Gästen",
+      "belegQuelle": "folie-55"
+    },
+    {
+      "name": "Judith Muster",
+      "kurz": "Sieben typische Fehler, die Leistung ausbremsen",
+      "beitrag": "Soziologin, forscht an der Universität Potsdam und leitet als Partnerin die Organisationsberatung Metaplan. Von ihr stammen die sieben typischen Fehler, die auf den Folien 82 und 83 im eingefügten Artikel stehen: 1. Widersprüchliche Ziele, 2. Ressourcenkonflikte, 3. Bürokratie und Genehmigungsschleifen, 4. Kollegialitätsnormen, 5. Ziele mit Scheuklappeneffekt, 6. Überzogene Perfektion, 7. Allzweckwaffe Coaching. Von ihr stammen außerdem die Zitate „Ressourcenkonflikte sind ein verbreiteter Performancekiller“, „You get what you measure“ und „viele Unternehmen neigen dazu, ungelöste Probleme auf Personen zu verschieben“. Sie ist Gast im Podcast „Wegen guter Führung“. Ihre Position trägt die rote Zeile des Dozenten: Fix the system, not the people!",
+      "folien": [
+        82,
+        83
+      ],
+      "themen": [
+        "m6-t14",
+        "m6-t15"
+      ],
+      "quelle": "skript",
+      "beleg": "Judith Muster forscht als Soziologin an der Universität Potsdam und leitet als Partnerin die Organisationsberatung Metaplan.",
+      "belegQuelle": "folie-54"
+    },
+    {
+      "name": "Jeff Bezos",
+      "kurz": "Day 1 Mindset bei Amazon, Warnung vor Day 2",
+      "beitrag": "Amazon-Gründer. Er hat das Day 1 Mindset geprägt und bei Amazon etabliert; es befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten, mit den Schwerpunkten Innovation, radikale Kundenzentrierung, schnelle Entscheidungsfindung und Risikobereitschaft. Von ihm stammen die beiden Zitate auf Folie 84: „Day 1 steht für Agilität, Neugier, Anpassungsfähigkeit und Mut zu neuen Wegen – während Day 2 Trägheit, Bürokratie und den Niedergang eines Unternehmens bedeutet“ (Quellenangabe laut Rohtext: AWS Executive Insights) und „Wie würde ein Startup dieses Problem lösen?“. Er warnt explizit vor der Day 2 Mentalität; sein Fazit: Unternehmen müssen aktiv gegen den Übergang in „Day 2“ ansteuern, durch Mut, Lernfreude und radikale Kundenorientierung.",
+      "folien": [
+        84
+      ],
+      "themen": [
+        "m6-t16",
+        "m6-t17"
+      ],
+      "quelle": "skript",
+      "beleg": "Das Day 1 Mindset wurde von Jeff Bezos geprägt und befähigt Unternehmen dazu, sich ständig wie ein Startup zu verhalten.",
+      "belegQuelle": "folie-56"
+    },
+    {
+      "name": "Abegglen, Christian",
+      "kurz": "Leseliste: Unternehmen neu erfinden (2018)",
+      "beitrag": "In der Leseliste („A short reading list“) als Autor von „Unternehmen neu erfinden: das Denk- und Arbeitsbuch gegen organisierten Stillstand“ (2018), Frankfurt, FAZ-Buch, gekennzeichnet mit (GERMAN). Einen Inhalt des Werks nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Abegglen, Christian (2018). Unternehmen neu erfinden: das Denk- und Arbeitsbuch gegen organisierten Stillstand",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Alvesson, Mats",
+      "kurz": "Leseliste: A Stupidity-Based Theory of Organizations (2012)",
+      "beitrag": "In der Leseliste als Mitautor von „A Stupidity-Based Theory of Organizations“ (2012), Journal of Management Studies, Vol. 49, No.7, 1194-1220, gemeinsam mit Spicer, André. Einen Inhalt des Aufsatzes nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Alvesson, Mats and Spicer, André (2012). A Stupidity-Based Theory of Organizations",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Argyris, Chris",
+      "kurz": "Leseliste: Defensive Routines (1985), Skilled Incompetence (1986)",
+      "beitrag": "Einziger Autor, der in der Leseliste mit zwei eigenen Titeln steht: „Strategy, Change, and Defensive Routines“ (1985), Boston, MA: Pitman Publishing, und „Skilled Incompetence“ (1986), Harvard Business Review, Vol. 64, No. 5, pp. 74-79. Außerhalb der Leseliste kommt er im Skript nicht vor.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Argyris, Chris. (1986). Skilled Incompetence",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Cameron, Esther",
+      "kurz": "Leseliste: Making Sense of Change Management (2015)",
+      "beitrag": "In der Leseliste als Mitautorin von „Making Sense of Change Management“ (2015), London, KoganPage, gemeinsam mit Green, Mike. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Cameron, Esther and Green, Mike ((2015). Making Sense of Change Management",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Critchley, B.",
+      "kurz": "Leseliste: Organisational Consulting (2013)",
+      "beitrag": "In der Leseliste als Mitautor von „Organisational Consulting“ (2013), Farringdon, Libri, gemeinsam mit King, K. und Higgins, J. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Critchley, B., King, K., Higgins, J. (2013) Organisational Consulting",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Gergen, Kenneth",
+      "kurz": "Leseliste: An Invitation to Social Construction (2009)",
+      "beitrag": "In der Leseliste als Autor von „An Invitation to Social Construction“ (2009), London, Sage. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Gergen, Kenneth (2009). An Invitation to Social Construction",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Green, Mike",
+      "kurz": "Leseliste: Making Sense of Change Management (2015)",
+      "beitrag": "In der Leseliste als Mitautor von „Making Sense of Change Management“ (2015), London, KoganPage, gemeinsam mit Cameron, Esther. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Cameron, Esther and Green, Mike ((2015). Making Sense of Change Management",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Greiner, Larry E.",
+      "kurz": "Leseliste: Evolution and Revolution as Organisations Grow (1972/1998)",
+      "beitrag": "In der Leseliste als Autor von „Evolution and Revolution as Organisations Grow“ (1972/1998), HBR, July/August 1972, May/June 1998. Folie 35 arbeitet mit derselben Begriffsunterscheidung (Legende: Evolution als Wachstumsphase, Revolution als Phase der Krise), nennt dort aber keinen Autor. Greiner kommt im Skript nur in der Leseliste vor.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Greiner, Larry E. (1972/1998). Evolution and Revolution as Organisations Grow",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Heskett, James",
+      "kurz": "Leseliste: The Culture Cycle (2012)",
+      "beitrag": "In der Leseliste als Autor von „The Culture Cycle“ (2012), London, FT Press. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Heskett, James(2012). The Culture Cycle",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Higgins, J.",
+      "kurz": "Leseliste: Organisational Consulting (2013)",
+      "beitrag": "In der Leseliste als Mitautor von „Organisational Consulting“ (2013), Farringdon, Libri, gemeinsam mit Critchley, B. und King, K. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Critchley, B., King, K., Higgins, J. (2013) Organisational Consulting",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Kegan, Robert",
+      "kurz": "Leseliste: Immunity to Change (2009)",
+      "beitrag": "In der Leseliste als Mitautor von „Immunity to Change“ (2009), Boston, MA, HBR Press, gemeinsam mit Laskow Lahey, Lisa. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Kegan, Robert and Laskow Lahey, Lisa (2009). Immunity to Change",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Keohane, Nannerl O.",
+      "kurz": "Leseliste: Thinking about Leadership (2010)",
+      "beitrag": "In der Leseliste als Autorin von „Thinking about Leadership“ (2010), Princeton, NJ, Princeton University Press. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Keohane, Nannerl O. (2010). Thinking about Leadership",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "King, K.",
+      "kurz": "Leseliste: Organisational Consulting (2013)",
+      "beitrag": "In der Leseliste als Mitautor von „Organisational Consulting“ (2013), Farringdon, Libri, gemeinsam mit Critchley, B. und Higgins, J. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Critchley, B., King, K., Higgins, J. (2013) Organisational Consulting",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Kotter, John P.",
+      "kurz": "Leseliste: Leading Change: Why Transformation Efforts Fail (1995)",
+      "beitrag": "In der Leseliste als Autor von „Leading Change: Why Transformation Efforts Fail“ (1995), HBR OnPoint, (March-April), 1-10. Derselbe Name und dasselbe Jahr stehen im Skript auf Folie 78: „John Kotters 8-Schritt-Modell (1995)“. Dort schreibt ihn das Skript „John Kotter“, in der Leseliste dagegen „Kotter, John P.“.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Kotter, John P. (1995). Leading Change: Why Transformation Efforts Fail",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Kübler-Ross, Elisabeth",
+      "kurz": "Leseliste: On death and dying (1969)",
+      "beitrag": "In der Leseliste als Autorin von „On death and dying“ (1969), New York, Macmillan. Ihr Name steht im Skript ausschließlich in der Leseliste; eine Verbindung zu einer Folie stellt das Skript nicht her.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Kübler-Ross, Elisabeth (1969). On death and dying",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Laloux, Frederic",
+      "kurz": "Leseliste: Reinventing Organizations (2014)",
+      "beitrag": "In der Leseliste als Autor von „Reinventing Organizations“ (2014), Brussels, Nelson Parker. Außerhalb der Leseliste kommt er im Skript nicht vor.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Laloux, Frederic (2014). Reinventing Organizations",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Laskow Lahey, Lisa",
+      "kurz": "Leseliste: Immunity to Change (2009)",
+      "beitrag": "In der Leseliste als Mitautorin von „Immunity to Change“ (2009), Boston, MA, HBR Press, gemeinsam mit Kegan, Robert. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Kegan, Robert and Laskow Lahey, Lisa (2009). Immunity to Change",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Lewin, Kurt",
+      "kurz": "Leseliste: Frontiers in group dynamics (1947)",
+      "beitrag": "In der Leseliste als Autor von „Frontiers in group dynamics“ (1947), Human Relations, 1, 5-41. Im Skript kommt Kurt Lewin außerdem bei den Führungsstilen (Folien 39 bis 41, dort mit 1938-40 beziehungsweise 1939) und auf Folie 78 mit dem 3-Schritt-Modell (1951) vor. Die Jahreszahlen unterscheiden sich also je nach Fundstelle.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Lewin, Kurt (1947). Frontiers in group dynamics",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Morgan, Gareth",
+      "kurz": "Leseliste: Images of Organization (2006)",
+      "beitrag": "In der Leseliste als Autor von „Images of Organization“ (2006), London, Sage. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Morgan, Gareth (2006). Images of Organization",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Pascale, Richard",
+      "kurz": "Leseliste: Business Fads (1990), Positive Deviance (2010)",
+      "beitrag": "In der Leseliste zweimal vertreten: allein als Autor von „Ebbs, Flows and Residual Impact of Business Fads 1950-1995“ (1990), in: Managing on the Edge, NYC, Simon &Schuster, und gemeinsam mit Sternin, J. und Sternin, M. als Mitautor von „The Power of Positive Deviance“ (2010), Boston, HBR Press.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Pascale, Richard (1990). Ebbs, Flows and Residual Impact of Business Fads 1950-1995",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Patrick Lencioni",
+      "kurz": "Die 5 Dysfunktionen eines Teams (2014)",
+      "beitrag": "Verfasser der Quelle, die die Abschlussfolie „Die Kehrseite: Dysfunktionen eines Teams“ in ihrer Fußnote nennt: Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014. Auf diese Quelle geht die Abbildung Teamperformance-Pyramide mit den fünf Funktionen (to do) und den fünf Dysfunktionen (to kill) zurück.",
+      "folien": [],
+      "themen": [
+        "m7-t3"
+      ],
+      "quelle": "skript",
+      "beleg": "Patrick Lencioni: Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014",
+      "belegQuelle": "folie-58"
+    },
+    {
+      "name": "Schulz v. Thun, Friedrich",
+      "kurz": "Leseliste: Miteinander reden (1981)",
+      "beitrag": "In der Leseliste als Autor von „Miteinander reden“ (1981), Reinbek, Rowohlt, gekennzeichnet mit (GERMAN). Außerhalb der Leseliste kommt er im Skript nicht vor.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Schulz v. Thun, Friedrich (1981). Miteinander reden",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Schwaninger, Markus",
+      "kurz": "Leseliste: Intelligent Organizations (2008)",
+      "beitrag": "In der Leseliste als Autor von „Intelligent Organizations“ (2008), Berlin/New York, Springer. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Schwaninger, Markus (2008). Intelligent Organizations",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Simon Sinek",
+      "kurz": "Zitat auf der Titelfolie: stress gegen passion",
+      "beitrag": "Urheber des Zitats, das auf der Titelfolie des Repetitoriums über dem Foto oben links steht: „Working hard for something we don't care about is called stress; working hard for something we love is called passion.“ Das Skript zeigt das Zitat ohne Erläuterung und ordnet es keiner Theorie zu.",
+      "folien": [],
+      "themen": [
+        "m7-t1"
+      ],
+      "quelle": "skript",
+      "beleg": "Working hard for something we don't care about is called stress; working hard for something we love is called passion.",
+      "belegQuelle": "folie-01"
+    },
+    {
+      "name": "Spicer, André",
+      "kurz": "Leseliste: A Stupidity-Based Theory of Organizations (2012)",
+      "beitrag": "In der Leseliste als Mitautor von „A Stupidity-Based Theory of Organizations“ (2012), Journal of Management Studies, gemeinsam mit Alvesson, Mats. Einen Inhalt des Aufsatzes nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Alvesson, Mats and Spicer, André (2012). A Stupidity-Based Theory of Organizations",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Stacey, Ralph",
+      "kurz": "Leseliste: Tools and Techniques of Leadership (2012)",
+      "beitrag": "In der Leseliste als Autor von „Tools and Techniques of Leadership“ (2012), NYC, Routledge. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Stacey, Ralph (2012). Tools and Techniques of Leadership",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Sternin, J.",
+      "kurz": "Leseliste: The Power of Positive Deviance (2010)",
+      "beitrag": "In der Leseliste als Mitautor von „The Power of Positive Deviance“ (2010), Boston, HBR Press, gemeinsam mit Pascale, R. und Sternin, M. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Pascale, R, Sternin, J, Sternin, M. (2010). The Power of Positive Deviance",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "Sternin, M.",
+      "kurz": "Leseliste: The Power of Positive Deviance (2010)",
+      "beitrag": "In der Leseliste als Mitautorin von „The Power of Positive Deviance“ (2010), Boston, HBR Press, gemeinsam mit Pascale, R. und Sternin, J. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "Pascale, R, Sternin, J, Sternin, M. (2010). The Power of Positive Deviance",
+      "belegQuelle": "folie-57"
+    },
+    {
+      "name": "v.d. Heijden, Kees",
+      "kurz": "Leseliste: Scenarios (2010)",
+      "beitrag": "In der Leseliste als Autor von „Scenarios“ (2010), Chichester, Wiley. Einen Inhalt des Buches nennt das Skript nicht.",
+      "folien": [],
+      "themen": [
+        "m7-t2"
+      ],
+      "quelle": "leseliste",
+      "beleg": "v.d. Heijden, Kees (2010). Scenarios",
+      "belegQuelle": "folie-57"
     }
   ]
 }

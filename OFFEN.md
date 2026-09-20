@@ -1,27 +1,38 @@
 # Offene Punkte
 
-## Stufe 1 (20.09.2026, nachts)
+## Stufe 2 (20.09.2026, 02:30)
 
-Diese Fassung ist lernbar, aber noch nicht fertig. Enthalten und geprüft:
+Vollständige Fassung: alle 7 Module (67 Themen, 164 Lernkarten, 629 Aufgaben), Funde der Rollenprüfung
+eingearbeitet, Lernmodell nach dem Bericht des Wissenschaftlers umgebaut.
 
-- Module 1 bis 5 vollständig, Modul 6 zur Hälfte (Folien 76 bis 79): 57 Themen, 131 Lernkarten, 528 Aufgaben.
-  Jeder Skriptteil wurde nach dem Schreiben von einer zweiten Instanz auf Quellentreue und Vollständigkeit
-  gegen den Korpus geprüft, die Funde sind eingearbeitet.
-- Mechanische Tore grün: Datenvertrag 0 Fehler, 939 Belege wörtlich im Korpus gefunden, Lernmodell 13 von 13,
-  Aufgabentypen 62 von 62, Gesamttest aller Lernkarten und Aufgaben 0 Fehler, 50 von 50 Modulen laden in der
-  Safari-Engine, Lernablauf per Touch auf iPhone- und iPad-Profilen durchgespielt.
+Nachweise für genau diesen Stand (alle im Freigabe-Klon gefahren):
+- Datenvertrag 0 Fehler; 1.168 wörtliche Belege im Quellkorpus gefunden, 0 Fehler; Personenregister vollständig
+  (Korpus nennt 85 Personen, Register 97, die zusätzlichen stammen aus den verlinkten Quellen).
+- Lernmodell 21 von 21 (darunter ein Eigenschaftstest: keine falsche Antwort hebt je einen Themenwert),
+  Aufgabentypen 66 von 66, Gesamttest aller Lernkarten und Aufgaben 0 Fehler.
+- Safari-Engine: 50 von 50 Module laden; 7 Geräteprofile (iPhone 14 hell und dunkel, iPhone SE, iPad hell
+  und dunkel, iPad Pro quer hell und dunkel) über 12 Routen mit durchgespieltem Lernablauf: 0 Auffälligkeiten.
+- Rollen: Künstler (trägt, 20 Funde eingearbeitet oder begründet abgelehnt), Programmierer (12 Funde),
+  Wissenschaftler (14 Funde, Modell umgebaut), Safari-Audit (Funde eingearbeitet), Auftragsabgleich (trägt).
 
-Es fehlt noch und folgt als Stufe 2:
+Was die Lernende wissen sollte:
 
-1. Modul 6, zweite Hälfte (Folien 80 bis 84: Kongruenzmodell, Fallen und Risiken, „Fix the system, not the
-   people!", Day 1 Mindset) und Modul 7 (Leseliste, Dysfunktionen eines Teams nach Lencioni).
-2. Funde der Rollenprüfung (Künstler, Programmierer, Wissenschaftler, Auftragsabgleich, Safari-Audit):
-   laufen zum Zeitpunkt dieser Fassung, noch nicht eingearbeitet.
-3. Zeitbudget: Der erste Durchgang ist mit 62 Prozent Kernaufgaben zu lang (gemessen 573 Minuten für 11 von 13
-   Teilen). Stufe 2 setzt je Thema 2 bis 4 Kernaufgaben; alle übrigen Aufgaben bleiben im Pool.
-4. Hochkant-Fassungen der breiten Abbildungen fürs iPhone (derzeit seitliches Wischen mit Hinweis).
-5. Begrenzte Wiederholungsrunden statt einer einzigen großen Zahl fälliger Wiederholungen.
-6. Verzeichnis „im Skript nur genannt, nicht erklärt" ist erst für einen Teil der Folien gefüllt.
+1. **Das mitgelieferte PDF** (`lernzettel/MAF-Lernzettel.pdf`) ist die ausführliche Standardfassung für alle.
+   Die persönliche Fassung mit den eigenen Stolperstellen und Irrtümern entsteht auf der Seite „Lernzettel"
+   im Modus „Persönlich" über „Als PDF speichern oder drucken" (auf dem iPad: Teilen, Drucken, Vorschau
+   aufziehen, Teilen, In Dateien sichern).
+2. **Zeitbudget:** Erster Durchgang rund 7,6 Stunden ohne Fehlerschleife, rechnerisch bis rund 9,4 mit
+   Schleife; die Startseite zeigt die Restzeit als Spanne. Wer ein Thema schon kennt, kann die Lernkarten
+   überspringen und direkt zu den Aufgaben gehen. Alle 629 Aufgaben bleiben im Pool (Nachschub bei Fehlern,
+   Training, Generalprobe); im ersten Durchgang kommen 183 davon.
+3. **Zwei Videos** (Asch-Experiment, Conformity Waiting Room) sind nur über automatische Untertitel ausgewertet
+   und entsprechend gekennzeichnet; das Skript verlinkt sie, ansehen lohnt sich (5 und 6 Minuten).
 
-Der Lernstand bleibt bei jedem Update erhalten: Kennungen von Themen, Lernkarten und Aufgaben sowie das
-Speicherformat ändern sich nicht.
+Noch offen (kein Hindernis fürs Lernen):
+
+- Die Sekunden je Lernkarte und je Aufgabentyp im Lernmodell sind gesetzt, nicht an dieser Lernenden gemessen.
+- Wie Safari selbst den Lernzettel beim Drucken umbricht, ist nur über das Druck-CSS abgesichert, nicht mit
+  einem echten iPad gemessen.
+- Sehr große Systemschrift (Dynamic Type) auf dem iPhone ist nicht geprüft.
+
+Der Lernstand bleibt bei jedem Update erhalten: Kennungen und Speicherformat sind unverändert.

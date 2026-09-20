@@ -23,7 +23,8 @@ export default {
       host.classList.add('beschriften-nur-hinweis')
       host.appendChild(h('div.hinweiskasten.hinweiskasten--mittel',
         h('p', 'Die Abbildung zu dieser Aufgabe steht in dieser Fassung noch nicht bereit. Die Aufgabe wird übersprungen und nicht gewertet.'),
-        h('button.knopf', { type: 'button', onclick: () => api.fertig({ punkte: 1, sicher: 'unsicher' }) }, 'Überspringen')))
+        // nichtWerten: die Aufgabe verlässt die Schlange, ohne im Lernstand als gekonnt zu gelten
+        h('button.knopf', { type: 'button', onclick: () => api.fertig({ nichtWerten: true }) }, 'Überspringen')))
       return {}
     }
 

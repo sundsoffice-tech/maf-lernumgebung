@@ -20,6 +20,23 @@ export default {
 
     <text data-label="rhetorik" x="190" y="277" text-anchor="middle" class="d-text-fett">-> Rhetorik!</text>
   `,
+  // Hochkant: Titel und Einleitung stehen untereinander, das Oval rueckt nach rechts,
+  // "-> Rhetorik!" bleibt wie auf der Folie links daneben.
+  viewBoxSchmal: '0 0 360 396',
+  svgSchmal: `
+    <text data-label="titel" x="180" y="26" text-anchor="middle" class="d-text-titel"><tspan x="180" y="26">Wie alt ist die Idee von </tspan><tspan x="180" y="48">Führung/Leadership?</tspan></text>
+
+    <rect x="10" y="64" width="340" height="88" rx="6" class="d-akzentflaeche"/>
+    <text data-label="einleitung-1" x="180" y="96" text-anchor="middle" class="d-text">Aristoteles' „modes of persuasion" -></text>
+    <text data-label="einleitung-2" x="180" y="126" text-anchor="middle" class="d-text">Andere überzeugen mir zu folgen durch....</text>
+
+    <ellipse cx="230" cy="286" rx="110" ry="96" class="d-flaeche-leer"/>
+    <text data-label="modus-1" x="230" y="246" text-anchor="middle" class="d-text-titel">ETHOS</text>
+    <text data-label="modus-2" x="230" y="290" text-anchor="middle" class="d-text-titel">PATHOS</text>
+    <text data-label="modus-3" x="230" y="334" text-anchor="middle" class="d-text-titel">LOGOS</text>
+
+    <text data-label="rhetorik" x="12" y="292" text-anchor="start" class="d-text-fett">-> Rhetorik!</text>
+  `,
   labels: [
     { id: 'titel', text: 'Wie alt ist die Idee von Führung/Leadership?', abfragbar: false, gruppe: 'rahmen' },
     { id: 'einleitung-1', text: `Aristoteles' „modes of persuasion" ->`, abfragbar: false, gruppe: 'rahmen' },

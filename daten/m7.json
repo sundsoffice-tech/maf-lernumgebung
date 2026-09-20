@@ -1,0 +1,1465 @@
+{
+  "id": "m7",
+  "titel": "Abschluss: Leseliste, Dysfunktionen eines Teams",
+  "vorlesung": "MAF VII",
+  "themen": [
+    {
+      "id": "m7-t1",
+      "titel": "Rahmen des Repetitoriums: Titel- und Schlussfolie",
+      "folien": [],
+      "quelleText": "Titel- und Schlussfolie",
+      "gewicht": 1,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m7-t1-k1",
+          "titel": "Was das Repetitorium ist",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die erste Folie steckt nur den Rahmen ab. Sie sagt, worum es geht, wer es hält und woher die folgenden Folien kommen. Lernstoff im engeren Sinn steht hier noch nicht, aber die Angaben sind der Rahmen für alles Weitere."
+            },
+            {
+              "typ": "liste",
+              "titel": "Die Angaben der Titelfolie",
+              "punkte": [
+                "Bachelor BWL-Bank, 6. Semester",
+                "Modul Mitarbeiterführung (MAF)",
+                "SS 2026",
+                "**Repetitorium Vorlesungen I - VI**",
+                "Mannheim, 18. Mai/1. Juni, 2026",
+                "{{Michael Beckmann}}, MBA, MSc (HEC)"
+              ]
+            },
+            {
+              "typ": "merksatz",
+              "text": "Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen"
+            },
+            {
+              "typ": "hinweis",
+              "text": "Diese Folie trägt unten rechts **keine aufgedruckte Foliennummer**. Die Fußzeile nennt „MAF VII“, während die folgenden Folien in der Fußzeile „MAF I“ führen. Im [[Repetitorium]] stehen also die Folien der Vorlesungen I bis VI."
+            }
+          ]
+        },
+        {
+          "id": "m7-t1-k2",
+          "titel": "Das Zitat von Simon Sinek auf der Titelfolie",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Oben links auf der Titelfolie liegt ein Zitat über einem Schwarzweiß-Foto. Es stellt zwei Arten harter Arbeit nebeneinander: die eine heißt Stress, die andere Passion. Den Unterschied macht nicht die Anstrengung, sondern das Verhältnis zur Sache."
+            },
+            {
+              "typ": "zitat",
+              "text": "Working hard for something we don't care about is called stress; working hard for something we love is called passion.",
+              "person": "Simon Sinek",
+              "kontext": "Text über dem Foto oben links auf der Titelfolie des Repetitoriums"
+            },
+            {
+              "typ": "person",
+              "name": "Simon Sinek",
+              "beitrag": "Urheber des Zitats über Stress und Passion, das auf der Titelfolie des Repetitoriums steht."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Das Skript zeigt dieses Zitat ohne jede Erläuterung. Es erklärt weder „stress“ noch „passion“ als Fachbegriff und ordnet das Zitat keiner Theorie zu. Mehr als der Wortlaut und der Urheber ist hier nicht belegt."
+            }
+          ]
+        },
+        {
+          "id": "m7-t1-k3",
+          "titel": "Die Schlussfolie: farewell",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die letzte Folie verabschiedet den Kurs. Sie trägt zwei hervorgehobene Sätze, ein Zitat von {{Steve Jobs}} und die Kontaktdaten des Dozenten. Fachinhalt kommt hier keiner mehr dazu."
+            },
+            {
+              "typ": "merksatz",
+              "text": "Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!"
+            },
+            {
+              "typ": "merksatz",
+              "text": "Und, wo immer es Sie hinziehen mag...be yourself, no matter what they say..."
+            },
+            {
+              "typ": "zitat",
+              "text": "If you want to make everyone happy, don't be a leader. Sell ice-cream.",
+              "person": "Steve Jobs",
+              "kontext": "Bildkachel rechts unten auf der Schlussfolie (farewell)"
+            },
+            {
+              "typ": "liste",
+              "titel": "Bei Nachfragen",
+              "punkte": [
+                "www.michael-beckmann.org",
+                "mpsmb@t-online.de"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Auch diese Folie trägt **keine aufgedruckte Foliennummer**; die Fußzeile nennt „MAF VII“. Der Folientext mischt Deutsch und Englisch („viel Erfolg im exam“, „be yourself, no matter what they say“). Das Skript kommentiert das Zitat von {{Steve Jobs}} nicht."
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m7-t1-a01",
+          "typ": "mc",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "repetitorium-rahmen",
+          "karte": "m7-t1-k1",
+          "folien": [],
+          "frage": "Welche Vorlesungen fasst dieses Repetitorium laut Titelfolie zusammen?",
+          "optionen": [
+            "Repetitorium Vorlesungen I - VI",
+            "Repetitorium Vorlesungen I - VII",
+            "nur Vorlesung VII",
+            "Repetitorium Vorlesungen IV - VII"
+          ],
+          "richtig": 0,
+          "erklaerung": "Die Titelfolie trägt fett die Zeile „Repetitorium Vorlesungen I - VI“. Die Fußzeile der Folie selbst nennt zwar MAF VII, der zusammengefasste Stoff sind aber die Vorlesungen I bis VI.",
+          "beleg": "Repetitorium Vorlesungen I - VI",
+          "belegQuelle": "folie-01",
+          "kurz": "Das Repetitorium fasst die Vorlesungen I bis VI zusammen; die Folie selbst läuft unter MAF VII."
+        },
+        {
+          "id": "m7-t1-a02",
+          "typ": "wahrfalsch",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "repetitorium-rahmen",
+          "karte": "m7-t1-k1",
+          "folien": [],
+          "frage": "Was stimmt über den Rahmen des Repetitoriums?",
+          "aussagen": [
+            {
+              "text": "Das Repetitorium gehört zum Modul Mitarbeiterführung (MAF), Bachelor BWL-Bank, 6. Semester, SS 2026.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folien des Repetitoriums wurden eigens für die Wiederholung neu erstellt.",
+              "wahr": false,
+              "korrektur": "Das Skript sagt ausdrücklich: Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen."
+            },
+            {
+              "text": "Als Dozent ist Michael Beckmann, MBA, MSc (HEC) genannt.",
+              "wahr": true
+            },
+            {
+              "text": "Schon die Titelfolie trägt unten rechts eine aufgedruckte Foliennummer.",
+              "wahr": false,
+              "korrektur": "Die Titelfolie trägt unten rechts KEINE aufgedruckte Foliennummer."
+            }
+          ],
+          "erklaerung": "Der Rahmen steht vollständig auf der Titelfolie. Wichtig für die Einordnung: Die Folien des Repetitoriums sind unverändert aus den ursprünglichen Vorlesungen übernommen, es kommt also kein neuer Stoff dazu.",
+          "belege": [
+            {
+              "text": "Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen",
+              "quelle": "folie-01"
+            },
+            {
+              "text": "Die Folie trägt unten rechts KEINE aufgedruckte Foliennummer.",
+              "quelle": "folie-01"
+            }
+          ],
+          "kurz": "Modul MAF, BWL-Bank 6. Semester, SS 2026, Michael Beckmann. Alle Folien stammen aus den ursprünglichen Vorlesungen."
+        },
+        {
+          "id": "m7-t1-a03",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "sinek-zitat",
+          "karte": "m7-t1-k2",
+          "folien": [],
+          "bank": true,
+          "frage": "Vervollständige das Zitat von der Titelfolie.",
+          "text": "Working hard for something we don't care about is called {_stress_}; working hard for something we love is called {_passion_}. - Simon Sinek",
+          "zusatzBank": [
+            "leader",
+            "ice-cream",
+            "Kooperation"
+          ],
+          "erklaerung": "Der Satz stellt dieselbe harte Arbeit zweimal nebeneinander. Was den Unterschied macht, ist das Verhältnis zur Sache: gleichgültig oder geliebt.",
+          "beleg": "Working hard for something we don't care about is called stress; working hard for something we love is called passion.",
+          "belegQuelle": "folie-01",
+          "kurz": "Sinek: gleichgültige harte Arbeit = stress, geliebte harte Arbeit = passion."
+        },
+        {
+          "id": "m7-t1-a04",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "sinek-zitat",
+          "karte": "m7-t1-k2",
+          "folien": [],
+          "frage": "Erkläre, was mit dem Zitat von {{Simon Sinek}} gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Das Zitat lautet: „Working hard for something we don't care about is called stress; working hard for something we love is called passion.“ Es stellt zwei Fälle harter Arbeit nebeneinander. Die Anstrengung ist in beiden Fällen dieselbe; verschieden ist nur, wie wir zu der Sache stehen. Ist sie uns gleichgültig, heißt das Ergebnis stress. Lieben wir sie, heißt dasselbe Tun passion. Zusammenhang: Der Satz steht über dem Foto oben links auf der Titelfolie des Repetitoriums der Vorlesungen I bis VI im Modul Mitarbeiterführung. Er steht dort als Leitgedanke am Eingang; das Skript erläutert ihn nicht weiter und ordnet ihn keiner Theorie zu.",
+          "checkliste": [
+            "Wortlaut des Zitats sinngemäß oder wörtlich wiedergegeben",
+            "Gegenüberstellung benannt: gleiche Anstrengung, verschiedenes Verhältnis zur Sache",
+            "stress = etwas, das uns nicht wichtig ist; passion = etwas, das wir lieben",
+            "Zusammenhang: Titelfolie des Repetitoriums, Urheber Simon Sinek",
+            "Ehrlich benannt: Das Skript erklärt das Zitat selbst nicht weiter"
+          ],
+          "erklaerung": "In der Klausur zählt bei einem Zitat beides: der Wortlaut und die Einordnung. Hier ist die Einordnung knapp, weil das Skript das Zitat unkommentiert stehen lässt.",
+          "beleg": "Working hard for something we don't care about is called stress; working hard for something we love is called passion.",
+          "belegQuelle": "folie-01",
+          "kurz": "Sinek stellt gleiche Anstrengung bei verschiedener Haltung gegenüber: stress gegen passion. Titelfolie, ohne weitere Erläuterung im Skript."
+        },
+        {
+          "id": "m7-t1-a05",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "jobs-zitat",
+          "karte": "m7-t1-k3",
+          "folien": [],
+          "frage": "Erkläre, was mit dem Zitat von {{Steve Jobs}} auf der Schlussfolie gemeint ist und in welchem Zusammenhang es steht.",
+          "musterloesung": "Das Zitat lautet: „If you want to make everyone happy, don't be a leader. Sell ice-cream.“ Es sagt: Wer es allen recht machen will, soll nicht führen, sondern Eis verkaufen. Eis macht jeden froh, Führung nicht. Wer führt, muss also damit rechnen, dass Entscheidungen nicht allen gefallen; das Bedürfnis, alle glücklich zu machen, passt nicht zur Rolle. Zusammenhang: Das Zitat steht in der Bildkachel rechts unten auf der Schlussfolie „Mitarbeiterführung (MAF) - farewell -“, also als letzter Gedanke zum Thema. Das Skript kommentiert es nicht.",
+          "checkliste": [
+            "Wortlaut des Zitats sinngemäß oder wörtlich wiedergegeben",
+            "Kernaussage: Wer allen gefallen will, ist als Führungskraft fehl am Platz",
+            "Gegenbild benannt: Eis verkaufen statt führen",
+            "Zusammenhang: Schlussfolie (farewell), Urheber Steve Jobs",
+            "Ehrlich benannt: Das Skript kommentiert das Zitat nicht"
+          ],
+          "erklaerung": "Das Zitat ist als Merksatz-Kandidat gut geeignet, weil es kurz ist und eine klare Aussage über die Führungsrolle macht. Mehr als diese Aussage gibt das Skript aber nicht her.",
+          "beleg": "If you want to make everyone happy, don't be a leader. Sell ice-cream.",
+          "belegQuelle": "folie-59",
+          "kurz": "Jobs: Wer alle glücklich machen will, soll nicht führen, sondern Eis verkaufen. Schlussfolie, ohne Kommentar des Skripts."
+        },
+        {
+          "id": "m7-t1-a06",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "farewell-folie",
+          "karte": "m7-t1-k3",
+          "folien": [],
+          "frage": "Was steht laut Skript auf der Schlussfolie (farewell)?",
+          "optionen": [
+            "Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!",
+            "Und, wo immer es Sie hinziehen mag...be yourself, no matter what they say...",
+            "Die Kontaktdaten www.michael-beckmann.org und mpsmb@t-online.de",
+            "Eine Literaturliste mit 22 Werken",
+            "Die Abbildung Teamperformance-Pyramide"
+          ],
+          "richtig": [
+            0,
+            1,
+            2
+          ],
+          "erklaerung": "Die Schlussfolie trägt zwei hervorgehobene Sätze, das Zitat von Steve Jobs und die Kontaktdaten. Die Literaturliste und die Teamperformance-Pyramide stehen auf den beiden Folien davor.",
+          "belege": [
+            {
+              "text": "Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!",
+              "quelle": "folie-59"
+            },
+            {
+              "text": "Bei Nachfragen: www.michael-beckmann.org mpsmb@t-online.de",
+              "quelle": "folie-59"
+            }
+          ],
+          "kurz": "Schlussfolie: zwei hervorgehobene Sätze, Steve-Jobs-Zitat, Kontaktdaten des Dozenten."
+        },
+        {
+          "id": "m7-t1-a07",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "farewell-merksatz",
+          "karte": "m7-t1-k3",
+          "folien": [],
+          "frage": "Erkläre, was mit dem hervorgehobenen Satz „Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!“ gemeint ist und in welchem Zusammenhang er steht.",
+          "musterloesung": "Der Satz lautet wörtlich: „Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!“ Er ist der Dank des Dozenten für die Mitarbeit im Kurs, verbunden mit dem Wunsch, dass beides gelingt: die anstehende Klausur („exam“) und die spätere Berufstätigkeit. Zusammenhang: Der Satz steht als erster von zwei hervorgehobenen Sätzen auf der Schlussfolie „Mitarbeiterführung (MAF) - farewell -“, also zum Abschied am Ende des Repetitoriums. Er ist keine Fachaussage; das Skript stellt ihn in keinen Theoriezusammenhang.",
+          "checkliste": [
+            "Satz im Wortlaut oder sinngemäß wiedergegeben",
+            "Dank für die Mitarbeit im Kurs benannt",
+            "Wunsch für Klausur und Beruf benannt",
+            "Zusammenhang: erster hervorgehobener Satz der Schlussfolie (farewell)",
+            "Ehrlich benannt: keine Fachaussage, kein Theoriebezug im Skript"
+          ],
+          "erklaerung": "Auch hervorgehobene Sätze ohne Fachinhalt gehören zum Wortlaut des Skripts. Wichtig ist, sie richtig einzuordnen und nicht zu einer Theorie aufzuwerten, die das Skript nicht nennt.",
+          "beleg": "Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!",
+          "belegQuelle": "folie-59",
+          "kurz": "Schlussfolie, erster hervorgehobener Satz: Dank für die Mitarbeit, Wunsch für Klausur und Beruf."
+        },
+        {
+          "id": "m7-t1-a08",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "jobs-zitat",
+          "karte": "m7-t1-k3",
+          "folien": [],
+          "szenario": "Übungsfall: Eine Teamleiterin in der Filiale will es allen recht machen. Sie sagt jedem zu, was er hören möchte, und schiebt jede Entscheidung auf, die jemanden enttäuschen könnte.",
+          "frage": "Welches Zitat des Skripts trifft diese Situation, und was sagt es?",
+          "optionen": [
+            "Steve Jobs: „If you want to make everyone happy, don't be a leader. Sell ice-cream.“ Wer allen gefallen will, ist als Führungskraft fehl am Platz.",
+            "Simon Sinek: „Working hard for something we don't care about is called stress.“ Harte Arbeit an einer gleichgültigen Sache erzeugt Stress.",
+            "„Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen.“ Die Folien stammen aus den ursprünglichen Vorlesungen."
+          ],
+          "richtig": 0,
+          "erklaerung": "Das Zitat von Steve Jobs auf der Schlussfolie handelt genau davon: Wer alle glücklich machen will, soll nicht führen. Das Zitat von Simon Sinek betrifft die Haltung zur eigenen Arbeit, nicht das Gefallenwollen.",
+          "beleg": "If you want to make everyone happy, don't be a leader. Sell ice-cream.",
+          "belegQuelle": "folie-59",
+          "kurz": "Wer alle glücklich machen will, soll nicht führen: Steve Jobs auf der Schlussfolie."
+        },
+        {
+          "id": "m7-t1-a09",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "repetitorium-rahmen",
+          "karte": "m7-t1-k1",
+          "folien": [],
+          "frage": "Erkläre, was mit dem hervorgehobenen Satz der Titelfolie „Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen“ gemeint ist und in welchem Zusammenhang er steht.",
+          "musterloesung": "Der Satz lautet wörtlich: „Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen.“ Er sagt, woher der Stoff dieser Veranstaltung kommt: Die folgenden Folien sind nicht eigens für die Wiederholung neu gemacht, sondern stammen aus den Vorlesungen selbst. Für die Vorbereitung heißt das, dass im Repetitorium kein neuer Stoff dazukommt; wiederholt wird, was schon gehalten wurde. Zusammenhang: Der Satz steht auf der Titelfolie in einem eigenen hervorgehobenen Kasten, unter den Angaben Bachelor BWL-Bank, 6. Semester, Modul Mitarbeiterführung (MAF), SS 2026 und „Repetitorium Vorlesungen I - VI“. Weiter begründet das Skript den Hinweis nicht.",
+          "checkliste": [
+            "Satz im Wortlaut oder sinngemäß wiedergegeben",
+            "Aussage benannt: die Folien stammen unverändert aus den ursprünglichen Vorlesungen",
+            "Folgerung benannt: im Repetitorium kommt kein neuer Stoff dazu",
+            "Zusammenhang: hervorgehobener Kasten auf der Titelfolie des Repetitoriums Vorlesungen I - VI",
+            "Ehrlich benannt: Das Skript begründet den Hinweis nicht weiter"
+          ],
+          "erklaerung": "Der Satz ist der einzige hervorgehobene Satz der Titelfolie. Er ordnet das ganze Repetitorium ein: Herkunft der Folien, kein neuer Stoff.",
+          "beleg": "Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen",
+          "belegQuelle": "folie-01",
+          "kurz": "Titelfolie, hervorgehoben: Alle folgenden Folien stammen aus den ursprünglichen Vorlesungen, es kommt kein neuer Stoff dazu."
+        },
+        {
+          "id": "m7-t1-a10",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "farewell-merksatz",
+          "karte": "m7-t1-k3",
+          "folien": [],
+          "frage": "Erkläre, was mit dem hervorgehobenen Satz „Und, wo immer es Sie hinziehen mag...be yourself, no matter what they say...“ gemeint ist und in welchem Zusammenhang er steht.",
+          "musterloesung": "Der Satz lautet wörtlich: „Und, wo immer es Sie hinziehen mag...be yourself, no matter what they say...“ Er ist ein Rat für den weiteren Weg: sich selbst treu bleiben, gleich wohin es einen zieht und gleich was andere dazu sagen. Der Satz mischt Deutsch und Englisch, wie der Folientext überhaupt („viel Erfolg im exam“). Zusammenhang: Er steht als zweiter hervorgehobener Satz auf der Schlussfolie „Mitarbeiterführung (MAF) - farewell -“, gleich unter dem Dank an den Kurs. Eine Fachaussage ist er nicht; das Skript ordnet ihn keiner Theorie zu.",
+          "checkliste": [
+            "Satz im Wortlaut oder sinngemäß wiedergegeben",
+            "Kernaussage: sich selbst treu bleiben, unabhängig von der Meinung anderer",
+            "„wo immer es Sie hinziehen mag“ als Bezug auf den weiteren Weg benannt",
+            "Zusammenhang: zweiter hervorgehobener Satz der Schlussfolie (farewell)",
+            "Ehrlich benannt: keine Fachaussage, kein Theoriebezug im Skript"
+          ],
+          "erklaerung": "Der Satz steht wie der Dank hervorgehoben auf der Folie. Belegt ist sein Wortlaut und seine Stellung, mehr sagt das Skript nicht.",
+          "beleg": "Und, wo immer es Sie hinziehen mag...be yourself, no matter what they say...",
+          "belegQuelle": "folie-59",
+          "kurz": "Schlussfolie, zweiter hervorgehobener Satz: sich selbst treu bleiben, was andere auch sagen."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Rahmen (Titel- und Schlussfolie, beide ohne Foliennummer):** Repetitorium Vorlesungen I - VI, Modul Mitarbeiterführung (MAF), Bachelor BWL-Bank 6. Semester, SS 2026, Michael Beckmann. Alle Folien stammen unverändert aus den ursprünglichen Vorlesungen.",
+          "**Zwei Zitate:** Simon Sinek (Titelfolie): stress gegen passion. Steve Jobs (Schlussfolie): Wer alle glücklich machen will, soll Eis verkaufen statt zu führen."
+        ],
+        "ausfuehrlich": [
+          "**Titelfolie.** Bachelor BWL-Bank, 6. Semester; Modul Mitarbeiterführung (MAF); SS 2026; „Repetitorium Vorlesungen I - VI“; Mannheim, 18. Mai/1. Juni, 2026; Michael Beckmann, MBA, MSc (HEC). Fußzeile: MAF VII.",
+          "**Hervorgehoben im Kasten:** „Alle nachfolgenden Folien wurden den ursprünglichen Vorlesungen entnommen“. Es kommt im Repetitorium also kein neuer Stoff dazu.",
+          "**Simon Sinek (Titelfolie):** „Working hard for something we don't care about is called stress; working hard for something we love is called passion.“ Gleiche Anstrengung, verschiedene Haltung zur Sache. Das Skript erläutert das Zitat nicht.",
+          "**Schlussfolie (farewell), hervorgehoben:** „Danke für Ihre Kooperation, viel Erfolg im exam und im Beruf!“ und „Und, wo immer es Sie hinziehen mag...be yourself, no matter what they say...“.",
+          "**Steve Jobs (Schlussfolie):** „If you want to make everyone happy, don't be a leader. Sell ice-cream.“ Wer allen gefallen will, ist als Führungskraft fehl am Platz. Kontakt des Dozenten: www.michael-beckmann.org, mpsmb@t-online.de.",
+          "**Merkmal beider Folien:** keine aufgedruckte Foliennummer, Fußzeile MAF VII."
+        ],
+        "merkhilfe": "Anfang und Ende tragen je ein Zitat: vorne Sinek über die Haltung zur Arbeit, hinten Jobs über die Rolle der Führung. Eselsbrücke, keine Aussage des Skripts."
+      }
+    },
+    {
+      "id": "m7-t2",
+      "titel": "Die Leseliste: 22 Werke zu Mitarbeiterführung und Change Management",
+      "folien": [],
+      "quelleText": "Leseliste",
+      "gewicht": 2,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m7-t2-k1",
+          "titel": "Was die Leseliste ist und was sie nicht ist",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die vorletzte Folienstrecke des Repetitoriums ist eine reine Literaturliste. Sie trägt die Überschrift „Mitarbeiterführung & Change Management“ und den Zusatz „- A short reading list -“. Aufgeführt sind 22 Angaben, jede mit Autor, Jahr, Titel und Fundstelle. Für die Klausur ist das Wiedererkennungswissen: Wer schrieb was."
+            },
+            {
+              "typ": "liste",
+              "titel": "So ist jede Angabe aufgebaut",
+              "punkte": [
+                "**Autor** oder Autoren, in der Schreibweise der Folie (Nachname zuerst)",
+                "**Jahr** in Klammern, bei {{Greiner, Larry E.}} zwei Jahre: 1972/1998",
+                "**Titel** des Werks",
+                "**Fundstelle**: entweder Ort und Verlag (Buch) oder Zeitschrift mit Band, Nummer und Seiten (Aufsatz)",
+                "bei zwei Werken der Zusatz **(GERMAN)**: {{Abegglen, Christian}} und {{Schulz v. Thun, Friedrich}}"
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die Folie nennt **nur** die bibliografischen Angaben. Es gibt dort keine Inhaltsangabe, keine Zusammenfassung und keine Einordnung der Werke. Was in diesen Büchern steht, sagt das Skript nicht, und hier wird es deshalb auch nicht ergänzt."
+            }
+          ]
+        },
+        {
+          "id": "m7-t2-k2",
+          "titel": "Die Leseliste, Teil 1: Abegglen bis Kübler-Ross",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die Liste ist alphabetisch nach Nachnamen geordnet. Hier die ersten 13 Angaben, wörtlich wie auf der Folie. Lies sie einmal ruhig durch und präge dir vor allem das Paar Autor und Titel ein."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Autor",
+                "Jahr",
+                "Titel",
+                "Fundstelle"
+              ],
+              "zeilen": [
+                [
+                  "Abegglen, Christian",
+                  "2018",
+                  "Unternehmen neu erfinden: das Denk- und Arbeitsbuch gegen organisierten Stillstand",
+                  "Frankfurt, FAZ-Buch (GERMAN)"
+                ],
+                [
+                  "Alvesson, Mats and Spicer, André",
+                  "2012",
+                  "A Stupidity-Based Theory of Organizations",
+                  "Journal of Management Studies, Vol. 49, No.7, 1194-1220"
+                ],
+                [
+                  "Argyris, Chris",
+                  "1985",
+                  "Strategy, Change, and Defensive Routines",
+                  "Boston, MA: Pitman Publishing"
+                ],
+                [
+                  "Argyris, Chris",
+                  "1986",
+                  "Skilled Incompetence",
+                  "Harvard Business Review, Vol. 64, No. 5, pp. 74-79"
+                ],
+                [
+                  "Cameron, Esther and Green, Mike",
+                  "2015",
+                  "Making Sense of Change Management",
+                  "London, KoganPage"
+                ],
+                [
+                  "Critchley, B., King, K., Higgins, J.",
+                  "2013",
+                  "Organisational Consulting",
+                  "Farringdon, Libri"
+                ],
+                [
+                  "Gergen, Kenneth",
+                  "2009",
+                  "An Invitation to Social Construction",
+                  "London, Sage"
+                ],
+                [
+                  "Greiner, Larry E.",
+                  "1972/1998",
+                  "Evolution and Revolution as Organisations Grow",
+                  "HBR, July/August 1972, May/June 1998"
+                ],
+                [
+                  "Heskett, James",
+                  "2012",
+                  "The Culture Cycle",
+                  "London, FT Press"
+                ],
+                [
+                  "Kegan, Robert and Laskow Lahey, Lisa",
+                  "2009",
+                  "Immunity to Change",
+                  "Boston, MA, HBR Press"
+                ],
+                [
+                  "Keohane, Nannerl O.",
+                  "2010",
+                  "Thinking about Leadership",
+                  "Princeton, NJ, Princeton University Press"
+                ],
+                [
+                  "Kotter, John P.",
+                  "1995",
+                  "Leading Change: Why Transformation Efforts Fail",
+                  "HBR OnPoint, (March-April), 1-10"
+                ],
+                [
+                  "Kübler-Ross, Elisabeth",
+                  "1969",
+                  "On death and dying",
+                  "New York, Macmillan"
+                ]
+              ],
+              "hinweis": "Schreibweise wie auf der Folie, einschließlich der kleinen Setzfehler dort (zum Beispiel „Heskett, James(2012)“ ohne Leerzeichen)."
+            }
+          ]
+        },
+        {
+          "id": "m7-t2-k3",
+          "titel": "Die Leseliste, Teil 2: Laloux bis v.d. Heijden",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die übrigen neun Angaben. Auch hier gilt: Autor, Jahr, Titel und Fundstelle sind alles, was das Skript hergibt."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Autor",
+                "Jahr",
+                "Titel",
+                "Fundstelle"
+              ],
+              "zeilen": [
+                [
+                  "Laloux, Frederic",
+                  "2014",
+                  "Reinventing Organizations",
+                  "Brussels, Nelson Parker"
+                ],
+                [
+                  "Lewin, Kurt",
+                  "1947",
+                  "Frontiers in group dynamics",
+                  "Human Relations, 1, 5-41"
+                ],
+                [
+                  "Morgan, Gareth",
+                  "2006",
+                  "Images of Organization",
+                  "London, Sage"
+                ],
+                [
+                  "Pascale, Richard",
+                  "1990",
+                  "Ebbs, Flows and Residual Impact of Business Fads 1950-1995, in: Managing on the Edge",
+                  "NYC, Simon &Schuster"
+                ],
+                [
+                  "Pascale, R, Sternin, J, Sternin, M.",
+                  "2010",
+                  "The Power of Positive Deviance",
+                  "Boston, HBR Press"
+                ],
+                [
+                  "Schulz v. Thun, Friedrich",
+                  "1981",
+                  "Miteinander reden",
+                  "Reinbek, Rowohlt (GERMAN)"
+                ],
+                [
+                  "Schwaninger, Markus",
+                  "2008",
+                  "Intelligent Organizations",
+                  "Berlin/New York, Springer"
+                ],
+                [
+                  "Stacey, Ralph",
+                  "2012",
+                  "Tools and Techniques of Leadership",
+                  "NYC, Routledge"
+                ],
+                [
+                  "v.d. Heijden, Kees",
+                  "2010",
+                  "Scenarios",
+                  "Chichester, Wiley"
+                ]
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "{{Pascale, Richard}} steht zweimal in der Liste: 1990 allein und 2010 gemeinsam mit {{Sternin, J.}} und {{Sternin, M.}}. {{Argyris, Chris}} steht ebenfalls zweimal, beide Male allein (1985 und 1986)."
+            }
+          ]
+        },
+        {
+          "id": "m7-t2-k4",
+          "titel": "Brücken in das Skript: wo die Leseliste die Folien berührt",
+          "folien": [
+            35,
+            39,
+            78
+          ],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Drei Namen der Leseliste begegnen dir im Skript noch einmal, zwei davon ausdrücklich. Das hilft beim Merken. Wichtig ist aber die Grenze: Das Skript selbst stellt diese Verbindungen nicht als Verbindungen dar."
+            },
+            {
+              "typ": "liste",
+              "titel": "Belegte Berührungspunkte",
+              "punkte": [
+                "{{Kotter, John P.}} (1995), *Leading Change: Why Transformation Efforts Fail*. Im Skript steht auf Folie 78 „John Kotters 8-Schritt-Modell (1995)“. Jahr und Name stimmen überein.",
+                "{{Lewin, Kurt}} (1947), *Frontiers in group dynamics*. Kurt Lewin kommt im Skript zweimal vor: bei den Führungsstilen (Folien 39 bis 41, dort mit 1938-40 beziehungsweise 1939) und auf Folie 78 mit „Kurt Lewins 3-Schritt-Modell (1951)“. Die Jahreszahlen sind also verschieden.",
+                "{{Greiner, Larry E.}} (1972/1998), *Evolution and Revolution as Organisations Grow*. Folie 35 zeigt die Wachstumsphasen mit der Legende „Evolution: Wachstumsphase“ und „Revolution: Phase der Krise“ — nennt dort aber **keinen Autor**."
+              ]
+            },
+            {
+              "typ": "hinweis",
+              "text": "Nur der Wortgleichklang ist belegt, nicht die Urheberschaft. Folie 35 nennt keine Person, und {{Greiner, Larry E.}} steht im Skript ausschließlich in der Leseliste. Alle übrigen Namen der Leseliste, darunter {{Kübler-Ross, Elisabeth}}, {{Laloux, Frederic}}, {{Schulz v. Thun, Friedrich}} und {{Argyris, Chris}}, kommen im Skript nur dort vor."
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m7-t2-a01",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": true,
+          "konzept": "leseliste-autor-werk",
+          "karte": "m7-t2-k2",
+          "folien": [],
+          "frage": "Ordne Autor und Werk aus der Leseliste einander zu.",
+          "linksTitel": "Autor",
+          "rechtsTitel": "Titel laut Leseliste",
+          "paare": [
+            {
+              "links": "Argyris, Chris (1986)",
+              "rechts": "Skilled Incompetence"
+            },
+            {
+              "links": "Gergen, Kenneth",
+              "rechts": "An Invitation to Social Construction"
+            },
+            {
+              "links": "Greiner, Larry E.",
+              "rechts": "Evolution and Revolution as Organisations Grow"
+            },
+            {
+              "links": "Keohane, Nannerl O.",
+              "rechts": "Thinking about Leadership"
+            },
+            {
+              "links": "Kübler-Ross, Elisabeth",
+              "rechts": "On death and dying"
+            }
+          ],
+          "erklaerung": "Alle fünf Zuordnungen stehen wörtlich in der Leseliste. Argyris ist doppelt vertreten: 1985 mit Strategy, Change, and Defensive Routines, 1986 mit Skilled Incompetence.",
+          "beleg": "Greiner, Larry E. (1972/1998). Evolution and Revolution as Organisations Grow",
+          "belegQuelle": "folie-57",
+          "kurz": "Argyris: Skilled Incompetence (1986). Gergen: An Invitation to Social Construction. Greiner: Evolution and Revolution as Organisations Grow. Keohane: Thinking about Leadership. Kübler-Ross: On death and dying."
+        },
+        {
+          "id": "m7-t2-a02",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 1,
+          "kern": false,
+          "konzept": "leseliste-autor-werk",
+          "karte": "m7-t2-k3",
+          "folien": [],
+          "frage": "Ordne Autor und Werk aus dem zweiten Teil der Leseliste einander zu.",
+          "linksTitel": "Autor",
+          "rechtsTitel": "Titel laut Leseliste",
+          "paare": [
+            {
+              "links": "Laloux, Frederic",
+              "rechts": "Reinventing Organizations"
+            },
+            {
+              "links": "Lewin, Kurt",
+              "rechts": "Frontiers in group dynamics"
+            },
+            {
+              "links": "Morgan, Gareth",
+              "rechts": "Images of Organization"
+            },
+            {
+              "links": "Schulz v. Thun, Friedrich",
+              "rechts": "Miteinander reden"
+            },
+            {
+              "links": "v.d. Heijden, Kees",
+              "rechts": "Scenarios"
+            }
+          ],
+          "erklaerung": "Auch diese fünf Paare stehen wörtlich in der Leseliste. Miteinander reden ist neben Abegglens Buch das zweite Werk, das die Liste mit (GERMAN) kennzeichnet.",
+          "beleg": "Schulz v. Thun, Friedrich (1981). Miteinander reden. Reinbek, Rowohlt (GERMAN)",
+          "belegQuelle": "folie-57",
+          "kurz": "Laloux: Reinventing Organizations. Lewin: Frontiers in group dynamics. Morgan: Images of Organization. Schulz v. Thun: Miteinander reden. v.d. Heijden: Scenarios."
+        },
+        {
+          "id": "m7-t2-a03",
+          "typ": "zuordnung",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "leseliste-autor-werk",
+          "karte": "m7-t2-k2",
+          "folien": [],
+          "frage": "Ordne die restlichen Autoren ihren Werken zu.",
+          "linksTitel": "Autor",
+          "rechtsTitel": "Titel laut Leseliste",
+          "paare": [
+            {
+              "links": "Abegglen, Christian",
+              "rechts": "Unternehmen neu erfinden"
+            },
+            {
+              "links": "Heskett, James",
+              "rechts": "The Culture Cycle"
+            },
+            {
+              "links": "Kotter, John P.",
+              "rechts": "Leading Change: Why Transformation Efforts Fail"
+            },
+            {
+              "links": "Schwaninger, Markus",
+              "rechts": "Intelligent Organizations"
+            },
+            {
+              "links": "Stacey, Ralph",
+              "rechts": "Tools and Techniques of Leadership"
+            }
+          ],
+          "erklaerung": "Abegglens Titel lautet vollständig „Unternehmen neu erfinden: das Denk- und Arbeitsbuch gegen organisierten Stillstand“ und ist mit (GERMAN) gekennzeichnet. Kotters Aufsatz ist derselbe Autor, den das Skript auf Folie 78 mit dem 8-Schritt-Modell nennt.",
+          "beleg": "Abegglen, Christian (2018). Unternehmen neu erfinden: das Denk- und Arbeitsbuch gegen organisierten Stillstand",
+          "belegQuelle": "folie-57",
+          "kurz": "Abegglen: Unternehmen neu erfinden. Heskett: The Culture Cycle. Kotter: Leading Change. Schwaninger: Intelligent Organizations. Stacey: Tools and Techniques of Leadership."
+        },
+        {
+          "id": "m7-t2-a04",
+          "typ": "mehrfach",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "leseliste-mehrere-autoren",
+          "karte": "m7-t2-k2",
+          "folien": [],
+          "frage": "Welche dieser Werke der Leseliste haben **mehr als einen** Verfasser?",
+          "optionen": [
+            "A Stupidity-Based Theory of Organizations",
+            "Making Sense of Change Management",
+            "Organisational Consulting",
+            "Immunity to Change",
+            "The Power of Positive Deviance",
+            "Scenarios",
+            "Intelligent Organizations"
+          ],
+          "richtig": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "erklaerung": "Alvesson und Spicer, Cameron und Green, Critchley, King und Higgins, Kegan und Laskow Lahey sowie Pascale, Sternin und Sternin sind Mehrautoren-Werke. Scenarios stammt allein von v.d. Heijden, Intelligent Organizations allein von Schwaninger.",
+          "beleg": "Alvesson, Mats and Spicer, André (2012). A Stupidity-Based Theory of Organizations",
+          "belegQuelle": "folie-57",
+          "kurz": "Mehrautoren-Werke: A Stupidity-Based Theory of Organizations, Making Sense of Change Management, Organisational Consulting, Immunity to Change, The Power of Positive Deviance."
+        },
+        {
+          "id": "m7-t2-a05",
+          "typ": "mc",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "leseliste-doppelt",
+          "karte": "m7-t2-k3",
+          "folien": [],
+          "frage": "Welcher Autor steht in der Leseliste mit **zwei** Titeln, bei denen er jeweils allein als Verfasser genannt ist?",
+          "optionen": [
+            "Argyris, Chris",
+            "Pascale, Richard",
+            "Kotter, John P.",
+            "Morgan, Gareth"
+          ],
+          "richtig": 0,
+          "erklaerung": "Argyris steht zweimal allein in der Liste: 1985 mit Strategy, Change, and Defensive Routines und 1986 mit Skilled Incompetence. Pascale kommt zwar ebenfalls zweimal vor, beim zweiten Mal (2010, The Power of Positive Deviance) aber gemeinsam mit Sternin und Sternin.",
+          "belege": [
+            {
+              "text": "Argyris, Chris. (1985). Strategy, Change, and Defensive Routines",
+              "quelle": "folie-57"
+            },
+            {
+              "text": "Argyris, Chris. (1986). Skilled Incompetence",
+              "quelle": "folie-57"
+            }
+          ],
+          "kurz": "Argyris ist zweimal allein vertreten (1985, 1986); Pascale zweimal, davon einmal mit Koautoren."
+        },
+        {
+          "id": "m7-t2-a06",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "leseliste-fundstelle",
+          "karte": "m7-t2-k1",
+          "folien": [],
+          "frage": "Zeitschriftenbeitrag oder Buch? Ordne nach der Form der Fundstelle in der Leseliste ein.",
+          "kategorien": [
+            "Zeitschrift (Band, Nummer, Seiten)",
+            "Buch (Ort und Verlag)"
+          ],
+          "elemente": [
+            {
+              "text": "Skilled Incompetence — Harvard Business Review, Vol. 64, No. 5, pp. 74-79",
+              "kategorie": 0
+            },
+            {
+              "text": "A Stupidity-Based Theory of Organizations — Journal of Management Studies, Vol. 49, No.7, 1194-1220",
+              "kategorie": 0
+            },
+            {
+              "text": "Frontiers in group dynamics — Human Relations, 1, 5-41",
+              "kategorie": 0
+            },
+            {
+              "text": "Reinventing Organizations — Brussels, Nelson Parker",
+              "kategorie": 1
+            },
+            {
+              "text": "Images of Organization — London, Sage",
+              "kategorie": 1
+            },
+            {
+              "text": "Miteinander reden — Reinbek, Rowohlt",
+              "kategorie": 1
+            }
+          ],
+          "erklaerung": "Die Leseliste mischt Bücher und Aufsätze. Bücher tragen Ort und Verlag, Aufsätze Zeitschrift, Band, Nummer und Seitenzahlen. Mehr sagt die Folie über die Werke nicht.",
+          "beleg": "Skilled Incompetence. Harvard Business Review, Vol. 64, No. 5, pp. 74-79",
+          "belegQuelle": "folie-57",
+          "kurz": "Buch = Ort und Verlag, Aufsatz = Zeitschrift mit Band, Nummer, Seiten."
+        },
+        {
+          "id": "m7-t2-a07",
+          "typ": "luecke",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "leseliste-jahre",
+          "karte": "m7-t2-k2",
+          "folien": [],
+          "bank": true,
+          "frage": "Ergänze die Jahreszahlen aus der Leseliste.",
+          "text": "Kübler-Ross, Elisabeth ({_1969_}). On death and dying\nLewin, Kurt ({_1947_}). Frontiers in group dynamics\nKotter, John P. ({_1995_}). Leading Change: Why Transformation Efforts Fail\nLaloux, Frederic ({_2014_}). Reinventing Organizations\nSchulz v. Thun, Friedrich ({_1981_}). Miteinander reden",
+          "zusatzBank": [
+            "1951",
+            "1972",
+            "2012"
+          ],
+          "erklaerung": "Zwei Jahreszahlen sind Stolperstellen: Lewin steht in der Leseliste mit 1947, im Skript aber mit dem 3-Schritt-Modell von 1951. Greiners Angabe trägt sogar zwei Jahre, 1972/1998.",
+          "beleg": "Kübler-Ross, Elisabeth (1969). On death and dying. New York, Macmillan",
+          "belegQuelle": "folie-57",
+          "kurz": "Kübler-Ross 1969, Lewin 1947, Kotter 1995, Laloux 2014, Schulz v. Thun 1981."
+        },
+        {
+          "id": "m7-t2-a08",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "leseliste-verwechslungen",
+          "karte": "m7-t2-k4",
+          "folien": [
+            78
+          ],
+          "frage": "Leseliste und Skript: Was stimmt?",
+          "aussagen": [
+            {
+              "text": "In der Leseliste steht Kurt Lewin mit dem Jahr 1947; im Skript selbst ist sein 3-Schritt-Modell dagegen mit 1951 angegeben.",
+              "wahr": true
+            },
+            {
+              "text": "Die Leseliste nennt zu jedem Werk eine kurze Inhaltsangabe.",
+              "wahr": false,
+              "korrektur": "Die Leseliste nennt nur Autor, Jahr, Titel und die Fundstelle. Inhaltsangaben gibt es dort nicht."
+            },
+            {
+              "text": "John P. Kotter steht in der Leseliste mit „Leading Change: Why Transformation Efforts Fail“ (1995) und kommt im Skript selbst mit dem 8-Schritt-Modell (1995) vor.",
+              "wahr": true
+            },
+            {
+              "text": "Elisabeth Kübler-Ross wird im Skript auch außerhalb der Leseliste namentlich genannt.",
+              "wahr": false,
+              "korrektur": "Ihr Name steht im Skript ausschließlich in der Leseliste."
+            }
+          ],
+          "erklaerung": "Genau solche Kleinigkeiten kippen eine Antwort: gleicher Name, andere Jahreszahl. Bei Kotter passen Leseliste und Skript zusammen (beide 1995), bei Lewin nicht (1947 gegen 1951).",
+          "belege": [
+            {
+              "text": "Lewin, Kurt (1947). Frontiers in group dynamics",
+              "quelle": "folie-57"
+            },
+            {
+              "text": "Kurt Lewins 3-Schritt-Modell (1951)",
+              "quelle": "folie-50"
+            },
+            {
+              "text": "John Kotters 8-Schritt-Modell (1995)",
+              "quelle": "folie-50"
+            }
+          ],
+          "kurz": "Lewin: Leseliste 1947, Skript 3-Schritt-Modell 1951. Kotter: beide Male 1995. Kübler-Ross nur in der Leseliste."
+        },
+        {
+          "id": "m7-t2-a09",
+          "typ": "erklaeren",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "leseliste-greiner",
+          "karte": "m7-t2-k4",
+          "folien": [
+            35
+          ],
+          "frage": "Die Folie zu den Wachstumsphasen (Folie 35) arbeitet mit den Begriffen Evolution und Revolution, nennt aber keinen Autor. Welches Werk der Leseliste passt dazu, und was darfst du daraus schließen?",
+          "musterloesung": "In der Leseliste steht „Greiner, Larry E. (1972/1998). Evolution and Revolution as Organisations Grow. HBR, July/August 1972, May/June 1998“. Folie 35 zeigt sechs Wachstumsphasen einer Organisation und trägt die Legende „Evolution: Wachstumsphase“ und „Revolution: Phase der Krise“. Die beiden Begriffe decken sich also mit dem Titel des Werks. Schließen darf man daraus aber nur das: Der Titel passt zum Wortgebrauch der Folie. Folie 35 nennt ausdrücklich keine Person, und Greiner kommt im übrigen Skript nicht vor. Sicher wiedergeben lässt sich deshalb, dass Greiner mit diesem Titel zur Leseliste gehört; dass die Folie auf ihn zurückgeht, behauptet das Skript nicht.",
+          "checkliste": [
+            "Werk korrekt genannt: Greiner, Larry E. (1972/1998), Evolution and Revolution as Organisations Grow",
+            "Legende der Folie 35 genannt: Evolution = Wachstumsphase, Revolution = Phase der Krise",
+            "Übereinstimmung benannt: dieselben zwei Begriffe",
+            "Grenze benannt: Folie 35 nennt keinen Autor",
+            "Grenze benannt: Greiner steht im Skript nur in der Leseliste"
+          ],
+          "erklaerung": "Hier wird geübt, eine naheliegende Verbindung zu sehen und zugleich zu sagen, wie weit die Quelle sie trägt. Das ist in einer Klausur mehr wert als eine Behauptung, die im Skript nicht steht.",
+          "belege": [
+            {
+              "text": "Greiner, Larry E. (1972/1998). Evolution and Revolution as Organisations Grow",
+              "quelle": "folie-57"
+            },
+            {
+              "text": "Legende: Evolution: Wachstumsphase Revolution: Phase der Krise",
+              "quelle": "folie-07"
+            }
+          ],
+          "kurz": "Greiners Titel Evolution and Revolution as Organisations Grow passt zur Legende von Folie 35; die Folie nennt aber keinen Autor."
+        },
+        {
+          "id": "m7-t2-a10",
+          "typ": "fall",
+          "modus": "offen",
+          "stufe": "transfer",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "leseliste-grenzen",
+          "karte": "m7-t2-k1",
+          "folien": [],
+          "szenario": "Übungsfall: In der Klausur steht die Aufgabe „Nennen Sie drei Werke aus der Leseliste des Skripts und ordnen Sie sie ein.“ Du überlegst, wie weit du dabei gehen darfst.",
+          "frage": "Was kannst du aus der Leseliste sicher wiedergeben, und was nicht?",
+          "musterloesung": "Sicher wiedergeben lässt sich genau das, was die Folie zeigt: Autor oder Autoren, Jahr, Titel und die Fundstelle, also Ort und Verlag oder Zeitschrift mit Band, Nummer und Seiten. Dazu gehört auch die Überschrift „Mitarbeiterführung & Change Management - A short reading list -“ und der Hinweis (GERMAN) bei den beiden deutschsprachigen Werken. Nicht wiedergeben lässt sich, worum es in diesen Werken inhaltlich geht: Das Skript nennt dazu nichts. Wer Inhalte angibt, geht über die Quelle hinaus. Eine belegbare Einordnung gibt es nur dort, wo ein Name auch außerhalb der Leseliste im Skript vorkommt, etwa Kotter mit dem 8-Schritt-Modell und Lewin mit dem 3-Schritt-Modell und den Führungsstilen.",
+          "checkliste": [
+            "Sicher: Autor, Jahr, Titel, Fundstelle, Überschrift der Liste",
+            "Nicht sicher: Inhalt oder Kernaussage der einzelnen Werke",
+            "Begründung: Die Folie enthält keine Inhaltsangaben",
+            "Ausnahme benannt: Namen, die auch sonst im Skript vorkommen (Kotter, Lewin)"
+          ],
+          "erklaerung": "Die Leseliste ist Wiedererkennungswissen. Wer eine Inhaltsangabe erfindet, verliert Punkte an einer Stelle, an der die Quelle ausdrücklich nichts hergibt.",
+          "belege": [
+            {
+              "text": "Mitarbeiterführung & Change Management - A short reading list -",
+              "quelle": "folie-57"
+            },
+            {
+              "text": "John Kotters 8-Schritt-Modell (1995)",
+              "quelle": "folie-50"
+            }
+          ],
+          "kurz": "Aus der Leseliste sind nur Autor, Jahr, Titel und Fundstelle belegt, keine Inhalte."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Leseliste („A short reading list“, Überschrift Mitarbeiterführung & Change Management):** 22 Angaben mit Autor, Jahr, Titel, Fundstelle. **Keine Inhaltsangaben** — nur Zuordnung Autor zu Werk ist belegt.",
+          "**Merkkerne:** Kotter 1995 Leading Change; Lewin 1947 Frontiers in group dynamics (Skript: 3-Schritt-Modell 1951); Kübler-Ross 1969 On death and dying; Laloux 2014 Reinventing Organizations; Schulz v. Thun 1981 Miteinander reden; Greiner 1972/1998 Evolution and Revolution as Organisations Grow; Argyris 1985 und 1986."
+        ],
+        "ausfuehrlich": [
+          "**Aufbau jeder Angabe:** Autor (Nachname zuerst), Jahr in Klammern, Titel, Fundstelle. Buch: Ort und Verlag. Aufsatz: Zeitschrift, Band, Nummer, Seiten. Zusatz (GERMAN) bei Abegglen (2018) und Schulz v. Thun (1981).",
+          "**Teil 1 (alphabetisch):** Abegglen 2018 Unternehmen neu erfinden; Alvesson/Spicer 2012 A Stupidity-Based Theory of Organizations; Argyris 1985 Strategy, Change, and Defensive Routines; Argyris 1986 Skilled Incompetence; Cameron/Green 2015 Making Sense of Change Management; Critchley/King/Higgins 2013 Organisational Consulting; Gergen 2009 An Invitation to Social Construction; Greiner 1972/1998 Evolution and Revolution as Organisations Grow; Heskett 2012 The Culture Cycle; Kegan/Laskow Lahey 2009 Immunity to Change; Keohane 2010 Thinking about Leadership; Kotter 1995 Leading Change: Why Transformation Efforts Fail; Kübler-Ross 1969 On death and dying.",
+          "**Teil 2:** Laloux 2014 Reinventing Organizations; Lewin 1947 Frontiers in group dynamics; Morgan 2006 Images of Organization; Pascale 1990 Ebbs, Flows and Residual Impact of Business Fads 1950-1995; Pascale/Sternin/Sternin 2010 The Power of Positive Deviance; Schulz v. Thun 1981 Miteinander reden; Schwaninger 2008 Intelligent Organizations; Stacey 2012 Tools and Techniques of Leadership; v.d. Heijden 2010 Scenarios.",
+          "**Doppelt vertreten:** Argyris (1985 und 1986, beide allein), Pascale (1990 allein, 2010 mit Sternin und Sternin).",
+          "**Brücken ins Skript:** Kotter → Folie 78, 8-Schritt-Modell (1995). Lewin → Folien 39 bis 41 (Führungsstile) und Folie 78, 3-Schritt-Modell (1951). Greiner → passt begrifflich zu Folie 35 (Evolution/Revolution), die Folie nennt aber keinen Autor.",
+          "**Grenze:** Über den Inhalt der Werke sagt das Skript nichts. Nicht erfinden."
+        ],
+        "merkhilfe": "Drei Jahreszahlen zum Kurzprüfen: Kübler-Ross **1969**, Kotter **1995**, Laloux **2014**. Wer die drei sicher hat, findet die Nachbarn in der alphabetischen Liste schnell wieder. Eselsbrücke, keine Aussage des Skripts."
+      }
+    },
+    {
+      "id": "m7-t3",
+      "titel": "Die Kehrseite: Dysfunktionen eines Teams (Lencioni)",
+      "folien": [],
+      "quelleText": "Abschlussfolie",
+      "gewicht": 3,
+      "lernstoff": false,
+      "lernkarten": [
+        {
+          "id": "m7-t3-k1",
+          "titel": "Die Teamperformance-Pyramide: zwei Dreiecke, zehn Begriffe",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Die letzte inhaltliche Folie trägt den Titel „Die Kehrseite: Dysfunktionen eines Teams“. Sie zeigt eine Abbildung mit zwei Dreiecken, die ineinandergeschoben sind. Links steht, was ein Team braucht, rechts das, was dagegen wirkt. Auf jeder Höhe steht ein Paar: eine Funktion und ihre Kehrseite."
+            },
+            {
+              "typ": "definition",
+              "begriff": "Teamperformance-Pyramide",
+              "text": "So heißt die Abbildung dieser Folie in ihrer fetten Überschrift. Sie besteht aus zwei ineinandergeschobenen Dreiecken: links ein dunkelblau gefülltes Dreieck mit der Spitze nach oben, rechts ein nur als Umrisslinie gezeichnetes Dreieck mit der Spitze nach unten. Beide sind in fünf waagerechte Ebenen geteilt."
+            },
+            {
+              "typ": "liste",
+              "titel": "Linkes Dreieck: 5 Funktionen – to do (von oben nach unten)",
+              "geordnet": true,
+              "punkte": [
+                "[[Ziel-Orientierung]]",
+                "[[Gegenseitige Verantwortlichkeit]]",
+                "[[Selbstverpflichtung]]",
+                "[[Konfliktbereitschaft]]",
+                "[[Vertrauen]]"
+              ]
+            },
+            {
+              "typ": "liste",
+              "titel": "Rechtes Dreieck: 5 Dysfunktionen – to kill (von oben nach unten)",
+              "geordnet": true,
+              "punkte": [
+                "[[Dominanz von Status und Ego]]",
+                "[[Niedrige Standards]]",
+                "[[Zweideutigkeit]]",
+                "[[Künstliche Harmonie]]",
+                "[[Fehlende Offenheit]]"
+              ]
+            },
+            {
+              "typ": "diagramm",
+              "ref": "lencioni",
+              "unterschrift": "Links die fünf Funktionen (to do), rechts die fünf Dysfunktionen (to kill). Was auf gleicher Höhe steht, gehört als Paar zusammen."
+            },
+            {
+              "typ": "text",
+              "text": "Am linken Außenrand steht in handschriftlich wirkender Schrift, diagonal geschrieben: „5 Funktionen – to do“. Am rechten Außenrand in derselben Schrift: „5 Dysfunktionen – to kill“."
+            },
+            {
+              "typ": "person",
+              "name": "Patrick Lencioni",
+              "beitrag": "Verfasser der Quelle, die die Folie in einer Fußnote nennt: Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014."
+            }
+          ]
+        },
+        {
+          "id": "m7-t3-k2",
+          "titel": "Die fünf Paare: Funktion und Kehrseite",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Der eigentliche Gedanke der Abbildung steckt in der Anordnung. Die Ebenen der beiden Dreiecke liegen auf gleicher Höhe. Dadurch steht jeder Funktion genau eine Dysfunktion gegenüber. Diese fünf Paare sind der Kern dessen, was in der Klausur abgefragt werden kann."
+            },
+            {
+              "typ": "tabelle",
+              "kopf": [
+                "Ebene (von oben)",
+                "Funktion – to do",
+                "Dysfunktion – to kill"
+              ],
+              "zeilen": [
+                [
+                  "1",
+                  "Ziel-Orientierung",
+                  "Dominanz von Status und Ego"
+                ],
+                [
+                  "2",
+                  "Gegenseitige Verantwortlichkeit",
+                  "Niedrige Standards"
+                ],
+                [
+                  "3",
+                  "Selbstverpflichtung",
+                  "Zweideutigkeit"
+                ],
+                [
+                  "4",
+                  "Konfliktbereitschaft",
+                  "Künstliche Harmonie"
+                ],
+                [
+                  "5",
+                  "Vertrauen",
+                  "Fehlende Offenheit"
+                ]
+              ],
+              "hinweis": "Ebene 1 ist oben (Spitze des linken Dreiecks), Ebene 5 unten."
+            },
+            {
+              "typ": "text",
+              "text": "**Der Kern der Abbildung:** Die Ebenen der beiden Dreiecke liegen auf gleicher Höhe und stehen einander damit paarweise gegenüber. Dieser Satz beschreibt, wie die Grafik angeordnet ist; als farbig hervorgehobener Merksatz steht er auf der Folie nicht."
+            },
+            {
+              "typ": "merkhilfe",
+              "text": "Für die Reihenfolge der fünf Funktionen von **unten nach oben**: **V**ertrauen, **K**onfliktbereitschaft, **S**elbstverpflichtung, **G**egenseitige Verantwortlichkeit, **Z**iel-Orientierung. Merksatz dazu: *Vertrauen kommt selten ganz zufällig*. Das ist eine Eselsbrücke, keine Aussage des Skripts."
+            }
+          ]
+        },
+        {
+          "id": "m7-t3-k3",
+          "titel": "Was diese Folie nicht sagt",
+          "folien": [],
+          "bloecke": [
+            {
+              "typ": "einfach",
+              "text": "Hier ist Vorsicht nötig. Die Folie nennt zehn Begriffe, erklärt aber keinen einzigen davon. Was genau [[Zweideutigkeit]] oder [[Niedrige Standards]] in einem Team bedeuten, steht nicht im Skript. Halte dich deshalb an die Namen, die Reihenfolge und die Paare."
+            },
+            {
+              "typ": "hinweis",
+              "text": "Die zehn Begriffe der Pyramide werden nur benannt, auf der Folie aber nicht erklärt. Auch eine Wirkungsrichtung (etwa „ohne das eine kein anderes“) behauptet die Folie nicht. Belegt sind: die beiden Fünferlisten, ihre Reihenfolge, die Gegenüberstellung auf gleicher Höhe und die Quellenangabe."
+            },
+            {
+              "typ": "skriptluecke",
+              "id": "m7-lencioni-mitschrift",
+              "text": "Wenn der Dozent in der Vorlesung etwas zu einzelnen Begriffen gesagt hat, gehört es hierher. Das Skript selbst lässt diese Stelle leer, deshalb steht hier nichts Vorgegebenes.",
+              "felder": [
+                {
+                  "id": "funktionen",
+                  "label": "Meine Mitschrift zu den 5 Funktionen (to do)"
+                },
+                {
+                  "id": "dysfunktionen",
+                  "label": "Meine Mitschrift zu den 5 Dysfunktionen (to kill)"
+                }
+              ]
+            },
+            {
+              "typ": "text",
+              "text": "Quellenangabe der Folie (Fußnote unten links, sehr klein): {{Patrick Lencioni}}: Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014. Auch diese Folie trägt unten rechts keine aufgedruckte Foliennummer; die Fußzeile nennt MAF VII."
+            }
+          ]
+        }
+      ],
+      "aufgaben": [
+        {
+          "id": "m7-t3-a01",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "lencioni-funktionen",
+          "karte": "m7-t3-k1",
+          "folien": [],
+          "frage": "Bringe die fünf Funktionen der Teamperformance-Pyramide in die Reihenfolge der Folie, **von oben nach unten**.",
+          "elemente": [
+            "Ziel-Orientierung",
+            "Gegenseitige Verantwortlichkeit",
+            "Selbstverpflichtung",
+            "Konfliktbereitschaft",
+            "Vertrauen"
+          ],
+          "erklaerung": "Das linke, dunkelblau gefüllte Dreieck hat die Spitze oben. Von oben nach unten stehen dort Ziel-Orientierung, Gegenseitige Verantwortlichkeit, Selbstverpflichtung, Konfliktbereitschaft und Vertrauen.",
+          "beleg": "von oben nach unten: 1. Ziel-Orientierung 2. Gegenseitige Verantwortlichkeit 3. Selbstverpflichtung 4. Konfliktbereitschaft 5. Vertrauen",
+          "belegQuelle": "folie-58",
+          "kurz": "Funktionen von oben nach unten: Ziel-Orientierung, Gegenseitige Verantwortlichkeit, Selbstverpflichtung, Konfliktbereitschaft, Vertrauen."
+        },
+        {
+          "id": "m7-t3-a02",
+          "typ": "sortieren",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "lencioni-dysfunktionen",
+          "karte": "m7-t3-k1",
+          "folien": [],
+          "frage": "Bringe die fünf Dysfunktionen in die Reihenfolge der Folie, **von oben nach unten**.",
+          "elemente": [
+            "Dominanz von Status und Ego",
+            "Niedrige Standards",
+            "Zweideutigkeit",
+            "Künstliche Harmonie",
+            "Fehlende Offenheit"
+          ],
+          "erklaerung": "Das rechte Dreieck ist nur als Umrisslinie gezeichnet und hat die Spitze unten. Von oben nach unten stehen dort Dominanz von Status und Ego, Niedrige Standards, Zweideutigkeit, Künstliche Harmonie und Fehlende Offenheit.",
+          "beleg": "von oben nach unten: 1. Dominanz von Status und Ego 2. Niedrige Standards 3. Zweideutigkeit 4. Künstliche Harmonie 5. Fehlende Offenheit",
+          "belegQuelle": "folie-58",
+          "kurz": "Dysfunktionen von oben nach unten: Dominanz von Status und Ego, Niedrige Standards, Zweideutigkeit, Künstliche Harmonie, Fehlende Offenheit."
+        },
+        {
+          "id": "m7-t3-a03",
+          "typ": "zuordnung",
+          "stufe": "verstehen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "lencioni-paare",
+          "karte": "m7-t3-k2",
+          "folien": [],
+          "frage": "Welche Dysfunktion steht welcher Funktion gegenüber? Ordne die Paare der Teamperformance-Pyramide zu.",
+          "linksTitel": "Funktion – to do",
+          "rechtsTitel": "Dysfunktion – to kill",
+          "paare": [
+            {
+              "links": "Ziel-Orientierung",
+              "rechts": "Dominanz von Status und Ego"
+            },
+            {
+              "links": "Gegenseitige Verantwortlichkeit",
+              "rechts": "Niedrige Standards"
+            },
+            {
+              "links": "Selbstverpflichtung",
+              "rechts": "Zweideutigkeit"
+            },
+            {
+              "links": "Konfliktbereitschaft",
+              "rechts": "Künstliche Harmonie"
+            },
+            {
+              "links": "Vertrauen",
+              "rechts": "Fehlende Offenheit"
+            }
+          ],
+          "erklaerung": "Die Ebenen beider Dreiecke liegen auf gleicher Höhe. Deshalb gehört jede Funktion zu genau einer Dysfunktion: oben Ziel-Orientierung zu Dominanz von Status und Ego, unten Vertrauen zu Fehlender Offenheit.",
+          "beleg": "Ziel-Orientierung / Dominanz von Status und Ego; Gegenseitige Verantwortlichkeit / Niedrige Standards",
+          "belegQuelle": "folie-58",
+          "kurz": "Paare: Ziel-Orientierung/Dominanz von Status und Ego, Gegenseitige Verantwortlichkeit/Niedrige Standards, Selbstverpflichtung/Zweideutigkeit, Konfliktbereitschaft/Künstliche Harmonie, Vertrauen/Fehlende Offenheit."
+        },
+        {
+          "id": "m7-t3-a04",
+          "typ": "kategorien",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 2,
+          "kern": true,
+          "konzept": "lencioni-seiten",
+          "karte": "m7-t3-k2",
+          "folien": [],
+          "frage": "Funktion (to do) oder Dysfunktion (to kill)? Sortiere die zehn Begriffe der Pyramide ein.",
+          "kategorien": [
+            "Funktion – to do",
+            "Dysfunktion – to kill"
+          ],
+          "elemente": [
+            {
+              "text": "Vertrauen",
+              "kategorie": 0
+            },
+            {
+              "text": "Künstliche Harmonie",
+              "kategorie": 1
+            },
+            {
+              "text": "Selbstverpflichtung",
+              "kategorie": 0
+            },
+            {
+              "text": "Niedrige Standards",
+              "kategorie": 1
+            },
+            {
+              "text": "Ziel-Orientierung",
+              "kategorie": 0
+            },
+            {
+              "text": "Zweideutigkeit",
+              "kategorie": 1
+            },
+            {
+              "text": "Konfliktbereitschaft",
+              "kategorie": 0
+            },
+            {
+              "text": "Dominanz von Status und Ego",
+              "kategorie": 1
+            }
+          ],
+          "erklaerung": "Links im gefüllten Dreieck stehen die Funktionen, die ein Team aufbauen soll (to do). Rechts im Umriss-Dreieck stehen die Dysfunktionen, die es abstellen soll (to kill).",
+          "belege": [
+            {
+              "text": "5 Funktionen – to do",
+              "quelle": "folie-58"
+            },
+            {
+              "text": "5 Dysfunktionen – to kill",
+              "quelle": "folie-58"
+            }
+          ],
+          "kurz": "Links to do (Funktionen), rechts to kill (Dysfunktionen)."
+        },
+        {
+          "id": "m7-t3-a05",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "lencioni-funktionen",
+          "karte": "m7-t3-k1",
+          "folien": [],
+          "frage": "Beschrifte die fünf Ebenen des linken Dreiecks (Funktionen).",
+          "diagramm": "lencioni",
+          "gruppe": "funktionen",
+          "erklaerung": "Das linke Dreieck ist dunkelblau gefüllt, hat die Spitze oben und trägt von oben nach unten Ziel-Orientierung, Gegenseitige Verantwortlichkeit, Selbstverpflichtung, Konfliktbereitschaft und Vertrauen.",
+          "beleg": "Links ein dunkelblau gefülltes Dreieck mit der Spitze nach oben, in fünf waagerechte Ebenen geteilt",
+          "belegQuelle": "folie-58",
+          "kurz": "Linkes Dreieck, Spitze oben, gefüllt: die fünf Funktionen."
+        },
+        {
+          "id": "m7-t3-a06",
+          "typ": "beschriften",
+          "stufe": "erinnern",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "lencioni-dysfunktionen",
+          "karte": "m7-t3-k1",
+          "folien": [],
+          "frage": "Beschrifte die fünf Ebenen des rechten Dreiecks (Dysfunktionen).",
+          "diagramm": "lencioni",
+          "gruppe": "dysfunktionen",
+          "erklaerung": "Das rechte Dreieck ist nur als Umrisslinie gezeichnet, hat die Spitze unten und trägt von oben nach unten Dominanz von Status und Ego, Niedrige Standards, Zweideutigkeit, Künstliche Harmonie und Fehlende Offenheit.",
+          "beleg": "Rechts ein nur als Umrisslinie gezeichnetes Dreieck mit der Spitze nach unten, ebenfalls in fünf waagerechte Ebenen geteilt",
+          "belegQuelle": "folie-58",
+          "kurz": "Rechtes Dreieck, Spitze unten, nur Umriss: die fünf Dysfunktionen."
+        },
+        {
+          "id": "m7-t3-a07",
+          "typ": "wahrfalsch",
+          "stufe": "abgrenzen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "lencioni-aufbau",
+          "karte": "m7-t3-k3",
+          "folien": [],
+          "frage": "Was stimmt über die Abbildung und darüber, was sie belegt?",
+          "aussagen": [
+            {
+              "text": "Die fünf Funktionen stehen im linken Dreieck, das dunkelblau gefüllt ist und dessen Spitze nach oben zeigt.",
+              "wahr": true
+            },
+            {
+              "text": "Das rechte Dreieck ist ebenfalls gefüllt und zeigt mit der Spitze nach oben.",
+              "wahr": false,
+              "korrektur": "Das rechte Dreieck ist nur als Umrisslinie gezeichnet und zeigt mit der Spitze nach unten."
+            },
+            {
+              "text": "Die Ebenen der beiden Dreiecke liegen auf gleicher Höhe und stehen einander paarweise gegenüber.",
+              "wahr": true
+            },
+            {
+              "text": "Die Folie erklärt jeden der zehn Begriffe in einem eigenen Satz.",
+              "wahr": false,
+              "korrektur": "Die zehn Begriffe der Pyramide werden nur benannt, auf der Folie aber nicht erklärt."
+            }
+          ],
+          "erklaerung": "Belegt sind die beiden Fünferlisten, ihre Reihenfolge, die Form der Dreiecke und die paarweise Gegenüberstellung. Eine Erklärung der einzelnen Begriffe gibt die Folie nicht her.",
+          "belege": [
+            {
+              "text": "Die Ebenen der beiden Dreiecke liegen auf gleicher Höhe und stehen einander damit paarweise gegenüber",
+              "quelle": "folie-58"
+            },
+            {
+              "text": "Die zehn Begriffe der Pyramide werden nur benannt, auf der Folie aber nicht erklärt.",
+              "quelle": "folie-58"
+            }
+          ],
+          "kurz": "Links gefüllt, Spitze oben (Funktionen); rechts Umriss, Spitze unten (Dysfunktionen); gleiche Höhe = Paar; keine Begriffserklärung."
+        },
+        {
+          "id": "m7-t3-a08",
+          "typ": "erklaeren",
+          "stufe": "verstehen",
+          "schwierigkeit": 3,
+          "kern": false,
+          "konzept": "lencioni-gesamt",
+          "karte": "m7-t3-k1",
+          "folien": [],
+          "frage": "Erkläre die Abbildung „Teamperformance-Pyramide“: Was zeigt sie, wie ist sie aufgebaut und woher stammt sie?",
+          "musterloesung": "Die Folie trägt den Titel „Die Kehrseite: Dysfunktionen eines Teams“. Ihre Abbildung heißt Teamperformance-Pyramide und besteht aus zwei ineinandergeschobenen Dreiecken. Links ein dunkelblau gefülltes Dreieck mit der Spitze nach oben, in fünf waagerechte Ebenen geteilt; von oben nach unten: Ziel-Orientierung, Gegenseitige Verantwortlichkeit, Selbstverpflichtung, Konfliktbereitschaft, Vertrauen. Rechts ein nur als Umrisslinie gezeichnetes Dreieck mit der Spitze nach unten, ebenfalls in fünf Ebenen; von oben nach unten: Dominanz von Status und Ego, Niedrige Standards, Zweideutigkeit, Künstliche Harmonie, Fehlende Offenheit. Die Ebenen liegen auf gleicher Höhe und stehen einander damit paarweise gegenüber. Am linken Rand steht handschriftlich „5 Funktionen – to do“, am rechten „5 Dysfunktionen – to kill“. Als Quelle nennt die Fußnote: Patrick Lencioni, Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014. Die einzelnen Begriffe erklärt die Folie nicht.",
+          "checkliste": [
+            "Titel der Folie genannt: Die Kehrseite: Dysfunktionen eines Teams",
+            "Aufbau beschrieben: zwei ineinandergeschobene Dreiecke, links gefüllt mit Spitze oben, rechts Umriss mit Spitze unten",
+            "Alle fünf Funktionen in der richtigen Reihenfolge genannt",
+            "Alle fünf Dysfunktionen in der richtigen Reihenfolge genannt",
+            "Gegenüberstellung auf gleicher Höhe und die Randnotizen to do / to kill benannt",
+            "Quelle genannt: Patrick Lencioni, Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014"
+          ],
+          "erklaerung": "Das ist die wahrscheinlichste Klausurform zu dieser Folie: eine Abbildung vollständig wiedergeben und einordnen. Wer die zehn Begriffe und die Paarbildung hat, hat alles, was belegt ist.",
+          "belege": [
+            {
+              "text": "Die Kehrseite: Dysfunktionen eines Teams",
+              "quelle": "folie-58"
+            },
+            {
+              "text": "Patrick Lencioni: Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014",
+              "quelle": "folie-58"
+            }
+          ],
+          "kurz": "Teamperformance-Pyramide: links 5 Funktionen (to do), rechts 5 Dysfunktionen (to kill), paarweise gegenüber; Quelle Lencioni 2014."
+        },
+        {
+          "id": "m7-t3-a09",
+          "typ": "fall",
+          "modus": "mc",
+          "stufe": "anwenden",
+          "schwierigkeit": 2,
+          "kern": false,
+          "konzept": "lencioni-paare",
+          "karte": "m7-t3-k2",
+          "folien": [],
+          "szenario": "Übungsfall: Ein Team geht in einem Workshop die Teamperformance-Pyramide Ebene für Ebene von oben nach unten durch. Es ist gerade bei der Ebene angekommen, auf der im rechten Dreieck „Künstliche Harmonie“ steht.",
+          "frage": "Welche Funktion steht auf dieser Ebene im linken Dreieck gegenüber, und die wievielte Ebene von oben ist es?",
+          "optionen": [
+            "Konfliktbereitschaft, vierte Ebene von oben",
+            "Selbstverpflichtung, dritte Ebene von oben",
+            "Vertrauen, fünfte Ebene von oben",
+            "Gegenseitige Verantwortlichkeit, zweite Ebene von oben"
+          ],
+          "richtig": 0,
+          "erklaerung": "Die Antwort ergibt sich allein aus der Anordnung der Abbildung: „Künstliche Harmonie“ ist die vierte Dysfunktion von oben, und weil die Ebenen beider Dreiecke auf gleicher Höhe liegen, steht ihr die vierte Funktion von oben gegenüber, also Konfliktbereitschaft. Was die beiden Begriffe inhaltlich bedeuten, sagt die Folie nicht; gefragt ist hier nur nach Reihenfolge und Paarbildung.",
+          "belege": [
+            {
+              "text": "von oben nach unten: 1. Dominanz von Status und Ego 2. Niedrige Standards 3. Zweideutigkeit 4. Künstliche Harmonie",
+              "quelle": "folie-58"
+            },
+            {
+              "text": "Konfliktbereitschaft / Künstliche Harmonie",
+              "quelle": "folie-58"
+            }
+          ],
+          "kurz": "Vierte Ebene von oben: Konfliktbereitschaft (links) steht Künstlicher Harmonie (rechts) gegenüber."
+        }
+      ],
+      "lernzettel": {
+        "kompakt": [
+          "**Lencioni, Teamperformance-Pyramide (Abschlussfolie „Die Kehrseite: Dysfunktionen eines Teams“):** links 5 Funktionen (to do), rechts 5 Dysfunktionen (to kill), auf gleicher Höhe paarweise gegenüber.",
+          "**Paare von oben nach unten:** Ziel-Orientierung/Dominanz von Status und Ego; Gegenseitige Verantwortlichkeit/Niedrige Standards; Selbstverpflichtung/Zweideutigkeit; Konfliktbereitschaft/Künstliche Harmonie; Vertrauen/Fehlende Offenheit. Quelle: Patrick Lencioni, Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014."
+        ],
+        "ausfuehrlich": [
+          "**Folientitel:** „Die Kehrseite: Dysfunktionen eines Teams“. Abbildung mit fetter Überschrift „Teamperformance-Pyramide“.",
+          "**Aufbau:** zwei ineinandergeschobene Dreiecke. Links dunkelblau gefüllt, Spitze oben, fünf waagerechte Ebenen, Beschriftung in weißer Schrift. Rechts nur als Umrisslinie, Spitze unten, ebenfalls fünf Ebenen, Beschriftung in schwarzer Schrift.",
+          "**5 Funktionen (von oben nach unten):** Ziel-Orientierung, Gegenseitige Verantwortlichkeit, Selbstverpflichtung, Konfliktbereitschaft, Vertrauen.",
+          "**5 Dysfunktionen (von oben nach unten):** Dominanz von Status und Ego, Niedrige Standards, Zweideutigkeit, Künstliche Harmonie, Fehlende Offenheit.",
+          "**Gegenüberstellung:** Die Ebenen liegen auf gleicher Höhe und stehen einander damit paarweise gegenüber. Randnotizen in handschriftlicher Schrift: links „5 Funktionen – to do“, rechts „5 Dysfunktionen – to kill“.",
+          "**Quelle (Fußnote):** Patrick Lencioni: Die 5 Dysfunktionen eines Teams, Wiley-VCH, 2014.",
+          "**Grenze:** Die zehn Begriffe werden nur benannt, nicht erklärt. Keine Definitionen und keine Wirkungsrichtung hinzuerfinden."
+        ],
+        "merkhilfe": "Funktionen von unten nach oben: **V**ertrauen, **K**onfliktbereitschaft, **S**elbstverpflichtung, **G**egenseitige Verantwortlichkeit, **Z**iel-Orientierung — *Vertrauen kommt selten ganz zufällig*. Eselsbrücke, keine Aussage des Skripts."
+      }
+    }
+  ]
+}

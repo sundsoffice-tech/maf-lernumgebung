@@ -2,8 +2,10 @@
 // fünfte Eintrag der Fußnavigation, am Rechner die Sammelseite hinter der Hauptnavigation.
 import { h, symbol, minutenText } from '../mini.js'
 
-function karte(hash, symbolName, ueber, titel, text) {
-  return h('a.karte.karte--klickbar.mehr__karte', { href: hash },
+// obenAuch: Punkte, die auf breiten Geräten schon in der Kopfleiste stehen. Dort wären sie hier eine
+// Doppelung; das CSS blendet sie ab derselben Breite aus, ab der die Kopfleiste sie zeigt.
+function karte(hash, symbolName, ueber, titel, text, obenAuch) {
+  return h('a.karte.karte--klickbar.mehr__karte' + (obenAuch ? '.mehr__karte--oben' : ''), { href: hash },
     h('div.mehr__symbol', { 'aria-hidden': 'true' }, symbol(symbolName)),
     h('div',
       h('div.karte__ueber', ueber),
@@ -27,13 +29,15 @@ export default {
     host.appendChild(h('div.seitenkopf',
       h('div.seitenkopf__ueber', 'Mehr'),
       h('h1', 'Nachschlagen und einstellen'),
-      h('p', 'Alles, was du zwischendurch brauchst: wer im Skript vorkommt, was ein Begriff bedeutet, woher die Inhalte stammen.')))
+      // Der Satz zählt die Kacheln bewusst nicht auf: auf breiten Geräten stehen Personen und Glossar
+      // schon in der Kopfleiste und fehlen hier.
+      h('p', 'Alles, was du zwischendurch brauchst, an einer Stelle.')))
 
     host.appendChild(h('div.raster.raster--2',
       karte('#/personen', 'person', 'Register', 'Personen',
-        `Wer im Skript genannt wird und wofür er steht, mit Folienangabe.${anzahlText(daten.personen.length, 'Ein Eintrag.', 'Einträge.')}`),
+        `Wer im Skript genannt wird und wofür er steht, mit Folienangabe.${anzahlText(daten.personen.length, 'Ein Eintrag.', 'Einträge.')}`, true),
       karte('#/glossar', 'buch', 'Register', 'Glossar',
-        `Fachbegriffe aus dem Skript, kurz erklärt und mit Verweis auf das Thema.${anzahlText(daten.glossar.length, 'Ein Begriff.', 'Begriffe.')}`),
+        `Fachbegriffe aus dem Skript, kurz erklärt und mit Verweis auf das Thema.${anzahlText(daten.glossar.length, 'Ein Begriff.', 'Begriffe.')}`, true),
       karte('#/probe', 'probe', 'Prüfen', 'Generalprobe',
         `Ein gemischter Durchgang über alle Module, am Stück und ohne Hilfen.${probeMin ? ' Rund ' + minutenText(probeMin) + '.' : ''}`),
       karte('#/quellen', 'zettel', 'Transparenz', 'Quellen und Transparenz',

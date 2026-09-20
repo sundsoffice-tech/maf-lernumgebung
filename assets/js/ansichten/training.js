@@ -60,22 +60,43 @@ export function uhrzeit(ms) {
 }
 
 /**
- * Die Knöpfe für die Rundenlänge. Steht weniger bereit als die größte Stufe, endet die Reihe mit dem,
- * was wirklich da ist — lieber eine ehrliche Zahl als ein Knopf, der sein Versprechen nicht hält.
+ * Rundenlänge wählen und starten. Die Zahlen sind nur die Auswahl, ausgelöst wird mit dem Knopf darunter:
+ * Vorher startete ein Tipp auf eine Zahl sofort die Runde, während die hervorgehobene Zahl wie eine bereits
+ * getroffene Wahl aussah — nichts Sichtbares sagte, dass es danach nicht weitergeht.
+ * Steht weniger bereit als die größte Stufe, endet die Reihe mit dem, was wirklich da ist — lieber eine
+ * ehrliche Zahl als ein Knopf, der sein Versprechen nicht hält.
+ * opts: { ziel?, empfohlen?, aktion? } — `aktion` ist die Aufschrift des Startknopfes ohne die Zahl.
  */
 export function mengenKnoepfe(verfuegbar, mengen, starte, opts = {}) {
   const stufen = mengen.filter((n) => n < verfuegbar)
   if (verfuegbar <= mengen[mengen.length - 1]) stufen.push(verfuegbar)
   const ziel = opts.ziel || mengen[1]
-  const hervor = stufen.includes(ziel) ? ziel : stufen[stufen.length - 1]
-  return h('div.mengenwahl', { role: 'group', 'aria-label': 'Wie viele Aufgaben?' },
-    h('span.leise.mengenwahl__label', 'Wie viele Aufgaben?'),
-    h('div.mengenwahl__knoepfe', stufen.map((n) => {
-      const alles = n === verfuegbar && n < mengen[mengen.length - 1]
-      return h('button.knopf' + (opts.empfohlen && n === hervor ? '.knopf--primaer' : ''),
-        { type: 'button', 'aria-label': `${n} ${n === 1 ? 'Aufgabe' : 'Aufgaben'} starten`, onclick: () => starte(n) },
-        alles ? (n === 1 ? 'Die eine' : 'Alle ' + n) : String(n))
-    })))
+  const aktion = opts.aktion || 'Runde starten'
+  let gewaehlt = stufen.includes(ziel) ? ziel : stufen[stufen.length - 1]
+
+  const aufgabenText = (n) => `${n} ${n === 1 ? 'Aufgabe' : 'Aufgaben'}`
+  const startText = h('span.mengenwahl__starttext')
+  const knoepfe = stufen.map((n) => {
+    const alles = n === verfuegbar && n < mengen[mengen.length - 1]
+    return h('button.knopf.mengenwahl__knopf',
+      { type: 'button', 'aria-label': aufgabenText(n) + ' wählen', onclick: () => waehle(n) },
+      alles ? (n === 1 ? 'Die eine' : 'Alle ' + n) : String(n))
+  })
+
+  // Die gewählte Zahl steht auch im Startknopf: der Zustand hängt nicht allein an der Farbe.
+  function waehle(n) {
+    gewaehlt = n
+    stufen.forEach((m, i) => knoepfe[i].setAttribute('aria-pressed', m === n ? 'true' : 'false'))
+    startText.textContent = `${aktion} (${aufgabenText(n)})`
+  }
+  waehle(gewaehlt)
+
+  return h('div.mengenwahl',
+    h('div.mengenwahl__zeile', { role: 'group', 'aria-label': 'Wie viele Aufgaben?' },
+      h('span.leise.mengenwahl__label', 'Wie viele Aufgaben?'),
+      h('div.mengenwahl__knoepfe', knoepfe)),
+    h('button.knopf.mengenwahl__start' + (opts.empfohlen ? '.knopf--primaer' : ''),
+      { type: 'button', onclick: () => starte(gewaehlt) }, symbol('weiter'), startText))
 }
 
 /**
@@ -151,9 +172,10 @@ export function sitzungsLauf(host, opts) {
     const { element } = zeigeAufgabe(buehne, item, {
       app,
       onErgebnis: (e) => { verbucht = true; sitzung.beantworte(e); setzeFortschritt() },
-      // Konnte der Renderer die Aufgabe nicht aufbauen, kommt "Weiter" ohne Ergebnis. Dann wie ein
-      // unbekannter Typ behandeln: nicht als Fehler werten, aber die Schlange muss weiterlaufen.
-      onWeiter: () => { if (!verbucht) sitzung.beantworte({ punkte: 1, sicher: 'unsicher' }); zeichne() },
+      // Konnte der Renderer die Aufgabe nicht aufbauen oder wurde sie übersprungen, kommt "Weiter" ohne
+      // Ergebnis. Dann nimmt die Sitzung sie aus der Schlange, ohne sie zu verbuchen (nichtWerten): Eine
+      // Aufgabe, die niemand lösen konnte, darf nicht als gekonnt im Lernstand landen.
+      onWeiter: () => { if (!verbucht) sitzung.beantworte({ nichtWerten: true }); zeichne() },
     })
     if (!erste) { element.tabIndex = -1; element.focus({ preventScroll: true }) }
     erste = false

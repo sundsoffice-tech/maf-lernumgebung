@@ -1,19 +1,20 @@
 /* Lernzettel (#/lernzettel): Bildschirm und Druck.
-   Der Bildschirm zeigt eine Werkzeugleiste über einem Dokument, das schon aussieht wie das spätere Blatt.
-   Der Druckteil weiter unten macht daraus A4 hoch: helle Farben, Rahmen statt Flächen, kurze Blöcke
-   zweispaltig, Themen bleiben auf einer Seite. Nur Tokens, keine eigenen Farben und Maße. */
+   Der Bildschirm zeigt Titel, Werkzeuge und ein Inhaltsverzeichnis über einem Dokument, das schon aussieht
+   wie das spätere Blatt. Der Druckteil weiter unten macht daraus A4 hoch: helle Farben, Rahmen statt Flächen,
+   kurze Blöcke zweispaltig, Themen bleiben auf einer Seite. Nur Tokens, keine eigenen Farben und Maße. */
 
 /* ---------- Werkzeugleiste (steht nie auf dem Papier) ---------- */
-.lz-werkzeuge {
-  border: 1px solid var(--linie); border-radius: var(--radius-m);
-  background: var(--flaeche); padding: var(--a-3) var(--a-4);
-  margin-bottom: var(--a-5);
-}
+/* Rahmen, Fläche und Aufklapp-Pfeil kommen von details.aufklapp aus komponenten.css. */
+.lz-werkzeuge { margin: var(--a-4) 0 var(--a-5); }
 .lz-werkzeuge__zeile { display: flex; flex-wrap: wrap; gap: var(--a-3); align-items: center; }
 .lz-modi { display: flex; flex-wrap: wrap; gap: var(--a-2); }
-.lz-modi .knopf[aria-pressed="true"],
-.lz-modi .knopf[aria-pressed="true"]:hover {
+.lz-modi .knopf[aria-pressed="true"] {
   background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer);
+}
+@media (hover: hover) {
+  .lz-modi .knopf[aria-pressed="true"]:hover {
+    background: var(--primaer-sanft); border-color: var(--primaer); color: var(--primaer);
+  }
 }
 .lz-werkzeuge__satz { margin: var(--a-3) 0 0; }
 .lz-werkzeuge__pdf { margin: var(--a-3) 0 0; }
@@ -24,26 +25,81 @@
 .lz-anleitung p { margin: 0; color: var(--tinte-2); }
 
 /* ---------- Das Dokument ---------- */
-.lz-dokument { max-width: var(--breite-text); }
+.lz-dokument { max-width: var(--breite-text); margin-left: auto; margin-right: auto; }
 .lz-kopf { margin-bottom: var(--a-5); padding-bottom: var(--a-3); border-bottom: 2px solid var(--linie-stark); }
 .lz-kopf h1 { margin-bottom: var(--a-2); }
-.lz-kopf__zeilen {
-  display: flex; flex-wrap: wrap; gap: var(--a-1) var(--a-2);
-  margin: var(--a-2) 0 0; color: var(--tinte-2); font-size: var(--gr-s);
-}
-/* Trenner hängt am vorangehenden Wort, damit beim Umbruch kein Punkt allein in die neue Zeile rutscht */
-.lz-kopf__zeilen span:not(:last-child)::after { content: " ·"; color: var(--tinte-3); }
+.lz-kopf h1:focus { outline: none; }
+/* Zwei eigene Zeilen statt einer Reihe mit Trennpunkten: der Trenner blieb beim Umbruch am Zeilenende hängen. */
+.lz-kopf__zeilen { margin: var(--a-2) 0 0; color: var(--tinte-2); font-size: var(--gr-s); }
+.lz-kopf__zeilen span { display: block; }
 .lz-kopf__legende { margin: var(--a-2) 0 0; color: var(--tinte-2); font-size: var(--gr-s); }
+
+/* Sprungmarken landen unter der klebenden Kopfzeile, nicht darunter versteckt */
+.lz-abschnitt, .lz-modul { scroll-margin-top: calc(var(--kopf-hoehe) + var(--a-3)); }
 
 .lz-abschnitt { margin-bottom: var(--a-6); }
 .lz-abschnitt h2 { font-size: var(--gr-xl); margin-bottom: var(--a-3); }
+.lz-abschnitt h2:focus { outline: none; }
+
+/* ---------- Inhaltsverzeichnis (nur Bildschirm) ---------- */
+/* Knöpfe statt Anker: die App hängt ihre Route an den Hash, ein „#lz-m1“ würde die Ansicht neu laden. */
+.lz-inhalt {
+  margin: 0 0 var(--a-6);
+  border: 1px solid var(--linie); border-radius: var(--radius-m);
+  background: var(--flaeche); padding: var(--a-3) var(--a-4) var(--a-4);
+}
+.lz-inhalt__titel {
+  font-size: var(--gr-xs); font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase;
+  color: var(--tinte-3); margin-bottom: var(--a-2);
+}
+.lz-inhalt__liste { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--a-2); }
+.lz-inhalt__liste li { margin: 0; }
+/* Raster statt Reihe: bricht der Modultitel um, bleibt die Vorlesungsmarke rechts auf der ersten Zeile. */
+.lz-inhalt__ziel {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: var(--a-1) var(--a-3);
+  width: 100%; min-height: 2.75rem; padding: var(--a-2) var(--a-3);
+  border: 1px solid var(--linie); border-radius: var(--radius-s);
+  background: var(--flaeche-2); color: var(--tinte);
+  font: inherit; font-weight: 650; text-align: left; line-height: 1.3;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.lz-inhalt__ziel:active { transform: translateY(1px); }
+@media (hover: hover) { .lz-inhalt__ziel:hover { border-color: var(--primaer); color: var(--primaer); } }
+.lz-inhalt__name { min-width: 0; }
+.lz-inhalt__neben {
+  justify-self: end; font-family: var(--schrift-text); font-size: var(--gr-xs); font-weight: 700;
+  letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinte-3); white-space: nowrap;
+}
+@media (min-width: 48rem) { .lz-inhalt__liste { grid-template-columns: 1fr 1fr; gap: var(--a-2) var(--a-3); } }
+@media (min-width: 64rem) { .lz-inhalt__liste { grid-template-columns: repeat(3, 1fr); } }
+
+/* ---------- Nach oben (nur Bildschirm) ---------- */
+.lz-nachoben {
+  position: fixed; z-index: 45;
+  right: max(var(--a-4), env(safe-area-inset-right, 0px));
+  bottom: calc(var(--a-4) + env(safe-area-inset-bottom, 0px));
+  display: inline-flex; align-items: center; gap: var(--a-2);
+  min-height: 2.75rem; padding: 0 var(--a-4);
+  border: 1px solid var(--linie-stark); border-radius: var(--radius-voll);
+  background: var(--flaeche); color: var(--tinte); box-shadow: var(--schatten-2);
+  font-weight: 650; font-size: var(--gr-s); cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.lz-nachoben[hidden] { display: none; }
+.lz-nachoben svg { width: 1.15em; height: 1.15em; flex: none; }
+.lz-nachoben:active { transform: translateY(1px); }
+@media (hover: hover) { .lz-nachoben:hover { border-color: var(--primaer); color: var(--primaer); } }
+/* Unterhalb von 56rem steht die Fußnavigation fest am unteren Rand; der Knopf legt sich darüber, nicht darauf. */
+@media (max-width: 56rem) {
+  .lz-nachoben { bottom: calc(var(--fuss-hoehe) + var(--a-3) + env(safe-area-inset-bottom, 0px)); }
+}
 
 /* Darauf zuerst schauen */
 .lz-zuerst__satz { margin: 0 0 var(--a-3); }
 .lz-zuerst__liste { margin: 0; padding-left: 1.4rem; }
-.lz-zuerst__liste li { margin-bottom: var(--a-2); }
+.lz-zuerst__liste li { margin-bottom: var(--a-2); break-inside: avoid; }
 .lz-zuerst__titel { display: block; font-weight: 650; text-decoration: none; color: var(--tinte); }
-.lz-zuerst__titel:hover { color: var(--primaer); }
+@media (hover: hover) { .lz-zuerst__titel:hover { color: var(--primaer); } }
 .lz-zuerst__neben { display: block; font-size: var(--gr-s); color: var(--tinte-3); }
 
 /* Modul und Thema */
@@ -51,12 +107,27 @@
 .lz-modul__titel {
   font-size: var(--gr-xl); margin-bottom: var(--a-3);
   padding-bottom: var(--a-1); border-bottom: 1px solid var(--linie);
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--a-1) var(--a-3);
 }
+/* Der Knopf trägt den Überschriftstext (übliches Aufklapp-Muster) und ist über die ganze Breite antippbar. */
+.lz-modul__klapp {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--a-1) var(--a-3);
+  width: 100%; min-height: 2.75rem; padding: 0;
+  border: 0; background: none; color: inherit; font: inherit; text-align: left;
+  cursor: pointer; -webkit-tap-highlight-color: transparent;
+}
+.lz-modul__klapp:active { transform: translateY(1px); }
+@media (hover: hover) { .lz-modul__klapp:hover .lz-modul__name { color: var(--primaer); } }
+.lz-modul__name { min-width: 0; }
 .lz-modul__vorlesung {
   font-family: var(--schrift-text); font-size: var(--gr-xs); font-weight: 700;
   letter-spacing: 0.08em; text-transform: uppercase; color: var(--tinte-3);
 }
+.lz-modul__pfeil {
+  width: 1.1em; height: 1.1em; flex: none; margin-left: auto; align-self: center;
+  color: var(--tinte-3); transition: transform 0.2s;
+}
+.lz-modul.ist-zu .lz-modul__pfeil { transform: rotate(-90deg); }
+.lz-modul.ist-zu .lz-modul__inhalt { display: none; }
 
 .lz-thema { margin-bottom: var(--a-5); }
 .lz-thema__kopf {
@@ -113,6 +184,19 @@
 
 .lz-fuss { margin-top: var(--a-6); padding-top: var(--a-3); border-top: 1px solid var(--linie); }
 
+/* ---------- iPad quer: die Fläche nutzen, die Zeile trotzdem kurz halten ----------
+   Ab 64rem (iPad Pro 11 quer = 1194 px) stehen die Themen eines Moduls in zwei Spalten zu je rund 33 rem;
+   die Lesebreite bleibt damit unter der einer einspaltigen Seite. Auf dem iPad hochkant (810 px) und auf
+   dem iPhone bleibt es einspaltig. */
+@media (min-width: 64rem) {
+  .lz-dokument { max-width: none; }
+  .lz-modul__inhalt { display: grid; grid-template-columns: 1fr 1fr; gap: 0 var(--a-6); align-items: start; }
+  /* Die Kompaktgruppe ist eine Klammer für den Druck; am Bildschirm stehen ihre Themen selbst im Raster. */
+  .lz-kompaktgruppe { display: contents; }
+  .lz-zuerst__liste { column-count: 2; column-gap: var(--a-6); }
+  .lz-personen__liste { column-count: 3; }
+}
+
 /* ---------- Druck: A4 hoch ---------- */
 @page {
   size: A4 portrait;
@@ -160,10 +244,10 @@
   /* Rahmenwerk der App und alles, was nur zum Bedienen da ist */
   .kopf, .hauptnav, .fussnav, .sprunglink, .kurzmeldung,
   .schublade, .schublade-hintergrund,
-  .lz-werkzeuge, .lz-nur-bildschirm { display: none !important; }
+  .lz-werkzeuge, .lz-inhalt, .lz-nachoben, .lz-nur-bildschirm { display: none !important; }
 
   .seite, .seite--schmal { max-width: none; margin: 0; padding: 0; }
-  .lz-dokument { max-width: none; }
+  .lz-dokument { max-width: none; margin: 0; }
 
   a { color: inherit; text-decoration: none; }
 
@@ -188,17 +272,22 @@
   .lz-abschnitt h2, .lz-modul__titel { font-size: 12.5pt; margin-bottom: 2mm; break-after: avoid; }
   .lz-modul { margin-bottom: 6mm; }
   .lz-modul__titel { padding-bottom: 1mm; border-bottom: 0.75pt solid var(--tinte-3); }
+  /* Zuklappen ist eine Lesehilfe am Bildschirm: auf dem Papier steht jedes Modul offen und ohne Pfeil. */
+  .lz-modul__inhalt { display: block !important; }
+  .lz-modul__klapp { min-height: 0; }
+  .lz-modul__pfeil { display: none; }
 
   .lz-zuerst__liste li { margin-bottom: 1.2mm; break-inside: avoid; }
+  .lz-zuerst__liste { column-count: 1; }
   .lz-zuerst__neben { font-size: 8.2pt; }
 
   /* Kurze Blöcke stehen zweispaltig, ausführliche über die volle Breite.
-     Raster statt Spalten (column-count): ein Spaltenkasten zieht sich im Druck über die ganze
-     restliche Seite und lässt sie halb leer; gemessen am 20.09.2026 an der vollen Probe. */
-  .lz-kompaktgruppe { display: grid; grid-template-columns: 1fr 1fr; gap: 0 7mm; align-items: start; }
-  /* Steht ein kurzes Thema allein zwischen zwei ausführlichen, bekommt es die volle Breite statt einer
-     leeren zweiten Spalte. Ohne :has bleibt das Raster, was nur etwas Platz kostet. */
-  .lz-kompaktgruppe:has(> .lz-thema:only-child) { display: block; }
+     Mehrspaltiger Satz statt Raster: WebKit teilt einen Rasterbehälter NICHT über eine Seitengrenze
+     (Grid-Fragmentierung ist dort nicht umgesetzt), eine hohe Gruppe würde auf dem iPad abgeschnitten.
+     Der frühere Grund für das Raster („column-count lässt die Seite halb leer“) war an Chrome gemessen,
+     nicht an der Engine, die auf dem Zielgerät druckt; column-fill: balance hält die Gruppe kurz. */
+  .lz-kompaktgruppe { display: block; column-count: 2; column-gap: 7mm; column-fill: balance; }
+  .lz-kompaktgruppe:has(> .lz-thema:only-child) { column-count: 1; }
   .lz-kompaktgruppe .lz-thema { margin-bottom: 3.5mm; }
 
   .lz-thema { break-inside: avoid; margin-bottom: 4.5mm; }

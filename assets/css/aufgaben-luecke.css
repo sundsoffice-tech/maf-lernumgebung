@@ -5,7 +5,9 @@
 .lueckentext {
   margin: 0;
   font-size: var(--gr-l);
-  line-height: 2.7;
+  /* 3.0 mal 18 px sind 54 px Zeilenabstand. Bei 44 px hohen Lücken bleiben zwei untereinander liegende
+     Trefferflächen 10 px auseinander; 2.7 ergab nur 4,6 px (Vertrag 8.4 verlangt 8 px). */
+  line-height: 3;
 }
 .luecke-stelle { white-space: normal; }
 
@@ -28,6 +30,8 @@
 
 .luecke.ist-gewaehlt {
   border-style: solid; border-color: var(--fokus);
+  /* Rückfall für ältere iPads ohne color-mix (vor iPadOS 16.2): sonst fiele der Ring ersatzlos weg */
+  box-shadow: 0 0 0 3px rgba(47, 111, 207, 0.3);
   box-shadow: 0 0 0 3px color-mix(in srgb, var(--fokus) 28%, transparent);
 }
 .luecke.ist-richtig { border-style: solid; border-color: var(--gut); background: var(--gut-sanft); color: var(--gut); }
@@ -69,9 +73,10 @@
   display: grid; grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center; gap: var(--a-2) var(--a-3);
 }
+/* Die Nummer ist das Label des Auswahlfeldes und damit antippbar: 44 px, nicht kleiner (Vertrag 8.4). */
 .beschriftung__nummer {
   flex: none; display: grid; place-items: center;
-  width: 2.25rem; height: 2.25rem; border-radius: 50%;
+  width: 2.75rem; height: 2.75rem; border-radius: 50%;
   background: var(--primaer); color: var(--auf-primaer);
   font-size: var(--gr-s); font-weight: 700; font-variant-numeric: tabular-nums; cursor: pointer;
 }

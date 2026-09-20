@@ -12,7 +12,11 @@
 
   --tinte: #1b2430;
   --tinte-2: #465060;
-  --tinte-3: #6b7484;
+  /* Hilfstexte müssen 4,5:1 erreichen, und zwar auf JEDEM Untergrund, auf dem sie vorkommen. Gemessen
+     an den gerenderten Farben: #6b7484 ergab 4,37:1 auf --papier und 3,93:1 auf --primaer-sanft (die
+     hervorgehobene Zeile im Lernplan). #5f6878 ergibt 5,20:1 auf --papier, 4,85:1 auf --flaeche-2 und
+     4,68:1 auf --primaer-sanft. Gelesen wird auf einem iPad am Küchentisch, nicht im Dunkelraum. */
+  --tinte-3: #5f6878;
 
   --primaer: #1f3a5f;
   --primaer-hover: #172c49;
@@ -74,8 +78,21 @@
 
   --breite-text: 46rem;
   --breite-seite: 72rem;
-  --kopf-hoehe: 3.5rem;
+  /* --kopf-eigen ist die Höhe der Kopfleiste, --kopf-hoehe der Versatz für alles, was unter ihr klebt.
+     Beide sind normalerweise gleich; im flachen Fenster scrollt der Kopf mit und der Versatz wird 0. */
+  --kopf-eigen: 3.5rem;
+  --kopf-hoehe: var(--kopf-eigen);
   --fuss-hoehe: 3.75rem;
+}
+
+/* Handy im Querformat: Kopf und Fußleiste belegten gemessen 116 von 340 px Fensterhöhe (34 Prozent).
+   Hier darf der Kopf wegscrollen (siehe basis.css) und die Fußleiste wird flacher; das gibt rund
+   68 px Lesefläche zurück, ohne die Trefferfläche von 44 px zu unterschreiten. */
+@media (max-height: 26rem) {
+  :root {
+    --kopf-hoehe: 0px;
+    --fuss-hoehe: 3rem;
+  }
 }
 
 /* Dunkel: automatisch nach System, ausser der Nutzer hat Hell erzwungen */

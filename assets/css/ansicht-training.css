@@ -18,11 +18,20 @@
 .weg__text { margin: 0; color: var(--tinte-2); }
 .weg__hinweis { margin: 0; }
 
-/* Rundenlänge wählen */
-.mengenwahl { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a-2) var(--a-3); margin-top: auto; }
+/* Rundenlänge wählen, darunter der Knopf, der die Runde wirklich startet. */
+.mengenwahl { display: flex; flex-direction: column; gap: var(--a-3); margin-top: auto; }
+.mengenwahl__zeile { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a-2) var(--a-3); }
 .mengenwahl__label { flex: none; }
 .mengenwahl__knoepfe { display: flex; flex-wrap: wrap; gap: var(--a-2); }
-.mengenwahl__knoepfe .knopf { min-width: 3.75rem; font-variant-numeric: tabular-nums; }
+.mengenwahl__knopf { min-width: 3.75rem; font-variant-numeric: tabular-nums; }
+/* Die Wahl steht zusätzlich als Zahl im Startknopf, sie hängt also nicht allein an der Farbe. */
+.mengenwahl__knopf[aria-pressed="true"] {
+  border-color: var(--primaer); box-shadow: inset 0 0 0 1px var(--primaer);
+  background: var(--primaer-sanft); color: var(--primaer); font-weight: 700;
+}
+/* Am Telefon liegt der Startknopf über die volle Breite in Daumennähe, ab Tablet nur so breit wie sein Text. */
+.mengenwahl__start { align-self: stretch; }
+@media (min-width: 30rem) { .mengenwahl__start { align-self: flex-start; } }
 
 /* Kopf einer laufenden Sitzung: bleibt beim Scrollen stehen, damit Fortschritt und Abbrechen erreichbar sind.
    Die negativen Ränder ziehen ihn über die Seitenpolsterung hinaus bis an den Rand der Spalte. */
@@ -61,7 +70,9 @@
 .abschlussknoepfe { gap: var(--a-3); }
 
 /* Generalprobe */
-.probe__regeln { margin: 0; padding-left: 1.2rem; }
+/* Luft unter der Überschrift: die Karte ist ein div, nicht section, deshalb greift der Abstand aus
+   .trainingsseite section nicht, und die Kurzform "margin: 0" hat auch den aus .stapel überschrieben. */
+.probe__regeln { margin: var(--a-4) 0 0; padding-left: 1.2rem; }
 .probe__regeln li { margin-bottom: var(--a-2); }
 .probe__regeln li:last-child { margin-bottom: 0; }
 .probe__ergebnis { display: flex; flex-wrap: wrap; align-items: center; gap: var(--a-4) var(--a-5); }

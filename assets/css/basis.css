@@ -96,7 +96,7 @@ button, input, select, textarea { font: inherit; color: inherit; }
 /* Seitengerüst */
 .kopf {
   position: sticky; top: 0; z-index: 40;
-  height: var(--kopf-hoehe);
+  height: var(--kopf-eigen);
   /* Rückfall für ältere iPads ohne color-mix (vor iPadOS 16.2) */
   background: var(--papier);
   background: color-mix(in srgb, var(--papier) 92%, transparent);
@@ -105,28 +105,40 @@ button, input, select, textarea { font: inherit; color: inherit; }
   border-bottom: 1px solid var(--linie);
 }
 .kopf__innen {
-  max-width: var(--breite-seite); height: 100%; margin: 0 auto;
+  max-width: var(--breite-seite); height: 100%; margin: 0 auto; min-width: 0;
   /* Im Querformat schiebt die Notch des iPhones den Inhalt ein (viewport-fit=cover) */
   padding: 0 max(var(--a-4), env(safe-area-inset-right, 0px)) 0 max(var(--a-4), env(safe-area-inset-left, 0px));
   display: flex; align-items: center; gap: var(--a-4);
 }
 .marke {
-  display: flex; align-items: baseline; gap: var(--a-2);
+  display: flex; align-items: baseline; gap: var(--a-2); min-width: 0;
   text-decoration: none; color: var(--tinte);
   font-family: var(--schrift-titel); font-weight: 700; font-size: 1.15rem;
   white-space: nowrap;
 }
 .marke__kuerzel {
+  flex: none;
   font-family: var(--schrift-text); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em;
   color: var(--auf-primaer); background: var(--primaer);
   padding: 0.18rem 0.45rem; border-radius: 4px; transform: translateY(-1px);
 }
-.marke__zusatz { font-family: var(--schrift-text); font-weight: 500; font-size: var(--gr-s); color: var(--tinte-3); }
-@media (max-width: 30rem) { .marke__zusatz { display: none; } }
+/* Der Name ist das einzige Teil im Kopf, das schrumpfen darf. Bleibt bei sehr großer Systemschrift
+   kein Platz, wird er gekürzt, statt die Seite waagerecht wackeln zu lassen. */
+.marke__wort { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+/* Der Zusatz erscheint nur dort, wo er neben Zeitmarke und Hauptnavigation wirklich Platz hat.
+   Gemessen ohne diese Grenzen: Überlauf bei 320–375 px, 481–605 px und 897–1136 px (iPad quer, 1080). */
+.marke__zusatz {
+  display: none;
+  font-family: var(--schrift-text); font-weight: 500; font-size: var(--gr-s); color: var(--tinte-3);
+}
+@media (min-width: 40rem) and (max-width: 62rem) { .marke__zusatz { display: inline; } }
+@media (min-width: 78rem) { .marke__zusatz { display: inline; } }
 
-.hauptnav { margin-left: auto; display: flex; gap: var(--a-1); }
+.hauptnav { margin-left: auto; display: flex; gap: var(--a-2); }
 .hauptnav a {
-  display: inline-flex; align-items: center; min-height: 2.5rem;
+  /* 44 px hoch und 8 px Abstand: ab 62rem ist das die einzige Navigation, und das ist die
+     Standardlage auf dem iPad im Querformat (Vertrag 8.4) */
+  display: inline-flex; align-items: center; min-height: 2.75rem;
   padding: 0 var(--a-3); border-radius: var(--radius-s);
   color: var(--tinte-2); text-decoration: none; font-size: var(--gr-s); font-weight: 600;
 }
@@ -134,14 +146,24 @@ button, input, select, textarea { font: inherit; color: inherit; }
 .hauptnav a[aria-current="page"] { background: var(--primaer-sanft); color: var(--primaer); }
 
 .kopf__zeit {
+  flex: none;
   font-variant-numeric: tabular-nums; font-size: var(--gr-s); color: var(--tinte-2);
   padding: 0.2rem 0.6rem; border: 1px solid var(--linie); border-radius: var(--radius-voll);
   background: var(--flaeche); white-space: nowrap;
 }
+/* Auf dem schmalen iPhone passt "3 Std 30 Min von 10 Std" nicht neben die Marke. Beide Formen stehen
+   im Text; die Vorleser-Fassung nennt immer den ganzen Satz (auf Touch gibt es kein title-Tooltip). */
+.kopf__zeit-lang { display: none; }
+.kopf__zeit-kurz { display: inline; }
+/* 25rem = 400 px: gemessen braucht die lange Form neben der Marke 397 px einschließlich Rand */
+@media (min-width: 25rem) {
+  .kopf__zeit-lang { display: inline; }
+  .kopf__zeit-kurz { display: none; }
+}
 
 .fussnav { display: none; }
 
-@media (max-width: 56rem) {
+@media (max-width: 62rem) {
   .hauptnav { display: none; }
   .kopf__zeit { margin-left: auto; }
   .fussnav {
@@ -158,6 +180,13 @@ button, input, select, textarea { font: inherit; color: inherit; }
   .fussnav a svg { width: 22px; height: 22px; }
   .fussnav a[aria-current="page"] { color: var(--primaer); }
   body { padding-bottom: calc(var(--fuss-hoehe) + env(safe-area-inset-bottom, 0px)); }
+}
+
+/* Handy im Querformat (gemessen iPhone 14 quer, 750x340): der klebende Kopf nahm dauerhaft 56 px.
+   Hier scrollt er mit; --kopf-hoehe ist dafür in tokens.css auf 0 gesetzt, damit alles, was sonst
+   unter ihm klebt (Sitzungskopf im Training, Sprungziele im Glossar), nicht in der Luft hängt. */
+@media (max-height: 26rem) {
+  .kopf { position: static; }
 }
 
 .seite {
